@@ -1,0 +1,58 @@
+<div id="vssmp-seller-transation-view-popup" class="modal fade in" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" style="display: none;">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" onclick="closeVssModal('vssmp-seller-transation-view-popup');" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+                <h4 class="modal-title"><?php echo __('Transaction Details'); ?> <span id='vssmp-transaction-id' class="text-yellow"></span></h4>
+            </div>
+            <div class="modal-body">
+                <div class="overlay-wrapper" style="display: none;">
+                    <div class="overlay"><i class="fa fa-refresh fa-spin"></i></div>
+                </div>
+                <div class="modal_data_container">
+                    <h5 id="vssmp-transfer-info" class="text-light-blue"></h5>
+                        <div class="box-body">
+                            <div class="form-group">
+                                <ul class="list-group list-group-unbordered">
+                                    <li class="list-group-item">
+                                        <dl>
+                                            <dt><?php echo __('Comment'); ?>:</dt>
+                                            <dd id="vssmp-transaction-comment"></dd>
+                                        </dl>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+function getTransactionDetail(url){
+    var modal = 'vssmp-seller-transation-view-popup';
+    require(['jquery','jquery/ui'], function(jQuery){
+    jQuery.ajax({
+        url: url + (url.match(new RegExp('\\?')) ? '&isAjax=true' : '?isAjax=true'),
+        type: 'POST',
+        dataType: 'json',
+        showLoader: true,
+        beforeSend: function() {},
+        success: function(json) {
+            if(!json['found']){
+                closeVssModal('vssmp-seller-transation-view-popup');
+                alert('Technical Error Occurred');
+            }else{
+                jQuery('#vssmp-transaction-id').html('(#'+json['transaction_id']+')');
+                jQuery('#vssmp-transfer-info').html(json['transfer_info']);
+                jQuery('#vssmp-transaction-comment').html(json['comment']);
+                jQuery('#vssmp-seller-transation-view-popup').show();
+                jQuery('#'+modal+' .overlay-wrapper').hide();
+            }
+        }
+    });
+    
+        
+    });
+}
+</script>

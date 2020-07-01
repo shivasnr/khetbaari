@@ -1,0 +1,85 @@
+<link rel="stylesheet" type="text/css" href="<?php echo $block->getViewFileUrl('Knowband_Marketplace::theme/bootstrap/css/bootstrap.min.css')?>">
+<link rel="stylesheet" type="text/css" href="<?php echo $block->getViewFileUrl('Knowband_Marketplace::theme/theme.css')?>">
+<link rel="stylesheet" type="text/css" href="<?php echo $block->getViewFileUrl('Knowband_Marketplace::theme/custom.css')?>">
+<link rel="stylesheet" type="text/css" href="<?php echo $block->getViewFileUrl('Knowband_Marketplace::theme/skin-black-light.css')?>">
+<link rel="stylesheet" type="text/css" href="<?php echo $block->getViewFileUrl('Knowband_Marketplace::theme/plugins/DataTables/datatables.css')?>">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+<script type="text/javascript">
+require([
+    'jquery',
+    'jquery/ui',
+    "mage/calendar",
+    "Knowband_Marketplace/theme/bootstrap/js/bootstrap.min",
+    "Knowband_Marketplace/theme/custom",
+    "Knowband_Marketplace/theme/vssmp_list",
+    "Knowband_Marketplace/theme/product",
+    "Knowband_Marketplace/theme/vssmp_bundle",
+    "Knowband_Marketplace/theme/vssmp_downloadable",
+    "Knowband_Marketplace/theme/vssmp_bulkimport",
+    "Knowband_Marketplace/theme/app",
+    "Knowband_Marketplace/theme/velovalidation"
+    ], function(jQuery){
+        jQuery(document).ready(function(){            
+            if (jQuery('.has_datepicker').length) {
+                jQuery('.has_datepicker').datepicker({
+                    autoclose: true
+                });    
+            }
+            
+            //error messages for velovalidation.js
+            velovalidation.setErrorLanguage({
+                invalid_url: "<?php echo __("Invalid URL format."); ?>",
+                max_url: "<?php echo __("URL cannot be greater than #d characters."); ?>",
+            });
+        });
+});
+
+function popWin(url,win,para) {
+    var win = window.open(url,win,para);
+    win.focus();
+}
+
+var vssmp_field_id = '';
+var required_text = '<?php echo __('Required Field'); ?>';
+var imp_exp_chars_length_error = '<?php echo __('Only 200 characters allowed'); ?>';
+var import_file_type_error = '<?php echo __('Only (xls, xlsx) formats are allowed'); ?>';
+</script>
+<div id="vss_marketplace_page" class="vss_marketplace_page hold-transition skin-black-light sidebar-mini" style="border:1px solid #eee;">
+    <div class="wrapper">
+        
+        <?php echo $this->getSellerMenuHtml(); ?>
+        
+        <div class="content-wrapper">
+            <header class="main-header">
+                <nav class="navbar navbar-static-top">
+                    <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
+                        <span class="sr-only"><?php echo __('Toggle navigation'); ?></span>
+                    </a>
+                    <div class="navbar-custom-menu">
+                        <ul class="nav navbar-nav">
+                            <li>
+                                <a href="<?php echo $this->getUrl('customer/account');?>">
+                                    <i class="fa fa-user"></i> <span><?php echo __('My Account'); ?></span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="<?php echo $this->getUrl('customer/account/logout');?>">
+                                    <span><?php echo __('Logout'); ?></span> <i class="fa fa-sign-out"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </header>
+            
+            <?php $acc_warning = $this->printAccountWarning();if (isset($acc_warning['flag']) && $acc_warning['flag']) { ?>
+                <div class="alert alert-warning">
+                    <h4><i class="icon fa fa-warning"></i> <?php echo __('Account Warning!')?></h4>
+                    <?php echo $acc_warning['msg']; ?>
+                </div>
+            <?php } ?>
+            <?php echo $this->getChildHtml(); ?>
+        </div>
+    </div>
+</div>

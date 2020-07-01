@@ -1,0 +1,29 @@
+<section class="content-header">
+    <h1><?php echo __("My Earnings"); ?></h1>
+</section>
+
+<style>
+    table#vssmp_big_table1 {
+        width: 100% !important;
+    } 
+</style>
+<section class="content">
+    
+    <?php echo $this->getChildHtml('marketplace_seller_earning_summary'); ?>
+
+    <div class="nav-tabs-custom">
+        <ul class="nav nav-tabs">
+            <li class="active"><a href="#earning-history" data-toggle="tab"><?php echo __("Earnings History"); ?></a></li>
+            <li><a href="#earning-orderwise" data-toggle="tab"><?php echo __("Order Wise Earnings"); ?></a></li>
+        </ul>
+        <div class="tab-content">
+            <div class="tab-pane active" id="earning-history">
+                <?php echo $this->getChildHtml('marketplace_seller_earning_history'); ?>
+            </div>
+            <div class="chart tab-pane" id="earning-orderwise">
+                <?php echo $this->getChildHtml('marketplace_seller_earning_orderwise'); ?>
+            </div>
+        </div>
+    </div>
+
+</section>

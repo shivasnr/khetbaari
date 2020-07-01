@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="1column" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <head>
+    	<title>Marketplace</title>
+        <css src="Knowband_Marketplace::theme/base_layout.css"/>
+        <css src="Knowband_Marketplace::theme/seller_view.css"/>
+    </head>
+    <body>
+<!--        <referenceContainer name="left" remove="true"/>
+        <referenceContainer name="header.container" remove="true"/>
+        <referenceContainer name="footer" remove="true"/>-->
+        <referenceBlock name="page.main.title" remove="true" />
+        <!--<referenceContainer name="catalog.topnav" remove="true"/>-->
+        
+        <referenceBlock name="breadcrumbs">
+            <action method="addCrumb">
+                <argument name="crumbName" xsi:type="string">Home</argument>
+                <argument name="crumbInfo" xsi:type="array">
+                    <item name="title" xsi:type="string">Home</item>
+                    <item name="label" xsi:type="string">Home</item>
+                    <item name="link" xsi:type="string">{{baseUrl}}</item>
+                </argument>
+            </action>
+            <action method="addCrumb">
+                <argument name="crumbName" xsi:type="string">Seller List</argument>
+                <argument name="crumbInfo" xsi:type="array">
+                    <item name="title" xsi:type="string">Seller List</item>
+                    <item name="label" xsi:type="string">Seller List</item>
+                </argument>
+            </action>
+        </referenceBlock>
+        <referenceContainer name="content">
+            <block class="Knowband\Marketplace\Block\Seller\SellerList" name="marketplace_seller_list" template="seller_listing.phtml" cacheable="false"></block>
+    	</referenceContainer>
+    </body>
+</page>

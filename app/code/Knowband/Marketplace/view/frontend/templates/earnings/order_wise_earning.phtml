@@ -1,0 +1,83 @@
+<?php 
+    $dt_columns = $this->getColumns();
+    $dt_filters = $this->getFilters();
+?>
+<div id="<?php echo $this->getFieldId(); ?>_container">
+    <?php if(!empty($dt_filters)){ ?>
+        <div class="box no-border">
+            <div class="box-header with-border" data-widget="collapse">
+                <h3 class="box-title"><?php echo __('Filter Your Search'); ?></h3>
+                <div class="box-tools pull-right">
+                  <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-plus"></i></button>
+                </div>
+            </div>
+            <div id="<?php echo $this->getFieldId(); ?>_list" class="box-body vssmp-list-filter1">
+                <?php foreach($dt_filters as $filter){ ?>
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                        <div class="form-group">
+                            <label><?php echo $filter['label']; ?></label>
+                            <?php if($filter['type'] == 'select'){ ?>
+                                <select id="<?php echo $filter['name']; ?>" name="<?php echo $filter['name']; ?>" class="<?php echo $filter['className']; ?>">
+                                    <option value=""><?php echo __('Select'); ?></option>
+                                    <?php 
+                                        foreach($filter['values'] as $key => $val){
+                                            echo '<option value="'.$key.'" >'.$val.'</option>';
+                                        } 
+                                    ?>
+                                </select>
+                            <?php }else{ ?>
+                            <input id="<?php echo $filter['name']; ?>" name="<?php echo $filter['name']; ?>" type="text" class="<?php echo $filter['className']; ?>" value="<?php echo $filter['values']; ?>" autocomplete="off"/>
+                            <?php } ?>
+                        </div>
+                    </div>
+                <?php } ?>
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <div class="form-group">
+                        <label>&nbsp;</label>
+                        <div class="">
+                            <button type="button" class="btn btn-primary" onclick="vssmpFilterBigList1()"><?php echo __('Search'); ?></button>
+                            <button type="button" class="btn btn-danger" onclick="vssmpResetBigList1()"><?php echo __('Reset'); ?></button>        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <?php } ?>
+    <div class="box box-success">
+        <div class="box-body">
+            <div class="table-responsive">
+                <table id="vssmp_big_table1" class="table table-bordered table-striped datatable">
+                    <thead>
+                        <tr>
+                            <?php foreach($dt_columns as $col){ ?>
+                            <th <?php echo ($col['width'] != '')? 'width="'.$col['width'].'"' : ''; ?> ><?php echo $col['label']; ?></th>
+                            <?php } ?>
+                        </tr>
+                    </thead>
+                    <tbody id="<?php echo $this->getFieldId(); ?>_list_body">
+                        <tr>
+                            <td class="text-center" colspan="<?php echo count($dt_columns); ?>">
+                                <span class="label label-warning"><?php echo __('No Data'); ?></span>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <script type="text/javascript">
+                var vssmp_dt_page_length = <?php echo \Knowband\Marketplace\Helper\Data::PAGELIMIT; ?>;
+                var vssmp_field_id1 = '<?php echo $this->getFieldId(); ?>';
+                var vssmp_list_ajax_url1 = '<?php echo $this->getListUrl(); ?>';
+                var dt_columns1 = [];
+                <?php foreach($dt_columns as $colls){ ?>
+                    dt_columns1.push({'name': '<?php echo $colls["name"]; ?>', 'targets': <?php echo $colls["targets"]; ?>, 'className': '<?php echo $colls["className"]; ?>'});
+                <?php } ?>
+                var filter_params1 = [];
+                <?php foreach($dt_filters as $filter){ ?>
+                    filter_params1.push({'name': '<?php echo $filter["name"]; ?>'});
+                <?php } ?>
+            </script>
+            
+            <?php echo $this->getChildHtml('', true, true); ?>
+        </div>
+    </div>
+</div>

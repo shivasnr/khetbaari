@@ -1,0 +1,117 @@
+<?php 
+        $objectManager = \Magento\Framework\App\ObjectManager::getInstance();
+        
+        $helperSettings = $objectManager->get("Hariyo\Marketplace\Helper\Setting");
+        $sellersCollection = $this->getCollection();
+        $globalSettings = $helperSettings->getSettings();
+        $loginPageUrl = $this->getUrl('customer/account');
+        
+        unset($globalSettings);
+        $username = $objectManager->get('Magento\Contact\Helper\Data')->getUserName();
+        $storeId = $block->getStoreId();
+?>
+
+<div class="sellers-page-title">
+    <h1><?php echo __("Sellers List"); ?></h1>
+    <?php if ($this->getSearchBoxSetting()) { ?>
+    <div class="vssmp-search-box">
+        <div>
+            <form action="<?php echo $this->getFrontUrl('sellers', 'sellerList'); ?>" method="post" id="vssmp_seller_search_form">
+            <input name="seller_search_keyword" type="text"  class="input-text required-entry" placeholder="<?php echo __("Search Seller"); ?>" value="<?php echo ($this->getRequest()->getParam('seller_search_keyword'))? $this->getRequest()->getParam('seller_search_keyword'): ''; ?>"/>
+            <span style="cursor:pointer;" onclick="searchSeller(this)"></span>
+            </form>
+        </div>
+    </div>
+    <script type="text/javascript">
+        require(['jquery', "Knowband_Marketplace/theme/vssmp_base"], function(jQuery){
+           jQuery("#seller_search_keyword").focus(function(){
+               jQury(this).removeClass('validation-failed');
+           });
+        });
+        function searchSeller(e)
+        {
+            require(['jquery'], function(jQuery){
+            if(jQuery(e).parent().find('input').val() != ''){
+                jQuery('#vssmp_seller_search_form').submit();
+            }else{
+                jQuery(e).parent().find('input').addClass('validation-failed');
+            }
+            });
+        }
+        
+    </script>
+    <?php } ?>
+</div>
+
+<div id="listing-sellers">
+    <div class="toolbar">
+            <?php echo $this->getPagerHtml(); ?>
+    </div>
+    
+    <ul class="seller-grid">
+        <?php
+        if($sellersCollection->getSize() > 0)
+        {
+            foreach ($sellersCollection as $seller) {
+                $sellerId = $seller->getSellerId();
+                $collection = $objectManager->get("Hariyo\Marketplace\Helper\Data")->getSellerLevelSettingsBySellerId($sellerId);
+                $globalSettings = $helperSettings->getSettings();
+
+                $settings = [];
+                foreach ($collection as $row) {
+                    if ($row->getFieldValue() != ''){
+                        $settings[$row->getFieldName()]['seller'] = $row->getFieldValue();
+                    }
+                    else {
+                        if ($row->getFieldName() == 'commission'){
+                            $settings[$row->getFieldName()]['seller'] = $globalSettings[$row->getFieldName()];
+                        }
+                    }
+
+                    $settings[$row->getFieldName()]['global'] = $row->getUseDefault();
+                }
+
+                if(count($settings) < 1){
+                    $settings = $helperSettings->getDefaultSellerSettings();
+                }
+                
+               $logoPath = $seller->getShopLogo(); 
+
+                $onclickContent = '';
+                if($objectManager->get('Magento\Customer\Model\Session')->isLoggedIn()){
+                    $onclickContent = "openSellerReviewModal(".$seller->getSellerId().",'vssmp-write-review-popup')";
+                }
+                else{
+                    $onclickContent = "location.href = '".$loginPageUrl."'";
+                }
+                ?>
+                <?php 
+                    $page_url_key = $seller->getPageUrlKey();
+                    if(!empty($page_url_key)){
+                        $seller_view_link = $this->getUrl('marketplace/sellers/view', ['id' => $seller->getSellerId()]);
+                    }else{
+                        $seller_view_link = $this->getUrl('marketplace/sellers/view', ['id' => $seller->getSellerId()]);
+                    }
+                ?>
+        <li class="">
+            <a href="<?php echo $seller_view_link; ?>" title="<?php echo $seller->getShopTitle(); ?>" class="vssmp-seller-image">
+                <?php if(isset($logoPath)) { ?>
+                        <img src="<?php echo $seller->getShopLogo(); ?>" alt="<?php echo $seller->getShopTitle(); ?>">
+                <?php } else { ?>
+                        <img src="<?php echo $this->getViewFileUrl("Knowband_Marketplace::images/seller_default/logo.jpg"); ?>" alt="<?php echo $seller->getShopTitle(); ?>">
+                <?php } ?>
+            </a>
+            <div class="vssmp-seller-list-info">
+                <div class="vss_mp_row">
+                    <?php $seller_shop_title = $seller->getShopTitle(); ?>
+                    <div class="vss_mp_inner_block"><a href="<?php echo $seller_view_link; ?>"><h2 class=""><?php echo (!empty($seller_shop_title))?$seller_shop_title: \Hariyo\Marketplace\Helper\Seller::SELLER_DEFAULT_TITLE; ?></h2></a></div>
+                </div>
+            </div>
+        </li>
+            <?php } ?>
+            <?php } else { ?>
+    <p><?php echo __('Sorry! No Seller(s) Found.'); ?></p>
+            <?php } ?>
+    </ul>    
+</div>
+

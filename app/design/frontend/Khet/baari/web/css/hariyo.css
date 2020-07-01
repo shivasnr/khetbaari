@@ -1,0 +1,535 @@
+:root{
+  --hariyo-opposite-color: #660e00;
+  --hariyo-brand-color: #006633;
+  --plp-background-image-color: #f5f5f5;
+  --color-white: #fff;
+  --color-orange: #ff5501;
+}
+  .header.content {
+     padding: 10px 0 0 !important;
+  }
+
+  .nav-sections{
+    margin-bottom: 0 !important;
+    text-transform: uppercase;
+  }
+  .nav-sections .submenu{
+    border:none !important;
+    text-transform: capitalize;
+  }
+  
+  @media (min-width: 768px), print{
+    .navigation {
+      width: 60% !important;
+      float:left !important;
+
+    }
+  }
+
+  .authorization-link{
+    list-style: none;
+    float:right;
+    margin-left:25px;
+  }
+
+  @media(max-width: 640px), print{
+    .authorization-link{
+      margin-top:12px;
+    }
+  }
+
+  .navigation .level0 > .level-top{
+    color:#fff !important;
+  }
+
+  .page-header .panel.wrapper{
+    background-color: #006633;
+  }
+  .page-header .header.panel{
+    margin-bottom: 10px;
+  }
+
+  @media (min-width: 768px), print{
+    .navigation .level0 > .level-top{
+        float: right;
+    }
+  }
+  @media (min-width: 768px), print{
+    .logo{
+      position:absolute;
+      left:50%;
+    }
+  }
+
+  @media (max-width: 480px), print{
+    .logo{
+      position: absolute;
+      left:10%;
+      top:0;
+    }
+  }
+  
+  .minicart-wrapper .action.showcart:before{
+    color:#fff !important;
+  }
+
+  @media (min-width: 768px), print{
+    .navigation .ui-menu-icon {
+      display:none !important;
+    }
+  }
+
+  
+  @media (min-width: 768px), print{
+    .navigation .level0 .submenu a {
+      margin:39px 15px 0 0 !important;
+      line-height: 0.1 !important;
+    }
+  }
+  .submenu:after
+  {
+      content: '';
+      display: block;
+      position: absolute;
+      left: 20px;
+      bottom: 100%;
+      width: 0;
+      height: 0;
+      border-bottom: 10px solid #fff;
+      border-top: 10px solid transparent;
+      border-left: 10px solid transparent;
+      border-right: 10px solid transparent;
+  }
+
+  .ui-state-focus{
+    background:none !important;
+  }
+
+  @media (min-width: 768px), print{
+    .navigation ul.level0 {
+        min-height: 400px !important;
+        margin-top:0px !important;
+        padding: 39px 20px 0 20px !important;
+    }
+    .navigation ul.level1 {
+      min-height: 400px !important;
+      margin-top:0px !important;
+      padding: 39px 0 0 0px !important;
+    }
+  }
+  @media (min-width: 768px), print{
+    /* .navigation .level2 .submenu > li{
+        top:0px !important;
+        padding: 0 !important;
+    } */
+  }
+  @media (min-width: 768px), print{
+    .navigation  .submenu > li{
+        margin-top:-1px !important;
+        padding: 0 !important;
+    }
+  } 
+  
+  
+  @media (min-width: 768px), print
+  {
+    .navigation ul.submenu {
+      overflow: auto;
+      max-height: 300px;
+    }
+  }
+
+  /* HEADER LINKS */
+  @media (min-width: 768px), print{
+    .navigation {
+      background:none !important;
+    }
+    .nav-sections-item-content > ul.links{
+      display:none !important;
+    }
+  }
+
+  @media (min-width: 768px), print{
+    ul.header.links > li a {
+      line-height: 2.4 !important;
+      color: #fff;
+      text-transform: uppercase;
+  }
+  }
+
+
+
+  .footer >li > a{
+    color:#fff;
+  }
+  .footer .copyright
+  {
+    color:#fff;
+    text-align: center;
+
+  }
+  
+
+
+@media (min-width: 640px){
+  .products-grid .product-item-info:hover, .products-grid .product-item-info.active {
+    background: #ffffff;
+    box-shadow: 3px 4px 4px 0 rgba(0, 0, 0, 0.3);
+    border: 1px solid #bbbbbb;
+    margin: -10px;
+    padding: 9px;
+    position: relative;
+    z-index: 2;
+}
+}
+.footer.content{
+  border:none;
+}
+
+.panel.wrapper.shrink{
+    border-bottom: 1px solid #006633;
+    margin: 0 auto;
+    max-width: 100%;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 99;
+    height: 60px;
+    background-color:var(--hariyo-brand-color) !important;
+    min-height: 40px;
+    -webkit-transition: all 0.004s ease !important;
+    transition: all 0.004s ease !important;
+}
+
+a:hover{
+  color:darken(var(--hariyo-opposite-color), 20%) important;
+  text-decoration: none !important;
+}
+
+.block-promo .button.more{
+  background:none !important;
+  color:var(--hariyo-brand-color) !important;
+  border: 1px solid var(--hariyo-brand-color) !important;
+}
+.block-promo .button.more:hover{
+  background:var(--hariyo-brand-color) !important;
+  color:#fff !important;
+  border:1px solid var(--hariyo-brand-color) !important;
+}
+
+.block-promo .content{
+  color:var(--hariyo-brand-color) !important;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.hariyo-left-grid{
+  float:left;
+  width:50%;
+}
+.hariyo-right-grid{
+  float:right;
+  width: 50%;
+}
+  
+@media (min-width: 768px), print{
+  .hariyo-left-grid {
+    max-height: 620px !important;
+  }
+  .hariyo-baari .info{
+  display: block;
+  font-weight: 300;
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+ }
+
+ .hariyo-baari .title {
+  display: block;
+  font-weight: 300;
+  font-size: 3.2rem;
+  line-height: 1.2;
+  margin-bottom: 15px;
+}
+
+.hariyo-baari span.content{
+  padding: 100px 35px 100px;
+}
+
+}
+@media (max-width: 768px), print{
+  .hariyo-baari span.content{
+    padding: 18px 10px 18px;
+  }
+}
+
+.hariyo-baari span.content{
+  text-transform: uppercase;
+  text-align: center;
+  background-color: var(--hariyo-opposite-color);
+  display: block;
+  box-sizing: border-box;
+  z-index: 1;
+  overflow: hidden;
+  color:#fff;
+}
+
+.hariyo-baari .content .more{
+  display:inline-block;
+  color:#fff;
+  border: 1px solid #fff;
+  padding:10px;
+}
+.hariyo-baari .content .more:hover{
+  background:var(--hariyo-brand-color) !important;
+  color:#fff !important;
+  border:1px solid var(--hariyo-brand-color) !important;
+}
+
+.block-promo img{
+  max-width: none !important;
+}
+
+.blocks-promo
+{
+  height:360px;
+}
+.fa-2x{
+  color:#fff;
+}
+.block-static-block a{
+  color:#fff;
+}
+
+@media (min-width: 768px), print{
+  .footer.content .links{
+    width: 34%;
+  }
+  .hariyo-baari-footer{
+    float:left;
+    color:#fff;
+    padding:10px;
+  }
+  .footer.content .block {
+    float:left !important;
+  }
+  .footer.content .newsletter{
+    float:right !important;
+    width:100%;
+  }
+  .page-footer .widget.block{
+    margin:0 !important;
+  }
+  .block.newsletter{
+    margin-top:55px;
+  }
+  /* .block.newsletter .actions {
+    position: absolute;
+    margin-top:25px;
+    right:115px;
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+  } */
+  
+
+}
+.block.newsletter input {
+  padding-left: 17px;
+  height: 48px;
+  background: rgba(255,255,255,0.9);
+  border: none;
+  font-size: 12px;
+  font-weight: 700;
+  color: #fff;
+  padding-right: 53px;
+}
+.block.newsletter .field .control:before{
+  content:'';
+}
+
+.hariyo-baari-footer h3{
+  text-transform: uppercase;
+  color:#fff;
+}
+
+@media (min-width: 1025px), print{
+.navigation ul.level0 > li > a {
+    display: block;
+    font-weight: 400;
+    font-size: 25px;
+    color: #9b9b9b;
+    text-transform: none;
+    text-decoration: none !important;
+    letter-spacing: 0;
+}
+
+}
+
+@media (min-width: 768px), print
+{
+
+.block-search .label {
+    text-decoration: none;
+    display: inline-block;
+    left: 18%;
+    z-index: 10;
+    top: 3.5%;
+    width: 3%;
+  }
+
+.block-search input{
+  display: none !important;
+  z-index: 1 !important;
+
+}
+
+.block-search .control{
+  clear: both;
+  margin: 0 -15px -1px;
+  padding: 0 15px;
+  position: absolute;
+  top: 73px;
+  z-index: 10;
+  width:60%;
+  height: 20px;
+  left: 20%;
+}
+
+@media (max-width:480px), print{
+  .block-search .control{
+    position: absolute !important;
+    top:7%;
+    width:80%;
+  }
+}
+@media (max-width: 480px), print{
+  .block-search .label:before{
+    color:#fff !important;
+    margin-top:10px !important;
+  }
+}
+.block-search .label:before{
+  color:#fff !important;
+}
+@media (max-width: 480px), print{
+.nav-toggle:before{
+  color:#fff !important;
+}
+}
+.block-search .label:hover:before{
+  color:#fff !important;
+}
+
+.block-search .block-content input:after {
+      content: '';
+      display: block;
+      position: absolute;
+      left: 20px;
+      bottom: 100%;
+      width: 0;
+      height: 0;
+      border-bottom: 10px solid #fff;
+      border-top: 10px solid transparent;
+      border-left: 10px solid transparent;
+      border-right: 10px solid transparent;
+}
+
+}
+
+
+.block.newsletter .action.subscribe {
+  text-transform: uppercase;
+  line-height: 2.4;
+  background-color: var(--hariyo-opposite-color);
+  color:#fff;
+}
+
+
+.product-item-info {
+  border: 1px solid #f5f5f5;
+}
+.product-item-info .product-item-details{
+    text-align: center;
+    text-transform: uppercase;
+}
+.action.primary{
+  text-transform: uppercase;
+}
+
+/*Checkout page */
+.opc-progress-bar-item._active > span:before{
+  background: var(--hariyo-brand-color);
+}
+
+.opc-progress-bar-item._active:before{
+  background:var(--hariyo-brand-color);
+}
+
+.opc-wrapper .shipping-address-item.selected-item{
+  border-color: var(--hariyo-brand-color);
+}
+
+.opc-wrapper .shipping-address-item.selected-item:after{
+  background: var(--hariyo-brand-color);
+}
+
+.abs-shopping-cart-items .action.continue:before, .block-cart-failed .action.continue:before, .cart-container .form-cart .action.continue:before{
+  content: '';
+  padding-left:10px;
+}
+
+.abs-shopping-cart-items .action.update:before, .block-cart-failed .action.update:before, .cart-container .form-cart .action.update:before{
+  content:'';
+  padding-left:10px;
+}
+button, .cart.table-wrapper .actions-toolbar > .action, .action-gift{
+  background:var(--color-white);
+}
+
+.opc-block-summary{
+  background: var(--hariyo-brand-color);
+  color:var(--color-white);
+}
+
+.cart-summary{
+  background: var(--hariyo-brand-color);
+  color:var(--color-white);
+}
+.opc-block-summary > .title{
+  color:var(--color-white);
+}
+/** Account */
+
+.account-nav .content{
+  background:var(--hariyo-brand-color);
+}
+
+
+.account-nav .content a{
+  color:var(--color-white);
+}
+
+.account-nav .content a:hover{
+  background:none;
+}
+.account-nav .content .current{
+  color: var(--color-orange);
+}
+
+/** fa icons */
+.fa{
+  font-size:30px !important;
+  padding-right:25px;
+}
+
+.widget > .block-title{
+  background: var(--hariyo-brand-color);
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  padding:5px;
+}
+
+
+

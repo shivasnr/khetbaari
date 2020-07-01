@@ -1,0 +1,58 @@
+<?php 
+$objectManager = \Magento\Framework\App\ObjectManager::getInstance();
+$productsCollection = $this->getCollection();
+$helper = $objectManager->get("Hariyo\Marketplace\Helper\Data");
+$storeId = $block->getStoreId();        
+?>
+<div id="listing-seller-products">
+        <?php 
+        if($productsCollection->getSize() > 0)
+        { ?>
+        <ul class="products-grid products-grid--max-4-col first last odd seller-grid">            
+            <?php foreach ($productsCollection as $product) {                
+                $_product = $helper->loadProductByProductId($product['entity_id']);
+                $summaryData = $helper->getProductReviewSummary($_product->getId(), $storeId); ?>
+                <li class="">
+                    <a href="<?php echo $_product->getProductUrl() ?>" title="<?php echo $this->stripTags($this->getImageLabel($_product, 'small_image'), null, true) ?>" class="product-image">
+                        <img src="<?php echo $this->getProductImageUrl($_product); ?>" width="135" height="135" alt="<?php echo $this->stripTags($this->getImageLabel($_product, 'small_image'), null, true) ?>" />
+                    </a>
+                    <div class="vssmp-product-list-info">
+                        <div class="vss_mp_row vssmp-txt-cntr vssmp_h_pname">
+                            <div class="vss_mp_inner_block">
+                                <a href="<?php echo $_product->getProductUrl(); ?>" title="<?php echo __('click to view product details'); ?>" target="_blank">
+                                    <h3 class="">
+                                        <b><?php echo $helper->clipLongText($_product->getName(), null, \Hariyo\Marketplace\Helper\Data::PRODUCT_NAME_TEXT_LIMIT); ?></b>
+                                    </h3>
+                                </a>
+                            </div>
+                        </div>
+                        <?php echo $this->getProductPrice($_product); ?>
+                        <div class="vss_mp_row vssmp-txt-cntr">
+                            <div class="vss_mp_inner_block ratings">
+                                <div class="rating-box">
+                                    <div class="rating" style="width:<?php echo $summaryData['rating_summary']; ?>%;">★★★★★</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="vss_mp_row vssmp-txt-cntr">
+                            <button type="button" title="<?php echo __('View Details'); ?>" class="button btn-cart" onclick="location.href = '<?php echo $_product->getProductUrl(); ?>'">
+                                    <span>
+                                        <?php echo __('View Details'); ?>
+                                    </span>
+                            </button>
+                        </div>
+                    </div>
+                </li>
+            <?php   
+                unset($_product);
+                unset($summaryData);
+            } ?>
+        </ul>
+        <div class="toolbar">
+            <?php echo $this->getPagerHtml(); ?>
+        </div>
+            <?php } else { ?>
+                <p style="color: orangered;"><?php echo __('Sorry! No Product(s) Found.'); ?></p>
+            <?php } ?>        
+</div>
+

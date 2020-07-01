@@ -1,0 +1,19 @@
+<?php $sellerData = $this->getSellerInfo();
+if ($sellerData) {
+    ?>
+    <?php
+    if (!empty($sellerData['page_url_key'])) {
+//        $seller_view_link = $thisgetUrl($sellerData['page_url_key']);
+        $seller_view_link = $this->getUrl('marketplace/sellers/view', ['id' => $sellerData['seller_id']]);
+    } else {
+        $seller_view_link = $this->getUrl('marketplace/sellers/view', ['id' => $sellerData['seller_id']]);
+    }
+    ?>
+    <div id="vssmp-seller-info" class="vss_mp_block">
+        <div class="vss_mp_row">
+            <div class="vss_mp_inner_block"><span class="title"><?php echo __('Sold By'); ?>:</span></div>
+            <div class="vss_mp_inner_block"><a href="<?php echo $seller_view_link; ?>"><span class=""><?php echo (!empty($sellerData['shop_title'])) ? $sellerData['shop_title'] : \Knowband\Marketplace\Helper\Seller::SELLER_DEFAULT_TITLE; ?></span></a></div>
+        </div>
+    </div>
+<?php } ?>
+

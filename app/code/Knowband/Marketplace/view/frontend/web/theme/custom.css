@@ -1,0 +1,274 @@
+
+.wrapper h3, .wrapper.h3{
+/*    color:inherit;
+    font-family:inherit;
+    text-transform: inherit;*/
+}
+
+.wrapper h1, .wrapper .h1{
+/*    font-family:inherit;
+    text-transform: inherit;
+    color:inherit;*/
+}
+
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9{
+    padding-right: 15px !important;
+}
+
+.vss_marketplace_page,
+.vss_marketplace_page label,
+body .vss_marketplace_page,
+body .vss_marketplace_page button,
+body .vss_marketplace_page input,
+body .vss_marketplace_page select,
+body .vss_marketplace_page table,
+body .vss_marketplace_page textarea{
+    font-family:'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+    line-height: none;
+}
+
+.marketplace-order-print{
+    width:10in;
+}
+
+body .vss_marketplace_page table input,
+body .vss_marketplace_page table select {
+    width:auto;
+}
+
+body .vss_marketplace_page table input[type="checkbox"],
+body .vss_marketplace_page table input[type="radio"]{
+    margin-top:0;
+    vertical-align: middle;
+}
+
+.vss_marketplace_page a:hover{
+    text-decoration:none;
+    color:inherit;
+}
+
+.vss_marketplace_page a.btn:hover{
+    text-decoration:none;
+    color:#fff;
+}
+
+.vss_marketplace_page btn:hover{
+    text-decoration:none;
+    color:#fff;
+}
+
+body .vss_marketplace_page table tr th{
+    font-weight:bold;
+}
+
+.main-container{
+    padding-top: 8px !important;
+    padding-bottom: 8px !important;
+}
+
+.sidebar-toggle{
+    float: left;
+    background-color: transparent;
+    background-image: none;
+    margin-right: 15px;
+    font-family: fontAwesome;
+    color: #333;
+    border-right: 1px solid #eee;
+    display:none;
+}
+
+.sidebar-toggle:before {
+    content: "\f0c9";
+}
+
+.sidebar-toggle:hover{
+    color:#333;
+    text-decoration:none;
+}
+
+#graphicalReportsHolder .overlay{
+    background:none;
+}
+
+#chartLegendHolder .legendColorBox{
+    padding-right:5px;
+}
+
+#chartLegendHolder .legendLabel {
+    padding-right:10px;
+}
+
+.vssmp-popper {
+    position: relative;
+    cursor: pointer;
+}
+
+.vssmp_popper_info {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    padding: 5px 10px;
+    width: 200px;
+    text-align: left;
+    border: 1px solid rgb(238, 238, 238);
+    right: 0px;
+    background-color: rgb(255, 255, 255);
+    -webkit-box-shadow: 3px 0px 12px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 0px 12px 0px rgba(0,0,0,0.75);
+    box-shadow: 3px 0px 12px 0px rgba(0,0,0,0.75);
+}
+
+.vss_marketplace_page .form-group{
+    margin-right:0;
+    margin:left0;
+}
+
+.vss_marketplace_page .form-group input[type="text"],
+.vss_marketplace_page .form-group input[type="password"],
+.vss_marketplace_page .form-group textarea,
+.vss_marketplace_page .form-group select{
+    width:100%;
+    max-width: 100%;
+}
+
+.vss_marketplace_page .form-group input[type="text"],
+.vss_marketplace_page .form-group input[type="password"],
+.vss_marketplace_page .form-group select{
+    width:100%;
+    max-width: 100%;
+    height: 34px;
+}
+
+.vss_marketplace_page sup em{
+    color:#dd4b39;
+}
+
+.field-img-blk img{
+    border: 1px #666 solid;
+    padding: 3px;
+}
+
+.vss-seller-logo {
+    height: 150px;
+    width: 150px;
+}
+
+.vss-seller-banner {
+    height: 150px;
+    width: 100%;
+}
+
+.vss_file_upload_field {
+    visibility: hidden;
+    position: absolute;
+}
+
+.vss_marketplace_page .datatable tr th{
+    font-size:12px;
+    font-weight:bold;
+}
+
+.vss_marketplace_page .datatable tr td{
+    font-size:12px;
+}
+
+#vssmp-product-img-body tr td{
+    vertical-align: middle;
+}
+
+#vssmp-product-img-body tr td.cell-image img{
+    margin: 0 auto;
+    border:1px solid #eee;
+    margin-bottom: 3px;
+}
+
+.bundle-option-items .wrapper{
+    padding: 10px 0px;
+    border-bottom: 1px solid #eee;
+}
+
+.order-basic-list .list-group-item .badge{
+    text-align: left;
+    background-color: transparent;
+    color: inherit;
+    font-size: 12.5px;
+    float: right;
+}
+
+.vss_ratings {
+    
+}
+
+.vss_rating_box{
+    position: relative;
+    display: inline-block;
+    width: auto;
+    white-space: nowrap;
+    color: #d3d3d3;
+    line-height: 16px;
+    font-size: 20px;
+    background: 0;
+}
+
+.vss_rating_filled {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    color: #e9ce18;
+    white-space: nowrap;
+    overflow: hidden;
+    background: 0;
+    width: 0px;
+}
+
+.tab-error-highlighter{
+    margin-top: 5px;
+    display:none;
+    margin-right: 30px;
+}
+
+.tab-error-highlighter i{
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+    .main-container{
+        padding: 0px !important;
+    }
+    
+    .sidebar-toggle{
+        display:inline-block;
+    }
+}
+
+/* -------------------------------------------- *
+ * Product Name
+ */
+h2.product-name,
+h3.product-name,
+h4.product-name,
+h5.product-name,
+p.product-name {
+  margin: 0;
+  margin-bottom: 0.5em;
+  color: #636363;
+  font-family: "Raleway", "Helvetica Neue", Verdana, Arial, sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1.2;
+  text-rendering: optimizeLegibility;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-family: "Helvetica Neue", Verdana, Arial, sans-serif;
+  font-weight: normal;
+  line-height: 1.4;
+}
+
+table#vssmp_big_table1 {
+width: 100% !important;
+} 
+
+button{
+    box-shadow: none !important;
+}

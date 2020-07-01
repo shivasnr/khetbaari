@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="1column" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceContainer name="left" remove="true"/>
+        <referenceContainer name="header.container" remove="true"/>
+        <referenceContainer name="footer" remove="true"/>
+        <referenceBlock name="page.main.title" remove="true" />
+        <referenceContainer name="catalog.topnav" remove="true"/>
+        <referenceContainer name="content">
+            <block class="Knowband\Marketplace\Product\Block\Section\Section" name="marketplace_product_section" cacheable="false">
+                <block class="Knowband\Marketplace\Product\Block\Section\General" name="marketplace_product_section_general"/>
+                <block class="Knowband\Marketplace\Product\Block\Section\Price" name="marketplace_product_section_price"/>
+                <block class="Knowband\Marketplace\Product\Block\Section\Inventory" name="marketplace_product_section_inventory"/>
+                <block class="Knowband\Marketplace\Product\Block\Section\Meta" name="marketplace_product_section_meta"/>
+                <block class="Knowband\Marketplace\Product\Block\Section\Category" name="marketplace_product_section_category"/>
+                <block class="Knowband\Marketplace\Product\Block\Section\Image" name="marketplace_product_section_image"/>
+                <block class="Knowband\Marketplace\Product\Block\Section\Attributes" name="marketplace_product_section_attributes"/>
+                <block class="Knowband\Marketplace\Product\Block\Section\Related" name="marketplace_product_section_related"/>
+                <block class="Knowband\Marketplace\Product\Block\Section\Subproduct" name="marketplace_product_section_subproduct"/>
+                <block class="Knowband\Marketplace\Product\Block\Type\Bundle" name="marketplace_product_section_bundle"/>
+                <block class="Knowband\Marketplace\Product\Block\Type\Downloadable" name="marketplace_product_section_downloadable"/>
+                <block class="Knowband\Marketplace\Product\Block\Section\Quickcreate" name="marketplace_product_section_quickcreate"/>
+            </block>
+    	</referenceContainer>
+    </body>
+</page>

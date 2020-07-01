@@ -1,0 +1,26 @@
+<div id="vssmp-reason-popup" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" onclick="closeModalAfterReset('vssmp-reason-popup')" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title"><?php echo $this->getHeading();?></h4>
+        </div>
+        <div class="modal-body">
+            <div class=" form-group">
+                <label class="col-lg-12"><?php echo __('Provide Your Reason'); ?></label>
+                <div class="col-lg-12">
+                    <textarea id="vssmp_reason_text_container" rows="5" class="form-control" style="max-width:100%;"></textarea>
+                </div>    
+            </div>
+        </div>
+          <div class="modal-footer">
+              <button type="button" class="btn btn-success" onclick="vssmpGetReasonAndSubmit('vssmp_reason_text_container')"><?php echo __("Submit"); ?></button>
+          </div>
+      </div>
+    </div>
+</div>
+<script type="text/javascript">
+    var minimum_reason_length_error = '<?php echo $this->getMinimumLengthMsg(); ?>';
+    var empty_field_error = '<?php echo __("Required Field"); ?>';
+    var vssmp_rsn_min_chars = <?php echo \Hariyo\Marketplace\Model\Reason::REASON_MIN_LENGTH; ?>
+</script>

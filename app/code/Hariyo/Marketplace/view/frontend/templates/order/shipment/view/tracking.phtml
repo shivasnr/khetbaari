@@ -1,0 +1,85 @@
+<div class="box box-warning collapsed-box">
+    <div class="box-header with-border" data-widget="collapse">
+        <h3 class="box-title"><?php echo __('Shipment Tracking') ?></h3>
+        <div class="box-tools pull-right">
+          <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-plus"></i></button>
+        </div>
+    </div>
+    <div class="box-body">
+        <div class="table-responsive">
+            <form id="add_new_tracking_form" action="<?php echo $this->getUrl('marketplace/shipment/addTrack', ['shipment_id' => $this->getShipment()->getId()]); ?>" method="post" >
+                <table class="table table-striped table-bordered">
+                    <thead>
+                        <tr>
+                            <th><?php echo __("Carrier"); ?></th>
+                            <th><?php echo __("Title"); ?></th>
+                            <th><?php echo __("Tracking Number"); ?></th>
+                            <th><?php echo __("Action"); ?></th>
+                        </tr>
+                    </thead>
+                    <tfoot>
+                        <tr>
+                            <td>
+                                <select id="tracking_carrier_code" name="carrier" class="form-control" onchange="selectCarrier(this)">
+                                    <?php foreach ($this->getCarriers() as $_code=>$_name): ?>
+                                    <option value="<?php echo $_code ?>"><?php echo $this->escapeHtml($_name) ?></option>
+                                    <?php endforeach; ?>
+                                </select>
+                            </td>
+                            <td><input class="form-control" type="text" id="tracking_title" name="title" value="" /></td>
+                            <td><input class="form-control" type="text" id="tracking_number" name="number" value="" /></td>
+                            <td><button type="button" class="btn btn-xs btn-warning" onclick="validateNewTracking();"><?php echo __('Add'); ?></button></td>
+                        </tr>
+                    </tfoot>
+                    <tbody>
+                        <?php if($_tracks = $this->getShipment()->getAllTracks()){ ?>
+                            <?php foreach($_tracks as $_track) { ?>
+                                <tr>
+                                    <td><?php echo $this->escapeHtml($this->getCarrierTitle($_track->getCarrierCode())) ?></td>
+                                    <td><?php echo $this->escapeHtml($_track->getTitle()) ?></td>
+                                    <td>
+                                        <?php if ($_track->isCustom()): ?>
+                                            <?php echo $this->escapeHtml($_track->getNumber()) ?>
+                                        <?php else: ?>
+                                            <a href="javascript:void(0)" onclick="popWin('<?php echo $this->helper('shipping')->getTrackingPopupUrlBySalesModel($_track) ?>','trackorder','width=800,height=600,resizable=yes,scrollbars=yes')"><?php echo $this->escapeHtml($_track->getNumber()) ?></a>
+                                            <div id="shipment_tracking_info_response_<?php echo $_track->getId() ?>"></div>
+                                        <?php endif; ?>
+                                    </td>
+                                    <td><button class="btn btn-xs btn-danger" onclick="deleteTrackingNumber('<?php echo $this->getRemoveUrl($_track) ?>');"><i class="fa fa-trash-o"<?php echo __('Delete'); ?></button></td>           
+                                </tr>
+                            <?php } ?>
+                        <?php } ?>
+                    </tbody>
+                </table>
+            </form>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    //<![CDATA[
+    function selectCarrier(elem) {
+        var option = elem.options[elem.selectedIndex];
+        jQuery('#tracking_title').value = option.value && option.value != 'custom' ? option.text : '';
+    }
+
+    function deleteTrackingNumber(url) {
+        if (confirm('<?php echo __('Are you sure?') ?>')) {
+            location.href = url;
+        }
+    }
+
+    function validateNewTracking(){
+        var valid = true;
+        if(jQuery('#tracking_title').val() == ''){
+            valid = false;
+            alert('<?php echo __('Tracking title is required.'); ?>');
+        } else if (jQuery('#tracking_number').val() == ''){
+            valid = false;
+            alert('<?php echo __('Tracking number is required.') ?>');
+        }
+        if (valid) {
+            jQuery('form#add_new_tracking_form').submit();
+        }
+    }
+    //]]>
+</script>

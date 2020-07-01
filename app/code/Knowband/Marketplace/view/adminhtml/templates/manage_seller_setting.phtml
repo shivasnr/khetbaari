@@ -1,0 +1,52 @@
+<?php
+$settings = $this->getSellerSettings();
+?>
+<style>
+    .entry-edit fieldset {
+        margin-bottom: 0px;
+    }
+    p.note {
+        line-height: 12px;
+        background-position-y: 2px;
+    }
+</style>
+
+<div class="entry-edit">
+    <fieldset class="fieldset admin__fieldset" >
+        <legend class="legend admin__legend"><span><?php echo __("Seller Account Settings"); ?></span></legend>
+        <div class = "field admin__field">
+            <label for="mp_seller_commission" class = "label admin__field-label"><span><?php echo __("Default Commission"); ?></span></label>
+            <div class="control admin__field-control">
+                <input type="text"name="mp_general[commission][seller]" id="mp_seller_commission" data-form-part="customer_form" value="<?php if (isset($settings['commission'])) echo $settings['commission']['seller']; ?>" title="" class="input-text admin__control-text validate-number required-entry validate-zero-or-greater validate-digits-range digits-range-0-100" autocomplete="off" <?php if (isset($settings['commission']['global']) && $settings['commission']['global'] == 1) echo 'disabled style="background-color:#eee;"'; ?>>
+                <div class="note admin__field-note"><?php echo __("Please enter a number between 0 and 100 only and in a proper format."); ?></div>
+                <div class="admin__field-service">
+                <input type="checkbox" class="admin__control-checkbox"  id="mp_seller_commission_global" name="mp_general[commission][global]" data-form-part="customer_form" <?php if (isset($settings['commission']['global']) && $settings['commission']['global'] == 1) echo 'checked="checked"'; ?>>
+                <label class="admin__field-label" for="mp_seller_commission_global"><?php echo __("Use Global"); ?></label>
+            </div>
+            </div>
+        </div>
+    </fieldset>
+</div>
+
+<script type="text/javascript">
+    require(['jquery', // jquery Library
+                'jquery/ui', // Jquery UI Library
+                'mage/translate' // Magento text translate (Validation message translte as per language)
+            ], function($) {
+        $('#mp_seller_commission_global').on('click', function (e) {
+            if (this.checked) {
+                $('#mp_seller_commission').attr("disabled", true);
+                $('#mp_seller_commission').css("background-color", '#eee');
+            } else {
+                $('#mp_seller_commission').attr("disabled", false);
+                $('#mp_seller_commission').css("background-color", '#fff');
+            }
+
+        });
+
+        $(document).ready(function(){ 
+            if ($('#mp_seller_commission_global').checked)
+                $('#mp_seller_commission').attr("disabled", true);
+        }); 
+    });
+</script>

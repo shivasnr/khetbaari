@@ -1,0 +1,1009 @@
+The product status will be 'Disabled' until it is approved from admin.,De status product zal worden 'Uitgeschakeld' totdat het is goedgekeurd door admin.
+The seller has already added more products. Please either increase the limit or save it as it is.,De verkoper heeft al meer producten toegevoegd. Gelieve ofwel verhoging van de limiet of opslaan als het is.
+Reason,Reden
+Required field,verplicht veld
+Submit,voorleggen
+Why do you want to do this?,Waarom wil je om dit te doen?
+Continue,Doorgaan met
+Something went wrong. Please try again.,Er is iets fout gegaan. Probeer het opnieuw.
+Vacation Interval: ,Vakantie Interval:
+Is Active: ,Is actief:
+Vacation Halt Status: ,Vakantie Halt Status:
+Comment: ,Commentaar:
+Reason for canceling vacation: ,Reden voor het annuleren van vakantie:
+Vacation Detail,Vacation Detail
+Your comment to cancel this vacation,Uw mening over deze vakantie te annuleren
+Register as Seller,Registreer als Verkoper
+Yes,Ja
+No,Nee
+Marketplace CRON Instructions,Marketplace CRON Instructions
+Vacation CRON,vakantie CRON
+Disable the products during the seller's vacation period.,Schakel de producten tijdens de vakantie periode van de verkoper.
+Low Stock Notification CRON,Laag Stock Notification CRON
+Send the notification to the sellers about their low stock products.,Stuur de melding aan de verkopers over hun lage voorraad producten.
+Cron Instructions,cron Instructions
+Add the Cron Jobs to your store via control panel/putty. Find below the Instruction to add the Cron Jobs.,Voeg de Cron Jobs naar uw winkel via het bedieningspaneel / stopverf. Hieronder vindt u de instructie om de Cron Jobs toe te voegen.
+URLs to Add to Cron via Control Panel,URL's toe te voegen aan Cron via het Configuratiescherm
+1. Vacation CRON,1. Vacation CRON
+2. Low Stock Notification CRON,2. Lage Stock Notification CRON
+Cron setup via SSH,Cron setup via SSH
+Choose Store Categories,Kies Winkelcategorieën
+Collapse All,Alles inklappen
+Expand All,Alles uitvouwen
+This operation can take a long time,Deze bewerking kan lang duren
+Please confirm site switching. All data that hasn\'t been saved will be lost.,Gelieve te bevestigen plaats switching. Alle gegevens die hasn \ 't bewaard is zal verloren gaan.
+Warning message,Waarschuwingsbericht
+Field cannot be empty.,Het gebied mag niet leeg zijn.
+You can enter only numbers.,U kunt alleen cijfers invoeren.
+Number should be greater than 0.,Nummer moet groter zijn dan 0.
+Field cannot be greater than {#} characters.,Het gebied mag niet groter zijn dan {#} letters.
+Field cannot be less than {#} character(s).,Het gebied kan niet lager zijn dan {#} teken (s) zijn.
+Please enter Email.,Vul e-mail.
+Please enter a valid Email.,Gelieve een geldig e-mailadres in te vullen.
+Invalid date format.,Ongeldige datum.
+Number is not in the valid range. It should be between {#} and {##},Nummer is niet in het geldige bereik. Het moet tussen de {#} en {##}
+Field should be numeric.,Veld moet numeriek zijn.
+Field should be positive.,Het gebied moet positief zijn.
+Field can have only upto two decimal values.,Het gebied kan alleen upto twee decimale waarden hebben.
+Email cannot be greater than {#} characters.,E-mail kan niet groter zijn dan {#} letters.
+Zip should not have special characters.,Zip mag geen speciale tekens.
+Percentage should be in number.,Percentage moet zijn in aantal.
+Percentage should be between 0 and 100.,Percentage moet tussen 0 en 100.
+Size cannot be greater than {#} characters.,Grootte kan niet groter zijn dan {#} letters.
+Color could not be greater than {#} characters.,Color kon niet groter zijn dan {#} letters.
+Color is not valid.,Kleur is niet geldig.
+Special characters are not allowed.,Speciale karakters zijn niet toegestaan.
+Script tags are not allowed.,Script tags zijn niet toegestaan.
+Style tags are not allowed.,Style tags zijn niet toegestaan.
+Iframe tags are not allowed.,Iframe-tags zijn niet toegestaan.
+Uploaded file is not an image.,Geüploade bestand is geen afbeelding.
+Uploaded file size must be less than {#}.,Geuploade bestandsgrootte moet kleiner zijn dan {#} zijn.
+Field should not contain HTML tags.,Het gebied mag geen HTML-tags bevatten.
+You can enter only positive numbers.,U kunt alleen positieve getallen in te voeren.
+Are you sure?,Weet je het zeker?
+Comment,Commentaar
+Are you sure to update feature status of this seller?,Weet u zeker dat eigenschap status van deze verkoper te werken?
+Do you have any comment?,Heeft u opmerkingen?
+"For accurate reporting, be sure to refresh lifetime statistics whenever you change the time zone.","Voor nauwkeurige rapportage, zorg ervoor dat de levensduur statistieken te vernieuwen als u de tijdzone te wijzigen."
+To refresh last day's,Tot de laatste dag te frissen
+statistics,statistieken
+click,Klik
+here,hier
+Filter,Filter
+Period,Periode
+Day,Dag
+Month,Maand
+Year,Jaar
+From,Van
+Select Date,Selecteer een datum
+To,Naar
+Choose Category,Kies categorie
+All Categories,Alle categorieën
+Choose a Seller,Kies een Verkoper
+All Sellers,alle Verkopers
+NA,NA
+PayPal Payout Settings,PayPal Uitbetaling Instellingen
+Active,Actief
+Enable or Disable Paypal Payment Method.,In- of uitschakelen Paypal betaalmethode.
+Client ID,klant identificatie
+Client Secret,client Secret
+Paypal Mode,Paypal Mode
+Sandbox,sandbox
+Live,Leven
+Paypal Email Subject,Paypal E-mail Onderwerp
+Paypal Currency ,Paypal Currency
+Select the default currency set in Paypal Account.,Selecteer de standaard valuta set in Paypal-account.
+Are You Sure you want to reset the settings?,Ben je zeker dat je de instellingen opnieuw in te stellen?
+Edit Email Template,Bewerken E-mail Template
+About Template,over Template
+Template Subject,Template Subject
+Email Content,email Content
+Template Content,Sjabooninhoud
+Please do not edit or remove any template variable.,Gelieve niet te wijzigen of te verwijderen template variabele.
+Example,Voorbeeld
+Seller Account Settings,Verkoper Accountinstellingen
+Default Commission,Default Commissie
+Please enter a number between 0 and 100 only and in a proper format.,Voer een getal tussen 0 en op slechts 100 en in een juiste formaat.
+Use Global,gebruik Global
+New Product Limit,Nieuw product Limit
+Limit the sellers to add new products without account approval.,Beperk de verkopers om nieuwe producten toe te voegen zonder account goedkeuring.
+If left blank than product limit will be assumed 0.,Wanneer leeg dan product limiet links zal worden aangenomen 0.
+Categories Allowed,Categorieën toegestaan
+If no category is selected that will mean that all the categories are allowed.,Als er geen categorie wordt geselecteerd dat zal betekenen dat alle categorieën zijn toegestaan.
+Product Approval Required,Product Goedkeuring vereist
+Enable,in staat stellen
+Disable,onbruikbaar maken
+Enable Seller Review,Inschakelen Verkoper Beoordeling
+Required Seller Review Approval,Verplichte Verkoper Beoordeling Goedkeuring
+Email to Seller on Order Place,E-mail naar de verkoper op bestelling te plaatsen
+Please enter a valid number in this field.,Geef een geldig nummer op dit gebied.
+Payout Transaction Request,Uitbetaling Transaction Request
+Required Field,Verplicht veld
+Invalid Value,Ongeldige waarde
+"Invalid Value, please enter a number greater than zero","Ongeldige Value, vul dan een getal groter dan nul"
+Minimum 30 character required,Minimaal 30 tekens nodig
+General Settings,Algemene instellingen
+Enable Marketplace,inschakelen Marketplace
+Toggle to enable or disable extension,Schakelen in- of uitbreiding uitschakelen
+Default Commission (%),Default Commission (%)
+Set default commission in percentage for each product.,Stel standaard commissie percentage voor elk product.
+Choose the categories allowed for the sellers. If no category is selected that will mean that all the categories are allowed.,Kies de categorieën toegestaan ​​voor de verkopers. Als er geen categorie wordt geselecteerd dat zal betekenen dat alle categorieën zijn toegestaan.
+Register as Seller Field,Registreer als Verkoper Field
+Enable to add 'Register as Seller' field while registering.,In staat te stellen 'Registreer u als verkoper veld toe te voegen bij de registratie.
+Enable Bulk Import/Export,Enable Bulk Import / Export
+"If disable, no seller will be able to use bulk import/export feature.","Als uitschakelen, worden er geen verkoper in staat zijn om te gebruiken bulk import / export-functie."
+If enable an email will be sent to seller on order for his product.,Als mogelijk te maken een e-mail op bestelling aan de verkoper worden gestuurd voor zijn product.
+Enable Vacation Mode,Enable Vacation Mode
+"If disable, no seller will be able to use vacation feature.","Als uitschakelen, worden er geen verkoper in staat zijn om vakantie functie te kunnen gebruiken."
+Show Seller Info on Product Page,Toon Verkoper Info op Product Page
+Enable/Disable to show/hide seller info on product page.,Inschakelen / uitschakelen om te laten zien / verbergen verkoper info op productpagina.
+Enable or Disable Approval of product for the sellers.,In- of uitschakelen Goedkeuring van product voor de verkopers.
+Default limit for sellers of adding new products before account approval. Blank will be considered as 0.,Standaard limiet voor verkopers van het toevoegen van nieuwe producten voor rekening goedkeuring. Blank zal worden beschouwd als 0.
+Enable or Disable Seller review feature. This feature enables the customers to add review for sellers.,In- of uitschakelen van de verkoper beoordeling feature. Deze functie stelt de klanten om een ​​recensie voor verkopers toe te voegen.
+Seller Review Approval Required,Verkoper Beoordeling Goedkeuring vereist
+Enable or Disable Approval for seller review. Once the review is approved then only it will be visible to the customers.,In- of goedkeuring voor verkopersrecensie uitschakelen. Zodra de beoordeling dan is goedgekeurd alleen zal het zichtbaar voor de klanten.
+Enable Seller List,Enable Seller List
+Show or Hide Sellers List from customers.,Tonen of verbergen Sellers lijst van klanten.
+Enable Search Box,Inschakelen Search Box
+Enable or Disbale search box to search seller on seller listing page.,In- of disbale zoekvak om verkoper op verkoper vermelding pagina te zoeken.
+Low Stock Configuration,Low Stock Configuration
+Enable Low Stock Notification,Enable Low Stock Notification
+Enable or Disable Low Stock Notification feature.,In- of uitschakelen Laag Stock functie voor kennisgeving.
+Low Inventory Limit,Low Inventory Limit
+Enter the limit below that the products are considered low stock.,Geef het maximumbedrag voor dat de producten worden beschouwd als lage voorraad.
+When to Notify,Wanneer Houd
+Choose when to notify the seller regarding the critical inventories.,Kiezen wanneer de verkoper met betrekking tot de kritische voorraden te melden.
+Cron Job,cron Job
+On Order Place,Besteld Place
+Send Notifications From,Stuur meldingen van
+Choose the email from which you want to send the notifications.,Kies de e-mail van waaruit u de meldingen te verzenden.
+Seller Name,Naam van de verkoper
+Select,kiezen
+Transaction ID,Transactie ID
+Transaction Type,Transactie Type
+Amount,Bedrag
+Send Email to Seller,Stuur E-mail naar de verkoper
+"Invalid Value, please enter a number greater then zero","Ongeldige Value, vul dan een getal groter dan nul"
+Add New Transaction,Voeg nieuwe transactie
+Posted On: ,Geplaatst op:
+Customer Rating: ,Klantenwaardering:
+Review: ,Beoordeling:
+Reason for Disapproval: ,Reden voor Afkeuring:
+Seller Review Detail,Verkoper Beoordeling Detail
+Provide Your Reason,Zorg voor Uw Reden
+We can\'t find products matching the selection.,We kunnen \ 't vinden producten overeen met de selectie.
+View Details,Bekijk details
+In stock,Op voorraad
+Out of stock,Uitverkocht
+Learn More,Kom meer te weten
+My Sales Dashboard,Mijn verkopen Dashboard
+Total Revenue,De totale omzet
+Total Orders,Totaal bestellingen
+Total Products Sold,Totaal producten Verkocht
+Last 7 Days,Laatste 7 dagen
+Sales Comparisons,Sales Vergelijkingen
+Orders,bestellingen
+Revenue,Omzet
+Products Sold,producten die worden verkocht
+Discounts,Kortingen
+Balance Amount Variations,Saldo Variations
+Today,Vandaag
+Yesterday,Gisteren
+This Week,Deze week
+Last Week,Vorige week
+This Month,Deze maand
+Last Month,Vorige maand
+This Year,Dit jaar
+Last Year,Vorig jaar
+Last 10 Orders,Laatste 10 Bestellingen
+View All Orders,Bekijk alle T-shirts
+Order Number,Bestellingsnummer
+Order Date,Besteldatum
+Customer Name,klantnaam
+Customer Email,Klanten email
+Qty,Aantal
+Status,staat
+Order Total,totale bestelling
+click to view order,klik om de orde te bekijken
+No Orders Placed Yet,Heeft nog geen bestelling geplaatst
+Seller Products,verkoper producten
+Filter Products,filter producten
+Category,Categorie
+Sort By,Sorteer op
+Name,Naam
+SKU,SKU
+Price(low to high),Prijs laag naar hoog)
+Price(high to low),Prijs (van hoog naar laag)
+Products Feedback,producten Contact
+Filter Your Search,Filter je zoekopdracht
+Search,Zoeken
+Reset,Reset
+No Data,Geen gegevens
+Posted on,geplaatst op
+by,door
+Rating,Beoordeling
+Summary,Samenvatting
+Review,Beoordeling
+My Products Catalog,Catalogus Mijn producten
+New Product,Nieuw product
+Choose,Kiezen
+Please select atleast one item from list.,Selecteer tenminste één punt uit de lijst.
+Select Attribute Set for New Product,Selecteer Attribute Set voor Nieuw product
+Attribute Set,Attribute Set
+Product Type,product type
+Choose Bulk Action,Kies Bulkactie
+Delete,Verwijder
+Status Update,Status update
+Close,Dichtbij
+Save,Opslaan
+Save & Continue,Opslaan doorgaan
+Duplicate,Duplicaat
+Cancel,annuleren
+%d characters remaining.,% D tekens resterend.
+Please fill required fields with valid information.,Vul verplichte velden met geldige informatie.
+Special price should be less than actual price,Speciale prijs moet minder dan de werkelijke prijs
+Past date not allowed,Datum in het verleden niet toegestaan
+Quick simple product creation,Snel eenvoudig product creatie
+Create,creëren
+Prices,prijzen
+Meta Information,Meta informatie
+General Information,Algemene informatie
+Allows your product's visibility on search or catalog page.,Hiermee kan de zichtbaarheid van uw product op zoek of een catalogus.
+Maximum %d characters allowed.,Maximaal% d tekens toegestaan.
+Date of product from which this product will be marked as new.,Introductiedatum van het product waarvan dit product als nieuw worden gemarkeerd.
+Date of product until which this product will be marked as new.,Datum van product tot welke dat product als nieuw worden gemarkeerd.
+Category Mapping,categorie Mapping
+Associated Products,Aanverwante producten
+Create Simple Product,Maak Simple Product
+Quick Create,Quick aanmaken
+Id,ID kaart
+Sku,sku
+Product Name,productnaam
+Stock Status,Voorraadstatus
+Select Attribute,Selecteer Kenmerk
+Attribute,Attribuut
+Price,Prijs
+Default Qty,Default Aantal
+Samples,samples
+Title,Titel
+File,het dossier
+Sort Order,sorteervolgorde
+Add New Row,Voeg nieuwe rij
+Links,Links
+Links can be purchased separately,Links kan afzonderlijk worden aangeschaft
+Max. Downloads,Max. downloads
+Shareable,shareable
+Sample,Monster
+Unlimited,Onbeperkt
+Url,url
+Inventory,Inventaris
+Quantity,Aantal stuks
+Manage Stock,Beheer Voorraad
+"On enabling, stock will be managed automatically. For manual stock, select disable","Over het inschakelen, zal de balans automatisch worden beheerd. Voor handmatige voorraad, selecteert u Uitschakelen"
+Qty Uses Decimal,Aantal Gebruikt Decimal
+Stock Availability,Voorraad
+Shipment,Verzending
+Ship Bundle Items,Schip Bundle Items
+Separately,Afzonderlijk
+Together,Samen
+Bundle Items Options,Bundle Items Opties
+Add New Option,Voeg Nieuwe Optie
+Default Title,Default Titel
+Delete Option,Delete Option
+Input Type,Input Type
+Is Required,Is benodigd
+Position,Positie
+Add Selection,Selectie toevoegen
+Price Type,Prijs Type
+User Defined Qty,User Defined Aantal
+Default,Standaard
+Qty to Add,Aantal aan toevoegen
+Add Selected Product(s) to Option,Voeg geselecteerde product (en) aan Option
+Images,Afbeeldingen
+Image,Beeld
+Label,Label
+Remove,Verwijderen
+File is not supported,Bestand wordt niet ondersteund
+Upload New Image,Upload New Image
+".jpeg, .jpg, .png, ,gif",".jpeg, .jpg, .png, gif"
+No Image uploaded for this product,Geen Afbeelding geüpload voor dit product
+Browse,Blader
+Related Products,gerelateerde producten
+This attribute set does not have attributes which we can use for configurable product,Dit attribuut set heeft geen attributen die we kunnen gebruiken voor configureerbare product
+Please select one or more attributes.,Selecteer een of meer kenmerken.
+Sold By,Verkocht door
+Total %d review(s),Totaal% d review (s)
+View Reviews,Bekijk beoordelingen
+Write Review,Schrijf recensie
+File Size Exceeding the Limit.,Bestand Grootte de limiet overschrijdt.
+Max Upload Size: 200 KB,Max Upload Grootte: 200 KB
+Max Upload Size: 500 KB,Max Upload Grootte: 500 KB
+This key already assigned to another seller. Please fill another.,Deze toets al toegewezen aan een andere verkoper. Vul de andere.
+My Seller Profile,Mijn Verkoper Profiel
+View Collection,Bekijk Collectie
+View Profile,Bekijk profiel
+General,Algemeen
+Shop Title,Shop Titel
+Contact Number,Contact nummer
+(Image Size: 150 X 150),(Afbeelding: 150 x 150)
+Shop Logo,Shop Logo
+(Image Size: 1180 X 250),(Afbeelding: 1180 x 250)
+Shop Banner,Shop Banner
+Shop Address 1,Shop Adres 1
+Shop Address 2,Shop Adres 2
+City,stad
+Pincode,Pincode
+State,Staat
+Country,land
+Description,Omschrijving
+Please provide link of your facebook page,Gelieve link van je Facebook-pagina
+Facebook Link (optional),Facebook Link (optioneel)
+For example:,Bijvoorbeeld:
+or,of
+Please provide link of your google plus profile,Gelieve link van je Google Plus-profiel
+Google Plus Link (optional),Google Plus Link (optioneel)
+Please provide link of your twitter profile,Gelieve link van je twitter-profiel
+Twitter Link (optional),Twitter Link (optioneel)
+Meta Keywords,meta Trefwoorden
+Meta Description,Meta omschrijving
+Example: my-selling-store,Voorbeeld: mijn-selling-store
+Page Url Key,Pagina Url Key
+Policy,Het beleid
+Return Policy,TERUGSTUURBELEID
+Shipping Policy,Verzendbeleid
+Payout,uitbetaling
+Admin will use the Payout information to make the payment. Only one payment information can be saved at a time.,Admin zal de uitbetaling informatie gebruiken om de betaling te verrichten. Slechts één betaling informatie kan per keer worden opgeslagen.
+Select Payment Method,Selecteer betaalmethode
+Seller,Verkoper
+Register As Seller,Registreer als Verkoper
+My Reviews,mijn beoordelingen
+Customer Review,Customer review
+Disapproval Reason,Reden voor afkeuring
+Start Date,Begin datum
+End Date,Einddatum
+Your comment to this vacation,Uw mening over dit vakantie
+Invalid format. Use: MM/dd/YYYY,Ongeldig formaat. Gebruik: DD / MM / YYYY
+End date should be greater than start date,Einddatum moet groter zijn dan begindatum
+End date should be future date,Einddatum moet datum in de toekomst zijn
+My Vacations History,Mijn Vakantie Geschiedenis
+Set New Vacation,Set New Vacation
+Vacation Interval,vakantie Interval
+Is Active,Is actief
+Vacation Halt Status,Vakantie Halt Status
+Reason for canceling vacation,Reden voor het annuleren van vakantie
+click to view product details,klik om de productdetails te bekijken
+Sorry! No Product(s) Found.,Sorry! Geen product (en) gevonden.
+Please select a category for your request.,Selecteer een categorie voor uw aanvraag.
+Please provide reason for your request.,Gelieve reden voor uw verzoek.
+Request a New Category,Vraag een nieuwe categorie
+Choose a Category,Kies een categorie
+Select Category,selecteer categorie
+Maximum 500 characters allowed.,Maximaal 500 karakters toegestaan.
+Submit Category Request Form,Submit Categorie Aanvraagformulier
+No categories are available for request.,Geen categorieën zijn beschikbaar voor verzoek.
+Payout Request,uitbetaling Request
+New Payout Request,Nieuwe Uitbetaling Request
+Request Reason,Reden Request
+Submit Payout Request Form,Submit Uitbetaling Aanvraagformulier
+Payout Details,uitbetaling Details
+Requested On,gevraagde On
+Your Comment For Request,Uw reactie Voor Request
+Only 200 characters allowed,Alleen 200 tekens toegestaan
+"Only (xls, xlsx) formats are allowed","Alleen (xls, xlsx) formats zijn toegestaan"
+Toggle navigation,toggle navigatie
+My Account,Mijn rekening
+Logout,Uitloggen
+Account Warning!,Rekening Waarschuwing!
+Back To Site,Terug naar de site
+Category Request Details,Details Categorie Request
+Category Name,categorie naam
+Your request is in pending. Please wait for store response.,Uw aanvraag is in afwachting van. Gelieve te wachten op antwoord op te slaan.
+This feature is not active into your account.,Deze functie is niet actief op je account.
+To request this feature,Om deze functie te vragen
+Click,Klik
+Here,Hier
+Request To Activate Import/Export Feature,Verzoek te activeren Import / Export Feature
+Comment ,Commentaar
+Required Field. Maximum 200 characters allowed.,Verplicht veld. Maximaal 200 karakters toegestaan.
+Click to send request,Klik hier om te versturen
+Your file has some errors. Please import file after resolving errors.,Uw bestand heeft een aantal fouten. Gelieve te importeren bestand na het oplossen van fouten.
+Click to download your file with errors,Klik hier om het bestand met fouten downloaden
+Download File with Errors,Download het bestand met fouten
+Go Back,Ga terug
+Please do not go back or refresh page while uploading your products.,Gelieve niet terug te gaan of te vernieuwen pagina tijdens het uploaden van uw producten.
+It may causes errors in your catalog.,Het kan veroorzaakt fouten in uw catalogus.
+Download Template,Template Download
+Select Product Type,Selecteer Product Type
+Product Attribute Set,Product Attribute Set
+Select Attribute Set,Select Attribute Set
+Download Template File,Download Sjabloonbestand
+Please make sure that columns in your file must be matched with template file created for you on the basis of selected attribute.,Zorg ervoor dat de kolommen in uw bestand moet worden gekoppeld aan template-bestand voor u gemaakt op basis van de geselecteerde attribuut.
+Import Products,producten importeren
+Import Action,import Actie
+Select Action,Selecteer actie
+"Action will only be performed on the basis of SKU of products. Without sku, product will not be consider for any action.","Actie wordt alleen uitgevoerd op basis van de SKU van producten. Zonder sku, zal het product niet te overwegen voor een actie."
+Upload File,Upload bestand
+"Only (xls, xlsx) file will be accepted","Alleen (xls, xlsx-bestand) worden geaccepteerd"
+File must not exceed %s MB,Het bestand moet niet groter zijn dan% s MB
+Browse File,Bestand zoeken
+Validate File,valideren File
+File must no exceed %s MB,Bestand mag niet groter zijn dan% s MB
+Import/Export Instructions,Import / Export Instructions
+Import,Importeren
+Export,Exporteren
+Import Instructions,import Instructions
+"Download Template as per your product type. At a time, only 1 type of products can be import.","Download Template als je per product type. In een tijd, kan slechts 1 soort producten zijn import."
+"If you import more than 1 type of products from one file, then system will be fail or affect your catalog.","Als u meer dan 1 soort producten importeren uit een bestand, dan is het systeem zal mislukken of invloed op uw catalogus."
+Each template will have '%s' worksheet. Your import file must have this worksheet as it is. Please do not change anything in its content.,Elke sjabloon '% s' werkblad hebben. Uw importbestand moet dit werkblad hebben zoals het is. Gelieve niet iets in de inhoud ervan te wijzigen.
+Each template will have '%s' worksheet. Please provide product data from possible values of corresponding field. If field has possible values.,Elke sjabloon '% s' werkblad hebben. Gelieve product data van mogelijke waarden van bijbehorende veld. Indien veld mogelijke waarden.
+"Only 'xls, xlsx' file having size less than %sMB will be acceptable.","Only 'xls, xlsx' bestand met grootte van minder dan% sMB zal aanvaardbaar zijn."
+If you want to import using exported data then copy the general & image sheet of exported file into general & image sheet of the downloaded template file.,Als u wilt importeren met geëxporteerde gegevens dan de algemene & beeld blad van geëxporteerde bestand in het algemeen en het blad van het gedownloade template bestand te kopiëren.
+"Use (|) to seperate value in multivalue field like category_ids, related_products.","Gebruik (|) om waarde te scheiden in meerdere waarden veld zoals category_ids, related_products."
+Export Instructions,export Instructions
+Select export type in export section.,Selecteer type export in export sectie.
+"If the export type is Category, then system will export only assigned categories to you.","Als het type export bestaat uit categorie, dan is het systeem alleen toegewezen categorieën exporteren naar jou."
+"In case of products, select product type and attributes set.","In het geval van producten, selecteert u het type product en de kenmerken in te stellen."
+Exported data will be in xls/xlsx format.,Geëxporteerde gegevens zal in xls / xlsx-formaat.
+Export Type,export Type
+Select Export Type,Selecteer Exporteren Type
+Category Export,categorie Export
+Product Export,product Export
+Product Status,product status
+All,Allemaal
+Disabled,invalide
+Enabled,Ingeschakeld
+In Stock,Op voorraad
+Out of Stock,Uitverkocht
+Export Data,Exportgegevens
+This process will take few minutes.,Dit proces zal enkele minuten duren.
+Please do not go back or refresh page while exporting your data.,Gelieve niet terug te gaan of te vernieuwen pagina tijdens het exporteren van uw gegevens.
+Your are not eligible to use this feature as your account is either not approved or inactive.,U bent niet in aanmerking om deze functie te gebruiken als uw account is ofwel niet goedgekeurd of inactief.
+"Currently, this feature is disabled by store.",Momenteel is deze functie uitgeschakeld door te slaan.
+You cannot use this feature as required library is missing. Please contact to support.,"U kunt deze functie niet gebruiken, zoals vereist bibliotheek ontbreekt. Neem contact op om te ondersteunen."
+Total Sale,Totaal Sale
+Total Earning,Total Earning
+Transaction Details,transactie details
+My Earnings,mijn Inkomens
+Earnings History,winst Geschiedenis
+Order Wise Earnings,Bestel Wise Earnings
+Transactions History,transacties Geschiedenis
+Total Paid,Totaal betaald
+Balance,Balans
+Quantity to Add,Hoeveelheid aan toevoegen
+Low Stock Notification,Low Stock Notification
+Configuration,Configuratie
+Receive Low Stock Notifications,Ontvang Low Stock Meldingen
+Save Seller Level Configuration,Sla Verkoper Level Configuration
+facebook,facebook
+twitter,tjilpen
+google,google
+About Seller,over de verkoper
+Description not available.,Beschrijving niet beschikbaar.
+Write your thought,Schrijf je gedachten
+Summary of your review,Samenvatting van je recensie
+Your Thought,uw Gedachte
+Your Name,Uw naam
+Rate this seller,Beoordeel deze verkoper
+Submit Review,Review versturen
+Notify Customer by Email,Houd de klant per e-mail
+Visible on Storefront,Zichtbaar op Storefront
+Submit Comment,commentaar toevoegen
+Customer,Klant
+Notified,op de hoogte gesteld
+Not Notified,niet een notificatie
+Please provide comment,Gelieve commentaar voorzien
+Product,Artikel
+Subtotal,Subtotaal
+Order Detail,Bestel Detail
+Click to download invoice.,Klik hier om de factuur te downloaden.
+Download Invoice,Download Factuur
+Click to download shipping slip.,Klik hier voor de scheepvaart slip te downloaden.
+Download Shipping Slip,Download Shipping Slip
+Are you sure you want to send order email to customer?,Bent u zeker dat u wilt bestellen e-mail sturen naar de klant?
+Click to send email to customer,Klik hier om e-mail te sturen naar de klant
+Send Email,E-mail verzenden
+Click to create shipment,Klik aan de verzending maken
+Ship,Schip
+Print,Afdrukken
+Basic Informations,Basis Informatie
+Order Status,Bestelstatus
+Billing Address,Facturatie adres
+Shipping Address,Verzendingsadres
+Ordered,bestelde
+Shipped,verzonden
+Canceled,Geannuleerd
+Refunded,teruggestort
+Gift Message,Cadeau bericht
+Excl. Tax,Excl. Belasting
+Total,Totaal
+Incl. Tax,Incl. Belasting
+Total incl. tax,Totaal incl. belasting
+Invoiced,gefactureerd
+Order Items,Bestel items
+Shipments,zendingen
+Ship to Name,Schip aan Naam
+Date Shipped,datum verzonden
+Total Qty,totale hoeveelheid
+click to view detail,klik om detail te bekijken
+Tax,Belasting
+Items To Be Shipped,Te verschepen punten
+Qty to Ship,Aantal In Ship
+Append Comments,append Comments
+Email Copy of Shipment,E-mail Copy van Zending
+Submit Shipment,Verzend Verzending
+New Shipment,nieuw Verzending
+Back,Terug
+Shipment Tracking,Verzending volgen
+Carrier,Carrier
+Tracking No.,Tracking No.
+Action,Actie
+Add Tracking Number,Toevoegen Trackingnummer
+Invalid value(s) for Qty to Ship,Ongeldige waarde (n) voor Aantal In Ship
+Shipment Detail,Shipment Detail
+Are you sure you want to send Shipment email to customer?,Bent u zeker dat u wilt Verzending e-mail sturen naar de klant?
+Send Tracking Information,Stuur Tracking Informatie
+Tracking Number,Volg nummer
+Add,Toevoegen
+Tracking title is required.,Tracking titel nodig.
+Tracking number is required.,Tracking nummer is vereist.
+Shipped Items,verzonden items
+Qty Shipped,Aantal verzonden
+No Item Shipped Yet,Geen Artikel nog verzonden
+Reviews,beoordelingen
+Posted on:,Geplaatst op:
+by ,door
+Sorry! No Reviews Found.,Sorry! Geen reviews gevonden.
+Write your review,Schrijf je beoordeling
+Sellers List,verkopers List
+Search Seller,Zoeken Verkoper
+Sorry! No Seller(s) Found.,Sorry! Geen van de verkoper (s) gevonden.
+General Contact,algemeen Contact
+Customer Support,Klantenondersteuning
+Sales Representative,Verkoop vertegenwoordiger
+Custom Email 1,Custom E-mail 1
+Custom Email 2,Custom E-mail 2
+"Unable to write low stock files. Permission Error on ""var"" Directory.","Kan lage voorraadniveaus bestanden weg te schrijven. Toestemming Fout op ""var"" Directory."
+Unable to write file for Seller ,Kan bestand voor de verkoper te schrijven
+Product ID,Product-ID
+Current Quantity,huidige Hoeveelheid
+Base Image,Base Afbeelding
+Small Image,kleine Afbeelding
+Thumbnail,thumbnail
+Disallowed file type.,Verworpen bestandstype.
+Type of the product you have selected for this import template file.,Aard van het product dat u hebt gekozen voor deze import template bestand.
+Attribute set you have selected for this product type in import template file.,Attribuut u hebt geselecteerd voor dit type product in import template-bestand.
+single pipe(|) seperated multiple categories,enkele pijp (|) gescheiden meerdere categorieën
+single pipe(|) seperated product sku,enkele pijp (|) gescheiden product sku
+single pipe(|) seperated attributes,enkele pijp (|) gescheiden attributen
+pair of values seperated by single pipe(|),waardenpaar gescheiden door een enkele pijp (|)
+System will group your bundle item on the basis of this title. If two items has same title then they will be grouped in same bundle.,Systeem groepeert uw bundel punt op de basis van deze titel. Als twee items heeft dezelfde titel dan zullen ze worden gegroepeerd in dezelfde bundel.
+Daily,Dagelijks
+Weekly,Wekelijks
+Monthly,Maandelijks
+Yearly,jaar-
+Waiting for Approval,Wachten op goedkeuring
+Approved,aangenomen
+Disapproved,afgekeurd
+Add new products,Voeg nieuwe producten
+Update existing products,Bijwerken van bestaande producten
+Add/update products,Toevoegen / bijwerken producten
+Delete products,producten verwijderen
+Bank Wire,Bankoverschrijving
+Payment By Cheque,Betaling per cheque
+Paypal,Paypal
+Please provide the paypal email id.,Geef de paypal e-id.
+Paypal Email ID,Paypal Email ID
+Please provide additional information.,Geef aanvullende informatie op.
+Additional Information,Extra informatie
+Please provide the name.,Geef de naam.
+Pay to the order of (name),Betalen aan de orde van (naam)
+Please provide the address.,Geef het adres.
+Address,Adres
+Address where the cheque should be sent to.,Adres waar de cheque moet worden verzonden.
+Please provide account owner name,Gelieve rekening eigenaarnaam
+Account Owner,Accounteigenaar
+Please provide bankwire details,Geef bankwire gegevens
+Details,Details
+"Such as bank branch, IBAN number, BIC, etc.","Zoals bankfiliaal, IBAN, BIC, etc."
+Please provide bankwire address.,Geef bankoverschrijving adres.
+Bank Address,Bank adres
+Requsted on: ,Requsted op:
+ by,door
+Amount: ,Bedrag:
+Payment Method: ,Betalingsmiddel:
+PayPal,PayPal
+PayPal ID: ,PayPal ID:
+Additional Information: ,Extra informatie:
+Bankwire,Bankoverschrijving
+Owner Name: ,Eigenaar Naam:
+Details: ,Details:
+Bank Address: ,Bank adres:
+Cheque,Controleren
+Address: ,Adres:
+No balance amount is left for this seller.,Geen saldo overblijft voor deze verkoper.
+No order found for this seller. Transaction cannot be initiated.,Geen bestelling gevonden voor deze verkoper. Transactie kan niet worden gestart.
+Paypal payout request failed.,Paypal uitbetaling verzoek is mislukt.
+Please enable paypal payout to make this transaction.,Activeer paypal uitbetaling om deze transactie te maken.
+Payout request does not exist.,Uitbetaling verzoek bestaat niet.
+By System,door System
+Manually,handmatig
+Successfully,Met succes
+Credit,Credit
+Debit,Debiteren
+Unknown,Onbekend
+Invalid request,Ongeldig verzoek
+Export type is missing,exporttype ontbreekt
+No product found as per your selected parameters.,Geen enkel product gevonden volgens uw geselecteerde parameters.
+Unable to process request,Kan verzoek niet verwerken
+No category assigned to you.,Geen categorie aan u toegewezen.
+invalid request,ongeldig verzoek
+Please select product parameters.,Selecteer product parameters.
+No products found to export.,Geen producten gevonden om te exporteren.
+Vacation is successfully canceled.,Vakantie is succesvol geannuleerd.
+New Vacation successfully created.,New Vacation succes aangemaakt.
+Your products will be hidden automatically when the vacation starts.,Uw producten worden automatisch verborgen wanneer de vakantie begint.
+Start Date or End Date cannot be less than today.,Startdatum of Einddatum kan niet lager zijn dan vandaag.
+Start Date or End Date cannot be same.,Startdatum of Einddatum kan niet hetzelfde zijn.
+Date range should not be in between of any previous active vacation.,Periode mag niet in tussen van een eerdere actieve vakantie.
+Technical error occurred while validating new vacation.,Technische fout opgetreden tijdens het valideren van nieuwe vakantie.
+The requested vacation's detail not found.,detail De gevraagde vakantie is niet gevonden.
+Marketplace - CRON,Marketplace - CRON
+Please enable the low stock notifications functionality first,Activeer de lage voorraad meldingen functionaliteit eerst
+Please enable the marketplace module first,Activeer de markt module eerste
+Low Stock Notifications Cron Executed Successfully.,Laag Stock Meldingen Cron succesvol uitgevoerd.
+"There were some errors executing the low stock notifications cron, please check Log for more details.","Er waren een aantal fouten uitvoeren van de lage voorraad meldingen cron, kijk dan het logboek voor meer informatie."
+Please enable the seller vacation functionality first,Activeer de verkoper vakantie functionaliteit eerst
+Vacation Cron Executed Successfully.,Vakantie Cron succesvol uitgevoerd.
+"There were some errors executing the vacation cron, please check Log for more details.","Er waren een aantal fouten uitvoeren van de vakantie cron, kijk dan het logboek voor meer informatie."
+View Shipment,Bekijk Zending
+Requested order details not Found.,Gevraagde orderdetails niet gevonden.
+We can\'t save the shipment right now.,We kunnen \ 't bewaart de zending op dit moment.
+Shipment Document Validation Error(s):\n,Verzending Document Validation Error (s): \ n
+The shipment has been created.,De zending is gemaakt.
+You created the shipping label.,U schiep de scheepvaart label.
+An error occurred while creating shipping label.,Een fout opgetreden tijdens het maken verzendingsetiket.
+Cannot save shipment.,Kan zending niet opslaan.
+Please enter a comment.,Vul geplaatst.
+Comment has been added for this shipment.,Reactie is toegevoegd voor deze zending.
+Cannot add new comment.,Kan geen nieuwe commentaar toevoegen.
+You sent the shipment.,Je stuurde de zending.
+Cannot send shipment information.,Kan informatie over de zending niet te sturen.
+Please specify a carrier.,Geef een carrier.
+Please enter a tracking number.,Geef een volgnummer.
+Tracking number successfully updated into this shipment.,Het volgen het aantal bijgewerkt in deze zending.
+We can\'t initialize shipment for adding tracking number.,We kunnen \ 't initialiseren zending voor het toevoegen van tracking-nummer.
+Cannot add tracking number.,Kan geen tracking nummer toe te voegen.
+Tracking number successfully deleted from this shipment.,Het volgen het aantal met succes verwijderd uit deze zending.
+We can\'t initialize shipment for delete tracking number.,We kunnen \ 't initialiseren zending om te verwijderen tracking nummer.
+We can\'t delete tracking number.,We kunnen \ 't verwijderen tracking nummer.
+We can\'t load track with retrieving identifier right now.,We kunnen \ 't last track met het ophalen van identifier op dit moment.
+Quanity updated successfully.,Quanity bijgewerkt.
+Low Stock,Lage voorraad
+Configuration Saved Successfully.,Configuration opgeslagen.
+Seller's Products - Reviews,Verkoper Producten - Reviews
+Pending,In afwachting
+Not Approved,Niet goedgekeurd
+Seller's Account-Orders,Account-Orders van de verkoper
+Seller OrderView,verkoper OrderView
+You sent the order email.,Je stuurde de bestelling e-mail.
+We can\'t send the email order right now.,We kunnen \ 't stuur het e-order nu.
+This order no longer exists.,Deze bestelling bestaat niet meer.
+There are no shipping documents related to this order.,Er worden geen verzendkosten documenten met betrekking tot dit besluit.
+Print Order,Printopdracht
+There are no invoice documents related to this order.,Er zijn geen factuur documenten met betrekking tot dit besluit.
+Seller List,Seller List
+Knowband,Knowband
+Marketplace,Marktplaats
+Email Template Updated successfully.,E-mail Template met succes bijgewerkt.
+Best Selling Products,Best verkopende producten
+ Seller(s) Disabled Successfully,Verkoper (s) succesvol Disabled
+Invalid Request,ongeldig verzoek
+Status changed successfully,Status succesvol gewijzigd
+Activated,geactiveerde
+Deactivated,gedeactiveerd
+Cannot update,Can not update
+Cannot load object,Kan geen object laden
+Seller Approved Successfully,Verkoper succesvol Goedgekeurd
+Email Templates,E-mail Templates
+Sellers Payout Request,Verkopers Uitbetaling Request
+Product Approval Request,Product verzoek om goedkeuring
+Technical error occurred while canceling vacation.,Technische fout opgetreden bij het annuleren van vakantie.
+Seller Reviews,verkoper Reviews
+%s by %s,% S% s
+The requested seller's review detail not found.,beoordeling detail De gevraagde verkoper niet gevonden.
+Import/Export Feature Request List,Import / Export Feature Request List
+Settings saved successfully.,Instellingen succesvol opgeslagen.
+Seller Account Approval Request,Verkoper Account verzoek om goedkeuring
+Seller Vacation List,Verkoper Vacation List
+Transaction detail successfully saved.,Transactie detail succesvol opgeslagen.
+Some error occured. Please try again.,Er is een fout opgetreden. Probeer het opnieuw.
+Total of %d record(s) have been updated.,Totaal% d record (s) zijn bijgewerkt.
+ Seller(s) Disapproved Successfully,Verkoper (s) Afgekeurd succesvol
+Seller Product List,Verkoper Product List
+Review has been approved successfully.,Beoordeling is met succes goedgekeurd.
+Technical Error Occured - Not able to update.,"Technische Error, - Niet in staat om te werken."
+Review has been disapproved successfully.,Beoordeling is met succes afgekeurd.
+Seller review has been deleted.,Verkoper beoordeling is verwijderd.
+Technical error occurred while processing category request.,Technische fout opgetreden tijdens het verwerken categorie aanvraag.
+Seller account has not been approved yet. Please approve the seller account first.,Verkoper account is nog niet goedgekeurd. Gelieve te keuren eerst de verkoper rekening.
+ record(s) have been updated.,record (s) zijn bijgewerkt.
+Product has been approved successfully.,Product is met succes goedgekeurd.
+ Seller(s) Approved Successfully,Verkoper (s) succesvol Goedgekeurd
+Approval updated successfully,Goedkeuring bijgewerkt
+Seller Review Approval Request,Verkoper Beoordeling verzoek om goedkeuring
+PayPal Payout settings has been saved successfully.,PayPal Uitbetaling instellingen is opgeslagen.
+Category Wise Commissions,Categorie Wise Commissions
+CRON Instructions,CRON Instructions
+Seller List with Import/Export Feature,Verkoper Lijst met Import / Export Feature
+Product Reviews,product-reviews
+Seller Disapproved Successfully,Verkoper Afgekeurd succesvol
+Category Request List,Categorie List Request
+Commissions,commissies
+Total of %d record(s) have been deleted.,Totaal% d record (s) zijn verwijderd.
+ Seller(s) Enabled Successfully,Verkoper (s) succesvol Ingeschakeld
+Sellers Payout,verkopers Uitbetaling
+"Some of the products are not enabled, because either these products or their sellers are not approved/disabled.","Sommige van de producten zijn niet ingeschakeld, omdat ofwel deze producten of hun verkopers niet zijn goedgekeurd / uitgeschakeld."
+Some of the processed products have no SKU value defined. Please fill it prior to performing operations on these products.,Een deel van de verwerkte producten hebben geen SKU waarde gedefinieerd. Gelieve te vullen voor het uitvoeren van bewerkingen op deze producten.
+Payout request status has been updated successfully.,Uitbetaling aanvraag status is bijgewerkt.
+Invalid Request.,Ongeldig verzoek.
+Seller Wise Commissions,Verkoper Wise Commissies
+Seller Dashboard,verkoper Dashboard
+Your request has been sent. Please wait for store response.,Uw verzoek is verstuurd. Gelieve te wachten op antwoord op te slaan.
+Cannot send request,Kan verzoek niet verzenden
+Product Import/Export,Product Import / Export
+Seller Profile,Verkopersprofiel
+Seller Profile saved successfully.,Verkoper profiel opgeslagen.
+Not Available,Niet beschikbaar
+Your payout request has been submitted successfully.,Uw uitbetaling aanvraag is met succes ingediend.
+Please configure payout method in the seller profile menu.,Gelieve te configureren uitbetaling methode in de verkoper profiel menu.
+Seller's Account - Payout Requests,Uitbetaling Aanvragen - Rekening van de Verkoper
+Error Occured,Fout opgetreden
+Thank you for rating the Seller.,Dank u voor de rating van de verkoper.
+Posting review for this seller is not allowed.,Posting beoordeling voor deze verkoper is niet toegestaan.
+Seller Account - My Reviews,Verkoper Account - Mijn beoordelingen
+"You can't register yourself as seller because your registration request limit has been over. To register, please contact to support.","Je kunt jezelf niet inschrijven als verkoper, omdat uw aanvraag tot registratie limiet is voorbij. Om te registreren, neem dan contact op om te ondersteunen."
+Seller's Account - Earnings,Rekening van de Verkoper - Earnings
+Seller's Account - Transactions History,Transacties Geschiedenis - Rekening van de Verkoper
+File Path is Missing,File Path is Missing
+Unknown file,onbekend bestand
+General worksheet is missing.,Algemeen werkblad ontbreken.
+Column title row is missing from general worksheet.,Kolomtitel rij ontbreekt in het algemeen werkblad.
+Column '%s' is missing from general worksheet.,Column '% s' ontbreekt in het algemeen werkblad.
+File is empty.,File is leeg.
+Error in processing '%s' sku before deleting.,Fout bij de verwerking van '% s' sku voordat ze worden verwijderd.
+Listed products are not deleted:,Vermelde producten worden niet verwijderd:
+"Upload your file and try again. To speed up delete process, please remove all products that has been deleted.","Upload uw bestand en probeer het opnieuw. Om het tempo van delete proces, verwijder alle producten die is verwijderd."
+Your products has been deleted. System will redirect you on product list automatically in 5 secs.,Uw producten is verwijderd. Het systeem zal u automatisch wordt omgeleid over product lijst in 5 seconden.
+Import action is Missing,Import actie is Missing
+Meta Information worksheet is missing,Meta Information werkblad ontbreken
+File must not exceed ,Bestand mag niet meer dan
+This sku does not exist,Dit sku bestaat niet
+Product of this SKU is not yours.,Product van deze SKU niet van jou is.
+This row has error,Deze rij heeft fout
+Meta Information Sheet is Missing,Meta informatieblad is Missing
+Error in processing data of '%s' sku.,Fout bij de verwerking van gegevens van '% s' sku.
+Listed products are not saved:,Vermelde producten worden niet opgeslagen:
+"Upload your file and try again. To speed up process, please remove all other product data that has been saved successfully.","Upload uw bestand en probeer het opnieuw. Om het tempo van proces, verwijder alle andere productgegevens die met succes heeft gered."
+Your products has been uploaded. System will redirect you on product list automatically in 5 secs.,Uw producten is geüpload. Het systeem zal u automatisch wordt omgeleid over product lijst in 5 seconden.
+Error while processing rows in uploaded file.,Fout bij het verwerken van rijen in geupload bestand.
+Error: %s,Error:% s
+Product Type is missing from Meta Sheet Worksheet,Product Type ontbreekt in Meta Sheet werkblad
+Product Type is invalid in Meta Sheet Worksheet,Product Type is ongeldig in Meta Sheet werkblad
+Attribute set id is missing from Meta Sheet Worksheet,Attribuut id ontbreekt in Meta Sheet werkblad
+Attribute set id is not valid in Meta Sheet Worksheet,Attribuut id is niet geldig in Meta Sheet werkblad
+This SKU is already used by other product of you or other seller.,Deze SKU wordt al gebruikt door ander product van u of andere verkoper.
+This SKU is used by other seller or store.,Deze SKU wordt gebruikt door andere verkoper of op te slaan.
+This value is required,Deze waarde is vereist
+Invalid Value. Only date format value is accepted.,Ongeldige waarde. Alleen datumnotatie waarde wordt geaccepteerd.
+Invalid Value. Only Price type value accepted,Ongeldige waarde. Alleen Prijs waarde type geaccepteerd
+Invalid Value. Only positive number type value accepted,Ongeldige waarde. Alleen positief getal waarde type geaccepteerd
+Out of range value. Please see possible value for this field.,Buiten bereik waarde. Zie mogelijke waarde voor dit veld.
+Some of the values are not exist.,Sommige van de waarden niet bestaan.
+Your request has been sent to the admin for approval.,Uw aanvraag is verzonden naar de beheerder voor goedkeuring.
+Seller's Account - Request a New Category,Account van de verkoper - Vraag een nieuwe categorie
+Attribute set is missing,Attribute set ontbreekt
+Attribute set cannot load,Attribute set kan niet laden
+1. This worksheet is required and must be included in your import file,1. Dit werkblad is vereist en moet worden opgenomen in uw importbestand
+2. Do not change worksheet name as well as its content.,2. Gebruik werkblad naam en de inhoud ervan niet veranderen.
+3. Any change in this worksheet format will not allow system to import your data into system.,3. Elke verandering in dit werkblad formaat zal niet toestaan ​​dat systeem om uw gegevens te importeren in het systeem.
+4. We recommend you to copy this worksheet in your import file with same worksheet name.,4. We raden u aan dit werkblad te kopiëren in uw importbestand met hetzelfde werkblad naam.
+1. This worksheet contains possible values of some field.,1. Dit werkblad bevat mogelijke waarden van een aantal veld.
+2. Please fill the related fields only from these possible values.,2. Vul het aanverwante gebieden alleen van deze mogelijke waarden.
+3. If possible values for any field are not given then you can fill it with any text value.,3. Indien mogelijke waarden voor elk veld toen nog niet worden gegeven kun je vullen met een tekst waarde.
+Seller's Products,Producten van de verkoper
+The product has been saved.,Het product is opgeslagen.
+This window will be closed automatically within %s secs.,Dit zal automatisch binnen% s seconden gesloten.
+Product has been saved successfully.,Product is met succes opgeslagen.
+The product has been duplicated successfully.,Het product is met succes gedupliceerd.
+Product has been created successfully.,Product is met succes aangemaakt.
+Please wait for admin approval.,Gelieve te wachten op goedkeuring door de beheerder.
+"Adding of new product limit has been over as your account is not approved or waiting for approval. To add more products, your account needs to be approved.","Het toevoegen van nieuwe producten te beperken is meer dan als uw account niet is goedgekeurd of wachten op goedkeuring. Om meer producten toe te voegen, uw account moet worden goedgekeurd."
+You duplicated the product.,U gedupliceerd het product.
+Seller's Product,De verkoper het product
+This SKU already exist.,Deze SKU bestaan ​​al.
+Cancel Vacation,Annuleren Vacation
+Add New Vacation,Voeg Nieuw Vakantie
+Vacation Halted,vakantie Halted
+Created Date,gemaakt Date
+This vacation is already canceled,Deze vakantie is al geannuleerd
+Visibility,Zichtbaarheid
+click to edit product,klik om product uit te geven
+click to update quantity,klik om af te hoeveelheid updaten
+Update Quantity,Aantal bijwerken
+Order No.,Bestelnr.
+From Date,Van datum
+To Date,Daten
+click to print order,Klik op bestelling af te drukken
+Shipping & Handling,Shipping & Handling
+Discount (%1),Korting (% 1)
+Discount,Korting
+Grand Total,Eindtotaal
+Grand Total to be Charged,Grand Total aan te rekenen
+Custom Value,Custom Value
+Order # %1,Bestel #% 1
+Comment History,Comment Geschiedenis
+Shipment History,Shipment History
+Credit Memo History,Creditnota Geschiedenis
+Subtotal (Excl.Tax),Subtotaal (Excl.Tax)
+Subtotal (Incl.Tax),Subtotaal (Incl.Tax)
+Shipping & Handling (Excl.Tax),Het verschepen & Behandeling (Excl.Tax)
+Shipping & Handling (Incl.Tax),Het verschepen & Behandeling (Incl.Tax)
+Grand Total (Excl.Tax),Grand Total (Excl.Tax)
+Grand Total (Incl.Tax),Grand Total (Incl.Tax)
+Email,E-mail
+Shipping Charges,Verzendkosten
+Track this shipment,Volg deze zending
+Track Order,Volg bestelling
+Shipping Method,Verzendmethode
+Shipping not Required,Verzending niet Verplicht
+Payment Method,Betalingsmiddel
+Grand Total (Excl. Shipping),Grand Total (excl. Verzendkosten)
+Discount (%s),Korting (% s)
+Total Refunded,Totaal Teruggestort
+Total Due,Totaal verschuldigd
+Shipping & Handling (Excl. Tax),Het verschepen & Behandeling (excl. Belasting)
+Shipping & Handling (Incl. Tax),Het verschepen & Behandeling (incl. BTW)
+Print Order # %1,Print Order #% 1
+Minimum %d character requried,Minimum% d karakter requried
+Save Template,Sjabloon opslaan
+Show Report,Rapport weergeven
+Manage Seller Account,Manage Verkopersaccount
+Add Subcategory,Voeg Subcategorie
+Add Root Category,Voeg Root Categorie
+Save Settings,Instellingen opslaan
+Seller Payout Request,Verkoper Uitbetaling Request
+ID,ID kaart
+Transation Date,transation Date
+Telephone,Telefoon
+Commission (in %),Commissie (in%)
+Your Earnings,uw inkomsten
+Category wise Commissions,Categorie verstandig Commissions
+Total Commission,Totaal Commissie
+Transaction History,Transactie Geschiedenis
+Seller wise Commissions,Verkoper verstandig Commissies
+Seller Earning,verkoper Earning
+Amount Transfer,bedrag Transfer
+Transaction Action,Transaction Actie
+Sellers Payout (,Verkopers Uitbetaling (
+Seller Order List,Verkoper Order List
+Purchased From (Store),Gekocht van (winkel)
+Purchased On,Gekocht op
+Actions,acties
+Template Description,sjabloonbeschrijving
+Template Type,Template Type
+Date Added,Datum toegevoegd
+Date Updated,datum van update
+Seller Best Selling Product List,Verkoper Best Selling catalogus
+Interval,Interval
+Order Quantity,bestelling Aantal
+Product Price,Product prijs
+Seller Account Approval Request List,Verkoper Account verzoek om goedkeuring List
+Approved Status,goedgekeurde Status
+Added Date,Toegevoegd Date
+Approve,Goedkeuren
+Account Status,Account Status
+Seller Status,verkoper Status
+Seller Since,verkoper Aangezien
+Posted On,Geplaatst op
+Request Date,Datum van aanvraag
+Vacation Active,vakantie Actief
+Seller Review Approval List,Verkoper Beoordeling Goedkeuring List
+Seller Approval List,Verkoper Goedkeuring List
+Seller Product Reviews,Verkoper product Reviews
+Created On,Gemaakt op
+Nickname,Bijnaam
+Visible In,zichtbaar In
+Type,Type
+Product SKU,product SKU
+Edit,Bewerk
+Seller Category Request List,Verkoper Categorie List Request
+Seller Email,E-mail verkoper
+View,Uitzicht
+Disapprove,Afkeuren
+Make New,maak Nieuw
+Edit Template,Edit Template
+Products,producten
+Administrator,Beheerder
+Guest,Gast
+Seller Bulkimport Feature List,Verkoper Bulkimport Feature List
+Last Update,Laatste update
+Feature Status,feature Status
+Seller Bulkimport Feature Request List,Verkoper Bulkimport Feature Request List
+Seller Comment,verkoper Comment
+Your Comment,Jouw commentaar
+Request Status,Verzoek status
+Activate Feature,activeren Feature
+Read More,Lees verder
+click to view review,klik om een ​​recensie te bekijken
+Posted on: %s by %s,Geplaatst op:% s door% s
+Home,Huis
+Home Page,Startpagina
+click to view product,klik naar het product te bekijken
+Your seller account is currently under process and not yet approved. You only have a limited access to the seller account currently.,Uw verkoper-account is momenteel in behandeling zijn en nog niet goedgekeurd. Je hoeft alleen maar een beperkte toegang tot de verkoper rekening moment.
+Your seller account has been disapproved. You only have a limited access to the seller account currently. To send request again ,Uw verkoper account is afgekeurd. Je hoeft alleen maar een beperkte toegang tot de verkoper rekening moment. Op het verzoek opnieuw te verzenden
+Click Here,Klik hier
+Product Catalog,Product catalogus
+Product Feedback,Productfeedback
+Earnings,verdiensten
+Transactions,transacties
+New Category Request,Nieuwe categorie Request
+My Vacations,Mijn vakanties
+Requested Date,Gevraagde datum
+Request On,Vraag On
+Date,Datum
+Transaction Date,transactie datum
+Amount of %s debited from your earning on %s,Bedrag van% s afgeschreven van uw verdiencapaciteit op% s
+Amount of %s credited into your account on %s,Bedrag van% s bijgeschreven op je account op% s
+Report Format,rapportformaat
+Your file is valid. Please click 'Delete Products' button to delete your products,Uw bestand geldig is. Klik op de knop 'Producten Verwijder' om uw producten te verwijderen
+Your file is valid. Please click 'Import Products' button to upload your products,Uw bestand geldig is. Klik op 'Import Products' knop om uw producten te uploaden
+Delete Products,Verwijder producten
+"Adding of new product limit has been over as your account is not approved or waiting for approval. To add more products, your account need to be approved.","Het toevoegen van nieuwe producten te beperken is meer dan als uw account niet is goedgekeurd of wachten op goedkeuring. Om meer producten toe te voegen, uw account moeten worden goedgekeurd."
+Use Default Value,Standaard gebruiken Value
+Seller Account,verkoper account
+General Settings,Algemene instellingen
+Seller List,Seller List
+Seller Account Approval Request,Verkoper Account verzoek om goedkeuring
+Seller Product List,Verkoper Product List
+Product Approval Request,Product verzoek om goedkeuring
+Product Reviews,product-reviews
+Seller Reviews,verkoper Reviews
+Seller Review Approval Request,Verkoper Beoordeling verzoek om goedkeuring
+Category Request List,Categorie List Request
+Seller Vacation List,Verkoper Vacation List
+Reports - Best Selling Products,Rapporten - Best verkopende producten
+Email Templates,E-mail Templates
+CRON Instructions,CRON Instructions
+Bulk Import/Export,Bulk Import / Export
+Seller With Feature,Verkoper Met Feature
+Feature Activation Request,Feature Activation Request
+Transactions and Earnings,Transacties en winst
+Commissions,commissies
+Category Wise Commissions,Categorie Wise Commissions
+Seller Wise Commissions,Verkoper Wise Commissies
+Sellers Payout List,Verkopers Uitbetaling List
+Sellers Payout Request,Verkopers Uitbetaling Request
+PayPal Payout Settings,PayPal Uitbetaling Instellingen
+Best Selling Products,Best verkopende producten
+Seller with Import/Export Feature,Verkoper met Import / Export Feature
+Import/Export Feature Activation Request List,Import / Export Feature Activation Request List
+Category Wise Commission,Categorie Wise Commissie
+Category Request List,Categorie List Request
+Edit Email Template,Bewerken E-mail Template
+Email Templates,E-mail Templates
+Seller Order List,Verkoper Order List
+PayPal Payout Settings,PayPal Uitbetaling Instellingen
+Product Approval Request,Product verzoek om goedkeuring
+All Seller's Products - Reviews,Alle verkoper Producten - Reviews
+Seller Account Approval Request,Verkoper Account verzoek om goedkeuring
+Seller Wise Commission,Verkoper Wise Commissie
+Seller List,Seller List
+Seller Product List,Verkoper Product List
+Seller Review Approval Request,Verkoper Beoordeling verzoek om goedkeuring
+All Seller's Reviews,Reviews Alle verkoper
+Seller Vacation List,Verkoper Vacation List
+Commissions,commissies
+Sellers Payout,verkopers Uitbetaling
+Sellers Payout Request,Verkopers Uitbetaling Request
+View Sellers,Bekijk Verkopers
+Start date or end date can not be same,Start datum of einddatum kan niet hetzelfde zijn

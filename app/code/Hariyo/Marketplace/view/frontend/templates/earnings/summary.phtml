@@ -1,0 +1,44 @@
+<div class="row">
+    <div class="col-lg-3 col-md-6 col-xs-12">
+        <div class="small-box bg-aqua">
+            <div class="inner">
+                <h3><?php echo $this->getTotalSale(); ?></h3>
+                <p><?php echo __("Total Sale"); ?></p>
+            </div>
+            <div class="icon"><i class="fa fa-check-square"></i></div>
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-6 col-xs-12">
+        <div class="small-box bg-green">
+            <div class="inner">
+                <h3><?php echo $this->getTotalEarning(); ?></h3>
+                <p><?php echo __("Total Earning"); ?></p>
+            </div>
+            <div class="icon"><i class="fa fa-credit-card"></i></div>
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-6 col-xs-12">
+        <!-- small box -->
+        <div class="small-box bg-yellow">
+            <div class="inner">
+                <h3><?php echo $this->getTotalOrder(); ?></h3>
+                <p><?php echo __("Total Orders"); ?></p>
+            </div>
+            <div class="icon">
+                <i class="fa fa-shopping-cart"></i>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-3 col-md-6 col-xs-12">
+        <!-- small box -->
+        <div class="small-box bg-purple">
+            <div class="inner">
+                <h3><?php echo $this->getTotalProductSold(); ?></h3>
+                <p><?php echo __("Total Products Sold"); ?></p>
+            </div>
+            <div class="icon">
+                <i class="fa fa-tint"></i>
+            </div>
+        </div>
+    </div>
+</div>

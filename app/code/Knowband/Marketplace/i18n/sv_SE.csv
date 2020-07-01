@@ -1,0 +1,1009 @@
+The product status will be 'Disabled' until it is approved from admin.,Produkten status kommer att 'handikappade' förrän den har godkänts av admin.
+The seller has already added more products. Please either increase the limit or save it as it is.,Säljaren har redan lagt till fler produkter. Vänligen antingen höja gränsen eller spara det som det är.
+Reason,Anledning
+Required field,obligatoriskt fält
+Submit,Lämna
+Why do you want to do this?,Varför vill du göra det här?
+Continue,Fortsätta
+Something went wrong. Please try again.,Något gick fel. Var god försök igen.
+Vacation Interval: ,Semester Intervall:
+Is Active: ,Är aktiv:
+Vacation Halt Status: ,Vacation Halt Status:
+Comment: ,Kommentar:
+Reason for canceling vacation: ,Anledning till att avbryta semester:
+Vacation Detail,semester~~POS=TRUNC Detalj
+Your comment to cancel this vacation,Din kommentar att avbryta semester
+Register as Seller,Registrera dig som säljare
+Yes,Ja
+No,Nej
+Marketplace CRON Instructions,Marknads Cron Instruktioner
+Vacation CRON,semester~~POS=TRUNC CRON
+Disable the products during the seller's vacation period.,Inaktivera produkterna under säljarens semesterperioden.
+Low Stock Notification CRON,Låg Stock Anmälan CRON
+Send the notification to the sellers about their low stock products.,Skicka anmälan till säljarna om deras låga lagerprodukter.
+Cron Instructions,cron Instruktioner
+Add the Cron Jobs to your store via control panel/putty. Find below the Instruction to add the Cron Jobs.,Tillsätt Cron jobb till din butik via kontrollpanelen / kitt. Nedan instruktionen att lägga till Cron Jobs.
+URLs to Add to Cron via Control Panel,URL: er att lägga till Cron via Kontrollpanelen
+1. Vacation CRON,1. Semester CRON
+2. Low Stock Notification CRON,2. Låg Stock Anmälan CRON
+Cron setup via SSH,Cron inställning via SSH
+Choose Store Categories,Välj Affärskategorier
+Collapse All,Kollapsa alla
+Expand All,Expandera alla
+This operation can take a long time,Denna operation kan ta lång tid
+Please confirm site switching. All data that hasn\'t been saved will be lost.,Bekräfta plats växling. Alla data som hasn '\ t sparats kommer att gå förlorade.
+Warning message,Varningsmeddelande
+Field cannot be empty.,Fältet kan inte vara tomt.
+You can enter only numbers.,Du kan endast ange siffror.
+Number should be greater than 0.,Nummer bör vara större än 0.
+Field cannot be greater than {#} characters.,Fältet kan inte vara större än {#} tecken.
+Field cannot be less than {#} character(s).,Fältet kan inte vara mindre än {#} tecken (s).
+Please enter Email.,Ange E-post.
+Please enter a valid Email.,Ange ett giltigt e-post.
+Invalid date format.,Ogiltigt datumformat.
+Number is not in the valid range. It should be between {#} and {##},Nummer är inte det giltiga intervallet. Det bör vara mellan {#} och {##}
+Field should be numeric.,Område bör numeriskt.
+Field should be positive.,Fältet ska vara positiv.
+Field can have only upto two decimal values.,Fältet kan bara ha upp till två decimalvärden.
+Email cannot be greater than {#} characters.,E-post kan inte vara större än {#} tecken.
+Zip should not have special characters.,Zip bör inte ha specialtecken.
+Percentage should be in number.,Procent ska vara i antal.
+Percentage should be between 0 and 100.,Procentsats bör vara mellan 0 och 100.
+Size cannot be greater than {#} characters.,Storlek kan inte vara större än {#} tecken.
+Color could not be greater than {#} characters.,Color kunde inte vara större än {#} tecken.
+Color is not valid.,Färg är inte giltigt.
+Special characters are not allowed.,Specialtecken är inte tillåtna.
+Script tags are not allowed.,Script-taggar är inte tillåtna.
+Style tags are not allowed.,Style-taggar är inte tillåtna.
+Iframe tags are not allowed.,Iframe-taggar är inte tillåtna.
+Uploaded file is not an image.,Uppladdade filen är inte en bild.
+Uploaded file size must be less than {#}.,Uppladdade filstorleken måste vara mindre än {#}.
+Field should not contain HTML tags.,Fältet får inte innehålla HTML-taggar.
+You can enter only positive numbers.,Du kan ange bara positiva tal.
+Are you sure?,Är du säker?
+Comment,Kommentar
+Are you sure to update feature status of this seller?,Är du säker på att uppdateringsfunktionen status denna säljare?
+Do you have any comment?,Har du några kommentarer?
+"For accurate reporting, be sure to refresh lifetime statistics whenever you change the time zone.","För korrekt rapportering, se till att uppdatera livstid statistik när du ändrar tidszonen."
+To refresh last day's,Om du vill uppdatera sista dagen
+statistics,statistik
+click,klick
+here,här
+Filter,Filtrera
+Period,Period
+Day,Dag
+Month,Månad
+Year,År
+From,Från
+Select Date,Välj Datum
+To,Till
+Choose Category,Välj kategori
+All Categories,alla kategorier
+Choose a Seller,Välj en Säljare
+All Sellers,alla säljare
+NA,NA
+PayPal Payout Settings,PayPal Utbetalningsinställningar
+Active,Aktiva
+Enable or Disable Paypal Payment Method.,Aktivera eller inaktivera Paypal betalningsmetod.
+Client ID,Klient ID
+Client Secret,klient~~POS=TRUNC Secret
+Paypal Mode,Paypal Läge
+Sandbox,Sandlåda
+Live,leva
+Paypal Email Subject,Paypal Email Subject
+Paypal Currency ,Paypal Currency
+Select the default currency set in Paypal Account.,Välj standardvaluta som i Paypal-konto.
+Are You Sure you want to reset the settings?,Är du säker på att du vill återställa inställningarna?
+Edit Email Template,Redigera e-postmall
+About Template,om Mall
+Template Subject,mall~~POS=TRUNC Subject
+Email Content,e-innehåll
+Template Content,mall~~POS=TRUNC innehåll
+Please do not edit or remove any template variable.,Vänligen inte redigera eller ta bort någon mall variabel.
+Example,Exempel
+Seller Account Settings,Säljare Kontoinställningar
+Default Commission,standard~~POS=TRUNC kommissionen
+Please enter a number between 0 and 100 only and in a proper format.,Ange ett tal mellan 0 och endast 100 och på ett korrekt format.
+Use Global,användning Global
+New Product Limit,Ny produkt Limit
+Limit the sellers to add new products without account approval.,Begränsa säljarna att lägga till nya produkter utan hänsyn godkännande.
+If left blank than product limit will be assumed 0.,Om den lämnas tom än produktgränsen kommer att antas 0.
+Categories Allowed,kategorier tillåtet
+If no category is selected that will mean that all the categories are allowed.,Om ingen kategori väljs som kommer att innebära att alla kategorier är tillåtna.
+Product Approval Required,Produktgodkännande Krävs
+Enable,Gör det möjligt
+Disable,inaktivera
+Enable Seller Review,Aktivera Säljare Review
+Required Seller Review Approval,Krävs Säljare Review Godkännande
+Email to Seller on Order Place,E-post till säljaren på Order Place
+Please enter a valid number in this field.,Ange ett giltigt nummer i detta område.
+Payout Transaction Request,Utbetalning transaktionsbegäran
+Required Field,Obligatoriskt fält
+Invalid Value,Ogiltigt värde
+"Invalid Value, please enter a number greater than zero","Ogiltigt värde, ange ett nummer större än noll"
+Minimum 30 character required,Minst 30 förmåga som krävs
+General Settings,Allmänna Inställningar
+Enable Marketplace,aktivera Marknads
+Toggle to enable or disable extension,Växla för att aktivera eller inaktivera förlängning
+Default Commission (%),Standard kommissionen (%)
+Set default commission in percentage for each product.,Ange standard provision i procent för varje produkt.
+Choose the categories allowed for the sellers. If no category is selected that will mean that all the categories are allowed.,Välj de kategorier som är tillåtna för säljarna. Om ingen kategori väljs som kommer att innebära att alla kategorier är tillåtna.
+Register as Seller Field,Registrera sig som Säljaren Field
+Enable to add 'Register as Seller' field while registering.,"Aktivera för att lägga till ""Registrera dig som säljare fältet medan registrering."
+Enable Bulk Import/Export,Aktivera Bulk Import / Export
+"If disable, no seller will be able to use bulk import/export feature.","Om inaktivera, kommer ingen säljare att kunna använda bulk import / export funktionen."
+If enable an email will be sent to seller on order for his product.,Om möjliggöra en e-post kommer att skickas till säljaren på beställning för sin produkt.
+Enable Vacation Mode,Aktivera semesterläge
+"If disable, no seller will be able to use vacation feature.","Om inaktivera, kommer ingen säljare att kunna använda semester funktion."
+Show Seller Info on Product Page,Visa Säljare Info om Product Page
+Enable/Disable to show/hide seller info on product page.,Aktivera / inaktivera att visa / dölja säljare info på produktsidan.
+Enable or Disable Approval of product for the sellers.,Aktivera eller inaktivera Godkännande av produkt för säljarna.
+Default limit for sellers of adding new products before account approval. Blank will be considered as 0.,Standard gräns för säljare att lägga till nya produkter innan konto godkännande. Blank kommer att betraktas som 0.
+Enable or Disable Seller review feature. This feature enables the customers to add review for sellers.,Aktivera eller inaktivera Säljare översyn funktionen. Den här funktionen gör det möjligt för kunderna att lägga översyn för säljare.
+Seller Review Approval Required,Säljare Review Godkännande krävs
+Enable or Disable Approval for seller review. Once the review is approved then only it will be visible to the customers.,Aktivera eller inaktivera Godkännande för säljare granskning. När granskningen är godkänd då det bara kommer att vara synlig för kunderna.
+Enable Seller List,Aktivera Säljare Lista
+Show or Hide Sellers List from customers.,Visa eller Dölj Säljare List från kunder.
+Enable Search Box,Aktivera sökruta
+Enable or Disbale search box to search seller on seller listing page.,Aktivera eller Disbale sökrutan för att söka säljaren på säljarens notering sidan.
+Low Stock Configuration,Låg Stock Configuration
+Enable Low Stock Notification,Aktivera låg Stock Anmälan
+Enable or Disable Low Stock Notification feature.,Aktivera eller inaktivera Låg Stock Anmälan funktionen.
+Low Inventory Limit,Låg Inventory Limit
+Enter the limit below that the products are considered low stock.,Ange gräns under att produkterna anses låg lager.
+When to Notify,När ska meddelas
+Choose when to notify the seller regarding the critical inventories.,Välj när att meddela säljaren om de kritiska lager.
+Cron Job,Cron jobb
+On Order Place,På beställningen Place
+Send Notifications From,Skicka meddelanden från
+Choose the email from which you want to send the notifications.,Välj e-postmeddelandet som du vill skicka meddelanden.
+Seller Name,säljaren Namn
+Select,Välj
+Transaction ID,Transaktions ID
+Transaction Type,Överföringstyp
+Amount,Belopp
+Send Email to Seller,Skicka e-post till Säljaren
+"Invalid Value, please enter a number greater then zero","Ogiltigt värde, ange ett nummer större än noll"
+Add New Transaction,Lägg till ny transaktion
+Posted On: ,Postat den:
+Customer Rating: ,Kundbetyg:
+Review: ,Recension:
+Reason for Disapproval: ,Anledning till Disapproval:
+Seller Review Detail,Säljare Review Detalj
+Provide Your Reason,Ge din Reason
+We can\'t find products matching the selection.,Vi kan \ 't hitta produkter överensstämmer med urvalet.
+View Details,Visa detaljer
+In stock,I lager
+Out of stock,Tillfälligt slut
+Learn More,Läs mer
+My Sales Dashboard,Min försäljning Dashboard
+Total Revenue,Totala intäkter
+Total Orders,Totalt Order
+Total Products Sold,Totalt produkter Såld
+Last 7 Days,Senaste 7 dagar
+Sales Comparisons,försäljnings~~POS=TRUNC Jämförelser
+Orders,Order
+Revenue,Inkomst
+Products Sold,produkter som säljs
+Discounts,rabatter
+Balance Amount Variations,Balans Belopp Variationer
+Today,I dag
+Yesterday,I går
+This Week,Denna vecka
+Last Week,Förra veckan
+This Month,Den här månaden
+Last Month,Förra månaden
+This Year,Det här året
+Last Year,Förra året
+Last 10 Orders,Senaste 10 Order
+View All Orders,Visa alla beställningar
+Order Number,Ordernummer
+Order Date,Orderdatum
+Customer Name,Köparens namn
+Customer Email,Kund Email
+Qty,Antal
+Status,Status
+Order Total,ordersumma
+click to view order,klicka för att visa order
+No Orders Placed Yet,Inga beställningar Yet
+Seller Products,säljaren produkter
+Filter Products,filter produkter
+Category,Kategori
+Sort By,Sortera efter
+Name,namn
+SKU,SKU
+Price(low to high),Pris (lågt till högt)
+Price(high to low),Pris (högt till lågt)
+Products Feedback,produkter Feedback
+Filter Your Search,Filtrera din sökning
+Search,Sök
+Reset,Återställa
+No Data,Inga data
+Posted on,publiceras på
+by,av
+Rating,Betyg
+Summary,Sammanfattning
+Review,Recension
+My Products Catalog,Mina produkter katalog
+New Product,Ny produkt
+Choose,Välja
+Please select atleast one item from list.,Välj minst ett objekt från listan.
+Select Attribute Set for New Product,Välj attribut Set för ny produkt
+Attribute Set,attributuppsättning
+Product Type,Produkttyp
+Choose Bulk Action,Välj Bulk Action
+Delete,Radera
+Status Update,Status uppdatering
+Close,Stänga
+Save,Spara
+Save & Continue,Spara och fortsätt
+Duplicate,Duplicera
+Cancel,Annullera
+%d characters remaining.,% d tecken kvar.
+Please fill required fields with valid information.,Vänligen fyll obligatoriska fält med giltig information.
+Special price should be less than actual price,Specialpris bör vara mindre än faktiska priset
+Past date not allowed,Past hittills inte tillåtet
+Quick simple product creation,Snabb enkel skapande produkt
+Create,Skapa
+Prices,priserna
+Meta Information,metainformation
+General Information,Allmän information
+Allows your product's visibility on search or catalog page.,Låter din produkt synlighet på sök eller katalogsida.
+Maximum %d characters allowed.,Maximala% d tecken tillåtna.
+Date of product from which this product will be marked as new.,Datum för produkt från vilken produkten kommer att märkas som ny.
+Date of product until which this product will be marked as new.,Datum för produkten tills vilka denna produkt kommer att markeras som nytt.
+Category Mapping,kategori Mapping
+Associated Products,tillhörande produkter
+Create Simple Product,Skapa enkel produkt
+Quick Create,Quick Skapa
+Id,Id
+Sku,sku
+Product Name,produktnamn
+Stock Status,Lagerstatus
+Select Attribute,Välj attribut
+Attribute,Attribut
+Price,Pris
+Default Qty,standard Antal
+Samples,prover
+Title,Titel
+File,Fil
+Sort Order,Sorteringsordning
+Add New Row,Lägg till ny rad
+Links,länkar
+Links can be purchased separately,Länkar kan köpas separat
+Max. Downloads,Max. Nedladdningar
+Shareable,delbara
+Sample,Prov
+Unlimited,Obegränsat
+Url,url
+Inventory,Lager
+Quantity,Kvantitet
+Manage Stock,Hantera Stock
+"On enabling, stock will be managed automatically. For manual stock, select disable","På att möjliggöra, kommer lager hanteras automatiskt. För manuell lager väljer inaktivera"
+Qty Uses Decimal,Antal Använder Decimal
+Stock Availability,Lagersaldo
+Shipment,Sändning
+Ship Bundle Items,Ship Bundle Items
+Separately,Separat
+Together,Tillsammans
+Bundle Items Options,Bundle Objekt Alternativ
+Add New Option,Lägg till ny Option
+Default Title,standard~~POS=TRUNC Titel
+Delete Option,Radera Option
+Input Type,ingångs Typ
+Is Required,Krävs
+Position,Placera
+Add Selection,Lägg till Val
+Price Type,pris Typ
+User Defined Qty,Användardefinierade Antal
+Default,Standard
+Qty to Add,Antal att lägga
+Add Selected Product(s) to Option,Lägg till valda produkten (s) till Option
+Images,Bilder
+Image,Bild
+Label,Märka
+Remove,Ta bort
+File is not supported,File stöds inte
+Upload New Image,Ladda upp ny bild
+".jpeg, .jpg, .png, ,gif",".jpeg, .jpg, .png, gif"
+No Image uploaded for this product,Ingen Bild överförs för denna produkt
+Browse,Bläddra
+Related Products,Relaterade produkter
+This attribute set does not have attributes which we can use for configurable product,Detta attribut set inte har egenskaper som vi kan använda för konfigurerbar produkt
+Please select one or more attributes.,Välj ett eller flera attribut.
+Sold By,Såld av
+Total %d review(s),Total% d översyn (er)
+View Reviews,View
+Write Review,Skriv recension
+File Size Exceeding the Limit.,Filstorlek överskrider begränsningen.
+Max Upload Size: 200 KB,Max upp Storlek: 200 KB
+Max Upload Size: 500 KB,Max upp Storlek: 500 KB
+This key already assigned to another seller. Please fill another.,Denna tangent redan tilldelats en annan säljare. Vänligen fyll annan.
+My Seller Profile,Min Försäljarprofil
+View Collection,Visa samling
+View Profile,Visa profil
+General,Allmän
+Shop Title,Shop Titel
+Contact Number,Kontaktnummer
+(Image Size: 150 X 150),(Bildstorlek: 150 X 150)
+Shop Logo,Shop Logo
+(Image Size: 1180 X 250),(Bildstorlek: 1180 X 250)
+Shop Banner,Shop Banner
+Shop Address 1,Shop Adress 1
+Shop Address 2,Shop Adress 2
+City,Stad
+Pincode,Pinkod
+State,stat
+Country,Land
+Description,Beskrivning
+Please provide link of your facebook page,Ange länken till din Facebook-sida
+Facebook Link (optional),Facebook Link (valfritt)
+For example:,Till exempel:
+or,eller
+Please provide link of your google plus profile,Ange länken till din Google Plus profil
+Google Plus Link (optional),Google Plus Link (tillval)
+Please provide link of your twitter profile,Ange länken till din twitter profil
+Twitter Link (optional),Twitter Link (valfritt)
+Meta Keywords,meta Keywords
+Meta Description,meta Description
+Example: my-selling-store,Exempel: Min säljande butiken
+Page Url Key,Webbadress Key
+Policy,Politik
+Return Policy,återgång politik
+Shipping Policy,Sändningspolitik politik~~POS=HEADCOMP
+Payout,utbetalning
+Admin will use the Payout information to make the payment. Only one payment information can be saved at a time.,Admin kommer att använda Utbetalning information för att göra betalningen. Endast en betalningsinformation kan sparas på en gång.
+Select Payment Method,Välj betalningsmetod
+Seller,Säljare
+Register As Seller,Registrera dig som säljare
+My Reviews,Mina recensioner
+Customer Review,Kundrecension
+Disapproval Reason,ogillande Reason
+Start Date,Start datum
+End Date,Slutdatum
+Your comment to this vacation,Din kommentar till semester
+Invalid format. Use: MM/dd/YYYY,Ogiltigt format. Användning: MM / DD / YYYY
+End date should be greater than start date,Slutdatum bör vara större än startdatum
+End date should be future date,Slutdatum bör vara framtiden
+My Vacations History,Min semester historia
+Set New Vacation,Som ny Vacation
+Vacation Interval,semester~~POS=TRUNC Intervall
+Is Active,Är aktiv
+Vacation Halt Status,Vacation Halt Status
+Reason for canceling vacation,Anledning till att avbryta semester
+click to view product details,klicka för att visa produktinformation
+Sorry! No Product(s) Found.,Förlåt! Nej Produkt (ar).
+Please select a category for your request.,Välj en kategori för din förfrågan.
+Please provide reason for your request.,Ange orsaken till din begäran.
+Request a New Category,Begär en ny kategori
+Choose a Category,Välj en kategori
+Select Category,Välj kategori
+Maximum 500 characters allowed.,Max 500 tecken tillåts.
+Submit Category Request Form,Skicka Kategori Formulär
+No categories are available for request.,Inga kategorier är tillgängliga för begäran.
+Payout Request,utbetalning Request
+New Payout Request,New Utbetalning Request
+Request Reason,Begär Reason
+Submit Payout Request Form,Skicka Utbetalning Formulär
+Payout Details,utbetalnings~~POS=TRUNC Detaljer
+Requested On,begäras
+Your Comment For Request,Din kommentar till förfrågan
+Only 200 characters allowed,Bara 200 tecken tillåts
+"Only (xls, xlsx) formats are allowed","Endast (xls, xlsx) format tillåts"
+Toggle navigation,Växla navigation
+My Account,Mitt konto
+Logout,Logga ut
+Account Warning!,Kontot Varning!
+Back To Site,Tillbaka till Site
+Category Request Details,Kategori Begär Detaljer
+Category Name,kategori namn
+Your request is in pending. Please wait for store response.,Din begäran är väntande. Vänta för butiks svar.
+This feature is not active into your account.,Den här funktionen är inte aktiv på ditt konto.
+To request this feature,För att begära denna funktion
+Click,Klick
+Here,Här
+Request To Activate Import/Export Feature,Begäran att aktivera Import / Export Feature
+Comment ,Kommentar
+Required Field. Maximum 200 characters allowed.,Obligatoriskt fält. Max 200 tecken tillåts.
+Click to send request,Klicka här för att skicka förfrågan
+Your file has some errors. Please import file after resolving errors.,Filen har några fel. Vänligen importera filen efter att lösa fel.
+Click to download your file with errors,Klicka här för att hämta filen med fel
+Download File with Errors,Hämta fil med fel
+Go Back,Gå tillbaka
+Please do not go back or refresh page while uploading your products.,Please do not gå tillbaka eller uppdatera sidan medan ladda upp dina produkter.
+It may causes errors in your catalog.,Det kan orsakar fel i din katalog.
+Download Template,Hämta Mall
+Select Product Type,Välj produkttyp
+Product Attribute Set,Produkt Attribut Set
+Select Attribute Set,Välj attribut Set
+Download Template File,Hämta mallfilen
+Please make sure that columns in your file must be matched with template file created for you on the basis of selected attribute.,Se till att kolumnerna i filen måste matchas med mallfil skapas åt dig utifrån valda attribut.
+Import Products,importprodukter
+Import Action,import Action
+Select Action,Välj åtgärd
+"Action will only be performed on the basis of SKU of products. Without sku, product will not be consider for any action.",Åtgärder kommer endast utföras på grundval av SKU av produkter. Utan sku kommer produkten inte att tänka på för några åtgärder.
+Upload File,Ladda upp fil
+"Only (xls, xlsx) file will be accepted","Endast (xls, xlsx fil) kommer att accepteras"
+File must not exceed %s MB,Fil får inte överstiga% s MB
+Browse File,Bläddra File
+Validate File,validera Arkiv
+File must no exceed %s MB,Filen måste ingen överstiga% s MB
+Import/Export Instructions,Import / Export Instruktioner
+Import,Importera
+Export,Exportera
+Import Instructions,Importera Instruktioner
+"Download Template as per your product type. At a time, only 1 type of products can be import.","Ladda ner Mall enligt din produkttyp. I en tid, kan endast en typ av produkter vara import."
+"If you import more than 1 type of products from one file, then system will be fail or affect your catalog.","Om du importerar mer än en typ av produkter från en fil, då systemet kommer att vara misslyckas eller påverka din katalog."
+Each template will have '%s' worksheet. Your import file must have this worksheet as it is. Please do not change anything in its content.,Varje mall kommer att ha '% s' kalkylblad. Din importfil måste ha detta kalkylblad som den är. Ändra inte något i dess innehåll.
+Each template will have '%s' worksheet. Please provide product data from possible values of corresponding field. If field has possible values.,Varje mall kommer att ha '% s' kalkylblad. Ange produktdata från möjliga värden för motsvarande fält. Om fält har möjliga värden.
+"Only 'xls, xlsx' file having size less than %sMB will be acceptable.","Endast 'xls, xlsx' fil som har en storlek mindre än% sMB kommer att godtas."
+If you want to import using exported data then copy the general & image sheet of exported file into general & image sheet of the downloaded template file.,Om du vill importera med hjälp av exporterade data sedan kopiera den allmänna och bild ark exporterade filen i allmänhet och bild ark av hämtade mallfilen.
+"Use (|) to seperate value in multivalue field like category_ids, related_products.","Använd (|) för att skilja värde i flervärdesfält som category_ids, related_products."
+Export Instructions,export~~POS=TRUNC Instruktioner
+Select export type in export section.,Välj export typ exportavdelning.
+"If the export type is Category, then system will export only assigned categories to you.","Om typen export är kategori, då systemet kommer att exportera endast tilldelats kategorier för dig."
+"In case of products, select product type and attributes set.","När det gäller produkter, välj produkttyp och attribut inställd."
+Exported data will be in xls/xlsx format.,Exporterade data kommer att vara i xls / xlsx format.
+Export Type,export Type
+Select Export Type,Välj Export Type
+Category Export,kategori export
+Product Export,produkt~~POS=TRUNC export
+Product Status,produktstatus
+All,Allt
+Disabled,Inaktiverad
+Enabled,Aktiverad
+In Stock,I lager
+Out of Stock,Tillfälligt slut
+Export Data,Exportera data
+This process will take few minutes.,Denna process kommer att ta några minuter.
+Please do not go back or refresh page while exporting your data.,Please do not gå tillbaka eller uppdatera sidan medan exportera dina data.
+Your are not eligible to use this feature as your account is either not approved or inactive.,Din är inte berättigade att använda den här funktionen som ditt konto är antingen inte godkänd eller inaktiv.
+"Currently, this feature is disabled by store.",För närvarande är denna funktion inaktiveras av butiken.
+You cannot use this feature as required library is missing. Please contact to support.,Du kan inte använda den här funktionen som krävs bibliotek saknas. Vänligen kontakta för att stödja.
+Total Sale,total försäljning
+Total Earning,total Tjänar
+Transaction Details,Transaktions Detaljer
+My Earnings,Mina vinster
+Earnings History,Resultat History
+Order Wise Earnings,Beställ Wise Resultat
+Transactions History,transaktioner History
+Total Paid,Totala belopp som betalats
+Balance,Balans
+Quantity to Add,Kvantitet att lägga
+Low Stock Notification,Låg Stock Anmälan
+Configuration,Konfiguration
+Receive Low Stock Notifications,Får Low Stock Notifications
+Save Seller Level Configuration,Spara Säljare nivå konfiguration
+facebook,Facebook
+twitter,Twitter
+google,Google
+About Seller,om säljaren
+Description not available.,Beskrivningen är inte tillgänglig.
+Write your thought,Skriv din tanke
+Summary of your review,Sammafattning av din utvärdering
+Your Thought,Din tanke
+Your Name,Ditt namn
+Rate this seller,Betyg denna säljare
+Submit Review,Bedöm
+Notify Customer by Email,Meddela kunden via e-post
+Visible on Storefront,Synlig på Storefront
+Submit Comment,skicka kommentar
+Customer,Kund
+Notified,Meddelas
+Not Notified,inte anmälts
+Please provide comment,Ange kommentar
+Product,Produkt
+Subtotal,Delsumma
+Order Detail,Orderdetaljer
+Click to download invoice.,DOWNLOAD faktura.
+Download Invoice,Hämta faktura
+Click to download shipping slip.,DOWNLOAD shipping halka.
+Download Shipping Slip,Hämta Shipping Slip
+Are you sure you want to send order email to customer?,Är du säker på att du vill skicka order e-post till kund?
+Click to send email to customer,Klicka här för att skicka e-post till kund
+Send Email,Skicka epost
+Click to create shipment,Klicka för att skapa transporten
+Ship,Fartyg
+Print,Skriva ut
+Basic Informations,grundläggande Information
+Order Status,Orderstatus
+Billing Address,Fakturaadress
+Shipping Address,leveransadress
+Ordered,Beordrade
+Shipped,levereras
+Canceled,Avbokad
+Refunded,återbetalas
+Gift Message,Gift Meddelande
+Excl. Tax,Exkl. Beskatta
+Total,Total
+Incl. Tax,Inkl. Beskatta
+Total incl. tax,Totalt inkl. beskatta
+Invoiced,faktureras
+Order Items,order~~POS=TRUNC Items
+Shipments,transporter
+Ship to Name,Ship to Namn
+Date Shipped,Datum Levereras
+Total Qty,Totalt Antal
+click to view detail,klicka för att visa i detalj
+Tax,Beskatta
+Items To Be Shipped,Objekt sänds
+Qty to Ship,Antal till Ship
+Append Comments,bifoga kommentarer
+Email Copy of Shipment,E Kopia av sändning
+Submit Shipment,Skicka Leverans
+New Shipment,ny leverans
+Back,Tillbaka
+Shipment Tracking,Spårning av försändelse
+Carrier,Bärare
+Tracking No.,Spårningsnummer.
+Action,Verkan
+Add Tracking Number,Lägg till spårningsnummer
+Invalid value(s) for Qty to Ship,Ogiltigt värde (n) för Antal till Ship
+Shipment Detail,transporten Detail
+Are you sure you want to send Shipment email to customer?,Är du säker på att du vill skicka Sändning e-post till kund?
+Send Tracking Information,Skicka spårningsinformation
+Tracking Number,Spårningsnummer
+Add,Lägg till
+Tracking title is required.,Spårning titel krävs.
+Tracking number is required.,Spårningsnummer krävs.
+Shipped Items,levereras Items
+Qty Shipped,Antal Levereras
+No Item Shipped Yet,Ingen Punkt Levereras Yet
+Reviews,recensioner
+Posted on:,Postat den:
+by ,av
+Sorry! No Reviews Found.,Förlåt! Inga recensioner hittades.
+Write your review,Skriv din recension
+Sellers List,säljare Lista
+Search Seller,Sök Säljare
+Sorry! No Seller(s) Found.,Förlåt! Ingen Säljare (er) hittades.
+General Contact,General Kontakta
+Customer Support,Kundsupport
+Sales Representative,Sales Representative
+Custom Email 1,Anpassad E 1
+Custom Email 2,Anpassad e-post 2
+"Unable to write low stock files. Permission Error on ""var"" Directory.","Det går inte att skriva låga lager filer. Tillstånd Fel på ""var"" Directory."
+Unable to write file for Seller ,Det går inte att skriva filen för Säljare
+Product ID,Serienummer
+Current Quantity,nuvarande Kvantitet
+Base Image,Base Bild
+Small Image,liten Bild
+Thumbnail,Miniatyr
+Disallowed file type.,Otillåtna filtyp.
+Type of the product you have selected for this import template file.,Typ av produkt du har valt för denna import mallfilen.
+Attribute set you have selected for this product type in import template file.,Attributuppsättning du har valt för denna typ av produkt i importmallfilen.
+single pipe(|) seperated multiple categories,enda rör (|) dam flera kategorier
+single pipe(|) seperated product sku,enda rör (|) separeras produkten sku
+single pipe(|) seperated attributes,enda rör (|) separerade attribut
+pair of values seperated by single pipe(|),par av värden separerade med enda rör (|)
+System will group your bundle item on the basis of this title. If two items has same title then they will be grouped in same bundle.,Systemet grupp din bunt punkt på grundval av denna avdelning. Om två objekt har samma titel då de kommer att grupperas i samma bunt.
+Daily,Dagligen
+Weekly,Varje vecka
+Monthly,En gång i månaden
+Yearly,Årlig
+Waiting for Approval,Väntar på godkännande
+Approved,Godkänd
+Disapproved,godkänd
+Add new products,Lägg till nya produkter
+Update existing products,Uppdatera befintliga produkter
+Add/update products,Lägg till / uppdatera produkter
+Delete products,Ta bort produkter
+Bank Wire,Banköverföring
+Payment By Cheque,Betalning med check
+Paypal,Paypal
+Please provide the paypal email id.,Ange den paypal e-id.
+Paypal Email ID,PayPal e-ID
+Please provide additional information.,Vänligen lämna ytterligare information.
+Additional Information,ytterligare information
+Please provide the name.,Ange namn.
+Pay to the order of (name),Betala till ordningen (namn)
+Please provide the address.,Ange adressen.
+Address,Adress
+Address where the cheque should be sent to.,Adress där kontrollen ska skickas till.
+Please provide account owner name,Ange kontoägarnamn
+Account Owner,Konto ägare
+Please provide bankwire details,Ange Banköverföring detaljer
+Details,detaljer
+"Such as bank branch, IBAN number, BIC, etc.","Såsom bankkontor, IBAN-nummer, BIC, etc."
+Please provide bankwire address.,Ange Banköverföring adress.
+Bank Address,Bankadress
+Requsted on: ,Requsted på:
+ by,av
+Amount: ,Belopp:
+Payment Method: ,Betalningsmetod:
+PayPal,PayPal
+PayPal ID: ,PayPal ID:
+Additional Information: ,Ytterligare information:
+Bankwire,Banköverföring
+Owner Name: ,Ägarnamn:
+Details: ,detaljer:
+Bank Address: ,Bankadress:
+Cheque,Kontrollera
+Address: ,Adress:
+No balance amount is left for this seller.,Ingen balans belopp kvar för denna säljare.
+No order found for this seller. Transaction cannot be initiated.,Ingen order hittades för denna säljare. Transaktionen kan inte påbörjas.
+Paypal payout request failed.,Paypal utbetalningsbegäran misslyckades.
+Please enable paypal payout to make this transaction.,Aktivera paypal utbetalning för att göra denna transaktion.
+Payout request does not exist.,Utbetalning begäran existerar inte.
+By System,Med System
+Manually,Manuellt
+Successfully,Framgångsrikt
+Credit,Kreditera
+Debit,Debitera
+Unknown,Okänd
+Invalid request,Ogiltig Förfrågan
+Export type is missing,Export typ saknas
+No product found as per your selected parameters.,Ingen produkt hittades enligt dina valda parametrar.
+Unable to process request,Det går inte att behandla begäran
+No category assigned to you.,Ingen kategori tilldelas dig.
+invalid request,Ogiltig Förfrågan
+Please select product parameters.,Välj produktparametrar.
+No products found to export.,Inga produkter hittades exportera.
+Vacation is successfully canceled.,Semester framgångsrikt avbryts.
+New Vacation successfully created.,New Vacation har skapats.
+Your products will be hidden automatically when the vacation starts.,Dina produkter kommer att döljas automatiskt när semester börjar.
+Start Date or End Date cannot be less than today.,Startdatum eller slutdatum kan inte vara mindre än i dag.
+Start Date or End Date cannot be same.,Startdatum eller Slutdatum kan inte vara densamma.
+Date range should not be in between of any previous active vacation.,Datumintervall bör inte vara i mellan någon tidigare aktiv semester.
+Technical error occurred while validating new vacation.,Tekniskt fel uppstod när validera nya semester.
+The requested vacation's detail not found.,Den begärda semester s detalj hittades inte.
+Marketplace - CRON,Marknads - CRON
+Please enable the low stock notifications functionality first,Aktivera den låga aktie meddelanden funktionalitet först
+Please enable the marketplace module first,Aktivera marknadsmodulen först
+Low Stock Notifications Cron Executed Successfully.,Låg Stock Notifications Cron kördes framgångsrikt.
+"There were some errors executing the low stock notifications cron, please check Log for more details.","Det fanns några fel utför den låga lager anmälningar cron, kontrollera Log för mer information."
+Please enable the seller vacation functionality first,Aktivera säljaren semester funktionalitet först
+Vacation Cron Executed Successfully.,Semester Cron kördes framgångsrikt.
+"There were some errors executing the vacation cron, please check Log for more details.","Det fanns några fel utför semester cron, kontrollera Log för mer information."
+View Shipment,Visa Leverans
+Requested order details not Found.,Begärda beställningsinformation hittades inte.
+We can\'t save the shipment right now.,Vi kan \ 't spara sändningen just nu.
+Shipment Document Validation Error(s):\n,Sändning Dokument Validation Error (er): \ n
+The shipment has been created.,Sändningen har skapats.
+You created the shipping label.,Du skapade fraktsedel.
+An error occurred while creating shipping label.,Ett fel uppstod när fraktsedel.
+Cannot save shipment.,Det går inte att spara sändningen.
+Please enter a comment.,Ange en kommentar.
+Comment has been added for this shipment.,Kommentar har lagts till för denna sändning.
+Cannot add new comment.,Det går inte att lägga till nya kommentarer.
+You sent the shipment.,Du skickade försändelsen.
+Cannot send shipment information.,Det går inte att skicka information om försändelsen.
+Please specify a carrier.,Ange en bärare.
+Please enter a tracking number.,Ange ett spårningsnummer.
+Tracking number successfully updated into this shipment.,Att spåra numrerar har uppdaterats i denna sändning.
+We can\'t initialize shipment for adding tracking number.,Vi kan \ 't initiera sändning för att lägga till spårningsnummer.
+Cannot add tracking number.,Det går inte att lägga till spårningsnummer.
+Tracking number successfully deleted from this shipment.,Att spåra numrerar framgångsrikt bort från denna sändning.
+We can\'t initialize shipment for delete tracking number.,Vi kan \ 't initiera sändning för delete spårningsnummer.
+We can\'t delete tracking number.,Vi kan \ 't ta bort spårningsnummer.
+We can\'t load track with retrieving identifier right now.,Vi kan \ 't belastning spår med att hämta identifierare just nu.
+Quanity updated successfully.,Quanity uppdaterats.
+Low Stock,låga lager
+Configuration Saved Successfully.,Konfiguration sparats.
+Seller's Products - Reviews,Säljarens Produkter - Omdömen
+Pending,Avvaktan
+Not Approved,Ej godkänd
+Seller's Account-Orders,Säljarens konto-order
+Seller OrderView,säljaren OrderView
+You sent the order email.,Du skickade ordern e-post.
+We can\'t send the email order right now.,Vi kan \ 't skicka e-order just nu.
+This order no longer exists.,Denna order inte längre existerar.
+There are no shipping documents related to this order.,Det finns inga transportdokument i samband med denna ordning.
+Print Order,Print Order
+There are no invoice documents related to this order.,Det finns ingen faktura dokument i samband med denna ordning.
+Seller List,säljare Lista
+Knowband,Knowband
+Marketplace,Marknad
+Email Template Updated successfully.,E-postmall uppdaterats.
+Best Selling Products,Bästsäljande produkter
+ Seller(s) Disabled Successfully,Säljaren (er) Handikapp Framgångsrikt
+Invalid Request,Ogiltig Förfrågan
+Status changed successfully,Status ändrats
+Activated,aktiverad
+Deactivated,Inaktiverad
+Cannot update,Det går inte att uppdatera
+Cannot load object,Det går inte att ladda objekt
+Seller Approved Successfully,Säljaren Godkänt framgångsrikt
+Email Templates,E-postmallar
+Sellers Payout Request,Säljare Utbetalning Request
+Product Approval Request,Produktgodkännande Request
+Technical error occurred while canceling vacation.,Tekniskt fel uppstod när avbryta semester.
+Seller Reviews,säljaren Recensioner
+%s by %s,% S av% s
+The requested seller's review detail not found.,Den begärda säljarens översyn detalj hittades inte.
+Import/Export Feature Request List,Import / Export Feature Request List
+Settings saved successfully.,Inställningar sparats.
+Seller Account Approval Request,Säljare Account Godkännande Request
+Seller Vacation List,Säljare Vacation Lista
+Transaction detail successfully saved.,Transaktions detalj har sparats.
+Some error occured. Please try again.,Vissa fel uppstod. Var god försök igen.
+Total of %d record(s) have been updated.,Totalt% d rad (er) har uppdaterats.
+ Seller(s) Disapproved Successfully,Säljaren (er) Ej godkänd Framgångsrikt
+Seller Product List,Säljare produktlistan
+Review has been approved successfully.,Granskningen har godkänts framgångsrikt.
+Technical Error Occured - Not able to update.,Tekniskt fel uppstod - inte uppdatera.
+Review has been disapproved successfully.,Granskningen har godkänts framgångsrikt.
+Seller review has been deleted.,Säljaren översyn har tagits bort.
+Technical error occurred while processing category request.,Tekniskt fel uppstod när kategorin begäran bearbetning.
+Seller account has not been approved yet. Please approve the seller account first.,Säljaren konto har inte godkänts ännu. Godkänn säljaren konto.
+ record(s) have been updated.,(er) har uppdaterats.
+Product has been approved successfully.,Produkten har godkänts framgångsrikt.
+ Seller(s) Approved Successfully,Säljaren (er) Godkänd Framgångsrikt
+Approval updated successfully,Godkännande uppdaterats
+Seller Review Approval Request,Säljare Review Godkännande Request
+PayPal Payout settings has been saved successfully.,PayPal Utbetalnings inställningar har sparats.
+Category Wise Commissions,Kategori Wise kommissioner
+CRON Instructions,cron Instruktioner
+Seller List with Import/Export Feature,Säljaren Lista med Import / Export Feature
+Product Reviews,Produktrecensioner
+Seller Disapproved Successfully,Säljare godkänd Framgångsrikt
+Category Request List,Kategori Request List
+Commissions,provisioner
+Total of %d record(s) have been deleted.,Totalt% d rad (er) har tagits bort.
+ Seller(s) Enabled Successfully,Säljaren (er) Aktiverad Framgångsrikt
+Sellers Payout,säljare Utbetalning
+"Some of the products are not enabled, because either these products or their sellers are not approved/disabled.","En del av produkterna är inte aktiverade, eftersom antingen dessa produkter eller deras säljare inte är godkända / inaktiverade."
+Some of the processed products have no SKU value defined. Please fill it prior to performing operations on these products.,Några av de förädlade produkterna har ingen SKU värde definieras. Vänligen fyll det innan du utför operationer på dessa produkter.
+Payout request status has been updated successfully.,Utbetalning statusbegäran har uppdaterats.
+Invalid Request.,Ogiltig Förfrågan.
+Seller Wise Commissions,Säljaren Wise kommissioner
+Seller Dashboard,säljare Instrumentpanel
+Your request has been sent. Please wait for store response.,Din förfrågan har skickats. Vänta för butiks svar.
+Cannot send request,Det går inte att skicka förfrågan
+Product Import/Export,Produkt Import / Export
+Seller Profile,Säljarprofil
+Seller Profile saved successfully.,Säljaren profil sparats.
+Not Available,Inte tillgänglig
+Your payout request has been submitted successfully.,Din utbetalning begäran har skickats.
+Please configure payout method in the seller profile menu.,Konfigurera utbetalningsmetod i säljarens profilmenyn.
+Seller's Account - Payout Requests,Säljarens konto - Utbetalnings Begäran
+Error Occured,Fel uppstod
+Thank you for rating the Seller.,Tack för att du betygsatt säljaren.
+Posting review for this seller is not allowed.,Utstationering recension för denna säljare är inte tillåtet.
+Seller Account - My Reviews,Säljare Account - Mina recensioner
+"You can't register yourself as seller because your registration request limit has been over. To register, please contact to support.","Du kan inte registrera dig som säljare eftersom din begäran om registrering gräns har varit över. För att registrera, kontakta för att stödja."
+Seller's Account - Earnings,Säljarens konto - Resultat
+Seller's Account - Transactions History,Säljarens konto - Transaktioner History
+File Path is Missing,File Path är saknad
+Unknown file,okänd fil
+General worksheet is missing.,General kalkylblad saknas.
+Column title row is missing from general worksheet.,Kolumnrubriken rad saknas allmänna kalkylblad.
+Column '%s' is missing from general worksheet.,Kolumnen '% s' saknas allmänna kalkylblad.
+File is empty.,Filen är tom.
+Error in processing '%s' sku before deleting.,Fel i bearbetning '% s' sku innan du tar bort.
+Listed products are not deleted:,Listade produkter tas inte bort:
+"Upload your file and try again. To speed up delete process, please remove all products that has been deleted.","Ladda upp din fil och försök igen. För att påskynda raderingsprocessen, vänligen ta bort alla produkter som har tagits bort."
+Your products has been deleted. System will redirect you on product list automatically in 5 secs.,Dina produkter har tagits bort. System kommer att omdirigera dig på produktlista automatiskt 5 sekunder.
+Import action is Missing,Import åtgärder saknas
+Meta Information worksheet is missing,Metainformation kalkylblad saknas
+File must not exceed ,Fil får inte överstiga
+This sku does not exist,Detta sku existerar inte
+Product of this SKU is not yours.,Produkt av denna SKU är inte din.
+This row has error,Denna rad har fel
+Meta Information Sheet is Missing,Meta informationsblad är saknad
+Error in processing data of '%s' sku.,Fel i data för '% s' sku bearbetning.
+Listed products are not saved:,Listade produkter sparas inte:
+"Upload your file and try again. To speed up process, please remove all other product data that has been saved successfully.","Ladda upp din fil och försök igen. För att påskynda processen, ta bort alla andra produktdata som har sparats."
+Your products has been uploaded. System will redirect you on product list automatically in 5 secs.,Dina produkter har lagts upp. System kommer att omdirigera dig på produktlista automatiskt 5 sekunder.
+Error while processing rows in uploaded file.,Fel vid bearbetning rader i uppladdade fil.
+Error: %s,Fel:% s
+Product Type is missing from Meta Sheet Worksheet,Typ av produkt saknas Meta Sheet Blad
+Product Type is invalid in Meta Sheet Worksheet,Typ av produkt är ogiltigt i Meta Sheet Blad
+Attribute set id is missing from Meta Sheet Worksheet,Attribut uppsättning id saknas Meta Sheet Blad
+Attribute set id is not valid in Meta Sheet Worksheet,Attribut set id är inte giltigt i Meta Sheet Blad
+This SKU is already used by other product of you or other seller.,Denna SKU används redan av annan produkt av dig eller annan säljare.
+This SKU is used by other seller or store.,Denna SKU används av andra säljare eller butik.
+This value is required,krävs Detta värde
+Invalid Value. Only date format value is accepted.,Ogiltigt värde. Endast värde datumformat accepteras.
+Invalid Value. Only Price type value accepted,Ogiltigt värde. Endast Pristyp värde accepteras
+Invalid Value. Only positive number type value accepted,Ogiltigt värde. Endast positivt tal typ värde accepteras
+Out of range value. Please see possible value for this field.,Out of range värde. Se möjliga värde för detta område.
+Some of the values are not exist.,Några av värdena inte existerar.
+Your request has been sent to the admin for approval.,Din begäran har skickats till admin för godkännande.
+Seller's Account - Request a New Category,Säljarens konto - begära en ny kategori
+Attribute set is missing,Attribut set saknas
+Attribute set cannot load,Attribut set kan inte läsa
+1. This worksheet is required and must be included in your import file,1. Detta kalkylblad krävs och måste ingå i importfilen
+2. Do not change worksheet name as well as its content.,2. Ändra inte kalkylblads namn samt dess innehåll.
+3. Any change in this worksheet format will not allow system to import your data into system.,3. Varje ändring i detta kalkylblad format kommer inte att tillåta systemet att importera dina data till systemet.
+4. We recommend you to copy this worksheet in your import file with same worksheet name.,4. Vi rekommenderar dig att kopiera kalkylblad i importfilen med samma kalkylblad namn.
+1. This worksheet contains possible values of some field.,1. Detta kalkylblad innehåller möjliga värden för vissa fält.
+2. Please fill the related fields only from these possible values.,2. Fyll i närliggande områden endast från dessa möjliga värden.
+3. If possible values for any field are not given then you can fill it with any text value.,3. Om möjliga värden för alla fält inte får så kan du fylla den med någon text värde.
+Seller's Products,Säljarens Produkter
+The product has been saved.,Produkten har sparats.
+This window will be closed automatically within %s secs.,Detta fönster stängs automatiskt inom% s sekunder.
+Product has been saved successfully.,Produkten har sparats.
+The product has been duplicated successfully.,Produkten har kopierats med framgång.
+Product has been created successfully.,Produkten har skapats.
+Please wait for admin approval.,Vänta admin godkännande.
+"Adding of new product limit has been over as your account is not approved or waiting for approval. To add more products, your account needs to be approved.","Lägga av nya gränsen produkt har varit över som kontot inte har godkänts eller väntar på godkännande. För att lägga till fler produkter, behöver ditt konto som skall godkännas."
+You duplicated the product.,Du dupliceras produkten.
+Seller's Product,Säljarens produkt
+This SKU already exist.,Denna SKU redan existerar.
+Cancel Vacation,avbryta Vacation
+Add New Vacation,Lägg till ny Vacation
+Vacation Halted,semester Stoppad
+Created Date,Skapat Datum
+This vacation is already canceled,Denna semester redan avbrutits
+Visibility,Synlighet
+click to edit product,Klicka för att redigera produkten
+click to update quantity,klicka för att uppdatera kvantitet
+Update Quantity,Uppdatera Kvantitet
+Order No.,Beställningsnr.
+From Date,Från datum
+To Date,Hittills
+click to print order,Klicka för att skriva ut order
+Shipping & Handling,Sändning & bruk
+Discount (%1),Rabatt (% 1)
+Discount,Rabatt
+Grand Total,Totalsumma summa~~POS=HEADCOMP
+Grand Total to be Charged,Totalsumma som tas ut
+Custom Value,Anpassad Värde
+Order # %1,Order #% 1
+Comment History,kommentar History
+Shipment History,sändning History
+Credit Memo History,Credit Memo History
+Subtotal (Excl.Tax),Delsumma (Excl.Tax)
+Subtotal (Incl.Tax),Delsumma (Incl.Tax)
+Shipping & Handling (Excl.Tax),Sändning & bruk (Excl.Tax)
+Shipping & Handling (Incl.Tax),Sändning & bruk (Incl.Tax)
+Grand Total (Excl.Tax),Totalsumma (Excl.Tax)
+Grand Total (Incl.Tax),Totalsumma (Incl.Tax)
+Email,E-post
+Shipping Charges,Fraktkostnader
+Track this shipment,Spåra denna sändning
+Track Order,Spåra beställning
+Shipping Method,Frakt metod
+Shipping not Required,Shipping inte Krävs
+Payment Method,Betalningsmetod
+Grand Total (Excl. Shipping),Totalsumma (exkl. Frakt)
+Discount (%s),Rabatt (% s)
+Total Refunded,Totalt återbetalas
+Total Due,total Due
+Shipping & Handling (Excl. Tax),Sändning & bruk (exkl. Moms)
+Shipping & Handling (Incl. Tax),Sändning & bruk (inkl. Moms)
+Print Order # %1,Print Order #% 1
+Minimum %d character requried,Minimala% d karaktär requried
+Save Template,Spara mall
+Show Report,Visa rapport
+Manage Seller Account,Hantera säljarkonto
+Add Subcategory,Lägg Struktur
+Add Root Category,Lägg Root kategori
+Save Settings,Spara inställningar
+Seller Payout Request,Säljare Utbetalning Request
+ID,ID
+Transation Date,transa Datum
+Telephone,Telefon
+Commission (in %),Kommissionen (i%)
+Your Earnings,dina resultat
+Category wise Commissions,Kategori kloka kommissioner
+Total Commission,total kommissionen
+Transaction History,transaktions~~POS=TRUNC
+Seller wise Commissions,Säljare kloka kommissioner
+Seller Earning,säljare Vinst
+Amount Transfer,mängd Transfer
+Transaction Action,transaktions~~POS=TRUNC Action
+Sellers Payout (,Säljare vinst: (
+Seller Order List,Säljaren beställningslistan
+Purchased From (Store),Köpt från (Store)
+Purchased On,köpas på
+Actions,Åtgärder
+Template Description,mall~~POS=TRUNC Beskrivning
+Template Type,mall Typ
+Date Added,datum tillagt
+Date Updated,uppdaterad den
+Seller Best Selling Product List,Säljaren Bästsäljande produktlistan
+Interval,Intervall
+Order Quantity,Order kvantitet
+Product Price,Produktpris
+Seller Account Approval Request List,Säljare Account Godkännande Request List
+Approved Status,godkänd Status
+Added Date,Inkom datum
+Approve,Godkänna
+Account Status,Konto Status
+Seller Status,säljare Status
+Seller Since,säljare Sedan
+Posted On,publiceras på
+Request Date,Datum för begäran
+Vacation Active,semester Aktiv
+Seller Review Approval List,Säljare Review Godkännande Lista
+Seller Approval List,Säljare Godkännande Lista
+Seller Product Reviews,Säljarens produkt Recensioner
+Created On,Skapad på
+Nickname,smeknamn
+Visible In,synligt I
+Type,Typ
+Product SKU,Product SKU
+Edit,Redigera
+Seller Category Request List,Säljare Kategori Request List
+Seller Email,säljare Email
+View,Se
+Disapprove,Ogilla
+Make New,Gora ny
+Edit Template,Redigera mall
+Products,Produkter
+Administrator,Administratör
+Guest,Gäst
+Seller Bulkimport Feature List,Säljaren Bulkimport Funktionslista
+Last Update,Senaste uppdateringen
+Feature Status,Feature Status
+Seller Bulkimport Feature Request List,Säljaren Bulkimport Feature Request List
+Seller Comment,säljare Kommentar
+Your Comment,Din kommentar
+Request Status,Begär status
+Activate Feature,aktivera funktionen
+Read More,Läs mer
+click to view review,klicka för att visa recension
+Posted on: %s by %s,Postat den:% s med% s
+Home,Hem
+Home Page,Hemsida
+click to view product,klicka för att visa produkt
+Your seller account is currently under process and not yet approved. You only have a limited access to the seller account currently.,Din säljare konto är för närvarande under process och ännu inte godkänts. Du har bara en begränsad tillgång till säljaren kontot för närvarande.
+Your seller account has been disapproved. You only have a limited access to the seller account currently. To send request again ,Din säljare konto har godkänts. Du har bara en begränsad tillgång till säljaren kontot för närvarande. Om du vill skicka begäran igen
+Click Here,Klicka här
+Product Catalog,produkt~~POS=TRUNC
+Product Feedback,produkt~~POS=TRUNC Feedback
+Earnings,Förtjänst
+Transactions,transaktioner
+New Category Request,Ny kategori Request
+My Vacations,Mina semestrar
+Requested Date,Begärt datum
+Request On,begäran
+Date,Datum
+Transaction Date,Transaktions Datum
+Amount of %s debited from your earning on %s,Mängd% s dras från ditt tjänar på% s
+Amount of %s credited into your account on %s,Mängd% s kredit in på ditt konto på% s
+Report Format,rapportformat
+Your file is valid. Please click 'Delete Products' button to delete your products,Filen är giltigt. Klicka på 'Ta bort Produkter' för att ta bort dina produkter
+Your file is valid. Please click 'Import Products' button to upload your products,Filen är giltigt. Klicka 'importera produkter' för att ladda upp dina produkter
+Delete Products,Ta bort produkter
+"Adding of new product limit has been over as your account is not approved or waiting for approval. To add more products, your account need to be approved.","Lägga av nya gränsen produkt har varit över som kontot inte har godkänts eller väntar på godkännande. För att lägga till fler produkter, ditt konto måste godkännas."
+Use Default Value,Använd standardvärde
+Seller Account,säljare Account
+General Settings,Allmänna Inställningar
+Seller List,säljare Lista
+Seller Account Approval Request,Säljare Account Godkännande Request
+Seller Product List,Säljare produktlistan
+Product Approval Request,Produktgodkännande Request
+Product Reviews,Produktrecensioner
+Seller Reviews,säljaren Recensioner
+Seller Review Approval Request,Säljare Review Godkännande Request
+Category Request List,Kategori Request List
+Seller Vacation List,Säljare Vacation Lista
+Reports - Best Selling Products,Rapporter - Bästsäljande produkter
+Email Templates,E-postmallar
+CRON Instructions,cron Instruktioner
+Bulk Import/Export,Bulk Import / Export
+Seller With Feature,Säljare med Feature
+Feature Activation Request,Feature Activation Request
+Transactions and Earnings,Transaktioner och resultat
+Commissions,provisioner
+Category Wise Commissions,Kategori Wise kommissioner
+Seller Wise Commissions,Säljaren Wise kommissioner
+Sellers Payout List,Säljare Utbetalning Lista
+Sellers Payout Request,Säljare Utbetalning Request
+PayPal Payout Settings,PayPal Utbetalningsinställningar
+Best Selling Products,Bästsäljande produkter
+Seller with Import/Export Feature,Säljare med Import / Export Feature
+Import/Export Feature Activation Request List,Import / Export Feature Activation Request List
+Category Wise Commission,Kategori Wise kommissionen
+Category Request List,Kategori Request List
+Edit Email Template,Redigera e-postmall
+Email Templates,E-postmallar
+Seller Order List,Säljaren beställningslistan
+PayPal Payout Settings,PayPal Utbetalningsinställningar
+Product Approval Request,Produktgodkännande Request
+All Seller's Products - Reviews,Alla Säljarens produkter - Omdömen
+Seller Account Approval Request,Säljare Account Godkännande Request
+Seller Wise Commission,Säljaren Wise kommissionen
+Seller List,säljare Lista
+Seller Product List,Säljare produktlistan
+Seller Review Approval Request,Säljare Review Godkännande Request
+All Seller's Reviews,All Säljarens Recensioner
+Seller Vacation List,Säljare Vacation Lista
+Commissions,provisioner
+Sellers Payout,säljare Utbetalning
+Sellers Payout Request,Säljare Utbetalning Request
+View Sellers,Se Sellers
+Start date or end date can not be same,Startdatum eller slutdatum kan inte vara samma

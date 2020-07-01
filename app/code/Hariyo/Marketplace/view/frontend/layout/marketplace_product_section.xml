@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="1column" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceContainer name="left" remove="true"/>
+        <referenceContainer name="header.container" remove="true"/>
+        <referenceContainer name="footer" remove="true"/>
+        <referenceBlock name="page.main.title" remove="true" />
+        <referenceContainer name="catalog.topnav" remove="true"/>
+        <referenceContainer name="content">
+            <block class="Hariyo\Marketplace\Block\Page" name="marketplace_page" template="page.phtml" cacheable="false">
+                    <block class="Hariyo\Marketplace\Block\Product\Section\Section" name="marketplace_product_section">
+                        <block class="Hariyo\Marketplace\Block\Product\Section\General" name="marketplace_product_section_general"/>
+                        <block class="Hariyo\Marketplace\Block\Product\Section\Price" name="marketplace_product_section_price"/>
+                        <block class="Hariyo\Marketplace\Block\Product\Section\Extrapanel" name="marketplace_product_section_extrapanel"/>
+                        <block class="Hariyo\Marketplace\Block\Product\Section\Inventory" name="marketplace_product_section_inventory"/>
+                        <block class="Hariyo\Marketplace\Block\Product\Section\Meta" name="marketplace_product_section_meta"/>
+                        <block class="Hariyo\Marketplace\Block\Product\Section\Category" name="marketplace_product_section_category" template="product/section/category.phtml" />
+                        <block class="Hariyo\Marketplace\Block\Product\Section\Image" name="marketplace_product_section_image"/>
+                        <block class="Hariyo\Marketplace\Block\Product\Section\Attributes" name="marketplace_product_section_attributes"/>
+                        <block class="Hariyo\Marketplace\Block\Product\Section\Related" name="marketplace_product_section_related"/>
+                        <block class="Hariyo\Marketplace\Block\Product\Section\Quickcreate" name="marketplace_product_section_quickcreate"/>
+                    </block>
+            </block>
+    	</referenceContainer>
+    </body>
+</page>

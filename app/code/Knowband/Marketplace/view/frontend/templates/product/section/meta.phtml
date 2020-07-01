@@ -1,0 +1,44 @@
+<!-- Start - Meta Information -->
+<?php $product = $this->getProduct(); ?>
+
+<div class="collapsed-box box">
+    <div class="box-header with-border" data-widget="collapse">
+        <h3 class="box-title"><?php echo __("Meta Information"); ?></h3>
+        <div class="box-tools pull-right tab-error-highlighter text-red">
+            <i class="fa fa-warning"></i>
+        </div>
+        <div class="box-tools pull-right">
+          <button type="button" class="btn btn-box-tool" ><i class="fa fa-plus"></i></button>
+        </div>
+    </div>
+    <div class="box-body">
+        <?php $field = $this->getFieldDetail($this->getFieldKey('meta_title')); ?>
+        <?php if($field['is_visible']){ ?>
+            <div class="form-group col-lg-12">
+                <label><?php echo $field['label']; ?><?php if($field['is_required']){ ?><sup><em>*</em></sup><?php } ?></label>
+
+                <?php echo $this->renderFieldHtml($field); ?>
+            </div>
+        <?php } ?>
+
+        <?php $field = $this->getFieldDetail($this->getFieldKey('meta_keyword')); ?>
+        <?php if($field['is_visible']){ ?>
+            <div class="form-group col-lg-12">
+                <label><?php echo $field['label']; ?><?php if($field['is_required']){ ?><sup><em>*</em></sup><?php } ?></label>
+
+                <?php echo $this->renderFieldHtml($field); ?>
+            </div>
+        <?php } ?>
+
+        <?php $field = $this->getFieldDetail($this->getFieldKey('meta_description')); ?>
+        <?php if($field['is_visible']){ ?>
+            <div class="form-group col-lg-12">
+                <label><?php echo $field['label']; ?><?php if($field['is_required']){ ?><sup><em>*</em></sup><?php } ?></label>
+
+                <?php echo $this->renderFieldHtml($field); ?>
+            </div>
+        <?php } ?>
+
+        <?php echo $this->getChildHtml('', true, true); ?>
+    </div>
+</div>

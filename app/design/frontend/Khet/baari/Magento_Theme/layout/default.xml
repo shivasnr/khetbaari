@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © Magento, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<page layout="3columns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <referenceBlock name="advanced-search-link" remove="true"/>
+    <!-- <referenceBlock name="authorization-link" remove="true"/> -->
+    <!-- <move element="authorization-link" destination="header.container" after="top.search"/> -->
+    <!-- <referenceBlock name="header.panel" remove="true" />  -->
+    <!-- <move element="header" destination="header.panel" before="-"/> -->
+    
+
+    <referenceBlock name="register-link" remove="true" />           
+    <referenceBlock name="wish-list-link" remove="true" />          
+    <referenceBlock name="my-account-link" remove="true" />         
+
+
+    
+    <move element="logo" destination="header.panel" before="-"/>
+    
+    <move element="minicart" destination="header.panel" before="-"/>
+    <move element="top.search" destination="header.panel" after="navigation.sections"/>
+    <!-- <move element="authorization-link" destination="header.panel" after="minicart"/> -->
+    <!-- <referenceBlock name="form.subscribe" remove="true" /> -->
+    <move element="form.subscribe" destination="footer" before="-"/>
+    
+    
+    <referenceBlock name="header" remove="true"/>
+    
+    <!-- <referenceBlock name="top.search" remove="true"/> -->
+    <move element="navigation.sections" destination="header.panel" before="logo"/>
+
+    <referenceBlock name="footer_links" remove="true"/>
+
+</page>

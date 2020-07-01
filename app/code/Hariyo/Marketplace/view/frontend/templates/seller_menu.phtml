@@ -1,0 +1,24 @@
+<?php $links = $this->getLinks(); ?>
+<?php if (!empty($links)) { ?>
+<aside class="main-sidebar">
+    <section class="sidebar">
+        <ul class="sidebar-menu">
+            <li class="">
+                <a href="<?php echo $this->getUrl('') ?>">
+                    <i class="fa fa-angle-double-left"></i> <span><?php echo __('Back To Site'); ?></span>
+                </a>
+            </li>
+        <?php foreach($links as $link) { ?>
+            <li class="<?php if($this->isActive($link['key'])) { echo 'active'; }?>">
+                <a href="<?php echo $link['url']; ?>">
+                    <?php if(isset($link['icon']) && !empty($link['icon'])) { ?>
+                        <i class="fa <?php echo $link['icon'] ?>"></i> 
+                    <?php } ?>
+                    <span><?php echo $link['label'] ?></span>
+                </a>
+            </li>
+        <?php } ?>    
+        </ul>
+    </section>
+</aside>
+<?php } ?>

@@ -1,0 +1,1009 @@
+The product status will be 'Disabled' until it is approved from admin.,"Stav produktu bude ‚zakázáno‘, dokud nebude schválen od admin."
+The seller has already added more products. Please either increase the limit or save it as it is.,"Prodávající již přidal další produkty. Prosím, buď zvýšit limit nebo uložit tak jak to je."
+Reason,Důvod
+Required field,Povinné pole
+Submit,Předložit
+Why do you want to do this?,Proč to chcete udělat?
+Continue,Pokračovat
+Something went wrong. Please try again.,Něco se pokazilo. Prosím zkuste to znovu.
+Vacation Interval: ,Prázdniny Interval:
+Is Active: ,Je aktivní:
+Vacation Halt Status: ,Rekreační Halt Stav:
+Comment: ,Komentář:
+Reason for canceling vacation: ,Důvodem pro zrušení dovolenou:
+Vacation Detail,dovolená Detail
+Your comment to cancel this vacation,Váš komentář pro zrušení této dovolenou
+Register as Seller,Zaregistrovat se jako prodávající
+Yes,Ano
+No,Ne
+Marketplace CRON Instructions,Marketplace cron Instrukce
+Vacation CRON,dovolená CRON
+Disable the products during the seller's vacation period.,Zakázat produkty během období prázdnin prodávajícího.
+Low Stock Notification CRON,Low Sklad Notification CRON
+Send the notification to the sellers about their low stock products.,Zaslat oznámení prodejci o jejich nízké akciových produktů.
+Cron Instructions,cron Instrukce
+Add the Cron Jobs to your store via control panel/putty. Find below the Instruction to add the Cron Jobs.,Přidejte cron do vašeho obchodu prostřednictvím ovládacího panelu / tmelem. Níže najdete Pokynu přidat cron.
+URLs to Add to Cron via Control Panel,URL přidat do Cron prostřednictvím ovládacího panelu
+1. Vacation CRON,1. Dovolená CRON
+2. Low Stock Notification CRON,2. Low Sklad Notification CRON
+Cron setup via SSH,Nastavení cron přes SSH
+Choose Store Categories,Zvolit Store Kategorie
+Collapse All,Sbalit vše
+Expand All,Rozšířit vše
+This operation can take a long time,Tato operace může trvat dlouhou dobu
+Please confirm site switching. All data that hasn\'t been saved will be lost.,"Prosím potvrďte přepínání stránek. Všechna data, která Hasn \ 't byly uloženy, budou ztraceny."
+Warning message,Varovná zpráva
+Field cannot be empty.,Pole nemůže být prázdné.
+You can enter only numbers.,Můžete zadat pouze čísla.
+Number should be greater than 0.,Číslo by mělo být větší než 0.
+Field cannot be greater than {#} characters.,Pole nemůže být větší než {#} znaků.
+Field cannot be less than {#} character(s).,Pole nemůže být menší než {#} znak (y).
+Please enter Email.,Zadejte prosím e-mail.
+Please enter a valid Email.,Prosím zadejte platný email.
+Invalid date format.,Neplatný formát data.
+Number is not in the valid range. It should be between {#} and {##},Číslo není v platném rozsahu. To by mělo být mezi {#} a {##}
+Field should be numeric.,Pole by mělo být číslo.
+Field should be positive.,Pole by měla být pozitivní.
+Field can have only upto two decimal values.,Pole může mít pouze aľ dvě desetinná čísla.
+Email cannot be greater than {#} characters.,E-mail nemůže být větší než {#} znaků.
+Zip should not have special characters.,Zip by neměla mít speciální znaky.
+Percentage should be in number.,Procento by mělo být v řadě.
+Percentage should be between 0 and 100.,Procento by měla být mezi 0 a 100.
+Size cannot be greater than {#} characters.,Velikost nemůže být větší než {#} znaků.
+Color could not be greater than {#} characters.,Barva by neměla být větší než {#} znaků.
+Color is not valid.,Barva není platný.
+Special characters are not allowed.,Speciální znaky nejsou povoleny.
+Script tags are not allowed.,Script tagy nejsou povoleny.
+Style tags are not allowed.,Styl značky nejsou povoleny.
+Iframe tags are not allowed.,Značky iframe nejsou povoleny.
+Uploaded file is not an image.,Nahraný soubor není obrázek.
+Uploaded file size must be less than {#}.,Nahraný velikost souboru musí být menší než {#}.
+Field should not contain HTML tags.,Pole nesmí obsahovat HTML tagy.
+You can enter only positive numbers.,Můžete zadat pouze kladná čísla.
+Are you sure?,Jsi si jistá?
+Comment,Komentář
+Are you sure to update feature status of this seller?,Opravdu chcete aktualizovat stav funkce tohoto prodejce?
+Do you have any comment?,Máte nějaký komentář?
+"For accurate reporting, be sure to refresh lifetime statistics whenever you change the time zone.","Pro přesné hlášení, je nutné aktualizovat statistiky životnosti při každé změně časového pásma."
+To refresh last day's,Chcete-li obnovit poslední den je
+statistics,statistika
+click,cvaknutí
+here,tady
+Filter,Filtr
+Period,Doba
+Day,Den
+Month,Měsíc
+Year,Rok
+From,Z
+Select Date,Vybrat datum
+To,Na
+Choose Category,vyberte kategorii
+All Categories,Všechny kategorie
+Choose a Seller,Vyberte si Prodejce
+All Sellers,Všichni prodejci
+NA,NA
+PayPal Payout Settings,Nastavení plateb PayPal
+Active,Aktivní
+Enable or Disable Paypal Payment Method.,Povolení nebo zakázání Paypal způsob platby.
+Client ID,ID klienta
+Client Secret,klient Secret
+Paypal Mode,Režim paypal
+Sandbox,pískoviště
+Live,Žít
+Paypal Email Subject,PayPal E-mail Předmět
+Paypal Currency ,paypal měny
+Select the default currency set in Paypal Account.,Vyberte sadu výchozí měny v PayPal účet.
+Are You Sure you want to reset the settings?,"Jste si jisti, že chcete obnovit nastavení?"
+Edit Email Template,Editovat Šablona e-mailu
+About Template,o Šablona
+Template Subject,šablona Subject
+Email Content,Email Content
+Template Content,Obsah šablony
+Please do not edit or remove any template variable.,"Prosím, upravit nebo odstranit proměnnou předlohy."
+Example,Příklad
+Seller Account Settings,Nastavení prodejce účtu
+Default Commission,výchozí Komise
+Please enter a number between 0 and 100 only and in a proper format.,"Prosím, zadejte číslo mezi 0 a pouze 100 a ve správném formátu."
+Use Global,použití Global
+New Product Limit,New Limit Product
+Limit the sellers to add new products without account approval.,Limit prodávajícím přidávat nové produkty bez souhlasu účtu.
+If left blank than product limit will be assumed 0.,"Pokud je ponechán prázdný, než mez produktu bude předpokládat 0."
+Categories Allowed,kategorie povolena
+If no category is selected that will mean that all the categories are allowed.,"Pokud není vybrána žádná kategorie, která bude znamenat, že všechny tyto kategorie jsou povoleny."
+Product Approval Required,Schválení produkt Povinné
+Enable,Umožnit
+Disable,zakázat
+Enable Seller Review,Aktivovat Prodejce Review
+Required Seller Review Approval,Povinné Prodávající Review Schválení
+Email to Seller on Order Place,E-mail prodejci na zakázku Place
+Please enter a valid number in this field.,Zadejte prosím platné číslo v této oblasti.
+Payout Transaction Request,Poptávka výplata Transaction
+Required Field,Povinné pole
+Invalid Value,Neplatná hodnota
+"Invalid Value, please enter a number greater than zero","Neplatná hodnota, zadejte číslo větší než nula"
+Minimum 30 character required,požadované minimum 30 znaků
+General Settings,Obecné nastavení
+Enable Marketplace,aktivovat Marketplace
+Toggle to enable or disable extension,Přepínat povolit nebo zakázat rozšíření
+Default Commission (%),Výchozí komise (v%)
+Set default commission in percentage for each product.,Nastavit jako výchozí provize v procentech pro každý produkt.
+Choose the categories allowed for the sellers. If no category is selected that will mean that all the categories are allowed.,"Vyberte kategorie povolené pro prodejce. Pokud není vybrána žádná kategorie, která bude znamenat, že všechny tyto kategorie jsou povoleny."
+Register as Seller Field,Zaregistrovat se jako prodávající Field
+Enable to add 'Register as Seller' field while registering.,"Umožní přidat ""registrovat jako prodejce pole při registraci."
+Enable Bulk Import/Export,Povolit hromadný import / export
+"If disable, no seller will be able to use bulk import/export feature.","-Li zakázat, žádný prodejce moci použít hromadný import / export funkce."
+If enable an email will be sent to seller on order for his product.,Pokud umožňují e-mail bude odeslán na prodejce na objednávku pro svůj výrobek.
+Enable Vacation Mode,Aktivovat režim Dovolená
+"If disable, no seller will be able to use vacation feature.","-Li zakázat, žádný prodejce moci používat rekreační funkci."
+Show Seller Info on Product Page,Show Prodejce Informace o výrobku Page
+Enable/Disable to show/hide seller info on product page.,Povolit / zakázat pro zobrazení / skrytí prodávající informaci na produktové stránce.
+Enable or Disable Approval of product for the sellers.,Povolení nebo zakázání schválení výrobku pro prodejce.
+Default limit for sellers of adding new products before account approval. Blank will be considered as 0.,"Výchozí limit pro prodejce přidávání nových produktů před schválením účtu. Prázdné, budou považovány za 0."
+Enable or Disable Seller review feature. This feature enables the customers to add review for sellers.,Povolit nebo funkce recenze Disable prodávajícího. Tato funkce umožňuje zákazníkům přidávat hodnocení k prodejcům.
+Seller Review Approval Required,Prodávající Review Požadováno schválení
+Enable or Disable Approval for seller review. Once the review is approved then only it will be visible to the customers.,Povolení nebo zakázání schválení pro prodejce kontrole. Jakmile je revize je schválen pak teprve to bude viditelné pro zákazníky.
+Enable Seller List,Povolit seznam Prodejce
+Show or Hide Sellers List from customers.,Ukázat nebo skrýt Sellers seznam ze strany zákazníků.
+Enable Search Box,Aktivovat vyhledávacího pole
+Enable or Disbale search box to search seller on seller listing page.,Povolit nebo vyhledávací pole Chcete zakázat hledat prodejce na prodejce výpisu stránce.
+Low Stock Configuration,Low Sklad Configuration
+Enable Low Stock Notification,Povolit Low Reklamní oznámení
+Enable or Disable Low Stock Notification feature.,Povolení nebo zakázání funkce Low Reklamní oznámení.
+Low Inventory Limit,Low Limit Inventory
+Enter the limit below that the products are considered low stock.,Zadejte limit pod že výrobky jsou považovány za nízké zásob.
+When to Notify,Kdy Upozornit
+Choose when to notify the seller regarding the critical inventories.,"Zvolit, kdy informovat prodávajícího o kritických zásob."
+Cron Job,cron Job
+On Order Place,Na objednávku Place
+Send Notifications From,Poslat upozornění Z
+Choose the email from which you want to send the notifications.,"Vyberte e-mail, ze kterého chcete odeslat oznámení."
+Seller Name,Prodávající Name
+Select,Vybrat
+Transaction ID,ID transakce
+Transaction Type,typ transakce
+Amount,Množství
+Send Email to Seller,Odeslat e-mail prodejci
+"Invalid Value, please enter a number greater then zero","Neplatná hodnota, zadejte číslo větší než nula"
+Add New Transaction,Přidat nový transakce
+Posted On: ,Vloženo na:
+Customer Rating: ,Hodnocení zákazníků:
+Review: ,Posouzení:
+Reason for Disapproval: ,Důvod zamítnutí:
+Seller Review Detail,Prodávající Review Detail
+Provide Your Reason,Poskytovat své Důvod
+We can\'t find products matching the selection.,Můžeme \ 't najít produkty odpovídající výběru.
+View Details,Zobrazit podrobnosti
+In stock,Na skladě
+Out of stock,Vyprodáno
+Learn More,Více informací
+My Sales Dashboard,My Sales Dashboard
+Total Revenue,Celkové příjmy
+Total Orders,Celkem objednávky
+Total Products Sold,Celkový počet výrobků prodávaných
+Last 7 Days,Posledních 7 dní
+Sales Comparisons,prodejní Porovnání
+Orders,objednávky
+Revenue,příjem
+Products Sold,produkty prodávané
+Discounts,slevy
+Balance Amount Variations,Zůstatek Částka Variations
+Today,Dnes
+Yesterday,Včera
+This Week,Tento týden
+Last Week,Minulý týden
+This Month,Tento měsíc
+Last Month,Minulý měsíc
+This Year,Tento rok
+Last Year,Minulý rok
+Last 10 Orders,Posledních 10 Objednávky
+View All Orders,Zobrazit všechny objednávky
+Order Number,Číslo objednávky
+Order Date,Datum objednávky
+Customer Name,Jméno zákazníka
+Customer Email,zákazník Email
+Qty,Množství
+Status,Postavení
+Order Total,pořadí Celkové
+click to view order,klepněte na tlačítko Zobrazit objednávku
+No Orders Placed Yet,Žádné objednávek zadaných Přesto
+Seller Products,Prodávající Products
+Filter Products,filtrační produkty
+Category,Kategorie
+Sort By,Seřazeno podle
+Name,název
+SKU,SKU
+Price(low to high),Cena (nejnižší k nejvyšší)
+Price(high to low),Cena (vysoká až nízká)
+Products Feedback,produkty Feedback
+Filter Your Search,Filtr vašeho vyhledávání
+Search,Vyhledávání
+Reset,resetovat
+No Data,Žádná data
+Posted on,Vloženo na
+by,podle
+Rating,Rating
+Summary,souhrn
+Review,Posouzení
+My Products Catalog,Moje produkty katalog
+New Product,Nový výrobek
+Choose,Vybrat
+Please select atleast one item from list.,Prosím zvolte aspoň jednu položku ze seznamu.
+Select Attribute Set for New Product,Select Atribut Sada pro nový výrobek
+Attribute Set,atribut nastaven
+Product Type,Typ výrobku
+Choose Bulk Action,Zvolit Hromadná akce
+Delete,vymazat
+Status Update,Aktualizovat stav
+Close,Zavřít
+Save,Uložit
+Save & Continue,Uložit a pokračovat
+Duplicate,Duplikát
+Cancel,zrušení
+%d characters remaining.,% d znaků zbývající.
+Please fill required fields with valid information.,Vyplňte prosím požadovaná pole s platnou informaci.
+Special price should be less than actual price,Akční cena by měla být nižší než skutečná cena
+Past date not allowed,Past date není povoleno
+Quick simple product creation,Rychlá jednoduchá tvorba produktů
+Create,Vytvořit
+Prices,ceny
+Meta Information,meta Information
+General Information,Obecná informace
+Allows your product's visibility on search or catalog page.,Umožňuje viditelnost produktu na vyhledávání nebo katalogu stránce.
+Maximum %d characters allowed.,Maximální% d znaky povoleny.
+Date of product from which this product will be marked as new.,"Datum výrobku, z něhož se bude tento produkt označen jako nový."
+Date of product until which this product will be marked as new.,"Datum produktu, do kterého bude tento výrobek označen jako nový."
+Category Mapping,Mapování kategorie
+Associated Products,související produkty
+Create Simple Product,Vytvořit jednoduchý produkt
+Quick Create,Quick Vytvořit
+Id,id
+Sku,sku
+Product Name,jméno výrobku
+Stock Status,Sklad Status
+Select Attribute,Select Atribut
+Attribute,Atribut
+Price,Cena
+Default Qty,výchozí Množství
+Samples,Vzorky
+Title,Titul
+File,Soubor
+Sort Order,Pořadí řazení
+Add New Row,Přidat nový řádek
+Links,Odkazy
+Links can be purchased separately,Odkazy lze zakoupit samostatně
+Max. Downloads,Max. stahování
+Shareable,sdílet
+Sample,Vzorek
+Unlimited,Neomezený
+Url,url
+Inventory,Inventář
+Quantity,Množství
+Manage Stock,Správa Stock
+"On enabling, stock will be managed automatically. For manual stock, select disable","O povolení, budou akciové být řízena automaticky. Pro ruční doručení, vyberte možnost Vypnout"
+Qty Uses Decimal,Množství Používá Desítková
+Stock Availability,skladová dostupnost
+Shipment,náklad
+Ship Bundle Items,Loď Bundle položky
+Separately,Odděleně
+Together,Spolu
+Bundle Items Options,Možnosti svazek Předměty
+Add New Option,Přidat novou volbu
+Default Title,výchozí Název
+Delete Option,smazat možnost
+Input Type,Typ vstupu
+Is Required,Je požadováno
+Position,Pozice
+Add Selection,přidat výběr
+Price Type,cena Druh
+User Defined Qty,User Defined Množství
+Default,standardní
+Qty to Add,Množství přidat
+Add Selected Product(s) to Option,Přidat Vybraný produkt (y) Option
+Images,snímky
+Image,obraz
+Label,Označení
+Remove,Odstranit
+File is not supported,Soubor není podporován
+Upload New Image,Nahrát nový obrázek
+".jpeg, .jpg, .png, ,gif","JPEG, JPG, PNG, GIF"
+No Image uploaded for this product,nahrané pro tento produkt No Image
+Browse,Procházet
+Related Products,Související produkty
+This attribute set does not have attributes which we can use for configurable product,"Tento atribut set nemá vlastnosti, které můžeme použít pro konfigurovatelné produkt"
+Please select one or more attributes.,"Prosím, vyberte jednu nebo více atributů."
+Sold By,Prodáno
+Total %d review(s),Celkem% d přezkoumání (s)
+View Reviews,Ukázat hodnocení
+Write Review,Napsat recenzi
+File Size Exceeding the Limit.,Velikost souboru přesahuje povolený limit.
+Max Upload Size: 200 KB,Max uploadu Velikost: 200 KB
+Max Upload Size: 500 KB,Max uploadu Velikost: 500 KB
+This key already assigned to another seller. Please fill another.,Tato klávesa již přiřazena k jinému prodejci. Vyplňte prosím jiný.
+My Seller Profile,Můj prodávající Profile
+View Collection,View Collection
+View Profile,Prohlédnout profil
+General,Všeobecné
+Shop Title,Shop Název
+Contact Number,Kontaktní číslo
+(Image Size: 150 X 150),(Velikost obrázku: 150 x 150)
+Shop Logo,Shop Logo
+(Image Size: 1180 X 250),(Velikost obrázku: 1180 x 250)
+Shop Banner,Obchod Banner
+Shop Address 1,Shop Adresa 1
+Shop Address 2,Shop Adresa 2
+City,Město
+Pincode,PIN kód
+State,Stát
+Country,Země
+Description,Popis
+Please provide link of your facebook page,Uveďte prosím odkaz na vaši stránku na Facebooku
+Facebook Link (optional),Facebook Link (volitelně)
+For example:,Například:
+or,nebo
+Please provide link of your google plus profile,Uveďte prosím odkaz na váš profil Google Plus
+Google Plus Link (optional),Google Plus Link (volitelně)
+Please provide link of your twitter profile,Uveďte prosím odkaz na váš profil twitter
+Twitter Link (optional),Twitter Link (volitelně)
+Meta Keywords,meta klíčová slova
+Meta Description,meta Popis
+Example: my-selling-store,Příklad: my-selling-store
+Page Url Key,Adresa URL stránky Key
+Policy,Politika
+Return Policy,Reklamační řád
+Shipping Policy,Dodací podmínky
+Payout,výplata
+Admin will use the Payout information to make the payment. Only one payment information can be saved at a time.,Administrátor bude využívat informace výplatu provést platbu. Pouze jedna platební údaje mohou být uloženy najednou.
+Select Payment Method,Vyberte způsob platby
+Seller,prodavač
+Register As Seller,Zaregistrovat se jako prodávající
+My Reviews,Mé komentáře
+Customer Review,Zákaznická recenze
+Disapproval Reason,Důvod zamítnutí
+Start Date,Počáteční datum
+End Date,Datum ukončení
+Your comment to this vacation,Váš komentář k tomuto dovolenou
+Invalid format. Use: MM/dd/YYYY,Nesprávný formát. Použití: MM / dd / RRRR
+End date should be greater than start date,Datum ukončení musí být větší než počáteční datum
+End date should be future date,Datum ukončení by mělo být budoucí datum
+My Vacations History,My Vacations History
+Set New Vacation,Nastavit nový rekreační
+Vacation Interval,prázdniny Interval
+Is Active,Je aktivní
+Vacation Halt Status,Dovolená Halt Status
+Reason for canceling vacation,Důvodem pro zrušení dovolenou
+click to view product details,klikněte pro zobrazení podrobností o produktu
+Sorry! No Product(s) Found.,Promiňte! Ne Výrobek (y).
+Please select a category for your request.,"Prosím, vyberte kategorii pro svou žádost."
+Please provide reason for your request.,Uveďte prosím důvod vaší žádosti.
+Request a New Category,Požádat o novou kategorii
+Choose a Category,Vyberte si kategorii
+Select Category,vybrat kategorii
+Maximum 500 characters allowed.,Maximálně 500 znaků povoleny.
+Submit Category Request Form,Předloží Kategorie Žádost
+No categories are available for request.,Žádné kategorie jsou k dispozici pro vyžádání.
+Payout Request,výplaty Request
+New Payout Request,Nová žádost Výplatní
+Request Reason,požadavek Důvod
+Submit Payout Request Form,Předloží výplata Žádost
+Payout Details,Výplatní Podrobnosti
+Requested On,Požadované On
+Your Comment For Request,Svůj komentář k požadavku
+Only 200 characters allowed,Pouze 200 znaky povoleny
+"Only (xls, xlsx) formats are allowed","(Xls, xlsx) formáty jsou povoleny pouze"
+Toggle navigation,toggle navigace
+My Account,Můj účet
+Logout,Odhlásit se
+Account Warning!,Účet Varování!
+Back To Site,Zpět na web
+Category Request Details,Kategorie Poptávka Podrobnosti
+Category Name,Název Kategorie
+Your request is in pending. Please wait for store response.,"Váš požadavek je čeká. Prosím, vyčkejte na prodejně odpověď."
+This feature is not active into your account.,Tato funkce není aktivní na svůj účet.
+To request this feature,Chcete-li požádat o tuto funkci
+Click,klikněte
+Here,Tady
+Request To Activate Import/Export Feature,Požadavek Aktivace Import / Export funkce
+Comment ,Komentář
+Required Field. Maximum 200 characters allowed.,Povinné pole. Maximálně 200 znaků povoleny.
+Click to send request,Klepněte na tlačítko odeslat žádost
+Your file has some errors. Please import file after resolving errors.,Soubor má nějaké chyby. Prosím importovat soubor po vyřešení chyby.
+Click to download your file with errors,Klikněte pro stažení souboru s chybami
+Download File with Errors,Stažení souboru s chybami
+Go Back,vrátit se
+Please do not go back or refresh page while uploading your products.,"Prosím, nevracej nebo aktualizovat stránku při nahrávání své produkty."
+It may causes errors in your catalog.,Může způsobuje chyby v katalogu.
+Download Template,Download Template
+Select Product Type,Vyberte typ výrobku
+Product Attribute Set,Atribut produkt Set
+Select Attribute Set,Select Atribut Set
+Download Template File,Download Soubor šablony
+Please make sure that columns in your file must be matched with template file created for you on the basis of selected attribute.,"Ujistěte se, že sloupce v souboru musí být uzavřeno s soubor šablony pro vás vytvořili na základě vybraného atributu."
+Import Products,dovozní Products
+Import Action,import Action
+Select Action,Vybrat akci
+"Action will only be performed on the basis of SKU of products. Without sku, product will not be consider for any action.",Akce budou prováděny pouze na základě SKU produktů. Bez SKU výrobek nebude uvažovat pro jakoukoli akci.
+Upload File,Nahrát soubor
+"Only (xls, xlsx) file will be accepted","Pouze (xls, xlsx), soubor bude přijat"
+File must not exceed %s MB,Soubor nesmí být větší než% s MB
+Browse File,Browse File
+Validate File,ověření souboru
+File must no exceed %s MB,Soubor musí ne větší než% s MB
+Import/Export Instructions,Import / Export obsluze
+Import,Import
+Export,Vývozní
+Import Instructions,import Instrukce
+"Download Template as per your product type. At a time, only 1 type of products can be import.","Stáhnout šablonu dle vašeho typu výrobku. V době, pouze jeden typ výrobků může být import."
+"If you import more than 1 type of products from one file, then system will be fail or affect your catalog.","Pokud importujete více než 1 druh výrobků z jednoho souboru, pak bude systém selže nebo ovlivnit svůj katalog."
+Each template will have '%s' worksheet. Your import file must have this worksheet as it is. Please do not change anything in its content.,"Každá šablona bude mít ‚% s‘ list. Import souborů, musí mít tento list, jak to je. Prosím, nic v jeho obsah změnit."
+Each template will have '%s' worksheet. Please provide product data from possible values of corresponding field. If field has possible values.,"Každá šablona bude mít ‚% s‘ list. Prosím, poskytují údaje o produktu z možných hodnot příslušného pole. Pokud má pole možných hodnot."
+"Only 'xls, xlsx' file having size less than %sMB will be acceptable.","Pouze ‚xls, xlsx‘ soubor má velikost menší než% SMB bude přijatelná."
+If you want to import using exported data then copy the general & image sheet of exported file into general & image sheet of the downloaded template file.,Chcete-li importovat pomocí exportovaných dat zkopírujte obecný a image listu exportovaného souboru do všeobecné a image listu staženého souboru šablony.
+"Use (|) to seperate value in multivalue field like category_ids, related_products.","Použít (|) oddělit hodnotu více hodnotami pole jako category_ids, related_products."
+Export Instructions,Export Instrukce
+Select export type in export section.,Vyberte typ export exportní části.
+"If the export type is Category, then system will export only assigned categories to you.","Je-li typ exportu kategorie, pak systém bude exportovat pouze přiřazené kategorie pro vás."
+"In case of products, select product type and attributes set.","V případě produktů, vyberte typ výrobku a atributy nastavit."
+Exported data will be in xls/xlsx format.,Exportovaná data budou ve formátu xls / xlsx.
+Export Type,Export Type
+Select Export Type,Vyberte Exportovat typ
+Category Export,Kategorie Export
+Product Export,Export produkt
+Product Status,Stav produkt
+All,Všechno
+Disabled,invalidní
+Enabled,povoleno
+In Stock,Na skladě
+Out of Stock,Vyprodáno
+Export Data,Export dat
+This process will take few minutes.,Tento proces bude trvat několik minut.
+Please do not go back or refresh page while exporting your data.,"Prosím, nevracej nebo aktualizovat stránku při exportu dat."
+Your are not eligible to use this feature as your account is either not approved or inactive.,Váš nejsou způsobilé pro tuto funkci používat jako váš účet buď není schválen nebo neaktivní.
+"Currently, this feature is disabled by store.",V současné době je tato funkce zakázána obchodě.
+You cannot use this feature as required library is missing. Please contact to support.,Tuto funkci nelze použít podle potřeby knihovny chybí. Obraťte se na podporu.
+Total Sale,Celkový prodej
+Total Earning,celkem Zisk
+Transaction Details,Detaily transakce
+My Earnings,Moje Zisk
+Earnings History,zisk History
+Order Wise Earnings,Objednat Wise Zisk
+Transactions History,transakce History
+Total Paid,Celkem zaplaceno
+Balance,Zůstatek
+Quantity to Add,Množství přidat
+Low Stock Notification,Low Sklad Notification
+Configuration,Konfigurace
+Receive Low Stock Notifications,Přijímat Low Reklamní oznámení
+Save Seller Level Configuration,Uložit Konfigurační úroveň Prodejce
+facebook,Facebook
+twitter,cvrlikání
+google,Google
+About Seller,o prodávajícího
+Description not available.,Popis není k dispozici.
+Write your thought,Napište své myšlenky
+Summary of your review,Shrnutí recenze
+Your Thought,Vaše myšlenka
+Your Name,Tvé jméno
+Rate this seller,Hodnotit tento prodejce
+Submit Review,odeslat recenzi
+Notify Customer by Email,Informovat zákazníka e-mailem
+Visible on Storefront,Viditelné na Storefront
+Submit Comment,odeslat komentář
+Customer,Zákazník
+Notified,oznámené
+Not Notified,neoznámil
+Please provide comment,"Uveďte, prosím, komentář"
+Product,Produkt
+Subtotal,mezisoučet
+Order Detail,objednat Detail
+Click to download invoice.,Kliknutím na stáhnout fakturu.
+Download Invoice,Ke stažení Faktura
+Click to download shipping slip.,Kliknutím na stáhnout lodní skluz.
+Download Shipping Slip,Download Přepravní Slip
+Are you sure you want to send order email to customer?,"Jste si jisti, že chcete poslat objednávku e-mailem na zákazníka?"
+Click to send email to customer,Klikněte pro odeslání e-mailu zákazníkovi
+Send Email,Poslat e-mailem
+Click to create shipment,Kliknutím vytvoříte zásilku
+Ship,Loď
+Print,Vytisknout
+Basic Informations,Základní údaje
+Order Status,Stav objednávky
+Billing Address,fakturační adresa
+Shipping Address,doručovací adresa
+Ordered,objednaný
+Shipped,dodáno
+Canceled,zrušený
+Refunded,vrácena
+Gift Message,Gift Message
+Excl. Tax,DPH. Daň
+Total,Celkový
+Incl. Tax,Vč. Daň
+Total incl. tax,Celkem vč. daň
+Invoiced,fakturovaná
+Order Items,Order items
+Shipments,zásilky
+Ship to Name,Loď se jména
+Date Shipped,datum Posíláme
+Total Qty,Celkové množství
+click to view detail,klikněte pro zobrazení detailu
+Tax,Daň
+Items To Be Shipped,Položky mají být dodány
+Qty to Ship,Množství do dodání
+Append Comments,Připojit Komentáře
+Email Copy of Shipment,Email Copy of Zásilky
+Submit Shipment,odeslat zásilku
+New Shipment,nová zásilka
+Back,Zadní
+Shipment Tracking,sledování zásilky
+Carrier,Dopravce
+Tracking No.,Sledování No.
+Action,Akce
+Add Tracking Number,Přidejte sledovací číslo
+Invalid value(s) for Qty to Ship,Neplatná hodnota (y) pro množství do dodání
+Shipment Detail,zásilka Detail
+Are you sure you want to send Shipment email to customer?,"Jste si jisti, že chcete poslat zásilku e-mail na zákazníka?"
+Send Tracking Information,Odeslat informace o trase
+Tracking Number,Sledovací číslo
+Add,Přidat
+Tracking title is required.,Sledování titulu je nutná.
+Tracking number is required.,Sledovací číslo je nutné.
+Shipped Items,odeslané položky
+Qty Shipped,Množství Posíláme
+No Item Shipped Yet,No Item Posíláme Přesto
+Reviews,recenze
+Posted on:,Vloženo na:
+by ,podle
+Sorry! No Reviews Found.,Promiňte! Žádné hodnocení.
+Write your review,Napište svůj názor
+Sellers List,Seznam prodejců
+Search Seller,Vyhledávání prodejce
+Sorry! No Seller(s) Found.,Promiňte! Ne Prodejce (y).
+General Contact,Obecné Kontakt
+Customer Support,Zákaznická podpora
+Sales Representative,Obchodní zástupce
+Custom Email 1,Custom Email 1
+Custom Email 2,Custom Email 2
+"Unable to write low stock files. Permission Error on ""var"" Directory.",Nelze psát nízké obrázky soubory. Oprávnění Chyba na „var“ Directory.
+Unable to write file for Seller ,Nelze zapsat soubor pro prodávajícího
+Product ID,Product ID
+Current Quantity,Aktuální Množství
+Base Image,základna Image
+Small Image,malá Image
+Thumbnail,náhledy
+Disallowed file type.,Nepovolené typ souboru.
+Type of the product you have selected for this import template file.,Typ výrobku jste zvolili pro tento soubor importu šablony.
+Attribute set you have selected for this product type in import template file.,Nastaven atribut jste vybrali pro tento typ výrobku v souboru importu šablony.
+single pipe(|) seperated multiple categories,jednoduchá trubka (|) odděleny více kategorií
+single pipe(|) seperated product sku,jednoduchá trubka (|) odděleny produkt sku
+single pipe(|) seperated attributes,jednoduchá trubka (|) oddělené atributy
+pair of values seperated by single pipe(|),dvojice hodnot odděleny jednoho potrubí (|)
+System will group your bundle item on the basis of this title. If two items has same title then they will be grouped in same bundle.,Systém bude skupina Váš předmět svazku na základě tohoto titulu. Pokud dvě položky má stejný název pak budou rozděleny do stejného svazku.
+Daily,Denně
+Weekly,Týdně
+Monthly,Měsíční
+Yearly,Roční
+Waiting for Approval,Čekání na schválení
+Approved,Schválený
+Disapproved,zamítnuto
+Add new products,Přidávat nové produkty
+Update existing products,Aktualizovat stávající produkty
+Add/update products,Přidat / aktualizovat produkty
+Delete products,Odstranit produkty
+Bank Wire,Bankovní převod
+Payment By Cheque,Platba šekem
+Paypal,paypal
+Please provide the paypal email id.,Uveďte prosím paypal e-mailovou id.
+Paypal Email ID,Paypal ID e-mailu
+Please provide additional information.,Uveďte prosím další informace.
+Additional Information,dodatečné informace
+Please provide the name.,Uveďte prosím název.
+Pay to the order of (name),Zaplatit pořadí (jméno)
+Please provide the address.,Uveďte adresu.
+Address,Adresa
+Address where the cheque should be sent to.,"Adresu, kam má být šek zaslán."
+Please provide account owner name,Uveďte prosím název účtu vlastníka
+Account Owner,Majitel účtu
+Please provide bankwire details,"Uveďte, prosím, podrobnosti bankwire"
+Details,podrobnosti
+"Such as bank branch, IBAN number, BIC, etc.","Jako jsou pobočky banky, IBAN číslo, BIC, atd"
+Please provide bankwire address.,Uveďte bankwire adresu.
+Bank Address,Adresa banky
+Requsted on: ,Requsted na:
+ by,podle
+Amount: ,Množství:
+Payment Method: ,Způsob platby:
+PayPal,PayPal
+PayPal ID: ,PayPal ID:
+Additional Information: ,Dodatečné informace:
+Bankwire,Bankwire
+Owner Name: ,Jméno majitele:
+Details: ,Podrobnosti:
+Bank Address: ,Adresa banky:
+Cheque,Kontrola
+Address: ,Adresa:
+No balance amount is left for this seller.,Žádná částka zůstatek je vlevo tohoto prodejce.
+No order found for this seller. Transaction cannot be initiated.,nalezeno tohoto prodejce žádná objednávka. Transakce nemůže být zahájeno.
+Paypal payout request failed.,Paypal žádost výplata selhal.
+Please enable paypal payout to make this transaction.,Povolte PayPal platbu provést tuto transakci.
+Payout request does not exist.,Požadavek výplata neexistuje.
+By System,By System
+Manually,ruční
+Successfully,Úspěšně
+Credit,Kredit
+Debit,debet
+Unknown,Neznámý
+Invalid request,Neplatná žádost
+Export type is missing,Typ exportu chybí
+No product found as per your selected parameters.,Nenalezeno žádné zboží podle vybraných parametrů.
+Unable to process request,Nemůže požadavek zpracovat
+No category assigned to you.,Žádné kategorie spojeny s vámi.
+invalid request,neplatná žádost
+Please select product parameters.,"Prosím, vyberte parametry výrobku."
+No products found to export.,Nebyly nalezeny žádné produkty vyvážet.
+Vacation is successfully canceled.,Dovolená se úspěšně zrušena.
+New Vacation successfully created.,New Vacation úspěšně vytvořen.
+Your products will be hidden automatically when the vacation starts.,"Vaše výrobky budou skryta automaticky, pokud je dovolená začíná."
+Start Date or End Date cannot be less than today.,Datum zahájení nebo Datum ukončení nemůže být nižší než dnes.
+Start Date or End Date cannot be same.,Datum zahájení nebo Datum ukončení nemůže být stejné.
+Date range should not be in between of any previous active vacation.,Časové období by neměly být v rozmezí jakéhokoliv předchozího aktivní dovolenou.
+Technical error occurred while validating new vacation.,Při ověřování nového dovolenou došlo k technické chybě.
+The requested vacation's detail not found.,detail vyžádané dovolenou nebyla nalezena.
+Marketplace - CRON,Marketplace - CRON
+Please enable the low stock notifications functionality first,Zapněte si prosím nejprve funkčnost nízkou akciové oznámeními
+Please enable the marketplace module first,Zapněte si prosím nejprve modul tržiště
+Low Stock Notifications Cron Executed Successfully.,Low Sklad Oznámení Cron byl úspěšně proveden.
+"There were some errors executing the low stock notifications cron, please check Log for more details.","Tam byly některé chyby vykonávající nízkou akciové oznámeními cron, zkontrolujte protokol pro více informací."
+Please enable the seller vacation functionality first,Zapněte si prosím nejprve funkčnost prodávající dovolenou
+Vacation Cron Executed Successfully.,Rekreační Cron byl úspěšně proveden.
+"There were some errors executing the vacation cron, please check Log for more details.","Tam byly některé chyby spuštěním dovolená cron, zkontrolujte protokol pro více informací."
+View Shipment,pohled zásilky
+Requested order details not Found.,Požadované údaje objednávka nebyla nalezena.
+We can\'t save the shipment right now.,Můžeme \ 't uložit zásilku právě teď.
+Shipment Document Validation Error(s):\n,Přeprava ověření dokumentu Chyba (y): \ n
+The shipment has been created.,Byla vytvořena zásilka.
+You created the shipping label.,Vytvořili jste přepravní štítek.
+An error occurred while creating shipping label.,Při vytváření visačku došlo k chybě.
+Cannot save shipment.,Nelze uložit zásilku.
+Please enter a comment.,Zadejte prosím komentář.
+Comment has been added for this shipment.,Komentář byl pro tuto zásilku dodává.
+Cannot add new comment.,Nelze přidat nový komentář.
+You sent the shipment.,Odeslali jste zásilku.
+Cannot send shipment information.,Nelze odesílat informace o zásilce.
+Please specify a carrier.,Zadejte nosič.
+Please enter a tracking number.,"Prosím, zadejte sledovací číslo."
+Tracking number successfully updated into this shipment.,Sledovací číslo úspěšně aktualizována do této zásilky.
+We can\'t initialize shipment for adding tracking number.,Můžeme \ 't inicializovat zásilku pro přidání sledování počtu.
+Cannot add tracking number.,Nelze přidat sledovací číslo.
+Tracking number successfully deleted from this shipment.,Sledovací číslo úspěšně odstraněn z této zásilky.
+We can\'t initialize shipment for delete tracking number.,Můžeme \ 't inicializace zásilku pro mazání sledovací číslo.
+We can\'t delete tracking number.,Můžeme \ 't odstranit sledovací číslo.
+We can\'t load track with retrieving identifier right now.,Můžeme \ 't zatížení trať s načtením identifikátor právě teď.
+Quanity updated successfully.,Quanity úspěšně aktualizován.
+Low Stock,Low Sklad
+Configuration Saved Successfully.,Konfigurace úspěšně uloženy.
+Seller's Products - Reviews,Prodávajícího Products - Recenze
+Pending,čekající
+Not Approved,Neschváleno
+Seller's Account-Orders,Prodávajícího účtu Objednávky
+Seller OrderView,Prodávající OrderView
+You sent the order email.,Poslali jste e-mail objednávky.
+We can\'t send the email order right now.,Můžeme \ 't poslat e-mailovou objednávku právě teď.
+This order no longer exists.,Toto pořadí již neexistuje.
+There are no shipping documents related to this order.,Neexistují žádné přepravní doklady vztahující se k tomuto řádu.
+Print Order,Print Order
+There are no invoice documents related to this order.,Neexistují žádné dokumenty faktura vztahující se k tomuto řádu.
+Seller List,Seznam prodávající
+Knowband,Knowband
+Marketplace,Marketplace
+Email Template Updated successfully.,Šablona e-mailu úspěšně aktualizován.
+Best Selling Products,Nejprodávanější produkty
+ Seller(s) Disabled Successfully,Prodejce (y) Zakázáno Úspěšně
+Invalid Request,neplatná žádost
+Status changed successfully,Stav byl úspěšně změněn
+Activated,aktivován
+Deactivated,deaktivován
+Cannot update,Nelze aktualizovat
+Cannot load object,Nelze načíst objekt
+Seller Approved Successfully,Prodávající Schválené Úspěšně
+Email Templates,e-mailové šablony
+Sellers Payout Request,Prodejci Výplatní Request
+Product Approval Request,Žádost o schválení výrobku
+Technical error occurred while canceling vacation.,Při rušení dovolenou došlo k technické chybě.
+Seller Reviews,Prodávající Recenze
+%s by %s,% S% s
+The requested seller's review detail not found.,detail recenze vyžádané prodávajícího nebyl nalezen.
+Import/Export Feature Request List,Import / Export Seznam Feature Request
+Settings saved successfully.,Nastavení úspěšně uloženo.
+Seller Account Approval Request,Prodávající Žádost o schválení účtu
+Seller Vacation List,Seznam prodávající dovolenou
+Transaction detail successfully saved.,detail transakce úspěšně uloženy.
+Some error occured. Please try again.,Došlo k nějaké chybě. Prosím zkuste to znovu.
+Total of %d record(s) have been updated.,Celkem% d záznam (ů) byly aktualizovány.
+ Seller(s) Disapproved Successfully,Prodejce (y) Zamítnuto Úspěšně
+Seller Product List,Prodávající seznam zboží
+Review has been approved successfully.,Přezkum byl úspěšně schválen.
+Technical Error Occured - Not able to update.,Technická došlo k chybě - nebylo možné aktualizovat.
+Review has been disapproved successfully.,Přezkum byl úspěšně schválen.
+Seller review has been deleted.,Hodnocení prodejce byl smazán.
+Technical error occurred while processing category request.,Při zpracování požadavku došlo k technické chybě kategorie.
+Seller account has not been approved yet. Please approve the seller account first.,Prodávající účet ještě nebyl schválen. Prosím schválit nejprve účet prodejce.
+ record(s) have been updated.,záznam (ů) byly aktualizovány.
+Product has been approved successfully.,Výrobek byl úspěšně schválen.
+ Seller(s) Approved Successfully,Prodejce (y) schválen Úspěšně
+Approval updated successfully,Schválení úspěšně aktualizováno
+Seller Review Approval Request,Prodávající Request Review Schválení
+PayPal Payout settings has been saved successfully.,Nastavení PayPal výplat byl úspěšně uložen.
+Category Wise Commissions,Kategorie Wise Provize
+CRON Instructions,cron Instrukce
+Seller List with Import/Export Feature,Prodávající Seznam s Import / Export Feature
+Product Reviews,Recenze produktů
+Seller Disapproved Successfully,Prodávající Zamítnuto Úspěšně
+Category Request List,Seznam kategorií Request
+Commissions,provize
+Total of %d record(s) have been deleted.,Celkem% d záznam (ů) byly odstraněny.
+ Seller(s) Enabled Successfully,Prodejce (y) Enabled Úspěšně
+Sellers Payout,Prodejci Výplatní
+"Some of the products are not enabled, because either these products or their sellers are not approved/disabled.","Některé z výrobků, které nejsou povoleny, protože buď tyto produkty nebo jejich prodejci nejsou schváleny / vypnout."
+Some of the processed products have no SKU value defined. Please fill it prior to performing operations on these products.,"Některé z těchto zpracovaných produktů nemají žádnou hodnotu SKU definována. Prosím, vyplňte to před provedením operace s těmito produkty."
+Payout request status has been updated successfully.,Stav požadavku výplata byla úspěšně aktualizována.
+Invalid Request.,Neplatná žádost.
+Seller Wise Commissions,Prodávající Wise Provize
+Seller Dashboard,Prodávající Dashboard
+Your request has been sent. Please wait for store response.,"Váš požadavek byl odeslán. Prosím, vyčkejte na prodejně odpověď."
+Cannot send request,Nelze odeslat požadavek
+Product Import/Export,Dovoz zboží / Export
+Seller Profile,prodávající Profile
+Seller Profile saved successfully.,Prodávající Profil byl úspěšně uložen.
+Not Available,Není dostupný
+Your payout request has been submitted successfully.,Vaše žádost výplata byla úspěšně odeslána.
+Please configure payout method in the seller profile menu.,Prosím nastavit způsob výplaty v nabídce prodejce profilu.
+Seller's Account - Payout Requests,Výplatní Žádosti - účet prodávajícího
+Error Occured,Vyskytla se chyba
+Thank you for rating the Seller.,Děkujeme za ohodnocení prodávajícího.
+Posting review for this seller is not allowed.,přezkoumání Vysílání tohoto prodejce není povoleno.
+Seller Account - My Reviews,Prodejce účet - Moje recenze
+"You can't register yourself as seller because your registration request limit has been over. To register, please contact to support.","Nelze registrovat se jako prodejce, protože váš limit požadavku registrace byla u konce. Chcete-li zaregistrovat, obraťte se prosím na podporu."
+Seller's Account - Earnings,Prodávajícího Account - Zisk
+Seller's Account - Transactions History,Transakce History - účet prodávajícího
+File Path is Missing,Cesta k souboru je chybějící
+Unknown file,neznámý typ souboru
+General worksheet is missing.,Obecně listu chybí.
+Column title row is missing from general worksheet.,Sloupec řádek názvu chybí obecné listu.
+Column '%s' is missing from general worksheet.,Sloupec ‚% s‘ chybí obecné listu.
+File is empty.,Soubor je prázdný.
+Error in processing '%s' sku before deleting.,Chyba při zpracování% s Kód před odstraněním.
+Listed products are not deleted:,Uvedené produkty nejsou odstraněny:
+"Upload your file and try again. To speed up delete process, please remove all products that has been deleted.","Nahrát svůj soubor a zkuste to znovu. Chcete-li urychlit proces odstranění, odstraňte prosím všechny produkty, které již byly odstraněny."
+Your products has been deleted. System will redirect you on product list automatically in 5 secs.,Vaše výrobky byl smazán. Systém se automaticky přesměruje na seznamu produktů v 5 sekund.
+Import action is Missing,Import akce je chybějící
+Meta Information worksheet is missing,Meta informace listu chybí
+File must not exceed ,Soubor nesmí překročit
+This sku does not exist,Tato sku neexistuje
+Product of this SKU is not yours.,Produktem této SKU není vaše.
+This row has error,Tento řádek obsahuje chybu
+Meta Information Sheet is Missing,Meta informační list chybí
+Error in processing data of '%s' sku.,Chyba ve zpracování dat ‚% s‘ Kód.
+Listed products are not saved:,Uvedené produkty nejsou uloženy:
+"Upload your file and try again. To speed up process, please remove all other product data that has been saved successfully.","Nahrát svůj soubor a zkuste to znovu. Chcete-li urychlit proces, odeberte všechny ostatní údaje o produktu, který byl úspěšně uložen."
+Your products has been uploaded. System will redirect you on product list automatically in 5 secs.,Vaše výrobky byl nahrán. Systém se automaticky přesměruje na seznamu produktů v 5 sekund.
+Error while processing rows in uploaded file.,Chybě při zpracování řádků v nahraném souboru.
+Error: %s,Chyba:% s
+Product Type is missing from Meta Sheet Worksheet,Typ výrobku chybí Meta list sešitu
+Product Type is invalid in Meta Sheet Worksheet,Typ produktu je neplatná Meta list sešitu
+Attribute set id is missing from Meta Sheet Worksheet,Atribut set id chybí Meta list sešitu
+Attribute set id is not valid in Meta Sheet Worksheet,Atribut set id není platný v Meta list sešitu
+This SKU is already used by other product of you or other seller.,Toto SKU již používá jiný produkt z vás nebo jiného prodejce.
+This SKU is used by other seller or store.,Toto SKU je používán jiným prodávajícím nebo obchodě.
+This value is required,Tato hodnota je povinná
+Invalid Value. Only date format value is accepted.,Neplatná hodnota. Jediná hodnota formát data byla přijata.
+Invalid Value. Only Price type value accepted,Neplatná hodnota. Přijímány pouze typ Cena hodnota
+Invalid Value. Only positive number type value accepted,Neplatná hodnota. Přijímány pouze kladné číslo typ hodnoty
+Out of range value. Please see possible value for this field.,Z rozmezí hodnot. Naleznete možnou hodnotu pro toto pole.
+Some of the values are not exist.,Některé z těchto hodnot je neexistuje.
+Your request has been sent to the admin for approval.,Váš požadavek byl zaslán admin ke schválení.
+Seller's Account - Request a New Category,Účet prodávajícího - Žádost o novou kategorii
+Attribute set is missing,Atribut set chybí
+Attribute set cannot load,Atribut set nelze načíst
+1. This worksheet is required and must be included in your import file,1. Tento list je povinná a musí být obsaženy v souboru importu
+2. Do not change worksheet name as well as its content.,"2. Neměňte listu název, stejně jako její obsah."
+3. Any change in this worksheet format will not allow system to import your data into system.,3. Jakákoli změna v tomto formátu listu nedovolí systém pro import dat do systému.
+4. We recommend you to copy this worksheet in your import file with same worksheet name.,"4. Doporučujeme, abyste tento list zkopírován do souboru importu se stejným názvem listu."
+1. This worksheet contains possible values of some field.,1. Tato tabulka obsahuje možné hodnoty určité oblasti.
+2. Please fill the related fields only from these possible values.,2. Vyplňte prosím související pole pouze z těchto možných hodnot.
+3. If possible values for any field are not given then you can fill it with any text value.,3. Je-li možné hodnoty pro jakékoliv oblasti nejsou dány pak si můžete vyplnit s jakýmkoliv textem hodnotou.
+Seller's Products,Výrobky prodávajícího
+The product has been saved.,Produkt byl uložen.
+This window will be closed automatically within %s secs.,Toto okno se automaticky zavře v% s sekund.
+Product has been saved successfully.,Výrobek byl úspěšně uložen.
+The product has been duplicated successfully.,Výrobek byl úspěšně duplikovány.
+Product has been created successfully.,Výrobek byl úspěšně vytvořen.
+Please wait for admin approval.,"Prosím, vyčkejte na schválení správce."
+"Adding of new product limit has been over as your account is not approved or waiting for approval. To add more products, your account needs to be approved.","Přidání nového limitu výrobek byl přes jako váš účet není schválen nebo čeká na schválení. Chcete-li přidat více produktů, musí být schválen váš účet."
+You duplicated the product.,duplikovány jste výrobek.
+Seller's Product,Prodávajícího zboží
+This SKU already exist.,Toto SKU již existují.
+Cancel Vacation,Zrušit Dovolená
+Add New Vacation,Přidat nový rekreační
+Vacation Halted,dovolená Zastaveno
+Created Date,Datum vytvoření
+This vacation is already canceled,Tato dovolená je již zrušen
+Visibility,Viditelnost
+click to edit product,kliknutím upravit produkt
+click to update quantity,klikněte pro aktualizaci množství
+Update Quantity,aktualizace Množství
+Order No.,Objednávka číslo.
+From Date,od Datum
+To Date,K datu
+click to print order,Klikněte pro tisk objednávky
+Shipping & Handling,poštovné a balné
+Discount (%1),Sleva (% 1)
+Discount,Sleva
+Grand Total,Celkový součet
+Grand Total to be Charged,Celkový součet které mají být účtovány
+Custom Value,Custom Value
+Order # %1,Pořadí # 1%
+Comment History,komentář History
+Shipment History,zásilka History
+Credit Memo History,Credit Memo History
+Subtotal (Excl.Tax),Součet (Excl.Tax)
+Subtotal (Incl.Tax),Součet (Incl.Tax)
+Shipping & Handling (Excl.Tax),Dodávka & Manipulace (Excl.Tax)
+Shipping & Handling (Incl.Tax),Dodávka & Manipulace (Incl.Tax)
+Grand Total (Excl.Tax),Celkový součet (Excl.Tax)
+Grand Total (Incl.Tax),Celkový součet (Incl.Tax)
+Email,E-mailem
+Shipping Charges,Námořní Poplatky
+Track this shipment,Sledovat zásilku
+Track Order,Sledovat objednávku
+Shipping Method,Způsob dopravy
+Shipping not Required,Vodní doprava není požadováno
+Payment Method,Způsob platby
+Grand Total (Excl. Shipping),Celkový součet (Bez. Vodní doprava)
+Discount (%s),Sleva (% s)
+Total Refunded,celková Vráceno
+Total Due,Konečná cena
+Shipping & Handling (Excl. Tax),Dodávka & Manipulace (Bez. Tax)
+Shipping & Handling (Incl. Tax),Dodávka & Manipulace (vč. Daně)
+Print Order # %1,Print Order #% 1
+Minimum %d character requried,Minimální% d znak requried
+Save Template,Save Template
+Show Report,Show Report
+Manage Seller Account,Správa účtu Prodejce
+Add Subcategory,Přidat Subcategory
+Add Root Category,Přidat Root Kategorie
+Save Settings,Uložit nastavení
+Seller Payout Request,Prodávající Výplatní Request
+ID,ID
+Transation Date,transakčního Date
+Telephone,Telefon
+Commission (in %),Komise (v%)
+Your Earnings,Vaše příjmy
+Category wise Commissions,Kategorie moudrý Provize
+Total Commission,celková Komise
+Transaction History,historie transakcí
+Seller wise Commissions,Prodávající moudrý Provize
+Seller Earning,Prodávající Zisk
+Amount Transfer,převáděná částka
+Transaction Action,transakce Action
+Sellers Payout (,Prodejci Výplata (
+Seller Order List,Prodávající Objednací
+Purchased From (Store),Zakoupené od (Store)
+Purchased On,koupil On
+Actions,Akce
+Template Description,Popis šablony
+Template Type,Template Type
+Date Added,datum přidáno
+Date Updated,Datum aktualizace
+Seller Best Selling Product List,Prodávající Seznam Nejprodávanější zboží
+Interval,Interval
+Order Quantity,objednávka Množství
+Product Price,produkt Cena
+Seller Account Approval Request List,Prodávající Schválení účet Seznam Request
+Approved Status,schválený Status
+Added Date,přidán datum
+Approve,Schvalovat
+Account Status,Stav účtu
+Seller Status,Prodávající Status
+Seller Since,"Vzhledem k tomu, prodávající"
+Posted On,Vloženo na
+Request Date,Request Date
+Vacation Active,dovolená Aktivní
+Seller Review Approval List,Prodávající Seznam Review Schválení
+Seller Approval List,Seznam prodávající Schválení
+Seller Product Reviews,Hodnocení prodejce produktů
+Created On,Vytvořeno
+Nickname,Přezdívka
+Visible In,viditelné V
+Type,Typ
+Product SKU,produkt SKU
+Edit,Upravit
+Seller Category Request List,Prodávající Seznam kategorií Request
+Seller Email,Prodávající Email
+View,Pohled
+Disapprove,Neschválit
+Make New,Udělej nový
+Edit Template,Upravit šablonu
+Products,produkty
+Administrator,Správce
+Guest,Host
+Seller Bulkimport Feature List,Prodávající Bulkimport Seznam funkcí
+Last Update,Poslední aktualizace
+Feature Status,funkce Status
+Seller Bulkimport Feature Request List,Prodávající Bulkimport Seznam Feature Request
+Seller Comment,Prodávající Comment
+Your Comment,Tvůj komentář
+Request Status,Stav doručení
+Activate Feature,aktivujte funkci
+Read More,Přečtěte si více
+click to view review,klikněte pro zobrazení recenze
+Posted on: %s by %s,Publikováno dne:% s% s
+Home,Domov
+Home Page,Domovská stránka
+click to view product,klepněte na tlačítko Zobrazit produkt
+Your seller account is currently under process and not yet approved. You only have a limited access to the seller account currently.,Váš účet prodejce je v současné době procesu a dosud nebyly schváleny. Máte omezený přístup k účtu prodejce v současné době pouze.
+Your seller account has been disapproved. You only have a limited access to the seller account currently. To send request again ,Váš prodejce účet byl zamítnut. Máte omezený přístup k účtu prodejce v současné době pouze. Chcete-li odeslat požadavek znovu
+Click Here,Klikněte zde
+Product Catalog,Produktový katalog
+Product Feedback,Zpětná vazba Product
+Earnings,Zisk
+Transactions,transakce
+New Category Request,New Poptávka Kategorie
+My Vacations,Moje prázdniny
+Requested Date,Požadované datum
+Request On,On požadovat
+Date,datum
+Transaction Date,Datum transakce
+Amount of %s debited from your earning on %s,Množství% s stržena z vašeho výdělku z% s
+Amount of %s credited into your account on %s,Množství% s připsána na váš účet na% s
+Report Format,Report Format
+Your file is valid. Please click 'Delete Products' button to delete your products,"Váš soubor je platný. Prosím, klikněte na tlačítko ‚Delete přípravky‘ tlačítko mazat své produkty"
+Your file is valid. Please click 'Import Products' button to upload your products,"Váš soubor je platný. Prosím, klikněte na tlačítko ‚dovážet výrobky‘ nahrát své produkty"
+Delete Products,Odstranit produkty
+"Adding of new product limit has been over as your account is not approved or waiting for approval. To add more products, your account need to be approved.","Přidání nového limitu výrobek byl přes jako váš účet není schválen nebo čeká na schválení. Chcete-li přidat více produktů, váš účet musí být schváleny."
+Use Default Value,Použít výchozí hodnota
+Seller Account,Prodávající Account
+General Settings,Obecné nastavení
+Seller List,Seznam prodávající
+Seller Account Approval Request,Prodávající Žádost o schválení účtu
+Seller Product List,Prodávající seznam zboží
+Product Approval Request,Žádost o schválení výrobku
+Product Reviews,Recenze produktů
+Seller Reviews,Prodávající Recenze
+Seller Review Approval Request,Prodávající Request Review Schválení
+Category Request List,Seznam kategorií Request
+Seller Vacation List,Seznam prodávající dovolenou
+Reports - Best Selling Products,Reports - nejprodávanější produkty
+Email Templates,e-mailové šablony
+CRON Instructions,cron Instrukce
+Bulk Import/Export,Bulk Import / Export
+Seller With Feature,Prodávající s funkčností
+Feature Activation Request,Aktivace funkce Poptávka
+Transactions and Earnings,Transakce a zisk
+Commissions,provize
+Category Wise Commissions,Kategorie Wise Provize
+Seller Wise Commissions,Prodávající Wise Provize
+Sellers Payout List,Prodejci Seznam Výplatní
+Sellers Payout Request,Prodejci Výplatní Request
+PayPal Payout Settings,Nastavení plateb PayPal
+Best Selling Products,Nejprodávanější produkty
+Seller with Import/Export Feature,Prodávající s Import / Export Feature
+Import/Export Feature Activation Request List,Import / Export Seznam funkcí Activation Request
+Category Wise Commission,Kategorie Wise Komise
+Category Request List,Seznam kategorií Request
+Edit Email Template,Editovat Šablona e-mailu
+Email Templates,e-mailové šablony
+Seller Order List,Prodávající Objednací
+PayPal Payout Settings,Nastavení plateb PayPal
+Product Approval Request,Žádost o schválení výrobku
+All Seller's Products - Reviews,Všechny prodávajícího Products - Recenze
+Seller Account Approval Request,Prodávající Žádost o schválení účtu
+Seller Wise Commission,Prodávající Wise Komise
+Seller List,Seznam prodávající
+Seller Product List,Prodávající seznam zboží
+Seller Review Approval Request,Prodávající Request Review Schválení
+All Seller's Reviews,Všechny prodávajícího komentáře
+Seller Vacation List,Seznam prodávající dovolenou
+Commissions,provize
+Sellers Payout,Prodejci Výplatní
+Sellers Payout Request,Prodejci Výplatní Request
+View Sellers,Strojově Prodejci
+Start date or end date can not be same,Datum zahájení nebo ukončení nemohou být stejné

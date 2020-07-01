@@ -1,0 +1,282 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?816zd2');
+  src:  url('../fonts/icomoon.eot?816zd2#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?816zd2') format('truetype'),
+    url('../fonts/icomoon.woff?816zd2') format('woff'),
+    url('../fonts/icomoon.svg?816zd2#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-menu2:before {
+  content: "\e9be";
+}
+#vss_marketplace_view #general-settings .admin__fieldset > .admin__field > .admin__field-label{
+    width:calc( (100%) * 0.40 - 30px );
+}
+
+#vss_marketplace_view .marketplace-h1{
+    border-bottom: 1px solid #e3e3e3;
+    padding-bottom: 7px;
+}
+#vss_marketplace_view .admin__fieldset > .admin__field{
+    margin-bottom: 2rem;
+}
+
+#vss_marketplace_view .ui-slider .ui-slider-handle{
+    position: absolute;
+    z-index: 2;
+    width: 1.2em;
+    height: 1.2em;
+    cursor: default;
+    border-radius:5px;
+    border:1px solid #cccccc;
+    background-color: #f4f4f4;
+    top: -.3em;
+}
+#vss_marketplace_view  .ui-widget-header {
+    border-color: #496CAD;
+    background: #496CAD;
+    color: #fff;
+}
+#vss_marketplace_view .ui-slider-horizontal{
+    border: 1px solid #dddddd;
+    background: #eeeeee;
+    color: #333333;
+}
+#vss_marketplace_view .portlet {
+    margin: 10px 10px;
+    border: 1px solid #B5B5B5;
+    clear: both;
+    display: block;
+    height: 80px;
+    cursor: move;
+    overflow: hidden;
+}
+#vss_marketplace_view .portlet-header {
+    border-bottom: 1px solid #b5b5b5;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: #7C7C7C;
+    min-width: 160px;
+    margin: 5px 10px;
+    padding-bottom: 5px;
+}
+
+.vss_info {
+    bottom: -1.3rem;
+    color: #808080;
+    font-size: 1.1rem;
+    font-weight: 400;
+    min-width: 15rem;
+    right: 0;
+}
+
+.vss_required {
+    color: red;
+}
+
+/* Validation CSS Start */
+.kb_error_field {
+    border: 1px solid #F44336 !important;
+}
+
+.kb_error_message {
+    color: #F44336;
+    font-size: 1.2rem;
+}
+/* Validation CSS End */
+
+#vss_marketplace_graph_stats
+{
+    height: 400px; width: 100%; margin: 0 auto;
+}
+#vss_marketplace_graph_stats .loader-1
+{
+    height: 400px; 
+    width: 100%; 
+    margin: 0 auto;    
+    line-height: 400px;
+    text-align: center;
+}
+#vss_marketplace_graph_stats .loader-1 img
+{
+    width: 64px !important;
+}
+
+#vss_marketplace_device_stats, #vss_marketplace_country_stats
+{
+    height: 300px; width: 300px; margin: 0 auto;
+}
+
+.vss_50width {
+    width: 50%;
+    float: left;
+    /*padding-right: 10px;*/
+}
+
+.vss_block_body{
+    border-top: 0px;
+    display: inline-block;
+    width: 100%;
+    padding: 6px 10px 8px;
+}
+.vss_head{
+    margin: 10px 0 0 0;
+}
+.vss_head .heading{
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px;
+    margin: 2px 0 0 0;
+    text-align: center;
+}
+
+.vss_center_align_ul {
+    width: 80%;
+    /*margin: 0 auto;*/
+    list-style: none;
+}
+
+.spin_error{
+    color: red;
+}
+
+.kb_email_success_message {
+    color: #4caf50;
+}
+
+.btn {
+    font-family: inherit;
+    font-size: 12px;
+    font-weight: 700;
+    font-weight: 500;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 1.125rem;
+    padding: .5rem 1rem;
+    margin: 0;
+    height: auto;
+    border: 1px solid transparent;
+    vertical-align: middle;
+    -webkit-appearance: none;
+    color: inherit;
+    background-color: transparent;
+}
+
+.btn, .btn:hover {
+    text-decoration: none;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #0074d9;
+    border-radius: 3px;
+}
+
+.bg-black{background-color:#111}.bg-gray{background-color:#aaa}.bg-silver{background-color:#ddd}.bg-white{background-color:#fff}.bg-aqua{background-color:#7fdbff}.bg-blue{background-color:#0074d9}.bg-navy{background-color:#001f3f}.bg-teal{background-color:#39cccc}.bg-green{background-color:#2ecc40}.bg-olive{background-color:#3d9970}.bg-lime{background-color:#01ff70}.bg-yellow{background-color:#ffdc00}.bg-orange{background-color:#ff851b}.bg-red{background-color:#ff4136}.bg-fuchsia{background-color:#f012be}.bg-purple{background-color:#b10dc9}.bg-maroon{background-color:#85144b}.bg-darken-1{background-color:rgba(0,0,0,.0625)}.bg-darken-2{background-color:rgba(0,0,0,.125)}.bg-darken-3{background-color:rgba(0,0,0,.25)}.bg-darken-4{background-color:rgba(0,0,0,.5)}.bg-lighten-1{background-color:hsla(0,0%,100%,.0625)}.bg-lighten-2{background-color:hsla(0,0%,100%,.125)}.bg-lighten-3{background-color:hsla(0,0%,100%,.25)}.bg-lighten-4{background-color:hsla(0,0%,100%,.5)}
+.black {
+    color: #111;
+}
+
+.marketplace_attribute_mapping td {
+    vertical-align: middle !important;
+}
+
+.font_size14 {
+    font-size: 14px;
+}
+
+.vss_attr_dropdown {
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.admin__control-text[disabled], .admin__control-text[readonly] {
+    cursor: not-allowed;
+    background-color: #eee;
+    opacity: 1;
+}
+
+.tabel_simple
+{
+    margin: 0 auto;
+    width: 75%;
+    margin-left: 17%;
+}
+
+td
+{
+    padding: 10px 0px;
+}
+
+.vssmp_input_box
+{
+    padding: 4px 6px;
+    color: #555;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    width: 400px;
+    /*height: 35px;*/
+    border-radius: 4px;
+}
+
+.vssmp_input_box_small
+{
+    padding: 4px 6px;
+    color: #555;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    width: 100px;
+    height: 35px;
+    border-radius: 4px;
+}
+
+
+.vssmp_div_buttons_footer
+{
+    float: left;
+}
+
+.vssmp_button_submit_form
+{
+    height: 30px;
+    border: 1px #6caa36 solid;
+    color: #6caa36;
+    background-color: #FFFFFF;
+}
+.vssmp_button_submit_form:hover
+{
+    border-color: #008000;
+    color: #008000;
+}
+
+.vssmp_error_heading
+{
+    color: #FF0000;
+    border: #FF0000 1px solid;
+    padding: 10px;
+    display: none;
+}
+
+.hidden_element
+{
+    display: none;
+}

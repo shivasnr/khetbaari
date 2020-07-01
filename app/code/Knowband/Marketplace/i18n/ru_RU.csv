@@ -1,0 +1,1009 @@
+The product status will be 'Disabled' until it is approved from admin.,"Статус продукта будет «Выключен», пока он не будет утвержден от администратора."
+The seller has already added more products. Please either increase the limit or save it as it is.,"Продавец уже добавил больше продуктов. Пожалуйста, либо увеличить лимит или сохранить его как есть."
+Reason,причина
+Required field,Обязательное поле
+Submit,Отправить
+Why do you want to do this?,почему ты хочешь сделать это?
+Continue,Продолжить
+Something went wrong. Please try again.,"Что-то пошло не так. Пожалуйста, попробуйте еще раз."
+Vacation Interval: ,Отпуск Интервал:
+Is Active: ,Активна:
+Vacation Halt Status: ,Отпуск Halt Статус:
+Comment: ,Комментарий:
+Reason for canceling vacation: ,Причина отмены отпуска:
+Vacation Detail,отпуск Деталь
+Your comment to cancel this vacation,Ваш комментарий отменить этот отпуск
+Register as Seller,Регистрация в качестве продавца
+Yes,да
+No,нет
+Marketplace CRON Instructions,Торговая CRON Инструкции
+Vacation CRON,отпуск CRON
+Disable the products during the seller's vacation period.,Отключить продукты во время отпуска продавца.
+Low Stock Notification CRON,Низкий сток Уведомление CRON
+Send the notification to the sellers about their low stock products.,Отправить уведомление продавцов о своих низких биржевых продуктах.
+Cron Instructions,Cron Инструкции
+Add the Cron Jobs to your store via control panel/putty. Find below the Instruction to add the Cron Jobs.,"Добавьте Работу Cron в магазин через панель управления / замазку. Найти ниже инструкции, чтобы добавить Cron Jobs."
+URLs to Add to Cron via Control Panel,"URL, чтобы добавить в Cron через панель управления"
+1. Vacation CRON,1. Отпуск CRON
+2. Low Stock Notification CRON,2. Низкая Stock Notification CRON
+Cron setup via SSH,Настройка Крон с помощью SSH
+Choose Store Categories,Выбрать магазин Категории
+Collapse All,Свернуть все
+Expand All,Расширить все
+This operation can take a long time,Эта операция может занять много времени
+Please confirm site switching. All data that hasn\'t been saved will be lost.,"Пожалуйста, подтвердите переключение сайта. Все данные, которые hasn \ 'т были сохранены, будут потеряны."
+Warning message,Предупреждающее сообщение
+Field cannot be empty.,Поле не может быть пустым.
+You can enter only numbers.,Можно ввести только цифры.
+Number should be greater than 0.,Количество должно быть больше 0.
+Field cannot be greater than {#} characters.,"Поле не может быть больше, чем {#} символов."
+Field cannot be less than {#} character(s).,"Поле не может быть меньше, чем {#} символ (ы)."
+Please enter Email.,"Пожалуйста, введите e-mail."
+Please enter a valid Email.,"Введите, пожалуйста, действительный адрес электронной почты."
+Invalid date format.,Неверный формат даты.
+Number is not in the valid range. It should be between {#} and {##},Номер не в допустимом диапазоне. Оно должно быть между {#} и {##}
+Field should be numeric.,Поле должно быть числовым.
+Field should be positive.,Поле должно быть положительным.
+Field can have only upto two decimal values.,Поле может иметь только ДО двух десятичных значений.
+Email cannot be greater than {#} characters.,"Email не может быть больше, чем {#} символов."
+Zip should not have special characters.,Zip не должен иметь специальные символы.
+Percentage should be in number.,Процент должен быть числом.
+Percentage should be between 0 and 100.,Процент должен быть в пределах от 0 до 100.
+Size cannot be greater than {#} characters.,"Размер не может быть больше, чем {#} символов."
+Color could not be greater than {#} characters.,"Цвет не может быть больше, чем {#} символов."
+Color is not valid.,Цвет не является действительным.
+Special characters are not allowed.,Спецсимволы не допустимы.
+Script tags are not allowed.,теги сценария не допускаются.
+Style tags are not allowed.,теги Стиль не допускаются.
+Iframe tags are not allowed.,Iframe-теги не допускаются.
+Uploaded file is not an image.,Загруженный файл не является изображением.
+Uploaded file size must be less than {#}.,"Загруженный размер файла должен быть меньше, чем {#}."
+Field should not contain HTML tags.,Поле не должно содержать HTML-тегов.
+You can enter only positive numbers.,Вы можете ввести только положительные числа.
+Are you sure?,Уверены ли вы?
+Comment,Комментарий
+Are you sure to update feature status of this seller?,"Вы уверены, чтобы обновить статус функции этого продавца?"
+Do you have any comment?,Есть ли у вас какие-либо комментарии?
+"For accurate reporting, be sure to refresh lifetime statistics whenever you change the time zone.","Для точной отчетности, обязательно обновить статистику продолжительности жизни при смене часового пояса."
+To refresh last day's,Чтобы обновить последний день-х
+statistics,статистика
+click,щелчок
+here,Вот
+Filter,Фильтр
+Period,период
+Day,День
+Month,Месяц
+Year,Год
+From,От
+Select Date,Выбор даты
+To,к
+Choose Category,Выберите категорию
+All Categories,все категории
+Choose a Seller,Выбери Продавец
+All Sellers,Все продавцы
+NA,Не Доступно
+PayPal Payout Settings,Настройки выплат PayPal
+Active,активный
+Enable or Disable Paypal Payment Method.,Включение или отключение Paypal Метод компенсации.
+Client ID,ID клиента
+Client Secret,Клиент Secret
+Paypal Mode,Режим Paypal
+Sandbox,песочница
+Live,Жить
+Paypal Email Subject,Paypal Email Тема
+Paypal Currency ,Paypal Валюта
+Select the default currency set in Paypal Account.,Выберите набор валюты по умолчанию в Paypal счет.
+Are You Sure you want to reset the settings?,"Вы уверены, что хотите сбросить настройки?"
+Edit Email Template,Редактирование шаблона Email
+About Template,О шаблоне
+Template Subject,Шаблон Тема
+Email Content,Email Содержание
+Template Content,Шаблон содержания
+Please do not edit or remove any template variable.,"Пожалуйста, не изменить или удалить любой переменный шаблон."
+Example,пример
+Seller Account Settings,Настройки аккаунта продавца
+Default Commission,Комиссия по умолчанию
+Please enter a number between 0 and 100 only and in a proper format.,"Пожалуйста, введите число от 0 до 100 только и в нужном формате."
+Use Global,Глобальное
+New Product Limit,Новый множительных
+Limit the sellers to add new products without account approval.,"Ограничить продавец, чтобы добавить новые продукты без разрешения счета."
+If left blank than product limit will be assumed 0.,"Если оставить пустым, чем предел продукта будет предполагаться 0."
+Categories Allowed,Категории животных
+If no category is selected that will mean that all the categories are allowed.,"Если не выбрана ни одна категория, которая будет означать, что все категории допускаются."
+Product Approval Required,Требуемое утверждение продукта
+Enable,включить
+Disable,запрещать
+Enable Seller Review,Включить отзыв о продавце
+Required Seller Review Approval,Требуется разрешение на отзыв о продавце
+Email to Seller on Order Place,Email Продавца на заказ Месте
+Please enter a valid number in this field.,"Пожалуйста, введите действительный номер в этой области."
+Payout Transaction Request,Запрос Payout сделки
+Required Field,Обязательное поле
+Invalid Value,Неверное значение
+"Invalid Value, please enter a number greater than zero","Недопустимое значение, пожалуйста, введите число больше нуля"
+Minimum 30 character required,требуются минимальные 30 символов
+General Settings,общие настройки
+Enable Marketplace,Включение Marketplace
+Toggle to enable or disable extension,"Переключить, чтобы включить или отключить расширение"
+Default Commission (%),По умолчанию комиссия (%)
+Set default commission in percentage for each product.,Установить комиссию по умолчанию в процентах для каждого продукта.
+Choose the categories allowed for the sellers. If no category is selected that will mean that all the categories are allowed.,"Выберите категории, разрешенные для продавцов. Если не выбрана ни одна категория, которая будет означать, что все категории допускаются."
+Register as Seller Field,Регистрация в качестве продавца Field
+Enable to add 'Register as Seller' field while registering.,Включить добавление «Регистрация в качестве продавца» поле при регистрации.
+Enable Bulk Import/Export,Включить Bulk Импорт / Экспорт
+"If disable, no seller will be able to use bulk import/export feature.","Если отключить, не продавец не будет иметь возможность использовать объемную функцию импорта / экспорта."
+If enable an email will be sent to seller on order for his product.,Если включить письмо будет отправлено продавцу на заказ для своего продукта.
+Enable Vacation Mode,Включить режим отдыха
+"If disable, no seller will be able to use vacation feature.","Если отключить, не продавец не будет иметь возможность использовать функцию отпуска."
+Show Seller Info on Product Page,Показать Информация о продавце на странице продукта
+Enable/Disable to show/hide seller info on product page.,"Включение / выключение, чтобы показать / скрыть информацию продавца на странице продукта."
+Enable or Disable Approval of product for the sellers.,Включение или отключение утверждение продукта для продавцов.
+Default limit for sellers of adding new products before account approval. Blank will be considered as 0.,ограничения по умолчанию для продавцов добавления новых продуктов до утверждения счета. Бланк будет рассматриваться как 0.
+Enable or Disable Seller review feature. This feature enables the customers to add review for sellers.,Включить или отключить функцию продавца обзора. Эта функция позволяет клиентам добавить отзыв для продавцов.
+Seller Review Approval Required,Требуемое утверждение отзыв о продавце
+Enable or Disable Approval for seller review. Once the review is approved then only it will be visible to the customers.,"Включение или отключение утверждения для продавца обзора. После того, как обзор будет одобрен, то только он будет виден клиентам."
+Enable Seller List,Включить Продавец списка
+Show or Hide Sellers List from customers.,Показать или скрыть список Продавца от клиентов.
+Enable Search Box,Включить окно поиска
+Enable or Disbale search box to search seller on seller listing page.,Включить или окно поиска Disbale искать продавца на продавца листинга странице.
+Low Stock Configuration,Низкая настройка изображения
+Enable Low Stock Notification,Включить уведомление о подсадке Stock
+Enable or Disable Low Stock Notification feature.,Включение или отключение функции Low Stock Notification.
+Low Inventory Limit,Нижний предел Inventory
+Enter the limit below that the products are considered low stock.,"Введите предел ниже, что продукты считаются низкими акциями."
+When to Notify,Когда Notify
+Choose when to notify the seller regarding the critical inventories.,"Выберите, когда известить продавца о критических запасов."
+Cron Job,Cron Job
+On Order Place,На заказ Место
+Send Notifications From,Отправить уведомление от
+Choose the email from which you want to send the notifications.,"Выберите письмо, из которого вы хотите отправить уведомление."
+Seller Name,Продавец Имя
+Select,Выбрать
+Transaction ID,номер транзакции
+Transaction Type,Тип операции
+Amount,Количество
+Send Email to Seller,Отправить сообщение продавцу
+"Invalid Value, please enter a number greater then zero","Недопустимое значение, пожалуйста, введите число больше нуля"
+Add New Transaction,Добавить новую транзакцию
+Posted On: ,Опубликовано:
+Customer Rating: ,Оценка покупателей:
+Review: ,Обзор:
+Reason for Disapproval: ,Причина неодобрения:
+Seller Review Detail,Подробный обзор продавца
+Provide Your Reason,Указать причину
+We can\'t find products matching the selection.,"Мы можем \ 'т найти продукты, соответствующие выбор."
+View Details,Посмотреть детали
+In stock,В наличии
+Out of stock,Нет на складе
+Learn More,Учить больше
+My Sales Dashboard,Мой продаж Dashboard
+Total Revenue,Общий доход
+Total Orders,Всего заказов
+Total Products Sold,Всего товаров продано
+Last 7 Days,За последние 7 дней
+Sales Comparisons,Сравнения продаж
+Orders,заказы
+Revenue,доходов
+Products Sold,реализованная продукция
+Discounts,Скидки
+Balance Amount Variations,Баланс Сумма Изменения
+Today,сегодня
+Yesterday,Вчера
+This Week,На этой неделе
+Last Week,Прошлая неделя
+This Month,Этот месяц
+Last Month,Прошлый месяц
+This Year,В этом году
+Last Year,Прошлый год
+Last 10 Orders,Последние 10 заказов
+View All Orders,Все заказы
+Order Number,Порядковый номер
+Order Date,Дата заказа
+Customer Name,имя покупателя
+Customer Email,Клиент электронной почты
+Qty,Кол-во
+Status,Статус
+Order Total,Весь заказ
+click to view order,нажмите для просмотра заказа
+No Orders Placed Yet,"Заказы не размещались,"
+Seller Products,Продавец товары
+Filter Products,Фильтрующие продукты
+Category,категория
+Sort By,Сортировать по
+Name,название
+SKU,SKU
+Price(low to high),Цена (от низкого до высокого)
+Price(high to low),Цена (от высокой к низкой)
+Products Feedback,Продукция Обратная связь
+Filter Your Search,Фильтр поиска
+Search,Поиск
+Reset,Сброс
+No Data,Нет данных
+Posted on,опубликовано
+by,от
+Rating,Рейтинг
+Summary,Резюме
+Review,Обзор
+My Products Catalog,Мой Продукция каталог
+New Product,Новый продукт
+Choose,выберите
+Please select atleast one item from list.,Выберите по крайней мере один элемент из списка.
+Select Attribute Set for New Product,Выберите набор атрибутов для нового продукта
+Attribute Set,Атрибут Set
+Product Type,Тип продукта
+Choose Bulk Action,Выберите Bulk Action
+Delete,удалять
+Status Update,Обновление статуса
+Close,близко
+Save,Сохранить
+Save & Continue,Сохранить и продолжить
+Duplicate,дублировать
+Cancel,отменить
+%d characters remaining.,% D Осталось символов.
+Please fill required fields with valid information.,"Пожалуйста, заполните необходимые поля с действительной информацией."
+Special price should be less than actual price,Специальная цена должна быть меньше фактической цены
+Past date not allowed,Прошлые даты не допускается
+Quick simple product creation,Быстрое простое создание продукта
+Create,Создайте
+Prices,Цены
+Meta Information,Мета информация
+General Information,Основная информация
+Allows your product's visibility on search or catalog page.,Позволяет видимость вашего продукта на поиск или странице каталога.
+Maximum %d characters allowed.,Максимальное количество символов% D допускается.
+Date of product from which this product will be marked as new.,"Дата продукта, из которого этот продукт будет отмечен как новый."
+Date of product until which this product will be marked as new.,"Дата продукта, до которого этот продукт не будет помечен как новые."
+Category Mapping,Mapping Категория
+Associated Products,Сопутствующие товары
+Create Simple Product,Создание простого продукта
+Quick Create,Быстрое создание
+Id,Я бы
+Sku,Sku
+Product Name,наименование товара
+Stock Status,Состояние штока
+Select Attribute,Выбор атрибутов
+Attribute,атрибут
+Price,Цена
+Default Qty,По умолчанию Кол-во
+Samples,образцы
+Title,заглавие
+File,файл
+Sort Order,Порядок сортировки
+Add New Row,Добавить строку
+Links,связи
+Links can be purchased separately,Ссылки можно приобрести отдельно
+Max. Downloads,Максимум. Загрузки
+Shareable,Разделяется
+Sample,Образец
+Unlimited,неограниченный
+Url,Веб-сайт
+Inventory,инвентарь
+Quantity,Количество
+Manage Stock,Управление шток
+"On enabling, stock will be managed automatically. For manual stock, select disable","На что позволяет, акция будет осуществляться автоматически. Для ручного запаса, выберите отключить"
+Qty Uses Decimal,Кол-во Использование -десятичная
+Stock Availability,наличие запасов
+Shipment,отгрузка
+Ship Bundle Items,Корабль Bundle товары
+Separately,По отдельности
+Together,Все вместе
+Bundle Items Options,Bundle Items Опции
+Add New Option,Добавить вариант
+Default Title,По умолчанию Название
+Delete Option,Удалить вариант
+Input Type,Тип ввода
+Is Required,Необходимо
+Position,Позиция
+Add Selection,Добавить Selection
+Price Type,Цена Тип
+User Defined Qty,User Defined Кол
+Default,По умолчанию
+Qty to Add,Кол-во для добавления
+Add Selected Product(s) to Option,Добавить выбранный продукт (ы) с опцией
+Images,Изображений
+Image,Образ
+Label,этикетка
+Remove,Удалить
+File is not supported,Файл не поддерживается
+Upload New Image,Загрузить новое изображение
+".jpeg, .jpg, .png, ,gif",".jpeg, .jpg, .png,, GIF"
+No Image uploaded for this product,Нет изображения загружено для этого продукта
+Browse,Просматривать
+Related Products,сопутствующие товары
+This attribute set does not have attributes which we can use for configurable product,"Этот набор атрибутов не имеет атрибутов, которые мы можем использовать для настраиваемого продукта"
+Please select one or more attributes.,"Пожалуйста, выберите один или несколько атрибутов."
+Sold By,Продан
+Total %d review(s),Всего% d обзор (ы)
+View Reviews,Посмотреть рецензии
+Write Review,Написать отзыв
+File Size Exceeding the Limit.,Размер файла Превышение лимита.
+Max Upload Size: 200 KB,Макс Загрузить Размер: 200 Кб
+Max Upload Size: 500 KB,Макс Загрузить Размер: 500 Кб
+This key already assigned to another seller. Please fill another.,"Этот ключ уже назначен другой продавец. Заполните, пожалуйста, другой."
+My Seller Profile,Мой Профиль Продавца
+View Collection,Просмотр коллекции
+View Profile,Просмотреть профиль
+General,генеральный
+Shop Title,магазин Название
+Contact Number,Контактный номер
+(Image Size: 150 X 150),(Размер изображения: 150 X 150)
+Shop Logo,магазин Логотип
+(Image Size: 1180 X 250),(Размер изображения: 1180 X 250)
+Shop Banner,магазин Баннер
+Shop Address 1,Магазин Адрес 1
+Shop Address 2,Магазин Адрес 2
+City,город
+Pincode,Пин-код
+State,государственный
+Country,Страна
+Description,Описание
+Please provide link of your facebook page,"Пожалуйста, предоставьте ссылку на страницу facebook"
+Facebook Link (optional),Facebook Ссылка (необязательно)
+For example:,Например:
+or,или же
+Please provide link of your google plus profile,"Пожалуйста, предоставьте ссылку на ваш Google Plus профиля"
+Google Plus Link (optional),Google Plus Link (опционально)
+Please provide link of your twitter profile,"Пожалуйста, предоставьте ссылку на свой профиль твиттере"
+Twitter Link (optional),Twitter Ссылка (необязательно)
+Meta Keywords,Мета ключевые слова
+Meta Description,Meta Description
+Example: my-selling-store,Пример: мой продаваемый-магазин
+Page Url Key,URL страницы Key
+Policy,политика
+Return Policy,Политика возврата
+Shipping Policy,Доставка
+Payout,выплата
+Admin will use the Payout information to make the payment. Only one payment information can be saved at a time.,Администратор будет использовать информацию о Payout произвести оплату. Только одна платежная информация может быть сохранена на некоторое время.
+Select Payment Method,Выберите метод оплаты
+Seller,продавец
+Register As Seller,Регистрация в качестве продавца
+My Reviews,Мои отзывы
+Customer Review,Отзыв клиента
+Disapproval Reason,Причина отклонения
+Start Date,Дата начала
+End Date,Дата окончания
+Your comment to this vacation,Ваш комментарий к этим отпускам
+Invalid format. Use: MM/dd/YYYY,Недопустимый формат. Использование: MM / DD / YYYY
+End date should be greater than start date,Дата окончания должна быть больше даты начала
+End date should be future date,Дата окончания должна быть будущая дата
+My Vacations History,Мои каникулы История
+Set New Vacation,Установить Новый отпуск
+Vacation Interval,Интервал отдыха
+Is Active,активна
+Vacation Halt Status,Отпуск Halt Статус
+Reason for canceling vacation,Причина отмены отпусков
+click to view product details,"нажмите, чтобы просмотреть сведения о продукте"
+Sorry! No Product(s) Found.,Сожалею! Нет Продукт (ы) Found.
+Please select a category for your request.,"Пожалуйста, выберите категорию для запроса."
+Please provide reason for your request.,Укажите причину вашего запроса.
+Request a New Category,Запросить новую категорию
+Choose a Category,Выберите категорию
+Select Category,выбрать категорию
+Maximum 500 characters allowed.,Максимум 500 символов допускается.
+Submit Category Request Form,Добавить категорию Форма запроса
+No categories are available for request.,Категории не доступны для запроса.
+Payout Request,Выплачено Запрос
+New Payout Request,Новый запрос Payout
+Request Reason,Запрос Reason
+Submit Payout Request Form,Отправить Payout Форма запроса
+Payout Details,Подробнее о выплатах
+Requested On,Запрашиваемые на
+Your Comment For Request,Ваш комментарий для запроса
+Only 200 characters allowed,Только 200 символов разрешено
+"Only (xls, xlsx) formats are allowed","Только (XLS, XLSX) форматы разрешены"
+Toggle navigation,Переключение навигации
+My Account,Мой аккаунт
+Logout,Выйти
+Account Warning!,Счет Внимание!
+Back To Site,Вернуться на сайт
+Category Request Details,Категория Запросить информацию
+Category Name,Категория Название
+Your request is in pending. Please wait for store response.,"Ваш запрос находится в стадии рассмотрения. Пожалуйста, подождите магазин ответ."
+This feature is not active into your account.,Эта функция не активна в вашем аккаунте.
+To request this feature,Чтобы получить эту функцию
+Click,Нажмите
+Here,Вот
+Request To Activate Import/Export Feature,Запрос на активацию Импорт / Экспорт Feature
+Comment ,Комментарий
+Required Field. Maximum 200 characters allowed.,Обязательное поле. Максимум 200 символов допускается.
+Click to send request,"Нажмите, чтобы отправить запрос"
+Your file has some errors. Please import file after resolving errors.,Файл имеет некоторые ошибки. Импортируйте файл после устранения ошибок.
+Click to download your file with errors,"Нажмите, чтобы загрузить файл с ошибками"
+Download File with Errors,Скачать файл с ошибками
+Go Back,Вернитесь
+Please do not go back or refresh page while uploading your products.,"Пожалуйста, не вернуться назад или обновить страницу во время загрузки ваших продуктов."
+It may causes errors in your catalog.,Это может приводит к ошибкам в вашем каталоге.
+Download Template,Скачать шаблон
+Select Product Type,Выберите тип продукта
+Product Attribute Set,Атрибут набора продуктов
+Select Attribute Set,Выберите набор атрибутов
+Download Template File,Скачать файл шаблона
+Please make sure that columns in your file must be matched with template file created for you on the basis of selected attribute.,"Пожалуйста, убедитесь, что столбцы в файле должны быть согласованы с шаблоном файлом, созданным для Вас на основе выбранного атрибута."
+Import Products,Импорт продуктов
+Import Action,Импорт действий
+Select Action,Выберите действие
+"Action will only be performed on the basis of SKU of products. Without sku, product will not be consider for any action.","Действие будет осуществляться только на основе СКА продукции. Без SKU, продукт не будет рассматривать для каких-либо действий."
+Upload File,Загрузить файл
+"Only (xls, xlsx) file will be accepted","Только (XLS, XLSX) файл будет принят"
+File must not exceed %s MB,Файл не должен превышать% S МБ
+Browse File,Просмотр файлов
+Validate File,Проверка файла
+File must no exceed %s MB,Файл должен не превышать% S МБ
+Import/Export Instructions,Импорт / экспорт Инструкции
+Import,Импортировать
+Export,экспорт
+Import Instructions,Импорт Инструкции
+"Download Template as per your product type. At a time, only 1 type of products can be import.","Скачать шаблон в соответствии с типом продукта. В то время, только один вид продукции может быть импорт."
+"If you import more than 1 type of products from one file, then system will be fail or affect your catalog.","Если импортировать более 1 вид продукции из одного файла, то система будет не в состоянии или повлиять на ваш каталог."
+Each template will have '%s' worksheet. Your import file must have this worksheet as it is. Please do not change anything in its content.,"Каждый шаблон будет иметь «% S» рабочего листа. Файл импорта должен иметь эту таблицу, как это. Пожалуйста, ничего в его содержание не меняется."
+Each template will have '%s' worksheet. Please provide product data from possible values of corresponding field. If field has possible values.,Каждый шаблон будет иметь «% S» рабочего листа. Просьба предоставить данные о продукте из возможных значений соответствующего поля. Если поле имеет возможные значения.
+"Only 'xls, xlsx' file having size less than %sMB will be acceptable.","Только «XLS, XLSX» файл, имеющий размер меньше, чем% SmB будет приемлемым."
+If you want to import using exported data then copy the general & image sheet of exported file into general & image sheet of the downloaded template file.,Если вы хотите импортировать с помощью экспортированных данных затем скопировать общий и изображение листа экспортируемого файла в общем и изображение листа загруженного файла шаблона.
+"Use (|) to seperate value in multivalue field like category_ids, related_products.","Используйте (|), чтобы отделить значение в многозначном поле как category_ids, related_products."
+Export Instructions,Экспорт Инструкции
+Select export type in export section.,Выберите тип экспорта в экспортном разделе.
+"If the export type is Category, then system will export only assigned categories to you.","Если тип экспорта Категория, то система будет экспортировать только назначенные категории для вас."
+"In case of products, select product type and attributes set.","В случае продуктов, выберите тип продукта и атрибуты установлены."
+Exported data will be in xls/xlsx format.,Экспортируемые данные будут в формате XLS / XLSX.
+Export Type,Экспорт Тип
+Select Export Type,Выберите тип экспорта
+Category Export,Категория Экспорт
+Product Export,Экспорт товаров
+Product Status,Статус продукта
+All,Все
+Disabled,инвалид
+Enabled,Включено
+In Stock,В наличии
+Out of Stock,Нет на складе
+Export Data,Экспорт данных
+This process will take few minutes.,Этот процесс займет несколько минут.
+Please do not go back or refresh page while exporting your data.,"Пожалуйста, не вернуться назад или обновить страницу при экспорте данных."
+Your are not eligible to use this feature as your account is either not approved or inactive.,"Вы не имеете права использовать эту функцию, как ваш счет либо не утвержден или неактивным."
+"Currently, this feature is disabled by store.",В настоящее время эта функция отключена магазином.
+You cannot use this feature as required library is missing. Please contact to support.,"Вы не можете использовать эту функцию, как требуется библиотека отсутствует. Пожалуйста, обратитесь в поддержку."
+Total Sale,Всего Продажа
+Total Earning,Всего Earning
+Transaction Details,Детали транзакции
+My Earnings,мой заработок
+Earnings History,Доходы История
+Order Wise Earnings,Заказать Wise прибыль
+Transactions History,Сделки История
+Total Paid,Итого
+Balance,Остаток средств
+Quantity to Add,Количество добавить
+Low Stock Notification,Низкое уведомление со
+Configuration,конфигурация
+Receive Low Stock Notifications,Получать уведомления Low Stock
+Save Seller Level Configuration,Сохранить конфигурацию Продавец Уровень
+facebook,facebook
+twitter,щебет
+google,Google
+About Seller,О продавце
+Description not available.,Описание не доступно.
+Write your thought,Напишите ваши мысли
+Summary of your review,Краткое описание Вашего обзора
+Your Thought,Ваша мысль
+Your Name,Ваше имя
+Rate this seller,Оценить этот продавец
+Submit Review,добавить отзыв
+Notify Customer by Email,Уведомлять Клиента по электронной почте
+Visible on Storefront,Видимый на Витрине
+Submit Comment,Отправить комментарий
+Customer,Покупатель
+Notified,Заявленный
+Not Notified,Не Заявленный
+Please provide comment,Просьба предоставить комментарий
+Product,Товар
+Subtotal,Промежуточный итог
+Order Detail,Order Detail
+Click to download invoice.,"Нажмите, чтобы загрузить счет-фактуру."
+Download Invoice,Скачать счет-фактура
+Click to download shipping slip.,"Нажмите, чтобы загрузить доставки скольжению."
+Download Shipping Slip,Скольжение Скачать Доставка
+Are you sure you want to send order email to customer?,"Вы уверены, что хотите отправить электронную почту заказа клиенту?"
+Click to send email to customer,"Нажмите, чтобы отправить электронную почту к клиенту"
+Send Email,Отправить на e-mail
+Click to create shipment,"Нажмите, чтобы создать партию"
+Ship,Корабль
+Print,Распечатать
+Basic Informations,статейки
+Order Status,Статус заказа
+Billing Address,Платежный адрес
+Shipping Address,адреса доставки
+Ordered,Приказал
+Shipped,Высылаем
+Canceled,отменен
+Refunded,Возвращено
+Gift Message,Подарок сообщения
+Excl. Tax,Excl. налог
+Total,Всего
+Incl. Tax,Включительно налог
+Total incl. tax,Всего вкл. налог
+Invoiced,Фактурная
+Order Items,Заказ позиции
+Shipments,Отгрузки
+Ship to Name,Доставлено Имя
+Date Shipped,Дата Высылает
+Total Qty,Всего Кол-во
+click to view detail,нажмите для просмотра деталей
+Tax,налог
+Items To Be Shipped,Детали быть погруженным
+Qty to Ship,Кол-во для судов
+Append Comments,Добавлять комментарии
+Email Copy of Shipment,Email Копия пересылки
+Submit Shipment,Отправить Пересылка
+New Shipment,Новая пересылка
+Back,назад
+Shipment Tracking,отслеживание посылки
+Carrier,Перевозчик
+Tracking No.,Наблюдают No.
+Action,действие
+Add Tracking Number,Добавить номер для отслеживания
+Invalid value(s) for Qty to Ship,Недействительное значение (ов) для того чтобы грузить Кол-во
+Shipment Detail,Пересылка Деталь
+Are you sure you want to send Shipment email to customer?,"Вы уверены, что хотите отправить по электронной почте Пересылка клиенту?"
+Send Tracking Information,Отправить информацию об отслеживании
+Tracking Number,Номер Отслеживания
+Add,добавлять
+Tracking title is required.,Отслеживание титула требуется.
+Tracking number is required.,Отслеживая номер не требуется.
+Shipped Items,Погруженные товары
+Qty Shipped,Кол-во Высылаем
+No Item Shipped Yet,Нет товара не погружено Еще
+Reviews,Отзывы
+Posted on:,Опубликовано:
+by ,от
+Sorry! No Reviews Found.,Сожалею! Отзывы не найдены.
+Write your review,Написать свой отзыв
+Sellers List,Список продавцов
+Search Seller,Поиск продавца
+Sorry! No Seller(s) Found.,Сожалею! Нет Продавец (ы).
+General Contact,Общий Контакт
+Customer Support,Служба поддержки
+Sales Representative,Торговый представитель
+Custom Email 1,Пользовательские Email 1
+Custom Email 2,Пользовательские Email 2
+"Unable to write low stock files. Permission Error on ""var"" Directory.",Невозможно записать низкие фондовые файлы. Разрешение ошибки на «вар» Directory.
+Unable to write file for Seller ,Невозможно записать файл Продавец
+Product ID,Код товара
+Current Quantity,Текущее количество
+Base Image,Базовое изображение
+Small Image,Маленькое изображение
+Thumbnail,Thumbnail
+Disallowed file type.,Недопустимый тип файла.
+Type of the product you have selected for this import template file.,"Тип продукта, который вы выбрали для этого файла шаблона импорта."
+Attribute set you have selected for this product type in import template file.,"Набор атрибутов, которые выбраны для этого типа продукта в шаблоне импорта файла."
+single pipe(|) seperated multiple categories,одна труба (|) отделено несколько категорий
+single pipe(|) seperated product sku,одна труба (|) отделено Идентификатор продукта
+single pipe(|) seperated attributes,одна труба (|) отделено атрибуты
+pair of values seperated by single pipe(|),"пара значений, разделенных одной трубы (|)"
+System will group your bundle item on the basis of this title. If two items has same title then they will be grouped in same bundle.,"Система будет группа вашего товара расслоения на основе этого названия. Если два элемента имеет такое же название, то они будут сгруппированы в одной связке."
+Daily,Ежедневно
+Weekly,еженедельно
+Monthly,ежемесячно
+Yearly,каждый год
+Waiting for Approval,Ожидание подтверждения
+Approved,Одобренный
+Disapproved,Отклонено
+Add new products,Добавить новые продукты
+Update existing products,Обновление существующих продуктов
+Add/update products,Добавление / обновление продуктов
+Delete products,Удалить продукты
+Bank Wire,Банковский перевод
+Payment By Cheque,Оплата чеком
+Paypal,Paypal
+Please provide the paypal email id.,"Пожалуйста, предоставьте Paypal идентификатор электронной почты."
+Paypal Email ID,Paypal Email ID
+Please provide additional information.,Просьба представить дополнительную информацию.
+Additional Information,Дополнительная информация
+Please provide the name.,"Пожалуйста, укажите название."
+Pay to the order of (name),Оплатите на порядок (имя)
+Please provide the address.,"Пожалуйста, укажите адрес."
+Address,Адрес
+Address where the cheque should be sent to.,"Адрес, где чек должен быть отправлен."
+Please provide account owner name,"Пожалуйста, укажите имя учетной записи владельца"
+Account Owner,Владелец счета
+Please provide bankwire details,Просьба предоставить подробную информацию bankwire
+Details,подробности
+"Such as bank branch, IBAN number, BIC, etc.","Такие, как отделение банка, номер счета IBAN, BIC и т.д."
+Please provide bankwire address.,Просьба представить bankwire адрес.
+Bank Address,Адрес банка
+Requsted on: ,Сделал запрос на:
+ by,от
+Amount: ,Количество:
+Payment Method: ,Способ оплаты:
+PayPal,PayPal
+PayPal ID: ,PayPal ID:
+Additional Information: ,Дополнительная информация:
+Bankwire,Банковский перевод
+Owner Name: ,Имя владельца:
+Details: ,Подробности:
+Bank Address: ,Адрес банка:
+Cheque,Проверять
+Address: ,Адрес:
+No balance amount is left for this seller.,Никакое количество баланса не осталось для этого продавца.
+No order found for this seller. Transaction cannot be initiated.,Нет заказа найдено для этого продавца. Сделка не может быть начато.
+Paypal payout request failed.,Запрос Paypal выплаты не удалось.
+Please enable paypal payout to make this transaction.,"Пожалуйста, включите систему PayPal выплат, чтобы сделать эту сделку."
+Payout request does not exist.,Запрос выплат не существует.
+By System,По системе
+Manually,Вручную
+Successfully,Успешно
+Credit,кредит
+Debit,Дебет
+Unknown,неизвестный
+Invalid request,Неверный запрос
+Export type is missing,Тип экспорта отсутствует
+No product found as per your selected parameters.,Ни один продукт не найден в соответствии с выбранными параметрами.
+Unable to process request,Невозможно обработать запрос
+No category assigned to you.,Нет категории присвоенные вам.
+invalid request,неверный запрос
+Please select product parameters.,"Пожалуйста, выберите параметры продукта."
+No products found to export.,Нет товаров не найдено для экспорта.
+Vacation is successfully canceled.,Отпуск успешно отменен.
+New Vacation successfully created.,Новый отпуск успешно создан.
+Your products will be hidden automatically when the vacation starts.,"Ваши продукты будут скрыты автоматически, когда начинается отпуск."
+Start Date or End Date cannot be less than today.,"Дата начала или Дата окончания не может быть меньше, чем сегодня."
+Start Date or End Date cannot be same.,Дата начала или Дата окончания не может быть такой же.
+Date range should not be in between of any previous active vacation.,Диапазон дат не должен быть между любым предыдущим активным отдыхом.
+Technical error occurred while validating new vacation.,при проверке нового отпуска произошла техническая ошибка.
+The requested vacation's detail not found.,подробно Запрашиваемый на отпуск не найден.
+Marketplace - CRON,Торговая площадка - CRON
+Please enable the low stock notifications functionality first,"Пожалуйста, включите низкую функциональность акций уведомлений первой"
+Please enable the marketplace module first,"Пожалуйста, включите модуль MarketPlace первым"
+Low Stock Notifications Cron Executed Successfully.,Низкая Stock Уведомление Кроны успешно выполнены.
+"There were some errors executing the low stock notifications cron, please check Log for more details.","Были некоторые ошибки, исполняющие низкие фондовые уведомления хрон, пожалуйста, проверьте Вход для более подробной информации."
+Please enable the seller vacation functionality first,"Пожалуйста, включите функции продавца отпуск первой"
+Vacation Cron Executed Successfully.,Отпуск Крон успешно выполнен.
+"There were some errors executing the vacation cron, please check Log for more details.","Были некоторые ошибки, исполняющие каникулы хрон, пожалуйста, проверьте Вход для более подробной информации."
+View Shipment,Просмотр Пересылка
+Requested order details not Found.,Запрошенные детали заказа не найдены.
+We can\'t save the shipment right now.,Мы можем \ 'т сохранить груз прямо сейчас.
+Shipment Document Validation Error(s):\n,Пересылка документов Проверка ошибок (ы): \ п
+The shipment has been created.,Груз был создан.
+You created the shipping label.,Вы создали этикетку.
+An error occurred while creating shipping label.,при создании ярлыка произошла ошибка.
+Cannot save shipment.,Невозможно сохранить груз.
+Please enter a comment.,"Пожалуйста, введите комментарий."
+Comment has been added for this shipment.,Комментарий был добавлен для этой партии.
+Cannot add new comment.,Невозможно добавить новый комментарий.
+You sent the shipment.,Вы послали пересылку.
+Cannot send shipment information.,Не удается отправить информацию о грузе.
+Please specify a carrier.,Введите носитель.
+Please enter a tracking number.,"Пожалуйста, введите номер отслеживания."
+Tracking number successfully updated into this shipment.,Отслеживая номер успешно обновлен в этой партии.
+We can\'t initialize shipment for adding tracking number.,Мы можем \ 'т инициализировать пересылку для добавления отслеживая номер.
+Cannot add tracking number.,Невозможно добавить номер для отслеживания.
+Tracking number successfully deleted from this shipment.,Отслеживая номер успешно удален из этой партии.
+We can\'t initialize shipment for delete tracking number.,Мы можем \ 'т инициализировать пересылку для удаления идентификационного номера.
+We can\'t delete tracking number.,Мы можем \ 'т удалить номер отслеживания.
+We can\'t load track with retrieving identifier right now.,Мы можем \ 'след нагрузки т с получения идентификатора прямо сейчас.
+Quanity updated successfully.,Quanity успешно обновлен.
+Low Stock,Низкий запас
+Configuration Saved Successfully.,Конфигурация успешно сохранена.
+Seller's Products - Reviews,Товары продавца - Отзывы
+Pending,в ожидании
+Not Approved,Не одобрено
+Seller's Account-Orders,Счета-заказы продавца
+Seller OrderView,Продавец OrderView
+You sent the order email.,Вы отправили письмо заказа.
+We can\'t send the email order right now.,Мы можем \ 'т отправить заказ по электронной почте прямо сейчас.
+This order no longer exists.,Этот заказ больше не существует.
+There are no shipping documents related to this order.,"Там нет доставки документов, связанных с этим порядком."
+Print Order,Print Order
+There are no invoice documents related to this order.,"Там нет счета-фактуры документов, связанных с этим порядком."
+Seller List,Продавец Список
+Knowband,Knowband
+Marketplace,базарная площадь
+Email Template Updated successfully.,Шаблон сообщения электронной почты Обновлено успешно.
+Best Selling Products,Самые продаваемые товары
+ Seller(s) Disabled Successfully,Продавец (ы) успешно отключен
+Invalid Request,неверный запрос
+Status changed successfully,Статус успешно изменен
+Activated,активированная
+Deactivated,дезактивированный
+Cannot update,Невозможно обновить
+Cannot load object,Не удается загрузить объект
+Seller Approved Successfully,Продавец Approved успешно
+Email Templates,Шаблоны электронной почты
+Sellers Payout Request,Продавцы Payout Запрос
+Product Approval Request,Запрос утверждения продукта
+Technical error occurred while canceling vacation.,в то время как отмена отпуск произошла техническая ошибка.
+Seller Reviews,Отзывы продавца
+%s by %s,% С помощью% s
+The requested seller's review detail not found.,Подробный обзор Запрашиваемый продавца не найдено.
+Import/Export Feature Request List,Импорт списка Функция Запрос / Экспорт
+Settings saved successfully.,Настройки успешно сохранены.
+Seller Account Approval Request,Запрос Продавец счета Утверждение
+Seller Vacation List,Список продавца отпуск
+Transaction detail successfully saved.,детали сделки успешно сохранены.
+Some error occured. Please try again.,"Произошла ошибка некоторых. Пожалуйста, попробуйте еще раз."
+Total of %d record(s) have been updated.,"Всего% D записи (ей), были обновлены."
+ Seller(s) Disapproved Successfully,Продавец (ы) Отклонено Успешно
+Seller Product List,Список товаров Продавец
+Review has been approved successfully.,Обзор был успешно апробирован.
+Technical Error Occured - Not able to update.,Техническая ошибка - не в состоянии обновить.
+Review has been disapproved successfully.,Обзор был успешно отклонен.
+Seller review has been deleted.,Продавец отзыв был удален.
+Technical error occurred while processing category request.,при обработке запроса категории произошла техническая ошибка.
+Seller account has not been approved yet. Please approve the seller account first.,"Продавец счет еще не был утвержден. Пожалуйста, одобрить аккаунт продавца первым."
+ record(s) have been updated.,"запись (ы), были обновлены."
+Product has been approved successfully.,Продукт был успешно апробирован.
+ Seller(s) Approved Successfully,Продавец (ы) Approved успешно
+Approval updated successfully,Утверждение успешно обновлен
+Seller Review Approval Request,Запрос на отзыв о продавце Утверждение
+PayPal Payout settings has been saved successfully.,Настройки выплат PayPal были успешно сохранены.
+Category Wise Commissions,Категория Wise комиссии
+CRON Instructions,CRON Инструкции
+Seller List with Import/Export Feature,Продавец Список с Импорт / Экспорт Feature
+Product Reviews,Отзывы о товаре
+Seller Disapproved Successfully,Продавец Отклонено Успешно
+Category Request List,Список категорий Запрос
+Commissions,Комиссионные
+Total of %d record(s) have been deleted.,"Всего% D записи (ей), были удалены."
+ Seller(s) Enabled Successfully,Продавец (ы) Enabled Успешно
+Sellers Payout,Продавцы Payout
+"Some of the products are not enabled, because either these products or their sellers are not approved/disabled.","Некоторые продукты не включены, потому что либо эти продукты или их продавцы не будут утверждены / отключены."
+Some of the processed products have no SKU value defined. Please fill it prior to performing operations on these products.,"Некоторые из обработанных продуктов не имеют никакой ценности SKU определен. Пожалуйста, заполните ее до выполнения операций на этих продуктах."
+Payout request status has been updated successfully.,Статус запроса Payout был успешно обновлен.
+Invalid Request.,Неверный запрос.
+Seller Wise Commissions,Мудрые комиссии продавца
+Seller Dashboard,Продавец Dashboard
+Your request has been sent. Please wait for store response.,"Ваш запрос был отправлен. Пожалуйста, подождите магазин ответ."
+Cannot send request,Не удается отправить запрос
+Product Import/Export,Импорт товаров / Экспорт
+Seller Profile,Профиль продавца
+Seller Profile saved successfully.,Профиль Продавца успешно сохранены.
+Not Available,Недоступен
+Your payout request has been submitted successfully.,Ваш запрос выплат был успешно отправлен.
+Please configure payout method in the seller profile menu.,Настройте метод выплат в меню продавца профиля.
+Seller's Account - Payout Requests,Запросы о выплатах - продавца счета
+Error Occured,Произошла ошибка
+Thank you for rating the Seller.,Спасибо за оценку Продавца.
+Posting review for this seller is not allowed.,Обзор проводок для этого продавца не допускается.
+Seller Account - My Reviews,Продавец счета - Мои отзывы
+"You can't register yourself as seller because your registration request limit has been over. To register, please contact to support.","Вы не можете зарегистрировать себя в качестве продавца, потому что ваш предел запроса регистрации был закончен. Для регистрации, пожалуйста, в службу поддержки."
+Seller's Account - Earnings,Продавец счета - Прибыль
+Seller's Account - Transactions History,Сделки История - данные продавца
+File Path is Missing,"File Path отсутствует,"
+Unknown file,Неизвестный файл
+General worksheet is missing.,Общая таблица отсутствует.
+Column title row is missing from general worksheet.,Колонка заголовок строка отсутствует общий лист.
+Column '%s' is missing from general worksheet.,Колонка «% s» отсутствует общий лист.
+File is empty.,Файл пуст.
+Error in processing '%s' sku before deleting.,Ошибка в процессинговый «% S» SKU перед удалением.
+Listed products are not deleted:,Перечисленные продукты не удаляются:
+"Upload your file and try again. To speed up delete process, please remove all products that has been deleted.","Загрузите файл и повторите попытку. Чтобы ускорить процесс удаления, пожалуйста, удалите все продукты, которые были удалены."
+Your products has been deleted. System will redirect you on product list automatically in 5 secs.,Ваши продукты были удалены. Система перенаправит вас на список товаров автоматически через 5 секунд.
+Import action is Missing,Импорт действия Отсутствует
+Meta Information worksheet is missing,Метаинформацию лист отсутствует
+File must not exceed ,Файл не должен превышать
+This sku does not exist,Этот SKU не существует
+Product of this SKU is not yours.,Продукт этого SKU не ваш.
+This row has error,Эта строка имеет ошибку
+Meta Information Sheet is Missing,"Meta Information Sheet отсутствует,"
+Error in processing data of '%s' sku.,Ошибка в обработке данных «% S» SKU.
+Listed products are not saved:,Перечисленные продукты не сохраняются:
+"Upload your file and try again. To speed up process, please remove all other product data that has been saved successfully.","Загрузите файл и повторите попытку. Чтобы ускорить процесс, пожалуйста, удалите все другие данные о продукте, который был сохранен успешно."
+Your products has been uploaded. System will redirect you on product list automatically in 5 secs.,Ваша продукция была загружена. Система перенаправит вас на список товаров автоматически через 5 секунд.
+Error while processing rows in uploaded file.,Ошибка при обработке строк в загруженном файле.
+Error: %s,Ошибка:% s
+Product Type is missing from Meta Sheet Worksheet,Тип продукта отсутствует Meta Sheet Worksheet
+Product Type is invalid in Meta Sheet Worksheet,Тип продукта является недействительным в Meta листе Worksheet
+Attribute set id is missing from Meta Sheet Worksheet,Набор атрибутов ID отсутствует Meta лист Рабочий лист
+Attribute set id is not valid in Meta Sheet Worksheet,Атрибут набора идентификатор не является действительным в Meta листе Worksheet
+This SKU is already used by other product of you or other seller.,Это SKU уже используется другой продукт из вас или другого продавца.
+This SKU is used by other seller or store.,Это SKU используется другим продавцом или магазином.
+This value is required,Требуется Это значение
+Invalid Value. Only date format value is accepted.,Неверное значение. Только значение формата даты принимается.
+Invalid Value. Only Price type value accepted,Неверное значение. Только допустимое значение Тип Цена
+Invalid Value. Only positive number type value accepted,Неверное значение. Только допустимое значение типа положительное число
+Out of range value. Please see possible value for this field.,"Из значения диапазона. Пожалуйста, смотрите возможное значение для этого поля."
+Some of the values are not exist.,Некоторые из значений не существует.
+Your request has been sent to the admin for approval.,Ваш запрос был отправлен в админку для утверждения.
+Seller's Account - Request a New Category,Счет Продавца - Запрос новой категории
+Attribute set is missing,набор атрибутов отсутствует
+Attribute set cannot load,набор атрибутов не может загрузить
+1. This worksheet is required and must be included in your import file,1. Эта таблица является обязательным и должен быть включен в вашем файле импорта
+2. Do not change worksheet name as well as its content.,"2. Не изменяйте имя рабочего листа, а также его содержание."
+3. Any change in this worksheet format will not allow system to import your data into system.,3. Любое изменение в этом формате листа не позволит системе импортировать данные в систему.
+4. We recommend you to copy this worksheet in your import file with same worksheet name.,4. Мы рекомендуем вам скопировать этот лист в файле импорта с таким же именем листа.
+1. This worksheet contains possible values of some field.,1. Эта таблица содержит возможные значения некоторого поля.
+2. Please fill the related fields only from these possible values.,"2. Пожалуйста, заполните соответствующие поля только из этих возможных значений."
+3. If possible values for any field are not given then you can fill it with any text value.,"3. Если возможные значения для любого поля не дает, то вы можете заполнить его любое текстовое значение."
+Seller's Products,Товары продавца
+The product has been saved.,Продукт был сохранен.
+This window will be closed automatically within %s secs.,Это окно будет закрыто автоматически в% S секунд.
+Product has been saved successfully.,Продукт был успешно сохранен.
+The product has been duplicated successfully.,Продукт был успешно дублированы.
+Product has been created successfully.,Продукт был успешно создан.
+Please wait for admin approval.,"Пожалуйста, ждать одобрения администратора."
+"Adding of new product limit has been over as your account is not approved or waiting for approval. To add more products, your account needs to be approved.","Добавление нового предела продукта было более, как ваш аккаунт не был одобрен или ждать одобрения. Для того, чтобы добавить больше продуктов, ваш аккаунт должен быть одобрен."
+You duplicated the product.,Вы дублирует продукт.
+Seller's Product,Продукт продавца
+This SKU already exist.,Это SKU уже существует.
+Cancel Vacation,Отменить отпуск
+Add New Vacation,Добавить отпуск
+Vacation Halted,отпуск Halted
+Created Date,Дата создания
+This vacation is already canceled,Этот отпуск уже отменен
+Visibility,видимость
+click to edit product,"нажмите, чтобы изменить продукт"
+click to update quantity,нажмите чтобы обновить количество
+Update Quantity,Обновление Количество
+Order No.,№ заказа.
+From Date,С даты
+To Date,На свидание
+click to print order,"нажмите, чтобы напечатать заказ"
+Shipping & Handling,Доставка и обработка
+Discount (%1),Скидка (% 1)
+Discount,скидка
+Grand Total,Общая сумма
+Grand Total to be Charged,Гранд Всего к Заряженные
+Custom Value,Пользовательское значение
+Order # %1,Заказ #% 1
+Comment History,Комментарий История
+Shipment History,Пересылка История
+Credit Memo History,Кредитная история Memo
+Subtotal (Excl.Tax),Итого (Excl.Tax)
+Subtotal (Incl.Tax),Итого (Incl.Tax)
+Shipping & Handling (Excl.Tax),Доставка и обработка (Excl.Tax)
+Shipping & Handling (Incl.Tax),Доставка и обработка (Incl.Tax)
+Grand Total (Excl.Tax),ИТОГО (Excl.Tax)
+Grand Total (Incl.Tax),ИТОГО (Incl.Tax)
+Email,Эл. адрес
+Shipping Charges,Транспортные расходы
+Track this shipment,Подписка на пересылку
+Track Order,Отследить заказ
+Shipping Method,способ доставки
+Shipping not Required,Доставка не Обязательная
+Payment Method,Способ оплаты
+Grand Total (Excl. Shipping),ИТОГО (Excl. Доставка)
+Discount (%s),Скидка (% s)
+Total Refunded,Всего Возвращено
+Total Due,Итого В
+Shipping & Handling (Excl. Tax),Доставка и обработка (Excl. Налог)
+Shipping & Handling (Incl. Tax),Доставка и обслуживание (вкл. Налог)
+Print Order # %1,Print Order #% 1
+Minimum %d character requried,Минимальный% d символов requried
+Save Template,Сохранить шаблон
+Show Report,Показать отчет
+Manage Seller Account,Управление счет продавца
+Add Subcategory,Добавить подкатегорию
+Add Root Category,Добавить Корневая категория
+Save Settings,Сохранить настройки
+Seller Payout Request,Продавец Payout Запрос
+ID,Я БЫ
+Transation Date,Дата транзакции
+Telephone,телефон
+Commission (in %),Комиссия (в%)
+Your Earnings,Ваша прибыль
+Category wise Commissions,Категория Мудрые комиссии
+Total Commission,Общая комиссия
+Transaction History,История транзакций
+Seller wise Commissions,Продавец Мудрые комиссии
+Seller Earning,Продавец Earning
+Amount Transfer,Сумма трансфера
+Transaction Action,Транзакция Действие
+Sellers Payout (,Продавцы выплат (
+Seller Order List,Список продавца Заказать
+Purchased From (Store),Приобретенные С (магазин)
+Purchased On,Приобретенные на
+Actions,действия
+Template Description,Описание шаблона
+Template Type,Тип шаблона
+Date Added,Дата Добавлена
+Date Updated,Дата обновления
+Seller Best Selling Product List,Продавец Список Лучшие продажи товаров
+Interval,интервал
+Order Quantity,Заказанное Количество
+Product Price,Цена продукта
+Seller Account Approval Request List,Список Запрос счета Утверждение продавца
+Approved Status,Подтвердили статус
+Added Date,Добавлено Дата
+Approve,Утвердить
+Account Status,Статус аккаунта
+Seller Status,Продавец Статус
+Seller Since,Продавец С
+Posted On,Опубликовано
+Request Date,Дата заказа
+Vacation Active,отпуск Активный
+Seller Review Approval List,Список отзыва о продавце Утверждение
+Seller Approval List,Список Продавец Утверждение
+Seller Product Reviews,Отзывы о продукте Продавец
+Created On,Создано на
+Nickname,кличка
+Visible In,Видимый В
+Type,Тип
+Product SKU,SKU продукта
+Edit,редактировать
+Seller Category Request List,Список запрос Категория продавца
+Seller Email,Продавец Email
+View,Посмотреть
+Disapprove,не одобрять
+Make New,Сделать новый
+Edit Template,Изменить шаблон
+Products,Товары
+Administrator,администратор
+Guest,гость
+Seller Bulkimport Feature List,Список функций продавца Bulkimport
+Last Update,Последнее обновление
+Feature Status,Характеристика состояния
+Seller Bulkimport Feature Request List,Продавец Bulkimport Список_компонентов Запрос
+Seller Comment,Продавец Комментарий
+Your Comment,Ваш комментарий
+Request Status,Состояние запроса
+Activate Feature,Включите функцию
+Read More,Прочитайте больше
+click to view review,"нажмите, чтобы посмотреть обзор"
+Posted on: %s by %s,Опубликовано:% с помощью% с
+Home,Главная
+Home Page,Главная страница
+click to view product,"нажмите, чтобы посмотреть продукт"
+Your seller account is currently under process and not yet approved. You only have a limited access to the seller account currently.,Ваш аккаунт продавца в настоящее время в процессе разработки и еще не утверждены. У вас есть только ограниченный доступ к счету продавца в настоящее время.
+Your seller account has been disapproved. You only have a limited access to the seller account currently. To send request again ,"Ваш продавец счет был отклонен. У вас есть только ограниченный доступ к счету продавца в настоящее время. Для того, чтобы отправить запрос еще раз"
+Click Here,Кликните сюда
+Product Catalog,Каталог товаров
+Product Feedback,Продукт Обратная связь
+Earnings,прибыль
+Transactions,операции
+New Category Request,Новая категория Запрос
+My Vacations,Мои каникулы
+Requested Date,Запрашиваемая Дата
+Request On,запрос на
+Date,Дата
+Transaction Date,Дата сделки
+Amount of %s debited from your earning on %s,Сумма% s списана с Вашего заработка на% s
+Amount of %s credited into your account on %s,Сумма% s зачислена на ваш счет на% s
+Report Format,Формат отчета
+Your file is valid. Please click 'Delete Products' button to delete your products,"Ваш файл является действительным. Пожалуйста, нажмите кнопку «Удалить продукты» кнопку, чтобы удалить ваши продукты"
+Your file is valid. Please click 'Import Products' button to upload your products,"Ваш файл является действительным. Пожалуйста, нажмите кнопку «импортной продукции», чтобы загрузить свои продукты"
+Delete Products,Удалить продукты
+"Adding of new product limit has been over as your account is not approved or waiting for approval. To add more products, your account need to be approved.","Добавление нового предела продукта было более, как ваш аккаунт не был одобрен или ждать одобрения. Для того, чтобы добавить больше продуктов, ваш счет должен быть утвержден."
+Use Default Value,Использование Значение по умолчанию
+Seller Account,Продавец счета
+General Settings,общие настройки
+Seller List,Продавец Список
+Seller Account Approval Request,Запрос Продавец счета Утверждение
+Seller Product List,Список товаров Продавец
+Product Approval Request,Запрос утверждения продукта
+Product Reviews,Отзывы о товаре
+Seller Reviews,Отзывы продавца
+Seller Review Approval Request,Запрос на отзыв о продавце Утверждение
+Category Request List,Список категорий Запрос
+Seller Vacation List,Список продавца отпуск
+Reports - Best Selling Products,Отчеты - Самые продаваемые товары
+Email Templates,Шаблоны электронной почты
+CRON Instructions,CRON Инструкции
+Bulk Import/Export,Массовый импорт / экспорт
+Seller With Feature,Продавец с использованием функции
+Feature Activation Request,Функция запроса активации
+Transactions and Earnings,Операции и прибыль
+Commissions,Комиссионные
+Category Wise Commissions,Категория Wise комиссии
+Seller Wise Commissions,Мудрые комиссии продавца
+Sellers Payout List,Продавцы Список выплат
+Sellers Payout Request,Продавцы Payout Запрос
+PayPal Payout Settings,Настройки выплат PayPal
+Best Selling Products,Самые продаваемые товары
+Seller with Import/Export Feature,Продавец с Импорт / Экспорт Feature
+Import/Export Feature Activation Request List,Импорт / Экспорт Список функций запроса активации
+Category Wise Commission,Категория Wise комиссия
+Category Request List,Список категорий Запрос
+Edit Email Template,Редактирование шаблона Email
+Email Templates,Шаблоны электронной почты
+Seller Order List,Список продавца Заказать
+PayPal Payout Settings,Настройки выплат PayPal
+Product Approval Request,Запрос утверждения продукта
+All Seller's Products - Reviews,Продукты Все продавца - Отзывы
+Seller Account Approval Request,Запрос Продавец счета Утверждение
+Seller Wise Commission,Wise комиссии продавца
+Seller List,Продавец Список
+Seller Product List,Список товаров Продавец
+Seller Review Approval Request,Запрос на отзыв о продавце Утверждение
+All Seller's Reviews,Отзывы Все продавца
+Seller Vacation List,Список продавца отпуск
+Commissions,Комиссионные
+Sellers Payout,Продавцы Payout
+Sellers Payout Request,Продавцы Payout Запрос
+View Sellers,Посмотреть Продавцы
+Start date or end date can not be same,"Дата начала или дата окончания не может быть такой же,"

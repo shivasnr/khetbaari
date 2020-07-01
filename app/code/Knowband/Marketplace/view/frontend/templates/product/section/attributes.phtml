@@ -1,0 +1,26 @@
+<?php $fields = $this->getGroupFields(); ?>
+
+<?php if(!empty($fields)){ ?>
+    <div class="box collapsed-box">
+        <div class="box-header with-border"  data-widget="collapse">
+            <h3 class="box-title"><?php echo $this->getGroupName(); ?></h3>
+            <div class="box-tools pull-right tab-error-highlighter text-red">
+                <i class="fa fa-warning"></i>
+            </div>
+            <div class="box-tools pull-right">
+              <button type="button" class="btn btn-box-tool"><i class="fa fa-plus"></i></button>
+            </div>
+        </div>
+        <div class="box-body">
+            <?php foreach($fields as $field){ ?>
+                <div class="form-group col-xs-12 col-sm-6 col-lg-6">
+                    <label><?php echo $field['label']; ?><?php if($field['is_required']){ ?><sup><em>*</em></sup><?php } ?></label>
+
+                    <?php echo $this->renderAttributeFieldHtml($field); ?>
+                </div>
+            <?php } ?>
+        </div>
+    </div>
+<?php } ?>
+
+<?php echo $this->getChildHtml('', true, true); ?>

@@ -1,0 +1,1009 @@
+The product status will be 'Disabled' until it is approved from admin.,"Състоянието на продукт ще бъде на ""Забранено"", докато не бъде одобрен от администратор."
+The seller has already added more products. Please either increase the limit or save it as it is.,"Продавачът вече е добавил повече продукти. Моля, или за увеличаване на лимита или да го запазите, както е."
+Reason,причина
+Required field,задължително поле
+Submit,Изпращане
+Why do you want to do this?,Защо искате да направите това?
+Continue,продължи
+Something went wrong. Please try again.,"Нещо се обърка. Моля, опитайте отново."
+Vacation Interval: ,Почивка интервал:
+Is Active: ,Е активна:
+Vacation Halt Status: ,Почивка Спиране положение:
+Comment: ,Коментар:
+Reason for canceling vacation: ,Причина за анулирането на почивка:
+Vacation Detail,Почивка Подробности
+Your comment to cancel this vacation,Вашият коментар Отказване на тази ваканция
+Register as Seller,Регистрирайте се като Продавач
+Yes,да
+No,Не
+Marketplace CRON Instructions,Marketplace Cron Инструкции
+Vacation CRON,Почивка CRON
+Disable the products during the seller's vacation period.,Изключване на продуктите по време на ваканция период на продавача.
+Low Stock Notification CRON,Малки количества на склад CRON Уведомление
+Send the notification to the sellers about their low stock products.,Изпрати на уведомлението с продавачите за техните ниски склад продукти.
+Cron Instructions,Cron Инструкции
+Add the Cron Jobs to your store via control panel/putty. Find below the Instruction to add the Cron Jobs.,Добавете Cron работни места в магазина през контролния панел / замазка. Вижте по-долу Инструкцията за да добавите Cron работни места.
+URLs to Add to Cron via Control Panel,"URL адреси, за да добави към Cron чрез Control Panel"
+1. Vacation CRON,1. Ваканционен CRON
+2. Low Stock Notification CRON,2. Ниска наличност Уведомление CRON
+Cron setup via SSH,Cron настройка чрез SSH
+Choose Store Categories,Изберете Store Категории
+Collapse All,Свиване на всички
+Expand All,Отваряне на всички
+This operation can take a long time,Тази операция може да отнеме много време
+Please confirm site switching. All data that hasn\'t been saved will be lost.,"Моля, потвърдете, превключване сайт. Всички данни, които hasn т \ 'са запазени, ще бъдат загубени."
+Warning message,Предупреждение съобщение
+Field cannot be empty.,Полето не може да бъде празно.
+You can enter only numbers.,Можете да въведете само цифри.
+Number should be greater than 0.,Числото трябва да е по-голямо от 0.
+Field cannot be greater than {#} characters.,Поле не може да бъде по-голяма от {#} знака.
+Field cannot be less than {#} character(s).,Поле не може да бъде по-малко от {#} характер (и).
+Please enter Email.,"Моля, въведете имейл."
+Please enter a valid Email.,"Моля, въведете валиден имейл."
+Invalid date format.,Невалиден формат на дата.
+Number is not in the valid range. It should be between {#} and {##},Номерът не е в сила диапазон. Тя трябва да бъде между {#} и {##}
+Field should be numeric.,Невярно трябва да е цифра.
+Field should be positive.,Невярно трябва да бъде положителен.
+Field can have only upto two decimal values.,Невярно може да има само до запълването два десетични стойности.
+Email cannot be greater than {#} characters.,Email не може да бъде по-голяма от {#} знака.
+Zip should not have special characters.,Zip не трябва да има специални знаци.
+Percentage should be in number.,Процент трябва да бъде в брой.
+Percentage should be between 0 and 100.,Процент трябва да бъде между 0 и 100.
+Size cannot be greater than {#} characters.,Размер не може да бъде по-голяма от {#} знака.
+Color could not be greater than {#} characters.,Цвят не може да бъде по-голяма от {#} знака.
+Color is not valid.,Цвят не е валиден.
+Special characters are not allowed.,Специални знаци не са разрешени.
+Script tags are not allowed.,Script тагове не са позволени.
+Style tags are not allowed.,Стил тагове не са позволени.
+Iframe tags are not allowed.,Маркери за вградени рамки не се допускат.
+Uploaded file is not an image.,Каченият файл не е изображение.
+Uploaded file size must be less than {#}.,Качени размер на файла трябва да бъде по-малко от {#}.
+Field should not contain HTML tags.,Невярно не трябва да съдържа HTML тагове.
+You can enter only positive numbers.,Можете да въведете само положителни числа.
+Are you sure?,Сигурен ли си?
+Comment,коментар
+Are you sure to update feature status of this seller?,Не забравяйте да актуализирате функция на състоянието на този продавач ли сте?
+Do you have any comment?,Имате ли коментар?
+"For accurate reporting, be sure to refresh lifetime statistics whenever you change the time zone.","За точно отчитане, не забравяйте да обновите статистика през целия живот, когато промените часовата зона."
+To refresh last day's,За да опресните последния ден
+statistics,статистика
+click,кликване
+here,тук
+Filter,филтър
+Period,Период
+Day,ден
+Month,месец
+Year,година
+From,от
+Select Date,Избери дата
+To,Да се
+Choose Category,Изберете категория
+All Categories,Всички категории
+Choose a Seller,Изберете Продавач
+All Sellers,Всички Продавачите
+NA,NA
+PayPal Payout Settings,PayPal Настройки на изплащанията
+Active,Активен
+Enable or Disable Paypal Payment Method.,Активиране или деактивиране на Paypal начина на плащане.
+Client ID,Client ID
+Client Secret,Клиент Secret
+Paypal Mode,режим на Paypal
+Sandbox,Sandbox
+Live,на живо
+Paypal Email Subject,Paypal Email Тема
+Paypal Currency ,Paypal валути
+Select the default currency set in Paypal Account.,Изберете валута по подразбиране набора в Paypal акаунт.
+Are You Sure you want to reset the settings?,"Сигурни ли сте, искате да нулирате настройките?"
+Edit Email Template,Edit Шаблон за имейл
+About Template,За Шаблон
+Template Subject,Шаблон Тема
+Email Content,Email съдържание
+Template Content,Съдържанието на шаблона
+Please do not edit or remove any template variable.,"Моля, не се променя или да премахне всяко шаблон променлива."
+Example,пример
+Seller Account Settings,Настройки на профила Продавач
+Default Commission,По подразбиране Комисията
+Please enter a number between 0 and 100 only and in a proper format.,"Моля, въведете число между 0 и само 100 и по подходящ формат."
+Use Global,Използване на глобалната
+New Product Limit,Нова Limit Каталог
+Limit the sellers to add new products without account approval.,"Ограничаване на продавачите да се добавят нови продукти, без одобрение на профила."
+If left blank than product limit will be assumed 0.,"Ако се остави празно, отколкото лимит продукт ще се приеме, 0."
+Categories Allowed,Позволени Категории
+If no category is selected that will mean that all the categories are allowed.,"Ако не е избрана категория, която ще означава, че всички категории са позволени."
+Product Approval Required,Задължително Каталог на одобрение
+Enable,Активиране
+Disable,правя неспособен
+Enable Seller Review,Активиране на отзиви за продавачи
+Required Seller Review Approval,Задължително отзив за продавач Одобрение
+Email to Seller on Order Place,E-mail на Продавача по поръчка Място
+Please enter a valid number in this field.,"Моля, въведете валиден номер в тази област."
+Payout Transaction Request,Изплащане на транзакциите Искане
+Required Field,Задължително поле
+Invalid Value,Невалидна стойност
+"Invalid Value, please enter a number greater than zero","Невалидна стойност, моля, въведете число по-голямо от нула"
+Minimum 30 character required,Минималната 30 характер
+General Settings,Основни настройки
+Enable Marketplace,Активиране на Marketplace
+Toggle to enable or disable extension,"Превключете, за да разрешите или забраните удължаване"
+Default Commission (%),По подразбиране комисия (%)
+Set default commission in percentage for each product.,Задайте комисия по подразбиране в проценти за всеки продукт.
+Choose the categories allowed for the sellers. If no category is selected that will mean that all the categories are allowed.,"Изберете категориите, разрешени за продавачите. Ако не е избрана категория, която ще означава, че всички категории са позволени."
+Register as Seller Field,Регистрирайте се като Невярно Продавач
+Enable to add 'Register as Seller' field while registering.,"Активиране, за да добавите ""Регистрирайте се като продавач"" поле при регистрацията."
+Enable Bulk Import/Export,Активиране на Bulk Import / Export
+"If disable, no seller will be able to use bulk import/export feature.","Ако забраните, няма продавач ще бъде в състояние да използват насипно функция внос / износ."
+If enable an email will be sent to seller on order for his product.,Ако се даде възможност на имейл ще бъде изпратен до продавача на заповед за неговия продукт.
+Enable Vacation Mode,Активиране Почивка Mode
+"If disable, no seller will be able to use vacation feature.","Ако забраните, няма продавач ще бъде в състояние да използват ваканция функция."
+Show Seller Info on Product Page,Покажи Информация за продавача на продукта Page
+Enable/Disable to show/hide seller info on product page.,Включване / Изключване за показване / скриване на информация продавач на страницата на продукта.
+Enable or Disable Approval of product for the sellers.,Включите или изключите Одобряване на продукт за продавачите.
+Default limit for sellers of adding new products before account approval. Blank will be considered as 0.,ограничение по подразбиране за продавачите на добавяне на нови продукти преди одобрението сметка. Празен ще се счита за 0.
+Enable or Disable Seller review feature. This feature enables the customers to add review for sellers.,Включите или изключите Продавач функция преглед. Тази функция позволява на потребителите да добавят преглед за продавачите.
+Seller Review Approval Required,Задължително Преглед Продавач Одобрение
+Enable or Disable Approval for seller review. Once the review is approved then only it will be visible to the customers.,Активиране или деактивиране на Одобрение за преглед продавач. След прегледа е одобрен след това само ще бъдат видими за клиентите.
+Enable Seller List,Активиране Списък Продавач
+Show or Hide Sellers List from customers.,Показване или скриване на Продавачите Списък от клиенти.
+Enable Search Box,Активиране на полето за търсене
+Enable or Disbale search box to search seller on seller listing page.,Активиране или поле за търсене деактивира ли да търсите продавач на продавача листата.
+Low Stock Configuration,Малки количества на склад Configuration
+Enable Low Stock Notification,Активиране Ниска наличност Уведомление
+Enable or Disable Low Stock Notification feature.,Активиране или деактивиране на функцията Ниска наличност уведомяване.
+Low Inventory Limit,Ниска Инвентаризация Limit
+Enter the limit below that the products are considered low stock.,"Въведете лимита по-долу, че продуктите се счита за ниска наличност."
+When to Notify,Кога да Уведоми
+Choose when to notify the seller regarding the critical inventories.,Изберете кога да уведоми продавача по отношение на критичните запаси.
+Cron Job,Cron Job
+On Order Place,На Поръчка Място
+Send Notifications From,Изпрати Съобщение От
+Choose the email from which you want to send the notifications.,"Изберете имейла, от който искате да изпратите известията."
+Seller Name,Името на продавача
+Select,Изберете
+Transaction ID,номер на транзакцията
+Transaction Type,Вид транзакция
+Amount,Количество
+Send Email to Seller,Изпрати е-мейл на Продавача
+"Invalid Value, please enter a number greater then zero","Невалидна стойност, моля въведете номер по-голям от нула"
+Add New Transaction,Добавяне на нова транзакция
+Posted On: ,Публикувано на:
+Customer Rating: ,Рейтинг на клиентите:
+Review: ,Преглед:
+Reason for Disapproval: ,Причина за неодобрението:
+Seller Review Detail,Продавач Преглед Подробности
+Provide Your Reason,Посочите причината
+We can\'t find products matching the selection.,"Ние можем да \ 'т намерите продукти, отговарящи на избора."
+View Details,Разгледайте детайлите
+In stock,В наличност
+Out of stock,Няма в наличност
+Learn More,Научете повече
+My Sales Dashboard,Моят Продажбите Dashboard
+Total Revenue,Общо приходите
+Total Orders,Общо поръчки
+Total Products Sold,"Общо продукти, продавани"
+Last 7 Days,Последните 7 дни
+Sales Comparisons,Продажби сравнения
+Orders,Поръчки
+Revenue,приход
+Products Sold,"Продуктите, продавани"
+Discounts,Отстъпки
+Balance Amount Variations,Баланс Сума Вариации
+Today,днес
+Yesterday,Вчера
+This Week,Тази седмица
+Last Week,Миналата седмица
+This Month,Този месец
+Last Month,Миналия месец
+This Year,Тази година
+Last Year,Миналата година
+Last 10 Orders,Последните 10 Поръчки
+View All Orders,Преглед на всички поръчки
+Order Number,Номер на поръчка
+Order Date,Дата на поръчка
+Customer Name,Потребителско име
+Customer Email,Имейл адрес на клиента
+Qty,Количество
+Status,Статус
+Order Total,Обща стойност на поръчката
+click to view order,кликнете за да видите ред
+No Orders Placed Yet,"Не поръчки, направени все пак"
+Seller Products,Продавач Продукти
+Filter Products,Филтър Продукти
+Category,категория
+Sort By,Сортиране по
+Name,име
+SKU,Код
+Price(low to high),Цена (от ниска към висока)
+Price(high to low),Цена (от висока към ниска)
+Products Feedback,Продукти за обратна връзка
+Filter Your Search,Филтър Вашето търсене
+Search,Търсене
+Reset,Нулиране
+No Data,Няма данни
+Posted on,публикувано на
+by,от
+Rating,оценка
+Summary,резюме
+Review,преглед
+My Products Catalog,Моите продукти в каталога
+New Product,Нов продукт
+Choose,Избирам
+Please select atleast one item from list.,"Моля, изберете поне един елемент от списъка."
+Select Attribute Set for New Product,Изберете Атрибути за нов продукт
+Attribute Set,атрибут
+Product Type,Тип на продукта
+Choose Bulk Action,Изберете Bulk действие
+Delete,Изтрий
+Status Update,Актуализация на състоянието
+Close,Близо
+Save,Запази
+Save & Continue,Запазване & Продължи
+Duplicate,дубликат
+Cancel,Отказ
+%d characters remaining.,% D оставащи знаци.
+Please fill required fields with valid information.,Моля попълнете задължителните полета с валидна информация.
+Special price should be less than actual price,Специална цена трябва да бъде по-малка от действителната цена
+Past date not allowed,Минало дата не са позволени
+Quick simple product creation,Бързо лесно създаване на продукти
+Create,създавам
+Prices,Цени
+Meta Information,Мета Информация
+General Information,Главна информация
+Allows your product's visibility on search or catalog page.,Позволява видимост на продукта си в мрежата за търсене или каталог страница.
+Maximum %d characters allowed.,Максимално разрешени% г знаци.
+Date of product from which this product will be marked as new.,"Дата на продукт, от който този продукт ще бъдат маркирани като нов."
+Date of product until which this product will be marked as new.,"Дата на продукт, до която този продукт ще бъдат маркирани като нов."
+Category Mapping,Категория Картографиране
+Associated Products,свързаните с тях продукти
+Create Simple Product,Създаване на обикновен продукт
+Quick Create,Бързо Създаване
+Id,Документ за самоличност
+Sku,Код на продукта
+Product Name,Име на продукта
+Stock Status,фондова Статус
+Select Attribute,Изберете Умение
+Attribute,Атрибут
+Price,Цена
+Default Qty,По подразбиране Количество
+Samples,Проби
+Title,Заглавие
+File,досие
+Sort Order,Ред на сортиране
+Add New Row,Добавяне на нов ред
+Links,звена
+Links can be purchased separately,Връзки могат да бъдат закупени отделно
+Max. Downloads,Макс. Downloads
+Shareable,Споделяем
+Sample,проба
+Unlimited,неограничен
+Url,Url
+Inventory,Складова наличност
+Quantity,количество
+Manage Stock,Управление на склад
+"On enabling, stock will be managed automatically. For manual stock, select disable","На позволява, склад ще се управлява автоматично. За ръчно склад, изберете Изключване"
+Qty Uses Decimal,Количество са десетични
+Stock Availability,фондова Наличност
+Shipment,пратка
+Ship Bundle Items,Кораб Пакетни артикули
+Separately,отделно
+Together,Заедно
+Bundle Items Options,Пакетни Items Опции
+Add New Option,Добавяне на нова опция
+Default Title,По подразбиране Заглавие
+Delete Option,Изтриване Вариант
+Input Type,Вид на входящия
+Is Required,Изисква се
+Position,позиция
+Add Selection,Добави Selection
+Price Type,Цена Тип
+User Defined Qty,Зададен от потребителя Количество
+Default,По подразбиране
+Qty to Add,Количество за добавяне
+Add Selected Product(s) to Option,Добави избрания продукт (и) с вариант
+Images,Снимки
+Image,Изображение
+Label,етикет
+Remove,Премахване
+File is not supported,Файл не се поддържа
+Upload New Image,Качи изображение
+".jpeg, .jpg, .png, ,gif",".jpeg, .jpg, .png, GIF"
+No Image uploaded for this product,Не снимката качена за този продукт
+Browse,паса
+Related Products,Свързани продукти
+This attribute set does not have attributes which we can use for configurable product,"Този атрибут набор не разполага с характеристики, които можем да използваме, за конфигуриране на продукта"
+Please select one or more attributes.,"Моля, изберете един или повече атрибути."
+Sold By,Продаден от
+Total %d review(s),Общо% г преглед (и)
+View Reviews,Преглед на отзивите
+Write Review,Напиши отзив
+File Size Exceeding the Limit.,Размер на файла при надхвърляне на лимита.
+Max Upload Size: 200 KB,Макс Качи Размер: 200 KB
+Max Upload Size: 500 KB,Макс Качи Размер: 500 KB
+This key already assigned to another seller. Please fill another.,Този ключ вече възложен на друг продавач. Моля попълнете друг.
+My Seller Profile,Моят профил Продавач
+View Collection,Вижте Collection
+View Profile,Виж профил
+General,Общ
+Shop Title,Магазин Заглавие
+Contact Number,Телефон за контакти
+(Image Size: 150 X 150),(Размер 150 х 150)
+Shop Logo,Магазин Logo
+(Image Size: 1180 X 250),(Размер: 1180 X 250)
+Shop Banner,Магазин Banner
+Shop Address 1,Магазин Адрес 1
+Shop Address 2,Магазин Адрес 2
+City,град
+Pincode,ПИН код
+State,състояние
+Country,Държава
+Description,описание
+Please provide link of your facebook page,"Моля, дайте линк на вашия Facebook страница"
+Facebook Link (optional),Facebook Link (по желание)
+For example:,Например:
+or,или
+Please provide link of your google plus profile,"Моля, дайте линк на вашия Google Plus профил"
+Google Plus Link (optional),Google Plus Link (по желание)
+Please provide link of your twitter profile,"Моля, дайте линк на вашия Twitter профил"
+Twitter Link (optional),Twitter Връзка (по желание)
+Meta Keywords,мета ключови думи и
+Meta Description,Мета Описание
+Example: my-selling-store,Пример: моя продажби-магазин
+Page Url Key,URL адрес на страницата Key
+Policy,политика
+Return Policy,Условия за връщане
+Shipping Policy,Правила за доставка
+Payout,заплащане
+Admin will use the Payout information to make the payment. Only one payment information can be saved at a time.,Admin ще използва информацията за изплащане за извършване на плащането. Само един за плащане може да бъде записан в даден момент.
+Select Payment Method,Изберете начин на плащане
+Seller,продавач
+Register As Seller,Регистрирайте се като продавач
+My Reviews,Моите прегледи
+Customer Review,Клиентът рецензия
+Disapproval Reason,Причина за неодобрението
+Start Date,Начална дата
+End Date,Крайна дата
+Your comment to this vacation,Вашият коментар на този ваканция
+Invalid format. Use: MM/dd/YYYY,Невалиден формат. Употреба: ММ / ДД / ГГГГ
+End date should be greater than start date,Крайна дата трябва да бъде по-голяма от началната дата
+End date should be future date,Крайна дата трябва да бъде бъдеща дата
+My Vacations History,Моята история Почивки
+Set New Vacation,Задайте Нова Почивка
+Vacation Interval,Почивка интервал
+Is Active,е активен
+Vacation Halt Status,Почивка Спиране Статус
+Reason for canceling vacation,Причина за анулирането на ваканция
+click to view product details,кликнете за да видите подробности за продукта
+Sorry! No Product(s) Found.,За съжаление! Никой продукт (а).
+Please select a category for your request.,"Моля, изберете категория за вашата заявка."
+Please provide reason for your request.,"Моля, посочете причина за молбата ви."
+Request a New Category,Заявка за нова категория
+Choose a Category,Избери категория
+Select Category,Избери категория
+Maximum 500 characters allowed.,Максимално разрешени 500 символа.
+Submit Category Request Form,Подаване на формуляра за заявка Категория
+No categories are available for request.,Няма категории са на разположение за избор.
+Payout Request,изплащане Запитване
+New Payout Request,Нова изплащане Искане
+Request Reason,Заявка Причина
+Submit Payout Request Form,Подаване на формуляра за заявка за изплащане
+Payout Details,за изплащане на комисионните
+Requested On,Заявени На
+Your Comment For Request,Коментар За Искане
+Only 200 characters allowed,Само на 200 разрешени знаци
+"Only (xls, xlsx) formats are allowed","Само (XLS, XLSX) формати са разрешени"
+Toggle navigation,Превключване на навигация
+My Account,Моята сметка
+Logout,Излез от профила си
+Account Warning!,Предупреждение в профила!
+Back To Site,Обратно в сайта
+Category Request Details,Категория Допълнителна информация
+Category Name,Име на категория
+Your request is in pending. Please wait for store response.,"Заявката ви е в очакване. Моля, изчакайте магазин отговор."
+This feature is not active into your account.,Тази функция не е активна в профила си.
+To request this feature,За да заявите тази функция
+Click,Кликнете
+Here,Тук
+Request To Activate Import/Export Feature,Заявка за активиране Импорт / Експорт Feature
+Comment ,коментар
+Required Field. Maximum 200 characters allowed.,Задължително поле. Максимално разрешени 200 символа.
+Click to send request,"Кликнете, за да изпратите заявка"
+Your file has some errors. Please import file after resolving errors.,Във файла ви има някои грешки. Моля импортира след справянето с грешки.
+Click to download your file with errors,"Кликнете, за да изтеглите файла си с грешки"
+Download File with Errors,Изтегляне на файл с грешки
+Go Back,Върни се
+Please do not go back or refresh page while uploading your products.,"Моля, не се върне или да опресните страницата при качването на вашите продукти."
+It may causes errors in your catalog.,Тя може да причини грешки в своя каталог.
+Download Template,Изтегляне на шаблон
+Select Product Type,Изберете Вид на продукта
+Product Attribute Set,Продукт Комплект Атрибути
+Select Attribute Set,Изберете атрибут
+Download Template File,Изтегляне на шаблон за файла
+Please make sure that columns in your file must be matched with template file created for you on the basis of selected attribute.,"Моля, уверете се, че колони във файла Ви трябва да бъдат съчетани с шаблон файл, създаден за вас въз основа на избрания атрибут."
+Import Products,Вносни продукти
+Import Action,внос действие
+Select Action,Изберете действие
+"Action will only be performed on the basis of SKU of products. Without sku, product will not be consider for any action.","Действие ще се извършва само въз основа на Код на продуктите. Без да се прил, продукт, няма да се считат за всяко действие."
+Upload File,Качи файл
+"Only (xls, xlsx) file will be accepted","Само (XLS, XLSX) файл ще бъде приета"
+File must not exceed %s MB,Файлът не трябва да надвишава% и MB
+Browse File,Преглед на файла
+Validate File,проверка на файла
+File must no exceed %s MB,Файлът трябва да не надвишава% и MB
+Import/Export Instructions,Инструкции за внос / износ
+Import,внос
+Export,износ
+Import Instructions,Инструкции за внос
+"Download Template as per your product type. At a time, only 1 type of products can be import.","Изтеглете шаблони, както на вашите тип продукти. В момент, само на 1 тип продукти може да бъде внос."
+"If you import more than 1 type of products from one file, then system will be fail or affect your catalog.","Ако внасяте повече от 1 тип продукти от един файл, а след това системата ще бъде провали или да повлияе на стоките."
+Each template will have '%s' worksheet. Your import file must have this worksheet as it is. Please do not change anything in its content.,"Всеки шаблон ще има ""% S"" лист. Вашият файл за импортиране трябва да има този работен лист, както е. Моля, не се променя нищо в неговото съдържание."
+Each template will have '%s' worksheet. Please provide product data from possible values of corresponding field. If field has possible values.,"Всеки шаблон ще има ""% S"" лист. Моля да предоставите данни за продуктите от възможни стойности на съответната област. Ако поле има възможни стойности."
+"Only 'xls, xlsx' file having size less than %sMB will be acceptable.","Само ""XLS, XLSX"" файл с размер по-малък от% SMB ще бъде приемлив."
+If you want to import using exported data then copy the general & image sheet of exported file into general & image sheet of the downloaded template file.,"Ако искате да импортирате, използвайки изнесените данни след това копирайте общия & изображение лист изнесени файл в обща и изображения лист изтегления файл с шаблони."
+"Use (|) to seperate value in multivalue field like category_ids, related_products.","Използвайте (|) да се разделят стойност в multivalue поле като category_ids, related_products."
+Export Instructions,Инструкции за износ
+Select export type in export section.,Избор на тип износ в раздел износ.
+"If the export type is Category, then system will export only assigned categories to you.","Ако типът на износа е категория, а след това системата ще изнася само определени категории за вас."
+"In case of products, select product type and attributes set.","В случай на продукти, изберете вид на продукта и свойства, посочени."
+Exported data will be in xls/xlsx format.,Изнесените данни ще бъдат в XLS / XLSX формат.
+Export Type,Вид износ
+Select Export Type,Изберете Export Type
+Category Export,Категория износ
+Product Export,Каталог на износ
+Product Status,Статус на продукта
+All,всичко
+Disabled,хора с увреждания
+Enabled,Enabled
+In Stock,В наличност
+Out of Stock,Няма в наличност
+Export Data,експортиране на данни
+This process will take few minutes.,Този процес ще отнеме няколко минути.
+Please do not go back or refresh page while exporting your data.,"Моля, не се върне или да опресните страницата при експортиране на данните ви."
+Your are not eligible to use this feature as your account is either not approved or inactive.,"Вие не отговарят на условията, за да използвате тази функция, тъй като профилът ви е или не е одобрен или не е активна."
+"Currently, this feature is disabled by store.",В момента тази функция е изключена по магазин.
+You cannot use this feature as required library is missing. Please contact to support.,"Не можете да използвате тази функция, както се изисква библиотека липсва. Моля, свържете се за подкрепа."
+Total Sale,Общо Продажба
+Total Earning,Общо Приходи
+Transaction Details,Подробности за транзакцията
+My Earnings,Моите Доходи
+Earnings History,Печалбата История
+Order Wise Earnings,Поръчка Wise Доходи
+Transactions History,Трансфери История
+Total Paid,Общо платено
+Balance,баланс
+Quantity to Add,Количество за добавяне
+Low Stock Notification,Малки количества на склад за уведомяване
+Configuration,Конфигурация
+Receive Low Stock Notifications,Получавате ниска наличност Известия
+Save Seller Level Configuration,Запазване на конфигурацията Продавач Ниво
+facebook,Facebook
+twitter,кикотене
+google,Google
+About Seller,За Продавач
+Description not available.,Описание не е на разположение.
+Write your thought,Напишете вашата мисъл
+Summary of your review,Обобщение на Вашето мнение
+Your Thought,Вашата мисъл
+Your Name,Твоето име
+Rate this seller,Оцени този продавач
+Submit Review,Изпрати мнението
+Notify Customer by Email,Уведоми клиентите по имейл
+Visible on Storefront,Видим за Storefront
+Submit Comment,Подаване на коментар
+Customer,клиент
+Notified,нотифициран
+Not Notified,Не е нотифициран
+Please provide comment,"Моля, коментирайте"
+Product,продукт
+Subtotal,Междинна сума
+Order Detail,Подробности за поръчката
+Click to download invoice.,"Кликнете, за да изтеглите фактура."
+Download Invoice,Изтегляне на фактурата
+Click to download shipping slip.,"Кликнете, за да изтеглите корабоплаването приплъзване."
+Download Shipping Slip,Изтегляне на доставка поднасяне
+Are you sure you want to send order email to customer?,"Сигурни ли сте, искате да изпратите, за електронна поща на клиентите?"
+Click to send email to customer,"Кликнете, за да изпратите имейл на клиент"
+Send Email,Изпратете имейл
+Click to create shipment,"Кликнете, за да се създаде пратка"
+Ship,Кораб
+Print,печат
+Basic Informations,Основни Информация
+Order Status,Състояние на поръчката
+Billing Address,адрес на плащане
+Shipping Address,Адрес за доставка
+Ordered,поръчан
+Shipped,Доставят
+Canceled,Отменен
+Refunded,Възстановени
+Gift Message,Подарък Съобщение
+Excl. Tax,Excl. данък
+Total,Обща сума
+Incl. Tax,Вкл. данък
+Total incl. tax,Общо вкл. данък
+Invoiced,по фактура
+Order Items,Поръчка артикули
+Shipments,Пратките
+Ship to Name,Кораб с име
+Date Shipped,Дата Доставят
+Total Qty,Общо Количество
+click to view detail,кликнете за да видите детайли
+Tax,данък
+Items To Be Shipped,Предмети да бъдат транспортирани
+Qty to Ship,Количество на кораб
+Append Comments,Добавяне на коментари
+Email Copy of Shipment,Email Копие на Пратка
+Submit Shipment,Подаване на пратка
+New Shipment,Нова пратка
+Back,обратно
+Shipment Tracking,Международно преместване
+Carrier,носител
+Tracking No.,Проследяване не.
+Action,действие
+Add Tracking Number,Добави Номер за проследяване
+Invalid value(s) for Qty to Ship,Невалидна стойност (и) за Количество на кораб
+Shipment Detail,пратка Подробности
+Are you sure you want to send Shipment email to customer?,"Сигурни ли сте, искате да изпратите имейл на превозите на клиентите?"
+Send Tracking Information,Изпрати Информация за проследяване
+Tracking Number,Проследяващ номер
+Add,Добави
+Tracking title is required.,Проследяване на заглавието се изисква.
+Tracking number is required.,Проследяване на брой се изисква.
+Shipped Items,Изпратени артикули
+Qty Shipped,Количество Доставят
+No Item Shipped Yet,Не т Доставят все пак
+Reviews,Отзиви
+Posted on:,Публикувано на:
+by ,от
+Sorry! No Reviews Found.,За съжаление! Няма ревюта.
+Write your review,Въведете Вашия кометар
+Sellers List,Списък Продавачите
+Search Seller,Търсене на продавача
+Sorry! No Seller(s) Found.,За съжаление! Не продавача (а).
+General Contact,Обща Контакт
+Customer Support,за поддръжка на клиенти
+Sales Representative,Търговски представител
+Custom Email 1,Персонализирана електронна поща 1
+Custom Email 2,Персонализирана Email 2
+"Unable to write low stock files. Permission Error on ""var"" Directory.","Не може да се напише ниски борсови файлове. Разрешение Грешка на ""Var"" Directory."
+Unable to write file for Seller ,Не може да се напише файл за Продавач
+Product ID,идентификация на продукта
+Current Quantity,Текущ Количество
+Base Image,Графична база
+Small Image,Малък Изображение
+Thumbnail,Thumbnail
+Disallowed file type.,Непозволена тип файл.
+Type of the product you have selected for this import template file.,"Вид на продукта, който сте избрали за този внос шаблонен файл."
+Attribute set you have selected for this product type in import template file.,"Атрибут, който сте избрали за този тип продукт в шаблон файл за импортиране."
+single pipe(|) seperated multiple categories,"единствена черта (|), разделени на няколко категории"
+single pipe(|) seperated product sku,единична тръба (|) разделени на продукта Код
+single pipe(|) seperated attributes,единична тръба (|) разделени атрибути
+pair of values seperated by single pipe(|),двойка стойности разделени от единична тръба (|)
+System will group your bundle item on the basis of this title. If two items has same title then they will be grouped in same bundle.,Системата ще осигури група пакета си позиция въз основа на това заглавие. Ако два артикула има същото заглавие след това те ще бъдат групирани в една и съща връзка.
+Daily,ежедневно
+Weekly,седмично
+Monthly,Месечно
+Yearly,годишно
+Waiting for Approval,В очакване на одобрение
+Approved,одобрен
+Disapproved,Неодобрение
+Add new products,Добавяне на нови продукти
+Update existing products,Актуализиране на съществуващи продукти
+Add/update products,Добавяне / актуализиране на продукти
+Delete products,Изтриване на продукти
+Bank Wire,Банков превод
+Payment By Cheque,Плащане с чек
+Paypal,Paypal
+Please provide the paypal email id.,"Моля, посочете PayPal имейл ID."
+Paypal Email ID,Paypal Email ID
+Please provide additional information.,Моля да предоставите допълнителна информация.
+Additional Information,Допълнителна информация
+Please provide the name.,"Моля, въведете името."
+Pay to the order of (name),Обърнете реда на (име)
+Please provide the address.,"Моля, въведете адреса."
+Address,адрес
+Address where the cheque should be sent to.,"Адрес, в които проверката трябва да бъдат изпратени."
+Please provide account owner name,"Моля, въведете име собственик на профил"
+Account Owner,Собственик на акаунт
+Please provide bankwire details,"Моля, представете подробности bankwire"
+Details,детайли
+"Such as bank branch, IBAN number, BIC, etc.","Такива като клон на банка, IBAN номер, BIC и т.н."
+Please provide bankwire address.,"Моля, представете bankwire адрес."
+Bank Address,Банкова сметка
+Requsted on: ,Requsted на:
+ by,от
+Amount: ,Количество:
+Payment Method: ,Начин на плащане:
+PayPal,PayPal
+PayPal ID: ,PayPal ID:
+Additional Information: ,Допълнителна информация:
+Bankwire,Bankwire
+Owner Name: ,Име на собственика:
+Details: ,Детайли:
+Bank Address: ,Банкова сметка:
+Cheque,Проверка
+Address: ,Адрес:
+No balance amount is left for this seller.,Колкото и баланс е оставен за този продавач.
+No order found for this seller. Transaction cannot be initiated.,Не е намерен този продавач ред. Транзакция не може да бъде започнато.
+Paypal payout request failed.,запитване Paypal изплащане провали.
+Please enable paypal payout to make this transaction.,"Моля, разрешете PayPal изплащане да направи тази сделка."
+Payout request does not exist.,поискване изплащане не съществува.
+By System,Чрез система
+Manually,Ръчно
+Successfully,успешно
+Credit,кредит
+Debit,дебит
+Unknown,неизвестен
+Invalid request,Невалидна заявка
+Export type is missing,тип износ липсва
+No product found as per your selected parameters.,"Не продукти, открити по избраните параметри."
+Unable to process request,Можем да обработим заявката
+No category assigned to you.,Не категория назначен за вас.
+invalid request,Невалидна заявка
+Please select product parameters.,"Моля, изберете параметрите на продукта."
+No products found to export.,Няма намерени продукти за износ.
+Vacation is successfully canceled.,Почивка успешно отменена.
+New Vacation successfully created.,Нова Почивка създаден успешно.
+Your products will be hidden automatically when the vacation starts.,"Вашите продукти ще бъдат скрити автоматично, когато ваканция започва."
+Start Date or End Date cannot be less than today.,"Начална дата Крайна дата или не може да бъде по-малко, отколкото днес."
+Start Date or End Date cannot be same.,Начална дата Крайна дата или не може да бъде една и съща.
+Date range should not be in between of any previous active vacation.,Периодът от време не трябва да е по средата на всяка предишна активна почивка.
+Technical error occurred while validating new vacation.,възникнала техническа грешка при потвърждаването нова ваканция.
+The requested vacation's detail not found.,детайл Исканата ваканция не е намерен.
+Marketplace - CRON,Marketplace - Блиндирани
+Please enable the low stock notifications functionality first,"Моля, разрешете ниската фондовите уведомления функционалността първи"
+Please enable the marketplace module first,"Моля, разрешете модула пазар първо"
+Low Stock Notifications Cron Executed Successfully.,Малки количества на склад Известия Cron е изпълнена успешно.
+"There were some errors executing the low stock notifications cron, please check Log for more details.","Имаше някои грешки изпълнение на ниско фондовите уведомления Cron, моля, проверете Вход за повече информация."
+Please enable the seller vacation functionality first,"Моля, разрешете функцията за продавач ваканция първи"
+Vacation Cron Executed Successfully.,Почивка Cron е изпълнена успешно.
+"There were some errors executing the vacation cron, please check Log for more details.","Имаше някои грешки изпълнение ваканция Cron, моля, проверете Вход за повече информация."
+View Shipment,Преглед на пратка
+Requested order details not Found.,Заявени подробности за поръчката не е намерен.
+We can\'t save the shipment right now.,Ние можем да \ 'т спаси пратката в момента.
+Shipment Document Validation Error(s):\n,Доставка Документ валидиране грешка (и): \ п
+The shipment has been created.,Пратката е била създадена.
+You created the shipping label.,Създали сте етикета за изпращане.
+An error occurred while creating shipping label.,Възникна грешка при създаването на адресния етикет.
+Cannot save shipment.,Не може да се спаси пратка.
+Please enter a comment.,"Моля, въведете коментар."
+Comment has been added for this shipment.,Коментарът е добавен за тази пратка.
+Cannot add new comment.,Не можете да добавите нов коментар.
+You sent the shipment.,Изпратили сте пратката.
+Cannot send shipment information.,Не може да изпраща информация на доставката.
+Please specify a carrier.,"Моля, посочете носител."
+Please enter a tracking number.,"Моля, въведете номер за проследяване."
+Tracking number successfully updated into this shipment.,Проследяване на брой актуализирана успешно в тази пратка.
+We can\'t initialize shipment for adding tracking number.,Ние можем да \ 'т инициализира пратка за добавяне на номер за проследяване.
+Cannot add tracking number.,Не можете да добавите номера за проследяване.
+Tracking number successfully deleted from this shipment.,Проследяване на брой успешно изтрит от тази пратка.
+We can\'t initialize shipment for delete tracking number.,Ние можем да \ 'т инициализира пратка за изтриване номер за проследяване.
+We can\'t delete tracking number.,Ние можем да \ 'т изтриете номер за проследяване.
+We can\'t load track with retrieving identifier right now.,Ние можем да \ 'т натоварване писта с извличане на идентификатора в момента.
+Quanity updated successfully.,Quanity актуализиран успешно.
+Low Stock,Малки количества на склад
+Configuration Saved Successfully.,Конфигурация запазен успешно.
+Seller's Products - Reviews,Продавача Продукти - Отзиви
+Pending,в очакване на
+Not Approved,Неодобрен
+Seller's Account-Orders,Account поръчки на Продавача
+Seller OrderView,Продавач OrderView
+You sent the order email.,Изпратили сте имейла на поръчката.
+We can\'t send the email order right now.,Ние можем да \ 'т изпрати имейл реда в момента.
+This order no longer exists.,Тази цел вече не съществува.
+There are no shipping documents related to this order.,"Все още няма документи за превоз, свързани с тази поръчка."
+Print Order,Print Order
+There are no invoice documents related to this order.,"Все още няма документацията за фактури, свързани с тази поръчка."
+Seller List,Списък Продавач
+Knowband,Knowband
+Marketplace,пазар
+Email Template Updated successfully.,Шаблон за имейл Обновено успешно.
+Best Selling Products,Най-продавани продукти
+ Seller(s) Disabled Successfully,Продавача (и) деактивиран успешно
+Invalid Request,Невалидна заявка
+Status changed successfully,Статус променена успешно
+Activated,Активиран
+Deactivated,Деактивиран
+Cannot update,Не може да се актуализира
+Cannot load object,Не може да се зареди обект
+Seller Approved Successfully,Продавачът Одобрен Успешно
+Email Templates,Шаблони за имейл
+Sellers Payout Request,Продавачите на изплащане Искане
+Product Approval Request,Каталог Заявка за одобрение
+Technical error occurred while canceling vacation.,възникнала техническа грешка при анулирането почивка.
+Seller Reviews,отзиви за продавача
+%s by %s,% S% S от
+The requested seller's review detail not found.,подробно разглеждане на искания продавача не е намерен.
+Import/Export Feature Request List,Импорт / Експорт Списък Заявка за функция
+Settings saved successfully.,Настройките са запазени успешно.
+Seller Account Approval Request,Продавач одобрение на профила Искане
+Seller Vacation List,Продавач Списък Почивка
+Transaction detail successfully saved.,подробности по сделката е запазена успешно.
+Some error occured. Please try again.,"възникнаха някои грешки. Моля, опитайте отново."
+Total of %d record(s) have been updated.,Общо% г запис (и) са актуализирани.
+ Seller(s) Disapproved Successfully,Продавача (и) Неодобрена Успешно
+Seller Product List,Продавач списъка с продукти
+Review has been approved successfully.,Преглед е одобрен успешно.
+Technical Error Occured - Not able to update.,Техническа грешка - Не е в състояние да се актуализира.
+Review has been disapproved successfully.,Преглед не бе одобрена успешно.
+Seller review has been deleted.,преглед Продавач е била изтрита.
+Technical error occurred while processing category request.,възникнала техническа грешка при обработката на молбата категория.
+Seller account has not been approved yet. Please approve the seller account first.,Продавач сметка не е одобрен все още. Моля одобри сметката на продавача на първо място.
+ record(s) have been updated.,запис (и) са актуализирани.
+Product has been approved successfully.,Продукт е бил одобрен успешно.
+ Seller(s) Approved Successfully,Продавача (и) Одобрен Успешно
+Approval updated successfully,Одобрение актуализиран успешно
+Seller Review Approval Request,Продавач Преглед Заявка за одобрение
+PayPal Payout settings has been saved successfully.,Настройки на PayPal за изплащане е записан успешно.
+Category Wise Commissions,Wise комисии Категория
+CRON Instructions,Cron Инструкции
+Seller List with Import/Export Feature,Продавач Списък с Import / Export Feature
+Product Reviews,Отзиви за продукта
+Seller Disapproved Successfully,Продавач Неодобрение успешно
+Category Request List,Списък Категория Искане
+Commissions,комисионни
+Total of %d record(s) have been deleted.,Общо% г запис (и) са изтрити.
+ Seller(s) Enabled Successfully,Продавача (и) Активирано Успешно
+Sellers Payout,Продавачите на изплащане
+"Some of the products are not enabled, because either these products or their sellers are not approved/disabled.","Някои от продуктите не са активирани, защото нито тези продукти или техните продавачи не са одобрени / увреждания."
+Some of the processed products have no SKU value defined. Please fill it prior to performing operations on these products.,"Някои от преработените продукти, нямат стойност Код дефинирани. Моля, попълнете го преди извършване на операции по тези продукти."
+Payout request status has been updated successfully.,Статус на искането за изплащане е актуализиран успешно.
+Invalid Request.,Невалидна заявка.
+Seller Wise Commissions,Продавач Wise комисии
+Seller Dashboard,Dashboard Продавач
+Your request has been sent. Please wait for store response.,"Вашето запитване е изпратено. Моля, изчакайте магазин отговор."
+Cannot send request,Не може да се изпрати запитване
+Product Import/Export,Каталог Import / Export
+Seller Profile,Профил на продавача
+Seller Profile saved successfully.,Продавач на профил запазен успешно.
+Not Available,Не е наличен
+Your payout request has been submitted successfully.,Молбата ви за изплащане е изпратен успешно.
+Please configure payout method in the seller profile menu.,Моля изберете метод за изплащане в менюто продавач профил.
+Seller's Account - Payout Requests,Изплащане Заявки - сметка на Продавача
+Error Occured,възникна грешка
+Thank you for rating the Seller.,Благодарим ви за оценката на продавача.
+Posting review for this seller is not allowed.,Публикуване мнение за този продавач не е позволено.
+Seller Account - My Reviews,Продавач профил - Моите прегледи
+"You can't register yourself as seller because your registration request limit has been over. To register, please contact to support.","Вие не можете да регистрирате себе си като продавач, защото ограничението си за заявки за регистрация е била приключила. За да се регистрирате, моля, свържете се за подкрепа."
+Seller's Account - Earnings,Продавача профил - Доходи
+Seller's Account - Transactions History,История Сделки - сметка на Продавача
+File Path is Missing,File Path липсва
+Unknown file,Непознат файл
+General worksheet is missing.,Обща лист липсва.
+Column title row is missing from general worksheet.,Колона поредна титла липсва от общ лист.
+Column '%s' is missing from general worksheet.,"Колона ""% S"" липсва от общ лист."
+File is empty.,Файлът е празен.
+Error in processing '%s' sku before deleting.,"Грешка при обработка на ""% S"" версия на продукт, преди да изтриете."
+Listed products are not deleted:,"Изброените продукти, които не се заличават:"
+"Upload your file and try again. To speed up delete process, please remove all products that has been deleted.","Качване на файл и опитайте отново. За да се ускори изтриване процес, моля премахнете всички продукти, които са изтрити."
+Your products has been deleted. System will redirect you on product list automatically in 5 secs.,Вашите продукти е била изтрита. Системата ще ви пренасочи към продуктова листа автоматично в рамките на 5 секунди.
+Import action is Missing,Внос действие липсва
+Meta Information worksheet is missing,Мета Информация лист липсва
+File must not exceed ,Файлът не трябва да надвишава
+This sku does not exist,Тази версия на продукт не съществува
+Product of this SKU is not yours.,Каталог на този Код не е твое.
+This row has error,Този ред има грешка
+Meta Information Sheet is Missing,Мета Информационен лист липсва
+Error in processing data of '%s' sku.,"Грешка при обработка на данни на ""% S"" версия на продукт."
+Listed products are not saved:,"Изброените продукти, които не са записани:"
+"Upload your file and try again. To speed up process, please remove all other product data that has been saved successfully.","Качване на файл и опитайте отново. За да се ускори процеса, моля, премахнете всички други данни за продукти, които са били спасени успешно."
+Your products has been uploaded. System will redirect you on product list automatically in 5 secs.,Вашите продукти са качени. Системата ще ви пренасочи към продуктова листа автоматично в рамките на 5 секунди.
+Error while processing rows in uploaded file.,Грешка при обработката на реда в качен файл.
+Error: %s,Грешка:% S
+Product Type is missing from Meta Sheet Worksheet,Вид на продукта липсва от Meta лист лист
+Product Type is invalid in Meta Sheet Worksheet,Вид на продукта е невалиден в Meta лист лист
+Attribute set id is missing from Meta Sheet Worksheet,Умение комплект номер липсва от Meta лист лист
+Attribute set id is not valid in Meta Sheet Worksheet,Умение комплект номер не е валиден в Meta лист лист
+This SKU is already used by other product of you or other seller.,Това Код вече се използва от друг продукт от вас или друг продавач.
+This SKU is used by other seller or store.,Това SKU се използва от друг продавач или магазин.
+This value is required,се изисква Тази стойност
+Invalid Value. Only date format value is accepted.,Невалидна стойност. Само стойността на формат на датата се приема.
+Invalid Value. Only Price type value accepted,Невалидна стойност. Само Цена тип стойност приет
+Invalid Value. Only positive number type value accepted,Невалидна стойност. Само стойност тип положително число приет
+Out of range value. Please see possible value for this field.,"Извън стойност диапазон. Моля, вижте възможна стойност за това поле."
+Some of the values are not exist.,Някои от стойностите не са налице.
+Your request has been sent to the admin for approval.,Заявката ви е изпратена до администраторите за одобрение.
+Seller's Account - Request a New Category,Профила на Продавача - Заявка за нова категория
+Attribute set is missing,Умение комплект липсва
+Attribute set cannot load,Умение комплект не може да се зареди
+1. This worksheet is required and must be included in your import file,1. Този работен лист е задължително и трябва да бъде включен във вашия файл за импортиране
+2. Do not change worksheet name as well as its content.,"2. Да не се променят лист име, както и неговото съдържание."
+3. Any change in this worksheet format will not allow system to import your data into system.,3. Всяка промяна в този работен лист формат няма да позволи на системата да импортирате данни в системата.
+4. We recommend you to copy this worksheet in your import file with same worksheet name.,4. Препоръчваме ви да копирате този работен лист във вашия файл за импортиране със същото име лист.
+1. This worksheet contains possible values of some field.,1. Този лист съдържа възможни стойности на някои област.
+2. Please fill the related fields only from these possible values.,2. Попълнете съответните полета само от тези възможни стойности.
+3. If possible values for any field are not given then you can fill it with any text value.,3. Ако възможни стойности за всяка област не са дадени след това можете да го попълните с произволен текст стойност.
+Seller's Products,Продукти на Продавача
+The product has been saved.,Продуктът е запазена.
+This window will be closed automatically within %s secs.,Този прозорец ще се затвори автоматично в рамките% S сек.
+Product has been saved successfully.,Продукт е записан успешно.
+The product has been duplicated successfully.,Продуктът е дублирана успешно.
+Product has been created successfully.,Продуктът е създаден успешно.
+Please wait for admin approval.,"Моля, изчакайте администраторско одобрение."
+"Adding of new product limit has been over as your account is not approved or waiting for approval. To add more products, your account needs to be approved.","Добавянето на нов краен продукт е над като сметката ви не е одобрен или чакат за одобрение. За да добавите още продукти, профилът ви трябва да бъде одобрено."
+You duplicated the product.,Вие се дублира на продукта.
+Seller's Product,Продавача на продукта
+This SKU already exist.,Това Код вече съществуват.
+Cancel Vacation,Отмени Почивка
+Add New Vacation,Добавяне на нова ваканция
+Vacation Halted,Почивка Прекъснат
+Created Date,Дата на създаване
+This vacation is already canceled,Тази ваканция вече е отменен
+Visibility,видимост
+click to edit product,кликнете за да редактирате продукт
+click to update quantity,кликнете за да актуализирате количество
+Update Quantity,новия брой
+Order No.,Поръчка Номер.
+From Date,От дата
+To Date,Към днешна дата
+click to print order,кликнете за да отпечатате ред
+Shipping & Handling,транспорт и доставка
+Discount (%1),Намаление (% 1)
+Discount,отстъпка
+Grand Total,Общо
+Grand Total to be Charged,Обща сума за да бъде поискан
+Custom Value,стойност по поръчка
+Order # %1,Поръчка № 1%
+Comment History,коментар История
+Shipment History,пратка История
+Credit Memo History,Кредитно известие История
+Subtotal (Excl.Tax),Сума (Excl.Tax)
+Subtotal (Incl.Tax),Сума (Incl.Tax)
+Shipping & Handling (Excl.Tax),Доставка & транспортна (Excl.Tax)
+Shipping & Handling (Incl.Tax),Доставка & транспортна (Incl.Tax)
+Grand Total (Excl.Tax),Обща сума (Excl.Tax)
+Grand Total (Incl.Tax),Обща сума (Incl.Tax)
+Email,електронна поща
+Shipping Charges,Транспортни такси
+Track this shipment,Абонирай се за тази пратка
+Track Order,Проследяване на поръчка
+Shipping Method,Начин на доставка
+Shipping not Required,Доставка не се изисква
+Payment Method,Начин на плащане
+Grand Total (Excl. Shipping),Обща сума (Без. Доставка)
+Discount (%s),Намаление (% S)
+Total Refunded,Общо Възстановени
+Total Due,Общата дължима
+Shipping & Handling (Excl. Tax),Доставка & Работа (Без. Данък)
+Shipping & Handling (Incl. Tax),Доставка & Работа (вкл. ДДС)
+Print Order # %1,Print Order # 1%
+Minimum %d character requried,Минимална% г характер requried
+Save Template,Запазване на шаблона
+Show Report,Покажи Доклад
+Manage Seller Account,Управление на сметка на Продавача
+Add Subcategory,Добави Подкатегория
+Add Root Category,Добави Root Категория
+Save Settings,Запазване на настройките
+Seller Payout Request,Изплащане Продавач Искане
+ID,документ за самоличност
+Transation Date,Transation Дата
+Telephone,Телефон
+Commission (in %),Комисията (в%)
+Your Earnings,Вашите приходи
+Category wise Commissions,мъдри комисии Категория
+Total Commission,Общо комисия
+Transaction History,История на транзакциите
+Seller wise Commissions,Продавач мъдри комисии
+Seller Earning,Приходи Продавач
+Amount Transfer,сума на превода
+Transaction Action,действие на транзакция
+Sellers Payout (,Продавачите на изплащане (
+Seller Order List,Продавач Поръчка Списък
+Purchased From (Store),Закупен от (Магазин)
+Purchased On,Закупен на
+Actions,мерки
+Template Description,Описание на шаблона
+Template Type,Шаблон Type
+Date Added,датата е добавена
+Date Updated,Дата на актуализация
+Seller Best Selling Product List,Продавач Списък Най-продавани продукти
+Interval,интервал
+Order Quantity,поръчано количество
+Product Price,Цена на продукта
+Seller Account Approval Request List,Продавач Одобрение профил Списък Искане
+Approved Status,Одобрен Статус
+Added Date,Добавена Дата
+Approve,одобрявам
+Account Status,състояние на сметката
+Seller Status,Статус Продавач
+Seller Since,Продавач От
+Posted On,Публикувано на
+Request Date,дата на заявка
+Vacation Active,Почивка Active
+Seller Review Approval List,Продавач Списък Преглед Одобрение
+Seller Approval List,Продавач Списък Одобрение
+Seller Product Reviews,Отзиви за продукта Продавач
+Created On,Създадено на
+Nickname,прякор
+Visible In,Видим В
+Type,Тип
+Product SKU,на продукта Код
+Edit,редактиране
+Seller Category Request List,Продавач Списък Категория Искане
+Seller Email,Продавач Email
+View,изглед
+Disapprove,не одобрявам
+Make New,Направи New
+Edit Template,Редактиране на шаблон
+Products,Продукти
+Administrator,администратор
+Guest,гост
+Seller Bulkimport Feature List,Продавач Bulkimport Списък Feature
+Last Update,Последна актуализация
+Feature Status,Feature Статус
+Seller Bulkimport Feature Request List,Продавач Bulkimport Списък Заявка за функция
+Seller Comment,Продавач коментар
+Your Comment,Твоят коментар
+Request Status,Състояние на заявката
+Activate Feature,Активирайте Feature
+Read More,Прочетете още
+click to view review,кликнете за да видите преглед
+Posted on: %s by %s,Публикувано на:% и от% и
+Home,У дома
+Home Page,Начална страница
+click to view product,кликнете за да видите продукта
+Your seller account is currently under process and not yet approved. You only have a limited access to the seller account currently.,Вашият продавач в момента е в процес и все още не е одобрен. Имате ограничен достъп до продавача сметка в момента само.
+Your seller account has been disapproved. You only have a limited access to the seller account currently. To send request again ,Вашият профил на продавач не е била одобрена. Имате ограничен достъп до продавача сметка в момента само. За да изпратите заявка отново
+Click Here,Натисни тук
+Product Catalog,Продуктов каталог
+Product Feedback,Отзиви за продукт
+Earnings,печалба
+Transactions,Сделки
+New Category Request,Нова категория Искане
+My Vacations,Моите почивки
+Requested Date,заявената дата
+Request On,Искане На
+Date,Дата
+Transaction Date,Дата на транзакция
+Amount of %s debited from your earning on %s,Размер на% и преведен от приходите Ви за% S
+Amount of %s credited into your account on %s,Размер на% е кредитирана в сметката си за% S
+Report Format,формат на доклада
+Your file is valid. Please click 'Delete Products' button to delete your products,"Файлът Ви е валиден. Моля, кликнете върху ""Изтриване на продукти"" в бутон, за да изтриете вашите продукти"
+Your file is valid. Please click 'Import Products' button to upload your products,"Файлът Ви е валиден. Моля, кликнете върху бутон ""Вносни продукти"", за да качите вашите продукти"
+Delete Products,Изтриване на продукти
+"Adding of new product limit has been over as your account is not approved or waiting for approval. To add more products, your account need to be approved.","Добавянето на нов краен продукт е над като сметката ви не е одобрен или чакат за одобрение. За да добавите още продукти, профилът ви трябва да бъде одобрена."
+Use Default Value,Използвайте Стойност по подразбиране
+Seller Account,сметка на продавача
+General Settings,Основни настройки
+Seller List,Списък Продавач
+Seller Account Approval Request,Продавач одобрение на профила Искане
+Seller Product List,Продавач списъка с продукти
+Product Approval Request,Каталог Заявка за одобрение
+Product Reviews,Отзиви за продукта
+Seller Reviews,отзиви за продавача
+Seller Review Approval Request,Продавач Преглед Заявка за одобрение
+Category Request List,Списък Категория Искане
+Seller Vacation List,Продавач Списък Почивка
+Reports - Best Selling Products,Доклади - най-продавани продукти
+Email Templates,Шаблони за имейл
+CRON Instructions,Cron Инструкции
+Bulk Import/Export,Bulk Import / Export
+Seller With Feature,Продавач с функцията
+Feature Activation Request,Заявка за активиране Feature
+Transactions and Earnings,Сделки и печалба
+Commissions,комисионни
+Category Wise Commissions,Wise комисии Категория
+Seller Wise Commissions,Продавач Wise комисии
+Sellers Payout List,Продавачите Списък на изплащане
+Sellers Payout Request,Продавачите на изплащане Искане
+PayPal Payout Settings,PayPal Настройки на изплащанията
+Best Selling Products,Най-продавани продукти
+Seller with Import/Export Feature,Продавач с Import / Export Feature
+Import/Export Feature Activation Request List,Импорт / Експорт Feature Списък искане за активиране
+Category Wise Commission,Категория Wise Комисията
+Category Request List,Списък Категория Искане
+Edit Email Template,Edit Шаблон за имейл
+Email Templates,Шаблони за имейл
+Seller Order List,Продавач Поръчка Списък
+PayPal Payout Settings,PayPal Настройки на изплащанията
+Product Approval Request,Каталог Заявка за одобрение
+All Seller's Products - Reviews,Всички Продавача Продукти - Отзиви
+Seller Account Approval Request,Продавач одобрение на профила Искане
+Seller Wise Commission,Продавач Wise Комисията
+Seller List,Списък Продавач
+Seller Product List,Продавач списъка с продукти
+Seller Review Approval Request,Продавач Преглед Заявка за одобрение
+All Seller's Reviews,Отзиви Всички Продавача
+Seller Vacation List,Продавач Списък Почивка
+Commissions,комисионни
+Sellers Payout,Продавачите на изплащане
+Sellers Payout Request,Продавачите на изплащане Искане
+View Sellers,Вижте Продавачите
+Start date or end date can not be same,Начална дата или крайна дата не може да бъде едно и също

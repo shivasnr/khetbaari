@@ -1,0 +1,75 @@
+<form id="vss_marketplace_view" enctype="multipart/form-data" method="POST" action="">
+    <input type="hidden" name="form_key" value="<?php echo $this->getFormKey(); ?>" />
+    <?php echo $block->getChildHtml(); ?>
+</form>
+<script type="text/javascript">
+    require(['jquery', 'jquery/ui',  "Knowband_Marketplace/js/mpScriptAdmin", "Knowband_Marketplace/js/velovalidation", "mage/backend/tabs"], function(jQuery){
+    jQuery(document).ready(function () {
+            jQuery("#save-marketplace-general").click(function () {
+                if (validateVssMpGeneralSettingsForm()) {
+                    jQuery("#vss_marketplace_view").submit();
+                }
+            });
+            
+            jQuery("#save-marketplace-template").click(function () {
+                if (validateVssMpEmailTemplateForm()) {
+                    jQuery("#vss_marketplace_view").submit();
+                }
+            });
+            
+            jQuery("#save-marketplace-paypal").click(function () {
+                if (validateVssMpPaypalSettingsForm()) {
+                    jQuery("#vss_marketplace_view").submit();
+                }
+            });
+            
+            jQuery('.btn-delete').on('click', function(){
+                     var status = confirm(confirmation_message);
+                     if(status){
+                         jQuery("body").loader("show");
+                         location.href = jQuery(this).attr('data-href');
+                        }
+                    });
+            jQuery('.confirm-btn').on('click', function(){
+                     var status = confirm(confirmation_message);
+                     if(status){
+                         jQuery("body").loader("show");
+                         location.href = jQuery(this).attr('data-href');
+                        }
+                    });
+            //error messages for velovalidation.js
+            velovalidation.setErrorLanguage({
+                empty_field: "<?php echo __("Field cannot be empty."); ?>",
+                number_field: "<?php echo __("You can enter only numbers."); ?>",
+                positive_number: "<?php echo __("Number should be greater than 0."); ?>",
+                maxchar_field: "<?php echo __("Field cannot be greater than {#} characters."); ?>",
+                minchar_field: "<?php echo __("Field cannot be less than {#} character(s)."); ?>",
+                empty_email: "<?php echo __("Please enter Email."); ?>",
+                validate_email: "<?php echo __("Please enter a valid Email."); ?>",
+                invalid_date: "<?php echo __("Invalid date format."); ?>",
+                validate_range: "<?php echo __("Number is not in the valid range. It should be between {#} and {##}"); ?>",
+                valid_amount: "<?php echo __("Field should be numeric."); ?>",
+                positive_amount: '<?php echo __('Field should be positive.'); ?>' ,
+                valid_decimal: "<?php echo __("Field can have only upto two decimal values."); ?>",
+                max_email: "<?php echo __("Email cannot be greater than {#} characters."); ?>",
+                specialchar_zip: "<?php echo __("Zip should not have special characters."); ?>",
+                valid_percentage: "<?php echo __("Percentage should be in number."); ?>",
+                between_percentage: "<?php echo __("Percentage should be between 0 and 100."); ?>",
+                maxchar_size: "<?php echo __("Size cannot be greater than {#} characters."); ?>",
+                maxchar_color: "<?php echo __("Color could not be greater than {#} characters."); ?>",
+                invalid_color: "<?php echo __("Color is not valid."); ?>",
+                specialchar: "<?php echo __("Special characters are not allowed."); ?>",
+                script: "<?php echo __("Script tags are not allowed."); ?>",
+                style: "<?php echo __("Style tags are not allowed."); ?>",
+                iframe: "<?php echo __("Iframe tags are not allowed."); ?>",
+                not_image: "<?php echo __("Uploaded file is not an image."); ?>",
+                image_size: "<?php echo __("Uploaded file size must be less than {#}."); ?>",
+                html_tags: "<?php echo __("Field should not contain HTML tags."); ?>",
+                number_pos: "<?php echo __("You can enter only positive numbers."); ?>",
+            });
+        });                                     
+    });
+    
+    var confirmation_message = '<?php echo __('Are you sure?'); ?>';
+    var empty_field = "<?php echo __("Field cannot be empty."); ?>";
+</script>

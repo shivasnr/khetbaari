@@ -1,0 +1,58 @@
+<?php 
+    $categories = $this->getCategories();
+    $category_persist = $this->formPersists();     
+?>    
+
+<style>
+th.data-grid-th.no-link.col-action {
+    width: 150px;
+}
+</style>
+
+<div class="fieldset-wrapper" id="categorywise-earning">
+    <div class="admin__fieldset-wrapper-content">
+        <h2 class="marketplace-h1"><?php echo __("Filter")?></h2>
+        <fieldset class="admin__fieldset">  
+            <div class="admin__field">
+                <label class="admin__field-label" for="vssmp_report_category">
+                    <span><?php echo __("Choose Category"); ?></span>
+                </label>
+                <div class="admin__field-control">
+                    <select name="category_to_filter" class="admin__control-select" id="vssmp_report_category">
+                        <option value="all"><?php echo __("All Categories"); ?></option>
+                        <?php echo $this->getCategoryDropDownHtml($categories); ?>
+                    </select>
+                </div>
+            </div>
+        </fieldset>
+    </div>
+</div>
+
+<script>
+
+require([
+    'jquery',
+    'mage/backend/validation',
+    "prototype"
+], function(jQuery){
+    
+    jQuery('#vss_marketplace_view').mage('validation', {errorClass: 'mage-error'});
+    function filterFormSubmit() {
+//        var filters = $$('#vss_marketplace_view input', '#vss_marketplace_view select');
+//        var elements = [];
+//        for(var i in filters){
+//            if(filters[i].value && filters[i].value.length && !filters[i].disabled) elements.push(filters[i]);
+//        }
+        if (jQuery('#vss_marketplace_view').valid()) {
+            jQuery('#vss_marketplace_view').submit();
+        }
+    }
+    window.filterFormSubmit = filterFormSubmit;
+});
+</script>
+
+<?php 
+    echo $this->getLayout()
+    ->createBlock("Knowband\Marketplace\Block\Adminhtml\Transaction\Grid\CategoryEarning")
+    ->toHtml();
+?>

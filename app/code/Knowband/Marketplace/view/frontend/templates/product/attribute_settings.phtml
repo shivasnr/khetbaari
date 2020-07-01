@@ -1,0 +1,43 @@
+<form id="product-process-step2-form" action="<?php echo $this->getContinueUrl(); ?>" method="post" class="form-horizontal">
+    <div class="box-body">
+        <?php if($this->hasAttributes()){ ?>
+            <?php $attributes = $this->getAttributes(); ?>
+            <?php foreach($attributes as $attr){ ?>
+                <div class="col-lg-4 col-xs-12 col-sm-6">
+                    <label>
+                        <input type="checkbox" class="flat-green attribute-checkbox" id=attribute_"<?php echo $attr['id']; ?>" name="attributes[]" value="<?php echo $attr['id']; ?>" />
+                        <?php echo $attr['label']; ?>
+                    </label>
+                </div>
+            <?php } ?>
+        <?php }else{ ?>
+            <div class="alert alert-warning">
+                <?php echo __('This attribute set does not have attributes which we can use for configurable product'); ?>
+            </div>
+        <?php } ?>    
+    </div>
+    <div class="box-footer">
+        <?php if($this->hasAttributes()){ ?>
+            <input type='hidden' name='process_step' value='3' />
+            <input id="attributes" name="attribute_validate" value="" class="validate-super-product-attributes" type="hidden">
+            <input name="set" value="<?php echo $this->getProduct()->getAttributeSetId(); ?>" type="hidden">
+            <input name="type" value="<?php echo $this->getProduct()->getTypeId(); ?>" type="hidden">
+            <button type="button" class="btn btn-success pull-right" onclick="validateSuperSettings()"><?php echo __('Continue'); ?></button>
+        <?php } ?>
+
+    </div>   
+</form>
+
+<script type="text/javascript">
+    var attribute_setting_selection_error = '<?php echo __("Please select one or more attributes.");?>';
+    function validateSuperSettings()
+    {
+        jQuery('#vssmp-product-form .vssmp-glob-warning').remove();
+
+        if(jQuery('.attribute-checkbox:checked').length == 0){
+            alert(attribute_setting_selection_error);
+        }else{
+            jQuery('#product-process-step2-form').submit();
+        }
+    }
+</script>

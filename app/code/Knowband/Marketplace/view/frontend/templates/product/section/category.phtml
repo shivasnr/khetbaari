@@ -1,0 +1,28 @@
+<?php
+$this->setSelectedCategory($this->getProduct()->getCategoryIds());
+?>
+
+<div class="collapsed-box box">
+    <div class="box-header with-border" data-widget="collapse">
+        <h3 class="box-title"><?php echo __("Category Mapping"); ?></h3>
+        <div class="box-tools pull-right tab-error-highlighter text-red">
+            <i class="fa fa-warning"></i>
+        </div>
+        <div class="box-tools pull-right">
+          <button type="button" class="btn btn-box-tool"><i class="fa fa-plus"></i></button>
+        </div>
+    </div>
+    <div class="box-body">
+        <div class="form-group col-lg-12">
+            <select name="category_ids[]" id="vssmp_category_mapping_list" multiple="multiple" class="form-control">
+                <?php echo $this->getCategoriesDropdownHtml(); ?>
+            </select>
+        </div>
+        <script type="text/javascript">
+            var category_child_rel_symbol = '<?php echo $this->getChildRelationSymbol(); ?>';
+            var category_placeholder = '<?php echo __("Choose Category"); ?>';
+        </script>
+
+        <?php echo $this->getChildHtml('', true, true); ?>
+    </div>
+</div>

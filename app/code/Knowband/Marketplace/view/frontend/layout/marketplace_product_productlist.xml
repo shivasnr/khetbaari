@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="1column" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <head>
+    	<title>Marketplace</title>
+        <css src="Knowband_Marketplace::theme/plugins/iCheck/all.css" />
+    </head>
+    <body>
+        <referenceContainer name="left" remove="true"/>
+        <referenceContainer name="header.container" remove="true"/>
+        <referenceContainer name="footer" remove="true"/>
+        <referenceBlock name="page.main.title" remove="true" />
+        <referenceContainer name="catalog.topnav" remove="true"/>
+        <referenceContainer name="content">
+            <block class="Knowband\Marketplace\Block\Page" name="marketplace_page" template="page.phtml" cacheable="false">
+                <block class="Knowband\Marketplace\Block\Product\ProductList" name="marketplace_product_list">
+                    <block class="Knowband\Marketplace\Block\Product\MassUpdate" name="marketplace_product_mass_update" template="product/mass_update_action.phtml"/>
+                </block>
+            </block>
+    	</referenceContainer>
+    </body>
+</page>

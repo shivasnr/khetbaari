@@ -1,0 +1,487 @@
+<section class="content-header">
+    <h1><?php echo __("My Sales Dashboard"); ?></h1>
+</section>
+
+<?php $summary = $this->getRevenueSummary(); ?>
+<script>
+ function showGraph(json_data) {
+      var dataObj = JSON && JSON.parse(json_data) || jQuery.parseJSON(json_data);
+    var ticks = [], total_orders = [], total_revenue = [], total_qty = [];
+    graph_tooltip_data = [];
+    for (var i = 0; i < dataObj.length; i++) {
+//        var tooltip_row = [];
+//        tooltip_row.push(['Total Revenue', dataObj[i]['formatted_total_revenue']]);
+//        tooltip_row.push(['Total Orders', parseInt(dataObj[i]['total_order'])]);
+//        tooltip_row.push(['Product Sold', parseInt(dataObj[i]['qty'])]);
+//        graph_tooltip_data.push(tooltip_row);
+        ticks.push(dataObj[i]['xaxis']);
+        total_orders.push(parseInt(dataObj[i]['total_order']));
+        total_revenue.push(dataObj[i]['total_revenue']);
+        total_qty.push(dataObj[i]['qty']);
+    }
+    var barChartData = {
+        labels: ticks,
+        datasets: [{
+            label: graphRevenueLabel,
+            backgroundColor: 'rgb(54, 162, 235)',
+            yAxisID: 'y-axis-1',
+            data: total_revenue
+        }, {
+            label: graphOrdersLabel,
+            backgroundColor: 'rgb(255, 159, 64)',
+            yAxisID: 'y-axis-2',
+            data: total_orders
+        }, {
+            label: graphProductsLabel,
+            backgroundColor: 'rgb(255, 99, 132)',
+            yAxisID: 'y-axis-3',
+            data: total_qty
+        }]
+
+    };
+    var ctx = document.getElementById('canvas').getContext('2d');
+    require(['jquery', 'Knowband_Marketplace/theme/Chart.bundle'], function($) {
+        window.myBar = new Chart(ctx, {
+            type: 'bar',
+            data: barChartData,
+            options: {
+                responsive: true,
+                title: {
+                    display: true,
+                    text: graphLast7daysLabel
+                },
+                tooltips: {
+                    mode: 'index',
+                    intersect: true
+                },
+                scales: {
+                    yAxes: [{
+                        type: 'linear', // only linear but allow scale type registration. This allows extensions to exist solely for log scale for instance
+                        display: true,
+                        position: 'left',
+                        id: 'y-axis-1',
+                        scaleLabel: {
+                            display: true,
+                            labelString: graphRevenueLabel
+                        }
+                    }, {
+                        type: 'linear', // only linear but allow scale type registration. This allows extensions to exist solely for log scale for instance
+                        display: true,
+                        position: 'right',
+                        id: 'y-axis-2',
+                        gridLines: {
+                            drawOnChartArea: false
+                        },
+                        scaleLabel: {
+                            display: true,
+                            labelString: graphOrdersLabel
+                        }
+                    },{
+                        type: 'linear', // only linear but allow scale type registration. This allows extensions to exist solely for log scale for instance
+                        display: true,
+                        position: 'right',
+                        id: 'y-axis-3',
+                        gridLines: {
+                            drawOnChartArea: false
+                        },
+                        scaleLabel: {
+                            display: true,
+                            labelString: graphProductsLabel
+                        }
+                    }],
+                }
+            }
+        });
+    });
+};
+</script>
+<section class="content">
+    <div class="row">
+        <div class="col-lg-4 col-md-6 col-xs-12">
+            <div class="small-box bg-aqua">
+                <div class="inner">
+                    <h3><?php echo $summary['total_revenue_formatted']; ?></h3>
+                    <p><?php echo __("Total Revenue"); ?></p>
+                </div>
+                <div class="icon"><i class="fa fa-credit-card"></i></div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-xs-12">
+            <div class="small-box bg-green">
+                <div class="inner">
+                    <h3><?php echo $summary['total_orders']; ?></h3>
+                    <p><?php echo __("Total Orders"); ?></p>
+                </div>
+                <div class="icon"><i class="fa fa-star-o"></i></div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-xs-12">
+            <!-- small box -->
+            <div class="small-box bg-yellow">
+                <div class="inner">
+                    <h3><?php echo $summary['total_products']; ?></h3>
+                    <p><?php echo __("Total Products Sold"); ?></p>
+                </div>
+                <div class="icon">
+                    <i class="fa fa-tint"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        var graphRevenueLabel = "<?php echo __("Total Revenue"); ?>";
+        var graphOrdersLabel = "<?php echo __("Total Orders"); ?>";
+        var graphProductsLabel = "<?php echo __("Total Products Sold"); ?>";
+        var graphLast7daysLabel = "<?php echo __("Last 7 Days"); ?>";
+        require([
+            'jquery', 
+            'jquery/ui'], function(jQuery) {
+            jQuery(document).ready(function() {
+                var gData = '<?php echo $this->getGraphData(); ?>';
+                showGraph(gData);
+            }); 
+        });
+    </script>
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="box box-primary">
+                <div class="box-header with-border">
+                    <i class="fa fa-bar-chart-o"></i><h3 class="box-title"><?php echo __("Last 7 Days"); ?></h3>
+                </div>
+                <div class="box-body">
+                    <div id="chartLegendHolder"></div>
+                    <div id="graphicalReportsHolder" ><canvas id="canvas"></canvas></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <?php  $improvement_report = $this->getSaleImprovementReport();?>
+
+    <div class="">
+        <div class="box box-warning collapsed-box">
+            <div class="box-header with-border" data-widget="collapse">
+              <h3 class="box-title"><?php echo __("Sales Comparisons"); ?></h3>
+
+              <div class="box-tools pull-right">
+                <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-plus"></i></button>
+              </div>
+            </div>
+            <div class="box-body" style="background-color: #f3f3f3;">
+                <?php foreach($improvement_report as $report) { ?>
+                    <div class="col-md-6 col-xs-12 col-lg-6">
+                        <div class="box box-default">
+                            <div class="box-header with-border">
+                                <h3 class="box-title"><?php echo $report['title']; ?></h3>
+                            </div>
+                            <div class="box-body no-padding" style="display: block;">
+                                <table class="table table-condensed">
+                                    <?php $data = $report['report']['data']; ?>
+                                    <tbody>
+                                        <tr>
+                                            <td><?php echo __("Orders"); ?></td>
+                                            <td><?php echo $data['orders_current']['value']; ?></td>
+                                            <td class="vssmp-popper">
+                                                <?php $imporvement_badge = ''; ?>
+                                                <?php
+                                                if ($data['order_percentage'] !== 'NA') {
+                                                    if ($data['order_diff'] > 0) {
+                                                        $imporvement_badge = 'bg-green';
+                                                    } elseif ($data['order_diff'] < 0) {
+                                                        $imporvement_badge = 'bg-red';
+                                                    }
+                                                }
+                                                ?>
+                                                <span class="badge <?php echo $imporvement_badge; ?>">
+                                                    <?php
+                                                    if ($data['order_percentage'] !== 'NA') {
+                                                        echo $data['order_percentage'] . '%';
+                                                    } else {
+                                                        echo $data['order_percentage'];
+                                                    }
+                                                    ?>
+                                                </span>
+                                                <div class="vssmp_popper_info">
+                                                    <b><?php echo $report['title']; ?>: </b><?php echo $data['orders_current']['value']; ?><br>
+                                                    <b><?php echo $report['prev_label']; ?>: </b><?php echo $data['orders_previous']['value']; ?>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td><?php echo __("Revenue"); ?></td>
+                                            <td><?php echo $data['revenue_current_formatted']; ?></td>
+                                            <td class="vssmp-popper">
+                                                <?php $imporvement_badge = ''; ?>
+                                                <?php
+                                                if ($data['revenue_percentage'] !== 'NA') {
+                                                    if ($data['revenue_diff'] > 0) {
+                                                        $imporvement_badge = 'bg-green';
+                                                    } elseif ($data['revenue_diff'] < 0) {
+                                                        $imporvement_badge = 'bg-red';
+                                                    }
+                                                }
+                                                ?>
+                                                <span class="badge <?php echo $imporvement_badge; ?>">
+                                                    <?php
+                                                    if ($data['revenue_percentage'] !== 'NA') {
+                                                        echo $data['revenue_percentage'] . '%';
+                                                    } else {
+                                                        echo $data['revenue_percentage'];
+                                                    }
+                                                    ?>
+                                                </span>
+                                                <div class="vssmp_popper_info">
+                                                    <b><?php echo $report['title']; ?>: </b><?php echo $data['revenue_current_formatted']; ?><br>
+                                                    <b><?php echo $report['prev_label']; ?>: </b><?php echo $data['revenue_previous_formatted']; ?>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td><?php echo __("Products Sold"); ?></td>
+                                            <td><?php echo $data['products_current']['value']; ?></td>
+                                            <td class="vssmp-popper">
+                                                <?php $imporvement_badge = ''; ?>
+                                                <?php
+                                                if ($data['product_percentage'] !== 'NA') {
+                                                    if ($data['product_diff'] > 0) {
+                                                        $imporvement_badge = 'bg-green';
+                                                    } elseif ($data['product_diff'] < 0) {
+                                                        $imporvement_badge = 'bg-red';
+                                                    }
+                                                }
+                                                ?>
+                                                <span class="badge <?php echo $imporvement_badge; ?>">
+                                                    <?php
+                                                    if ($data['product_percentage'] !== 'NA') {
+                                                        echo $data['product_percentage'] . '%';
+                                                    } else {
+                                                        echo $data['product_percentage'];
+                                                    }
+                                                    ?>
+                                                </span>
+                                                <div class="vssmp_popper_info">
+                                                    <b><?php echo $report['title']; ?>: </b><?php echo $data['products_current']['value']; ?><br>
+                                                    <b><?php echo $report['prev_label']; ?>: </b><?php echo $data['products_previous']['value']; ?>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td><?php echo __("Discounts"); ?></td>
+                                            <td><?php echo $data['discount_current_formatted']; ?></td>
+                                            <td class="vssmp-popper">
+                                                <?php $imporvement_badge = ''; ?>
+                                                <?php
+                                                if ($data['discount_percentage'] !== 'NA') {
+                                                    if ($data['discount_diff'] > 0) {
+                                                        $imporvement_badge = 'bg-green';
+                                                    } elseif ($data['discount_diff'] < 0) {
+                                                        $imporvement_badge = 'bg-red';
+                                                    }
+                                                }
+                                                ?>
+                                                <span class="badge <?php echo $imporvement_badge; ?>">
+                                                    <?php
+                                                    if ($data['discount_percentage'] !== 'NA') {
+                                                        echo $data['discount_percentage'] . '%';
+                                                    } else {
+                                                        echo $data['discount_percentage'];
+                                                    }
+                                                    ?>
+                                                </span>
+                                                <div class="vssmp_popper_info">
+                                                    <b><?php echo $report['title']; ?>: </b><?php echo $data['discount_current_formatted']; ?><br>
+                                                    <b><?php echo $report['prev_label']; ?>: </b><?php echo $data['discount_previous_formatted']; ?>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>    
+                <?php } ?>
+            </div>
+        </div>
+    </div>
+
+    <?php $balance_variation = $this->getBalanceVariationReport(); ?>
+
+    <div class="">
+        <div class="box box-warning collapsed-box">
+            <div class="box-header with-border" data-widget="collapse">
+                <h3 class="box-title"><?php echo __("Balance Amount Variations"); ?></h3>
+                <div class="box-tools pull-right">
+                    <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-plus"></i></button>
+                  </div>
+            </div>
+            <div class="box-body no-padding">
+                <table class="table table-condensed">
+                    <tbody>
+                        <tr>
+                            <td><?php echo __("Today"); ?></td>
+                            <td><?php echo $balance_variation['today']['amount_current_formatted']; ?></td>
+                            <td class="vssmp-popper">
+                                <?php $imporvement_badge = ''; ?>
+                                <?php
+                                if ($balance_variation['today']['amount_percentage'] !== 'NA') {
+                                    if ($balance_variation['today']['amount_diff'] > 0) {
+                                        $imporvement_badge = 'bg-green';
+                                    } elseif ($balance_variation['today']['amount_diff'] < 0) {
+                                        $imporvement_badge = 'bg-red';
+                                    }
+                                }
+                                ?>
+                                <span class="badge <?php echo $imporvement_badge; ?>">
+                                    <?php
+                                    if ($balance_variation['today']['amount_percentage'] !== 'NA') {
+                                        echo $balance_variation['today']['amount_percentage'] . '%';
+                                    } else {
+                                        echo $balance_variation['today']['amount_percentage'];
+                                    }
+                                    ?>
+                                </span>
+                                <div class="vssmp_popper_info">
+                                    <b><?php echo __("Today"); ?>: </b><?php echo $balance_variation['today']['amount_current_formatted']; ?><br>
+                                    <b><?php echo __("Yesterday"); ?>: </b><?php echo $balance_variation['today']['amount_previous_formatted']; ?>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><?php echo __("This Week"); ?></td>
+                            <td><?php echo $balance_variation['week']['amount_current_formatted']; ?></td>
+                            <td class="vssmp-popper">
+                                <?php $imporvement_badge = ''; ?>
+                                <?php
+                                if ($balance_variation['week']['amount_percentage'] !== 'NA') {
+                                    if ($balance_variation['week']['amount_diff'] > 0) {
+                                        $imporvement_badge = 'bg-green';
+                                    } elseif ($balance_variation['week']['amount_diff'] < 0) {
+                                        $imporvement_badge = 'bg-red';
+                                    }
+                                }
+                                ?>
+                                <span class="badge <?php echo $imporvement_badge; ?>">
+                                    <?php
+                                    if ($balance_variation['week']['amount_percentage'] !== 'NA') {
+                                        echo $balance_variation['week']['amount_percentage'] . '%';
+                                    } else {
+                                        echo $balance_variation['week']['amount_percentage'];
+                                    }
+                                    ?>
+                                </span>
+                                <div class="vssmp_popper_info">
+                                    <b><?php echo __("This Week"); ?>: </b><?php echo $balance_variation['week']['amount_current_formatted']; ?><br>
+                                    <b><?php echo __("Last Week"); ?>: </b><?php echo $balance_variation['week']['amount_previous_formatted']; ?>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><?php echo __("This Month"); ?></td>
+                            <td><?php echo $balance_variation['month']['amount_current_formatted']; ?></td>
+                            <td class="vssmp-popper">
+                                <?php $imporvement_badge = ''; ?>
+                                <?php
+                                if ($balance_variation['month']['amount_percentage'] !== 'NA') {
+                                    if ($balance_variation['month']['amount_diff'] > 0) {
+                                        $imporvement_badge = 'bg-green';
+                                    } elseif ($balance_variation['month']['amount_diff'] < 0) {
+                                        $imporvement_badge = 'bg-red';
+                                    }
+                                }
+                                ?>
+                                <span class="badge <?php echo $imporvement_badge; ?>">
+                                    <?php
+                                    if ($balance_variation['month']['amount_percentage'] !== 'NA') {
+                                        echo $balance_variation['month']['amount_percentage'] . '%';
+                                    } else {
+                                        echo $balance_variation['month']['amount_percentage'];
+                                    }
+                                    ?>
+                                </span>
+                                <div class="vssmp_popper_info">
+                                    <b><?php echo __("This Month"); ?>: </b><?php echo $balance_variation['month']['amount_current_formatted']; ?><br>
+                                    <b><?php echo __("Last Month"); ?>: </b><?php echo $balance_variation['month']['amount_previous_formatted']; ?>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><?php echo __("This Year"); ?></td>
+                            <td><?php echo $balance_variation['year']['amount_current_formatted']; ?></td>
+                            <td class="vssmp-popper">
+                                <?php $imporvement_badge = ''; ?>
+                                <?php
+                                if ($balance_variation['year']['amount_percentage'] !== 'NA') {
+                                    if ($balance_variation['year']['amount_diff'] > 0) {
+                                        $imporvement_badge = 'bg-green';
+                                    } elseif ($balance_variation['year']['amount_diff'] < 0) {
+                                        $imporvement_badge = 'bg-red';
+                                    }
+                                }
+                                ?>
+                                <span class="badge <?php echo $imporvement_badge; ?>">
+                                    <?php
+                                    if ($balance_variation['year']['amount_percentage'] !== 'NA') {
+                                        echo $balance_variation['year']['amount_percentage'] . '%';
+                                    } else {
+                                        echo $balance_variation['year']['amount_percentage'];
+                                    }
+                                    ?>
+                                </span>
+                                <div class="vssmp_popper_info">
+                                    <b><?php echo __("This Year"); ?>: </b><?php echo $balance_variation['year']['amount_current_formatted']; ?><br>
+                                    <b><?php echo __("Last Year"); ?>: </b><?php echo $balance_variation['year']['amount_previous_formatted']; ?>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <?php  $orders = $this->getRecentOrders(); ?>
+
+    <div class="box box-warning">
+        <div class="box-header with-border" data-widget="collapse">
+            <h3 class="box-title"><?php echo __("Last 10 Orders"); ?></h3>
+            <div class="box-tools pull-right">
+                <a href="<?php echo $this->getFrontUrl('order', 'list'); ?>" title="<?php echo __("View All Orders"); ?>"><?php echo __("View All Orders"); ?></a>
+            </div>
+        </div>
+        <div class="box-body no-padding table-responsive">
+            <table class="table table-condensed">
+                <thead>
+                    <tr>
+                        <th><strong><?php echo __("Order Number"); ?></strong></th>
+                        <th><strong><?php echo __("Order Date"); ?></strong></th>
+                        <th><strong><?php echo __("Customer Name"); ?></strong></th>
+                        <th><strong><?php echo __("Customer Email"); ?></strong></th>
+                        <th class="text-right"><strong><?php echo __("Qty"); ?></strong></th>
+                        <th><strong><?php echo __("Status"); ?></strong></th>
+                        <th class="text-right"><strong><?php echo __("Order Total"); ?></strong></th>    
+                    </tr>
+                </thead>
+                <tbody>
+                    <?php if (!empty($orders)) { ?>
+                        <?php foreach($orders as $odr) { ?>
+                            <tr>                        
+                                <td><a target="_blank" href="<?php echo $this->getUrl('*/order/orderview', ['order_id' => $odr['order_id']])?>" title="<?php echo __("click to view order"); ?>">#<?php echo $odr['order_number']; ?></a></td>
+                                <td><?php echo $odr['order_date']; ?></td>
+                                <td><?php echo $odr['customer_name']; ?></td>
+                                <td><?php echo $odr['order_email']; ?></td>
+                                <td class="text-right"><?php echo $odr['qty']; ?></td>
+                                <td><?php echo $odr['order_status']; ?></td>
+                                <td class="text-right"><?php echo $odr['total']; ?></td>
+                            </tr>
+                        <?php } ?>
+                    <?php } else { ?>
+                        <tr>
+                            <td colspan="7" class="text-center"><span class="label label-warning"><?php echo __("No Orders Placed Yet"); ?></span></td>
+                        </tr>
+                    <?php } ?>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</section>

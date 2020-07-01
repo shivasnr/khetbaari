@@ -1,0 +1,55 @@
+<?php
+$objectManager = \Magento\Framework\App\ObjectManager::getInstance();
+$setPrint = false;
+
+//if($objectManager->get('\Magento\Framework\Registry')->registry('vssmp_print_order')){
+//    $setPrint = true;
+//}
+?>
+<?php $_order = $this->getOrder() ?>
+<?php $_items = $_order->getAllItems(); ?>
+<?php $_count = count($_items); ?>
+<?php $_has_product = false; ?>
+<table class="email-items">
+    <thead>
+        <tr>
+            <th class="item-info"><?php echo __('Product') ?></th>
+            <th class="item-info"><?php echo __('SKU') ?></th>
+            <th class="item-info"><?php echo __('Price') ?></th>
+            <th class="item-info"><?php echo __('Qty') ?></th>
+            <th class="item-info"><?php echo __('Subtotal') ?></th>
+        </tr>
+    </thead>
+    <?php if ($_count > 0) { ?>
+        <tbody>
+            <?php foreach ($_items as $_item) { ?>
+                <?php if ($_item->getParentItem()) continue; ?>
+                <?php if (!$this->isSellerProduct($_item->getSku())) {
+                    continue;
+                } ?>
+                <?php $_has_product = true; ?>
+                <?php
+                $this->setTotal('subtotal', $_item->getRowTotal(), $_item->getBaseRowTotal());
+                $this->setTotal('discount', $_item->getDiscountAmount(), $_item->getBaseDiscountAmount());
+                $this->setTotal('tax', $_item->getTaxAmount(), $_item->getBaseTaxAmount());
+                $this->setTotal('paid', ($_item->getRowInvoiced() - $_item->getDiscountInvoiced()), ($_item->getBaseRowInvoiced() - $_item->getBaseDiscountInvoiced()));
+                $this->setTotal('refunded', ($_item->getAmountRefunded() - $_item->getDiscountRefunded()), ($_item->getBaseAmountRefunded() - $_item->getBaseDiscountRefunded()));
+                ?>
+                <?php echo $this->getItemHtml($_item) ?>
+        <?php } ?>
+        </tbody>
+    <?php } ?>
+    <?php if ($_has_product) { ?>
+        <?php $total_components = $this->getTotals(); ?>
+            <?php if (!empty($total_components)) { ?>
+        <tfoot class="order-totals">
+        <?php foreach ($total_components as $total) { ?>
+                    <tr>
+                        <td colspan="5" class="text-right"><b><?php echo $total['label']; ?>:</b></td>
+                        <td colspan="2" class="text-right"><?php echo $this->formatValue($total); ?></td>
+                    </tr>
+            <?php } ?>
+            </tfoot>
+        <?php } ?>
+<?php } ?>
+</table>

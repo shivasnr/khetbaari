@@ -1,0 +1,78 @@
+
+<?php 
+$objectManager = \Magento\Framework\App\ObjectManager::getInstance();
+$string_helper = $objectManager->get('\Magento\Framework\Stdlib\StringUtils');
+$_item = $this->getItem(); ?>
+
+<tr class="border">
+    <td>
+        <h3 class="product-name"><?php echo $this->escapeHtml($_item->getName()) ?></h3>
+        <?php if($_options = $this->getItemOptions()): ?>
+        <dl class="item-options">
+        <?php foreach ($_options as $_option) : ?>
+            <dt><?php echo $this->escapeHtml($_option['label']) ?></dt>
+            <?php if (!$this->getPrintStatus()): ?>
+                <?php $_formatedOptionValue = $this->getFormatedOptionValue($_option) ?>
+                <dd<?php if (isset($_formatedOptionValue['full_view'])): ?> class="truncated"<?php endif; ?>>
+                    <?php echo $_formatedOptionValue['value'] ?>
+                    <?php if (isset($_formatedOptionValue['full_view'])): ?>
+                    <div class="truncated_full_value">
+                        <dl class="item-options">
+                            <dt><?php echo $this->escapeHtml($_option['label']) ?></dt>
+                            <dd><?php echo $_formatedOptionValue['full_view'] ?></dd>
+                        </dl>
+                    </div>
+                    <?php endif; ?>
+                </dd>
+            <?php else: ?>
+                <dd>
+                    <?php echo nl2br($this->escapeHtml( (isset($_option['print_value']) ? $_option['print_value'] : $_option['value']) )) ?>
+                </dd>
+            <?php endif; ?>
+        <?php endforeach; ?>
+        </dl>
+        <?php endif; ?>
+        <?php $addtInfoBlock = $this->getProductAdditionalInformationBlock(); ?>
+        <?php if ($addtInfoBlock) :?>
+            <?php echo $addtInfoBlock->setItem($_item)->toHtml(); ?>
+        <?php endif; ?>
+        <?php echo $this->escapeHtml($_item->getDescription()) ?>
+        <?php if($this->helper('Magento\GiftMessage\Helper\Message')->isMessagesAllowed('order_item', $_item) && $_item->getGiftMessageId()): ?>
+            <a href="#" id="order-item-gift-message-link-<?php echo $_item->getId() ?>" class="gift-message-link" onclick="return giftMessageToogle('<?php echo $_item->getId() ?>')"><?php echo __('Gift Message') ?></a>
+        <?php endif; ?>
+    </td>
+    <td><?php echo $this->escapeHtml($string_helper->splitInjection($_item->getOrderItem()->getSku())) ?></td>
+    <td>
+        <span class="nobr">
+                <?php if ($_item->getOrderItem()->getQtyOrdered() > 0): ?>
+            <?php echo __('Ordered'); ?>: <strong><?php echo $_item->getOrderItem()->getQtyOrdered()*1 ?></strong><br />
+        <?php endif; ?>
+        <?php if ($_item->getOrderItem()->getQtyInvoiced() > 0): ?>
+                    <?php echo __('Invoiced'); ?>:
+                    <strong><?php echo $_item->getOrderItem()->getQtyInvoiced() * 1 ?></strong><br/>
+                <?php endif; ?>
+        <?php if ($_item->getOrderItem()->getQtyShipped() > 0): ?>
+            <?php echo __('Shipped'); ?>: <strong><?php echo $_item->getOrderItem()->getQtyShipped()*1 ?></strong><br />
+        <?php endif; ?>
+        <?php if ($_item->getOrderItem()->getQtyCanceled() > 0): ?>
+            <?php echo __('Canceled'); ?>: <strong><?php echo $_item->getOrderItem()->getQtyCanceled()*1 ?></strong><br />
+        <?php endif; ?>
+        <?php if ($_item->getOrderItem()->getQtyRefunded() > 0): ?>
+            <?php echo __('Refunded'); ?>: <strong><?php echo $_item->getOrderItem()->getQtyRefunded()*1 ?></strong><br />
+        <?php endif; ?>
+        </span>
+    </td>
+    <td class="a-center">
+        <?php if ($this->canShipPartiallyItem()): ?>
+            <input type="text" class="form-control qty-input" name="shipment[items][<?php echo $_item->getOrderItemId(); ?>]" value="<?php echo $_item->getQty()*1 ?>"/>
+        <?php else : ?>
+            <?php echo $_item->getQty()*1 ?>
+        <?php endif; ?>
+    </td>
+    <?php if (!$this->canShipPartiallyItem()): ?>
+    <td class="a-center last">
+        <input type="hidden" name="shipment[items][<?php echo $_item->getOrderItemId() ?>]" value="0" />
+        <input type="checkbox" name="shipment[items][<?php echo $_item->getOrderItemId() ?>]" value="<?php echo $_item->getQty()*1 ?>" checked />
+    </td>
+    <?php endif; ?>
+</tr>

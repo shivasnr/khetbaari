@@ -1,0 +1,148 @@
+<?php 
+    $objectManager =  \Magento\Framework\App\ObjectManager::getInstance();
+    $closewindow = $objectManager->get("\Magento\Framework\Registry")->registry('closewindow');
+    $message = $objectManager->get("\Magento\Framework\Registry")->registry('message');
+
+?>
+<link rel="stylesheet" type="text/css" href="<?php echo $block->getViewFileUrl('Knowband_Marketplace::theme/plugins/multiselect/multiple-select.css')?>">
+<?php if($closewindow && $closewindow == 1){ ?>
+    <?php if(isset($message['error'])){ ?>
+        <div class="alert alert-warning"><?php echo $message['error']; ?></div>
+    <?php }else if(isset($message['success'])){ ?>
+        <div class="alert alert-success"><?php echo $message['success']; ?></div>
+    <?php } ?>
+    <div class="col-lg-12 text-center">
+        <button type="button" onclick="closeSimpleProductPopup()" class="btn btn-danger"><?php echo __('Close'); ?></button>
+    </div>
+    <script type="text/javascript">
+        setTimeout(function(){ closeSimpleProductPopup(); }, 5000);        
+    </script>
+<?php } else { ?>
+
+    <?php $product = $this->getProduct(); ?>
+    <?php 
+        $posted_product_params = $objectManager->get("\Magento\Framework\Registry")->registry("vssmp_posted_form_data"); 
+        $objectManager->get("\Magento\Framework\Registry")->unregister('vssmp_posted_form_data'); 
+
+        $form_action = 'new';
+        $form_req_params = [];
+        if($product->getId()){
+            $form_action = 'edit';
+            $form_req_params = ['id' => $product->getId()];
+        }
+    ?>
+    <section class="content-header">
+        <h1><?php echo $this->getFormHeader(); ?></h1>
+    </section>
+
+    <section id="vss_product_form_container" class="vss_marketplace_page content">
+        <div class="overlay-wrapper" style="display: none;"><div class="overlay"><i class="fa fa-spinner fa-spin"></i></div></div>
+        <div class="row">
+            <div class="form-group col-lg-12">
+                <div class="btn-group pull-right">
+                    <button type="button" onclick="vssmpValidateForm(this);" class="btn btn-success btn-sm"><i class="fa fa-save"></i> <?php echo __('Save'); ?></button>
+                    <?php if(!$this->getRequest()->getParam('popup')){ ?>
+                        <button type="button" onclick="vssmpSaveAndContinue(this)" class="btn btn-primary btn-sm"><i class="fa fa-sign-out"></i> <?php echo __('Save & Continue'); ?></button>
+                    <?php } ?>
+                    <?php if($this->getRequest()->getParam('popup')){ ?>
+                        <button type="button" onclick="closeSimpleProductPopup()" class="btn btn-danger btn-sm"><i class="fa fa-close"></i> <?php echo __('Close'); ?></button>
+                    <?php } else { ?>
+                        <?php $redirect_url = $this->getFrontUrl('product', 'productlist'); ?>
+                        <button type="button" onclick="cancelProductEditing('<?php echo $redirect_url; ?>');" class="btn btn-danger btn-sm"><i class="fa fa-close"></i> <?php echo __('Cancel'); ?></button>
+                    <?php } ?>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+        <div id="vssmp_glob_msg_content" class="alert alert-warning" style="display:none;"></div>
+        <div class="box-group" id="vssmp-product-form">
+            <form id="vssmp-product-form-inner" enctype="multipart/form-data" method="post" action="<?php echo $this->getFrontUrl('product', $form_action, $form_req_params); ?>">
+                <input type="hidden" name="edit_mode" value="0" />
+                <input type="hidden" name="process_step" value="4" />
+                <?php foreach($posted_product_params as $key => $val){ 
+                    if(is_array($val)){
+                        foreach($val as $val1){ ?>
+                            <input type="hidden" name="<?php echo $key; ?>[]" value="<?php echo $val1; ?>" />
+                    <?php }}else{ ?>
+                        <input type="hidden" name="<?php echo $key; ?>" value="<?php echo $val; ?>" />
+                <?php } } ?>
+
+                <?php echo $this->getChildHtml('marketplace_product_section_general'); ?>
+
+                <?php if($product->getTypeId() != \Magento\GroupedProduct\Model\Product\Type\Grouped::TYPE_CODE){
+                    echo $this->getChildHtml('marketplace_product_section_price');
+                }?>
+
+                <?php echo $this->getChildHtml('marketplace_product_section_inventory'); ?>
+
+                <?php echo $this->getChildHtml('marketplace_product_section_meta'); ?>
+
+                <?php echo $this->getChildHtml('marketplace_product_section_category'); ?>
+
+                <?php echo $this->getChildHtml('marketplace_product_section_extrapanel'); ?>
+
+                <?php echo $this->getChildHtml('marketplace_product_section_image'); ?>
+
+                <?php if($this->isAttributeSectionVisible()){
+                    echo $this->getChildHtml('marketplace_product_section_attributes');
+                }?>
+
+                <?php echo $this->getChildHtml('marketplace_product_section_related'); ?>
+
+                <?php if($this->isAssociateSectionVisible()){
+                    echo $this->getChildHtml('marketplace_product_section_subproduct');
+                }?>
+
+                <?php if($this->isBundleSectionVisible()){
+                    echo $this->getChildHtml('marketplace_product_section_bundle');
+                }?>
+
+                <?php if($this->isDownloadableSectionVisible()){
+                    echo $this->getChildHtml('marketplace_product_section_downloadable');
+                }?>
+            </form>    
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="btn-group pull-right">
+                    <button type="button" onclick="vssmpValidateForm(this);" class="btn btn-success btn-sm"><i class="fa fa-save"></i> <?php echo __('Save'); ?></button>
+                    <?php if(!$this->getRequest()->getParam('popup')){ ?>
+                        <button type="button" onclick="vssmpSaveAndContinue(this)" class="btn btn-primary btn-sm"><i class="fa fa-sign-out"></i> <?php echo __('Save & Continue'); ?></button>
+                    <?php } ?>
+                    <?php if($this->getRequest()->getParam('popup')){ ?>
+                        <button type="button" onclick="closeSimpleProductPopup()" class="btn btn-danger btn-sm"><i class="fa fa-close"></i> <?php echo __('Close'); ?></button>
+                    <?php } else { ?>
+                        <?php $redirect_url = $this->getFrontUrl('product', 'list'); ?>
+                        <button type="button" onclick="cancelProductEditing('<?php echo $redirect_url; ?>');" class="btn btn-danger btn-sm"><i class="fa fa-close"></i> <?php echo __('Cancel'); ?></button>
+                    <?php } ?>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </section>
+    <script type="text/javascript">
+        require(['jquery', 'Knowband_Marketplace/theme/plugins/multiselect/jquery.multiple.select', 'Knowband_Marketplace/theme/product'], function(jQuery){
+            
+        });
+        var vssmp_form_block = [];
+        <?php foreach($this->getFormBlocks() as $blo){ ?>
+            vssmp_form_block.push('<?php echo $blo; ?>');
+        <?php } ?>
+        var vssmp_short_description_length = <?php echo \Hariyo\Marketplace\Block\Product\Section\Section::getShortDescriptionLength(); ?>;
+        var vssmp_long_description_length = <?php echo \Hariyo\Marketplace\Block\Product\Section\Section::getLongDescriptionLength(); ?>;
+        var vssmp_word_count_status = '<?php echo __("%d characters remaining."); ?>';
+        var vssmp_invalid_form_message = '<?php echo __("Please fill required fields with valid information."); ?>';
+        var vssmp_invalid_price_msg = '<?php echo __("Special price should be less than actual price"); ?>';
+        var vssmp_invalid_date_msg = '<?php echo __("Past date not allowed"); ?>';
+        var vssmp_dt_page_length = <?php echo \Hariyo\Marketplace\Helper\Data::PAGELIMIT; ?>;
+        var product_list_params = '<?php echo base64_encode(json_encode($posted_product_params)); ?>';
+        var vssmp_validate_action = "<?php echo $this->getFrontUrl('product', 'validate', $form_req_params); ?>";
+        var vssmp_subproducts_datatable_url = "<?php echo $this->getFrontUrl('product', 'getSubProducts'); ?>";
+    </script>
+    
+    <?php if($product->getTypeId() == \Magento\ConfigurableProduct\Model\Product\Type\Configurable::TYPE_CODE){ 
+        echo $this->getChildHtml('marketplace_product_section_quickcreate');
+    } ?>
+    
+    
+<?php } ?>

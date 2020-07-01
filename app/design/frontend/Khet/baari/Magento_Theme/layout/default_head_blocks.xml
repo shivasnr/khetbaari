@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © Magento, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <head>
+    <!-- <meta name="google-signin-client_id" content="234401028663-2dmk0u24i9n0tfp542dveu3iquh8c1uq.apps.googleusercontent.com"/>
+    <script src="js/platform.js"/> -->
+        <css src="css/hariyo.css"  />
+        <css src="css/styles.css"  />
+        <css src="css/font-awesome.css"  />
+        <script src="js/hariyo.js"/>
+    </head>
+</page>

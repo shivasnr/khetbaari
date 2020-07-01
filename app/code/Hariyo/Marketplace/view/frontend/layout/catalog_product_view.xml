@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <head>
+        <css src="Hariyo_Marketplace::theme/seller_on_product.css" />
+    </head>
+    <body>
+        <referenceBlock name="product.info.addtocart">
+            <block class="Hariyo\Marketplace\Block\SellerLink" ifconfig="vss/show_seller_info/active" name="marketplace_seller_link_on_product" template="seller_link.phtml"/>
+        </referenceBlock>
+    </body>
+</page>

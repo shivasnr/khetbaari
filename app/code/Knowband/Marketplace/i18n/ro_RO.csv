@@ -1,0 +1,1009 @@
+The product status will be 'Disabled' until it is approved from admin.,"Statutul de produs va fi „handicap“, până când acesta este aprobat de admin."
+The seller has already added more products. Please either increase the limit or save it as it is.,Vânzătorul a adăugat deja mai multe produse. Vă rugăm să fie măriți limita sau salvați-l așa cum este.
+Reason,Motiv
+Required field,câmp necesar
+Submit,A depune
+Why do you want to do this?,De ce vrei să faci asta?
+Continue,Continua
+Something went wrong. Please try again.,Ceva n-a mers bine. Vă rugăm să încercați din nou.
+Vacation Interval: ,Interval de vacanță:
+Is Active: ,Este activ:
+Vacation Halt Status: ,Stare vacanță Halt:
+Comment: ,Cometariu:
+Reason for canceling vacation: ,Motivul pentru anulare concediu:
+Vacation Detail,Detaliu vacanță
+Your comment to cancel this vacation,Comentariul tău pentru a anula această vacanță
+Register as Seller,Inregistreaza-te ca vânzător
+Yes,da
+No,Nu
+Marketplace CRON Instructions,Instrucțiuni Piață Cron
+Vacation CRON,CRON vacanță
+Disable the products during the seller's vacation period.,Dezactivați produsele în timpul perioadei de vacanță vânzătorului.
+Low Stock Notification CRON,Low Stock Notificare CRON
+Send the notification to the sellers about their low stock products.,Trimiteți notificarea către vânzătorii despre produsele lor de stoc mici.
+Cron Instructions,Instrucțiuni Cron
+Add the Cron Jobs to your store via control panel/putty. Find below the Instruction to add the Cron Jobs.,Adăugați locuri de muncă Cron la magazinul dvs. prin intermediul panoului de control / chit. Găsiți mai jos instrucțiuni pentru a adăuga locuri de muncă Cron.
+URLs to Add to Cron via Control Panel,URL-uri pentru a adăuga la Cron prin Control Panel
+1. Vacation CRON,1. vacanță CRON
+2. Low Stock Notification CRON,2. Low CRON Notificare stoc
+Cron setup via SSH,Configurarea Cron prin SSH
+Choose Store Categories,Alege Store Categorii
+Collapse All,Restrângere totală
+Expand All,Extinde toate
+This operation can take a long time,Această operațiune poate dura o lungă perioadă de timp
+Please confirm site switching. All data that hasn\'t been saved will be lost.,Vă rugăm să confirmați site-ul de comutare. Toate datele pe care hasn '\ t fost salvate vor fi pierdute.
+Warning message,Mesaj de avertizare
+Field cannot be empty.,Câmpul nu poate fi gol.
+You can enter only numbers.,Puteți introduce doar numere.
+Number should be greater than 0.,Numărul trebuie să fie mai mare decât 0.
+Field cannot be greater than {#} characters.,Câmpul nu poate fi mai mare decât caractere {#}.
+Field cannot be less than {#} character(s).,Câmpul nu poate fi mai mică de {#} caracter (e).
+Please enter Email.,Vă rugăm să introduceți adresa de email.
+Please enter a valid Email.,Te rog introdu un email valid.
+Invalid date format.,Format de dată nevalid.
+Number is not in the valid range. It should be between {#} and {##},Numărul nu este în intervalul valid. Ar trebui să fie între {#} și {##}
+Field should be numeric.,Câmp trebuie să fie numeric.
+Field should be positive.,Câmpul ar trebui să fie pozitiv.
+Field can have only upto two decimal values.,Domeniul poate avea doar până la două valori zecimale.
+Email cannot be greater than {#} characters.,E-mail nu poate fi mai mare de caractere {#}.
+Zip should not have special characters.,Zip nu ar trebui să aibă caractere speciale.
+Percentage should be in number.,Procentul trebuie să fie în număr.
+Percentage should be between 0 and 100.,Procentajul trebuie să fie între 0 și 100.
+Size cannot be greater than {#} characters.,Dimensiunea nu poate fi mai mare de caractere {#}.
+Color could not be greater than {#} characters.,Culoarea nu poate fi mai mare de caractere {#}.
+Color is not valid.,Culoarea nu este validă.
+Special characters are not allowed.,Caracterele speciale nu sunt permise.
+Script tags are not allowed.,tag-uri Script nu sunt permise.
+Style tags are not allowed.,tag-uri Style nu sunt permise.
+Iframe tags are not allowed.,Etichetele iframe nu sunt permise.
+Uploaded file is not an image.,Fișierul încărcat nu este o imagine.
+Uploaded file size must be less than {#}.,dimensiunea fișierului încărcat trebuie să fie mai mică de {#}.
+Field should not contain HTML tags.,Câmpul nu trebuie să conțină tag-uri HTML.
+You can enter only positive numbers.,Puteți introduce doar numere pozitive.
+Are you sure?,Esti sigur?
+Comment,cometariu
+Are you sure to update feature status of this seller?,Sunteți sigur de a actualiza starea caracteristică a acestui vânzător?
+Do you have any comment?,Ai vreun comentariu?
+"For accurate reporting, be sure to refresh lifetime statistics whenever you change the time zone.","Pentru raportarea corectă, asigurați-vă că pentru a actualiza statisticile pe durata de viață de fiecare dată când schimbați fusul orar."
+To refresh last day's,Pentru a actualiza ultima zi
+statistics,statistici
+click,clic
+here,aici
+Filter,Filtru
+Period,Perioadă
+Day,Zi
+Month,Lună
+Year,An
+From,Din
+Select Date,Selectați data
+To,La
+Choose Category,Alege categorie
+All Categories,toate categoriile
+Choose a Seller,Alege un vânzător
+All Sellers,toate Sellers
+NA,N / A
+PayPal Payout Settings,Setările plății PayPal
+Active,Activ
+Enable or Disable Paypal Payment Method.,Activarea sau dezactivarea metodă de plată PayPal.
+Client ID,ID de client
+Client Secret,Client Secret
+Paypal Mode,Modul Paypal
+Sandbox,Sandbox
+Live,Trăi
+Paypal Email Subject,Paypal Subiect e-mail
+Paypal Currency ,Paypal Moneda
+Select the default currency set in Paypal Account.,Selectați setul implicit moneda în cont Paypal.
+Are You Sure you want to reset the settings?,Sunteți sigur că doriți să resetați setările?
+Edit Email Template,Editare șablon de e-mail
+About Template,Despre Template
+Template Subject,Model de subiect
+Email Content,Conținutul e-mail
+Template Content,Conținutul şablon
+Please do not edit or remove any template variable.,Vă rugăm să nu modificați sau să eliminați orice variabilă șablon.
+Example,Exemplu
+Seller Account Settings,Setări cont de vânzător
+Default Commission,Comisia Implicit
+Please enter a number between 0 and 100 only and in a proper format.,Vă rugăm să introduceți un număr între 0 și numai 100 și într-un format adecvat.
+Use Global,Utilizarea globală
+New Product Limit,Limita de produse noi
+Limit the sellers to add new products without account approval.,Limitați vânzătorii pentru a adăuga noi produse fără aprobarea contului.
+If left blank than product limit will be assumed 0.,Dacă este lăsat necompletat decât limita de produs va presupune 0.
+Categories Allowed,Categorii permise
+If no category is selected that will mean that all the categories are allowed.,"Dacă nu este selectată nicio categorie, care va însemna că toate categoriile sunt permise."
+Product Approval Required,Produs necesară aprobarea
+Enable,Permite
+Disable,Dezactivați
+Enable Seller Review,Activați recenzia vânzătorului
+Required Seller Review Approval,Necesar Vânzător analiză de aprobare a
+Email to Seller on Order Place,E-mail Vânzătorului pe comandă Locul
+Please enter a valid number in this field.,Vă rugăm să introduceți un număr valid în acest domeniu.
+Payout Transaction Request,Cerere de plată tranzacție
+Required Field,Câmp necesar
+Invalid Value,Valoare invalida
+"Invalid Value, please enter a number greater than zero","Valoare nevalidă, vă rugăm să introduceți un număr mai mare decât zero"
+Minimum 30 character required,Minim 30 de caractere necesar
+General Settings,setari generale
+Enable Marketplace,activaţi Marketplace
+Toggle to enable or disable extension,Comutați pentru a activa sau prelungire dezactivare
+Default Commission (%),Implicit Comisia (%)
+Set default commission in percentage for each product.,Set comision implicit în procente pentru fiecare produs.
+Choose the categories allowed for the sellers. If no category is selected that will mean that all the categories are allowed.,"Alege categoriile permise pentru vânzătorii. Dacă nu este selectată nicio categorie, care va însemna că toate categoriile sunt permise."
+Register as Seller Field,Inregistreaza-te ca vânzător de câmp
+Enable to add 'Register as Seller' field while registering.,"Activați pentru a adăuga ""Înregistrare Sellers domeniu în timp ce înregistrarea."
+Enable Bulk Import/Export,Activează vrac Import / Export
+"If disable, no seller will be able to use bulk import/export feature.","Dacă dezactivare, nu vânzătorul va fi capabil de a utiliza funcția de import / export în vrac."
+If enable an email will be sent to seller on order for his product.,Dacă activați un e-mail va fi trimis la vânzător la comanda produsului său.
+Enable Vacation Mode,Activați modul vacanță
+"If disable, no seller will be able to use vacation feature.","Dacă dezactivare, nu vânzătorul va fi capabil de a utiliza funcția de vacanță."
+Show Seller Info on Product Page,Arată Informații vânzător pe pagina produsului
+Enable/Disable to show/hide seller info on product page.,Activare / Dezactivare pentru a afișa / ascunde multe informații vânzător la pagina produsului.
+Enable or Disable Approval of product for the sellers.,Activarea sau dezactivarea Aprobarea produsului pentru vânzătorii.
+Default limit for sellers of adding new products before account approval. Blank will be considered as 0.,Limita implicită pentru vânzătorii de adăugarea de noi produse înainte de aprobarea contului. Blank va fi considerat 0.
+Enable or Disable Seller review feature. This feature enables the customers to add review for sellers.,Activați sau Dezactivați caracteristica de revizuire Vanzator. Această caracteristică permite clienților pentru a adăuga comentariu pentru vanzatori.
+Seller Review Approval Required,Vanzatorul opinie necesară aprobarea
+Enable or Disable Approval for seller review. Once the review is approved then only it will be visible to the customers.,"Activarea sau dezactivarea aprobare pentru revizuire vânzător. După revizuirea este aprobat, atunci numai că va fi vizibil pentru clienții."
+Enable Seller List,Activați lista bestsellerurilor
+Show or Hide Sellers List from customers.,Afișare sau Ascundere Vânzătorii Lista de clienți.
+Enable Search Box,Activați Caseta de căutare
+Enable or Disbale search box to search seller on seller listing page.,Activați sau caseta de căutare pentru a căuta retrimiterile vânzător la pagina de listare vânzătorului.
+Low Stock Configuration,Configurarea Low Stock
+Enable Low Stock Notification,Activare notificare scăzut stoc
+Enable or Disable Low Stock Notification feature.,Activarea sau dezactivarea caracteristica scăzut de notificare stoc.
+Low Inventory Limit,Low Limit Inventar
+Enter the limit below that the products are considered low stock.,Introduceți limita sub care produsele sunt considerate stoc redus.
+When to Notify,Când se trimit notificări
+Choose when to notify the seller regarding the critical inventories.,Alegeți când să notifice vânzătorului cu privire la stocurile critice.
+Cron Job,cron Job
+On Order Place,La comanda Place
+Send Notifications From,Trimite notificările de la
+Choose the email from which you want to send the notifications.,Selectați e-mail de la care doriți să trimiteți notificările.
+Seller Name,Numele vânzătorului
+Select,Selectați
+Transaction ID,ID-ul de tranzacție
+Transaction Type,tipul tranzacției
+Amount,Cantitate
+Send Email to Seller,Trimite e-mail Vânzătorului
+"Invalid Value, please enter a number greater then zero","Valoare nevalidă, vă rugăm să introduceți un număr mai mare de zero, atunci"
+Add New Transaction,Adăugați nouă tranzacție
+Posted On: ,Postat pe:
+Customer Rating: ,Evaluarea clienților:
+Review: ,Revizuire:
+Reason for Disapproval: ,Motivul respingerii:
+Seller Review Detail,Vanzator Detalii recenzie
+Provide Your Reason,Furnizați motivul
+We can\'t find products matching the selection.,Putem \ 't găsi produse potrivite selecție.
+View Details,Vezi detalii
+In stock,In stoc
+Out of stock,Stoc epuizat
+Learn More,Aflați mai multe
+My Sales Dashboard,Tabloul de bord meu de vânzări
+Total Revenue,Veniturile totale
+Total Orders,Număr total de comen
+Total Products Sold,Total produse vândute
+Last 7 Days,Ultimele 7 zile
+Sales Comparisons,Comparații de vânzări
+Orders,Comenzi
+Revenue,Venituri
+Products Sold,produsele vândute
+Discounts,reduceri
+Balance Amount Variations,Variații Balanța Suma
+Today,Astăzi
+Yesterday,Ieri
+This Week,Săptămâna aceasta
+Last Week,Săptămâna trecută
+This Month,Luna aceasta
+Last Month,Luna trecuta
+This Year,Anul acesta
+Last Year,Anul trecut
+Last 10 Orders,Ultimele 10 comenzi
+View All Orders,Vezi Toate comenzile
+Order Number,Numar de ordine
+Order Date,Data comandă
+Customer Name,Numele clientului
+Customer Email,E-mail client
+Qty,Cantitate
+Status,stare
+Order Total,total comandă
+click to view order,click pentru a vedea comanda
+No Orders Placed Yet,Nu există încă nicio comenzi
+Seller Products,Produse Vanzator
+Filter Products,Produse de filtrare
+Category,Categorie
+Sort By,Filtrează după
+Name,Nume
+SKU,SKU
+Price(low to high),Preț (scăzut la ridicat)
+Price(high to low),Preț (descrescător)
+Products Feedback,produse Feedback
+Filter Your Search,Filtru Search
+Search,Căutare
+Reset,restabili
+No Data,Nu există date
+Posted on,postat pe
+by,de
+Rating,evaluare
+Summary,rezumat
+Review,Revizuire
+My Products Catalog,Produsele mele Catalog
+New Product,Produs nou
+Choose,Alege
+Please select atleast one item from list.,Vă rugăm să selectați cel puțin un element din listă.
+Select Attribute Set for New Product,Selectați pentru set de atribute produs nou
+Attribute Set,set de atribute
+Product Type,Tip produs
+Choose Bulk Action,Alegeți o acțiune în bloc
+Delete,Șterge
+Status Update,Actualizarea stării
+Close,Închide
+Save,Salvați
+Save & Continue,Salvați și continuați
+Duplicate,Duplicat
+Cancel,Anulare
+%d characters remaining.,% d caractere rămase.
+Please fill required fields with valid information.,Vă rugăm să completați câmpurile obligatorii cu informații valide.
+Special price should be less than actual price,Preț special ar trebui să fie mai mic decât prețul real
+Past date not allowed,Data trecut nu este permis
+Quick simple product creation,crearea de produs simplu rapidă
+Create,Crea
+Prices,Preturi
+Meta Information,Informații Meta
+General Information,Informatii generale
+Allows your product's visibility on search or catalog page.,Permite vizibilitatea produsului pe pagina de căutare sau un catalog.
+Maximum %d characters allowed.,Maximum% d caractere permise.
+Date of product from which this product will be marked as new.,Data produs din care acest produs va fi marcat ca fiind noi.
+Date of product until which this product will be marked as new.,Data produsului până la care acest produs va fi marcat ca fiind noi.
+Category Mapping,Categoria de cartografiere
+Associated Products,Produse asociate
+Create Simple Product,Creați produs simplu
+Quick Create,Crearea rapidă
+Id,id-ul
+Sku,sku
+Product Name,numele produsului
+Stock Status,Starea stocului
+Select Attribute,Selectarea caracteristicilor
+Attribute,Atribut
+Price,Preț
+Default Qty,Implicit Cantitate
+Samples,Probele
+Title,Titlu
+File,Fişier
+Sort Order,Ordinea de sortare
+Add New Row,Adăugați rând nou
+Links,Link-uri
+Links can be purchased separately,Link-uri pot fi achiziționate separat
+Max. Downloads,Max. Descărcări
+Shareable,Partajabil
+Sample,Probă
+Unlimited,Nelimitat
+Url,Url
+Inventory,Inventar
+Quantity,Cantitate
+Manage Stock,gestionaţi stoc
+"On enabling, stock will be managed automatically. For manual stock, select disable","Activând, stocul va fi gestionat în mod automat. Pentru stoc manuală, selectați Dezactivare"
+Qty Uses Decimal,Cantitate Folosește Zecimal
+Stock Availability,Disponibilitate în stoc
+Shipment,Expediere
+Ship Bundle Items,Navă Bundle Articole
+Separately,Separat
+Together,Împreună
+Bundle Items Options,Grupați produsele Opțiuni
+Add New Option,Adăugați Opțiune nouă
+Default Title,Implicit Titlu
+Delete Option,ştergeţi opțiunea
+Input Type,Tip de introducere
+Is Required,Este necesară
+Position,Poziţie
+Add Selection,Adăugați Selecție
+Price Type,Preț Tip
+User Defined Qty,Definit de utilizator Cantitate
+Default,Mod implicit
+Qty to Add,Cant la Adăugați
+Add Selected Product(s) to Option,Adauga Produs selectat (e) pentru opțiunea
+Images,Imagini
+Image,Imagine
+Label,Eticheta
+Remove,Elimina
+File is not supported,Fișierul nu este acceptat
+Upload New Image,Încărcați o imagine nouă
+".jpeg, .jpg, .png, ,gif",".jpeg, .jpg, .png, gif"
+No Image uploaded for this product,Nici o imagine încărcată pentru acest produs
+Browse,Naviga
+Related Products,produse asemanatoare
+This attribute set does not have attributes which we can use for configurable product,Acest set atribut nu are atribute pe care le putem folosi pentru produsul configurabil
+Please select one or more attributes.,Vă rugăm să selectați unul sau mai multe atribute.
+Sold By,Vandut de
+Total %d review(s),revizuire Total% d (s)
+View Reviews,Vezi Recenzii
+Write Review,Scrie o recenzie
+File Size Exceeding the Limit.,Dimensiunea fișierului care depășește limita.
+Max Upload Size: 200 KB,Max Încarcă Dimensiune: 200 KB
+Max Upload Size: 500 KB,Max Încarcă Dimensiune: 500 KB
+This key already assigned to another seller. Please fill another.,Această cheie deja atribuit un alt vânzător. Vă rugăm să completați un alt.
+My Seller Profile,Profilul meu Vanzator
+View Collection,Vizualizați colecția
+View Profile,Vezi profil
+General,General
+Shop Title,Shop Titlu
+Contact Number,Numar de contact
+(Image Size: 150 X 150),(Dimensiune imagine: 150 x 150)
+Shop Logo,Shop Logo
+(Image Size: 1180 X 250),"(Dimensiune imagine: 1,180 X 250)"
+Shop Banner,Shop Banner
+Shop Address 1,Shop Adresa 1
+Shop Address 2,Shop Adresă 2
+City,Oraș
+Pincode,Cod PIN
+State,Stat
+Country,Țară
+Description,Descriere
+Please provide link of your facebook page,Vă rugăm să furnizați link-ul paginii Facebook
+Facebook Link (optional),Facebook Link (opțional)
+For example:,De exemplu:
+or,sau
+Please provide link of your google plus profile,"Vă rugăm să furnizați link-ul de Google, plus profilul"
+Google Plus Link (optional),Link Google Plus (opțional)
+Please provide link of your twitter profile,Vă rugăm să furnizați link-ul de profil Twitter
+Twitter Link (optional),Twitter Link (opțional)
+Meta Keywords,Cuvinte cheie meta
+Meta Description,Descriere Meta
+Example: my-selling-store,Exemplu: mi-vânzare-magazin
+Page Url Key,Pagina Adresa URL-cheie
+Policy,Politică
+Return Policy,Politica de returnare
+Shipping Policy,Politică de livrare
+Payout,Plată
+Admin will use the Payout information to make the payment. Only one payment information can be saved at a time.,Admin va utiliza informațiile de plată pentru a efectua plata. Doar o singură informație de plată pot fi salvate la un moment dat.
+Select Payment Method,selecteaza metoda de plata
+Seller,Vânzător
+Register As Seller,Inregistreaza-te ca vânzător
+My Reviews,Opinii mele
+Customer Review,Clientul opinie
+Disapproval Reason,Motivul respingerii
+Start Date,Data de început
+End Date,Data de încheiere
+Your comment to this vacation,Comentariul tău la această vacanță
+Invalid format. Use: MM/dd/YYYY,Format invalid. Utilizare: LL / ZZ / AAAA
+End date should be greater than start date,Data de încheiere trebuie să fie mai mare decât data de începere
+End date should be future date,Data de încheiere trebuie să fie data viitoare
+My Vacations History,My Vacante Istoricul
+Set New Vacation,Set nou de vacanță
+Vacation Interval,Interval de vacanță
+Is Active,Este activ
+Vacation Halt Status,Stare Halt vacanță
+Reason for canceling vacation,Motivul pentru anulare de vacanță
+click to view product details,click pentru a vedea detaliile produsului
+Sorry! No Product(s) Found.,Ne pare rău! Nici un produs (e) S-au găsit.
+Please select a category for your request.,Vă rugăm să selectați o categorie pentru solicitare.
+Please provide reason for your request.,Vă rugăm să furnizați motivul pentru solicitare.
+Request a New Category,Solicitați o nouă categorie
+Choose a Category,Alege o categorie
+Select Category,selecteaza categoria
+Maximum 500 characters allowed.,Maximum 500 de caractere permise.
+Submit Category Request Form,Trimite Categorie Formular de cerere
+No categories are available for request.,Nu există categorii sunt disponibile pentru cerere.
+Payout Request,Plată cerere
+New Payout Request,Solicitare nouă de plată
+Request Reason,Cerere Motivul
+Submit Payout Request Form,Trimite plată Formular de cerere
+Payout Details,Detalii de plată
+Requested On,solicitat la
+Your Comment For Request,Comentariul dvs. pentru solicitarea
+Only 200 characters allowed,Doar 200 de caractere permise
+"Only (xls, xlsx) formats are allowed","Numai (xls, xlsx) formate sunt permise"
+Toggle navigation,Comutare navigare
+My Account,Contul meu
+Logout,Deconectare
+Account Warning!,Avertisment în cont!
+Back To Site,Înapoi la site
+Category Request Details,Categoria Detalii solicitare
+Category Name,Numele categoriei
+Your request is in pending. Please wait for store response.,Cererea dvs. este în așteptare. Vă rugăm să așteptați pentru răspunsul magazin.
+This feature is not active into your account.,Această funcție nu este activă în contul dumneavoastră.
+To request this feature,Pentru a solicita această funcție
+Click,Clic
+Here,Aici
+Request To Activate Import/Export Feature,Solicitare pentru a activa Import / Export Caracteristică
+Comment ,cometariu
+Required Field. Maximum 200 characters allowed.,Câmp necesar. Maximum 200 de caractere permise.
+Click to send request,Click aici pentru a trimite solicitarea
+Your file has some errors. Please import file after resolving errors.,Fișierul are unele erori. Vă rugăm să importați fișierul după rezolvarea erorilor.
+Click to download your file with errors,Click aici pentru a descărca fișierul cu erori
+Download File with Errors,Descărcare fișiere cu erori
+Go Back,Întoarce-te
+Please do not go back or refresh page while uploading your products.,Vă rugăm să nu merge înapoi sau să actualizezi pagina în timp ce încărcați produsele.
+It may causes errors in your catalog.,Aceasta poate produce erori în catalog.
+Download Template,Descărcați șablonul
+Select Product Type,Selectați Tip produs
+Product Attribute Set,Atribut produs Set
+Select Attribute Set,Selectați Set Atribut
+Download Template File,Descărcați șablonul de fișier
+Please make sure that columns in your file must be matched with template file created for you on the basis of selected attribute.,Asigurați-vă că coloanele din fișierul dvs. trebuie să se potrivească cu fișierul șablon creat pentru tine pe baza atributului selectat.
+Import Products,import Produse
+Import Action,Import Acțiune
+Select Action,Selectare acțiune
+"Action will only be performed on the basis of SKU of products. Without sku, product will not be consider for any action.","Acțiunea se va face numai pe baza SKU produselor. Fără sku, produsul nu va fi luat în considerare pentru acțiune."
+Upload File,Incarca fisier
+"Only (xls, xlsx) file will be accepted","Numai (xls, xlsx) dosar vor fi acceptate"
+File must not exceed %s MB,Fișierul nu trebuie să depășească% s MB
+Browse File,Navigare fișiere
+Validate File,fişier validaţi
+File must no exceed %s MB,Dosar nu trebuie să depășească% s MB
+Import/Export Instructions,Instrucțiuni Import / Export
+Import,Import
+Export,Export
+Import Instructions,Instrucțiuni de import
+"Download Template as per your product type. At a time, only 1 type of products can be import.","Descărcați șablonul ca pentru fiecare tip de produs. La un moment dat, numai un tip de produse pot fi de import."
+"If you import more than 1 type of products from one file, then system will be fail or affect your catalog.","Dacă importați mai mult de 1 tip de produse dintr-un fișier, atunci sistemul va fi eșua sau afectează catalogul."
+Each template will have '%s' worksheet. Your import file must have this worksheet as it is. Please do not change anything in its content.,Fiecare șablon va avea „% s“ foaie de lucru. Fișierul dvs. de import trebuie să aibă această foaie de lucru așa cum este. Vă rugăm să nu se schimbe nimic în conținutul său.
+Each template will have '%s' worksheet. Please provide product data from possible values of corresponding field. If field has possible values.,Fiecare șablon va avea „% s“ foaie de lucru. Vă rugăm să furnizați date de produs de la valori posibile ale câmpului corespunzător. În cazul în care câmpul are valori posibile.
+"Only 'xls, xlsx' file having size less than %sMB will be acceptable.","Numai „xls, xlsx“ fișier cu dimensiune mai mică% sMB va fi acceptabil."
+If you want to import using exported data then copy the general & image sheet of exported file into general & image sheet of the downloaded template file.,"Dacă doriți să importați utilizând datele exportate apoi copiați imaginea generală și foaia de fișier exportat în general, și imaginea foaie de fișierul șablon descărcat."
+"Use (|) to seperate value in multivalue field like category_ids, related_products.","Utilizați (|) pentru a separa valoare în câmpul multivalue ca category_ids, related_products."
+Export Instructions,Instrucțiuni de export
+Select export type in export section.,Selectați tipul de export în secțiunea de export.
+"If the export type is Category, then system will export only assigned categories to you.","În cazul în care tipul de export este categoria, atunci sistemul va exporta categorii numai alocate pentru tine."
+"In case of products, select product type and attributes set.","În cazul produselor, selectați tipul de produs și atributele set."
+Exported data will be in xls/xlsx format.,Datele exportate vor fi în format / XLSX xls.
+Export Type,Tip de export
+Select Export Type,Selectați Export Tip
+Category Export,Categorie Export
+Product Export,Export de produse
+Product Status,Stare produs
+All,Toate
+Disabled,invalid
+Enabled,Activat
+In Stock,In stoc
+Out of Stock,Stoc epuizat
+Export Data,Export de date
+This process will take few minutes.,Acest proces va dura câteva minute.
+Please do not go back or refresh page while exporting your data.,Vă rugăm să nu merge înapoi sau să actualizezi pagina în timp ce datele dumneavoastră.
+Your are not eligible to use this feature as your account is either not approved or inactive.,Dvs. nu sunt eligibile pentru a utiliza această funcție ca și contul dvs. fie nu este aprobat sau inactiv.
+"Currently, this feature is disabled by store.","În prezent, această funcție este dezactivată în magazin."
+You cannot use this feature as required library is missing. Please contact to support.,Nu puteți utiliza această funcție ca bibliotecă necesare lipsesc. Vă rugăm să contactați pentru a sprijini.
+Total Sale,Vanzare total
+Total Earning,Câștigul salarial total
+Transaction Details,Detalii tranzacție
+My Earnings,Câștigurile mele
+Earnings History,Istoricul câștigurilor
+Order Wise Earnings,Comanda înțelepților Câștiguri
+Transactions History,Istoric tranzacții
+Total Paid,Plata totala
+Balance,Echilibru
+Quantity to Add,Cantitate pentru a adăuga
+Low Stock Notification,Notificarea scăzut stoc
+Configuration,configurație
+Receive Low Stock Notifications,Primiți scăzut Stoc Notificări
+Save Seller Level Configuration,Salvare Vânzător de configurare Nivel
+facebook,Facebook
+twitter,stare de nervozitate
+google,Google
+About Seller,Despre Vanzator
+Description not available.,Descrierea nu este disponibilă.
+Write your thought,Scrie gândul tău
+Summary of your review,Sumarul evaluarii tale
+Your Thought,Gândul tău
+Your Name,Numele dumneavoastră
+Rate this seller,Evaluați acest vanzator
+Submit Review,Trimite recenzie
+Notify Customer by Email,Anunță Clienți prin e-mail
+Visible on Storefront,Vizibil pe Vitrină
+Submit Comment,Trimite comentariu
+Customer,Client
+Notified,Notificată
+Not Notified,Nu a fost notificat
+Please provide comment,Vă rugăm să furnizați un comentariu
+Product,Produs
+Subtotal,Subtotal
+Order Detail,Detaliile comenzii
+Click to download invoice.,Click aici pentru a descărca factura.
+Download Invoice,Descărcați factura
+Click to download shipping slip.,Click aici pentru a descărca alunecare de transport maritim.
+Download Shipping Slip,Slip Descărcare Transport
+Are you sure you want to send order email to customer?,Sunteți sigur că doriți să trimiteți e-mail pentru a client?
+Click to send email to customer,Click aici pentru a trimite e-mail la client
+Send Email,Trimite email
+Click to create shipment,Click pentru a crea expediere
+Ship,Navă
+Print,Imprimare
+Basic Informations,Informații de bază
+Order Status,Starea comenzii
+Billing Address,Adresa De Facturare
+Shipping Address,Adresa de transport
+Ordered,Ordonat
+Shipped,Transportat
+Canceled,Anulat
+Refunded,rambursată
+Gift Message,cadou mesaj
+Excl. Tax,Excl. Impozit
+Total,Total
+Incl. Tax,Incl. Impozit
+Total incl. tax,Total incl. impozit
+Invoiced,facturată
+Order Items,Comanda Articole
+Shipments,Transporturile
+Ship to Name,Navă la Nume
+Date Shipped,data livrării
+Total Qty,Cantitate totală
+click to view detail,click pentru a vizualiza detalii
+Tax,Impozit
+Items To Be Shipped,Elemente Pentru a fi livrate
+Qty to Ship,Cantitate pentru livrare
+Append Comments,Comentarii append
+Email Copy of Shipment,Copie e-mail de expediere
+Submit Shipment,Trimite expediere
+New Shipment,Livrare nou
+Back,Înapoi
+Shipment Tracking,Urmărirea expediere
+Carrier,Purtător
+Tracking No.,Urmărirea Nr
+Action,Acțiune
+Add Tracking Number,Adăugați Număr de urmărire
+Invalid value(s) for Qty to Ship,Valoarea (e) nevalid pentru Cantitate de a navei
+Shipment Detail,Detalii expediere
+Are you sure you want to send Shipment email to customer?,Sunteți sigur că doriți să trimiteți e-mail expediere la client?
+Send Tracking Information,Trimite informațiile de urmărire
+Tracking Number,Număr de urmărire
+Add,Adăuga
+Tracking title is required.,titlu de urmărire este necesară.
+Tracking number is required.,Numărul de urmărire este necesară.
+Shipped Items,Articole expediate
+Qty Shipped,Cantitate Expediat
+No Item Shipped Yet,"Nu există niciun element Expediat Cu toate acestea,"
+Reviews,opinii
+Posted on:,Postat pe:
+by ,de
+Sorry! No Reviews Found.,Ne pare rău! Nu au fost găsite recenzii.
+Write your review,Scrie o recenzie
+Sellers List,Listă Sellers
+Search Seller,Căutare Vanzator
+Sorry! No Seller(s) Found.,Ne pare rău! Nu vânzător (e) găsit.
+General Contact,General Contact
+Customer Support,Relații Clienți
+Sales Representative,Reprezentant de vânzări
+Custom Email 1,E-mail personalizat 1
+Custom Email 2,E-mail personalizat 2
+"Unable to write low stock files. Permission Error on ""var"" Directory.",Nu se poate scrie fișiere mici de stoc. Eroare permisiune „var“ Director.
+Unable to write file for Seller ,Nu se poate scrie fișier pentru vânzător
+Product ID,ID-ul produsului
+Current Quantity,Cantitatea curentă
+Base Image,Imagine de bază
+Small Image,Imagine mică
+Thumbnail,miniatură
+Disallowed file type.,Nepermis tip de fișier.
+Type of the product you have selected for this import template file.,Tipul de produs pe care ați selectat pentru acest fișier șablon de import.
+Attribute set you have selected for this product type in import template file.,Set de atribute ați selectat pentru acest tip de produs în fișierul șablon de import.
+single pipe(|) seperated multiple categories,o singură țeavă (|) mai multe categorii separate
+single pipe(|) seperated product sku,singură țeavă (|) sku produs separate
+single pipe(|) seperated attributes,singură conductă (|) atribute separate
+pair of values seperated by single pipe(|),pereche de valori separate prin o singură țeavă (|)
+System will group your bundle item on the basis of this title. If two items has same title then they will be grouped in same bundle.,"Sistemul va grupa elementul pachet pe baza acestui titlu. Dacă două elemente are același titlu, atunci ele vor fi grupate în același pachet."
+Daily,Zilnic
+Weekly,Săptămânal
+Monthly,Lunar
+Yearly,Anual
+Waiting for Approval,Se asteapta aprobarea
+Approved,Aprobat
+Disapproved,Respins
+Add new products,Adăugați produse noi
+Update existing products,Actualizați produsele existente
+Add/update products,Adăugați produse / actualizare
+Delete products,ştergeţi produse
+Bank Wire,Transfer bancar
+Payment By Cheque,Plata prin cec
+Paypal,Paypal
+Please provide the paypal email id.,Vă rugăm să furnizați ID-ul de e-mail PayPal.
+Paypal Email ID,Paypal ID-ul de e-mail
+Please provide additional information.,Vă rugăm să furnizați informații suplimentare.
+Additional Information,informatii suplimentare
+Please provide the name.,Vă rugăm să introduceți numele.
+Pay to the order of (name),Plătiți la ordinea (nume)
+Please provide the address.,Vă rugăm să furnizați adresa.
+Address,Adresa
+Address where the cheque should be sent to.,Adresa în cazul în care cecul ar trebui să fie trimise la.
+Please provide account owner name,Vă rugăm să furnizați numele proprietarului contului
+Account Owner,Proprietarul contului
+Please provide bankwire details,Vă rugăm să furnizați detalii bankwire
+Details,Detalii
+"Such as bank branch, IBAN number, BIC, etc.","Cum ar fi sucursală a unei bănci, numărul IBAN, BIC, etc."
+Please provide bankwire address.,Vă rugăm să furnizați adresa bankwire.
+Bank Address,Adresa băncii
+Requsted on: ,Requsted pe:
+ by,de
+Amount: ,Cantitate:
+Payment Method: ,Modalitate de plată:
+PayPal,PayPal
+PayPal ID: ,ID PayPal:
+Additional Information: ,Informatii suplimentare:
+Bankwire,Transfer bancar
+Owner Name: ,Numele proprietarului:
+Details: ,Detalii:
+Bank Address: ,Adresa băncii:
+Cheque,Verifica
+Address: ,Adresa:
+No balance amount is left for this seller.,Nici un fel de echilibru este lăsat pentru acest vânzător.
+No order found for this seller. Transaction cannot be initiated.,Nu există rezultate pentru acest vanzator comanda. Tranzacție nu poate fi inițiată.
+Paypal payout request failed.,Cererea de plată Paypal nu a reușit.
+Please enable paypal payout to make this transaction.,Vă rugăm să activați plată PayPal pentru a face această tranzacție.
+Payout request does not exist.,Cererea de plată nu există.
+By System,Prin Sistemul
+Manually,Manual
+Successfully,Cu succes
+Credit,Credit
+Debit,Debit
+Unknown,Necunoscut
+Invalid request,Cerere invalida
+Export type is missing,Tipul de export lipsește
+No product found as per your selected parameters.,Nici un produs gasit ca pe parametrii selectate.
+Unable to process request,Nu se poate procesa solicitarea
+No category assigned to you.,Nu ai atribuit categorie.
+invalid request,cerere invalida
+Please select product parameters.,Vă rugăm să selectați parametrii produsului.
+No products found to export.,Nici un produs gasit pentru export.
+Vacation is successfully canceled.,Vacation este anulat.
+New Vacation successfully created.,Noua vacanță creat cu succes.
+Your products will be hidden automatically when the vacation starts.,Produsele dvs. vor fi ascunse în mod automat atunci când începe vacanța.
+Start Date or End Date cannot be less than today.,Data de începere sau Data de încheiere nu poate fi mai mică decât în ​​prezent.
+Start Date or End Date cannot be same.,Data de începere sau de încheiere nu pot fi identice.
+Date range should not be in between of any previous active vacation.,Perioada de timp nu ar trebui să fie între de orice vacanță activă anterioară.
+Technical error occurred while validating new vacation.,A apărut o eroare tehnică la validarea nouă vacanță.
+The requested vacation's detail not found.,detaliu vacanta solicitate nu a fost găsit.
+Marketplace - CRON,Piață - CRON
+Please enable the low stock notifications functionality first,Vă rugăm să activați mai întâi funcționalitatea redusă de notificări stoc
+Please enable the marketplace module first,Vă rugăm să activați mai întâi modulul de piață
+Low Stock Notifications Cron Executed Successfully.,Low Stock Notificări Cron executat cu succes.
+"There were some errors executing the low stock notifications cron, please check Log for more details.","Au existat unele erori care execută scăzut de notificări stoc cron, vă rugăm să verificați Log pentru mai multe detalii."
+Please enable the seller vacation functionality first,Vă rugăm să activați mai întâi funcționalitatea de vacanță vânzătorului
+Vacation Cron Executed Successfully.,Vacanță Cron executat cu succes.
+"There were some errors executing the vacation cron, please check Log for more details.","Au existat unele erori de executare cron de vacanță, vă rugăm să verificați Log pentru mai multe detalii."
+View Shipment,Vizualizare expediere
+Requested order details not Found.,Cerute detaliile comenzii nu a fost găsit.
+We can\'t save the shipment right now.,Putem \ 't salva de expediere chiar acum.
+Shipment Document Validation Error(s):\n,Eroare expediere Document de validare (s): \ n
+The shipment has been created.,Transportul a fost creat.
+You created the shipping label.,Ați creat eticheta de expediere.
+An error occurred while creating shipping label.,A apărut o eroare la crearea etichetei de transport maritim.
+Cannot save shipment.,Nu se poate salva expediere.
+Please enter a comment.,Vă rugăm să introduceți un comentariu.
+Comment has been added for this shipment.,Comentariul a fost adăugat pentru acest transport.
+Cannot add new comment.,Nu se poate adăuga un comentariu nou.
+You sent the shipment.,Ați trimis expediere.
+Cannot send shipment information.,Nu se poate trimite informații expediere.
+Please specify a carrier.,Vă rugăm să specificați un operator de transport.
+Please enter a tracking number.,Vă rugăm să introduceți un număr de urmărire.
+Tracking number successfully updated into this shipment.,Număr de urmărire actualizat cu succes în acest transport.
+We can\'t initialize shipment for adding tracking number.,Putem \ 't inițializa transport pentru adăugarea de numărul de urmărire.
+Cannot add tracking number.,Nu se poate adăuga un număr de urmărire.
+Tracking number successfully deleted from this shipment.,Număr de urmărire șters cu succes din acest transport.
+We can\'t initialize shipment for delete tracking number.,Putem \ 't inițializa transport pentru numărul de urmărire de ștergere.
+We can\'t delete tracking number.,Putem \ 't șterge numărul de urmărire.
+We can\'t load track with retrieving identifier right now.,Putem \ 't pista de încărcare cu preia identificatorul chiar acum.
+Quanity updated successfully.,Quanity actualizat cu succes.
+Low Stock,Stoc redus
+Configuration Saved Successfully.,Configurație salvată cu succes.
+Seller's Products - Reviews,Produse Vânzătorului - Recenzii
+Pending,In asteptarea
+Not Approved,Neaprobat
+Seller's Account-Orders,Cont-Comenzi Vânzătorului
+Seller OrderView,Vânzător OrderView
+You sent the order email.,Ați trimis e-mail ordine.
+We can\'t send the email order right now.,Putem \ 't trimite ordinea de e-mail chiar acum.
+This order no longer exists.,Acest ordin nu mai există.
+There are no shipping documents related to this order.,Nu există documente de transport legate de acest ordin.
+Print Order,Ordin de printare
+There are no invoice documents related to this order.,Nu există documente factură legate de acest ordin.
+Seller List,Listă Vanzator
+Knowband,Knowband
+Marketplace,Piata de desfacere
+Email Template Updated successfully.,Șablon e-mail Actualizat cu succes.
+Best Selling Products,Cele mai vândute produse
+ Seller(s) Disabled Successfully,Vanzator (s) dezactivat cu succes
+Invalid Request,cerere invalida
+Status changed successfully,Starea a fost modificată cu succes
+Activated,activat
+Deactivated,Dezactivate
+Cannot update,Nu se poate actualiza
+Cannot load object,Nu se poate încărca obiect
+Seller Approved Successfully,Vanzatorul a fost aprobată
+Email Templates,Template-uri de e-mail
+Sellers Payout Request,Vânzători de plată Cerere
+Product Approval Request,Produs Solicitare de aprobare
+Technical error occurred while canceling vacation.,A apărut o eroare tehnică în timp ce anularea concediu.
+Seller Reviews,Opinii Vanzator
+%s by %s,% S de% s
+The requested seller's review detail not found.,detaliu o recenzie despre vânzătorul solicitate nu a fost găsit.
+Import/Export Feature Request List,Import / Export Solicitare funcții Listă
+Settings saved successfully.,Setările au fost salvate cu succes.
+Seller Account Approval Request,Vânzător cont Solicitare de aprobare
+Seller Vacation List,Vânzător Lista de vacanță
+Transaction detail successfully saved.,detaliile tranzacției salvate cu succes.
+Some error occured. Please try again.,A apărut o eroare. Vă rugăm să încercați din nou.
+Total of %d record(s) have been updated.,Totalul de înregistrare% d (e) au fost actualizate.
+ Seller(s) Disapproved Successfully,Vanzator (s) Dezaprobat cu succes
+Seller Product List,Vanzator lista de produse
+Review has been approved successfully.,Revizuirea a fost aprobat cu succes.
+Technical Error Occured - Not able to update.,Eroare tehnică apărut - nu puteți actualiza.
+Review has been disapproved successfully.,Revizuirea a fost respins cu succes.
+Seller review has been deleted.,Vanzatorul de revizuire a fost șters.
+Technical error occurred while processing category request.,A apărut o eroare tehnică în timpul procesării cererii categorie.
+Seller account has not been approved yet. Please approve the seller account first.,Contul Vânzătorul nu a fost încă aprobat. Vă rugăm să aprobe mai întâi contul vânzătorului.
+ record(s) have been updated.,înregistrări (e) au fost actualizate.
+Product has been approved successfully.,Produs a fost aprobat cu succes.
+ Seller(s) Approved Successfully,Vânzător (e) a fost aprobată
+Approval updated successfully,Aprobarea a fost actualizat
+Seller Review Approval Request,Vânzător opinie Solicitare de aprobare
+PayPal Payout settings has been saved successfully.,Setările plății PayPal a fost salvat cu succes.
+Category Wise Commissions,Categoria Comisioane înțelepților
+CRON Instructions,Instrucțiuni cron
+Seller List with Import/Export Feature,Listă Vânzător cu Feature Import / Export
+Product Reviews,Comentarii produse
+Seller Disapproved Successfully,Vânzător Respins cu succes
+Category Request List,Categorie Cerere Listă
+Commissions,comisioane
+Total of %d record(s) have been deleted.,Totalul de înregistrare% d (e) au fost șterse.
+ Seller(s) Enabled Successfully,Vânzător (e) activat cu succes
+Sellers Payout,Vanzatorii de plată
+"Some of the products are not enabled, because either these products or their sellers are not approved/disabled.","Unele dintre produsele care nu sunt activate, deoarece fie aceste produse sau vânzători lor nu sunt aprobate / dezactivate."
+Some of the processed products have no SKU value defined. Please fill it prior to performing operations on these products.,Unele dintre produsele transformate nu au valoare SKU definite. Vă rugăm să completați-l înainte de a efectua operațiuni pe aceste produse.
+Payout request status has been updated successfully.,statutul cererii de plată a fost actualizat cu succes.
+Invalid Request.,Cerere invalida.
+Seller Wise Commissions,Vânzător Comisioane înțelepților
+Seller Dashboard,Tabloul de bord Vânzător
+Your request has been sent. Please wait for store response.,Cererea ta a fost trimisă. Vă rugăm să așteptați pentru răspunsul magazin.
+Cannot send request,Nu se poate trimite cerere
+Product Import/Export,Import de produse / Export
+Seller Profile,Profil Vanzator
+Seller Profile saved successfully.,Vanzator Profilul a fost salvat.
+Not Available,Nu e disponibil
+Your payout request has been submitted successfully.,Cererea dvs. de plată a fost trimisă cu succes.
+Please configure payout method in the seller profile menu.,Vă rugăm să configurați metoda de plată din meniul de profil vânzătorului.
+Seller's Account - Payout Requests,Cereri de plată a compensațiilor - Contul de vânzător
+Error Occured,A aparut o eroare
+Thank you for rating the Seller.,Va multumim pentru evaluarea Vânzătorului.
+Posting review for this seller is not allowed.,Postarea de revizuire pentru acest vânzător nu este permis.
+Seller Account - My Reviews,Vânzător Cont - Comentarii mele
+"You can't register yourself as seller because your registration request limit has been over. To register, please contact to support.","Nu te poți înregistra ca vânzător, deoarece limita de solicitări de înregistrare a fost de peste. Pentru a vă înregistra, vă rugăm să contactați pentru a sprijini."
+Seller's Account - Earnings,Contul de vânzător - Câștiguri
+Seller's Account - Transactions History,Istoric Tranzacții - Contul de vânzător
+File Path is Missing,Calea fișierului este Lipsește
+Unknown file,fişier necunoscut
+General worksheet is missing.,foaie de lucru generală lipsește.
+Column title row is missing from general worksheet.,rând din titlu Coloana lipsește din foaia de lucru generală.
+Column '%s' is missing from general worksheet.,Coloana „% s“ lipseste din foaia de lucru generală.
+File is empty.,Fișierul este gol.
+Error in processing '%s' sku before deleting.,Eroare în procesarea „% s“ sku înainte de a șterge.
+Listed products are not deleted:,Produsele listate nu sunt șterse:
+"Upload your file and try again. To speed up delete process, please remove all products that has been deleted.","Încărcați fișierul și încercați din nou. Pentru a accelera procesul de ștergere, vă rugăm să eliminați toate produsele care a fost șters."
+Your products has been deleted. System will redirect you on product list automatically in 5 secs.,Produsele dvs. a fost șters. Sistemul vă va redirecționa pe lista de produse în mod automat în 5 secunde.
+Import action is Missing,Importați acțiunea este Lipsește
+Meta Information worksheet is missing,Meta informații foaie de lucru lipsește
+File must not exceed ,Fișierul nu trebuie să depășească
+This sku does not exist,Acest sku nu există
+Product of this SKU is not yours.,Produs al acestui SKU nu este a ta.
+This row has error,Acest rând are eroare
+Meta Information Sheet is Missing,Meta Sheet informații lipsesc
+Error in processing data of '%s' sku.,Eroare în procesarea datelor de „% s“ sku.
+Listed products are not saved:,Produsele listate nu sunt salvate:
+"Upload your file and try again. To speed up process, please remove all other product data that has been saved successfully.","Încărcați fișierul și încercați din nou. Pentru a accelera procesul, vă rugăm să eliminați toate celelalte date produs care a fost salvat cu succes."
+Your products has been uploaded. System will redirect you on product list automatically in 5 secs.,Produsele dvs. a fost încărcat. Sistemul vă va redirecționa pe lista de produse în mod automat în 5 secunde.
+Error while processing rows in uploaded file.,Eroare la procesarea rânduri în fișierul încărcat.
+Error: %s,Eroare:% s
+Product Type is missing from Meta Sheet Worksheet,Tip produs lipseste din Meta Foaie de lucru Sheet
+Product Type is invalid in Meta Sheet Worksheet,Tip produs nu este valid în Meta Foaie de lucru Foaie
+Attribute set id is missing from Meta Sheet Worksheet,Set de atribute id lipsesc din Meta Foaie de lucru Sheet
+Attribute set id is not valid in Meta Sheet Worksheet,Id atribut set nu este valid în Meta Foaie de lucru Foaie
+This SKU is already used by other product of you or other seller.,Acest SKU este deja utilizat de alt produs de tine sau de alt vânzător.
+This SKU is used by other seller or store.,Acest SKU este utilizat de alt vânzător sau magazin.
+This value is required,Este nevoie de această valoare
+Invalid Value. Only date format value is accepted.,Valoare invalida. Numai valoarea format de dată este acceptată.
+Invalid Value. Only Price type value accepted,Valoare invalida. Numai valoare Tip Preț acceptată
+Invalid Value. Only positive number type value accepted,Valoare invalida. Numai număr pozitiv de valoare de tip acceptat
+Out of range value. Please see possible value for this field.,Din interval de valori. Vă rugăm să consultați posibilă valoare pentru acest câmp.
+Some of the values are not exist.,Unele dintre valorile nu sunt există.
+Your request has been sent to the admin for approval.,Solicitarea dvs. a fost trimisă la admin pentru aprobare.
+Seller's Account - Request a New Category,Contul de vânzător - Cerere de o noua categorie
+Attribute set is missing,set de atribute lipsesc
+Attribute set cannot load,set de atribute nu se poate încărca
+1. This worksheet is required and must be included in your import file,1. Această foaie de lucru este necesar și trebuie să fie incluse în fișierul de import
+2. Do not change worksheet name as well as its content.,2. Nu schimbați numele foii de lucru precum și conținutul acestuia.
+3. Any change in this worksheet format will not allow system to import your data into system.,3. Orice modificare în acest format foaie de lucru nu va permite sistemului să importe datele în sistem.
+4. We recommend you to copy this worksheet in your import file with same worksheet name.,4. Vă recomandăm să copiați această foaie de lucru în fișierul de import cu același nume din foaia de lucru.
+1. This worksheet contains possible values of some field.,1. Această foaie de lucru conține valori posibile ale unor câmp.
+2. Please fill the related fields only from these possible values.,2. Vă rugăm să completați câmpurile aferente doar de la aceste valori posibile.
+3. If possible values for any field are not given then you can fill it with any text value.,"3. În cazul în care valorile posibile pentru orice domeniu nu sunt date, atunci puteti umple cu orice valoare de text."
+Seller's Products,Produse Vânzătorului
+The product has been saved.,Produsul a fost salvat.
+This window will be closed automatically within %s secs.,Această fereastră se va închide automat în interval de% s secunde.
+Product has been saved successfully.,Produs a fost salvat cu succes.
+The product has been duplicated successfully.,Produsul a fost duplicată cu succes.
+Product has been created successfully.,Produs a fost creat cu succes.
+Please wait for admin approval.,Vă rugăm să așteptați aprobarea administratorului.
+"Adding of new product limit has been over as your account is not approved or waiting for approval. To add more products, your account needs to be approved.","Adăugarea de limită nou produs a fost de peste ca contul dvs. nu este aprobat sau de așteptare pentru aprobare. Pentru a adăuga mai multe produse, contul trebuie să fie aprobat."
+You duplicated the product.,Ai duplicat produsul.
+Seller's Product,Produs vanzatorului
+This SKU already exist.,Acest SKU există deja.
+Cancel Vacation,Anulare vacanță
+Add New Vacation,Adăugați Noua vacanță
+Vacation Halted,vacanță Oprit
+Created Date,data creata
+This vacation is already canceled,Acest concediu este deja anulat
+Visibility,Vizibilitate
+click to edit product,click pentru a edita produs
+click to update quantity,click pentru a actualiza cantitatea
+Update Quantity,Actualizare Cantitate
+Order No.,Comandă nu.
+From Date,Din data
+To Date,La zi
+click to print order,click pentru a imprima comanda
+Shipping & Handling,Transport & manipulare
+Discount (%1),Reducere (% 1)
+Discount,Reducere
+Grand Total,Total general
+Grand Total to be Charged,Total general să fie debitată
+Custom Value,Valoare personalizată
+Order # %1,Comanda # 1%
+Comment History,Comentariu Istoric
+Shipment History,Istoricul expediere
+Credit Memo History,Istoric credit memo
+Subtotal (Excl.Tax),Subtotal (Excl.Tax)
+Subtotal (Incl.Tax),Subtotal (Incl.Tax)
+Shipping & Handling (Excl.Tax),Transport & manipulare (Excl.Tax)
+Shipping & Handling (Incl.Tax),Transport & manipulare (Incl.Tax)
+Grand Total (Excl.Tax),Total general (Excl.Tax)
+Grand Total (Incl.Tax),Total general (Incl.Tax)
+Email,E-mail
+Shipping Charges,Taxe de expediere
+Track this shipment,Urmăriți acest transport
+Track Order,Urmărește comanda
+Shipping Method,Metodă de livrare
+Shipping not Required,Nu este necesar de transport
+Payment Method,Modalitate de plată
+Grand Total (Excl. Shipping),Total general (Excl. Transport)
+Discount (%s),Reducere (% s)
+Total Refunded,totalul rambursată
+Total Due,Total datorat
+Shipping & Handling (Excl. Tax),Transport & manipulare (Excl. Tax)
+Shipping & Handling (Incl. Tax),Transport & manipulare (inclusiv. Tax)
+Print Order # %1,Print Order # 1%
+Minimum %d character requried,Minim% d caractere requried
+Save Template,Salvați șablonul
+Show Report,Afișează raport
+Manage Seller Account,Administreaza cont de vânzător
+Add Subcategory,Adăugați Subcategorie
+Add Root Category,Adăugați Root Categorie
+Save Settings,Salvează setările
+Seller Payout Request,Plată Vânzător Cerere
+ID,ID-ul
+Transation Date,Transation Data
+Telephone,Telefon
+Commission (in %),Comisia (în%)
+Your Earnings,Veniturile dvs.
+Category wise Commissions,Categorie Comisioane înțelepte
+Total Commission,Comisia totală
+Transaction History,Istoricul tranzactiilor
+Seller wise Commissions,Vânzător Comisioane înțelepte
+Seller Earning,Câștigul salarial Vânzător
+Amount Transfer,Suma de transfer
+Transaction Action,Acțiune tranzacție
+Sellers Payout (,Vânzătorii de plată (
+Seller Order List,Vânzătorul comenzii Lista
+Purchased From (Store),Achiziționat de la (magazin)
+Purchased On,achiziţionat On
+Actions,acţiuni
+Template Description,Descriere Format
+Template Type,Format Tip
+Date Added,Data adaugata
+Date Updated,Data actualizării
+Seller Best Selling Product List,Vanzator Lista de produse Cel mai bine vândute
+Interval,Interval
+Order Quantity,Cantitatea de comandă
+Product Price,Prețul produsului
+Seller Account Approval Request List,Vânzător cont Solicitare de aprobare Lista
+Approved Status,Starea aprobat
+Added Date,Data adăugării
+Approve,Aproba
+Account Status,starea contului
+Seller Status,Stare Vânzător
+Seller Since,Vânzător Deoarece
+Posted On,Postat pe
+Request Date,data ceruta
+Vacation Active,vacanță activă
+Seller Review Approval List,Vanzator Lista de analiză de aprobare a
+Seller Approval List,Vânzător Lista de aprobare
+Seller Product Reviews,Recenzii Vânzător produse
+Created On,Creat in
+Nickname,Poreclă
+Visible In,Vizibil în
+Type,Tip
+Product SKU,SKU produs
+Edit,Editați | ×
+Seller Category Request List,Vanzator Categorie Cerere Lista
+Seller Email,Vânzător E-mail
+View,Vedere
+Disapprove,Dezaproba
+Make New,Asigurați-vă nouă
+Edit Template,Editare șablon
+Products,Produse
+Administrator,Administrator
+Guest,Oaspete
+Seller Bulkimport Feature List,Vanzator Bulkimport Caracteristică Lista
+Last Update,Ultima actualizare
+Feature Status,caracteristică Stare
+Seller Bulkimport Feature Request List,Vânzător Bulkimport Caracteristică Lista Cerere
+Seller Comment,Vânzător Comentariu
+Your Comment,Comentariul tau
+Request Status,Solicitare de stare
+Activate Feature,Activați Caracteristică
+Read More,Citeste mai mult
+click to view review,click pentru a vizualiza recenzie
+Posted on: %s by %s,Postat pe:% s de% s
+Home,Acasă
+Home Page,Pagina principala
+click to view product,click pentru a vizualiza produsul
+Your seller account is currently under process and not yet approved. You only have a limited access to the seller account currently.,Contul dvs. vânzătorul este în prezent în curs și nu au fost încă aprobate. Ai doar un acces limitat la contul vânzătorului în prezent.
+Your seller account has been disapproved. You only have a limited access to the seller account currently. To send request again ,Contul dvs. vânzător a fost respins. Ai doar un acces limitat la contul vânzătorului în prezent. Pentru a trimite solicitarea din nou
+Click Here,Click aici
+Product Catalog,Catalog de produse
+Product Feedback,Feedback produs
+Earnings,câștig
+Transactions,tranzacţii
+New Category Request,Categorie nouă cerere
+My Vacations,Vacanțele mele
+Requested Date,Data solicitată
+Request On,Cerere On
+Date,Data
+Transaction Date,Data tranzacției
+Amount of %s debited from your earning on %s,Cantitatea de% s debitată din câștigul salarial pe% s
+Amount of %s credited into your account on %s,Suma de% s creditate în contul dvs. de pe% s
+Report Format,Formatul raportului
+Your file is valid. Please click 'Delete Products' button to delete your products,Fișierul dvs. este valid. Vă rugăm să faceți clic pe „Ștergeți produse“ buton pentru a șterge produsele
+Your file is valid. Please click 'Import Products' button to upload your products,Fișierul dvs. este valid. Vă rugăm să faceți clic pe butonul „Import produse“ pentru a încărca produsele
+Delete Products,Șterge Produse
+"Adding of new product limit has been over as your account is not approved or waiting for approval. To add more products, your account need to be approved.","Adăugarea de limită nou produs a fost de peste ca contul dvs. nu este aprobat sau de așteptare pentru aprobare. Pentru a adăuga mai multe produse, contul dvs. trebuie să fie aprobate."
+Use Default Value,Utilizare Valoare implicită
+Seller Account,cont de vânzător
+General Settings,setari generale
+Seller List,Listă Vanzator
+Seller Account Approval Request,Vânzător cont Solicitare de aprobare
+Seller Product List,Vanzator lista de produse
+Product Approval Request,Produs Solicitare de aprobare
+Product Reviews,Comentarii produse
+Seller Reviews,Opinii Vanzator
+Seller Review Approval Request,Vânzător opinie Solicitare de aprobare
+Category Request List,Categorie Cerere Listă
+Seller Vacation List,Vânzător Lista de vacanță
+Reports - Best Selling Products,Rapoarte - Cele mai vândute produse
+Email Templates,Template-uri de e-mail
+CRON Instructions,Instrucțiuni cron
+Bulk Import/Export,Import Bulk / Export
+Seller With Feature,Vânzător cu caracteristică
+Feature Activation Request,Solicitare de funcții de activare
+Transactions and Earnings,Tranzacții și Câștiguri
+Commissions,comisioane
+Category Wise Commissions,Categoria Comisioane înțelepților
+Seller Wise Commissions,Vânzător Comisioane înțelepților
+Sellers Payout List,Vânzătorii Lista de plată
+Sellers Payout Request,Vânzători de plată Cerere
+PayPal Payout Settings,Setările plății PayPal
+Best Selling Products,Cele mai vândute produse
+Seller with Import/Export Feature,Vânzător cu Feature Import / Export
+Import/Export Feature Activation Request List,Import / Export Solicitare funcții de activare Lista
+Category Wise Commission,Categoria Înțelept Comisiei
+Category Request List,Categorie Cerere Listă
+Edit Email Template,Editare șablon de e-mail
+Email Templates,Template-uri de e-mail
+Seller Order List,Vânzătorul comenzii Lista
+PayPal Payout Settings,Setările plății PayPal
+Product Approval Request,Produs Solicitare de aprobare
+All Seller's Products - Reviews,Produse Toate Vânzătorului - Recenzii
+Seller Account Approval Request,Vânzător cont Solicitare de aprobare
+Seller Wise Commission,Vânzător Comisia Înțelept
+Seller List,Listă Vanzator
+Seller Product List,Vanzator lista de produse
+Seller Review Approval Request,Vânzător opinie Solicitare de aprobare
+All Seller's Reviews,Review-uri Toate Vânzătorului
+Seller Vacation List,Vânzător Lista de vacanță
+Commissions,comisioane
+Sellers Payout,Vanzatorii de plată
+Sellers Payout Request,Vânzători de plată Cerere
+View Sellers,Vezi Sellers
+Start date or end date can not be same,Data de începere sau data de încheiere nu pot fi identice

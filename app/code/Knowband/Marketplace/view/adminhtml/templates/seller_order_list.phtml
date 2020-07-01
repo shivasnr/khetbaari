@@ -1,0 +1,10 @@
+<style>
+th.data-grid-th.no-link.col-action {
+    width: 150px;
+}
+</style>
+<?php 
+    echo $this->getLayout()
+    ->createBlock("Knowband\Marketplace\Block\Adminhtml\Grid\OrderList")
+    ->toHtml();
+?>

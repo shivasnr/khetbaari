@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Email:etc/email_templates.xsd">
+    <template id="kb_marketplace_email_template" label="Email Template" file="mp_email_template.html" type="html" module="Knowband_Marketplace" area="frontend"/>
+    <template id="kb_marketplace_seller_order_notification_email_template" label="Email Seller Order Template" file="seller_order_notification_email.html" type="html" module="Knowband_Marketplace" area="frontend"/>
+</config>

@@ -1,0 +1,170 @@
+<section class="content-header">
+    <h1><?php echo __("Products Feedback"); ?></h1>
+</section>
+
+<?php 
+    $dt_columns = $this->getColumns();
+    $dt_filters = $this->getFilters();
+?>
+<section id="<?php echo $this->getFieldId(); ?>_container" class="content">
+    <?php if(count($dt_filters) > 0){ ?>
+    <form onsubmit="return false;">
+        <div class="box box-default collapsed-box" data-widget="collapse">
+            <div class="box-header with-border" data-widget="collapse">
+                <h3 class="box-title"><?php echo __('Filter Your Search'); ?></h3>
+
+                <div class="box-tools pull-right">
+                  <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-plus"></i></button>
+                </div>
+            </div>
+            <div id="<?php echo $this->getFieldId(); ?>_list" class="box-body vssmp-list-filter">
+                <?php foreach($dt_filters as $filter){ ?>
+                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                        <div class="form-group">
+                            <label><?php echo $filter['label']; ?></label>
+                            <?php if($filter['type'] == 'select'){ ?>
+                                <select id="<?php echo $filter['name']; ?>" name="<?php echo $filter['name']; ?>" class="form-control <?php echo $filter['className']; ?>">
+                                    <option value="">Select</option>
+                                    <?php 
+                                        foreach($filter['values'] as $key => $val){
+                                            echo '<option value="'.$key.'" >'.$val.'</option>';
+                                        } 
+                                    ?>
+                                </select>
+                            <?php }else{ ?>
+                                <input id="<?php echo $filter['name']; ?>" name="<?php echo $filter['name']; ?>" type="text" class="form-control <?php echo $filter['className']; ?>" value="<?php echo $filter['values']; ?>"/>
+                            <?php } ?>
+                        </div>
+                    </div>
+                <?php } ?>
+            </div>
+            <div class="box-footer">
+                <input type="submit" class="btn btn-primary" onclick="vssmpFilterBigList()" value="<?php echo __("Search"); ?>">
+                <input type="reset" class="btn btn-danger" onclick="vssmpResetBigList()" value="<?php echo __("Reset"); ?>">
+            </div>
+        </div>
+    </form>
+    <?php } ?>
+    <div class="box box-success">
+        <div class="box-body">
+            <div class="table-responsive">
+                <table id="vssmp_big_table" class="table table-bordered table-striped datatable">
+                    <thead>
+                        <tr>
+                            <?php foreach($dt_columns as $col){ ?>
+                            <th <?php echo ($col['width'] != '')? 'width="'.$col['width'].'"' : ''; ?> ><?php echo $col['label']; ?></th>
+                            <?php } ?>
+                        </tr>
+                    </thead>
+                    <tbody id="<?php echo $this->getFieldId(); ?>_list_body">
+                        <tr>
+                            <td class="text-center" colspan="<?php echo count($dt_columns); ?>">
+                                <span class="label label-warning"><?php echo __('No Data'); ?></span>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <script type="text/javascript">
+                var getProductReviewDetailsUrl = '<?php echo $this->getUrl('marketplace/productreview/getProductReviewDetail'); ?>'; 
+                var vssmp_dt_page_length = <?php echo \Knowband\Marketplace\Helper\Data::PAGELIMIT; ?>;
+                var vssmp_field_id = '<?php echo $this->getFieldId(); ?>';
+                var vssmp_list_ajax_url = '<?php echo $this->getListUrl(); ?>';
+                var dt_columns = [];
+                <?php foreach($dt_columns as $colls){ ?>
+                    dt_columns.push({'name': '<?php echo $colls["name"]; ?>', 'targets': <?php echo $colls["targets"]; ?>, 'className': '<?php echo $colls["className"]; ?>'});
+                <?php } ?>
+                var filter_params = [];
+                <?php foreach($dt_filters as $filter){ ?>
+                    filter_params.push({'name': '<?php echo $filter["name"]; ?>'});
+                <?php } ?>
+            </script>
+            
+            <?php echo $this->getChildHtml('', true, true); ?>
+        </div>
+    </div>
+</section>
+
+<div id="vssmp-product-review-view-popup" class="modal fade in" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" onclick="closeVssModal('vssmp-product-review-view-popup')" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 id="vss_product_reviewpopup_name" class="modal-title"></h4>
+        </div>
+        <div class="modal-body">
+            <div class="overlay-wrapper">
+                <div class="overlay"><i class="fa fa-refresh fa-spin"></i></div>
+            </div>
+            <div class="modal_data_container">
+                <h5 class="text-light-blue"><?php echo __("Posted on"); ?>: <label id="vss_product_reviewpopup_created_date"></label> <?php echo __("by"); ?> <label id="vss_product_reviewpopup_customer_name"></label></h5>
+                <div class="form-group">
+                    <div class="row">
+                        <label class="col-lg-6"><?php echo __("Rating"); ?>:</label>
+                        <div class="col-lg-6">
+                            <div class="vss_ratings">
+                                <div class="vss_rating_box">
+                                    <div class="vss_rating_unfilled">★★★★★</div>
+                                    <div class="vss_rating_filled" id="vss_product_reviewpopup_average_rating">★★★★★</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="row">
+                        <label class="col-lg-6"><?php echo __("Status"); ?>:</label>
+                        <div class="col-lg-6">
+                            <div class="vssmp_small_block"><span id="vss_product_reviewpopup_status"></span></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <ul class="list-group list-group-unbordered">
+                        <li class="list-group-item">
+                            <dl>
+                                <dt><?php echo __("Summary"); ?>:</dt>
+                                <dd id="vss_product_reviewpopup_review_summary"></dd>
+                            </dl>
+                        </li>
+                        <li class="list-group-item">
+                            <dl>
+                                <dt><?php echo __("Review"); ?>:</dt>
+                                <dd id="vss_product_reviewpopup_review_content"></dd>
+                            </dl>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+</div>
+<script>
+function openVssSellerProductReviewModal(modal, review_id, product_id){
+    require(['jquery','jquery/ui'], function(jQuery){
+    jQuery.ajax({
+        url: getProductReviewDetailsUrl + (getProductReviewDetailsUrl.match(new RegExp('\\?')) ? '&isAjax=true' : '?isAjax=true'),
+        type: 'POST',
+        data: {id: review_id, pro_id: product_id},
+        dataType: 'json',
+        showLoader: true,
+        beforeSend: function() {},
+        success: function(retjson) {
+            jQuery('#vss_product_reviewpopup_name').html(retjson['product_name']);
+            jQuery('#vss_product_reviewpopup_created_date').html(retjson['reviewData'][0]['created_at']);
+            jQuery('#vss_product_reviewpopup_customer_name').html(retjson['reviewData'][0]['nickname']);
+            jQuery('#vss_product_reviewpopup_review_content').html(retjson['reviewData'][0]['detail']);
+            jQuery('#vss_product_reviewpopup_status').html(retjson['status']);
+            jQuery('#vss_product_reviewpopup_review_summary').html(retjson['reviewData'][0]['title']);
+            jQuery('#vss_product_reviewpopup_average_rating').css('width',retjson['average_rating']+'%');
+//            jQuery('#vss_product_reviewpopup_value_rating').css('width',retjson['ratings'][0]+'%');
+//            jQuery('#vss_product_reviewpopup_quality_rating').css('width',retjson['ratings'][1]+'%');
+//            jQuery('#vss_product_reviewpopup_price_rating').css('width',retjson['ratings'][2]+'%');
+            jQuery('#'+modal).show();
+            jQuery('#'+modal+' .overlay-wrapper').hide();
+        }
+    });
+    });
+}
+</script>

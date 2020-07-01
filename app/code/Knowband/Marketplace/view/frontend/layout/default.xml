@@ -1,0 +1,31 @@
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceBlock name="header.links">
+            <block class="Knowband\Marketplace\Block\TopLink" ifconfig="vss/marketplace/active" name="marketplace_top_menu_link" before="-">
+                <arguments>
+                    <argument name="label" xsi:type="string">Seller Account</argument>
+                    <argument name="title" xsi:type="string">Seller Account</argument>
+                    <argument name="path" xsi:type="string" >marketplace/index/index</argument>
+                </arguments>
+            </block>
+            
+            <block class="Magento\Framework\View\Element\Html\Link\Current" ifconfig="vss/marketplace/active" name="marketplace_top_menu_seller_list_link" before="-">
+                <arguments>
+                    <argument name="label" xsi:type="string" >View Sellers</argument>
+                    <argument name="title" xsi:type="string" >Seller List</argument>
+                    <argument name="path" xsi:type="string" >marketplace/sellers/sellerlist</argument>
+                </arguments>
+            </block>
+        </referenceBlock>
+       
+        <referenceBlock name="footer_links">
+            <block class="Magento\Framework\View\Element\Html\Link\Current" name="marketplace_footer_link" after="-" ifconfig="vss/marketplace/active">
+                <arguments>
+                    <argument name="label" xsi:type="string" >View Sellers</argument>
+                    <argument name="title" xsi:type="string" >Seller List</argument>
+                    <argument name="path" xsi:type="string">marketplace/sellers/sellerlist</argument>
+                </arguments>
+            </block>
+        </referenceBlock>
+    </body>
+</page>

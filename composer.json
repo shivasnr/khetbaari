@@ -1,0 +1,189 @@
+{
+    "name": "magento/project-community-edition",
+    "description": "eCommerce Platform for Growth (Community Edition)",
+    "type": "project",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "require": {
+        "google/apiclient": "^2.0",
+        "magento/module-captcha": "^100.3",
+        "magento/product-community-edition": "2.3.4"
+    },
+    "replace": {
+        "magento/module-dhl": "*",
+        "magento/module-fedex": "*",
+        "magento/module-marketplace": "*",
+        "magento/module-multishipping": "*",
+        "magento/module-persistent": "*",
+        "magento/module-catalog-rule-configurable": "*",
+        "magento/module-authorizenet": "*",
+        "magento/module-google-adwords": "*",
+        "magento/module-sample-data": "*",
+        "magento/module-send-friend": "*",
+        "magento/module-swagger": "*",
+        "magento/module-swagger-webapi": "*",
+        "magento/module-swagger-webapi-async": "*",
+        "magento/module-swatches": "*",
+        "magento/module-swatches-layered-navigation": "*",
+        "magento/module-google-optimizer": "*",
+        "magento/module-ups": "*",
+        "magento/module-usps": "*",
+        "magento/module-braintree": "*",
+        "magento/module-signifyd": "*",
+        "magento/module-release-notification": "*",
+        "magento/module-new-relic-reporting": "*",
+        "magento/module-version": "*",
+ 
+        "magento/module-analytics": "*",
+        "magento/module-catalog-analytics": "*",
+        "magento/module-customer-analytics": "*",
+        "magento/module-quote-analytics": "*",
+        "magento/module-review-analytics": "*",
+        "magento/module-sales-analytics": "*",
+        "magento/module-wishlist-analytics": "*",
+ 
+        "magento/module-bundle-graph-ql": "*",
+        "magento/module-catalog-graph-ql": "*",
+        "magento/module-catalog-inventory-graph-ql": "*",
+        "magento/module-catalog-url-rewrite-graph-ql": "*",
+        "magento/module-cms-graph-ql": "*",
+        "magento/module-cms-url-rewrite-graph-ql": "*",
+        "magento/module-inventory-graph-ql": "*",
+        "magento/module-configurable-product-graph-ql": "*",
+        "magento/module-customer-graph-ql": "*",
+        "magento/module-downloadable-graph-ql": "*",
+        "magento/module-eav-graph-ql": "*",
+        "magento/module-graph-ql": "*",
+        "magento/module-grouped-product-graph-ql": "*",
+        "magento/module-quote-graph-ql": "*",
+        "magento/module-store-graph-ql": "*",
+        "magento/module-swatches-graph-ql": "*",
+        "magento/module-tax-graph-ql": "*",
+        "magento/module-url-rewrite-graph-ql": "*",
+        "magento/module-weee-graph-ql": "*",
+ 
+        "magento/module-advanced-pricing-import-export": "*",
+        "magento/module-bundle-import-export": "*",
+        "magento/module-configurable-import-export": "*",
+        "magento/module-customer-import-export": "*",
+        "magento/module-downloadable-import-export": "*",
+        "magento/module-grouped-import-export": "*",
+        "magento/module-tax-import-export": "*",
+ 
+        "magento/module-inventory": "*",
+        "magento/module-inventory-admin-ui": "*",
+        "magento/module-inventory-api": "*",
+        "magento/module-inventory-bundle-product": "*",
+        "magento/module-inventory-bundle-product-admin-ui": "*",
+        "magento/module-inventory-cache": "*",
+        "magento/module-inventory-catalog": "*",
+        "magento/module-inventory-catalog-admin-ui": "*",
+        "magento/module-inventory-catalog-api": "*",
+        "magento/module-inventory-catalog-search": "*",
+        "magento/module-inventory-configurable-product": "*",
+        "magento/module-inventory-configurable-product-admin-ui": "*",
+        "magento/module-inventory-configurable-product-indexer": "*",
+        "magento/module-inventory-configuration": "*",
+        "magento/module-inventory-configuration-api": "*",
+ 
+        "magento/module-inventory-elasticsearch": "*",
+        "magento/module-inventory-grouped-product": "*",
+        "magento/module-inventory-grouped-product-admin-ui": "*",
+        "magento/module-inventory-grouped-product-indexer": "*",
+        "magento/module-inventory-import-export": "*",
+        "magento/module-inventory-indexer": "*",
+        "magento/module-inventory-low-quantity-notification": "*",
+        "magento/module-inventory-low-quantity-notification-admin-ui": "*",
+        "magento/module-inventory-low-quantity-notification-api": "*",
+        "magento/module-inventory-multi-dimensional-indexer-api": "*",
+        "magento/module-inventory-product-alert": "*",
+        "magento/module-inventory-reservations": "*",
+        "magento/module-inventory-reservations-api": "*",
+        "magento/module-inventory-sales": "*",
+        "magento/module-inventory-sales-admin-ui": "*",
+        "magento/module-inventory-sales-api": "*",
+        "magento/module-inventory-sales-frontend-ui": "*",
+        "magento/module-inventory-shipping": "*",
+        "magento/module-inventory-shipping-admin-ui": "*",
+        "magento/module-inventory-source-deduction-api": "*",
+        "magento/module-inventory-source-selection": "*",
+        "magento/module-inventory-source-selection-api": "*",
+        "magento/module-inventory-distance-based-source-selection": "*",
+        "temando/module-shipping-m2": "*",
+        "dotmailer/dotmailer-magento2-extension": "*",
+        "klarna/module-kp": "*",
+        "klarna/module-ordermanagement": "*",
+        "klarna/module-core": "*",
+        "amzn/amazon-pay-sdk-php": "*",
+        "amzn/amazon-pay-and-login-with-amazon-core-module": "*",
+        "amzn/login-with-amazon-module": "*",
+        "amzn/amazon-pay-module": "*",
+        "vertex/module-tax": "*",
+        "vertex/sdk": "*"
+    },
+    "require-dev": {
+        "allure-framework/allure-phpunit": "~1.2.0",
+        "dealerdirect/phpcodesniffer-composer-installer": "^0.5.0",
+        "friendsofphp/php-cs-fixer": "~2.14.0",
+        "lusitanian/oauth": "~0.8.10",
+        "magento/magento-coding-standard": "~4.0.0",
+        "magento/magento2-functional-testing-framework": "2.5.3",
+        "pdepend/pdepend": "2.5.2",
+        "phpcompatibility/php-compatibility": "^9.3",
+        "phpmd/phpmd": "@stable",
+        "phpunit/phpunit": "~6.5.0",
+        "sebastian/phpcpd": "~3.0.0",
+        "squizlabs/php_codesniffer": "~3.4.0"
+    },
+    "conflict": {
+        "gene/bluefoot": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Magento\\Framework\\": "lib/internal/Magento/Framework/",
+            "Magento\\Setup\\": "setup/src/Magento/Setup/",
+            "Magento\\": "app/code/Magento/",
+            "Zend\\Mvc\\Controller\\": "setup/src/Zend/Mvc/Controller/"
+        },
+        "psr-0": {
+            "": [
+                "app/code/",
+                "generated/code/"
+            ]
+        },
+        "files": [
+            "app/etc/NonComposerComponentRegistration.php"
+        ],
+        "exclude-from-classmap": [
+            "**/dev/**",
+            "**/update/**",
+            "**/Test/**"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Magento\\Sniffs\\": "dev/tests/static/framework/Magento/Sniffs/",
+            "Magento\\Tools\\": "dev/tools/Magento/Tools/",
+            "Magento\\Tools\\Sanity\\": "dev/build/publication/sanity/Magento/Tools/Sanity/",
+            "Magento\\TestFramework\\Inspection\\": "dev/tests/static/framework/Magento/TestFramework/Inspection/",
+            "Magento\\TestFramework\\Utility\\": "dev/tests/static/framework/Magento/TestFramework/Utility/"
+        }
+    },
+    "version": "2.3.4",
+    "minimum-stability": "stable",
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://repo.magento.com/"
+        }
+    ],
+    "extra": {
+        "magento-force": "override"
+    }
+}

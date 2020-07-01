@@ -1,0 +1,165 @@
+<section class="content-header">
+    <h1 style="display: inline-block;"><?php echo __("New Shipment"); ?></h1>
+    <div class="pull-right">
+        <div class="btn-group">
+            <button type="button" onclick="location.href = '<?php echo $this->getUrl('marketplace/order/orderview', ['order_id' => $this->getOrder()->getId()]); ?>';" class="btn btn-primary btn-sm" ><?php echo __('Back'); ?></button>
+        </div>
+    </div>
+</section>
+
+<section class="content">
+    <div class="box box-warning">
+        <div class="box-header with-border" data-widget="collapse"> 
+            <h3 class="box-title" style="display: inline-block;"><?php echo __("Basic Informations"); ?></h3> <strong class="text-yellow">(#<?php echo $this->getOrderNumber(); ?>)</strong>
+            <div class="box-tools pull-right">
+              <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
+            </div>
+        </div>
+        <div class="box-body">
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="list-group order-basic-list">
+                        <li class="list-group-item">
+                            <div class="row">
+                                <div class="col-lg-6 col-xs-12">
+                                    <span class="badge"><?php echo $this->getOrderStatus(); ?></span>
+                                    <?php echo __("Order Status"); ?>        
+                                </div>
+                                <div class="col-lg-6 col-xs-12">
+                                    <span class="badge"><?php echo $this->getOrderDate(); ?></span>
+                                    <?php echo __("Order Date"); ?>        
+                                </div>
+                            </div>
+                        </li>
+                        <?php $general = $this->getGeneralInfo(); ?>
+                        <?php if(count($general) > 0){ ?>
+                            <?php $break = 0; ?>
+                            <?php foreach($general as $row){ ?>
+                                <?php if($break == 0 || ($break%2 == 0)){ ?>
+                                    <li class="list-group-item">
+                                        <div class="row">
+                                <?php } ?>
+                                    <div class="col-lg-6 col-xs-12">
+                                        <span class="badge"><?php echo $row['value']; ?></span>
+                                        <?php echo $row['label']; ?>        
+                                    </div>
+                                <?php if(($break == 0 && count($general) == 1) || ($break%2 == 1 && $break > 0) || ($break == (count($general) - 1))){ ?>
+                                        </div>
+                                    </li>
+                                <?php } ?>
+                                <?php $break++; ?>
+                            <?php } ?>
+                        <?php } ?>
+                    </ul>
+                </div>
+                <div class="col-lg-12">
+                    <div class="row">
+                        <div class="<?php if (!$this->getOrder()->getIsVirtual()) { ?>col-lg-6 col-xs-12<?php } else { ?>col-lg-12<?php } ?>">
+                            <div class="box box-default box-solid">
+                                <div class="box-header with-border">
+                                    <h3 class="box-title"><?php echo __('Billing Address'); ?></h3>
+                                </div>
+                                <div class="box-body">
+                                    <?php echo $block->getFormattedAddress($this->getOrder()->getBillingAddress()); ?>
+                                </div>
+                            </div>
+                        </div>
+                        <?php if (!$this->getOrder()->getIsVirtual()) { ?>
+                            <div class="col-lg-6 col-xs-12">
+                                <div class="box box-default box-solid">
+                                    <div class="box-header with-border">
+                                        <h3 class="box-title"><?php echo __('Shipping Address'); ?></h3>
+                                    </div>
+                                    <div class="box-body">
+                                        <?php echo $block->getFormattedAddress($this->getOrder()->getShippingAddress()); ?>
+                                    </div>
+                                </div>
+                            </div>
+                        <?php } ?>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <form id="vss_shipment_form" action="<?php echo $this->getUrl('marketplace/shipment/save', ['order_id' => $this->getOrder()->getId()]); ?>" method="post">
+        <div class="box box-warning">
+            <div class="box-header with-border" data-widget="collapse">
+                <h3 class="box-title"><?php echo __('Shipment Tracking') ?></h3>
+                <div class="box-tools pull-right">
+                  <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
+                </div>
+            </div>
+            <div class="box-body">
+                <div class="table-responsive">
+                    <table class="table table-striped table-bordered">
+                        <thead>
+                            <tr>
+                                <th><?php echo __("Carrier"); ?></th>
+                                <th><?php echo __("Title"); ?></th>
+                                <th><?php echo __("Tracking No."); ?></th>
+                                <th><?php echo __("Action"); ?></th>
+                            </tr>
+                        </thead>
+                        <tbody id="shipping_track_body">
+                            <tr id="track_row_template" class="no-display">
+                                <td>
+                                    <select name="tracking[__index__][carrier_code]" class="form-control" onchange="selectCarrier(this, __index__)">
+                                        <?php foreach ($this->getCarriers() as $_code=>$_name): ?>
+                                        <option value="<?php echo $_code ?>"><?php echo $this->escapeHtml($_name) ?></option>
+                                        <?php endforeach; ?>
+                                    </select>
+                                </td>
+                                <td><input class="form-control number-title" type="text" name="tracking[__index__][title]" id="trackingT__index__" value="" autocomplete="off"></td>
+                                <td><input class="form-control required-entry" type="text" name="tracking[__index__][number]" id="trackingN__index__" value="" autocomplete="off"></td>
+                                <td><button class="btn btn-danger" onclick="deleteTracking(this)" ><i class="fa fa-trash-o"></i></button></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="text-center">
+                    <button type="button" class="btn btn-sm btn-warning" onclick="addNewTracking()"><?php echo __("Add Tracking Number"); ?></button>
+                </div>
+            </div>
+        </div>
+    
+        <?php echo $this->getChildHtml('marketplace_seller_new_shipment_items'); ?>
+    </form>
+</section>
+<script type="text/javascript">
+        var shipping_tracking_row_index = 1;
+        function addNewTracking(){
+            var row = jQuery('#track_row_template').html();
+            row = row.replace(/__index__/g, shipping_tracking_row_index);
+            
+            jQuery('#shipping_track_body').append('<tr id="tracking_row_'+shipping_tracking_row_index+'">'+row+'</tr>');
+            shipping_tracking_row_index++;
+        }
+        
+        function deleteTracking(e){
+            jQuery(e).closest('tr').remove();
+        }
+        
+        function selectCarrier(elem, index) {
+            var option = elem.options[elem.selectedIndex];
+            jQuery('#trackingT'+index).value = option.value && option.value != 'custom' ? option.text : '';
+        }
+        
+        function validateQtyToShipment(e)
+        {
+            var valid = true;
+            var errorMessage = '<?php echo __("Invalid value(s) for Qty to Ship"); ?>';
+            jQuery('.qty-input').each(function() {
+                var val = parseFloat(jQuery(this).val());
+                if (isNaN(val) || val < 0) {
+                    valid = false;
+                    alert(errorMessage);
+                    throw $break;
+                }
+            });
+            if(valid){
+                if (jQuery('form#vss_shipment_form').submit()) {
+                    jQuery(e).attr('disabled', true);
+                }
+            }
+        }
+</script>

@@ -1,0 +1,144 @@
+<?php
+$objectManager = \Magento\Framework\App\ObjectManager::getInstance();
+
+$fb_link = false;
+$google_link = false;
+$twitter_link = false;
+$sellerDetail = $objectManager->get("\Magento\Framework\Registry")->registry('sellerDetail');
+$categories = $objectManager->get("\Magento\Framework\Registry")->registry('categories');
+$loginPageUrl = $objectManager->get("\Magento\Framework\Registry")->registry('loginPageUrl');
+$username = $objectManager->get('Magento\Contact\Helper\Data')->getUserName();
+$globalSettings = $objectManager->get("Hariyo\Marketplace\Helper\Setting")->getSettings();
+$enableReviewPrime = 0;
+
+if (isset($globalSettings['seller_review'])){
+    $enableReviewPrime = 1;
+}
+
+unset($globalSettings);
+$onclickContent = '';
+
+$enableReview = $enableReviewPrime;
+$sellerId =  $sellerDetail['seller_id'];
+$collection = $objectManager->get("Hariyo\Marketplace\Helper\Data")->getSellerLevelSettingsBySellerId($sellerId);
+$globalSettings = $objectManager->get("Hariyo\Marketplace\Helper\Setting")->getSettings();
+
+$settings = [];
+foreach ($collection as $row)
+{
+    if($row->getFieldValue() != ''){
+            $settings[$row->getFieldName()]['seller'] = $row->getFieldValue();
+    } else {
+        if($row->getFieldName() == 'commission'){
+            $settings[$row->getFieldName()]['seller'] = $globalSettings[$row->getFieldName()];
+        }
+        if($row->getFieldName() == 'product_limit'){
+            $settings[$row->getFieldName()]['seller'] = $globalSettings[$row->getFieldName()];
+        }
+    }
+
+    $settings[$row->getFieldName()]['global'] = $row->getUseDefault();
+}
+
+if(count($settings) < 1){
+    $settings = $objectManager->get("Hariyo\Marketplace\Helper\Setting")->getDefaultSellerSettings();
+}
+
+if (isset($settings['seller_review']['global']) && $settings['seller_review']['global'] == 1) {
+    $isSellerReviewGlobal = $settings['seller_review']['global'];
+} else {
+    $isSellerReviewGlobal = 0;
+}
+if(isset($settings['seller_review']['seller'])){
+    $sellerReview = $settings['seller_review']['seller'];
+} else {
+    $sellerReview = 0;
+}
+
+unset($settings);
+if($isSellerReviewGlobal == 0) {
+    $enableReview = $sellerReview;
+}
+
+if ($objectManager->get('Magento\Customer\Model\Session')->isLoggedIn()) { 
+    $onclickContent = "openVssModal('vssmp-write-review-popup')";
+}
+else {
+    $onclickContent = "location.href = '" . $loginPageUrl . "'";
+}
+
+$sellerDetail['shop_address'] = (array) json_decode($sellerDetail['shop_address']);
+if (isset($sellerDetail['fb_link']) && $sellerDetail['fb_link'] != '') {
+    $fb_link = $sellerDetail['fb_link'];
+    if (!preg_match("~^(?:f|ht)tps?://~i", $fb_link)) {
+        $fb_link = "http://" . $fb_link;
+    }
+}
+
+if (isset($sellerDetail['google_link']) && $sellerDetail['google_link'] != '') {
+    $google_link = $sellerDetail['google_link'];
+    if (!preg_match("~^(?:f|ht)tps?://~i", $google_link)) {
+        $google_link = "http://" . $google_link;
+    }
+}
+
+if (isset($sellerDetail['twitter_link']) && $sellerDetail['twitter_link'] != '') {
+    $twitter_link = $sellerDetail['twitter_link'];
+    if (!preg_match("~^(?:f|ht)tps?://~i", $twitter_link)) {
+        $twitter_link = "http://" . $twitter_link;
+    }
+}
+?>
+<script>
+    require(['jquery', "Knowband_Marketplace/theme/vssmp_base"], function(jQuery){
+    });
+    var getSellerProductsUrl = '<?php echo $this->getUrl('marketplace/sellers/getSellerProducts'); ?>';
+    var vssmp_seller_id = '<?php if(isset($sellerDetail['seller_id'])) echo $sellerDetail['seller_id']; else echo ''; ?>';
+</script>
+<?php if(isset($sellerDetail['seller_id'])) { ?>
+<div id="vssmp-seller-view">
+    <div class="vssmp_row">
+        <div class="vssmp_row" style="border-bottom: 1px #eee solid;">
+            <span class="seller-description-title"><?php echo __("Seller Products"); ?></span>            
+        </div>
+
+        <div class="filter_blk vssmp-flt-left vssmp-wdt-20">
+            <div class="block block-layered-nav block-layered-nav--no-filters vssmp-pd-right-10px">
+                <div class="block-content toggle-content vssmp-block-content">
+                    <p class="block-subtitle block-subtitle--filter"><?php echo __("Filter Products"); ?></p>
+                    <dl id="vssmp_seller_product_filters">
+                        <dt class="odd"><?php echo __("Category"); ?></dt>
+                        <dd class="odd">
+                            <ol>
+                                <li>
+                                    <select name="productCategoryFilter" class="vss_custom_select" id="vss_category_filter" onchange="fetchSellerProduct()">
+                                        <option value="all"><?php echo __("All Categories"); ?></option>
+                                        <?php echo $objectManager->get("Hariyo\Marketplace\Helper\Data")->getCategoryDropDownHtml($categories); ?>
+                                    </select>                                    
+                                </li>
+                            </ol>
+                        </dd>
+                        <dt class="even"><?php echo __("Sort By"); ?></dt>
+                        <dd class="even">
+                            <ol>
+                                <li>
+                                    <select name="productSortingFilter" class="vss_custom_select" id="vss_sorting_filter" onchange="fetchSellerProduct()">
+                                        <option value="1"><?php echo __("Name"); ?></option>
+                                        <option value="2"><?php echo __("SKU"); ?></option>
+                                        <option value="3"><?php echo __("Price(low to high)"); ?></option>
+                                        <option value="4"><?php echo __("Price(high to low)"); ?></option>
+                                    </select>
+                                </li>
+                            </ol>
+                        </dd>                    
+                    </dl>
+                </div>
+            </div>
+        </div>
+        <div id="seller-product-list-loader" class="vssmp-flt-right vssmp-wdt-80"><div class="loading128"></div></div>
+        <div class="vssmp-flt-right vssmp-wdt-80" id="seller-product-list-holder">            
+            <?php echo $this->getChildHtml('vssmp_seller_productlist'); ?>
+        </div>
+    </div>
+</div>
+<?php } ?>

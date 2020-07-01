@@ -1,0 +1,1009 @@
+The product status will be 'Disabled' until it is approved from admin.,Status produktu zostanie „Disabled” dopóki nie zostanie zatwierdzony od administratora.
+The seller has already added more products. Please either increase the limit or save it as it is.,Sprzedawca już dodane kolejne produkty. Należy albo zwiększyć limit lub zapisać go jak to jest.
+Reason,Powód
+Required field,Pole wymagane
+Submit,Zatwierdź
+Why do you want to do this?,Dlaczego chcesz to zrobić?
+Continue,dalej
+Something went wrong. Please try again.,Coś poszło nie tak. Proszę spróbuj ponownie.
+Vacation Interval: ,Interwał na wakacje:
+Is Active: ,Jest aktywny:
+Vacation Halt Status: ,Wakacje Halt Status:
+Comment: ,Komentarz:
+Reason for canceling vacation: ,Powodem odwołania wakacje:
+Vacation Detail,Szczegóły wakacje
+Your comment to cancel this vacation,Twój komentarz anulować to wakacje
+Register as Seller,Zarejestrować się jako Sprzedającym
+Yes,tak
+No,Nie
+Marketplace CRON Instructions,Instrukcje Giełda Cron
+Vacation CRON,CRON wakacje
+Disable the products during the seller's vacation period.,Wyłącz produktów w okresie wakacyjnym sprzedającego.
+Low Stock Notification CRON,Powiadomienie o niskiej Zdjęcie CRON
+Send the notification to the sellers about their low stock products.,Wyślij zgłoszenie do sprzedawców o ich niskie produktów giełdowych.
+Cron Instructions,Instrukcje cron
+Add the Cron Jobs to your store via control panel/putty. Find below the Instruction to add the Cron Jobs.,Dodaj Cron Jobs do sklepu z panelu sterowania / kit. Poniżej znajdują Instrukcji dodać Cron Jobs.
+URLs to Add to Cron via Control Panel,URL do Dodaj do Cron za pośrednictwem Panelu sterowania
+1. Vacation CRON,1. Urlop CRON
+2. Low Stock Notification CRON,2. Niskie CRON Zawiadomienie Zdjęcie
+Cron setup via SSH,Konfiguracja Cron poprzez SSH
+Choose Store Categories,Wybierz Sklep kategorie
+Collapse All,Zwinąć wszystkie
+Expand All,Rozwiń wszystkie
+This operation can take a long time,Operacja ta może trwać długo
+Please confirm site switching. All data that hasn\'t been saved will be lost.,"Proszę potwierdzić przełączanie strony. Wszystkie dane, które Hasn '\ t zapisane zostaną utracone."
+Warning message,Wiadomość ostrzegawcza
+Field cannot be empty.,Pole nie może być puste.
+You can enter only numbers.,Można wprowadzić tylko cyfry.
+Number should be greater than 0.,Liczba powinna być większa niż 0.
+Field cannot be greater than {#} characters.,Pole nie może być większa niż {#} znaków.
+Field cannot be less than {#} character(s).,Pole nie może być mniejsza niż {#} znaku (ów).
+Please enter Email.,Proszę podać e-mail.
+Please enter a valid Email.,Proszę podać poprawny adres e-mail.
+Invalid date format.,Zły format daty.
+Number is not in the valid range. It should be between {#} and {##},Liczba nie jest w poprawnym zakresie. Powinna ona wynosić od {#} i {##}
+Field should be numeric.,Pole powinno być numeryczne.
+Field should be positive.,Pole powinno być dodatnie.
+Field can have only upto two decimal values.,Pole może mieć tylko do połowy dwie wartości dziesiętnych.
+Email cannot be greater than {#} characters.,E-mail nie może być większa niż {#} znaków.
+Zip should not have special characters.,Zip nie powinny mieć znaki specjalne.
+Percentage should be in number.,Procent powinien być numerem.
+Percentage should be between 0 and 100.,Procent powinna wynosić między 0 a 100.
+Size cannot be greater than {#} characters.,Rozmiar nie może być większa niż {#} znaków.
+Color could not be greater than {#} characters.,Kolor nie może być większa niż {#} znaków.
+Color is not valid.,Kolor nie jest ważny.
+Special characters are not allowed.,Znaki specjalne nie są dozwolone.
+Script tags are not allowed.,tagi Script nie są dozwolone.
+Style tags are not allowed.,tagi style nie są dozwolone.
+Iframe tags are not allowed.,Tagi iframe nie są dozwolone.
+Uploaded file is not an image.,Przesłany plik nie jest obrazem.
+Uploaded file size must be less than {#}.,Przesłano rozmiar pliku musi być mniejsza niż {#}.
+Field should not contain HTML tags.,Pole nie może zawierać znaczników HTML.
+You can enter only positive numbers.,Można podać tylko liczby dodatnie.
+Are you sure?,Jesteś pewny?
+Comment,Komentarz
+Are you sure to update feature status of this seller?,Czy na pewno chcesz zaktualizować stan cechą tego sprzedawcy?
+Do you have any comment?,Czy masz jakiś komentarz?
+"For accurate reporting, be sure to refresh lifetime statistics whenever you change the time zone.","Dla dokładnego raportowania, należy odświeżyć statystyki dożywotnie każdej zmianie strefy czasowej."
+To refresh last day's,Aby odświeżyć na ostatni dzień
+statistics,Statystyka
+click,Kliknij
+here,tutaj
+Filter,Filtr
+Period,Kropka
+Day,Dzień
+Month,Miesiąc
+Year,Rok
+From,Z
+Select Date,Wybierz datę
+To,Do
+Choose Category,Wybierz kategorię
+All Categories,Wszystkie kategorie
+Choose a Seller,Wybierz sprzedawcę
+All Sellers,wszyscy sprzedawcy
+NA,NA
+PayPal Payout Settings,Ustawienia wypłat PayPal
+Active,Aktywny
+Enable or Disable Paypal Payment Method.,Włącz lub wyłącz płatności PayPal.
+Client ID,Identyfikator klienta
+Client Secret,Tajemniczy klient
+Paypal Mode,Tryb Paypal
+Sandbox,piaskownica
+Live,Relacja na żywo
+Paypal Email Subject,Paypal email Temat
+Paypal Currency ,Paypal waluty
+Select the default currency set in Paypal Account.,Wybierz domyślny zestaw walut w Paypal konto.
+Are You Sure you want to reset the settings?,Czy na pewno chcesz zresetować ustawienia?
+Edit Email Template,Edycja szablonu e-mail
+About Template,o szablonie
+Template Subject,szablon Temat
+Email Content,email Content
+Template Content,szablon Content
+Please do not edit or remove any template variable.,Proszę nie edytować lub usunąć dowolną zmienną szablonu.
+Example,Przykład
+Seller Account Settings,Ustawienia Sprzedawca konto
+Default Commission,domyślny Komisja
+Please enter a number between 0 and 100 only and in a proper format.,"Wpisz liczbę między 0 a 100, a tylko w odpowiednim formacie."
+Use Global,Użyj globalnego
+New Product Limit,Nowy limit wyrobów
+Limit the sellers to add new products without account approval.,"Ograniczyć sprzedawców, aby dodać nowe produkty bez zgody konta."
+If left blank than product limit will be assumed 0.,Jeśli pusta niż limit produkt będzie założyć 0.
+Categories Allowed,Kategorie dozwolone
+If no category is selected that will mean that all the categories are allowed.,"Jeśli nie wybrano żadnej kategorii, która będzie oznaczać, że wszystkie kategorie są dozwolone."
+Product Approval Required,Zatwierdzenie produktu wymaganą
+Enable,Włączyć
+Disable,Wyłączyć
+Enable Seller Review,Włącz Sprzedawca recenzję
+Required Seller Review Approval,Wymagane Sprzedawca Przegląd Zatwierdzenie
+Email to Seller on Order Place,E-mail do Sprzedającego na zamówienie Place
+Please enter a valid number in this field.,Proszę podać poprawny numer w tej dziedzinie.
+Payout Transaction Request,Zapytanie wypłata transakcja
+Required Field,Pole wymagane
+Invalid Value,Niewłaściwa wartość
+"Invalid Value, please enter a number greater than zero","Nieprawidłowa wartość, wpisz liczbę większą od zera"
+Minimum 30 character required,wymagane minimum 30 znaków
+General Settings,Ustawienia główne
+Enable Marketplace,Włącz Marketplace
+Toggle to enable or disable extension,"Przełączać, aby włączyć lub wyłączyć rozszerzenie"
+Default Commission (%),Domyślny Komisji (%)
+Set default commission in percentage for each product.,Ustaw domyślne prowizji w procentach dla każdego produktu.
+Choose the categories allowed for the sellers. If no category is selected that will mean that all the categories are allowed.,"Wybierz kategorię dozwolony dla sprzedawców. Jeśli nie wybrano żadnej kategorii, która będzie oznaczać, że wszystkie kategorie są dozwolone."
+Register as Seller Field,Zarejestrować się jako Sprzedawca Polu
+Enable to add 'Register as Seller' field while registering.,"Włącz, aby dodać 'Register jako sprzedającego polu podczas rejestracji."
+Enable Bulk Import/Export,Włącz luzem Import / Export
+"If disable, no seller will be able to use bulk import/export feature.","Jeśli wyłączyć, nie sprzedawca będzie mógł używać funkcji zbiorczego importu / eksportu."
+If enable an email will be sent to seller on order for his product.,Jeśli umożliwić e-mail zostanie wysłany do sprzedawcy na zamówienie dla swojego produktu.
+Enable Vacation Mode,Włącz tryb wakacje
+"If disable, no seller will be able to use vacation feature.","Jeśli wyłączyć, sprzedawca nie będzie mógł korzystać z funkcji wakacje."
+Show Seller Info on Product Page,Pokaż Sprzedawca Informacje o produkcie Page
+Enable/Disable to show/hide seller info on product page.,Włącz / Wyłącz aby pokazać / ukryć informacje o sprzedającym na stronie produktu.
+Enable or Disable Approval of product for the sellers.,Włącz lub wyłącz Zatwierdzenie produktu dla sprzedawców.
+Default limit for sellers of adding new products before account approval. Blank will be considered as 0.,domyślny limit dla sprzedawców dodanie nowych produktów przed zatwierdzeniem konta. Blank będą traktowane jako 0.
+Enable or Disable Seller review feature. This feature enables the customers to add review for sellers.,"Włączanie lub wyłączanie funkcji Przegląd Sprzedawca. Funkcja ta umożliwia klientom, aby dodać opinię o sprzedających."
+Seller Review Approval Required,Przegląd Sprzedawca Zatwierdzenie Wymagane
+Enable or Disable Approval for seller review. Once the review is approved then only it will be visible to the customers.,Włącz lub wyłącz Approval do przeglądu sprzedającego. Gdy przegląd został zatwierdzony dopiero potem będzie widoczna dla klientów.
+Enable Seller List,Włącz Sprzedawca Lista
+Show or Hide Sellers List from customers.,Pokaż lub Ukryj Sprzedających listy z klientami.
+Enable Search Box,Włącz Search Box
+Enable or Disbale search box to search seller on seller listing page.,"Czy wyłączyć lub włączyć pole wyszukiwania, aby szukać na stronie sprzedawcy sprzedający aukcji."
+Low Stock Configuration,Niska Konfiguracja Zdjęcie
+Enable Low Stock Notification,Enable Low Notification Image
+Enable or Disable Low Stock Notification feature.,Włącz lub wyłącz funkcję Low Notification Seryjna.
+Low Inventory Limit,Dolna granica Inventory
+Enter the limit below that the products are considered low stock.,"Wpisz poniżej limitu, że produkty są uważane za niskie akcji."
+When to Notify,Kiedy Zawiadom
+Choose when to notify the seller regarding the critical inventories.,Wybierz gdy do powiadomienia sprzedawcy dotyczące krytycznych zapasów.
+Cron Job,cron Job
+On Order Place,Na zamówienie Place
+Send Notifications From,Wyślij powiadomienia od
+Choose the email from which you want to send the notifications.,"Wybierz e-mail, z którego chcesz wysłać powiadomienia."
+Seller Name,Nazwa sprzedawcy
+Select,Wybierz
+Transaction ID,Identyfikator transakcji
+Transaction Type,typ transakcji
+Amount,Ilość
+Send Email to Seller,Wyślij e-mail do Sprzedającego
+"Invalid Value, please enter a number greater then zero","Nieprawidłowa wartość, wpisz liczbę większą od zera"
+Add New Transaction,Dodaj nową transakcję
+Posted On: ,Wysłany dnia:
+Customer Rating: ,Ocena klienta:
+Review: ,Przejrzeć:
+Reason for Disapproval: ,Powód odrzucenia:
+Seller Review Detail,Sprzedawca Przegląd Szczegóły
+Provide Your Reason,Dostarczyć powód
+We can\'t find products matching the selection.,Możemy \ 't znaleźć produktów spełniających kryteria.
+View Details,Pokaż szczegóły
+In stock,w magazynie
+Out of stock,Obecnie brak na stanie
+Learn More,Ucz się więcej
+My Sales Dashboard,My Dashboard Sprzedaży
+Total Revenue,Całkowity dochód
+Total Orders,Razem zamówień
+Total Products Sold,Wszystkich produktów sprzedawanych
+Last 7 Days,Ostatnie 7 dni
+Sales Comparisons,Porównanie sprzedaży
+Orders,Święcenia
+Revenue,Dochód
+Products Sold,Sprzedawane produkty
+Discounts,zniżki
+Balance Amount Variations,Odmiany Kwota bilans
+Today,Dzisiaj
+Yesterday,Wczoraj
+This Week,W tym tygodniu
+Last Week,Zeszły tydzień
+This Month,Ten miesiąc
+Last Month,W zeszłym miesiącu
+This Year,W tym roku
+Last Year,Ostatni rok
+Last 10 Orders,Ostatnie 10 Zamówienia
+View All Orders,Zobacz wszystkie rozkazy
+Order Number,Numer zamówienia
+Order Date,Data zamówienia
+Customer Name,Nazwa klienta
+Customer Email,Email klienta
+Qty,Ilosc
+Status,Status
+Order Total,Suma zamówienia
+click to view order,kliknij aby zobaczyć zamówienie
+No Orders Placed Yet,Brak zleceń składanych Jeszcze
+Seller Products,Sprzedawca Produkty
+Filter Products,Produkty filtrów
+Category,Kategoria
+Sort By,Sortuj według
+Name,Imię
+SKU,SKU
+Price(low to high),Cena (rosnąco)
+Price(high to low),Cena (malejąco)
+Products Feedback,Produkty Zgłoszenie
+Filter Your Search,Filtruj wyszukiwanie
+Search,Szukaj
+Reset,Nastawić
+No Data,Brak danych
+Posted on,Wysłany dnia
+by,przez
+Rating,Ocena
+Summary,streszczenie
+Review,Przejrzeć
+My Products Catalog,Moja Katalog Produktów
+New Product,Nowy produkt
+Choose,Wybierać
+Please select atleast one item from list.,Proszę wybrać conajmniej jedną pozycję z listy.
+Select Attribute Set for New Product,Wybierz zestaw atrybutów dla Nowego Produktu
+Attribute Set,zestaw atrybutów
+Product Type,Rodzaj produktu
+Choose Bulk Action,Wybierz Działanie masowe
+Delete,Kasować
+Status Update,Aktualizacja statusu
+Close,Blisko
+Save,Zapisać
+Save & Continue,Zapisz Kontynuuj
+Duplicate,Duplikować
+Cancel,Anuluj
+%d characters remaining.,% D pozostałe znaki.
+Please fill required fields with valid information.,Wypełnij wymagane pola z poprawnymi informacjami.
+Special price should be less than actual price,Specjalna cena powinna być niższa niż rzeczywista cena
+Past date not allowed,Past data niedozwolone
+Quick simple product creation,Szybkie proste tworzenie produktów
+Create,Stwórz
+Prices,ceny
+Meta Information,meta informacje
+General Information,Informacje ogólne
+Allows your product's visibility on search or catalog page.,Umożliwia widoczność produktu na stronie wyszukiwania lub katalogu.
+Maximum %d characters allowed.,Maksymalna liczba znaków:% d dozwolone.
+Date of product from which this product will be marked as new.,"Data produktu, z którego produkt ten zostanie oznaczony jako nowy."
+Date of product until which this product will be marked as new.,"Data produktu, do której produkt ten zostanie oznaczony jako nowy."
+Category Mapping,Kategoria Mapowanie
+Associated Products,powiązane produkty
+Create Simple Product,Stworzyć prosty produkt
+Quick Create,szybkie Tworzenie
+Id,ID
+Sku,Sku
+Product Name,Nazwa produktu
+Stock Status,Stan magazynowy
+Select Attribute,Wybierz Atrybut
+Attribute,Atrybut
+Price,Cena £
+Default Qty,domyślny szt
+Samples,próbki
+Title,Tytuł
+File,Plik
+Sort Order,porządek sortowania
+Add New Row,Dodaj nowy wiersz
+Links,Spinki do mankietów
+Links can be purchased separately,Linki można kupić osobno
+Max. Downloads,Max. pliki do pobrania
+Shareable,Udostępnione
+Sample,Próba
+Unlimited,Nieograniczony
+Url,url
+Inventory,Inwentarz
+Quantity,Ilość
+Manage Stock,Zarządzaj Magazyn
+"On enabling, stock will be managed automatically. For manual stock, select disable","Na umożliwieniu, zbiory będą zarządzane automatycznie. Do ręcznego magazynie, wybierz Wyłącz"
+Qty Uses Decimal,Ilość Używa Decimal
+Stock Availability,Dostępność towaru
+Shipment,Wysyłka
+Ship Bundle Items,Produkty statek Bundle
+Separately,Osobno
+Together,Razem
+Bundle Items Options,Bundle Pracuj Opcje
+Add New Option,Dodaj nową opcję
+Default Title,domyślny tytuł
+Delete Option,Usuń opcję
+Input Type,Typ wejścia
+Is Required,Jest wymagane
+Position,Pozycja
+Add Selection,Dodaj Selection
+Price Type,Cena Rodzaj
+User Defined Qty,User Defined szt
+Default,Domyślna
+Qty to Add,Ilość Dodaj do
+Add Selected Product(s) to Option,Dodać wybrany produkt (y) z wariantem
+Images,Obrazy
+Image,Obraz
+Label,Etykieta
+Remove,Usunąć
+File is not supported,Plik nie jest obsługiwany
+Upload New Image,Prześlij nowy obraz
+".jpeg, .jpg, .png, ,gif",".jpeg, .jpg, .png, gif"
+No Image uploaded for this product,Nie przesłanych dla tego produktu Obraz
+Browse,Paść się
+Related Products,Produkty powiązane
+This attribute set does not have attributes which we can use for configurable product,"Zestaw ten atrybut nie posiada cechy, które możemy wykorzystać do konfigurowalnego produktu"
+Please select one or more attributes.,Proszę wybrać jeden lub więcej atrybutów.
+Sold By,Sprzedawane przez
+Total %d review(s),Przegląd (s) łącznie% d
+View Reviews,Zobacz recenzje
+Write Review,Napisać recenzję
+File Size Exceeding the Limit.,Rozmiar pliku przekroczenia limitu.
+Max Upload Size: 200 KB,Max Upload Rozmiar: 200 KB
+Max Upload Size: 500 KB,Max Upload Rozmiar: 500 KB
+This key already assigned to another seller. Please fill another.,Ten klucz już przypisany do innego sprzedawcy. Prosimy o wypełnienie drugiego.
+My Seller Profile,Sprzedawca mój profil
+View Collection,Zobacz Collection
+View Profile,Zobacz profil
+General,Generał
+Shop Title,Tytuł sklep
+Contact Number,Numer kontaktowy
+(Image Size: 150 X 150),(Wielkość obrazu: 150 x 150)
+Shop Logo,Sklep Logo
+(Image Size: 1180 X 250),(Wielkość obrazu: 1180 x 250)
+Shop Banner,Sklep Banner
+Shop Address 1,Sklep Adres 1
+Shop Address 2,Sklep Adres 2
+City,Miasto
+Pincode,kod PIN
+State,Stan
+Country,Kraj
+Description,Opis
+Please provide link of your facebook page,Proszę podać link do swojej strony facebook
+Facebook Link (optional),Facebook Link (opcjonalnie)
+For example:,Na przykład:
+or,lub
+Please provide link of your google plus profile,Proszę podać link do Twojego profilu Google Plus
+Google Plus Link (optional),Google Plus Link (opcjonalnie)
+Please provide link of your twitter profile,Proszę podać link do swojego profilu na Twitterze
+Twitter Link (optional),Twitter Link (opcjonalnie)
+Meta Keywords,Meta Keywords
+Meta Description,meta Description
+Example: my-selling-store,Przykład: moja sprzedającą-sklep
+Page Url Key,Strona WWW Key
+Policy,Polityka
+Return Policy,powrotna polisa
+Shipping Policy,Wysyłki polisa
+Payout,wypłata
+Admin will use the Payout information to make the payment. Only one payment information can be saved at a time.,Administrator będzie wykorzystywać informacje Wypłat dokonać płatności. Tylko jedna informacja płatność mogą być zapisywane na raz.
+Select Payment Method,Wybierz Metodę Płatności
+Seller,Sprzedawca
+Register As Seller,Zarejestrować się jako Sprzedającym
+My Reviews,Moje opinie
+Customer Review,recenzję
+Disapproval Reason,Przyczyna odrzucenia
+Start Date,Data rozpoczęcia
+End Date,Data zakonczenia
+Your comment to this vacation,Twój komentarz do tego wakacjach
+Invalid format. Use: MM/dd/YYYY,Niepoprawny format. Zastosowanie: MM / dzień / rok
+End date should be greater than start date,data końcowa powinna być większa niż data rozpoczęcia
+End date should be future date,data końcowa powinna być datą przyszłą
+My Vacations History,Moje Wakacje Historia
+Set New Vacation,Ustaw nowe Vacation
+Vacation Interval,Interwał wakacje
+Is Active,Jest aktywny
+Vacation Halt Status,Halt wakacje status
+Reason for canceling vacation,Powodem odwołania wakacje
+click to view product details,Kliknij aby zobaczyć szczegóły produktu
+Sorry! No Product(s) Found.,Przepraszam! No Produkt (y) Found.
+Please select a category for your request.,Proszę wybrać kategorię dla swojego wniosku.
+Please provide reason for your request.,Proszę podać przyczynę żądania.
+Request a New Category,Poproś o nową kategorię
+Choose a Category,Wybierz kategorię
+Select Category,Wybierz kategorię
+Maximum 500 characters allowed.,Maksymalnie 500 znaków dozwolone.
+Submit Category Request Form,Prześlij formularz żądania Kategoria
+No categories are available for request.,Brak kategorii są dostępne na życzenie.
+Payout Request,wypłata Zapytanie
+New Payout Request,Nowy Wypłata Zapytanie
+Request Reason,Powód żądania
+Submit Payout Request Form,Prześlij formularz żądania Wypłata
+Payout Details,Szczegóły wypłat
+Requested On,wymagane na
+Your Comment For Request,Twój komentarz Na Zamówienie
+Only 200 characters allowed,Tylko 200 znaków dozwolone
+"Only (xls, xlsx) formats are allowed","Tylko (XLS, XLSX) formaty są dozwolone"
+Toggle navigation,Włącz nawigację
+My Account,Moje konto
+Logout,Wyloguj
+Account Warning!,Konto Ostrzeżenie!
+Back To Site,Powrót na stronę
+Category Request Details,Kategoria Żądanie Szczegóły
+Category Name,Nazwa Kategorii
+Your request is in pending. Please wait for store response.,Twoja prośba jest w toku. Poczekaj na odpowiedź sklepu.
+This feature is not active into your account.,Ta funkcja nie jest aktywna na koncie.
+To request this feature,Aby zamówić tę funkcję
+Click,Kliknij
+Here,Tutaj
+Request To Activate Import/Export Feature,Zapytanie Aby aktywować Import / Export Feature
+Comment ,Komentarz
+Required Field. Maximum 200 characters allowed.,Pole wymagane. Maksymalnie 200 znaków dozwolone.
+Click to send request,"Kliknij, aby wysłać żądanie"
+Your file has some errors. Please import file after resolving errors.,Plik ma kilka błędów. Proszę importować plik po usunięciu błędów.
+Click to download your file with errors,"Kliknij, aby pobrać plik z błędami"
+Download File with Errors,Pobieranie pliku z błędami
+Go Back,Wróć
+Please do not go back or refresh page while uploading your products.,Proszę nie wrócić lub odświeżyć stronę podczas przesyłania swoich produktów.
+It may causes errors in your catalog.,może to powoduje błędy w swoim katalogu.
+Download Template,Pobierz szablon
+Select Product Type,Wybierz typ produktu
+Product Attribute Set,Atrybut produkt Ustaw
+Select Attribute Set,Wybierz zestaw atrybutów
+Download Template File,Pobierz szablon pliku
+Please make sure that columns in your file must be matched with template file created for you on the basis of selected attribute.,"Upewnij się, że kolumny w pliku muszą być dopasowane do pliku szablonu stworzonego dla Ciebie na podstawie wybranego atrybutu."
+Import Products,import produktów
+Import Action,import Action
+Select Action,Wybierz akcję
+"Action will only be performed on the basis of SKU of products. Without sku, product will not be consider for any action.","Akcja zostanie wykonana tylko na podstawie SKU produktów. Bez sku, produkt nie będzie rozważyć na jakiekolwiek działanie."
+Upload File,Przesyłanie pliku
+"Only (xls, xlsx) file will be accepted","Tylko (xls, xlsx) plik zostanie zaakceptowany"
+File must not exceed %s MB,Plik nie może przekraczać% s MB
+Browse File,Przeglądać plik
+Validate File,Plik walidacji
+File must no exceed %s MB,Plik musi nie przekraczać% s MB
+Import/Export Instructions,Instrukcja import / eksport
+Import,Import
+Export,Eksport
+Import Instructions,Instrukcja import
+"Download Template as per your product type. At a time, only 1 type of products can be import.","Pobierz szablon jak na swój rodzaj produktu. Na raz, tylko jeden rodzaj produktów może być import."
+"If you import more than 1 type of products from one file, then system will be fail or affect your catalog.","Jeśli importujesz więcej niż 1 rodzaj produktów z jednego pliku, wtedy system będzie zawieść lub wpłynąć na katalog."
+Each template will have '%s' worksheet. Your import file must have this worksheet as it is. Please do not change anything in its content.,"Każdy szablon będzie miał „% s” arkusz. Plik importu musi mieć ten arkusz, jak jest. Proszę niczego nie zmieni w jej treści."
+Each template will have '%s' worksheet. Please provide product data from possible values of corresponding field. If field has possible values.,Każdy szablon będzie miał „% s” arkusz. Proszę podać dane o produkcie z możliwych wartości odpowiednim polu. Jeśli pole ma możliwych wartości.
+"Only 'xls, xlsx' file having size less than %sMB will be acceptable.","Tylko „xls, xlsx” plik o wielkości mniejszej niż% SMB będzie dopuszczalne."
+If you want to import using exported data then copy the general & image sheet of exported file into general & image sheet of the downloaded template file.,Jeśli chcesz importować przy użyciu wyeksportowanych danych skopiuj ogólny obraz i arkusz eksportowanego pliku do ogólnego obrazu i arkusz pobranego pliku szablonu.
+"Use (|) to seperate value in multivalue field like category_ids, related_products.","Użyj (|), aby oddzielić wartości w polu wielowartościowym jak category_ids, related_products."
+Export Instructions,Instrukcje eksport
+Select export type in export section.,Wybierz typ eksportu w dziale eksportu.
+"If the export type is Category, then system will export only assigned categories to you.","Jeśli typ eksportu jest kategoria, wtedy system będzie eksportować tylko przypisane kategorię do ciebie."
+"In case of products, select product type and attributes set.","W przypadku produktów, wybierz rodzaj produktu i atrybuty ustawione."
+Exported data will be in xls/xlsx format.,Eksportowane dane będą w formacie XLS / XLSX.
+Export Type,Export Type
+Select Export Type,Wybierz typ eksportu
+Category Export,Kategoria Export
+Product Export,Eksport wyrobów
+Product Status,Stan produktu
+All,Wszystko
+Disabled,Wyłączone
+Enabled,włączone
+In Stock,w magazynie
+Out of Stock,Obecnie brak na stanie
+Export Data,eksport danych
+This process will take few minutes.,Proces ten zajmie kilka minut.
+Please do not go back or refresh page while exporting your data.,Proszę nie wrócić lub odświeżyć stronę podczas eksportowania danych.
+Your are not eligible to use this feature as your account is either not approved or inactive.,Twoje nie są uprawnieni do korzystania z tej funkcji jako konto nie zostało zatwierdzone lub nieaktywne.
+"Currently, this feature is disabled by store.",Obecnie ta funkcja jest wyłączona sklepie.
+You cannot use this feature as required library is missing. Please contact to support.,"Nie można używać tej funkcji, wymagane biblioteki brakuje. Prosimy o kontakt w celu wspierania."
+Total Sale,całkowitej sprzedaży
+Total Earning,Razem Zarabianie
+Transaction Details,szczegóły transakcji
+My Earnings,Moje zarobki
+Earnings History,Historia zarobki
+Order Wise Earnings,Zamówienie Wise Zysk
+Transactions History,Historia transakcji
+Total Paid,Łącznie zapłacono
+Balance,Saldo
+Quantity to Add,Ilość Dodaj do
+Low Stock Notification,Niski Powiadomienie Zdjęcie
+Configuration,Konfiguracja
+Receive Low Stock Notifications,Otrzymuj Low Stock Powiadomienia
+Save Seller Level Configuration,Zapisz poziomie konfiguracji Sprzedawca
+facebook,Facebook
+twitter,świergot
+google,Google
+About Seller,o Sprzedawcy
+Description not available.,Opis jest niedostępny.
+Write your thought,Napisz swoją myśl
+Summary of your review,Podsumowanie twojej recenzji
+Your Thought,Twoja myśl
+Your Name,Twoje imię
+Rate this seller,Ocena tego sprzedawcy
+Submit Review,Dodaj recenzję
+Notify Customer by Email,Powiadomi Klienta przez e-mail
+Visible on Storefront,Widoczny na Storefront
+Submit Comment,Prześlij komentarz
+Customer,Klient
+Notified,powiadomiony
+Not Notified,nienotyfikowane
+Please provide comment,Proszę podać komentarz
+Product,Produkt
+Subtotal,Razem
+Order Detail,Szczegóły zamówienia
+Click to download invoice.,Kliknij aby pobrać fakturę.
+Download Invoice,Pobierz fakturę
+Click to download shipping slip.,Kliknij aby pobrać wysyłki poślizg.
+Download Shipping Slip,Slip Pobierz wysyłka
+Are you sure you want to send order email to customer?,Czy na pewno chcesz wysłać wiadomość e-mail na zamówienie klienta?
+Click to send email to customer,"Kliknij, aby wysłać e-mail do klienta"
+Send Email,Wysłać email
+Click to create shipment,"Kliknij, aby utworzyć przesyłkę"
+Ship,Statek
+Print,Wydrukować
+Basic Informations,podstawowe informacje
+Order Status,Status zamówienia
+Billing Address,Adres rozliczeniowy
+Shipping Address,adres wysyłki
+Ordered,zamawiać
+Shipped,Wysłane
+Canceled,Anulowany
+Refunded,zwrotowi
+Gift Message,wiadomość prezent
+Excl. Tax,Zaw. Podatek
+Total,Całkowity
+Incl. Tax,Zaw. Podatek
+Total incl. tax,Całkowity podatek. podatek
+Invoiced,fakturowana
+Order Items,Zamawiać rzeczy
+Shipments,przesyłki
+Ship to Name,Statek Nazwa
+Date Shipped,Data Wysyłający
+Total Qty,Ilość Całkowita
+click to view detail,kliknij aby zobaczyć szczegół
+Tax,Podatek
+Items To Be Shipped,Rzeczy wysyłającym
+Qty to Ship,Ilosc w Ship
+Append Comments,Dołącz Komentarze
+Email Copy of Shipment,Email Kopia przesyłki
+Submit Shipment,Prześlij przesyłkę
+New Shipment,Nowy przesyłki
+Back,Z powrotem
+Shipment Tracking,Śledzenie przesyłki
+Carrier,Nośnik
+Tracking No.,Nie Tracking
+Action,Akcja
+Add Tracking Number,Dodaj Tracking Number
+Invalid value(s) for Qty to Ship,Nieprawidłowa wartość (-y) Ilosc w Ship
+Shipment Detail,przesyłka Szczegóły
+Are you sure you want to send Shipment email to customer?,Czy na pewno chcesz wysłać wiadomość e-mail wysyłki do klienta?
+Send Tracking Information,Wyślij śledzenia informacji
+Tracking Number,Numer przesyłki
+Add,Dodaj
+Tracking title is required.,Śledzenie tytuł jest wymagane.
+Tracking number is required.,Tropi liczbę jest wymagane.
+Shipped Items,dostarczone przedmioty
+Qty Shipped,Ilość Wysyłający
+No Item Shipped Yet,Nic nie Wysyłamy Jeszcze
+Reviews,Recenzje
+Posted on:,Wysłany dnia:
+by ,przez
+Sorry! No Reviews Found.,Przepraszam! Nie znaleziono recenzji.
+Write your review,Napisz recenzję
+Sellers List,Lista sprzedawców
+Search Seller,Szukaj Sprzedawca
+Sorry! No Seller(s) Found.,Przepraszam! Sprzedawca nie (s) stwierdzono.
+General Contact,Ogólne Kontakt
+Customer Support,Obsługa klienta
+Sales Representative,Przedstawiciel Handlowy
+Custom Email 1,Niestandardowe email 1
+Custom Email 2,Niestandardowe email 2
+"Unable to write low stock files. Permission Error on ""var"" Directory.",Nie można zapisać plików niskich zapasów. Pozwolenie Błąd na „var” Directory.
+Unable to write file for Seller ,Nie można zapisać pliku dla Sprzedającego
+Product ID,ID produktu
+Current Quantity,Aktualna ilość
+Base Image,baza Obrazek
+Small Image,Mały Obraz
+Thumbnail,Miniaturka
+Disallowed file type.,Niedozwolony typ pliku.
+Type of the product you have selected for this import template file.,"Typ produktu, który został wybrany do tego pliku szablonu importu."
+Attribute set you have selected for this product type in import template file.,Zestaw atrybutów wybrałeś dla tego typu produktów w pliku szablonu importu.
+single pipe(|) seperated multiple categories,Pojedynczy przewód (|) oddzielone wiele kategorii
+single pipe(|) seperated product sku,Pojedynczy przewód (|) oddzielony produkt sku
+single pipe(|) seperated attributes,Pojedynczy przewód (|) oddzielone atrybuty
+pair of values seperated by single pipe(|),para wartości oddzielonych przez jedną rurę (|)
+System will group your bundle item on the basis of this title. If two items has same title then they will be grouped in same bundle.,"System będzie grupa swój przedmiot paczkę na podstawie tego tytułu. Jeśli dwie pozycje ma ten sam tytuł, a następnie zostaną one pogrupowane w tym samym pakiecie."
+Daily,Codziennie
+Weekly,Co tydzień
+Monthly,Miesięczny
+Yearly,Rocznie
+Waiting for Approval,Oczekuje na zatwierdzenie
+Approved,Zatwierdzony
+Disapproved,Odrzucona
+Add new products,Dodaj nowe produkty
+Update existing products,Aktualizować istniejące produkty
+Add/update products,Dodaj / aktualizuj
+Delete products,Usuwanie produktów
+Bank Wire,Przelew bankowy
+Payment By Cheque,Płatność czekiem
+Paypal,Paypal
+Please provide the paypal email id.,Proszę podać paypal id e-mail.
+Paypal Email ID,Paypal ID e-mail
+Please provide additional information.,Proszę podać dodatkowe informacje.
+Additional Information,Dodatkowe informacje
+Please provide the name.,Proszę podać nazwę.
+Pay to the order of (name),Płacić na zlecenie (nazwa)
+Please provide the address.,Proszę podać adres.
+Address,Adres
+Address where the cheque should be sent to.,Adres gdzie kontrola powinna być wysłana.
+Please provide account owner name,Proszę podać imię i nazwisko właściciela konta
+Account Owner,Właściciel konta
+Please provide bankwire details,Proszę podać szczegóły przelewem bankowym
+Details,Detale
+"Such as bank branch, IBAN number, BIC, etc.","Takie jak oddział banku, numer IBAN, BIC itp"
+Please provide bankwire address.,Proszę podać adres przelewem bankowym.
+Bank Address,Numer konta
+Requsted on: ,Requsted na:
+ by,przez
+Amount: ,Ilość:
+Payment Method: ,Metoda płatności:
+PayPal,PayPal
+PayPal ID: ,PayPal ID:
+Additional Information: ,Dodatkowe informacje:
+Bankwire,Przelew bankowy
+Owner Name: ,Imię właściciela:
+Details: ,Detale:
+Bank Address: ,Numer konta:
+Cheque,Czek
+Address: ,Adres:
+No balance amount is left for this seller.,Żadna ilość równowaga zostaje tego sprzedawcy.
+No order found for this seller. Transaction cannot be initiated.,Nie znaleziono tego sprzedawcy zamówienie. Transakcja nie może być wszczęte.
+Paypal payout request failed.,Żądanie wypłaty PayPal nie powiodło się.
+Please enable paypal payout to make this transaction.,Proszę włączyć paypal wypłaty dokonać tej transakcji.
+Payout request does not exist.,żądania płacowe nie istnieje.
+By System,przez system
+Manually,Ręcznie
+Successfully,Z powodzeniem
+Credit,Kredyt
+Debit,Obciążyć
+Unknown,Nieznany
+Invalid request,Nieprawidłowe żądanie
+Export type is missing,Typ eksport brakuje
+No product found as per your selected parameters.,Nie znaleziono produktów według wybranych parametrów.
+Unable to process request,Nie można przetworzyć żądania
+No category assigned to you.,Nie przypisany do Ciebie kategorii.
+invalid request,Nieprawidłowe żądanie
+Please select product parameters.,Proszę wybrać parametry produktu.
+No products found to export.,Nie znaleziono produktów na eksport.
+Vacation is successfully canceled.,Wakacje pomyślnie anulowane.
+New Vacation successfully created.,Nowy wakacje pomyślnie utworzony.
+Your products will be hidden automatically when the vacation starts.,Twoje produkty będą ukryte automatycznie po uruchomieniu wakacje.
+Start Date or End Date cannot be less than today.,Data rozpoczęcia Data zakończenia lub nie może być mniejsza niż obecnie.
+Start Date or End Date cannot be same.,Data rozpoczęcia Data zakończenia lub nie mogą być takie same.
+Date range should not be in between of any previous active vacation.,Zakres dat nie powinno być pomiędzy jakiegokolwiek poprzedniego aktywnego wypoczynku.
+Technical error occurred while validating new vacation.,Wystąpił błąd podczas sprawdzania poprawności technicznej nowego wakacjami.
+The requested vacation's detail not found.,Nie znaleziono szczegółowo poszukiwane w wakacje.
+Marketplace - CRON,Giełda - CRON
+Please enable the low stock notifications functionality first,Pierwszy Proszę włączyć niską funkcjonalność powiadomień free
+Please enable the marketplace module first,Proszę najpierw włączyć moduł targowy
+Low Stock Notifications Cron Executed Successfully.,Niska Zdjęcie Powiadomienia Cron wykonana pomyślnie.
+"There were some errors executing the low stock notifications cron, please check Log for more details.","Było kilka błędów realizujące niską powiadomień free crona, należy sprawdzić Zaloguj więcej szczegółów."
+Please enable the seller vacation functionality first,Pierwszy Proszę włączyć funkcję sprzedawca wakacje
+Vacation Cron Executed Successfully.,Cron wakacje wykonana pomyślnie.
+"There were some errors executing the vacation cron, please check Log for more details.","Było kilka błędów wykonanie cron wakacje, sprawdź Zaloguj więcej szczegółów."
+View Shipment,Zobacz przesyłki
+Requested order details not Found.,Prośby o szczegóły zamówienia nie została znaleziona.
+We can\'t save the shipment right now.,Możemy \ 't zapisać przesyłkę teraz.
+Shipment Document Validation Error(s):\n,Załadunek dokumentu Błąd walidacji (e) \ n
+The shipment has been created.,Przesyłka została utworzona.
+You created the shipping label.,Stworzyliście etykietę wysyłki.
+An error occurred while creating shipping label.,Wystąpił błąd podczas tworzenia etykiety wysyłkowej.
+Cannot save shipment.,Nie można zapisać przesyłkę.
+Please enter a comment.,Wpisz komentarz.
+Comment has been added for this shipment.,Komentarz został dodany do tej przesyłki.
+Cannot add new comment.,Nie można dodać nowy komentarz.
+You sent the shipment.,Wysyłaniu przesyłki.
+Cannot send shipment information.,Nie można wysyłać informacje o przesyłce.
+Please specify a carrier.,Proszę podać nośnik.
+Please enter a tracking number.,Proszę podać numer śledzenia.
+Tracking number successfully updated into this shipment.,Numer śledzenia pomyślnie zaktualizowane do tej przesyłki.
+We can\'t initialize shipment for adding tracking number.,Możemy \ 't zainicjować wysyłkę za dodanie numeru śledzenia.
+Cannot add tracking number.,Nie można dodać numeru śledzenia.
+Tracking number successfully deleted from this shipment.,Numer śledzenia pomyślnie usunięty z tej przesyłki.
+We can\'t initialize shipment for delete tracking number.,Możemy \ 't zainicjować przesyłkę do kasowania numeru śledzenia.
+We can\'t delete tracking number.,Możemy \ 't usunąć numeru śledzenia.
+We can\'t load track with retrieving identifier right now.,Możemy \ 't utwór obciążenia z pobierania identyfikatora teraz.
+Quanity updated successfully.,Quanity zaktualizowane pomyślnie.
+Low Stock,Niskie zasoby
+Configuration Saved Successfully.,Konfiguracja zapisana pomyślnie.
+Seller's Products - Reviews,Produkty sprzedawcy - Recenzje
+Pending,W oczekiwaniu
+Not Approved,Niezatwierdzony
+Seller's Account-Orders,Zamówienia konta sprzedawcy
+Seller OrderView,Sprzedawca OrderView
+You sent the order email.,Wiadomość została wysłana zamówienia.
+We can\'t send the email order right now.,Możemy \ 't wysłać zamówienie e-mail teraz.
+This order no longer exists.,Porządek ten już nie istnieje.
+There are no shipping documents related to this order.,Brak dokumentów wysyłki związane z niniejszym zamówieniem.
+Print Order,Print Order
+There are no invoice documents related to this order.,Brak dokumentów faktur związanych z tym zamówieniem.
+Seller List,Sprzedawca Lista
+Knowband,Knowband
+Marketplace,Rynek
+Email Template Updated successfully.,Szablon e-mail Aktualizacja pomyślnie.
+Best Selling Products,Najlepiej sprzedającą produkty
+ Seller(s) Disabled Successfully,Sprzedawca (y) Niepełnosprawni Pomyślnie
+Invalid Request,Nieprawidłowe żądanie
+Status changed successfully,Status został pomyślnie zmieniony
+Activated,Aktywowany
+Deactivated,Nieaktywny
+Cannot update,Nie można aktualizować
+Cannot load object,Nie można załadować obiektu
+Seller Approved Successfully,Sprzedawca Zatwierdzone Pomyślnie
+Email Templates,Szablony wiadomości
+Sellers Payout Request,Sprzedawcy Wypłata Zapytanie
+Product Approval Request,Zatwierdzenie produkt Zapytanie
+Technical error occurred while canceling vacation.,wystąpił błąd techniczny podczas usuwania wakacje.
+Seller Reviews,Recenzje sprzedającego
+%s by %s,% S% s
+The requested seller's review detail not found.,Nie znaleziono ocena szczegółowo poszukiwane sprzedawcy.
+Import/Export Feature Request List,Import / Export Lista Zgłoszenie błędu
+Settings saved successfully.,Ustawienia zostały zapisane.
+Seller Account Approval Request,Sprzedawca Zatwierdzenie konta Zapytanie
+Seller Vacation List,Sprzedawca Lista wakacje
+Transaction detail successfully saved.,szczegół transakcja pomyślnie zapisany.
+Some error occured. Please try again.,Niektóre błąd. Proszę spróbuj ponownie.
+Total of %d record(s) have been updated.,Łącznie rekordu (ów)% d zostały zaktualizowane.
+ Seller(s) Disapproved Successfully,Sprzedawca (y) Odrzucenie z powodzeniem
+Seller Product List,Sprzedawca listy produktów
+Review has been approved successfully.,Przegląd został zatwierdzony pomyślnie.
+Technical Error Occured - Not able to update.,Błąd techniczny wystąpił - nie mógł zaktualizować.
+Review has been disapproved successfully.,Recenzja została odrzucona pomyślnie.
+Seller review has been deleted.,Przegląd Sprzedawca został usunięty.
+Technical error occurred while processing category request.,Podczas przetwarzania żądania wystąpił błąd kategoria techniczna.
+Seller account has not been approved yet. Please approve the seller account first.,Sprzedawca konto nie zostało jeszcze zatwierdzone. Proszę zatwierdzić pierwszy rachunek sprzedającego.
+ record(s) have been updated.,rekord (y) zostały zaktualizowane.
+Product has been approved successfully.,Produkt został zatwierdzony pomyślnie.
+ Seller(s) Approved Successfully,Sprzedawca (-ych) z powodzeniem
+Approval updated successfully,Zatwierdzenie pomyślnie zaktualizowane
+Seller Review Approval Request,Przegląd Sprzedawca Zatwierdzenie Zapytanie
+PayPal Payout settings has been saved successfully.,Ustawienia wypłat PayPal został zapisany pomyślnie.
+Category Wise Commissions,Kategoria Wise Prowizje
+CRON Instructions,Instrukcje cron
+Seller List with Import/Export Feature,Sprzedawca Lista z funkcją Import / Export
+Product Reviews,Recenzje produktu
+Seller Disapproved Successfully,Sprzedawca Odrzucona Pomyślnie
+Category Request List,Lista kategorii Zapytanie
+Commissions,prowizje
+Total of %d record(s) have been deleted.,Łącznie rekordu (ów)% d zostały usunięte.
+ Seller(s) Enabled Successfully,Sprzedawca (y) aktywny powodzeniem
+Sellers Payout,Sprzedawcy Wypłata
+"Some of the products are not enabled, because either these products or their sellers are not approved/disabled.","Niektóre produkty nie są włączone, ponieważ zarówno te produkty lub ich sprzedawców nie są zatwierdzone / wyłączone."
+Some of the processed products have no SKU value defined. Please fill it prior to performing operations on these products.,Niektóre z produktów przetworzonych mają żadnej wartości SKU zdefiniowany. Wypełnij go przed wykonaniem operacji na tych produktach.
+Payout request status has been updated successfully.,Stan żądania płacowe został pomyślnie zaktualizowany.
+Invalid Request.,Nieprawidłowe żądanie.
+Seller Wise Commissions,Sprzedawca Wise Prowizje
+Seller Dashboard,Sprzedawca Dashboard
+Your request has been sent. Please wait for store response.,Twoje zapytanie zostało wysłane. Poczekaj na odpowiedź sklepu.
+Cannot send request,Nie można wysłać żądanie
+Product Import/Export,Importu wyrobów / Export
+Seller Profile,Profil sprzedawcy
+Seller Profile saved successfully.,Sprzedawca profil zapisany pomyślnie.
+Not Available,Niedostępne
+Your payout request has been submitted successfully.,Twoje zapytanie wypłata została przesłana pomyślnie.
+Please configure payout method in the seller profile menu.,Proszę skonfigurować metodę wypłaty w menu profilu sprzedawca.
+Seller's Account - Payout Requests,Wnioski wypłat - Konto sprzedawcy
+Error Occured,Wystąpił błąd
+Thank you for rating the Seller.,Dziękujemy za ocenę sprzedającego.
+Posting review for this seller is not allowed.,Przegląd wpis o sprzedawcy jest niedozwolone.
+Seller Account - My Reviews,Sprzedawca Konto - Moje opinie
+"You can't register yourself as seller because your registration request limit has been over. To register, please contact to support.","Nie można zarejestrować się jako sprzedawcy, ponieważ granica żądanie rejestracji została skończona. Aby się zarejestrować, proszę kontaktować się wspierać."
+Seller's Account - Earnings,Konto sprzedawcy - Zysk
+Seller's Account - Transactions History,Transakcje Historia - rachunek sprzedawcy
+File Path is Missing,Ścieżka brakuje pliku
+Unknown file,Nieznany plik
+General worksheet is missing.,Ogólne arkusz brakuje.
+Column title row is missing from general worksheet.,Tytułowy wiersz kolumna brakuje ogólnej arkuszu.
+Column '%s' is missing from general worksheet.,Kolumna „% s” brakuje ogólnej arkuszu.
+File is empty.,Plik jest pusty.
+Error in processing '%s' sku before deleting.,Błąd przetwarzania% S sku przed usunięciem.
+Listed products are not deleted:,Wymienione produkty nie są usuwane:
+"Upload your file and try again. To speed up delete process, please remove all products that has been deleted.","Przesłać plik i spróbuj ponownie. Aby przyspieszyć proces usuwania, usuń wszystkie produkty, które został usunięty."
+Your products has been deleted. System will redirect you on product list automatically in 5 secs.,Twoje produkty zostały usunięte. System przekieruje Cię na liście produktów automatycznie w 5 sekund.
+Import action is Missing,akcja importu Brakujące
+Meta Information worksheet is missing,Meta Informacja arkusz brakuje
+File must not exceed ,Plik nie może przekraczać
+This sku does not exist,Ten sku nie istnieje
+Product of this SKU is not yours.,Produkt tej SKU nie jest twoje.
+This row has error,Ten wiersz zawiera błąd
+Meta Information Sheet is Missing,Meta Arkusz informacji brakuje
+Error in processing data of '%s' sku.,Błąd w danych przetwarzania% S sku.
+Listed products are not saved:,Wymienione produkty nie są zapisywane:
+"Upload your file and try again. To speed up process, please remove all other product data that has been saved successfully.","Przesłać plik i spróbuj ponownie. Aby przyspieszyć proces, należy usunąć wszystkie pozostałe dane produktu, który został zapisany pomyślnie."
+Your products has been uploaded. System will redirect you on product list automatically in 5 secs.,Twoje produkty zostały załadowane. System przekieruje Cię na liście produktów automatycznie w 5 sekund.
+Error while processing rows in uploaded file.,Błąd podczas przetwarzania wierszy w przesłanym pliku.
+Error: %s,Błąd% s
+Product Type is missing from Meta Sheet Worksheet,Typ produktu brakuje Meta arkusza blachy
+Product Type is invalid in Meta Sheet Worksheet,Rodzaj produktu jest nieprawidłowy w Meta arkusza blachy
+Attribute set id is missing from Meta Sheet Worksheet,Zestaw atrybutów id brakuje Meta arkusza blachy
+Attribute set id is not valid in Meta Sheet Worksheet,Zestaw atrybutów id nie jest ważny w Meta arkusza blachy
+This SKU is already used by other product of you or other seller.,Ten SKU jest już używany przez inny produkt z was lub innego sprzedawcy.
+This SKU is used by other seller or store.,Ten SKU jest używany przez innego sprzedawcy lub sklepu.
+This value is required,Wartość ta jest wymagana
+Invalid Value. Only date format value is accepted.,Niewłaściwa wartość. Jedyną wartością format daty jest akceptowana.
+Invalid Value. Only Price type value accepted,Niewłaściwa wartość. Jedyną wartością typ Cena akceptowane
+Invalid Value. Only positive number type value accepted,Niewłaściwa wartość. Tylko liczbą dodatnią wartość typu akceptowane
+Out of range value. Please see possible value for this field.,Z przedziału czasowego. Proszę zobaczyć możliwą wartość dla tego pola.
+Some of the values are not exist.,Niektóre wartości nie istnieją.
+Your request has been sent to the admin for approval.,Twoje zapytanie zostało wysłane do administratora do zatwierdzenia.
+Seller's Account - Request a New Category,Konto sprzedawcy - poprosić o nową kategorię
+Attribute set is missing,zestaw atrybut brakuje
+Attribute set cannot load,zestaw atrybut nie może załadować
+1. This worksheet is required and must be included in your import file,1. Ten arkusz jest wymagana i musi być zawarte w pliku importu
+2. Do not change worksheet name as well as its content.,"2. Nie należy zmienić nazwę arkusza, jak i jego zawartość."
+3. Any change in this worksheet format will not allow system to import your data into system.,3. Wszelkie zmiany w tym formacie arkusza System nie pozwoli na import danych do systemu.
+4. We recommend you to copy this worksheet in your import file with same worksheet name.,4. Zalecamy skopiować ten arkusz w pliku importu z samej nazwie arkusza.
+1. This worksheet contains possible values of some field.,1. Niniejszy arkusz zawiera możliwe wartości jakiejś dziedzinie.
+2. Please fill the related fields only from these possible values.,2. Prosimy o wypełnienie pól powiązanych tylko z tych możliwych wartości.
+3. If possible values for any field are not given then you can fill it with any text value.,3. Jeśli to możliwe wartości dla każdej dziedzinie nie podano wówczas można wypełnić go z każdej wartości tekstowej.
+Seller's Products,Produkty sprzedawcy
+The product has been saved.,Produkt został zapisany.
+This window will be closed automatically within %s secs.,To okno zostanie automatycznie zamknięte w ciągu% s sekund.
+Product has been saved successfully.,Produkt został zapisany pomyślnie.
+The product has been duplicated successfully.,Produkt został powielony pomyślnie.
+Product has been created successfully.,Produkt został pomyślnie utworzony.
+Please wait for admin approval.,Poczekaj na zatwierdzenie administratora.
+"Adding of new product limit has been over as your account is not approved or waiting for approval. To add more products, your account needs to be approved.","Dodanie nowego limitu produkt został jak na Twoje konto nie jest zatwierdzony lub czeka na zatwierdzenie. Aby dodać więcej produktów, Twoje konto musi zostać zatwierdzone."
+You duplicated the product.,Ci powielony produkt.
+Seller's Product,Produkt sprzedawcy
+This SKU already exist.,Ten SKU już istnieje.
+Cancel Vacation,Anuluj Vacation
+Add New Vacation,Dodaj nowy Vacation
+Vacation Halted,Halted wakacje
+Created Date,stworz Date
+This vacation is already canceled,Ten urlop jest już odwołany
+Visibility,Widoczność
+click to edit product,"kliknij, aby edytować produkt"
+click to update quantity,"Kliknij, aby zaktualizować ilość"
+Update Quantity,Aktualizuj ilość
+Order No.,Numer zamówienia.
+From Date,Od daty
+To Date,Spotykać się z kimś
+click to print order,"kliknij, aby wydrukować zamówienie"
+Shipping & Handling,Shipping & Handling
+Discount (%1),Zniżki (% 1)
+Discount,Zniżka
+Grand Total,Łączna suma
+Grand Total to be Charged,Suma całkowita do ładowania
+Custom Value,Wartość niestandardowego
+Order # %1,Zamówienie #% 1
+Comment History,komentarz Historia
+Shipment History,Historia przesyłek
+Credit Memo History,Nota kredytowa Historia
+Subtotal (Excl.Tax),Subtotal (Excl.Tax)
+Subtotal (Incl.Tax),Subtotal (Incl.Tax)
+Shipping & Handling (Excl.Tax),Shipping & Handling (Excl.Tax)
+Shipping & Handling (Incl.Tax),Shipping & Handling (Incl.Tax)
+Grand Total (Excl.Tax),Suma całkowita (Excl.Tax)
+Grand Total (Incl.Tax),Suma całkowita (Incl.Tax)
+Email,E-mail
+Shipping Charges,Koszty przesyłki
+Track this shipment,Śledź przesyłkę
+Track Order,Monitoruj zamówienie
+Shipping Method,Sposób wysyłki
+Shipping not Required,Dostawa nie jest wymagane
+Payment Method,Metoda płatności
+Grand Total (Excl. Shipping),Suma całkowita (zaw.)
+Discount (%s),Zniżki (% a)
+Total Refunded,Razem Zwrócono
+Total Due,Razem Ze
+Shipping & Handling (Excl. Tax),Shipping & Handling (Wył. Podatki)
+Shipping & Handling (Incl. Tax),Shipping & Handling (Incl. Podatki)
+Print Order # %1,Print Order #% 1
+Minimum %d character requried,Minimalne wymagane na% d znaków
+Save Template,Zapisz szablon
+Show Report,Pokaż raport
+Manage Seller Account,Zarządzaj kontem Sprzedawca
+Add Subcategory,Dodaj podkategorie
+Add Root Category,Dodaj Korzeń Kategoria
+Save Settings,Zapisz ustawienia
+Seller Payout Request,Sprzedawca Wypłata Zapytanie
+ID,ID
+Transation Date,Transation Data
+Telephone,Telefon
+Commission (in %),Komisja (w%)
+Your Earnings,zarobki
+Category wise Commissions,Kategoria mądry Prowizje
+Total Commission,Ogółem Komisja
+Transaction History,Historia transakcji
+Seller wise Commissions,Sprzedawca mądre Prowizje
+Seller Earning,Sprzedawca Zarabianie
+Amount Transfer,kwota transferu
+Transaction Action,Akcja transakcja
+Sellers Payout (,Sprzedawcy płacowe (
+Seller Order List,Sprzedawca Lista Zamówienie
+Purchased From (Store),Nabył od (Store)
+Purchased On,Zakupiony na
+Actions,działania
+Template Description,Opis szablonu
+Template Type,szablon Rodzaj
+Date Added,Data dodania
+Date Updated,Data aktualizacji
+Seller Best Selling Product List,Sprzedawca Lista produktów bestsellery
+Interval,Interwał
+Order Quantity,Ilość zamówienia
+Product Price,Cena produktu
+Seller Account Approval Request List,Sprzedawca Zatwierdzenie konto Prośba Lista
+Approved Status,zatwierdzony status
+Added Date,Data dodania
+Approve,Zatwierdzać
+Account Status,Status Konta
+Seller Status,Sprzedawca status
+Seller Since,Sprzedawca Rejestracja
+Posted On,Wysłany dnia
+Request Date,zapytanie Data
+Vacation Active,Aktywny urlop
+Seller Review Approval List,Sprzedawca Lista Przegląd Zatwierdzenie
+Seller Approval List,Sprzedawca Lista Zatwierdzenie
+Seller Product Reviews,Recenzje Sprzedawca produktu
+Created On,Utworzono dnia
+Nickname,Przezwisko
+Visible In,W widoczny
+Type,Rodzaj
+Product SKU,SKU produktu
+Edit,Edytować
+Seller Category Request List,Sprzedawca Kategoria Zapytanie Lista
+Seller Email,Sprzedawca Email
+View,Widok
+Disapprove,Potępiać
+Make New,Zrób nowy
+Edit Template,Edycja szablonu
+Products,Produkty
+Administrator,Administrator
+Guest,Gość
+Seller Bulkimport Feature List,Sprzedawca Bulkimport lista_funkcji
+Last Update,Ostatnia aktualizacja
+Feature Status,Stan cecha
+Seller Bulkimport Feature Request List,Sprzedawca Bulkimport Zapytanie Cecha Lista
+Seller Comment,Sprzedawca komentarz
+Your Comment,Twój komentarz
+Request Status,żądanie statusu
+Activate Feature,Aktywacja funkcji
+Read More,Czytaj więcej
+click to view review,kliknij aby zobaczyć przegląd
+Posted on: %s by %s,Wysłany:% s% s
+Home,Dom
+Home Page,Strona główna
+click to view product,kliknij aby zobaczyć produkt
+Your seller account is currently under process and not yet approved. You only have a limited access to the seller account currently.,Twoje konto sprzedawca jest obecnie w trakcie procesu i nie jest jeszcze zatwierdzony. Masz tylko ograniczony dostęp do konta sprzedawcy komunikatu.
+Your seller account has been disapproved. You only have a limited access to the seller account currently. To send request again ,Twoje konto sprzedającego zostało odrzucone. Masz tylko ograniczony dostęp do konta sprzedawcy komunikatu. Aby ponownie wysłać żądanie
+Click Here,Kliknij tutaj
+Product Catalog,Katalog produktów
+Product Feedback,Odpowiedź produkt
+Earnings,Zyski
+Transactions,transakcje
+New Category Request,Nowa kategoria Zapytanie
+My Vacations,Moje wakacje
+Requested Date,Wyznaczona data
+Request On,Żądanie Na
+Date,Data
+Transaction Date,Data dokonania transakcji
+Amount of %s debited from your earning on %s,Kwota% s pobrana z Twojego wynagrodzenia na% s
+Amount of %s credited into your account on %s,Kwota% s przelane na konta na% s
+Report Format,Format raportu
+Your file is valid. Please click 'Delete Products' button to delete your products,"Plik jest nieprawidłowy. Proszę kliknąć przycisk „Usuń produkty” przycisk, aby usunąć swoje produkty"
+Your file is valid. Please click 'Import Products' button to upload your products,"Plik jest nieprawidłowy. Proszę kliknąć przycisk „Import produktów”, aby przesłać swoje produkty"
+Delete Products,Usuń produkty
+"Adding of new product limit has been over as your account is not approved or waiting for approval. To add more products, your account need to be approved.","Dodanie nowego limitu produkt został jak na Twoje konto nie jest zatwierdzony lub czeka na zatwierdzenie. Aby dodać więcej produktów, Twoje konto musi zostać zatwierdzone."
+Use Default Value,Zastosowanie Wartość domyślna
+Seller Account,Sprzedawca konto
+General Settings,Ustawienia główne
+Seller List,Sprzedawca Lista
+Seller Account Approval Request,Sprzedawca Zatwierdzenie konta Zapytanie
+Seller Product List,Sprzedawca listy produktów
+Product Approval Request,Zatwierdzenie produkt Zapytanie
+Product Reviews,Recenzje produktu
+Seller Reviews,Recenzje sprzedającego
+Seller Review Approval Request,Przegląd Sprzedawca Zatwierdzenie Zapytanie
+Category Request List,Lista kategorii Zapytanie
+Seller Vacation List,Sprzedawca Lista wakacje
+Reports - Best Selling Products,Raporty - Najlepiej sprzedające się produkty
+Email Templates,Szablony wiadomości
+CRON Instructions,Instrukcje cron
+Bulk Import/Export,Luzem Import / Export
+Seller With Feature,Sprzedawca z funkcją
+Feature Activation Request,Aktywacja funkcja Zapytanie
+Transactions and Earnings,Transakcje i zarobki
+Commissions,prowizje
+Category Wise Commissions,Kategoria Wise Prowizje
+Seller Wise Commissions,Sprzedawca Wise Prowizje
+Sellers Payout List,Lista sprzedawców Wypłata
+Sellers Payout Request,Sprzedawcy Wypłata Zapytanie
+PayPal Payout Settings,Ustawienia wypłat PayPal
+Best Selling Products,Najlepiej sprzedającą produkty
+Seller with Import/Export Feature,Sprzedawca z funkcją Import / Export
+Import/Export Feature Activation Request List,Import / eksport funkcji aktywacji Zapytanie Lista
+Category Wise Commission,Kategoria Wise Komisja
+Category Request List,Lista kategorii Zapytanie
+Edit Email Template,Edycja szablonu e-mail
+Email Templates,Szablony wiadomości
+Seller Order List,Sprzedawca Lista Zamówienie
+PayPal Payout Settings,Ustawienia wypłat PayPal
+Product Approval Request,Zatwierdzenie produkt Zapytanie
+All Seller's Products - Reviews,Wszystkie produkty sprzedawcy - Recenzje
+Seller Account Approval Request,Sprzedawca Zatwierdzenie konta Zapytanie
+Seller Wise Commission,Sprzedawca Wise Komisja
+Seller List,Sprzedawca Lista
+Seller Product List,Sprzedawca listy produktów
+Seller Review Approval Request,Przegląd Sprzedawca Zatwierdzenie Zapytanie
+All Seller's Reviews,Recenzje Wszystko sprzedawcy
+Seller Vacation List,Sprzedawca Lista wakacje
+Commissions,prowizje
+Sellers Payout,Sprzedawcy Wypłata
+Sellers Payout Request,Sprzedawcy Wypłata Zapytanie
+View Sellers,Zobacz Sprzedawcy
+Start date or end date can not be same,daty rozpoczęcia lub daty zakończenia nie może być taka sama

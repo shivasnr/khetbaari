@@ -1,0 +1,92 @@
+<section class="content-header">
+    <h1 style="display: inline-block"><?php echo __("Shipment Detail"); ?></h1> <strong class="text-yellow"> (#<?php echo $this->getShipment()->getIncrementId(); ?>)</strong>
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="btn-group">
+                <button type="button" onclick="location.href = '<?php echo $this->getUrl('marketplace/order/orderview', ['order_id' => $this->getOrder()->getId()]); ?>';" class="btn btn-primary" ><?php echo __('Back'); ?></button>
+                <button type="button" onclick="location.href = '<?php echo $this->getUrl('marketplace/shipment/print', ['shipment_id' => $this->getShipment()->getId()]); ?>';" class="btn btn-primary" ><?php echo __('Print'); ?></button>
+                <button type="button" onclick="confirmSetLocation('<?php echo __('Are you sure you want to send Shipment email to customer?'); ?>', '<?php echo $this->getUrl('marketplace/shipment/email', array('order_id' => $this->getOrder()->getId(), 'shipment_id'=> $this->getShipment()->getId())); ?>')" class="btn btn-primary" ><?php echo __('Send Tracking Information'); ?></button>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+</section>
+
+<section class="content">
+    <div class="box box-warning">
+        <div class="box-header with-border" data-widget="collapse">
+            <h3 class="box-title" style="display: inline-block;"><?php echo __("Basic Informations"); ?></h3> <strong class="text-yellow">(#<?php echo $this->getOrderNumber(); ?>)</strong>
+            <div class="box-tools pull-right">
+              <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
+            </div>
+        </div>
+        <div class="box-body">
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="list-group order-basic-list">
+                        <li class="list-group-item">
+                            <div class="row">
+                                <div class="col-lg-6 col-xs-12">
+                                    <span class="badge"><?php echo $this->getOrderStatus(); ?></span>
+                                    <?php echo __("Order Status"); ?>        
+                                </div>
+                                <div class="col-lg-6 col-xs-12">
+                                    <span class="badge"><?php echo $this->getOrderDate(); ?></span>
+                                    <?php echo __("Order Date"); ?>        
+                                </div>
+                            </div>
+                        </li>
+                        <?php $general = $this->getGeneralInfo(); ?>
+                        <?php if(count($general) > 0){ ?>
+                            <?php $break = 0; ?>
+                            <?php foreach($general as $row){ ?>
+                                <?php if($break == 0 || ($break%2 == 0)){ ?>
+                                    <li class="list-group-item">
+                                        <div class="row">
+                                <?php } ?>
+                                    <div class="col-lg-6 col-xs-12">
+                                        <span class="badge"><?php echo $row['value']; ?></span>
+                                        <?php echo $row['label']; ?>        
+                                    </div>
+                                <?php if(($break == 0 && count($general) == 1) || ($break%2 == 1 && $break > 0) || ($break == (count($general) - 1))){ ?>
+                                        </div>
+                                    </li>
+                                <?php } ?>
+                                <?php $break++; ?>
+                            <?php } ?>
+                        <?php } ?>
+                    </ul>
+                </div>
+                <div class="col-lg-12">
+                    <div class="row">
+                        <div class="<?php if (!$this->getOrder()->getIsVirtual()) { ?>col-lg-6 col-xs-12<?php } else { ?>col-lg-12<?php } ?>">
+                            <div class="box box-default box-solid">
+                                <div class="box-header with-border" data-widget="collapse">
+                                    <h3 class="box-title"><?php echo __('Billing Address'); ?></h3>
+                                </div>
+                                <div class="box-body">
+                                    <?php echo $block->getFormattedAddress($this->getOrder()->getBillingAddress()); ?>
+                                </div>
+                            </div>
+                        </div>
+                        <?php if (!$this->getOrder()->getIsVirtual()) { ?>
+                            <div class="col-lg-6 col-xs-12">
+                                <div class="box box-default box-solid">
+                                    <div class="box-header with-border">
+                                        <h3 class="box-title"><?php echo __('Shipping Address'); ?></h3>
+                                    </div>
+                                    <div class="box-body">
+                                        <?php echo $block->getFormattedAddress($this->getOrder()->getShippingAddress()); ?>
+                                    </div>
+                                </div>
+                            </div>
+                        <?php } ?>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <?php echo $this->getChildHtml('marketplace_seller_order_shipment_view_tracking'); ?>
+    <?php echo $this->getChildHtml('marketplace_seller_view_shipment_items'); ?>
+    <?php echo $this->getChildHtml('marketplace_seller_order_shipment_view_comments'); ?>
+</section>

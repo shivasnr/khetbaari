@@ -1,0 +1,70 @@
+.vss_mp_block{
+    clear:both;
+    margin-bottom:10px;
+    width:100%;
+}
+
+.vss_mp_row{
+    display:block;
+}
+
+.vss_mp_inner_block{
+    display:inline-block;
+}
+
+.vss_mp_inner_block .title{
+    font-weight:bold;
+    font-size:13px;
+    color:#666;
+}
+
+.vss_mp_inner_block a{
+    text-decoration: underline;
+    color:#333;
+}
+
+.vss_mp_inner_block h2{
+    font-size:14px;
+}
+
+.vss_active_link{
+    color: #2e8ab8 !important;
+    font-size: 11px;
+    margin-left: 5px;
+}
+
+.vss_read_review_bck{
+    background: url('../images/view_review.png') no-repeat transparent left center;
+    height:16px;
+    width:16px;
+    padding-left: 18px
+}
+
+.vss_write_review_bck{
+    background: url('../images/pencil_small.png') no-repeat transparent left center;
+    height:16px;
+    width:16px;
+    padding-left: 18px
+}
+
+.vss_seller_ratings{
+    display: inline-block;
+    width: auto;
+    white-space: nowrap;
+    color: #d3d3d3;
+    line-height: 16px;
+    font-size: 15px;
+    background: 0;
+    font-family: "Arial Unicode MS",Arial,Tahoma,Verdana,sans-serif;
+}
+
+.vss_rating_filled{
+    position: absolute;
+    top: 2px;
+    left: 0;
+    color: #e9ce18;
+    white-space: nowrap;
+    overflow: hidden;
+    background: 0;
+    width:0px;
+}

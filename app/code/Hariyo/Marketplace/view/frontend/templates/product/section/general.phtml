@@ -1,0 +1,134 @@
+<?php $product = $this->getProduct(); ?>
+<div class="collapsed-box box">
+    <div class="box-header with-border" data-widget="collapse">
+        <h3 class="box-title"><?php echo __("General Information"); ?></h3>
+        <div class="box-tools pull-right tab-error-highlighter text-red">
+            <i class="fa fa-warning"></i>
+        </div>
+        <div class="box-tools pull-right">
+          <button type="button" class="btn btn-box-tool" ><i class="fa fa-plus"></i></button>
+        </div>
+    </div>
+    <div class="box-body">
+        <?php $field = $this->getFieldDetail($this->getFieldKey('name')); ?>
+        <?php if($field['is_visible']){ ?>
+            <div class="form-group col-xs-12 col-sm-6 col-lg-6">
+                <label><?php echo $field['label']; ?><?php if($field['is_required']){ ?><sup><em>*</em></sup><?php } ?></label>
+
+                <?php echo $this->renderFieldHtml($field); ?>
+            </div>
+        <?php } ?>
+
+        <?php $field = $this->getFieldDetail($this->getFieldKey('sku')); ?>
+        <?php if($field['is_visible']){ ?>
+            <div class="form-group col-xs-12 col-sm-6 col-lg-6">
+                <label><?php echo $field['label']; ?><?php if($field['is_required']){ ?><sup><em>*</em></sup><?php } ?></label>
+
+                <?php $field_event = 'onblur="vssmpCheckSkuExistence(this)"'; ?>
+                <?php echo str_replace('replace_extras', $field_event, $this->renderFieldHtml($field, 'product', true)); ?>
+            </div>
+        <?php } ?>
+
+        <?php $field = $this->getFieldDetail($this->getFieldKey('status')); ?>
+        <?php if($field['is_visible']){ ?>
+            <div class="form-group col-xs-12 col-sm-6 col-lg-6">
+                <label>
+                    <?php echo $field['label']; ?><?php if($field['is_required']){ ?><sup><em>*</em></sup><?php } ?>                    
+                </label>
+
+                <?php echo $this->renderFieldHtml($field); ?>
+            </div>
+        <?php } ?>
+
+        <?php $field = $this->getFieldDetail($this->getFieldKey('visibility')); ?>
+        <?php if($field['is_visible']){ ?>
+            <div class="form-group col-xs-12 col-sm-6 col-lg-6">
+                <label>
+                    <?php echo $field['label']; ?><?php if($field['is_required']){ ?><sup><em>*</em></sup><?php } ?>
+                    <span data-toggle="tooltip" title="<?php echo __("Allows your product's visibility on search or catalog page."); ?>"><i class="fa fa-question-circle"></i></span> 
+                </label>
+
+                <?php echo $this->renderFieldHtml($field); ?>
+            </div>
+        <?php } ?>
+
+        <?php $field = $this->getFieldDetail($this->getFieldKey('short_description')); ?>
+        <?php if($field['is_visible']){ ?>
+            <div class="form-group col-xs-12 col-sm-12 col-lg-12">
+                <label>
+                    <?php echo $field['label']; ?><?php if($field['is_required']){ ?><sup><em>*</em></sup><?php } ?>
+                    <span data-toggle="tooltip" title="<?php echo sprintf(__('Maximum %d characters allowed.'), \Hariyo\Marketplace\Block\Product\Section\Section::getShortDescriptionLength()); ?>"><i class="fa fa-question-circle"></i></span> 
+                </label>
+
+                <?php $field_event = 'onkeyup="vssmpShowLengthStatus(this, \'short\')" maxlength="'. \Hariyo\Marketplace\Block\Product\Section\Section::getShortDescriptionLength().'"'; ?>
+                <?php echo str_replace('replace_extras', $field_event, $this->renderFieldHtml($field, 'product', true)); ?>
+                <span class="text-muted vss_hint"></span>
+            </div>
+        <?php } ?>
+
+        <?php $field = $this->getFieldDetail($this->getFieldKey('description')); ?>
+        <?php if($field['is_visible']){ ?>
+            <div class="form-group col-xs-12 col-sm-12 col-lg-12">
+                <label>
+                    <?php echo $field['label']; ?><?php if($field['is_required']){ ?><sup><em>*</em></sup><?php } ?>
+                    <span data-toggle="tooltip" title="<?php echo sprintf(__('Maximum %d characters allowed.'), \Hariyo\Marketplace\Block\Product\Section\Section::getLongDescriptionLength()); ?>"><i class="fa fa-question-circle"></i></span> 
+                </label>
+
+                <?php $field_event = 'onkeyup="vssmpShowLengthStatus(this, \'long\')" maxlength="'.\Hariyo\Marketplace\Block\Product\Section\Section::getLongDescriptionLength().'"'; ?>
+                <?php echo str_replace('replace_extras', $field_event, $this->renderFieldHtml($field, 'product', true)); ?>
+                <span class="text-muted vss_hint"></span>
+            </div>
+        <?php } ?>
+
+        <?php $field = $this->getFieldDetail($this->getFieldKey('news_from_date')); ?>
+        <?php if($field['is_visible']){ ?>
+            <div class="form-group col-xs-12 col-sm-6 col-lg-6">
+                <label><?php echo $field['label']; ?><?php if($field['is_required']){ ?><sup><em>*</em></sup><?php } ?>
+                    <span data-toggle="tooltip" title="<?php echo __("Date of product from which this product will be marked as new."); ?>"><i class="fa fa-question-circle"></i></span> 
+                </label>
+
+                <?php echo $this->renderFieldHtml($field); ?>
+            </div>
+        <?php } ?>
+
+        <?php $field = $this->getFieldDetail($this->getFieldKey('news_to_date')); ?>
+        <?php if($field['is_visible']){ ?>
+            <div class="form-group col-xs-12 col-sm-6 col-lg-6">
+                <label><?php echo $field['label']; ?><?php if($field['is_required']){ ?><sup><em>*</em></sup><?php } ?>
+                    <span data-toggle="tooltip" title="<?php echo __("Date of product until which this product will be marked as new."); ?>"><i class="fa fa-question-circle"></i></span> 
+                </label>
+
+                <?php echo $this->renderFieldHtml($field); ?>
+            </div>
+        <?php } ?>
+
+        <?php $field = $this->getFieldDetail($this->getFieldKey('url_key')); ?>
+        <?php if($field['is_visible']){ ?>
+            <div class="form-group col-xs-12 col-sm-6 col-lg-6">
+                <label><?php echo $field['label']; ?><?php if($field['is_required']){ ?><sup><em>*</em></sup><?php } ?></label>
+
+                <?php $field_event = 'onkeyup="onUrlkeyChanged(\'url_key\')" onchange="onUrlkeyChanged(\'url_key\')"'; ?>
+                <?php echo str_replace('replace_extras', $field_event, $this->renderFieldHtml($field, 'product', true)); ?>
+                <?php if($product->getId()){ ?>
+                    <input id="url_key_create_redirect_hid" name="product[url_key_create_redirect]" value="" disabled="disabled" type="hidden" />
+                    <input id="url_key_create_redirect_chk" name="product[url_key_create_redirect]" value="<?php echo ($product->getId())? $product->getUrlKey() : ''; ?>" disabled="disabled" checked="checked" type="checkbox" > <span>Create Permanent Redirect for old URL</span>
+                <?php } ?>
+            </div>
+        <?php } ?>
+
+        <?php $field = $this->getFieldDetail($this->getFieldKey('weight')); ?>
+        <?php if($field['is_visible']){ ?>
+            <div class="form-group col-xs-12 col-sm-6 col-lg-6">
+                <label><?php echo $field['label']; ?><?php if($field['is_required']){ ?><sup><em>*</em></sup><?php } ?></label>
+
+                <?php echo $this->renderFieldHtml($field); ?>
+            </div>
+        <?php } ?>
+
+        <?php echo $this->getChildHtml('', true, true); ?>
+    </div>
+    <script type="text/javascript">
+        var vssmp_check_sku_url = "<?php echo $this->getFrontUrl('Product', 'validateSku'); ?>";
+        var vssmp_product_id = "<?php echo $product->getId(); ?>";
+    </script>
+</div>

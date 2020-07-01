@@ -1,0 +1,68 @@
+<?php 
+
+$objectManager = \Magento\Framework\App\ObjectManager::getInstance();
+$setPrint = false; 
+
+if($objectManager->get('\Magento\Framework\Registry')->registry('vssmp_print_order')){
+    $setPrint = true;
+}
+?>
+<?php  $_order = $this->getOrder() ?>
+<div class="box box-warning <?php if(!$objectManager->get('\Magento\Framework\Registry')->registry('vssmp_print_order')){ ?>collapsed-box<?php } ?>">
+    <div class="box-header with-border" data-widget="collapse">
+        <h3 class="box-title"><?php echo __("Order Items"); ?></h3>
+        <?php if(!$objectManager->get('\Magento\Framework\Registry')->registry('vssmp_print_order')){ ?>
+            <div class="box-tools pull-right">
+              <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-plus"></i></button>
+            </div>
+        <?php } ?>
+    </div>
+    <div class="box-body">
+        <div class="table-responsive">
+            <?php $_items = $_order->getAllItems(); ?>
+            <?php $_count = count($_items); ?>
+            <?php $_has_product = false; ?>
+            <table class="table table-striped table-bordered">
+                <thead>
+                    <tr>
+                        <th><?php echo __('Product') ?></th>
+                        <th><?php echo __('SKU') ?></th>
+                        <th class="text-center"><?php echo __('Price') ?></th>
+                        <th class="text-center"><?php echo __('Qty') ?></th>
+                        <th class="text-right"><?php echo __('Subtotal') ?></th>
+                    </tr>
+                </thead>
+                <?php if($_count > 0){ ?>
+                    <tbody>
+                        <?php foreach ($_items as $_item){ ?>
+                        <?php if ($_item->getParentItem()) continue; ?>
+                        <?php if (!$this->isSellerProduct($_item->getSku())){ continue; } ?>
+                        <?php $_has_product = true; ?>
+                            <?php 
+                                $this->setTotal('subtotal', $_item->getRowTotal(), $_item->getBaseRowTotal());
+                                $this->setTotal('discount', $_item->getDiscountAmount(), $_item->getBaseDiscountAmount());
+                                $this->setTotal('tax', $_item->getTaxAmount(), $_item->getBaseTaxAmount());
+                                $this->setTotal('paid', ($_item->getRowInvoiced() - $_item->getDiscountInvoiced()), ($_item->getBaseRowInvoiced() - $_item->getBaseDiscountInvoiced()));
+                                $this->setTotal('refunded', ($_item->getAmountRefunded() - $_item->getDiscountRefunded()), ($_item->getBaseAmountRefunded() - $_item->getBaseDiscountRefunded()));
+                            ?>
+                            <?php echo $this->getItemHtml($_item) ?>
+                        <?php } ?>
+                    </tbody>
+                <?php } ?>
+                <?php if($_has_product){ ?>
+                    <?php $total_components = $this->getTotals(); ?>
+                    <?php if (!empty($total_components)) { ?>
+                        <tfoot>
+                            <?php foreach($total_components as $total) { ?>
+                                <tr>
+                                    <td colspan="5" class="text-right"><b><?php echo $total['label']; ?>:</b></td>
+                                    <td colspan="2" class="text-right"><?php echo $this->formatValue($total); ?></td>
+                                </tr>
+                            <?php } ?>
+                        </tfoot>
+                    <?php } ?>
+                <?php } ?>
+            </table>
+        </div>
+    </div>
+</div>

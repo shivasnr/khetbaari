@@ -1,0 +1,1009 @@
+The product status will be 'Disabled' until it is approved from admin.,The product status will be 'Disabled' until it is approved from admin.
+The seller has already added more products. Please either increase the limit or save it as it is.,The seller has already added more products. Please either increase the limit or save it as it is.
+Reason,Reason
+Required field,Required field
+Submit,Submit
+Why do you want to do this?,Why do you want to do this?
+Continue,Continue
+Something went wrong. Please try again.,Something went wrong. Please try again.
+Vacation Interval: ,Vacation Interval: 
+Is Active: ,Is Active: 
+Vacation Halt Status: ,Vacation Halt Status: 
+Comment: ,Comment: 
+Reason for canceling vacation: ,Reason for canceling vacation: 
+Vacation Detail,Vacation Detail
+Your comment to cancel this vacation,Your comment to cancel this vacation
+Register as Seller,Register as Seller
+Yes,Yes
+No,No
+Marketplace CRON Instructions,Marketplace CRON Instructions
+Vacation CRON,Vacation CRON
+Disable the products during the seller's vacation period.,Disable the products during the seller's vacation period.
+Low Stock Notification CRON,Low Stock Notification CRON
+Send the notification to the sellers about their low stock products.,Send the notification to the sellers about their low stock products.
+Cron Instructions,Cron Instructions
+Add the Cron Jobs to your store via control panel/putty. Find below the Instruction to add the Cron Jobs.,Add the Cron Jobs to your store via control panel/putty. Find below the Instruction to add the Cron Jobs.
+URLs to Add to Cron via Control Panel,URLs to Add to Cron via Control Panel
+1. Vacation CRON,1. Vacation CRON
+2. Low Stock Notification CRON,2. Low Stock Notification CRON
+Cron setup via SSH,Cron setup via SSH
+Choose Store Categories,Choose Store Categories
+Collapse All,Collapse All
+Expand All,Expand All
+This operation can take a long time,This operation can take a long time
+Please confirm site switching. All data that hasn\'t been saved will be lost.,Please confirm site switching. All data that hasn\'t been saved will be lost.
+Warning message,Warning message
+Field cannot be empty.,Field cannot be empty.
+You can enter only numbers.,You can enter only numbers.
+Number should be greater than 0.,Number should be greater than 0.
+Field cannot be greater than {#} characters.,Field cannot be greater than {#} characters.
+Field cannot be less than {#} character(s).,Field cannot be less than {#} character(s).
+Please enter Email.,Please enter Email.
+Please enter a valid Email.,Please enter a valid Email.
+Invalid date format.,Invalid date format.
+Number is not in the valid range. It should be between {#} and {##},Number is not in the valid range. It should be between {#} and {##}
+Field should be numeric.,Field should be numeric.
+Field should be positive.,Field should be positive.
+Field can have only upto two decimal values.,Field can have only upto two decimal values.
+Email cannot be greater than {#} characters.,Email cannot be greater than {#} characters.
+Zip should not have special characters.,Zip should not have special characters.
+Percentage should be in number.,Percentage should be in number.
+Percentage should be between 0 and 100.,Percentage should be between 0 and 100.
+Size cannot be greater than {#} characters.,Size cannot be greater than {#} characters.
+Color could not be greater than {#} characters.,Color could not be greater than {#} characters.
+Color is not valid.,Color is not valid.
+Special characters are not allowed.,Special characters are not allowed.
+Script tags are not allowed.,Script tags are not allowed.
+Style tags are not allowed.,Style tags are not allowed.
+Iframe tags are not allowed.,Iframe tags are not allowed.
+Uploaded file is not an image.,Uploaded file is not an image.
+Uploaded file size must be less than {#}.,Uploaded file size must be less than {#}.
+Field should not contain HTML tags.,Field should not contain HTML tags.
+You can enter only positive numbers.,You can enter only positive numbers.
+Are you sure?,Are you sure?
+Comment,Comment
+Are you sure to update feature status of this seller?,Are you sure to update feature status of this seller?
+Do you have any comment?,Do you have any comment?
+"For accurate reporting, be sure to refresh lifetime statistics whenever you change the time zone.","For accurate reporting, be sure to refresh lifetime statistics whenever you change the time zone."
+To refresh last day's,To refresh last day's
+statistics,statistics
+click,click
+here,here
+Filter,Filter
+Period,Period
+Day,Day
+Month,Month
+Year,Year
+From,From
+Select Date,Select Date
+To,To
+Choose Category,Choose Category
+All Categories,All Categories
+Choose a Seller,Choose a Seller
+All Sellers,All Sellers
+NA,NA
+PayPal Payout Settings,PayPal Payout Settings
+Active,Active
+Enable or Disable Paypal Payment Method.,Enable or Disable Paypal Payment Method.
+Client ID,Client ID
+Client Secret,Client Secret
+Paypal Mode,Paypal Mode
+Sandbox,Sandbox
+Live,Live
+Paypal Email Subject,Paypal Email Subject
+Paypal Currency ,Paypal Currency 
+Select the default currency set in Paypal Account.,Select the default currency set in Paypal Account.
+Are You Sure you want to reset the settings?,Are You Sure you want to reset the settings?
+Edit Email Template,Edit Email Template
+About Template,About Template
+Template Subject,Template Subject
+Email Content,Email Content
+Template Content,Template Content
+Please do not edit or remove any template variable.,Please do not edit or remove any template variable.
+Example,Example
+Seller Account Settings,Seller Account Settings
+Default Commission,Default Commission
+Please enter a number between 0 and 100 only and in a proper format.,Please enter a number between 0 and 100 only and in a proper format.
+Use Global,Use Global
+New Product Limit,New Product Limit
+Limit the sellers to add new products without account approval.,Limit the sellers to add new products without account approval.
+If left blank than product limit will be assumed 0.,If left blank than product limit will be assumed 0.
+Categories Allowed,Categories Allowed
+If no category is selected that will mean that all the categories are allowed.,If no category is selected that will mean that all the categories are allowed.
+Product Approval Required,Product Approval Required
+Enable,Enable
+Disable,Disable
+Enable Seller Review,Enable Seller Review
+Required Seller Review Approval,Required Seller Review Approval
+Email to Seller on Order Place,Email to Seller on Order Place
+Please enter a valid number in this field.,Please enter a valid number in this field.
+Payout Transaction Request,Payout Transaction Request
+Required Field,Required Field
+Invalid Value,Invalid Value
+"Invalid Value, please enter a number greater than zero","Invalid Value, please enter a number greater than zero"
+Minimum 30 character required,Minimum 30 character required
+General Settings,General Settings
+Enable Marketplace,Enable Marketplace
+Toggle to enable or disable extension,Toggle to enable or disable extension
+Default Commission (%),Default Commission (%)
+Set default commission in percentage for each product.,Set default commission in percentage for each product.
+Choose the categories allowed for the sellers. If no category is selected that will mean that all the categories are allowed.,Choose the categories allowed for the sellers. If no category is selected that will mean that all the categories are allowed.
+Register as Seller Field,Register as Seller Field
+Enable to add 'Register as Seller' field while registering.,Enable to add 'Register as Seller' field while registering.
+Enable Bulk Import/Export,Enable Bulk Import/Export
+"If disable, no seller will be able to use bulk import/export feature.","If disable, no seller will be able to use bulk import/export feature."
+If enable an email will be sent to seller on order for his product.,If enable an email will be sent to seller on order for his product.
+Enable Vacation Mode,Enable Vacation Mode
+"If disable, no seller will be able to use vacation feature.","If disable, no seller will be able to use vacation feature."
+Show Seller Info on Product Page,Show Seller Info on Product Page
+Enable/Disable to show/hide seller info on product page.,Enable/Disable to show/hide seller info on product page.
+Enable or Disable Approval of product for the sellers.,Enable or Disable Approval of product for the sellers.
+Default limit for sellers of adding new products before account approval. Blank will be considered as 0.,Default limit for sellers of adding new products before account approval. Blank will be considered as 0.
+Enable or Disable Seller review feature. This feature enables the customers to add review for sellers.,Enable or Disable Seller review feature. This feature enables the customers to add review for sellers.
+Seller Review Approval Required,Seller Review Approval Required
+Enable or Disable Approval for seller review. Once the review is approved then only it will be visible to the customers.,Enable or Disable Approval for seller review. Once the review is approved then only it will be visible to the customers.
+Enable Seller List,Enable Seller List
+Show or Hide Sellers List from customers.,Show or Hide Sellers List from customers.
+Enable Search Box,Enable Search Box
+Enable or Disbale search box to search seller on seller listing page.,Enable or Disbale search box to search seller on seller listing page.
+Low Stock Configuration,Low Stock Configuration
+Enable Low Stock Notification,Enable Low Stock Notification
+Enable or Disable Low Stock Notification feature.,Enable or Disable Low Stock Notification feature.
+Low Inventory Limit,Low Inventory Limit
+Enter the limit below that the products are considered low stock.,Enter the limit below that the products are considered low stock.
+When to Notify,When to Notify
+Choose when to notify the seller regarding the critical inventories.,Choose when to notify the seller regarding the critical inventories.
+Cron Job,Cron Job
+On Order Place,On Order Place
+Send Notifications From,Send Notifications From
+Choose the email from which you want to send the notifications.,Choose the email from which you want to send the notifications.
+Seller Name,Seller Name
+Select,Select
+Transaction ID,Transaction ID
+Transaction Type,Transaction Type
+Amount,Amount
+Send Email to Seller,Send Email to Seller
+"Invalid Value, please enter a number greater then zero","Invalid Value, please enter a number greater then zero"
+Add New Transaction,Add New Transaction
+Posted On: ,Posted On: 
+Customer Rating: ,Customer Rating: 
+Review: ,Review: 
+Reason for Disapproval: ,Reason for Disapproval: 
+Seller Review Detail,Seller Review Detail
+Provide Your Reason,Provide Your Reason
+We can\'t find products matching the selection.,We can\'t find products matching the selection.
+View Details,View Details
+In stock,In stock
+Out of stock,Out of stock
+Learn More,Learn More
+My Sales Dashboard,My Sales Dashboard
+Total Revenue,Total Revenue
+Total Orders,Total Orders
+Total Products Sold,Total Products Sold
+Last 7 Days,Last 7 Days
+Sales Comparisons,Sales Comparisons
+Orders,Orders
+Revenue,Revenue
+Products Sold,Products Sold
+Discounts,Discounts
+Balance Amount Variations,Balance Amount Variations
+Today,Today
+Yesterday,Yesterday
+This Week,This Week
+Last Week,Last Week
+This Month,This Month
+Last Month,Last Month
+This Year,This Year
+Last Year,Last Year
+Last 10 Orders,Last 10 Orders
+View All Orders,View All Orders
+Order Number,Order Number
+Order Date,Order Date
+Customer Name,Customer Name
+Customer Email,Customer Email
+Qty,Qty
+Status,Status
+Order Total,Order Total
+click to view order,click to view order
+No Orders Placed Yet,No Orders Placed Yet
+Seller Products,Seller Products
+Filter Products,Filter Products
+Category,Category
+Sort By,Sort By
+Name,Name
+SKU,SKU
+Price(low to high),Price(low to high)
+Price(high to low),Price(high to low)
+Products Feedback,Products Feedback
+Filter Your Search,Filter Your Search
+Search,Search
+Reset,Reset
+No Data,No Data
+Posted on,Posted on
+by,by
+Rating,Rating
+Summary,Summary
+Review,Review
+My Products Catalog,My Products Catalog
+New Product,New Product
+Choose,Choose
+Please select atleast one item from list.,Please select atleast one item from list.
+Select Attribute Set for New Product,Select Attribute Set for New Product
+Attribute Set,Attribute Set
+Product Type,Product Type
+Choose Bulk Action,Choose Bulk Action
+Delete,Delete
+Status Update,Status Update
+Close,Close
+Save,Save
+Save & Continue,Save & Continue
+Duplicate,Duplicate
+Cancel,Cancel
+%d characters remaining.,%d characters remaining.
+Please fill required fields with valid information.,Please fill required fields with valid information.
+Special price should be less than actual price,Special price should be less than actual price
+Past date not allowed,Past date not allowed
+Quick simple product creation,Quick simple product creation
+Create,Create
+Prices,Prices
+Meta Information,Meta Information
+General Information,General Information
+Allows your product's visibility on search or catalog page.,Allows your product's visibility on search or catalog page.
+Maximum %d characters allowed.,Maximum %d characters allowed.
+Date of product from which this product will be marked as new.,Date of product from which this product will be marked as new.
+Date of product until which this product will be marked as new.,Date of product until which this product will be marked as new.
+Category Mapping,Category Mapping
+Associated Products,Associated Products
+Create Simple Product,Create Simple Product
+Quick Create,Quick Create
+Id,Id
+Sku,Sku
+Product Name,Product Name
+Stock Status,Stock Status
+Select Attribute,Select Attribute
+Attribute,Attribute
+Price,Price
+Default Qty,Default Qty
+Samples,Samples
+Title,Title
+File,File
+Sort Order,Sort Order
+Add New Row,Add New Row
+Links,Links
+Links can be purchased separately,Links can be purchased separately
+Max. Downloads,Max. Downloads
+Shareable,Shareable
+Sample,Sample
+Unlimited,Unlimited
+Url,Url
+Inventory,Inventory
+Quantity,Quantity
+Manage Stock,Manage Stock
+"On enabling, stock will be managed automatically. For manual stock, select disable","On enabling, stock will be managed automatically. For manual stock, select disable"
+Qty Uses Decimal,Qty Uses Decimal
+Stock Availability,Stock Availability
+Shipment,Shipment
+Ship Bundle Items,Ship Bundle Items
+Separately,Separately
+Together,Together
+Bundle Items Options,Bundle Items Options
+Add New Option,Add New Option
+Default Title,Default Title
+Delete Option,Delete Option
+Input Type,Input Type
+Is Required,Is Required
+Position,Position
+Add Selection,Add Selection
+Price Type,Price Type
+User Defined Qty,User Defined Qty
+Default,Default
+Qty to Add,Qty to Add
+Add Selected Product(s) to Option,Add Selected Product(s) to Option
+Images,Images
+Image,Image
+Label,Label
+Remove,Remove
+File is not supported,File is not supported
+Upload New Image,Upload New Image
+".jpeg, .jpg, .png, ,gif",".jpeg, .jpg, .png, ,gif"
+No Image uploaded for this product,No Image uploaded for this product
+Browse,Browse
+Related Products,Related Products
+This attribute set does not have attributes which we can use for configurable product,This attribute set does not have attributes which we can use for configurable product
+Please select one or more attributes.,Please select one or more attributes.
+Sold By,Sold By
+Total %d review(s),Total %d review(s)
+View Reviews,View Reviews
+Write Review,Write Review
+File Size Exceeding the Limit.,File Size Exceeding the Limit.
+Max Upload Size: 200 KB,Max Upload Size: 200 KB
+Max Upload Size: 500 KB,Max Upload Size: 500 KB
+This key already assigned to another seller. Please fill another.,This key already assigned to another seller. Please fill another.
+My Seller Profile,My Seller Profile
+View Collection,View Collection
+View Profile,View Profile
+General,General
+Shop Title,Shop Title
+Contact Number,Contact Number
+(Image Size: 150 X 150),(Image Size: 150 X 150)
+Shop Logo,Shop Logo
+(Image Size: 1180 X 250),(Image Size: 1180 X 250)
+Shop Banner,Shop Banner
+Shop Address 1,Shop Address 1
+Shop Address 2,Shop Address 2
+City,City
+Pincode,Pincode
+State,State
+Country,Country
+Description,Description
+Please provide link of your facebook page,Please provide link of your facebook page
+Facebook Link (optional),Facebook Link (optional)
+For example:,For example:
+or,or
+Please provide link of your google plus profile,Please provide link of your google plus profile
+Google Plus Link (optional),Google Plus Link (optional)
+Please provide link of your twitter profile,Please provide link of your twitter profile
+Twitter Link (optional),Twitter Link (optional)
+Meta Keywords,Meta Keywords
+Meta Description,Meta Description
+Example: my-selling-store,Example: my-selling-store
+Page Url Key,Page Url Key
+Policy,Policy
+Return Policy,Return Policy
+Shipping Policy,Shipping Policy
+Payout,Payout
+Admin will use the Payout information to make the payment. Only one payment information can be saved at a time.,Admin will use the Payout information to make the payment. Only one payment information can be saved at a time.
+Select Payment Method,Select Payment Method
+Seller,Seller
+Register As Seller,Register As Seller
+My Reviews,My Reviews
+Customer Review,Customer Review
+Disapproval Reason,Disapproval Reason
+Start Date,Start Date
+End Date,End Date
+Your comment to this vacation,Your comment to this vacation
+Invalid format. Use: MM/dd/YYYY,Invalid format. Use: MM/dd/YYYY
+End date should be greater than start date,End date should be greater than start date
+End date should be future date,End date should be future date
+My Vacations History,My Vacations History
+Set New Vacation,Set New Vacation
+Vacation Interval,Vacation Interval
+Is Active,Is Active
+Vacation Halt Status,Vacation Halt Status
+Reason for canceling vacation,Reason for canceling vacation
+click to view product details,click to view product details
+Sorry! No Product(s) Found.,Sorry! No Product(s) Found.
+Please select a category for your request.,Please select a category for your request.
+Please provide reason for your request.,Please provide reason for your request.
+Request a New Category,Request a New Category
+Choose a Category,Choose a Category
+Select Category,Select Category
+Maximum 500 characters allowed.,Maximum 500 characters allowed.
+Submit Category Request Form,Submit Category Request Form
+No categories are available for request.,No categories are available for request.
+Payout Request,Payout Request
+New Payout Request,New Payout Request
+Request Reason,Request Reason
+Submit Payout Request Form,Submit Payout Request Form
+Payout Details,Payout Details
+Requested On,Requested On
+Your Comment For Request,Your Comment For Request
+Only 200 characters allowed,Only 200 characters allowed
+"Only (xls, xlsx) formats are allowed","Only (xls, xlsx) formats are allowed"
+Toggle navigation,Toggle navigation
+My Account,My Account
+Logout,Logout
+Account Warning!,Account Warning!
+Back To Site,Back To Site
+Category Request Details,Category Request Details
+Category Name,Category Name
+Your request is in pending. Please wait for store response.,Your request is in pending. Please wait for store response.
+This feature is not active into your account.,This feature is not active into your account.
+To request this feature,To request this feature
+Click,Click
+Here,Here
+Request To Activate Import/Export Feature,Request To Activate Import/Export Feature
+Comment ,Comment 
+Required Field. Maximum 200 characters allowed.,Required Field. Maximum 200 characters allowed.
+Click to send request,Click to send request
+Your file has some errors. Please import file after resolving errors.,Your file has some errors. Please import file after resolving errors.
+Click to download your file with errors,Click to download your file with errors
+Download File with Errors,Download File with Errors
+Go Back,Go Back
+Please do not go back or refresh page while uploading your products.,Please do not go back or refresh page while uploading your products.
+It may causes errors in your catalog.,It may causes errors in your catalog.
+Download Template,Download Template
+Select Product Type,Select Product Type
+Product Attribute Set,Product Attribute Set
+Select Attribute Set,Select Attribute Set
+Download Template File,Download Template File
+Please make sure that columns in your file must be matched with template file created for you on the basis of selected attribute.,Please make sure that columns in your file must be matched with template file created for you on the basis of selected attribute.
+Import Products,Import Products
+Import Action,Import Action
+Select Action,Select Action
+"Action will only be performed on the basis of SKU of products. Without sku, product will not be consider for any action.","Action will only be performed on the basis of SKU of products. Without sku, product will not be consider for any action."
+Upload File,Upload File
+"Only (xls, xlsx) file will be accepted","Only (xls, xlsx) file will be accepted"
+File must not exceed %s MB,File must not exceed %s MB
+Browse File,Browse File
+Validate File,Validate File
+File must no exceed %s MB,File must no exceed %s MB
+Import/Export Instructions,Import/Export Instructions
+Import,Import
+Export,Export
+Import Instructions,Import Instructions
+"Download Template as per your product type. At a time, only 1 type of products can be import.","Download Template as per your product type. At a time, only 1 type of products can be import."
+"If you import more than 1 type of products from one file, then system will be fail or affect your catalog.","If you import more than 1 type of products from one file, then system will be fail or affect your catalog."
+Each template will have '%s' worksheet. Your import file must have this worksheet as it is. Please do not change anything in its content.,Each template will have '%s' worksheet. Your import file must have this worksheet as it is. Please do not change anything in its content.
+Each template will have '%s' worksheet. Please provide product data from possible values of corresponding field. If field has possible values.,Each template will have '%s' worksheet. Please provide product data from possible values of corresponding field. If field has possible values.
+"Only 'xls, xlsx' file having size less than %sMB will be acceptable.","Only 'xls, xlsx' file having size less than %sMB will be acceptable."
+If you want to import using exported data then copy the general & image sheet of exported file into general & image sheet of the downloaded template file.,If you want to import using exported data then copy the general & image sheet of exported file into general & image sheet of the downloaded template file.
+"Use (|) to seperate value in multivalue field like category_ids, related_products.","Use (|) to seperate value in multivalue field like category_ids, related_products."
+Export Instructions,Export Instructions
+Select export type in export section.,Select export type in export section.
+"If the export type is Category, then system will export only assigned categories to you.","If the export type is Category, then system will export only assigned categories to you."
+"In case of products, select product type and attributes set.","In case of products, select product type and attributes set."
+Exported data will be in xls/xlsx format.,Exported data will be in xls/xlsx format.
+Export Type,Export Type
+Select Export Type,Select Export Type
+Category Export,Category Export
+Product Export,Product Export
+Product Status,Product Status
+All,All
+Disabled,Disabled
+Enabled,Enabled
+In Stock,In Stock
+Out of Stock,Out of Stock
+Export Data,Export Data
+This process will take few minutes.,This process will take few minutes.
+Please do not go back or refresh page while exporting your data.,Please do not go back or refresh page while exporting your data.
+Your are not eligible to use this feature as your account is either not approved or inactive.,Your are not eligible to use this feature as your account is either not approved or inactive.
+"Currently, this feature is disabled by store.","Currently, this feature is disabled by store."
+You cannot use this feature as required library is missing. Please contact to support.,You cannot use this feature as required library is missing. Please contact to support.
+Total Sale,Total Sale
+Total Earning,Total Earning
+Transaction Details,Transaction Details
+My Earnings,My Earnings
+Earnings History,Earnings History
+Order Wise Earnings,Order Wise Earnings
+Transactions History,Transactions History
+Total Paid,Total Paid
+Balance,Balance
+Quantity to Add,Quantity to Add
+Low Stock Notification,Low Stock Notification
+Configuration,Configuration
+Receive Low Stock Notifications,Receive Low Stock Notifications
+Save Seller Level Configuration,Save Seller Level Configuration
+facebook,facebook
+twitter,twitter
+google,google
+About Seller,About Seller
+Description not available.,Description not available.
+Write your thought,Write your thought
+Summary of your review,Summary of your review
+Your Thought,Your Thought
+Your Name,Your Name
+Rate this seller,Rate this seller
+Submit Review,Submit Review
+Notify Customer by Email,Notify Customer by Email
+Visible on Storefront,Visible on Storefront
+Submit Comment,Submit Comment
+Customer,Customer
+Notified,Notified
+Not Notified,Not Notified
+Please provide comment,Please provide comment
+Product,Product
+Subtotal,Subtotal
+Order Detail,Order Detail
+Click to download invoice.,Click to download invoice.
+Download Invoice,Download Invoice
+Click to download shipping slip.,Click to download shipping slip.
+Download Shipping Slip,Download Shipping Slip
+Are you sure you want to send order email to customer?,Are you sure you want to send order email to customer?
+Click to send email to customer,Click to send email to customer
+Send Email,Send Email
+Click to create shipment,Click to create shipment
+Ship,Ship
+Print,Print
+Basic Informations,Basic Informations
+Order Status,Order Status
+Billing Address,Billing Address
+Shipping Address,Shipping Address
+Ordered,Ordered
+Shipped,Shipped
+Canceled,Canceled
+Refunded,Refunded
+Gift Message,Gift Message
+Excl. Tax,Excl. Tax
+Total,Total
+Incl. Tax,Incl. Tax
+Total incl. tax,Total incl. tax
+Invoiced,Invoiced
+Order Items,Order Items
+Shipments,Shipments
+Ship to Name,Ship to Name
+Date Shipped,Date Shipped
+Total Qty,Total Qty
+click to view detail,click to view detail
+Tax,Tax
+Items To Be Shipped,Items To Be Shipped
+Qty to Ship,Qty to Ship
+Append Comments,Append Comments
+Email Copy of Shipment,Email Copy of Shipment
+Submit Shipment,Submit Shipment
+New Shipment,New Shipment
+Back,Back
+Shipment Tracking,Shipment Tracking
+Carrier,Carrier
+Tracking No.,Tracking No.
+Action,Action
+Add Tracking Number,Add Tracking Number
+Invalid value(s) for Qty to Ship,Invalid value(s) for Qty to Ship
+Shipment Detail,Shipment Detail
+Are you sure you want to send Shipment email to customer?,Are you sure you want to send Shipment email to customer?
+Send Tracking Information,Send Tracking Information
+Tracking Number,Tracking Number
+Add,Add
+Tracking title is required.,Tracking title is required.
+Tracking number is required.,Tracking number is required.
+Shipped Items,Shipped Items
+Qty Shipped,Qty Shipped
+No Item Shipped Yet,No Item Shipped Yet
+Reviews,Reviews
+Posted on:,Posted on:
+by ,by 
+Sorry! No Reviews Found.,Sorry! No Reviews Found.
+Write your review,Write your review
+Sellers List,Sellers List
+Search Seller,Search Seller
+Sorry! No Seller(s) Found.,Sorry! No Seller(s) Found.
+General Contact,General Contact
+Customer Support,Customer Support
+Sales Representative,Sales Representative
+Custom Email 1,Custom Email 1
+Custom Email 2,Custom Email 2
+"Unable to write low stock files. Permission Error on ""var"" Directory.","Unable to write low stock files. Permission Error on ""var"" Directory."
+Unable to write file for Seller ,Unable to write file for Seller 
+Product ID,Product ID
+Current Quantity,Current Quantity
+Base Image,Base Image
+Small Image,Small Image
+Thumbnail,Thumbnail
+Disallowed file type.,Disallowed file type.
+Type of the product you have selected for this import template file.,Type of the product you have selected for this import template file.
+Attribute set you have selected for this product type in import template file.,Attribute set you have selected for this product type in import template file.
+single pipe(|) seperated multiple categories,single pipe(|) seperated multiple categories
+single pipe(|) seperated product sku,single pipe(|) seperated product sku
+single pipe(|) seperated attributes,single pipe(|) seperated attributes
+pair of values seperated by single pipe(|),pair of values seperated by single pipe(|)
+System will group your bundle item on the basis of this title. If two items has same title then they will be grouped in same bundle.,System will group your bundle item on the basis of this title. If two items has same title then they will be grouped in same bundle.
+Daily,Daily
+Weekly,Weekly
+Monthly,Monthly
+Yearly,Yearly
+Waiting for Approval,Waiting for Approval
+Approved,Approved
+Disapproved,Disapproved
+Add new products,Add new products
+Update existing products,Update existing products
+Add/update products,Add/update products
+Delete products,Delete products
+Bank Wire,Bank Wire
+Payment By Cheque,Payment By Cheque
+Paypal,Paypal
+Please provide the paypal email id.,Please provide the paypal email id.
+Paypal Email ID,Paypal Email ID
+Please provide additional information.,Please provide additional information.
+Additional Information,Additional Information
+Please provide the name.,Please provide the name.
+Pay to the order of (name),Pay to the order of (name)
+Please provide the address.,Please provide the address.
+Address,Address
+Address where the cheque should be sent to.,Address where the cheque should be sent to.
+Please provide account owner name,Please provide account owner name
+Account Owner,Account Owner
+Please provide bankwire details,Please provide bankwire details
+Details,Details
+"Such as bank branch, IBAN number, BIC, etc.","Such as bank branch, IBAN number, BIC, etc."
+Please provide bankwire address.,Please provide bankwire address.
+Bank Address,Bank Address
+Requsted on: ,Requsted on: 
+ by, by
+Amount: ,Amount: 
+Payment Method: ,Payment Method: 
+PayPal,PayPal
+PayPal ID: ,PayPal ID: 
+Additional Information: ,Additional Information: 
+Bankwire,Bankwire
+Owner Name: ,Owner Name: 
+Details: ,Details: 
+Bank Address: ,Bank Address: 
+Cheque,Cheque
+Address: ,Address: 
+No balance amount is left for this seller.,No balance amount is left for this seller.
+No order found for this seller. Transaction cannot be initiated.,No order found for this seller. Transaction cannot be initiated.
+Paypal payout request failed.,Paypal payout request failed.
+Please enable paypal payout to make this transaction.,Please enable paypal payout to make this transaction.
+Payout request does not exist.,Payout request does not exist.
+By System,By System
+Manually,Manually
+Successfully,Successfully
+Credit,Credit
+Debit,Debit
+Unknown,Unknown
+Invalid request,Invalid request
+Export type is missing,Export type is missing
+No product found as per your selected parameters.,No product found as per your selected parameters.
+Unable to process request,Unable to process request
+No category assigned to you.,No category assigned to you.
+invalid request,invalid request
+Please select product parameters.,Please select product parameters.
+No products found to export.,No products found to export.
+Vacation is successfully canceled.,Vacation is successfully canceled.
+New Vacation successfully created.,New Vacation successfully created.
+Your products will be hidden automatically when the vacation starts.,Your products will be hidden automatically when the vacation starts.
+Start Date or End Date cannot be less than today.,Start Date or End Date cannot be less than today.
+Start Date or End Date cannot be same.,Start Date or End Date cannot be same.
+Date range should not be in between of any previous active vacation.,Date range should not be in between of any previous active vacation.
+Technical error occurred while validating new vacation.,Technical error occurred while validating new vacation.
+The requested vacation's detail not found.,The requested vacation's detail not found.
+Marketplace - CRON,Marketplace - CRON
+Please enable the low stock notifications functionality first,Please enable the low stock notifications functionality first
+Please enable the marketplace module first,Please enable the marketplace module first
+Low Stock Notifications Cron Executed Successfully.,Low Stock Notifications Cron Executed Successfully.
+"There were some errors executing the low stock notifications cron, please check Log for more details.","There were some errors executing the low stock notifications cron, please check Log for more details."
+Please enable the seller vacation functionality first,Please enable the seller vacation functionality first
+Vacation Cron Executed Successfully.,Vacation Cron Executed Successfully.
+"There were some errors executing the vacation cron, please check Log for more details.","There were some errors executing the vacation cron, please check Log for more details."
+View Shipment,View Shipment
+Requested order details not Found.,Requested order details not Found.
+We can\'t save the shipment right now.,We can\'t save the shipment right now.
+Shipment Document Validation Error(s):\n,Shipment Document Validation Error(s):\n
+The shipment has been created.,The shipment has been created.
+You created the shipping label.,You created the shipping label.
+An error occurred while creating shipping label.,An error occurred while creating shipping label.
+Cannot save shipment.,Cannot save shipment.
+Please enter a comment.,Please enter a comment.
+Comment has been added for this shipment.,Comment has been added for this shipment.
+Cannot add new comment.,Cannot add new comment.
+You sent the shipment.,You sent the shipment.
+Cannot send shipment information.,Cannot send shipment information.
+Please specify a carrier.,Please specify a carrier.
+Please enter a tracking number.,Please enter a tracking number.
+Tracking number successfully updated into this shipment.,Tracking number successfully updated into this shipment.
+We can\'t initialize shipment for adding tracking number.,We can\'t initialize shipment for adding tracking number.
+Cannot add tracking number.,Cannot add tracking number.
+Tracking number successfully deleted from this shipment.,Tracking number successfully deleted from this shipment.
+We can\'t initialize shipment for delete tracking number.,We can\'t initialize shipment for delete tracking number.
+We can\'t delete tracking number.,We can\'t delete tracking number.
+We can\'t load track with retrieving identifier right now.,We can\'t load track with retrieving identifier right now.
+Quanity updated successfully.,Quanity updated successfully.
+Low Stock,Low Stock
+Configuration Saved Successfully.,Configuration Saved Successfully.
+Seller's Products - Reviews,Seller's Products - Reviews
+Pending,Pending
+Not Approved,Not Approved
+Seller's Account-Orders,Seller's Account-Orders
+Seller OrderView,Seller OrderView
+You sent the order email.,You sent the order email.
+We can\'t send the email order right now.,We can\'t send the email order right now.
+This order no longer exists.,This order no longer exists.
+There are no shipping documents related to this order.,There are no shipping documents related to this order.
+Print Order,Print Order
+There are no invoice documents related to this order.,There are no invoice documents related to this order.
+Seller List,Seller List
+Knowband,Knowband
+Marketplace,Marketplace
+Email Template Updated successfully.,Email Template Updated successfully.
+Best Selling Products,Best Selling Products
+ Seller(s) Disabled Successfully, Seller(s) Disabled Successfully
+Invalid Request,Invalid Request
+Status changed successfully,Status changed successfully
+Activated,Activated
+Deactivated,Deactivated
+Cannot update,Cannot update
+Cannot load object,Cannot load object
+Seller Approved Successfully,Seller Approved Successfully
+Email Templates,Email Templates
+Sellers Payout Request,Sellers Payout Request
+Product Approval Request,Product Approval Request
+Technical error occurred while canceling vacation.,Technical error occurred while canceling vacation.
+Seller Reviews,Seller Reviews
+%s by %s,%s by %s
+The requested seller's review detail not found.,The requested seller's review detail not found.
+Import/Export Feature Request List,Import/Export Feature Request List
+Settings saved successfully.,Settings saved successfully.
+Seller Account Approval Request,Seller Account Approval Request
+Seller Vacation List,Seller Vacation List
+Transaction detail successfully saved.,Transaction detail successfully saved.
+Some error occured. Please try again.,Some error occured. Please try again.
+Total of %d record(s) have been updated.,Total of %d record(s) have been updated.
+ Seller(s) Disapproved Successfully, Seller(s) Disapproved Successfully
+Seller Product List,Seller Product List
+Review has been approved successfully.,Review has been approved successfully.
+Technical Error Occured - Not able to update.,Technical Error Occured - Not able to update.
+Review has been disapproved successfully.,Review has been disapproved successfully.
+Seller review has been deleted.,Seller review has been deleted.
+Technical error occurred while processing category request.,Technical error occurred while processing category request.
+Seller account has not been approved yet. Please approve the seller account first.,Seller account has not been approved yet. Please approve the seller account first.
+ record(s) have been updated., record(s) have been updated.
+Product has been approved successfully.,Product has been approved successfully.
+ Seller(s) Approved Successfully, Seller(s) Approved Successfully
+Approval updated successfully,Approval updated successfully
+Seller Review Approval Request,Seller Review Approval Request
+PayPal Payout settings has been saved successfully.,PayPal Payout settings has been saved successfully.
+Category Wise Commissions,Category Wise Commissions
+CRON Instructions,CRON Instructions
+Seller List with Import/Export Feature,Seller List with Import/Export Feature
+Product Reviews,Product Reviews
+Seller Disapproved Successfully,Seller Disapproved Successfully
+Category Request List,Category Request List
+Commissions,Commissions
+Total of %d record(s) have been deleted.,Total of %d record(s) have been deleted.
+ Seller(s) Enabled Successfully, Seller(s) Enabled Successfully
+Sellers Payout,Sellers Payout
+"Some of the products are not enabled, because either these products or their sellers are not approved/disabled.","Some of the products are not enabled, because either these products or their sellers are not approved/disabled."
+Some of the processed products have no SKU value defined. Please fill it prior to performing operations on these products.,Some of the processed products have no SKU value defined. Please fill it prior to performing operations on these products.
+Payout request status has been updated successfully.,Payout request status has been updated successfully.
+Invalid Request.,Invalid Request.
+Seller Wise Commissions,Seller Wise Commissions
+Seller Dashboard,Seller Dashboard
+Your request has been sent. Please wait for store response.,Your request has been sent. Please wait for store response.
+Cannot send request,Cannot send request
+Product Import/Export,Product Import/Export
+Seller Profile,Seller Profile
+Seller Profile saved successfully.,Seller Profile saved successfully.
+Not Available,Not Available
+Your payout request has been submitted successfully.,Your payout request has been submitted successfully.
+Please configure payout method in the seller profile menu.,Please configure payout method in the seller profile menu.
+Seller's Account - Payout Requests,Seller's Account - Payout Requests
+Error Occured,Error Occured
+Thank you for rating the Seller.,Thank you for rating the Seller.
+Posting review for this seller is not allowed.,Posting review for this seller is not allowed.
+Seller Account - My Reviews,Seller Account - My Reviews
+"You can't register yourself as seller because your registration request limit has been over. To register, please contact to support.","You can't register yourself as seller because your registration request limit has been over. To register, please contact to support."
+Seller's Account - Earnings,Seller's Account - Earnings
+Seller's Account - Transactions History,Seller's Account - Transactions History
+File Path is Missing,File Path is Missing
+Unknown file,Unknown file
+General worksheet is missing.,General worksheet is missing.
+Column title row is missing from general worksheet.,Column title row is missing from general worksheet.
+Column '%s' is missing from general worksheet.,Column '%s' is missing from general worksheet.
+File is empty.,File is empty.
+Error in processing '%s' sku before deleting.,Error in processing '%s' sku before deleting.
+Listed products are not deleted:,Listed products are not deleted:
+"Upload your file and try again. To speed up delete process, please remove all products that has been deleted.","Upload your file and try again. To speed up delete process, please remove all products that has been deleted."
+Your products has been deleted. System will redirect you on product list automatically in 5 secs.,Your products has been deleted. System will redirect you on product list automatically in 5 secs.
+Import action is Missing,Import action is Missing
+Meta Information worksheet is missing,Meta Information worksheet is missing
+File must not exceed ,File must not exceed 
+This sku does not exist,This sku does not exist
+Product of this SKU is not yours.,Product of this SKU is not yours.
+This row has error,This row has error
+Meta Information Sheet is Missing,Meta Information Sheet is Missing
+Error in processing data of '%s' sku.,Error in processing data of '%s' sku.
+Listed products are not saved:,Listed products are not saved:
+"Upload your file and try again. To speed up process, please remove all other product data that has been saved successfully.","Upload your file and try again. To speed up process, please remove all other product data that has been saved successfully."
+Your products has been uploaded. System will redirect you on product list automatically in 5 secs.,Your products has been uploaded. System will redirect you on product list automatically in 5 secs.
+Error while processing rows in uploaded file.,Error while processing rows in uploaded file.
+Error: %s,Error: %s
+Product Type is missing from Meta Sheet Worksheet,Product Type is missing from Meta Sheet Worksheet
+Product Type is invalid in Meta Sheet Worksheet,Product Type is invalid in Meta Sheet Worksheet
+Attribute set id is missing from Meta Sheet Worksheet,Attribute set id is missing from Meta Sheet Worksheet
+Attribute set id is not valid in Meta Sheet Worksheet,Attribute set id is not valid in Meta Sheet Worksheet
+This SKU is already used by other product of you or other seller.,This SKU is already used by other product of you or other seller.
+This SKU is used by other seller or store.,This SKU is used by other seller or store.
+This value is required,This value is required
+Invalid Value. Only date format value is accepted.,Invalid Value. Only date format value is accepted.
+Invalid Value. Only Price type value accepted,Invalid Value. Only Price type value accepted
+Invalid Value. Only positive number type value accepted,Invalid Value. Only positive number type value accepted
+Out of range value. Please see possible value for this field.,Out of range value. Please see possible value for this field.
+Some of the values are not exist.,Some of the values are not exist.
+Your request has been sent to the admin for approval.,Your request has been sent to the admin for approval.
+Seller's Account - Request a New Category,Seller's Account - Request a New Category
+Attribute set is missing,Attribute set is missing
+Attribute set cannot load,Attribute set cannot load
+1. This worksheet is required and must be included in your import file,1. This worksheet is required and must be included in your import file
+2. Do not change worksheet name as well as its content.,2. Do not change worksheet name as well as its content.
+3. Any change in this worksheet format will not allow system to import your data into system.,3. Any change in this worksheet format will not allow system to import your data into system.
+4. We recommend you to copy this worksheet in your import file with same worksheet name.,4. We recommend you to copy this worksheet in your import file with same worksheet name.
+1. This worksheet contains possible values of some field.,1. This worksheet contains possible values of some field.
+2. Please fill the related fields only from these possible values.,2. Please fill the related fields only from these possible values.
+3. If possible values for any field are not given then you can fill it with any text value.,3. If possible values for any field are not given then you can fill it with any text value.
+Seller's Products,Seller's Products
+The product has been saved.,The product has been saved.
+This window will be closed automatically within %s secs.,This window will be closed automatically within %s secs.
+Product has been saved successfully.,Product has been saved successfully.
+The product has been duplicated successfully.,The product has been duplicated successfully.
+Product has been created successfully.,Product has been created successfully.
+Please wait for admin approval.,Please wait for admin approval.
+"Adding of new product limit has been over as your account is not approved or waiting for approval. To add more products, your account needs to be approved.","Adding of new product limit has been over as your account is not approved or waiting for approval. To add more products, your account needs to be approved."
+You duplicated the product.,You duplicated the product.
+Seller's Product,Seller's Product
+This SKU already exist.,This SKU already exist.
+Cancel Vacation,Cancel Vacation
+Add New Vacation,Add New Vacation
+Vacation Halted,Vacation Halted
+Created Date,Created Date
+This vacation is already canceled,This vacation is already canceled
+Visibility,Visibility
+click to edit product,click to edit product
+click to update quantity,click to update quantity
+Update Quantity,Update Quantity
+Order No.,Order No.
+From Date,From Date
+To Date,To Date
+click to print order,click to print order
+Shipping & Handling,Shipping & Handling
+Discount (%1),Discount (%1)
+Discount,Discount
+Grand Total,Grand Total
+Grand Total to be Charged,Grand Total to be Charged
+Custom Value,Custom Value
+Order # %1,Order # %1
+Comment History,Comment History
+Shipment History,Shipment History
+Credit Memo History,Credit Memo History
+Subtotal (Excl.Tax),Subtotal (Excl.Tax)
+Subtotal (Incl.Tax),Subtotal (Incl.Tax)
+Shipping & Handling (Excl.Tax),Shipping & Handling (Excl.Tax)
+Shipping & Handling (Incl.Tax),Shipping & Handling (Incl.Tax)
+Grand Total (Excl.Tax),Grand Total (Excl.Tax)
+Grand Total (Incl.Tax),Grand Total (Incl.Tax)
+Email,Email
+Shipping Charges,Shipping Charges
+Track this shipment,Track this shipment
+Track Order,Track Order
+Shipping Method,Shipping Method
+Shipping not Required,Shipping not Required
+Payment Method,Payment Method
+Grand Total (Excl. Shipping),Grand Total (Excl. Shipping)
+Discount (%s),Discount (%s)
+Total Refunded,Total Refunded
+Total Due,Total Due
+Shipping & Handling (Excl. Tax),Shipping & Handling (Excl. Tax)
+Shipping & Handling (Incl. Tax),Shipping & Handling (Incl. Tax)
+Print Order # %1,Print Order # %1
+Minimum %d character requried,Minimum %d character requried
+Save Template,Save Template
+Show Report,Show Report
+Manage Seller Account,Manage Seller Account
+Add Subcategory,Add Subcategory
+Add Root Category,Add Root Category
+Save Settings,Save Settings
+Seller Payout Request,Seller Payout Request
+ID,ID
+Transation Date,Transation Date
+Telephone,Telephone
+Commission (in %),Commission (in %)
+Your Earnings,Your Earnings
+Category wise Commissions,Category wise Commissions
+Total Commission,Total Commission
+Transaction History,Transaction History
+Seller wise Commissions,Seller wise Commissions
+Seller Earning,Seller Earning
+Amount Transfer,Amount Transfer
+Transaction Action,Transaction Action
+Sellers Payout (,Sellers Payout (
+Seller Order List,Seller Order List
+Purchased From (Store),Purchased From (Store)
+Purchased On,Purchased On
+Actions,Actions
+Template Description,Template Description
+Template Type,Template Type
+Date Added,Date Added
+Date Updated,Date Updated
+Seller Best Selling Product List,Seller Best Selling Product List
+Interval,Interval
+Order Quantity,Order Quantity
+Product Price,Product Price
+Seller Account Approval Request List,Seller Account Approval Request List
+Approved Status,Approved Status
+Added Date,Added Date
+Approve,Approve
+Account Status,Account Status
+Seller Status,Seller Status
+Seller Since,Seller Since
+Posted On,Posted On
+Request Date,Request Date
+Vacation Active,Vacation Active
+Seller Review Approval List,Seller Review Approval List
+Seller Approval List,Seller Approval List
+Seller Product Reviews,Seller Product Reviews
+Created On,Created On
+Nickname,Nickname
+Visible In,Visible In
+Type,Type
+Product SKU,Product SKU
+Edit,Edit
+Seller Category Request List,Seller Category Request List
+Seller Email,Seller Email
+View,View
+Disapprove,Disapprove
+Make New,Make New
+Edit Template,Edit Template
+Products,Products
+Administrator,Administrator
+Guest,Guest
+Seller Bulkimport Feature List,Seller Bulkimport Feature List
+Last Update,Last Update
+Feature Status,Feature Status
+Seller Bulkimport Feature Request List,Seller Bulkimport Feature Request List
+Seller Comment,Seller Comment
+Your Comment,Your Comment
+Request Status,Request Status
+Activate Feature,Activate Feature
+Read More,Read More
+click to view review,click to view review
+Posted on: %s by %s,Posted on: %s by %s
+Home,Home
+Home Page,Home Page
+click to view product,click to view product
+Your seller account is currently under process and not yet approved. You only have a limited access to the seller account currently.,Your seller account is currently under process and not yet approved. You only have a limited access to the seller account currently.
+Your seller account has been disapproved. You only have a limited access to the seller account currently. To send request again ,Your seller account has been disapproved. You only have a limited access to the seller account currently. To send request again 
+Click Here,Click Here
+Product Catalog,Product Catalog
+Product Feedback,Product Feedback
+Earnings,Earnings
+Transactions,Transactions
+New Category Request,New Category Request
+My Vacations,My Vacations
+Requested Date,Requested Date
+Request On,Request On
+Date,Date
+Transaction Date,Transaction Date
+Amount of %s debited from your earning on %s,Amount of %s debited from your earning on %s
+Amount of %s credited into your account on %s,Amount of %s credited into your account on %s
+Report Format,Report Format
+Your file is valid. Please click 'Delete Products' button to delete your products,Your file is valid. Please click 'Delete Products' button to delete your products
+Your file is valid. Please click 'Import Products' button to upload your products,Your file is valid. Please click 'Import Products' button to upload your products
+Delete Products,Delete Products
+"Adding of new product limit has been over as your account is not approved or waiting for approval. To add more products, your account need to be approved.","Adding of new product limit has been over as your account is not approved or waiting for approval. To add more products, your account need to be approved."
+Use Default Value,Use Default Value
+Seller Account,Seller Account
+General Settings,General Settings
+Seller List,Seller List
+Seller Account Approval Request,Seller Account Approval Request
+Seller Product List,Seller Product List
+Product Approval Request,Product Approval Request
+Product Reviews,Product Reviews
+Seller Reviews,Seller Reviews
+Seller Review Approval Request,Seller Review Approval Request
+Category Request List,Category Request List
+Seller Vacation List,Seller Vacation List
+Reports - Best Selling Products,Reports - Best Selling Products
+Email Templates,Email Templates
+CRON Instructions,CRON Instructions
+Bulk Import/Export,Bulk Import/Export
+Seller With Feature,Seller With Feature
+Feature Activation Request,Feature Activation Request
+Transactions and Earnings,Transactions and Earnings
+Commissions,Commissions
+Category Wise Commissions,Category Wise Commissions
+Seller Wise Commissions,Seller Wise Commissions
+Sellers Payout List,Sellers Payout List
+Sellers Payout Request,Sellers Payout Request
+PayPal Payout Settings,PayPal Payout Settings
+Best Selling Products,Best Selling Products
+Seller with Import/Export Feature,Seller with Import/Export Feature
+Import/Export Feature Activation Request List,Import/Export Feature Activation Request List
+Category Wise Commission,Category Wise Commission
+Category Request List,Category Request List
+Edit Email Template,Edit Email Template
+Email Templates,Email Templates
+Seller Order List,Seller Order List
+PayPal Payout Settings,PayPal Payout Settings
+Product Approval Request,Product Approval Request
+All Seller's Products - Reviews,All Seller's Products - Reviews
+Seller Account Approval Request,Seller Account Approval Request
+Seller Wise Commission,Seller Wise Commission
+Seller List,Seller List
+Seller Product List,Seller Product List
+Seller Review Approval Request,Seller Review Approval Request
+All Seller's Reviews,All Seller's Reviews
+Seller Vacation List,Seller Vacation List
+Commissions,Commissions
+Sellers Payout,Sellers Payout
+Sellers Payout Request,Sellers Payout Request
+View Sellers,View Sellers
+Start date or end date can not be same,Start date or end date can not be same

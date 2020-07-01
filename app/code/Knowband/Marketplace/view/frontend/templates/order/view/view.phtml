@@ -1,0 +1,124 @@
+<?php 
+$objectManager = \Magento\Framework\App\ObjectManager::getInstance();
+$setPrint = false; 
+
+if($objectManager->get('\Magento\Framework\Registry')->registry('vssmp_print_order')){
+    $setPrint = true;
+}
+?>
+
+<section class="content-header">
+    <h1 style="display: inline-block;"><?php echo __("Order Detail"); ?></h1> <strong class="text-yellow"> (#<?php echo $this->getOrderNumber(); ?>)</strong>
+    <?php if(!$setPrint ){ ?>
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="btn-group pull-right">
+                    <?php if ($this->canDownloadInvoice()) { ?>
+                        <button type="button" onclick="location.href = '<?php echo $this->getUrl('marketplace/order/pdfInvoices', ['order_id' => $this->getOrder()->getId()]); ?>';" class="btn btn-primary btn-xs" title="<?php echo __('Click to download invoice.'); ?>"><?php echo __('Download Invoice'); ?></button>
+                    <?php } ?>
+                    <?php if ($this->canDownloadShipment()) { ?>
+                        <button type="button" onclick="location.href = '<?php echo $this->getUrl('marketplace/order/pdfShipments', ['order_id' => $this->getOrder()->getId()]); ?>';" class="btn btn-primary btn-xs" title="<?php echo __('Click to download shipping slip.'); ?>"><?php echo __('Download Shipping Slip'); ?></button>
+                    <?php } ?>
+                    <?php if ($this->canSendEmail()) { ?>
+                        <button type="button" onclick="if(confirm('<?php echo __('Are you sure you want to send order email to customer?'); ?>')) { location.href='<?php echo $this->getUrl('marketplace/order/email', array('order_id' => $this->getOrder()->getId())); ?>' }" class="btn btn-primary btn-xs" title="<?php echo __('Click to send email to customer'); ?>"><?php echo __('Send Email'); ?></button>
+                    <?php } ?>
+                    <?php if ($this->canCreateShipment()) { ?>
+                        <button type="button" onclick="location.href = '<?php echo $this->getUrl('marketplace/shipment/createshipment', array('order_id' => $this->getOrder()->getId())); ?>';" class="btn btn-primary btn-xs" title="<?php echo __('Click to create shipment'); ?>"><?php echo __('Ship'); ?></button>
+                    <?php } ?>
+                    <button type="button" onclick="location.href = '<?php echo $this->getUrl('marketplace/order/printOrder', array('order_id' => $this->getOrder()->getId())); ?>';" class="btn btn-primary btn-xs" ><?php echo __('Print'); ?></button>
+                    <?php echo $this->getChildHtml('marketplace_seller_order_view_extraaction'); ?>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    <?php } ?>
+</section>
+
+<section id="vssmp-seller-orderdetail" class="content">
+    <div class="box box-warning">
+        <div class="box-header with-border" data-widget="collapse">
+            <h3 class="box-title"><?php echo __("Basic Informations"); ?></h3>
+            <?php if(!$setPrint ){ ?>
+                <div class="box-tools pull-right">
+                  <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i></button>
+                </div>
+            <?php } ?>
+        </div>
+        <div class="box-body">
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="list-group order-basic-list">
+                        <li class="list-group-item">
+                            <div class="row">
+                                <div class="col-lg-6 col-xs-12">
+                                    <span class="badge"><?php echo $this->getOrderStatus(); ?></span>
+                                    <?php echo __("Order Status"); ?>        
+                                </div>
+                                <div class="col-lg-6 col-xs-12">
+                                    <span class="badge"><?php echo $this->getOrderDate(); ?></span>
+                                    <?php echo __("Order Date"); ?>        
+                                </div>
+                            </div>
+                        </li>
+                    <?php $general = $this->getGeneralInfo(); ?>
+                    <?php if(count($general) > 0){ ?>
+                        <?php $break = 0; ?>
+                        <?php foreach($general as $row){ ?>
+                            <?php if($break == 0 || ($break%2 == 0)){ ?>
+                                <li class="list-group-item">
+                                    <div class="row">
+                            <?php } ?>
+                                <div class="col-lg-6 col-xs-12">
+                                    <span class="badge"><?php echo $row['value']; ?></span>
+                                    <?php echo $row['label']; ?>        
+                                </div>
+                            <?php if(($break == 0 && count($general) == 1) || ($break%2 == 1 && $break > 0) || ($break == (count($general) - 1))){ ?>
+                                    </div>
+                                </li>
+                            <?php } ?>
+                            <?php $break++; ?>
+                        <?php } ?>
+                    <?php } ?>
+                    </ul>
+                </div>
+                <div class="col-lg-12">
+                    <div class="row">
+                        <div class="<?php if (!$this->getOrder()->getIsVirtual()) { ?>col-lg-6 col-xs-12<?php } else { ?>col-lg-12<?php } ?>">
+                            <div class="box box-default box-solid">
+                                <div class="box-header with-border">
+                                    <h3 class="box-title"><?php echo __('Billing Address'); ?></h3>
+                                </div>
+                                <div class="box-body">
+                                    <?php echo $block->getFormattedAddress($this->getOrder()->getBillingAddress()); ?>
+                                </div>
+                            </div>
+                        </div>
+                        <?php if (!$this->getOrder()->getIsVirtual()) { ?>
+                            <div class="col-lg-6 col-xs-12">
+                                <div class="box box-default box-solid">
+                                    <div class="box-header with-border">
+                                        <h3 class="box-title"><?php echo __('Shipping Address'); ?></h3>
+                                    </div>
+                                    <div class="box-body">
+                                        <?php echo $block->getFormattedAddress($this->getOrder()->getShippingAddress()); ?>
+                                    </div>
+                                </div>
+                            </div>
+                        <?php } ?>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <?php echo $this->getChildHtml('marketplace_seller_order_items'); ?>
+    
+    <?php if (!isset($setPrint) || !$setPrint){ ?>
+        <?php echo $this->getChildHtml('marketplace_seller_order_shipments'); ?>
+        <?php echo $this->getChildHtml('marketplace_seller_order_view_extra'); ?>
+    <?php } ?>
+</section>
+
+<?php if($setPrint){ ?>
+    <script type="text/javascript">window.print();</script>
+<?php } ?>

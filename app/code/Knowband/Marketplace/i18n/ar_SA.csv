@@ -1,0 +1,1009 @@
+The product status will be 'Disabled' until it is approved from admin.,سيتم وضع المنتج 'معطل' حتى يتم الموافقة عليه من الادارة.
+The seller has already added more products. Please either increase the limit or save it as it is.,كان البائع قد أضفت المزيد من المنتجات. يرجى إما زيادة الحد أو حفظه كما هو.
+Reason,السبب
+Required field,يتطلب حقلا
+Submit,خضع
+Why do you want to do this?,لماذا تريد أن تفعل هذا؟
+Continue,استمر
+Something went wrong. Please try again.,هناك خطأ ما. حاول مرة اخرى.
+Vacation Interval: ,عطلة الفاصل الزمني:
+Is Active: ,هل تواجد في:
+Vacation Halt Status: ,عطلة حالة وقف:
+Comment: ,تعليق:
+Reason for canceling vacation: ,سبب إلغاء عطلة:
+Vacation Detail,عطلة التفاصيل
+Your comment to cancel this vacation,تعليقك لإلغاء هذه العطلة
+Register as Seller,تسجل البائع
+Yes,نعم فعلا
+No,لا
+Marketplace CRON Instructions,السوق CRON تعليمات
+Vacation CRON,عطلة CRON
+Disable the products during the seller's vacation period.,تعطيل هذه المنتجات خلال فترة عطلة البائع.
+Low Stock Notification CRON,انخفاض اسهم CRON إعلام
+Send the notification to the sellers about their low stock products.,إرسال الإخطار إلى البائعين حول منتجات الأوراق المالية المنخفضة بهم.
+Cron Instructions,كرون تعليمات
+Add the Cron Jobs to your store via control panel/putty. Find below the Instruction to add the Cron Jobs.,إضافة وظائف كرون لتخزين الخاص بك عن طريق لوحة التحكم / المعجون. البحث تحت تعليمات لإضافة وظائف كرون.
+URLs to Add to Cron via Control Panel,عناوين المواقع إلى إضافة لكرون عن طريق لوحة تحكم
+1. Vacation CRON,1. عطلة CRON
+2. Low Stock Notification CRON,2. انخفاض CRON المالية إعلام
+Cron setup via SSH,الإعداد كرون عن طريق SSH
+Choose Store Categories,اختيار مخزن الفئات
+Collapse All,انهيار جميع
+Expand All,توسيع الكل
+This operation can take a long time,هذه العملية يمكن أن تستغرق وقتا طويلا
+Please confirm site switching. All data that hasn\'t been saved will be lost.,الرجاء التأكد من تحويل الموقع. سيتم فقدان جميع البيانات التي تم حفظها HASN \ 'ر.
+Warning message,رسالة تحذير
+Field cannot be empty.,لا يمكن أن يكون الحقل فارغا.
+You can enter only numbers.,يمكنك إدخال أرقام فقط.
+Number should be greater than 0.,يجب أن تكون عدد أكبر من 0.
+Field cannot be greater than {#} characters.,لا يمكن أن يكون الحقل أكبر من {#} حرفا.
+Field cannot be less than {#} character(s).,لا يمكن أن يكون الحقل أقل من {#} حرف (ق).
+Please enter Email.,يرجى إدخال البريد الإلكتروني.
+Please enter a valid Email.,يرجى إدخال البريد الإلكتروني الصحيح.
+Invalid date format.,تنسيق التاريخ غير صالح.
+Number is not in the valid range. It should be between {#} and {##},عدد غير موجود في النطاق الصالح. وينبغي أن يكون بين {#} و {##}
+Field should be numeric.,يجب أن يكون حقل رقمي.
+Field should be positive.,يجب أن يكون الحقل إيجابي.
+Field can have only upto two decimal values.,يمكن أن يكون الحقل فقط تصل قيمتين عشرية.
+Email cannot be greater than {#} characters.,البريد الإلكتروني لا يمكن أن يكون أكبر من {#} حرفا.
+Zip should not have special characters.,لا ينبغي أن يكون الرمز البريدي أحرف خاصة.
+Percentage should be in number.,يجب أن تكون النسبة المئوية في العدد.
+Percentage should be between 0 and 100.,يجب أن تكون النسبة المئوية بين 0 و 100.
+Size cannot be greater than {#} characters.,الحجم لا يمكن أن يكون أكبر من {#} حرفا.
+Color could not be greater than {#} characters.,اللون لا يمكن أن يكون أكبر من {#} حرفا.
+Color is not valid.,لون غير صالح.
+Special characters are not allowed.,يمنع استعمال الرموز.
+Script tags are not allowed.,لا يسمح علامات البرنامج النصي.
+Style tags are not allowed.,لا يسمح العلامات نمط.
+Iframe tags are not allowed.,لا يسمح علامات IFRAME.
+Uploaded file is not an image.,ملف مرفوع ليس صورة.
+Uploaded file size must be less than {#}.,يجب أن يكون مرفوع حجم الملف أقل من {#}.
+Field should not contain HTML tags.,يجب أن لا يحتوي على حقل علامات HTML.
+You can enter only positive numbers.,يمكنك إدخال أرقام موجبة فقط.
+Are you sure?,هل أنت واثق؟
+Comment,تعليق
+Are you sure to update feature status of this seller?,هل أنت متأكد لتحديث مركز سمة من سمات هذا البائع؟
+Do you have any comment?,هل لديك أي تعليق؟
+"For accurate reporting, be sure to refresh lifetime statistics whenever you change the time zone.",لإعداد تقارير دقيقة، تأكد من تحديث الإحصاءات العمر كلما قمت بتغيير المنطقة الزمنية.
+To refresh last day's,لتحديث يوم آخر ل
+statistics,الإحصاء
+click,انقر
+here,هنا
+Filter,منقي
+Period,فترة
+Day,يوم
+Month,شهر
+Year,عام
+From,من عند
+Select Date,حدد تاريخ
+To,إلى
+Choose Category,اختر الفئة
+All Categories,جميع الفئات
+Choose a Seller,اختيار البائع
+All Sellers,جميع البائعين
+NA,NA
+PayPal Payout Settings,إعدادات سيصرف باي بال
+Active,نشيط
+Enable or Disable Paypal Payment Method.,تمكين أو تعطيل باي بال طريقة الدفع.
+Client ID,ID العميل
+Client Secret,سر العميل
+Paypal Mode,الوضع باي بال
+Sandbox,رمل
+Live,حي
+Paypal Email Subject,باي بال موضوع الرسالة
+Paypal Currency ,باي بال العملات
+Select the default currency set in Paypal Account.,حدد مجموعة العملة الافتراضية في حساب باي بال.
+Are You Sure you want to reset the settings?,هل أنت متأكد من أنك تريد إعادة تعيين إعدادات؟
+Edit Email Template,تحرير قالب البريد الإلكتروني
+About Template,معلومات عن قالب
+Template Subject,قالب الموضوع
+Email Content,البريد الإلكتروني المحتوى
+Template Content,محتوى النموذج
+Please do not edit or remove any template variable.,من فضلك لا تعديل أو إزالة أي متغير القالب.
+Example,مثال
+Seller Account Settings,إعدادات الحساب البائع
+Default Commission,لجنة افتراضي
+Please enter a number between 0 and 100 only and in a proper format.,الرجاء إدخال رقم بين 0 و 100 فقط وفي الشكل الصحيح.
+Use Global,استخدام العالمية
+New Product Limit,الحد المنتج الجديد
+Limit the sellers to add new products without account approval.,لحد من البائعين لإضافة منتجات جديدة من دون موافقة الحساب.
+If left blank than product limit will be assumed 0.,وإذا ترك فارغا من الحد المنتج يفترض 0.
+Categories Allowed,فئات الأليفة
+If no category is selected that will mean that all the categories are allowed.,إذا لم يتم تحديد الفئة التي سيعني أن يسمح لجميع الفئات.
+Product Approval Required,الموافقة المنتج المطلوب
+Enable,مكن
+Disable,تعطيل
+Enable Seller Review,تمكين مراجعة البائع
+Required Seller Review Approval,مطلوب مراجعة البائع الموافقة
+Email to Seller on Order Place,ارسل بريد الكتروني الى البائع على ترتيب مكان
+Please enter a valid number in this field.,الرجاء إدخال رقم صحيح في هذا المجال.
+Payout Transaction Request,عملية دفع تعويضات طلب
+Required Field,يتطلب حقلا
+Invalid Value,قيمة غير صالحة
+"Invalid Value, please enter a number greater than zero",قيمة غير صالحة، يرجى إدخال عدد أكبر من الصفر
+Minimum 30 character required,الحد الأدنى حرف 30 مطلوبا
+General Settings,الاعدادات العامة
+Enable Marketplace,تمكين السوق
+Toggle to enable or disable extension,تبديل لتمكين أو تعطيل التمديد
+Default Commission (%),لجنة الافتراضي (٪)
+Set default commission in percentage for each product.,تعيين لجنة الافتراضي في نسبة لكل منتج.
+Choose the categories allowed for the sellers. If no category is selected that will mean that all the categories are allowed.,اختيار فئات يسمح للبائعين. إذا لم يتم تحديد الفئة التي سيعني أن يسمح لجميع الفئات.
+Register as Seller Field,تسجل البائع الميدان
+Enable to add 'Register as Seller' field while registering.,تمكن من إضافة 'التسجيل كما بائع الحقل أثناء تسجيل.
+Enable Bulk Import/Export,تمكين السائبة الاستيراد / التصدير
+"If disable, no seller will be able to use bulk import/export feature.",إذا تعطيل، لا البائع أن يكون قادرا على استخدام معظم ميزة الاستيراد / التصدير.
+If enable an email will be sent to seller on order for his product.,إذا تمكن البريد الالكتروني وسيتم إرسالها إلى البائع على أمر منتج له.
+Enable Vacation Mode,تمكين الوضع عطلة
+"If disable, no seller will be able to use vacation feature.",إذا تعطيل، لا البائع أن يكون قادرا على استخدام ميزة عطلة.
+Show Seller Info on Product Page,مشاهدة معلومات البائع على المنتج الصفحة
+Enable/Disable to show/hide seller info on product page.,تمكين / تعطيل لإظهار / اخفاء معلومات البائع على صفحة المنتج.
+Enable or Disable Approval of product for the sellers.,تمكين أو تعطيل الموافقة على المنتج للبائعين.
+Default limit for sellers of adding new products before account approval. Blank will be considered as 0.,الحد الافتراضي للبائعين من إضافة منتجات جديدة قبل موافقة الحساب. وسوف ينظر فارغة ك 0.
+Enable or Disable Seller review feature. This feature enables the customers to add review for sellers.,تمكين أو تعطيل ميزة مراجعة البائع. هذه الميزة تمكن العملاء لإضافة استعراض البائعين.
+Seller Review Approval Required,مراجعة البائع يلزم الحصول على موافقة
+Enable or Disable Approval for seller review. Once the review is approved then only it will be visible to the customers.,تمكين أو تعطيل الموافقة على مراجعة البائع. وبمجرد الموافقة على مراجعة عندها فقط سيكون مرئيا للعملاء.
+Enable Seller List,تمكين قائمة البائع
+Show or Hide Sellers List from customers.,إظهار أو إخفاء البائعين قائمة من العملاء.
+Enable Search Box,تمكين مربع البحث
+Enable or Disbale search box to search seller on seller listing page.,تمكين أو مربع البحث Disbale للبحث البائع على صفحة البائع الإدراج.
+Low Stock Configuration,تكوين مخزون منخفض
+Enable Low Stock Notification,تمكين انخفاض إعلام المالية
+Enable or Disable Low Stock Notification feature.,تمكين أو تعطيل ميزة انخفاض أسهم الإعلام.
+Low Inventory Limit,انخفاض الحد الجرد
+Enter the limit below that the products are considered low stock.,أدخل الحد دون أن المنتجات تعتبر الأسهم المنخفضة.
+When to Notify,متى يخطر
+Choose when to notify the seller regarding the critical inventories.,اختيار موعد إخطار البائع بشأن مخزونات حرجة.
+Cron Job,وظيفة كرون
+On Order Place,على ترتيب مكان
+Send Notifications From,إرسال الإخطارات من
+Choose the email from which you want to send the notifications.,اختيار البريد الإلكتروني الذي ترغب في إرسال الإخطارات.
+Seller Name,البائع اسم
+Select,تحديد
+Transaction ID,ID عملية
+Transaction Type,نوع المعاملة
+Amount,كمية
+Send Email to Seller,إرسل رسالة إلى البائع
+"Invalid Value, please enter a number greater then zero",قيمة غير صالحة، يرجى إدخال عدد أكبر ثم الصفر
+Add New Transaction,إضافة عملية جديدة
+Posted On: ,نشر على:
+Customer Rating: ,تقييم العملاء:
+Review: ,إعادة النظر:
+Reason for Disapproval: ,سبب الرفض:
+Seller Review Detail,مراجعة البائع التفاصيل
+Provide Your Reason,توضيح سبب
+We can\'t find products matching the selection.,يمكننا أن \ 'ر العثور على منتجات مطابقة مع الاختيارات.
+View Details,عرض التفاصيل
+In stock,في المخزن
+Out of stock,إنتهى من المخزن
+Learn More,أعرف أكثر
+My Sales Dashboard,بلدي المبيعات لوحة
+Total Revenue,إجمالي الإيرادات
+Total Orders,مجموع الطلبات
+Total Products Sold,مجموع المنتجات التي تباع
+Last 7 Days,اخر 7 ايام
+Sales Comparisons,مقارنات المبيعات
+Orders,أوامر
+Revenue,إيرادات
+Products Sold,المنتجات التي تباع
+Discounts,خصومات
+Balance Amount Variations,الاختلافات التوازن المبلغ
+Today,اليوم
+Yesterday,في الامس
+This Week,هذا الاسبوع
+Last Week,الاسبوع الماضي
+This Month,هذا الشهر
+Last Month,الشهر الماضي
+This Year,هذا العام
+Last Year,العام الماضي
+Last 10 Orders,مشاركة 10 أوامر
+View All Orders,عرض جميع الطلبات
+Order Number,رقم الطلب
+Order Date,تاريخ الطلب
+Customer Name,اسم الزبون
+Customer Email,العملاء البريد الإلكتروني
+Qty,الكمية
+Status,الحالة
+Order Total,الطلب الكلي
+click to view order,انقر لمشاهدة الطلب
+No Orders Placed Yet,لا أوامر وضعت حتى الآن
+Seller Products,البائع المنتجات
+Filter Products,فلتر المنتجات
+Category,الفئة
+Sort By,ترتيب حسب
+Name,اسم
+SKU,SKU
+Price(low to high),السعر من الارخص للاعلى)
+Price(high to low),السعر الاعلى الى الادنى)
+Products Feedback,منتجات تعليقات
+Filter Your Search,البحث اختيار
+Search,بحث
+Reset,إعادة تعيين
+No Data,لايوجد بيانات
+Posted on,نشر على
+by,بواسطة
+Rating,تقييم
+Summary,ملخص
+Review,إعادة النظر
+My Products Catalog,بلدي المنتجات كتالوج
+New Product,منتج جديد
+Choose,أختر
+Please select atleast one item from list.,الرجاء تحديد أتلست عنصر واحد من القائمة.
+Select Attribute Set for New Product,حدد السمة تعيين لمنتج جديد
+Attribute Set,السمة مجموعة
+Product Type,نوع المنتج
+Choose Bulk Action,اختيار العمل السائبة
+Delete,حذف
+Status Update,تحديث الحالة
+Close,قريب
+Save,حفظ
+Save & Continue,حفظ ومتابعة
+Duplicate,مكرر
+Cancel,إلغاء
+%d characters remaining.,الأحرف D٪ المتبقية.
+Please fill required fields with valid information.,الرجاء تعبئة الحقول المطلوبة مع معلومات صحيحة.
+Special price should be less than actual price,وينبغي أن يكون سعر خاص أقل من السعر الفعلي
+Past date not allowed,تاريخ سابق لا يسمح
+Quick simple product creation,سريع بسيط إنشاء المنتجات
+Create,خلق
+Prices,الأسعار
+Meta Information,المعلومات الوصفية
+General Information,معلومات عامة
+Allows your product's visibility on search or catalog page.,يسمح الرؤية المنتج الخاص بك على البحث أو كتالوج الصفحة.
+Maximum %d characters allowed.,سمحت القصوى٪ د حرفا.
+Date of product from which this product will be marked as new.,تاريخ المنتج الذي سيخصص هذا المنتج كما جديد.
+Date of product until which this product will be marked as new.,تاريخ المنتج حتى الذي سيخصص هذا المنتج كما جديد.
+Category Mapping,رسم الخرائط الفئة
+Associated Products,المنتجات المرتبطة بها
+Create Simple Product,إنشاء بسيط المنتج
+Quick Create,خلق سريعة
+Id,هوية شخصية
+Sku,سكو
+Product Name,اسم المنتج
+Stock Status,حالة الرصيد، وضع مخزون
+Select Attribute,حدد السمة
+Attribute,صفة، عزا
+Price,السعر
+Default Qty,افتراضي الكمية
+Samples,عينات
+Title,عنوان
+File,ملف
+Sort Order,امر ترتيب
+Add New Row,إضافة صف جديد
+Links,الروابط
+Links can be purchased separately,وصلات يمكن شراؤها بشكل منفصل
+Max. Downloads,ماكس. التنزيلات
+Shareable,وللمشاركة
+Sample,عينة
+Unlimited,غير محدود
+Url,رابط
+Inventory,المخزون
+Quantity,كمية
+Manage Stock,إدارة المخزون
+"On enabling, stock will be managed automatically. For manual stock, select disable",على تمكين، وستتم إدارة المخزون تلقائيا. للسهم اليدوي، حدد تعطيل
+Qty Uses Decimal,الكمية يستخدم عشري
+Stock Availability,الاسهم التوفر
+Shipment,شحنة
+Ship Bundle Items,حزمة البنود شحن
+Separately,على حدة
+Together,سويا
+Bundle Items Options,خيارات عناصر حزمة
+Add New Option,إضافة خيار جديد
+Default Title,افتراضي عنوان
+Delete Option,حذف الخيار
+Input Type,نوع المدخلات
+Is Required,مطلوب
+Position,موضع
+Add Selection,اضافة اختيار
+Price Type,السعر نوع
+User Defined Qty,معرف المستخدم الكمية
+Default,افتراضي
+Qty to Add,الكمية إضافة
+Add Selected Product(s) to Option,إضافة المنتج المحدد (ق) إلى الخيار
+Images,صور
+Image,صورة
+Label,ضع الكلمة المناسبة
+Remove,إزالة
+File is not supported,غير معتمد ملف
+Upload New Image,تحميل صورة جديدة
+".jpeg, .jpg, .png, ,gif",jpeg. و jpg و بابوا نيو غينيا، GIF
+No Image uploaded for this product,لا تحميلها لهذا المنتج صورة
+Browse,تصفح
+Related Products,منتجات ذات صله
+This attribute set does not have attributes which we can use for configurable product,لم يكن هذا مجموعة السمة الصفات التي يمكننا استخدامها لمنتج شكلي
+Please select one or more attributes.,الرجاء تحديد سمات واحدة أو أكثر.
+Sold By,تم بيعها من قبل
+Total %d review(s),مراجعة مجموع٪ د (ق)
+View Reviews,عرض آراء
+Write Review,أكتب مراجعة
+File Size Exceeding the Limit.,حجم الملف يتجاوز الحد.
+Max Upload Size: 200 KB,ماكس تحميل الحجم: 200 KB
+Max Upload Size: 500 KB,ماكس تحميل الحجم: 500 KB
+This key already assigned to another seller. Please fill another.,هذا المفتاح تعيينها بالفعل إلى البائع آخر. يرجى ملء آخر.
+My Seller Profile,الملف بلدي البائع
+View Collection,مشاهدة مجموعة
+View Profile,عرض الصفحة الشخصية
+General,جنرال لواء
+Shop Title,متجر عنوان
+Contact Number,رقم الاتصال
+(Image Size: 150 X 150),(حجم الصورة: 150 X 150)
+Shop Logo,متجر شعار
+(Image Size: 1180 X 250),(حجم الصورة: 1180 X 250)
+Shop Banner,متجر راية
+Shop Address 1,متجر العنوان 1
+Shop Address 2,متجر العنوان 2
+City,مدينة
+Pincode,الرقم السري
+State,حالة
+Country,بلد
+Description,وصف
+Please provide link of your facebook page,يرجى تقديم رابط لصفحة الفيسبوك الخاص بك
+Facebook Link (optional),الفيسبوك وصلة (اختياري)
+For example:,فمثلا:
+or,أو
+Please provide link of your google plus profile,يرجى تقديم رابط جوجل الخاص بك بالإضافة إلى الملف الشخصي
+Google Plus Link (optional),جوجل بلس رابط (اختياري)
+Please provide link of your twitter profile,يرجى تقديم رابط الملف الشخصي الخاص بك تغريد
+Twitter Link (optional),تويتر وصلة (اختياري)
+Meta Keywords,كلمات دلالية
+Meta Description,ميتا الوصف
+Example: my-selling-store,مثال: بلدي مبيعا في متجر
+Page Url Key,الصفحة رابط مفتاح
+Policy,سياسات
+Return Policy,سياسة العائدات
+Shipping Policy,سياسة الشحن
+Payout,سيصرف
+Admin will use the Payout information to make the payment. Only one payment information can be saved at a time.,سوف المشرف استخدام المعلومات دفع تعويضات لتسديد المبلغ. يمكن حفظ فقط المعلومات دفعة واحدة في وقت واحد.
+Select Payment Method,اختار طريقة الدفع
+Seller,تاجر
+Register As Seller,تسجيل والبائع
+My Reviews,بلدي التعليقات
+Customer Review,رأي العميل
+Disapproval Reason,سبب الرفض
+Start Date,تاريخ البدء
+End Date,تاريخ الانتهاء
+Your comment to this vacation,تعليقك على هذه العطلة
+Invalid format. Use: MM/dd/YYYY,تنسيق غير صالح. الاستخدام: MM / DD / YYYY
+End date should be greater than start date,يجب أن يكون تاريخ الانتهاء أكبر من تاريخ البدء
+End date should be future date,يجب أن يكون تاريخ انتهاء موعد لاحق
+My Vacations History,بلدي الاجازات التاريخ
+Set New Vacation,تعيين عطلة جديد
+Vacation Interval,عطلة الفاصل
+Is Active,نشط
+Vacation Halt Status,الحالة عطلة وقف
+Reason for canceling vacation,سبب إلغاء عطلة
+click to view product details,انقر لعرض تفاصيل المنتج
+Sorry! No Product(s) Found.,آسف! لا المنتج (ق) وجدت.
+Please select a category for your request.,الرجاء تحديد الفئة للطلب الخاص بك.
+Please provide reason for your request.,يرجى تقديم سبب طلبك.
+Request a New Category,طلب فئة جديدة
+Choose a Category,اختر فئة
+Select Category,اختر الفئة
+Maximum 500 characters allowed.,سمحت 500 حرفا كحد أقصى.
+Submit Category Request Form,إرسال الفئة نموذج طلب
+No categories are available for request.,غير متوفرة للطلب لا يوجد فئات.
+Payout Request,دفع تعويضات طلب
+New Payout Request,طلب دفع تعويضات جديدة
+Request Reason,طلب السبب
+Submit Payout Request Form,إرسال سيصرف نموذج طلب
+Payout Details,تفاصيل دفع تعويضات
+Requested On,طلب كود
+Your Comment For Request,تعليقك على طلب
+Only 200 characters allowed,أحرف فقط 200 يسمح
+"Only (xls, xlsx) formats are allowed",ويسمح فقط (XLS، XLSX) صيغ
+Toggle navigation,الملاحة تبديل
+My Account,حسابي
+Logout,الخروج
+Account Warning!,حساب تحذير!
+Back To Site,الرجوع إلى الموقع
+Category Request Details,الفئة طلب تفاصيل
+Category Name,اسم التصنيف
+Your request is in pending. Please wait for store response.,طلبك في انتظار. يرجى الانتظار لاستجابة المخزن.
+This feature is not active into your account.,هذه الميزة ليست نشطة في حسابك.
+To request this feature,لطلب هذه الميزة
+Click,انقر
+Here,هنا
+Request To Activate Import/Export Feature,طلب لتفعيل الاستيراد / التصدير ميزة
+Comment ,تعليق
+Required Field. Maximum 200 characters allowed.,يتطلب حقلا. سمحت بحد أقصى 200 حرف.
+Click to send request,انقر لإرسال طلب
+Your file has some errors. Please import file after resolving errors.,ملف لديه بعض الأخطاء. يرجى استيراد الملف بعد حل الأخطاء.
+Click to download your file with errors,اضغط هنا لتحميل الملف الخاص بك مع الأخطاء
+Download File with Errors,تحميل الملف مع وجود أخطاء
+Go Back,عد
+Please do not go back or refresh page while uploading your products.,من فضلك لا تذهب إلى الوراء أو الصفحة تحديث أثناء تحميل المنتجات الخاصة بك.
+It may causes errors in your catalog.,فإنه قد يسبب أخطاء في الكتالوج الخاص بك.
+Download Template,قالب تحميل
+Select Product Type,اختر نوع المنتج
+Product Attribute Set,المنتج مجموعة السمات
+Select Attribute Set,حدد تعيين سمة
+Download Template File,تحميل ملف قالب
+Please make sure that columns in your file must be matched with template file created for you on the basis of selected attribute.,الرجاء التأكد من أن الأعمدة في الملف الخاص بك يجب أن تكون مطابقة مع ملف قالب خلق لكم على أساس السمة المحددة.
+Import Products,استيراد المنتجات
+Import Action,عمل استيراد
+Select Action,اختر فعلا
+"Action will only be performed on the basis of SKU of products. Without sku, product will not be consider for any action.",لن يتم تنفيذ العمل على أساس SKU من المنتجات. دون سكو، المنتج لن يتم النظر في أي عمل.
+Upload File,رفع ملف
+"Only (xls, xlsx) file will be accepted",فقط (XLS، XLSX) سيتم قبول ملف
+File must not exceed %s MB,الملف يجب أن لا تتجاوز٪ الصورة MB
+Browse File,ملف الاستعراض
+Validate File,التحقق من صحة الملفات
+File must no exceed %s MB,الملف يجب أن لا تتجاوز٪ الصورة MB
+Import/Export Instructions,استيراد / تصدير تعليمات
+Import,استيراد
+Export,تصدير
+Import Instructions,استيراد تعليمات
+"Download Template as per your product type. At a time, only 1 type of products can be import.",تحميل قالب حسب نوع المنتج الخاص بك. في نفس الوقت، من النوع 1 فقط من المنتجات يمكن أن يكون الاستيراد.
+"If you import more than 1 type of products from one file, then system will be fail or affect your catalog.",إذا قمت باستيراد أكثر من 1 نوع من المنتجات من ملف واحد، ثم النظام سيكون تفشل أو يؤثر على الكتالوج الخاص بك.
+Each template will have '%s' worksheet. Your import file must have this worksheet as it is. Please do not change anything in its content.,وسيكون لكل قالب يكون '٪ s' ورقة العمل. يجب أن يكون ملف الاستيراد ورقة العمل هذه كما هو. يرجى عدم تغيير أي شيء في مضمونها.
+Each template will have '%s' worksheet. Please provide product data from possible values of corresponding field. If field has possible values.,وسيكون لكل قالب يكون '٪ s' ورقة العمل. يرجى تقديم بيانات المنتج من القيم الممكنة من الحقل المقابل. إذا كان حقل ديه القيم الممكنة.
+"Only 'xls, xlsx' file having size less than %sMB will be acceptable.",فقط 'XLS، XLSX' ملف وجود حجم أقل من٪ SMB سوف يكون مقبولا.
+If you want to import using exported data then copy the general & image sheet of exported file into general & image sheet of the downloaded template file.,إذا كنت ترغب في استيراد باستخدام البيانات التي تم تصديرها ثم نسخ ورقة العامة وصورة من الملف الذي تم تصديره في ورقة العامة وصورة من ملف القالب تحميلها.
+"Use (|) to seperate value in multivalue field like category_ids, related_products.",استخدام (|) لفصل قيمة في الحقل multivalue مثل category_ids، related_products.
+Export Instructions,تصدير تعليمات
+Select export type in export section.,حدد نوع التصدير في قسم التصدير.
+"If the export type is Category, then system will export only assigned categories to you.",إذا كان نوع التصدير الفئة، ثم سيقوم النظام تصدير الفئات المخصصة لك فقط.
+"In case of products, select product type and attributes set.",في حالة المنتجات، حدد نوع المنتج وسمات تعيين.
+Exported data will be in xls/xlsx format.,ستكون البيانات التي تم تصديرها في شكل / XLSX XLS.
+Export Type,نوع التصدير
+Select Export Type,حدد تصدير نوع
+Category Export,الفئة التصدير
+Product Export,تصدير المنتج
+Product Status,حالة المنتج
+All,الكل
+Disabled,معاق
+Enabled,تمكين
+In Stock,في المخزن
+Out of Stock,إنتهى من المخزن
+Export Data,تصدير البيانات
+This process will take few minutes.,سوف تستغرق هذه العملية بضع دقائق.
+Please do not go back or refresh page while exporting your data.,من فضلك لا تذهب إلى الوراء أو الصفحة تحديث أثناء تصدير البيانات الخاصة بك.
+Your are not eligible to use this feature as your account is either not approved or inactive.,أنت لست مؤهلا لاستخدام هذه الميزة كما هو إما لم يوافق حسابك أو غير نشطة.
+"Currently, this feature is disabled by store.",حاليا، يتم تعطيل هذه الميزة عن طريق متجر.
+You cannot use this feature as required library is missing. Please contact to support.,لا يمكنك استخدام هذه الميزة مكتبة المطلوبة مفقود. يرجى الاتصال لدعم.
+Total Sale,إجمالي بيع
+Total Earning,مجموع الأرباح
+Transaction Details,تفاصيل الصفقه
+My Earnings,أجوري
+Earnings History,أرباح التاريخ
+Order Wise Earnings,ترتيب حكيم الأرباح
+Transactions History,المعاملات التاريخ
+Total Paid,مجموع المبالغ المدفوعة
+Balance,توازن
+Quantity to Add,الكمية إلى إضافة
+Low Stock Notification,انخفاض اسهم إعلام
+Configuration,ترتيب
+Receive Low Stock Notifications,تلقي الإخطارات انخفاض الأسهم
+Save Seller Level Configuration,حفظ تكوين مستوى البائع
+facebook,فيس بوك
+twitter,تغريد
+google,جوجل
+About Seller,معلومات عن البائع
+Description not available.,وصف غير متوفرة.
+Write your thought,إرسال فكرك
+Summary of your review,ملخص مراجعتك
+Your Thought,الفكر الخاص بك
+Your Name,اسمك
+Rate this seller,قيم هذا البائع
+Submit Review,إرسال مراجعة
+Notify Customer by Email,إبلاغ العملاء عن طريق البريد الإلكتروني
+Visible on Storefront,بادية على واجهة المخزن
+Submit Comment,إرسال تعليق
+Customer,زبون
+Notified,أخطرت
+Not Notified,لا يخطر
+Please provide comment,يرجى تقديم تعليق
+Product,المنتج
+Subtotal,حاصل الجمع
+Order Detail,تفاصيل الأمر
+Click to download invoice.,اضغط هنا لتحميل الفاتورة.
+Download Invoice,تحميل فاتورة
+Click to download shipping slip.,اضغط هنا لتحميل الشحن زلة.
+Download Shipping Slip,زلة تحميل شحن
+Are you sure you want to send order email to customer?,هل أنت متأكد أنك تريد إرسال الطلب عبر البريد الإلكتروني للعملاء؟
+Click to send email to customer,انقر لإرسال البريد الإلكتروني للعملاء
+Send Email,ارسل بريد الكتروني
+Click to create shipment,انقر لإنشاء شحنة
+Ship,سفينة
+Print,طباعة
+Basic Informations,معلومات بسيطة
+Order Status,حالة الطلب
+Billing Address,عنوان وصول الفواتير
+Shipping Address,عنوان الشحن
+Ordered,أمر
+Shipped,شحنها
+Canceled,ألغيت
+Refunded,ردها
+Gift Message,هدية رسالة
+Excl. Tax,غير شامل. ضريبة
+Total,مجموع
+Incl. Tax,بما في ذلك ضريبة
+Total incl. tax,مجموع مدفوع. ضريبة
+Invoiced,فواتير
+Order Items,طلب بضاعة
+Shipments,شحنات
+Ship to Name,سفينة إلى اسم
+Date Shipped,تاريخ شحنها
+Total Qty,إجمالي الكمية
+click to view detail,انقر لمشاهدة التفاصيل
+Tax,ضريبة
+Items To Be Shipped,البنود التي سيتم شحنها
+Qty to Ship,الكمية إلى السفينة
+Append Comments,إلحاق تعليقات
+Email Copy of Shipment,أرسل نسخة من الشحن
+Submit Shipment,إرسال شحنة
+New Shipment,شحنة جديدة
+Back,الى الخلف
+Shipment Tracking,تتبع الشحنة
+Carrier,الناقل
+Tracking No.,تتبع أي.
+Action,عمل
+Add Tracking Number,إضافة عدد تتبع
+Invalid value(s) for Qty to Ship,قيمة غير صالحة ل الكمية إلى السفينة
+Shipment Detail,شحنة التفاصيل
+Are you sure you want to send Shipment email to customer?,هل أنت متأكد أنك تريد إرسال شحنة البريد الإلكتروني للعملاء؟
+Send Tracking Information,أرسل معلومات التتبع
+Tracking Number,رقم التعقب
+Add,إضافة
+Tracking title is required.,تتبع عنوان هو مطلوب.
+Tracking number is required.,تتبع عدد هو مطلوب.
+Shipped Items,البنود التي تم شحنها
+Qty Shipped,الكمية يشحن
+No Item Shipped Yet,أي عنصر يتم شحنها حتى الآن
+Reviews,التعليقات
+Posted on:,نشر على:
+by ,بواسطة
+Sorry! No Reviews Found.,آسف! لا توجد اية تعليقات.
+Write your review,اكتب مراجعتك
+Sellers List,قائمة البائعين
+Search Seller,بحث البائع
+Sorry! No Seller(s) Found.,آسف! لا البائع (ق) وجدت.
+General Contact,الاتصال العام
+Customer Support,دعم العملاء
+Sales Representative,مندوب مبيعات
+Custom Email 1,مخصص البريد الإلكتروني 1
+Custom Email 2,مخصص البريد الإلكتروني 2
+"Unable to write low stock files. Permission Error on ""var"" Directory.","غير قادر على كتابة الملفات الأسهم المنخفضة. خطأ إذن على دليل ""فار""."
+Unable to write file for Seller ,غير قادر على كتابة ملف عن البائع
+Product ID,معرف المنتج
+Current Quantity,الكمية الحالية
+Base Image,الصورة الأساسية
+Small Image,صورة صغيرة
+Thumbnail,صورة مصغرة
+Disallowed file type.,نوع الملف غير مسموح بها.
+Type of the product you have selected for this import template file.,نوع المنتج الذي اخترته لهذا الملف قالب الاستيراد.
+Attribute set you have selected for this product type in import template file.,تعيين سمة قمت باختيارها لهذا النوع المنتج في ملف القالب الاستيراد.
+single pipe(|) seperated multiple categories,أنبوب واحد (|) فصل فئات متعددة
+single pipe(|) seperated product sku,أنبوب واحد (|) فصل سكو المنتج
+single pipe(|) seperated attributes,أنبوب واحد (|) فصلت سمات
+pair of values seperated by single pipe(|),زوج من قيم مفصولة أنبوب واحد (|)
+System will group your bundle item on the basis of this title. If two items has same title then they will be grouped in same bundle.,سوف نظام المجموعات البند حزمة الخاص بك على أساس هذا اللقب. إذا بندين ديها نفس العنوان ثم سيتم تجميعها في نفس حزمة.
+Daily,اليومي
+Weekly,أسبوعي
+Monthly,شهريا
+Yearly,سنوي
+Waiting for Approval,بانتظار الموافقة
+Approved,وافق
+Disapproved,مرفوض
+Add new products,إضافة منتجات جديدة
+Update existing products,تحديث المنتجات الحالية
+Add/update products,إضافة منتجات / تحديث
+Delete products,حذف المنتجات
+Bank Wire,تحويل مالي
+Payment By Cheque,الدفع عن طريق الشيكات
+Paypal,باي بال
+Please provide the paypal email id.,يرجى تقديم معرف البريد الإلكتروني باي بال.
+Paypal Email ID,باي بال ID البريد الإلكتروني
+Please provide additional information.,يرجى تقديم معلومات إضافية.
+Additional Information,معلومة اضافية
+Please provide the name.,يرجى تقديم الاسم.
+Pay to the order of (name),دفع لأمر (اسم)
+Please provide the address.,يرجى تقديم عنوان.
+Address,عنوان
+Address where the cheque should be sent to.,العنوان الذي يجب إرسال الشيك إلى.
+Please provide account owner name,يرجى تقديم حساب اسم المالك
+Account Owner,صاحب حساب
+Please provide bankwire details,يرجى تقديم تفاصيل bankwire
+Details,تفاصيل
+"Such as bank branch, IBAN number, BIC, etc.",مثل فرع البنك، IBAN رقم، BIC، الخ
+Please provide bankwire address.,يرجى تقديم عنوان bankwire.
+Bank Address,عنوان البنك
+Requsted on: ,requsted من على:
+ by,بواسطة
+Amount: ,كمية:
+Payment Method: ,طريقة الدفع او السداد:
+PayPal,باي بال
+PayPal ID: ,ID باي بال:
+Additional Information: ,معلومة اضافية:
+Bankwire,تحويل مالي
+Owner Name: ,اسم المالك:
+Details: ,تفاصيل:
+Bank Address: ,عنوان البنك:
+Cheque,التحقق من
+Address: ,عنوان:
+No balance amount is left for this seller.,عدم ترك أي كمية التوازن لهذا البائع.
+No order found for this seller. Transaction cannot be initiated.,لم يتم العثور على لهذا البائع النظام. لا يمكن أن تبدأ عملية.
+Paypal payout request failed.,فشل طلب دفع تعويضات باي بال.
+Please enable paypal payout to make this transaction.,يرجى تمكين دفع تعويضات باي بال لجعل هذه الصفقة.
+Payout request does not exist.,لا وجود طلب دفع تعويضات.
+By System,من قبل النظام
+Manually,يدويا
+Successfully,بنجاح
+Credit,ائتمان
+Debit,مدين
+Unknown,غير معروف
+Invalid request,طلب غير صالح
+Export type is missing,نوع التصدير مفقود
+No product found as per your selected parameters.,أي منتج وجد حسب المعايير التي اخترتها.
+Unable to process request,غير قادر على معالجة الطلب
+No category assigned to you.,لا الملقاة على عاتقكم الفئة.
+invalid request,طلب غير صالح
+Please select product parameters.,الرجاء تحديد المنتج المعلمات.
+No products found to export.,لا توجد منتجات وجدت للتصدير.
+Vacation is successfully canceled.,تم إلغاء عطلة بنجاح.
+New Vacation successfully created.,عطلة الجديدة التي تم إنشاؤها بنجاح.
+Your products will be hidden automatically when the vacation starts.,سيتم منتجاتك مخفية تلقائيا عند بدء الإجازة.
+Start Date or End Date cannot be less than today.,تاريخ البدء أو تاريخ الانتهاء لا يمكن أن يكون أقل مما هو عليه اليوم.
+Start Date or End Date cannot be same.,تاريخ البدء أو تاريخ الانتهاء لا يمكن أن يكون نفسه.
+Date range should not be in between of any previous active vacation.,لا ينبغي أن يكون نطاق التاريخ بين من أي عطلة نشطة السابقة.
+Technical error occurred while validating new vacation.,حدث خطأ فني أثناء التحقق من صحة عطلة جديدة.
+The requested vacation's detail not found.,التفاصيل عطلة طلب في غير موجود.
+Marketplace - CRON,السوق - CRON
+Please enable the low stock notifications functionality first,يرجى تمكين انخفاض وظائف الإخطارات الأوراق المالية لأول مرة
+Please enable the marketplace module first,يرجى تمكين وحدة السوق لأول مرة
+Low Stock Notifications Cron Executed Successfully.,الإخطارات الأسهم المنخفضة كرون تنفيذها بنجاح.
+"There were some errors executing the low stock notifications cron, please check Log for more details.",كانت هناك بعض الأخطاء تنفيذ منخفض الإخطارات الأسهم كرون، يرجى مراجعة سجل لمزيد من التفاصيل.
+Please enable the seller vacation functionality first,يرجى تمكين وظيفة بائع عطلة أولا
+Vacation Cron Executed Successfully.,عطلة كرون تنفيذها بنجاح.
+"There were some errors executing the vacation cron, please check Log for more details.",وكانت هناك بعض الأخطاء تنفيذ كرون عطلة، يرجى مراجعة سجل لمزيد من التفاصيل.
+View Shipment,مشاهدة شحنة
+Requested order details not Found.,تفاصيل طلب النظام لم يتم العثور على.
+We can\'t save the shipment right now.,يمكننا أن \ 'ر حفظ الشحنة في الوقت الحالي.
+Shipment Document Validation Error(s):\n,شحنة خطأ الوثيقة التحقق (ق): \ ن
+The shipment has been created.,تم إنشاء الشحن.
+You created the shipping label.,قمت بإنشاء بطاقة شحن.
+An error occurred while creating shipping label.,حدث خطأ أثناء إنشاء بطاقة شحن.
+Cannot save shipment.,لا يمكن حفظ الشحن.
+Please enter a comment.,الرجاء إدخال تعليق.
+Comment has been added for this shipment.,تمت إضافة تعليق على هذه الشحنة.
+Cannot add new comment.,لا يمكنك إضافة تعليق جديد.
+You sent the shipment.,قمت بإرسال شحنة.
+Cannot send shipment information.,لا يمكن إرسال معلومات الشحن.
+Please specify a carrier.,يرجى تحديد الناقل.
+Please enter a tracking number.,الرجاء إدخال رقم تتبع.
+Tracking number successfully updated into this shipment.,تحديث رقم تتبع بنجاح في هذه الشحنة.
+We can\'t initialize shipment for adding tracking number.,يمكننا أن \ 'ر تهيئة شحنة لإضافة عدد تتبع.
+Cannot add tracking number.,لا يمكن إضافة عدد تتبع.
+Tracking number successfully deleted from this shipment.,عدد تتبع حذف بنجاح من هذه الشحنة.
+We can\'t initialize shipment for delete tracking number.,يمكننا أن \ 'ر تهيئة شحنة عدد تتبع الحذف.
+We can\'t delete tracking number.,يمكننا أن \ 'ر حذف عدد تتبع.
+We can\'t load track with retrieving identifier right now.,يمكننا أن \ 'ر المسار الحمل مع استرجاع المعرف في الوقت الحالي.
+Quanity updated successfully.,كانيتي تحديث بنجاح.
+Low Stock,الأسهم منخفضة
+Configuration Saved Successfully.,التكوين تم الحفظ بنجاح.
+Seller's Products - Reviews,المنتجات البائع - تعليقات
+Pending,قيد الانتظار
+Not Approved,غير مقبول
+Seller's Account-Orders,حساب-أوامر البائع
+Seller OrderView,البائع OrderView
+You sent the order email.,يمكنك إرسال البريد الإلكتروني النظام.
+We can\'t send the email order right now.,يمكننا أن \ 'ر إرسال الطلب عبر البريد الإلكتروني في الوقت الحالي.
+This order no longer exists.,هذا النظام لم يعد موجودا.
+There are no shipping documents related to this order.,لا توجد وثائق الشحن لهذا القرار.
+Print Order,طلب طباعة
+There are no invoice documents related to this order.,لا توجد وثائق فاتورة المتعلقة بهذا النظام.
+Seller List,قائمة البائع
+Knowband,Knowband
+Marketplace,السوق
+Email Template Updated successfully.,قالب البريد الإلكتروني التحديث بنجاح.
+Best Selling Products,أفضل بيع المنتجات
+ Seller(s) Disabled Successfully,البائع (ق) تعطيل بنجاح
+Invalid Request,طلب غير صالح
+Status changed successfully,تغيرت الحالة بنجاح
+Activated,مفعل
+Deactivated,إبطال مفعولها
+Cannot update,لا يمكن تحديث
+Cannot load object,لا يمكن تحميل الكائن
+Seller Approved Successfully,البائع وافق بنجاح
+Email Templates,قوالب البريد الإلكتروني
+Sellers Payout Request,الباعة سيصرف طلب
+Product Approval Request,طلب الموافقة المنتج
+Technical error occurred while canceling vacation.,حدث خطأ فني في حين إلغاء عطلة.
+Seller Reviews,البائع التعليقات
+%s by %s,٪ الصورة بواسطة٪ s
+The requested seller's review detail not found.,مراجعة التفاصيل البائع طلب في غير موجود.
+Import/Export Feature Request List,استيراد / تصدير قائمة ميزة طلب
+Settings saved successfully.,إعدادات حفظ بنجاح.
+Seller Account Approval Request,البائع طلب الموافقة حساب
+Seller Vacation List,البائع قائمة عطلة
+Transaction detail successfully saved.,حفظ المعاملات التفاصيل بنجاح.
+Some error occured. Please try again.,حدث بعض الخطأ. حاول مرة اخرى.
+Total of %d record(s) have been updated.,تم تحديث عدد من السجلات٪ د (ق).
+ Seller(s) Disapproved Successfully,البائع (ق) عدم الموافقة بنجاح
+Seller Product List,البائع قائمة المنتجات
+Review has been approved successfully.,تمت الموافقة على مراجعة بنجاح.
+Technical Error Occured - Not able to update.,خطأ فني حدث - غير قادر على تحديث.
+Review has been disapproved successfully.,تم رفض مراجعة بنجاح.
+Seller review has been deleted.,لقد تم حذف البائع الاستعراض.
+Technical error occurred while processing category request.,حدث خطأ فني أثناء معالجة الطلب الفئة.
+Seller account has not been approved yet. Please approve the seller account first.,لم تتم الموافقة على حساب البائع حتى الان. يرجى الموافقة على حساب البائع الأول.
+ record(s) have been updated.,تم تحديث سجل (ق).
+Product has been approved successfully.,تمت الموافقة على المنتج بنجاح.
+ Seller(s) Approved Successfully,البائع (ق) وافق بنجاح
+Approval updated successfully,موافقة تحديث بنجاح
+Seller Review Approval Request,البائع طلب مراجعة الموافقة
+PayPal Payout settings has been saved successfully.,تم حفظ إعدادات سيصرف باي بال بنجاح.
+Category Wise Commissions,الفئة اللجان الحكيمة
+CRON Instructions,CRON تعليمات
+Seller List with Import/Export Feature,بائع قائمة مع استيراد / تصدير ميزة
+Product Reviews,تعليقات المنتج
+Seller Disapproved Successfully,البائع عدم الموافقة بنجاح
+Category Request List,الفئة طلب قائمة
+Commissions,اللجان
+Total of %d record(s) have been deleted.,تم حذف مجموعه سجل٪ د (ق).
+ Seller(s) Enabled Successfully,البائع (ق) ممكن بنجاح
+Sellers Payout,الباعة سيصرف
+"Some of the products are not enabled, because either these products or their sellers are not approved/disabled.",لم يتم تمكين بعض المنتجات، إما لأن هذه المنتجات أو البائعين هم لم يوافق / تعطيل.
+Some of the processed products have no SKU value defined. Please fill it prior to performing operations on these products.,بعض المنتجات المصنعة ليس لها قيمة SKU محددة. يرجى ملء ذلك قبل تنفيذ عمليات على هذه المنتجات.
+Payout request status has been updated successfully.,تم تحديث حالة طلب دفع تعويضات بنجاح.
+Invalid Request.,طلب غير صالح.
+Seller Wise Commissions,اللجان الحكيم البائع
+Seller Dashboard,البائع لوحة
+Your request has been sent. Please wait for store response.,تم ارسال طلبك. يرجى الانتظار لاستجابة المخزن.
+Cannot send request,لا يمكن إرسال الطلب
+Product Import/Export,استيراد المنتج / التصدير
+Seller Profile,الملف الشخصي البائع
+Seller Profile saved successfully.,الملف الشخصي البائع حفظ بنجاح.
+Not Available,غير متوفر
+Your payout request has been submitted successfully.,تم إرسال طلب دفع تعويضات بنجاح.
+Please configure payout method in the seller profile menu.,يرجى تكوين طريقة دفع تعويضات في القائمة بائع الشخصي.
+Seller's Account - Payout Requests,البائع الحساب - تطلب سيصرف
+Error Occured,حدث خطأ
+Thank you for rating the Seller.,شكرا لتقييم البائع.
+Posting review for this seller is not allowed.,لا يسمح نشر المراجعات لهذا البائع.
+Seller Account - My Reviews,حساب البائع - بلدي التعليقات
+"You can't register yourself as seller because your registration request limit has been over. To register, please contact to support.",لا يمكنك تسجيل نفسك كبائع لديك حد طلب التسجيل قد انتهت. للتسجيل، يرجى الاتصال لدعم.
+Seller's Account - Earnings,البائع الحساب - الأرباح
+Seller's Account - Transactions History,حساب البائع - المعاملات التاريخ
+File Path is Missing,مسار ملف مفقود
+Unknown file,ملف غير معروف
+General worksheet is missing.,ورقة عمل عامة مفقود.
+Column title row is missing from general worksheet.,الصف عنوان العمود مفقود من ورقة العمل العامة.
+Column '%s' is missing from general worksheet.,عمود '٪ ق' مفقود من ورقة العمل العامة.
+File is empty.,الملف فارغ.
+Error in processing '%s' sku before deleting.,خطأ في معالجة '٪ ق' سكو قبل حذف.
+Listed products are not deleted:,لا يتم حذف المنتجات المذكورة:
+"Upload your file and try again. To speed up delete process, please remove all products that has been deleted.",تحميل الملف الخاص بك وحاول مرة أخرى. لتسريع عملية الحذف، يرجى إزالة جميع المنتجات التي تم حذفها.
+Your products has been deleted. System will redirect you on product list automatically in 5 secs.,تم حذف المنتجات الخاصة بك. ونظام توجيه لكم على قائمة المنتجات تلقائيا في 5 ثوان.
+Import action is Missing,إجراءات استيراد مفقود
+Meta Information worksheet is missing,ميتا ورقة العمل معلومات مفقود
+File must not exceed ,يجب ألا يتجاوز ملف
+This sku does not exist,عدم وجود هذا سكو
+Product of this SKU is not yours.,نتاج هذا SKU ليس لك.
+This row has error,هذا الصف لديها خطأ
+Meta Information Sheet is Missing,ميتا ورقة معلومات مفقود
+Error in processing data of '%s' sku.,خطأ في معالجة البيانات من '٪ ق' سكو.
+Listed products are not saved:,لا يتم حفظ المنتجات المذكورة:
+"Upload your file and try again. To speed up process, please remove all other product data that has been saved successfully.",تحميل الملف الخاص بك وحاول مرة أخرى. لتسريع العملية، يرجى إزالة جميع البيانات من المنتجات الأخرى التي تم حفظها بنجاح.
+Your products has been uploaded. System will redirect you on product list automatically in 5 secs.,تم تحميل المنتجات الخاصة بك. ونظام توجيه لكم على قائمة المنتجات تلقائيا في 5 ثوان.
+Error while processing rows in uploaded file.,خطأ أثناء معالجة الصفوف في ملف مرفوع.
+Error: %s,الخطأ:٪ ق
+Product Type is missing from Meta Sheet Worksheet,نوع المنتج مفقود من ورقة عمل ورقة ميتا
+Product Type is invalid in Meta Sheet Worksheet,نوع المنتج غير صالح في ورقة عمل ورقة ميتا
+Attribute set id is missing from Meta Sheet Worksheet,السمة معرف مجموعة مفقودة من ورقة عمل ورقة ميتا
+Attribute set id is not valid in Meta Sheet Worksheet,السمة معرف مجموعة غير صالح في ورقة عمل ورقة ميتا
+This SKU is already used by other product of you or other seller.,ويستخدم هذا SKU بالفعل منتج آخر واحد منكم أو بائع آخر.
+This SKU is used by other seller or store.,ويستخدم هذا SKU من قبل البائع أو تخزين أخرى.
+This value is required,مطلوب هذه القيمة
+Invalid Value. Only date format value is accepted.,قيمة غير صالحة. قبلت قيمة تنسيق التاريخ فقط.
+Invalid Value. Only Price type value accepted,قيمة غير صالحة. فقط نوع السعر قيمة قبلت
+Invalid Value. Only positive number type value accepted,قيمة غير صالحة. فقط رقم موجب قيمة نوع قبلت
+Out of range value. Please see possible value for this field.,من قيمة النطاق. يرجى الاطلاع على قيمة ممكنة لهذا الحقل.
+Some of the values are not exist.,بعض القيم غير موجودة.
+Your request has been sent to the admin for approval.,تم إرسال طلبك إلى المشرف للموافقة عليها.
+Seller's Account - Request a New Category,حساب البائع - طلب فئة جديدة
+Attribute set is missing,مجموعة السمة مفقود
+Attribute set cannot load,مجموعة سمة لا يمكن تحميل
+1. This worksheet is required and must be included in your import file,1. مطلوب ورقة العمل هذه ويجب أن تدرج في ملف الاستيراد
+2. Do not change worksheet name as well as its content.,2. لا تغيير اسم ورقة العمل، فضلا عن محتواه.
+3. Any change in this worksheet format will not allow system to import your data into system.,3. إن أي تغيير في هذا الشكل ورقة العمل لا يسمح النظام لاستيراد البيانات إلى النظام.
+4. We recommend you to copy this worksheet in your import file with same worksheet name.,4. نحن ننصح لنسخ ورقة العمل هذه في ملف الاستيراد الخاص بك مع اسم ورقة العمل نفسه.
+1. This worksheet contains possible values of some field.,1. تحتوي ورقة العمل هذه القيم الممكنة من بعض الحقول.
+2. Please fill the related fields only from these possible values.,2. يرجى تعبئة الحقول ذات الصلة فقط من هذه القيم الممكنة.
+3. If possible values for any field are not given then you can fill it with any text value.,3. إذا لم يتم إعطاء القيم المحتملة لأي حقل ثم يمكنك ملء مع أي قيمة النص.
+Seller's Products,المنتجات البائع
+The product has been saved.,تم حفظ المنتج.
+This window will be closed automatically within %s secs.,سيتم إغلاق هذه النافذة تلقائيا في غضون ثوان٪ الصورة.
+Product has been saved successfully.,تم حفظ المنتج بنجاح.
+The product has been duplicated successfully.,تم تكرار المنتج بنجاح.
+Product has been created successfully.,تم إنشاء المنتج بنجاح.
+Please wait for admin approval.,يرجى الانتظار لموافقة المشرف.
+"Adding of new product limit has been over as your account is not approved or waiting for approval. To add more products, your account needs to be approved.",وقد تم إضافة من الحد منتج جديد منصب لم تتم الموافقة حسابك أو الانتظار للموافقة عليها. لإضافة المزيد من المنتجات، يحتاج الى موافقة حسابك.
+You duplicated the product.,يمكنك تكرار هذا المنتج.
+Seller's Product,البائع المنتج
+This SKU already exist.,وجود هذا SKU بالفعل.
+Cancel Vacation,إلغاء عطلة
+Add New Vacation,إضافة عطلة جديد
+Vacation Halted,عطلة توقف
+Created Date,تاريخ الإنشاء
+This vacation is already canceled,تم إلغاء هذه العطلة بالفعل
+Visibility,رؤية
+click to edit product,انقر لتعديل المنتج
+click to update quantity,انقر لتحديث كمية
+Update Quantity,انشاء الله هصلي واجيلك
+Order No.,الأمر رقم
+From Date,من التاريخ
+To Date,حتى الآن
+click to print order,انقر لطباعة ترتيب
+Shipping & Handling,شحن وتسليم
+Discount (%1),خصم (٪ 1)
+Discount,خصم
+Grand Total,المجموع الكلي
+Grand Total to be Charged,المجموع الكلي ليتم شحنها
+Custom Value,القيمة الجمركية
+Order # %1,ترتيب # 1٪
+Comment History,تعليق التاريخ
+Shipment History,شحنة التاريخ
+Credit Memo History,مذكرة الائتمان التاريخ
+Subtotal (Excl.Tax),المجموع الفرعي (Excl.Tax)
+Subtotal (Incl.Tax),المجموع الفرعي (Incl.Tax)
+Shipping & Handling (Excl.Tax),الشحن والمناولة (Excl.Tax)
+Shipping & Handling (Incl.Tax),الشحن والمناولة (Incl.Tax)
+Grand Total (Excl.Tax),المجموع الكلي (Excl.Tax)
+Grand Total (Incl.Tax),المجموع الكلي (Incl.Tax)
+Email,البريد الإلكتروني
+Shipping Charges,رسوم الشحن
+Track this shipment,تتبع هذه الشحنة
+Track Order,ترتيب المسار
+Shipping Method,طريقة الشحن
+Shipping not Required,الشحن غير مطلوب
+Payment Method,طريقة الدفع او السداد
+Grand Total (Excl. Shipping),المجموع (باستثناء الشحن)
+Discount (%s),خصم (٪ ق)
+Total Refunded,إجمالي المردودة
+Total Due,الاجمالي المستحق
+Shipping & Handling (Excl. Tax),الشحن والمناولة (باستثناء الضرائب)
+Shipping & Handling (Incl. Tax),الشحن والمناولة (متضمنة الضرائب)
+Print Order # %1,ترتيب الطباعة # 1٪
+Minimum %d character requried,الحد الأدنى٪ د الطابع ريكارد
+Save Template,حفظ القالب
+Show Report,عرض تقرير
+Manage Seller Account,إدارة حساب البائع
+Add Subcategory,إضافة الفرعي
+Add Root Category,إضافة الجذر الفئة
+Save Settings,احفظ التغييرات
+Seller Payout Request,البائع دفع تعويضات طلب
+ID,هوية شخصية
+Transation Date,transation لتاريخ
+Telephone,هاتف
+Commission (in %),لجنة (بالنسبة المئوية)
+Your Earnings,أرباحك
+Category wise Commissions,الفئة اللجان الحكيمة
+Total Commission,مجموع جنة
+Transaction History,التاريخ المعاملة
+Seller wise Commissions,اللجان الحكيمة البائع
+Seller Earning,البائع ربحية
+Amount Transfer,نقل كمية
+Transaction Action,عمل عملية
+Sellers Payout (,الباعة سيصرف (
+Seller Order List,طلب البائع قائمة
+Purchased From (Store),تم شراؤها من (مخزن)
+Purchased On,تم شراؤها في
+Actions,أفعال
+Template Description,قالب الوصف
+Template Type,قالب نوع
+Date Added,تم إضافة التاريخ
+Date Updated,تاريخ تحديث
+Seller Best Selling Product List,البائع قائمة أفضل بيع المنتجات
+Interval,فترة
+Order Quantity,الكمية النظام
+Product Price,سعر المنتج
+Seller Account Approval Request List,البائع الموافقة حساب قائمة طلب
+Approved Status,حالة الموافقة
+Added Date,تاريخ الاضافة
+Approve,يوافق
+Account Status,حالة الحساب
+Seller Status,البائع الحالة
+Seller Since,البائع منذ
+Posted On,نشر على
+Request Date,تاريخ الطلب
+Vacation Active,عطلة النشطة
+Seller Review Approval List,البائع قائمة مراجعة الموافقة
+Seller Approval List,البائع قائمة الموافقة
+Seller Product Reviews,مراجعات المنتج بائع
+Created On,تم إنشاؤها على
+Nickname,كنية
+Visible In,مرئية في
+Type,نوع
+Product SKU,SKU المنتج
+Edit,تصحيح
+Seller Category Request List,البائع الفئة طلب قائمة
+Seller Email,بائع البريد الإلكتروني
+View,رأي
+Disapprove,رفض
+Make New,اصنع جديد
+Edit Template,تحرير قالب
+Products,منتجات
+Administrator,مدير
+Guest,زائر
+Seller Bulkimport Feature List,البائع Bulkimport ميزة قائمة
+Last Update,اخر تحديث
+Feature Status,الحالة ميزة
+Seller Bulkimport Feature Request List,البائع Bulkimport قائمة ميزة طلب
+Seller Comment,البائع تعليق
+Your Comment,تعليقك
+Request Status,حالة الطلب
+Activate Feature,تفعيل ميزة
+Read More,قراءة المزيد
+click to view review,انقر لعرض مراجعة
+Posted on: %s by %s,نشر يوم٪ الصورة بواسطة٪ s
+Home,الصفحة الرئيسية
+Home Page,الصفحة الرئيسية
+click to view product,انقر لعرض المنتج
+Your seller account is currently under process and not yet approved. You only have a limited access to the seller account currently.,حساب البائع الخاص بك هو تحت العملية حاليا ولم يوافق حتى الان. لديك سوى وصول محدود إلى حساب البائع في الوقت الحالي.
+Your seller account has been disapproved. You only have a limited access to the seller account currently. To send request again ,تم رفض حساب البائع الخاص. لديك سوى وصول محدود إلى حساب البائع في الوقت الحالي. لإرسال الطلب مرة أخرى
+Click Here,انقر هنا
+Product Catalog,بيان المنتج
+Product Feedback,ملاحظات المنتج
+Earnings,أرباح
+Transactions,المعاملات
+New Category Request,الفئة طلب جديد
+My Vacations,عطلتي
+Requested Date,تاريخ طلب
+Request On,طلب كود
+Date,تاريخ
+Transaction Date,تاريخ الصفقة
+Amount of %s debited from your earning on %s,كمية٪ الصورة خصمها من الأرباح الخاصة بك على٪ الصورة
+Amount of %s credited into your account on %s,تقيد كمية٪ الصورة إلى حسابك على٪ الصورة
+Report Format,شكل التقرير
+Your file is valid. Please click 'Delete Products' button to delete your products,"الملف الخاص بك هو صالح. يرجى النقر على ""حذف المنتجات 'زر حذف منتجاتك"
+Your file is valid. Please click 'Import Products' button to upload your products,"الملف الخاص بك هو صالح. يرجى الضغط على زر ""استيراد المنتجات"" لتحميل المنتجات الخاصة بك"
+Delete Products,حذف المنتجات
+"Adding of new product limit has been over as your account is not approved or waiting for approval. To add more products, your account need to be approved.",وقد تم إضافة من الحد منتج جديد منصب لم تتم الموافقة حسابك أو الانتظار للموافقة عليها. لإضافة المزيد من المنتجات، تحتاج إلى أن تتم الموافقة حسابك.
+Use Default Value,استخدام القيمة الافتراضية
+Seller Account,حساب البائع
+General Settings,الاعدادات العامة
+Seller List,قائمة البائع
+Seller Account Approval Request,البائع طلب الموافقة حساب
+Seller Product List,البائع قائمة المنتجات
+Product Approval Request,طلب الموافقة المنتج
+Product Reviews,تعليقات المنتج
+Seller Reviews,البائع التعليقات
+Seller Review Approval Request,البائع طلب مراجعة الموافقة
+Category Request List,الفئة طلب قائمة
+Seller Vacation List,البائع قائمة عطلة
+Reports - Best Selling Products,تقارير - لدينا أفضل بيع المنتجات
+Email Templates,قوالب البريد الإلكتروني
+CRON Instructions,CRON تعليمات
+Bulk Import/Export,استيراد الجزء الأكبر / التصدير
+Seller With Feature,البائع مع ميزة
+Feature Activation Request,ميزة طلب تفعيل
+Transactions and Earnings,المعاملات والأرباح
+Commissions,اللجان
+Category Wise Commissions,الفئة اللجان الحكيمة
+Seller Wise Commissions,اللجان الحكيم البائع
+Sellers Payout List,الباعة قائمة سيصرف
+Sellers Payout Request,الباعة سيصرف طلب
+PayPal Payout Settings,إعدادات سيصرف باي بال
+Best Selling Products,أفضل بيع المنتجات
+Seller with Import/Export Feature,البائع مع استيراد / تصدير ميزة
+Import/Export Feature Activation Request List,استيراد / تصدير ميزة قائمة طلب تفعيل
+Category Wise Commission,الفئة جنة الحكماء
+Category Request List,الفئة طلب قائمة
+Edit Email Template,تحرير قالب البريد الإلكتروني
+Email Templates,قوالب البريد الإلكتروني
+Seller Order List,طلب البائع قائمة
+PayPal Payout Settings,إعدادات سيصرف باي بال
+Product Approval Request,طلب الموافقة المنتج
+All Seller's Products - Reviews,المنتجات تصفح جميع البائع - تعليقات
+Seller Account Approval Request,البائع طلب الموافقة حساب
+Seller Wise Commission,لجنة الحكماء البائع
+Seller List,قائمة البائع
+Seller Product List,البائع قائمة المنتجات
+Seller Review Approval Request,البائع طلب مراجعة الموافقة
+All Seller's Reviews,التعليقات تصفح جميع البائع
+Seller Vacation List,البائع قائمة عطلة
+Commissions,اللجان
+Sellers Payout,الباعة سيصرف
+Sellers Payout Request,الباعة سيصرف طلب
+View Sellers,مشاهدة البائعين
+Start date or end date can not be same,تاريخ البدء أو تاريخ انتهاء لا يمكن أن يكون نفسه

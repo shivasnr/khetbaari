@@ -1,0 +1,1009 @@
+The product status will be 'Disabled' until it is approved from admin.,"A termék állapota lesz „fogyatékos”, amíg jóváhagyják az admin."
+The seller has already added more products. Please either increase the limit or save it as it is.,"Az eladó már hozzá több termék. Kérjük, növelheti a korlátot, vagy mentse el, ahogy van."
+Reason,Ok
+Required field,kötelező mező
+Submit,beküldése
+Why do you want to do this?,Miért akarod ezt?
+Continue,Folytatni
+Something went wrong. Please try again.,Valami elromlott. Kérlek próbáld újra.
+Vacation Interval: ,Vacation Interval:
+Is Active: ,Aktív:
+Vacation Halt Status: ,Vacation Halt állapota:
+Comment: ,Megjegyzés:
+Reason for canceling vacation: ,A törlés oka pihenés:
+Vacation Detail,Utazás Részletes
+Your comment to cancel this vacation,"Az Ön megjegyzése, hogy megszünteti ezt a nyaralást"
+Register as Seller,Regisztrálj eladó
+Yes,Igen
+No,Nem
+Marketplace CRON Instructions,Marketplace CRON utasítások
+Vacation CRON,Utazás CRON
+Disable the products during the seller's vacation period.,Kikapcsolja során a termékek az eladó nyaralás ideje.
+Low Stock Notification CRON,Alacsony Stock Notification CRON
+Send the notification to the sellers about their low stock products.,"Megküldi az értesítést, az eladók arról, hogy az alacsony készletek termékeket."
+Cron Instructions,cron utasítások
+Add the Cron Jobs to your store via control panel/putty. Find below the Instruction to add the Cron Jobs.,"Adjuk hozzá a Cron Jobs a boltban kezelôpanelrôl / gitt. Alább az utasítást, hogy adjunk a Cron Jobs."
+URLs to Add to Cron via Control Panel,URL-ek hozzáadása a Cron kezelôpanelrôl
+1. Vacation CRON,1. Utazás CRON
+2. Low Stock Notification CRON,2. Alacsony Stock Notification CRON
+Cron setup via SSH,Cron beállítás SSH-n keresztül
+Choose Store Categories,Válassza Store kategóriák
+Collapse All,Mindet összecsuk
+Expand All,Az összes kibontása
+This operation can take a long time,Ez a művelet sokáig tarthat
+Please confirm site switching. All data that hasn\'t been saved will be lost.,"Kérjük, erősítse hely váltás. Minden adat, hasn \ 't mentettük el fog veszni."
+Warning message,Figyelmeztető üzenet
+Field cannot be empty.,Mező nem lehet üres.
+You can enter only numbers.,Akkor meg csak számokat.
+Number should be greater than 0.,"Száma nagyobb kell legyen, mint 0."
+Field cannot be greater than {#} characters.,"A mező nem lehet nagyobb, mint {#} karakter."
+Field cannot be less than {#} character(s).,"Mező nem lehet kevesebb, mint {#} karakter (ek)."
+Please enter Email.,"Kérjük, adja meg e-mailben."
+Please enter a valid Email.,Kérlek létező email címet adj meg.
+Invalid date format.,Érvénytelen dátum formátumát.
+Number is not in the valid range. It should be between {#} and {##},Szám nem az érvényes tartományon. Között kell lennie {#} és {##}
+Field should be numeric.,Field legyen numerikus.
+Field should be positive.,Field pozitívnak kell lennie.
+Field can have only upto two decimal values.,A mező csak legfeljebb két tizedes értékeket.
+Email cannot be greater than {#} characters.,"E-mail nem lehet nagyobb, mint {#} karakter."
+Zip should not have special characters.,Zip nem kell speciális karaktereket.
+Percentage should be in number.,Százalékos kell lennie számát.
+Percentage should be between 0 and 100.,Százalékot kell 0 és 100 között.
+Size cannot be greater than {#} characters.,"Mérete nem lehet nagyobb, mint {#} karakter."
+Color could not be greater than {#} characters.,"Szín nem lehet nagyobb, mint {#} karakter."
+Color is not valid.,Szín nem érvényes.
+Special characters are not allowed.,Speciális karakterek használata nem lehetséges.
+Script tags are not allowed.,Script-címkék nem engedélyezett.
+Style tags are not allowed.,Stílus címkék használata nem megengedett.
+Iframe tags are not allowed.,Iframe címkék használata nem megengedett.
+Uploaded file is not an image.,A feltöltött fájl nem kép.
+Uploaded file size must be less than {#}.,"A feltöltött fájl mérete kisebb kell legyen, mint a {#}."
+Field should not contain HTML tags.,Mező nem tartalmazhat HTML-címkéket.
+You can enter only positive numbers.,Akkor meg csak pozitív számok.
+Are you sure?,biztos vagy ebben?
+Comment,Megjegyzés
+Are you sure to update feature status of this seller?,"Biztos benne, hogy frissítse a szolgáltatás állapotát ennek az eladónak?"
+Do you have any comment?,Van megjegyzést?
+"For accurate reporting, be sure to refresh lifetime statistics whenever you change the time zone.","A pontos jelentések, ügyeljen arra, hogy frissítse élettartam statisztika, amikor megváltoztatja az időzónát."
+To refresh last day's,Ha frissíteni utolsó nap
+statistics,statisztika
+click,kettyenés
+here,itt
+Filter,Szűrő
+Period,Időszak
+Day,Nap
+Month,Hónap
+Year,Év
+From,Tól től
+Select Date,Válassza ki a dátum
+To,Nak nek
+Choose Category,Kategória választása
+All Categories,Minden kategória
+Choose a Seller,Válasszon egy eladó
+All Sellers,Minden Sellers
+NA,NA
+PayPal Payout Settings,PayPal Kifizetés beállítások
+Active,Aktív
+Enable or Disable Paypal Payment Method.,Engedélyezése vagy tiltása Paypal fizetési mód.
+Client ID,Ügyfélazonosító
+Client Secret,Client Secret
+Paypal Mode,Paypal Mode
+Sandbox,Sandbox
+Live,Élő
+Paypal Email Subject,Paypal E-mail Tárgy
+Paypal Currency ,Paypal Valuta
+Select the default currency set in Paypal Account.,Válassza ki az alapértelmezett megadott pénznemben Paypal számla.
+Are You Sure you want to reset the settings?,Biztosan meg akarja állítani a beállításokat?
+Edit Email Template,E-mail sablon szerkesztése
+About Template,Mintegy Template
+Template Subject,Sablon Tárgy
+Email Content,E-mail tartalma
+Template Content,Template Content
+Please do not edit or remove any template variable.,"Kérjük, ne módosítsa vagy távolítsa el a sablont változó."
+Example,Példa
+Seller Account Settings,Az eladó fiók beállításai
+Default Commission,Alapértelmezett Bizottság
+Please enter a number between 0 and 100 only and in a proper format.,Adjon meg egy számot 0 és 100 között csak és egy megfelelő formátumban.
+Use Global,Globális használata
+New Product Limit,Új termék Limit
+Limit the sellers to add new products without account approval.,"Korlátozzák az eladó, hogy új termékek, számla jóváhagyásra."
+If left blank than product limit will be assumed 0.,"Ha üresen hagyja, mint a termék limit feltételezzük 0."
+Categories Allowed,Kategóriák megengedett
+If no category is selected that will mean that all the categories are allowed.,"Ha nincs kategória kiválasztva, ami azt jelenti, hogy az összes kategória engedélyezett."
+Product Approval Required,Termék jóváhagyása szükséges
+Enable,Engedélyezze
+Disable,Kikapcsolja
+Enable Seller Review,Engedélyezze Eladó ellenőrzés
+Required Seller Review Approval,Kötelező Eladó ellenőrzés jóváhagyása
+Email to Seller on Order Place,E-mailben eladó rendelés Place
+Please enter a valid number in this field.,Adjon meg egy érvényes számot ezen a területen.
+Payout Transaction Request,Kifizetés tranzakció kérelem
+Required Field,Kötelező mező
+Invalid Value,Helytelen érték
+"Invalid Value, please enter a number greater than zero","Érvénytelen érték kérjük, adja meg a nullánál nagyobb szám"
+Minimum 30 character required,Minimum 30 karakter szükséges
+General Settings,Általános beállítások
+Enable Marketplace,engedélyezze a piactéren
+Toggle to enable or disable extension,Váltás engedélyezze vagy tiltsa le meghosszabbítása
+Default Commission (%),Alapértelmezett Bizottság (%)
+Set default commission in percentage for each product.,Állítsa be az alapértelmezett jutalék százalékos az egyes termékekre.
+Choose the categories allowed for the sellers. If no category is selected that will mean that all the categories are allowed.,"Válassza ki a kategória nem megengedett az eladók. Ha nincs kategória kiválasztva, ami azt jelenti, hogy az összes kategória engedélyezett."
+Register as Seller Field,Regisztrálj eladó Field
+Enable to add 'Register as Seller' field while registering.,Engedélyezze adni „Regisztráció eladó” mezőbe a regisztráció során.
+Enable Bulk Import/Export,Engedélyezze Tömeges Import / Export
+"If disable, no seller will be able to use bulk import/export feature.","Ha kikapcsolja, az nem eladó képes lesz használni tömeges import / export funkció."
+If enable an email will be sent to seller on order for his product.,Ha lehetővé teszik az e-mailt fog küldeni az eladónak megrendelésére a terméke.
+Enable Vacation Mode,Engedélyezze Vakációmód
+"If disable, no seller will be able to use vacation feature.","Ha kikapcsolja, az nem eladó képes lesz használni vakáció funkció."
+Show Seller Info on Product Page,Megjelenítése Az eladó Információk Termékek
+Enable/Disable to show/hide seller info on product page.,Engedélyezése / tiltása megjelenítéséhez / elrejtéséhez eladó info termék oldalon.
+Enable or Disable Approval of product for the sellers.,Engedélyezése vagy letiltása jóváhagyása termék az eladók.
+Default limit for sellers of adding new products before account approval. Blank will be considered as 0.,Aíapkoríát eladói hozzá az új termékek előtt fiókjóváhagyásra. Üres minősül 0.
+Enable or Disable Seller review feature. This feature enables the customers to add review for sellers.,"Engedélyezése vagy letiltása eladó felülvizsgálati funkciót. Ez a funkció lehetővé teszi az ügyfelek számára, hogy adjunk beszámolót eladók."
+Seller Review Approval Required,Eladó ellenőrzés jóváhagyása szükséges
+Enable or Disable Approval for seller review. Once the review is approved then only it will be visible to the customers.,"Engedélyezése vagy tiltása jóváhagyása eladó felülvizsgálatát. Ha a felülvizsgálat jóváhagyják, akkor csak az látható lesz a vásárlók számára."
+Enable Seller List,Engedélyezze eladó List
+Show or Hide Sellers List from customers.,Megjelenítése vagy elrejtése Sellers lista az ügyfelek.
+Enable Search Box,Keresés engedélyezése Box
+Enable or Disbale search box to search seller on seller listing page.,Engedélyezése vagy Letiltod keresőmezőjén eladó az eladó felsoroló oldalon.
+Low Stock Configuration,Alacsony Stock Configuration
+Enable Low Stock Notification,Engedélyezze Alacsony Stock Notification
+Enable or Disable Low Stock Notification feature.,Engedélyezése vagy tiltása Alacsony Stock értesítés funkciót.
+Low Inventory Limit,Alacsony Inventory Limit
+Enter the limit below that the products are considered low stock.,"Írja be a határ alatti, hogy a termékek minősülnek alacsony készletek."
+When to Notify,Amikor az Értesítés
+Choose when to notify the seller regarding the critical inventories.,"Válassza ki, mikor értesíteni kell az eladót illetően kritikus készletek."
+Cron Job,cron Job
+On Order Place,A rendelés helye
+Send Notifications From,Küldj értesítések tól
+Choose the email from which you want to send the notifications.,"Válassza ki az e-mail, ahonnan el szeretné küldeni az értesítéseket."
+Seller Name,Az eladó neve
+Select,választ
+Transaction ID,Tranzakció azonosítója
+Transaction Type,Tranzakció Típusa
+Amount,Összeg
+Send Email to Seller,E-mail küldése az Eladó
+"Invalid Value, please enter a number greater then zero","Érvénytelen érték esetén kérjük adja meg a számot nagyobb, mint nulla"
+Add New Transaction,Új Transaction
+Posted On: ,Közzétett:
+Customer Rating: ,Értékelés:
+Review: ,Felülvizsgálat:
+Reason for Disapproval: ,Elutasítás okát:
+Seller Review Detail,Az eladó Értékelés részletei
+Provide Your Reason,"Indokolnia, hogy miért"
+We can\'t find products matching the selection.,Mi lehet \ 't találni termék a megadott.
+View Details,Részletek megtekintése
+In stock,Raktáron
+Out of stock,Nincs raktáron
+Learn More,Tudj meg többet
+My Sales Dashboard,Saját értékesítési Portál
+Total Revenue,Összes bevétel
+Total Orders,Összes rendelés
+Total Products Sold,Összesen értékesített termékek
+Last 7 Days,Utolsó 7 nap
+Sales Comparisons,Értékesítési összehasonlítás
+Orders,rendelés
+Revenue,jövedelem
+Products Sold,értékesített termékek
+Discounts,kedvezmények
+Balance Amount Variations,Egyenleg összege variációk
+Today,Ma
+Yesterday,Tegnap
+This Week,Ezen a héten
+Last Week,Múlt hét
+This Month,Ebben a hónapban
+Last Month,Múlt hónap
+This Year,Idén
+Last Year,Tavaly
+Last 10 Orders,Az utolsó 10 rendelések
+View All Orders,Az összes rendelések
+Order Number,Rendelésszám
+Order Date,Rendelés dátuma
+Customer Name,Ügyfél neve
+Customer Email,Ügyfél e-mail
+Qty,Mennyiség
+Status,Állapot
+Order Total,Rendelés Összesen
+click to view order,kattintson a megtekintéshez érdekében
+No Orders Placed Yet,Nem megrendelésekből Mégis
+Seller Products,Az eladó Termékek
+Filter Products,Szűrés Termékek
+Category,Kategória
+Sort By,Sorrend
+Name,Név
+SKU,SKU
+Price(low to high),Ár (növekvő sorrendben)
+Price(high to low),Ár (csökkenő sorrendben)
+Products Feedback,Termékek Visszajelzés
+Filter Your Search,Szűrje le a keresési
+Search,Keresés
+Reset,Visszaállítás
+No Data,Nincs adat
+Posted on,közzétett
+by,által
+Rating,Értékelés
+Summary,összefoglalás
+Review,Felülvizsgálat
+My Products Catalog,Saját termékek Katalógus
+New Product,Új termék
+Choose,Választ
+Please select atleast one item from list.,"Kérjük, válasszon ki legalább egy elemet a listából."
+Select Attribute Set for New Product,Tulajdonságok kiválasztása készlet Új termék
+Attribute Set,Képesség Set
+Product Type,Terméktípus
+Choose Bulk Action,Válasszon Tömeges művelet
+Delete,Töröl
+Status Update,Állapotfrissítés
+Close,Bezárás
+Save,Mentés
+Save & Continue,Mentés és folytatás
+Duplicate,Másolat
+Cancel,Megszünteti
+%d characters remaining.,% D karakter maradt.
+Please fill required fields with valid information.,"Kérjük, töltse ki szükséges mezőket érvényes információkat."
+Special price should be less than actual price,"Akciós ár kisebbnek kell lennie, mint a tényleges ár"
+Past date not allowed,Korábbi dátuma nem lehet
+Quick simple product creation,Gyors egyszerű termék létrehozása
+Create,teremt
+Prices,Árak
+Meta Information,meta információ
+General Information,Általános információ
+Allows your product's visibility on search or catalog page.,"Lehetővé teszi, hogy a termék láthatóságát a keresést, vagy katalógus oldalon."
+Maximum %d characters allowed.,Maximum% d karakter megengedett.
+Date of product from which this product will be marked as new.,"Időpontja termék, melyből a terméket lesz jelölve az új."
+Date of product until which this product will be marked as new.,"Időpontja termék, amíg a termék lesz jelölve az új."
+Category Mapping,Kategória Mapping
+Associated Products,kapcsolódó termékek
+Create Simple Product,Készítsen egyszerű termék
+Quick Create,Gyors létrehozás
+Id,Id
+Sku,sku
+Product Name,termék név
+Stock Status,Stock állapota
+Select Attribute,Tulajdonságok kiválasztása
+Attribute,Tulajdonság
+Price,Ár
+Default Qty,Alapértelmezett db
+Samples,minták
+Title,Cím
+File,fájl
+Sort Order,Sorrend
+Add New Row,Új sor
+Links,linkek
+Links can be purchased separately,Linkek külön is megvásárolható
+Max. Downloads,Max. Letöltések
+Shareable,Megosztható
+Sample,Minta
+Unlimited,Korlátlan
+Url,url
+Inventory,Leltár
+Quantity,Mennyiség
+Manage Stock,kezelése Stock
+"On enabling, stock will be managed automatically. For manual stock, select disable","Engedélyezésével, stock fogják kezelni automatikusan. A kézi készlet válasszuk disable"
+Qty Uses Decimal,Mennyiség használ decimális
+Stock Availability,Készlet elérhetőség
+Shipment,szállítmány
+Ship Bundle Items,Hajó Bundle tételek
+Separately,Külön
+Together,Együtt
+Bundle Items Options,Bundle tételek opciók
+Add New Option,Új lehetőség
+Default Title,Alapértelmezett Cím
+Delete Option,törlése opció
+Input Type,input Type
+Is Required,Szükséges
+Position,Pozíció
+Add Selection,Add Selection
+Price Type,Ár Típus
+User Defined Qty,Felhasználó által definiált db
+Default,Alapértelmezett
+Qty to Add,Menny hozzáadása
+Add Selected Product(s) to Option,Hozzá által választott termék (ek) opció
+Images,képek
+Image,Kép
+Label,Címke
+Remove,eltávolít
+File is not supported,A fájl nem támogatott
+Upload New Image,Új kép feltöltése
+".jpeg, .jpg, .png, ,gif",".jpeg, .jpg, .png,, gif"
+No Image uploaded for this product,Nincs kép feltöltve erre a termékre
+Browse,Böngésszen
+Related Products,Kapcsolódó termékek
+This attribute set does not have attributes which we can use for configurable product,Ez az attribútum halmaz nem rendelkezik attribútumokkal melyek segítségével konfigurálható termék
+Please select one or more attributes.,"Kérjük, válasszon egy vagy több attribútum."
+Sold By,Által értékesített
+Total %d review(s),Összesen% d felülvizsgálat (ok)
+View Reviews,Részletek Vélemények
+Write Review,Írja meg véleményét!
+File Size Exceeding the Limit.,Fájl méret meghaladja a határértéket.
+Max Upload Size: 200 KB,Max Feltöltés mérete: 200 KB
+Max Upload Size: 500 KB,Max Feltöltés mérete: 500 KB
+This key already assigned to another seller. Please fill another.,"Ez a kulcs már egy másik eladó. Kérjük, töltse ki a másik."
+My Seller Profile,Saját eladói Profile
+View Collection,Gyűjtemény megtekintése
+View Profile,Profil megtekintése
+General,Tábornok
+Shop Title,Shop Cím
+Contact Number,Elérhetőség
+(Image Size: 150 X 150),(Képméret: 150 x 150)
+Shop Logo,Shop Logo
+(Image Size: 1180 X 250),(Képméret: 1180 x 250)
+Shop Banner,Bolt Banner
+Shop Address 1,Shop Cím 1
+Shop Address 2,Shop Cím 2
+City,Város
+Pincode,PIN-kód
+State,Állapot
+Country,Ország
+Description,Leírás
+Please provide link of your facebook page,"Kérjük, adja meg a linket a Facebook oldalon"
+Facebook Link (optional),Facebook Link (nem kötelező)
+For example:,Például:
+or,vagy
+Please provide link of your google plus profile,"Kérjük, adja meg a linket a Google Plus profil"
+Google Plus Link (optional),Google Plus Link (nem kötelező)
+Please provide link of your twitter profile,"Kérjük, adja meg a linket a Twitter profilját"
+Twitter Link (optional),Twitter Link (nem kötelező)
+Meta Keywords,meta kulcsszavak
+Meta Description,meta Description
+Example: my-selling-store,Példa: az én-selling-store
+Page Url Key,Oldal URL Key
+Policy,Irányelv
+Return Policy,Return Policy
+Shipping Policy,szállítási szabályzat
+Payout,Kifizetés
+Admin will use the Payout information to make the payment. Only one payment information can be saved at a time.,"Admin fogja használni a Kifizetési adatok, hogy a fizetést. Csak egy fizetési információ elmenthető egy időben."
+Select Payment Method,Fizetési mód kiválasztása
+Seller,Eladó
+Register As Seller,Regisztrálj eladó
+My Reviews,Saját vélemény
+Customer Review,Felhasználói értékelés
+Disapproval Reason,Az elutasítás oka
+Start Date,Kezdő dátum
+End Date,Befejezés dátuma
+Your comment to this vacation,A megjegyzést ehhez a vakáció
+Invalid format. Use: MM/dd/YYYY,Érvénytelen formátum. Felhasználás: MM / dd / HH
+End date should be greater than start date,"A befejezés dátuma nagyobbnak kell lennie, mint a kezdő dátum"
+End date should be future date,A befejezés dátuma legyen jövőbeli időpontban
+My Vacations History,Az üdülés története
+Set New Vacation,Állítsa New Utazás
+Vacation Interval,Utazás Interval
+Is Active,Aktív
+Vacation Halt Status,Utazás Halt állapota
+Reason for canceling vacation,A törlés oka vakáció
+click to view product details,kattintson a megtekintéshez termék részleteit
+Sorry! No Product(s) Found.,Sajnálom! Nem termék (ek) talált.
+Please select a category for your request.,"Kérjük, válasszon egy kategóriát a kérését."
+Please provide reason for your request.,"Kérjük, adja meg a kérelem okát."
+Request a New Category,Kérhet egy új kategória
+Choose a Category,Válasszon kategóriát
+Select Category,Válassz kategóriát
+Maximum 500 characters allowed.,Maximum 500 karakter megengedett.
+Submit Category Request Form,Kategória ajánlás Request Form
+No categories are available for request.,Nincs kategóriák állnak rendelkezésre a kérelmet.
+Payout Request,Kifizetés kérése
+New Payout Request,Új Kifizetés kérése
+Request Reason,kérés oka
+Submit Payout Request Form,Küldje Kifizetési kérelem űrlap
+Payout Details,Kifizetés részletei
+Requested On,kért
+Your Comment For Request,A hozzászólást kérése
+Only 200 characters allowed,Csak 200 karakter engedélyezett
+"Only (xls, xlsx) formats are allowed","Csak (xls, xlsx) formátumok vannak megengedve"
+Toggle navigation,toggle navigáció
+My Account,Én számlám
+Logout,Kijelentkezés
+Account Warning!,Account Figyelem!
+Back To Site,Back To Oldal
+Category Request Details,Kategória kérés részletei
+Category Name,kategória név
+Your request is in pending. Please wait for store response.,"A kérése folyamatban van. Kérjük, várjon áruház választ."
+This feature is not active into your account.,Ez a funkció nem aktív a fiókjába.
+To request this feature,Kérni ezt a funkciót
+Click,Kattints
+Here,Itt
+Request To Activate Import/Export Feature,Request aktiválása import / export funkció
+Comment ,Megjegyzés
+Required Field. Maximum 200 characters allowed.,Kötelező mező. Maximum 200 karakter megengedett.
+Click to send request,Kattintson a kérés elküldése
+Your file has some errors. Please import file after resolving errors.,"A fájlban hibákat. Kérjük importálni a fájlt, miután a hibák."
+Click to download your file with errors,Ide kattintva letöltheti a fájlt a hibás
+Download File with Errors,Letöltés File Hibás
+Go Back,menjen vissza
+Please do not go back or refresh page while uploading your products.,"Kérjük, ne menjen vissza, vagy frissíteni az oldal feltöltése közben termékeket."
+It may causes errors in your catalog.,Ez lehet okozza a hibát a katalógusban.
+Download Template,Sablon letöltése
+Select Product Type,Termék kiválasztása Type
+Product Attribute Set,Termékjellemzők
+Select Attribute Set,Tulajdonságok kiválasztása Set
+Download Template File,Sablon letöltése fájl
+Please make sure that columns in your file must be matched with template file created for you on the basis of selected attribute.,"Kérjük, győződjön meg róla, hogy oszlopokat a fájlt kell párosulnia sablon fájl az Ön számára létrehozott alapján kiválasztott attribútum."
+Import Products,import termékek
+Import Action,import Action
+Select Action,Művelet kiválasztása
+"Action will only be performed on the basis of SKU of products. Without sku, product will not be consider for any action.","Fellépés csak akkor kell elvégezni alapján SKU termékek. Anélkül sku, a termék nem kerül figyelembe minden fellépését."
+Upload File,Fájl feltöltés
+"Only (xls, xlsx) file will be accepted","Csak (xls, xlsx) fájlok kerülnek elfogadásra"
+File must not exceed %s MB,Fájl nem haladhatja meg a% s MB
+Browse File,Böngészés fájl
+Validate File,fájl ellenőrzéséhez
+File must no exceed %s MB,Fájl kell nem haladhatja meg a% s MB
+Import/Export Instructions,Import / Export utasítás
+Import,import
+Export,Export
+Import Instructions,import utasítás
+"Download Template as per your product type. At a time, only 1 type of products can be import.","Töltse sablon, mint egy a termék típusát. Abban az időben, csak 1 típusú termékeket lehet import."
+"If you import more than 1 type of products from one file, then system will be fail or affect your catalog.","Ha az import több mint 1 típusú termékek egy fájlból, akkor a rendszer nem lesz, illetve nem érinti a katalógusban."
+Each template will have '%s' worksheet. Your import file must have this worksheet as it is. Please do not change anything in its content.,"Minden sablon lesz „% s” munkalapot. Az import fájl kell ezt a munkalapot, ahogy van. Kérjük, ne módosítsa semmit annak tartalmát."
+Each template will have '%s' worksheet. Please provide product data from possible values of corresponding field. If field has possible values.,"Minden sablon lesz „% s” munkalapot. Kérjük, adja meg a termék adatait lehetséges értékei megfelelő mezőbe. Ha mező lehetséges értékei."
+"Only 'xls, xlsx' file having size less than %sMB will be acceptable.","Csak a „xls, xlsx” fájlt is kisebb méretű% sMB elfogadható lesz."
+If you want to import using exported data then copy the general & image sheet of exported file into general & image sheet of the downloaded template file.,"Ha azt szeretnénk, hogy a behozatali segítségével exportált adatokat, majd másolja az általános és képes lap az exportált fájlt általános és képes lap a letöltött sablon fájlt."
+"Use (|) to seperate value in multivalue field like category_ids, related_products.","Használja (|) kolata érték többértékű mező mint category_ids, related_products."
+Export Instructions,export utasítások
+Select export type in export section.,Válassza export típusú export listájában.
+"If the export type is Category, then system will export only assigned categories to you.","Ha az export típus kategória, akkor a rendszer fog exportálni csak rendelt kategóriákat az Ön számára."
+"In case of products, select product type and attributes set.","Olyan termékek esetén, válasszuk a termék típusától és attribútumok beállítása."
+Exported data will be in xls/xlsx format.,A kinyert adatok lesznek XLS / XLSX formátumban.
+Export Type,export típusa
+Select Export Type,Válassza az Exportálás típusa
+Category Export,Kategória Export
+Product Export,Termék Export
+Product Status,Termék állapota
+All,Minden
+Disabled,Tiltva
+Enabled,Bekapcsolt
+In Stock,Raktáron
+Out of Stock,Nincs raktáron
+Export Data,adatok exportálása
+This process will take few minutes.,Ez a folyamat eltarthat néhány percig.
+Please do not go back or refresh page while exporting your data.,"Kérlek, ne menj vissza, vagy frissítse az oldalt, míg az adatok exportálásával."
+Your are not eligible to use this feature as your account is either not approved or inactive.,"Ön nem jogosult használni ezt a funkciót, mivel a fiók vagy nem jóváhagyott vagy inaktív."
+"Currently, this feature is disabled by store.",Jelenleg ez a funkció le van tiltva boltban.
+You cannot use this feature as required library is missing. Please contact to support.,"Nem tudja használni ezt a funkciót szükség könyvtár hiányzik. Kérjük, lépjen kapcsolatba, hogy támogassa."
+Total Sale,Összesen eladó
+Total Earning,Összesen bevételt hozó
+Transaction Details,tranzakció részletek
+My Earnings,Saját Bevételek
+Earnings History,Bevételek története
+Order Wise Earnings,Rendelési Wise Bevételek
+Transactions History,tranzakciók Előzmények
+Total Paid,Összesen fizetve
+Balance,Egyensúly
+Quantity to Add,Mennyiség hozzáadása
+Low Stock Notification,Alacsony Stock Notification
+Configuration,Configuration
+Receive Low Stock Notifications,Kap Alacsony Stock értesítések
+Save Seller Level Configuration,Mentsd eladó szintű konfiguráció
+facebook,Facebook
+twitter,twitter
+google,Google
+About Seller,Mintegy eladó
+Description not available.,Nincs leírás.
+Write your thought,Írjon gondolat
+Summary of your review,Véleményének összegzése
+Your Thought,A te gondolatod
+Your Name,A neved
+Rate this seller,Értékeld eladónak
+Submit Review,Vélemény elküldése
+Notify Customer by Email,Értesíti az Ügyfelet e-mailben
+Visible on Storefront,Látható a Kirakat
+Submit Comment,Vélemény elküldése
+Customer,Vevő
+Notified,bejelentett
+Not Notified,nem bejelentett
+Please provide comment,"Kérjük, adjon megjegyzést"
+Product,Termék
+Subtotal,Részösszeg
+Order Detail,rendelés részletei
+Click to download invoice.,Ide kattintva letöltheti a számlát.
+Download Invoice,A számla letöltése
+Click to download shipping slip.,Ide kattintva letöltheti a szállítási csúszik.
+Download Shipping Slip,Letöltés Szállítási Slip
+Are you sure you want to send order email to customer?,Biztosan el szeretné küldeni érdekében e-mail ügyfél?
+Click to send email to customer,Kattintson e-mailt küldeni az ügyfél
+Send Email,Küldjön e-mailt
+Click to create shipment,Ide kattintva létrehozhat szállítás
+Ship,Hajó
+Print,Nyomtatás
+Basic Informations,Alapinformációk
+Order Status,Rendelési státusz
+Billing Address,számlázási cím
+Shipping Address,szállítási cím
+Ordered,Rendezett
+Shipped,Kiszállított
+Canceled,Törölve
+Refunded,Visszautalva
+Gift Message,ajándék Üzenet
+Excl. Tax,Excl. Adó
+Total,Teljes
+Incl. Tax,Tartalmazza. Adó
+Total incl. tax,Összesen incl. adó
+Invoiced,számlázott
+Order Items,Rendelési tételek
+Shipments,szállítások
+Ship to Name,Hajó neve
+Date Shipped,Dátum Hármas
+Total Qty,összmenniység
+click to view detail,kattintson a megtekintéshez részletek
+Tax,Adó
+Items To Be Shipped,Tételek Hármas
+Qty to Ship,Mennyiség Ship
+Append Comments,hizzáfűzése
+Email Copy of Shipment,E-mail küldés másolata
+Submit Shipment,Küldje szállítás
+New Shipment,új szállítmány
+Back,Hát
+Shipment Tracking,szállítmány követés
+Carrier,Hordozó
+Tracking No.,Tracking No.
+Action,Akció
+Add Tracking Number,Add követési szám
+Invalid value(s) for Qty to Ship,Érvénytelen érték (ek) Menny Ship
+Shipment Detail,szállítmány Részletes
+Are you sure you want to send Shipment email to customer?,Biztosan el szeretné küldeni a szállítás e-mail ügyfél?
+Send Tracking Information,Követési adatok küldéséhez
+Tracking Number,Fuvarlevélszám
+Add,hozzáad
+Tracking title is required.,Nyomon követése cím szükséges.
+Tracking number is required.,Követési szám szükséges.
+Shipped Items,szállított tételek
+Qty Shipped,Mennyiség Hármas
+No Item Shipped Yet,Nem pont Hármas Mégis
+Reviews,Vélemények
+Posted on:,Közzétett:
+by ,által
+Sorry! No Reviews Found.,Sajnálom! Nincs értékelés.
+Write your review,Írjon
+Sellers List,Sellers lista
+Search Seller,Keresés eladó
+Sorry! No Seller(s) Found.,Sajnálom! Nem eladó (k) talált.
+General Contact,Általános Kapcsolat
+Customer Support,Vevőszolgálat
+Sales Representative,Üzletkötő
+Custom Email 1,Egyéni 1. e-mail
+Custom Email 2,Egyedi e-mail 2
+"Unable to write low stock files. Permission Error on ""var"" Directory.",Nem lehet írni az alacsony készletek fájlokat. Engedély Hiba „var” könyvtárba.
+Unable to write file for Seller ,Nem lehet írni a fájlba eladó
+Product ID,termék azonosító
+Current Quantity,aktuális mennyiség
+Base Image,Base kép
+Small Image,kis kép
+Thumbnail,Thumbnail
+Disallowed file type.,Nem engedélyezett fájltípus.
+Type of the product you have selected for this import template file.,Termék típusa kiválasztott erre import sablon fájlt.
+Attribute set you have selected for this product type in import template file.,Attribútumát kiválasztott termék típus az import sablon fájlt.
+single pipe(|) seperated multiple categories,Egyetlen vonallal (|) elválasztva több kategóriába
+single pipe(|) seperated product sku,Egyetlen vonallal (|) elválasztva Termék cikkszáma
+single pipe(|) seperated attributes,Egyetlen vonallal (|) elválasztva attribútumok
+pair of values seperated by single pipe(|),pár értékek elválasztva egyetlen vonallal (|)
+System will group your bundle item on the basis of this title. If two items has same title then they will be grouped in same bundle.,"A rendszer a csoport feedcsoportban tétel alapján ezt a címet. Ha két példány van ugyanazzal a címmel, akkor lesznek csoportosítva azonos csomóban."
+Daily,Napi
+Weekly,Heti
+Monthly,Havi
+Yearly,Évi
+Waiting for Approval,Jóváhagyásra vár
+Approved,Jóváhagyott
+Disapproved,Elutasított
+Add new products,Új termékek
+Update existing products,Frissítse a meglévő termékek
+Add/update products,Hozzáadása / frissítése termékek
+Delete products,termékek törlése
+Bank Wire,Banki átutalással
+Payment By Cheque,Csekken
+Paypal,Paypal
+Please provide the paypal email id.,"Kérjük, adja meg a paypal email id."
+Paypal Email ID,Paypal E-mail azonosító
+Please provide additional information.,"Kérjük, adjon meg további információkat."
+Additional Information,további információ
+Please provide the name.,"Kérjük, adja meg a nevét."
+Pay to the order of (name),"Fizess, hogy a rendelést (név)"
+Please provide the address.,"Kérjük, adja meg a címet."
+Address,Cím
+Address where the cheque should be sent to.,"Címet, ahol a csekket kell küldeni."
+Please provide account owner name,Kérjük a számla tulajdonos neve
+Account Owner,Felhasználó tulajdonos
+Please provide bankwire details,"Kérjük, adja meg adatait bankwire"
+Details,Részletek
+"Such as bank branch, IBAN number, BIC, etc.","Mint például a bankfiók, IBAN, BIC, stb"
+Please provide bankwire address.,"Kérjük, adja meg bankwire címet."
+Bank Address,Bank cím
+Requsted on: ,Requsted on:
+ by,által
+Amount: ,Összeg:
+Payment Method: ,Fizetési mód:
+PayPal,PayPal
+PayPal ID: ,PayPal ID:
+Additional Information: ,További információ:
+Bankwire,Banki átutalással
+Owner Name: ,Tulajdonos neve:
+Details: ,Részletek:
+Bank Address: ,Bank cím:
+Cheque,Jelölje be
+Address: ,Cím:
+No balance amount is left for this seller.,Nincs egyenleg összeg marad eladónak.
+No order found for this seller. Transaction cannot be initiated.,Nem találtunk érdekében eladónak. Tranzakciót nem lehet elkezdeni.
+Paypal payout request failed.,Paypal kifizetési kérelem sikertelen.
+Please enable paypal payout to make this transaction.,"Kérjük, engedélyezze a paypal kifizetés, hogy ezt a tranzakciót."
+Payout request does not exist.,Kifizetés kérésére nem létezik.
+By System,by rendszer
+Manually,Manuálisan
+Successfully,sikeresen
+Credit,Hitel
+Debit,tartozás
+Unknown,Ismeretlen
+Invalid request,Érvénytelen kérelem
+Export type is missing,Export típus hiányzik
+No product found as per your selected parameters.,"Egyetlen termék sem talált, mint egy a kiválasztott paramétereket."
+Unable to process request,Nem sikerült feldolgozni a kérelmet
+No category assigned to you.,Nincs kategória rendelt meg.
+invalid request,Érvénytelen kérelem
+Please select product parameters.,"Kérjük, válassza ki a termék paramétereit."
+No products found to export.,Nem talált termékek exportálni.
+Vacation is successfully canceled.,Vacation sikeresen törölték.
+New Vacation successfully created.,Új szabadságolási sikeresen létrejött.
+Your products will be hidden automatically when the vacation starts.,"Ön termékei lesznek rejtve automatikusan, ha a vakáció kezdődik."
+Start Date or End Date cannot be less than today.,"Indítás vagy befejezési időpont nem lehet kevesebb, mint ma."
+Start Date or End Date cannot be same.,Kezdés vagy befejezési időpont nem lehet azonos.
+Date range should not be in between of any previous active vacation.,Dátum tartomány ne legyen között minden korábbi aktív pihenés.
+Technical error occurred while validating new vacation.,Technikai hiba történt érvényesítése új nyaralást.
+The requested vacation's detail not found.,A kért nyaralás részletező nem található.
+Marketplace - CRON,Piactér - CRON
+Please enable the low stock notifications functionality first,"Kérjük, hogy engedélyezze az alacsony készletek bejelentések alkalmassága első"
+Please enable the marketplace module first,"Kérjük, engedélyezze a piacon modul első"
+Low Stock Notifications Cron Executed Successfully.,Alacsony Stock Értesítések Cron sikeresen végrehajtásra.
+"There were some errors executing the low stock notifications cron, please check Log for more details.","Voltak hibák végrehajtó az alacsony tőzsdei bejelentések cron, ellenőrizze Belépés a részletekért."
+Please enable the seller vacation functionality first,"Kérjük, hogy az eladó nyaralók alkalmassága első"
+Vacation Cron Executed Successfully.,Utazás Cron sikeresen végrehajtásra.
+"There were some errors executing the vacation cron, please check Log for more details.","Voltak hibák végrehajtó a nyaralás cron, ellenőrizze Belépés a részletekért."
+View Shipment,Részletek Szállítás
+Requested order details not Found.,A kért megrendelés részleteit nem talált.
+We can\'t save the shipment right now.,Mi lehet \ 't menteni a szállítmány most.
+Shipment Document Validation Error(s):\n,Szállítás Document Validation Error (ek): \ n
+The shipment has been created.,A szállítmány jött létre.
+You created the shipping label.,Létrehozta a szállítási címkét.
+An error occurred while creating shipping label.,Hiba történt létrehozása szállítási címkét.
+Cannot save shipment.,Nem lehet menteni a szállítás.
+Please enter a comment.,"Kérjük, adjon meg egy megjegyzést."
+Comment has been added for this shipment.,Megjegyzés került erre szállításra.
+Cannot add new comment.,Nem lehet új megjegyzést.
+You sent the shipment.,Elküldte a szállítmányt.
+Cannot send shipment information.,Nem lehet elküldeni szállítási információt.
+Please specify a carrier.,Kérem adjon meg egy hordozót.
+Please enter a tracking number.,"Kérjük, adja meg a nyomon követési számot."
+Tracking number successfully updated into this shipment.,Követési szám sikeresen frissítve ebbe szállítmányt.
+We can\'t initialize shipment for adding tracking number.,Mi lehet \ 't inicializálni szállítmány hozzátéve nyomon követési számot.
+Cannot add tracking number.,Nem lehet hozzáadni nyomon követési számot.
+Tracking number successfully deleted from this shipment.,Követési szám sikeresen töröltük ezt a szállítmányt.
+We can\'t initialize shipment for delete tracking number.,Mi lehet \ 't inicializálni szállítmány nyomon követési számot törölni.
+We can\'t delete tracking number.,Mi lehet \ 't törölni nyomon követési számot.
+We can\'t load track with retrieving identifier right now.,Mi lehet \ 't terhelés pályán visszahúzó azonosítóval most.
+Quanity updated successfully.,Quanity sikeresen frissítve.
+Low Stock,Alacsony készletek
+Configuration Saved Successfully.,Beállítások mentése megtörtént.
+Seller's Products - Reviews,Az eladó Termékek - Vélemények
+Pending,Függőben levő
+Not Approved,Nem engedélyezett
+Seller's Account-Orders,Eladó számlájára-rendelések
+Seller OrderView,Az eladó OrderView
+You sent the order email.,Elküldte a rendelés e-mailben.
+We can\'t send the email order right now.,Mi lehet \ 't küld az e-mail sorrendben most.
+This order no longer exists.,Ez a sorrend már nem létezik.
+There are no shipping documents related to this order.,Nincs szállítási kapcsolódó dokumentumok ebben a sorrendben.
+Print Order,Print Order
+There are no invoice documents related to this order.,Nincsenek számlát kapcsolódó dokumentumok ebben a sorrendben.
+Seller List,Az eladó List
+Knowband,Knowband
+Marketplace,Piactér
+Email Template Updated successfully.,E-mail sablon frissítése sikeresen megtörtént.
+Best Selling Products,Legkeresettebb termékek
+ Seller(s) Disabled Successfully,Az eladó (k) sikeresen letiltva
+Invalid Request,Érvénytelen kérelem
+Status changed successfully,Állapot megváltozott sikeresen
+Activated,Aktív
+Deactivated,A deaktivált
+Cannot update,Nem lehet frissíteni
+Cannot load object,Nem lehet betölteni objektum
+Seller Approved Successfully,Az eladó jóváhagyva Sikeresen
+Email Templates,e-mail sablonok
+Sellers Payout Request,Sellers Kifizetés kérése
+Product Approval Request,Termék Jóváhagyáskérés
+Technical error occurred while canceling vacation.,Technikai hiba történt megszüntetésével vakáció.
+Seller Reviews,Az eladó vélemény
+%s by %s,% S% s által
+The requested seller's review detail not found.,A kért eladó felülvizsgálat részletesen nem található.
+Import/Export Feature Request List,Import / Export igényléseket
+Settings saved successfully.,Beállítások sikeresen elmentve.
+Seller Account Approval Request,Az eladó számla Jóváhagyáskérés
+Seller Vacation List,Eladó Nyaraló List
+Transaction detail successfully saved.,Tranzakciós részletesen sikeresen mentve.
+Some error occured. Please try again.,Néhány hiba történt. Kérlek próbáld újra.
+Total of %d record(s) have been updated.,Összesen% d bejegyzés (ek) frissítve lett.
+ Seller(s) Disapproved Successfully,Az eladó (s) Disapproved Sikeresen
+Seller Product List,Az eladó Terméklista
+Review has been approved successfully.,Vélemény jóváhagyták sikeresen.
+Technical Error Occured - Not able to update.,Technikai hiba történt - Nem lehet frissíteni.
+Review has been disapproved successfully.,Vélemény elutasítottuk sikeresen.
+Seller review has been deleted.,Az eladó felülvizsgálat törölve lett.
+Technical error occurred while processing category request.,Technikai hiba történt a feldolgozás kategória kérés.
+Seller account has not been approved yet. Please approve the seller account first.,"Az eladó fiók még nincs jóváhagyva. Kérjük, hagyja jóvá az eladó fiókot."
+ record(s) have been updated.,bejegyzés (ek) frissítve lett.
+Product has been approved successfully.,A termék már jóváhagyta sikeresen.
+ Seller(s) Approved Successfully,Az eladó (ek) jóváhagyva Sikeresen
+Approval updated successfully,Jóváhagyás sikeresen frissítve
+Seller Review Approval Request,Eladó ellenőrzés Jóváhagyáskérés
+PayPal Payout settings has been saved successfully.,PayPal Kifizetési beállítások sikeresen elmentve.
+Category Wise Commissions,Kategória Wise jutalékok
+CRON Instructions,CRON utasítások
+Seller List with Import/Export Feature,Az eladó felsorolása import / export funkció
+Product Reviews,Termék vélemények
+Seller Disapproved Successfully,Az eladó Elutasított Sikeresen
+Category Request List,Kategória Request List
+Commissions,jutalékok
+Total of %d record(s) have been deleted.,Összesen% d bejegyzés (ek) törlésre kerültek.
+ Seller(s) Enabled Successfully,Az eladó (ek) engedélyezése sikeresen
+Sellers Payout,Sellers Kifizetés
+"Some of the products are not enabled, because either these products or their sellers are not approved/disabled.","Egyes termékek nem engedélyezett, mert vagy ezeket a termékeket, illetve azok az eladók nem jóváhagyott / tiltva."
+Some of the processed products have no SKU value defined. Please fill it prior to performing operations on these products.,"Néhány feldolgozott termékek nem SKU meghatározott érték. Kérjük, töltse ki, mielőtt a műveletek ezeket a termékeket."
+Payout request status has been updated successfully.,Kifizetés kérelem állapota frissült sikeresen.
+Invalid Request.,Érvénytelen kérelem.
+Seller Wise Commissions,Az eladó Wise jutalékok
+Seller Dashboard,Az eladó Portál
+Your request has been sent. Please wait for store response.,"Az Ön kérését elküldtük. Kérjük, várjon áruház választ."
+Cannot send request,Nem lehet elküldeni kérelmet
+Product Import/Export,Termék Import / Export
+Seller Profile,Eladó profil
+Seller Profile saved successfully.,Az eladó Profil sikeresen mentve.
+Not Available,Nem elérhető
+Your payout request has been submitted successfully.,A kifizetési kérelmet nyújtottak be sikeresen.
+Please configure payout method in the seller profile menu.,Állítsd kifizetési módszer az eladó profil menü.
+Seller's Account - Payout Requests,Eladó számlájára - Kifizetési kérelmek
+Error Occured,Hiba lépett fel
+Thank you for rating the Seller.,"Köszönjük, hogy értékelte az Eladó."
+Posting review for this seller is not allowed.,Kiküldetés beszámolót eladónak nem engedélyezett.
+Seller Account - My Reviews,Az eladó Account - Saját Vélemények
+"You can't register yourself as seller because your registration request limit has been over. To register, please contact to support.","Nem tudja regisztrálni magát, mint az eladónak, mert a regisztrációs kérelem határérték felett. A regisztrációhoz kérjük, forduljon támogatására."
+Seller's Account - Earnings,Eladó számlájára - Bevételek
+Seller's Account - Transactions History,Eladó számlájára - Tranzakciók története
+File Path is Missing,Fájl elérési útja hiányzik
+Unknown file,ismeretlen fájl
+General worksheet is missing.,Általános munkalap hiányzik.
+Column title row is missing from general worksheet.,Oszlop címe sor hiányzik az általános munkalapot.
+Column '%s' is missing from general worksheet.,Oszlop „% s” hiányzik az általános munkalapot.
+File is empty.,A fájl üres.
+Error in processing '%s' sku before deleting.,Hiba a feldolgozás „% s” sku törlés előtt.
+Listed products are not deleted:,Felsorolt ​​termékek nem kerülnek törlésre:
+"Upload your file and try again. To speed up delete process, please remove all products that has been deleted.","Töltse fel a fájlt, és próbálja újra. Hogy gyorsítsa fel törlési folyamat, távolítsd el termékeket, törölték."
+Your products has been deleted. System will redirect you on product list automatically in 5 secs.,A termék törölve lett. A rendszer átirányítja Önt a termék lista automatikusan 5 másodperc.
+Import action is Missing,Import művelet hiányzik
+Meta Information worksheet is missing,Meta információ munkalap hiányzik
+File must not exceed ,Fájl nem haladhatja meg a
+This sku does not exist,Ez sku nem létezik
+Product of this SKU is not yours.,Termék ennek SKU nem a tiéd.
+This row has error,A sort a hiba
+Meta Information Sheet is Missing,Meta információ lap hiányzik
+Error in processing data of '%s' sku.,Hiba az adatok feldolgozására a „% s” sku.
+Listed products are not saved:,Felsorolt ​​termékek nem kerülnek mentésre:
+"Upload your file and try again. To speed up process, please remove all other product data that has been saved successfully.","Töltse fel a fájlt, és próbálja újra. Hogy gyorsítsa fel folyamatra, kérjük, távolítsa el az összes többi termék adatok sikeresen elmentve."
+Your products has been uploaded. System will redirect you on product list automatically in 5 secs.,A termékek már feltöltött. A rendszer átirányítja Önt a termék lista automatikusan 5 másodperc.
+Error while processing rows in uploaded file.,Feldolgozása közben hiba sorok feltöltött fájl.
+Error: %s,Hiba:% s
+Product Type is missing from Meta Sheet Worksheet,A termék típusa hiányzik Meta Sheet munkalap
+Product Type is invalid in Meta Sheet Worksheet,A termék típusa érvénytelen Meta Sheet munkalap
+Attribute set id is missing from Meta Sheet Worksheet,Attribútum id hiányzik Meta Sheet munkalap
+Attribute set id is not valid in Meta Sheet Worksheet,Attribútum azonosító nem érvényes Meta Sheet munkalap
+This SKU is already used by other product of you or other seller.,Ez SKU már egy másik terméket Ön vagy más eladó.
+This SKU is used by other seller or store.,Ez SKU által használt egyéb eladó vagy tárolni.
+This value is required,Ez az érték szükséges
+Invalid Value. Only date format value is accepted.,Helytelen érték. Csak dátum formátum érték elfogadott.
+Invalid Value. Only Price type value accepted,Helytelen érték. Csak Ártípus érték elfogadott
+Invalid Value. Only positive number type value accepted,Helytelen érték. Csak pozitív szám típusát érték elfogadott
+Out of range value. Please see possible value for this field.,"Tartományon kívüli értéket. Kérjük, tekintse meg a lehetséges érték ezen a területen."
+Some of the values are not exist.,Néhány értékek nem léteznek.
+Your request has been sent to the admin for approval.,Az Ön kérését elküldtük az admin jóváhagyás céljából.
+Seller's Account - Request a New Category,Az eladó számla - kérhet egy új kategória
+Attribute set is missing,Képesség nincs megadva
+Attribute set cannot load,Képesség set nem tudja betölteni
+1. This worksheet is required and must be included in your import file,"1. Ez a munkalap van szükség, és fel kell tüntetni az import fájlban"
+2. Do not change worksheet name as well as its content.,"2. Ne változtassa munkalap nevét, valamint annak tartalmát."
+3. Any change in this worksheet format will not allow system to import your data into system.,"3. Minden változás ebben lapformátumban nem engedi a rendszer, hogy importálja az adatokat be a rendszer."
+4. We recommend you to copy this worksheet in your import file with same worksheet name.,"4. Javasoljuk, hogy másolja be a munkalapot az import fájlban azonos munkalap neve."
+1. This worksheet contains possible values of some field.,1. Ez a munkalap lehetséges értékei néhány területen.
+2. Please fill the related fields only from these possible values.,"2. Kérjük, töltse ki a kapcsolódó területeken csak ezektől a lehetséges értékeket."
+3. If possible values for any field are not given then you can fill it with any text value.,3. Ha lehetséges értékei bármely területén nem kapnak akkor töltse meg bármilyen szöveges értéket.
+Seller's Products,Az eladó Termékek
+The product has been saved.,A termék el lett mentve.
+This window will be closed automatically within %s secs.,Ez az ablak automatikusan bezárul belül% s mp.
+Product has been saved successfully.,A termék sikeresen elmentve.
+The product has been duplicated successfully.,A termék nem másolják sikeresen.
+Product has been created successfully.,A termék sikeresen létrejött.
+Please wait for admin approval.,"Kérjük, várjon admin jóváhagyás."
+"Adding of new product limit has been over as your account is not approved or waiting for approval. To add more products, your account needs to be approved.",Hozzáadása az új termékek határérték felett a fiók nincs jóváhagyva vagy jóváhagyásra várnak. Hozzáadni további termékek fiókját jóvá kell hagyni.
+You duplicated the product.,Te duplikált a terméket.
+Seller's Product,Az eladó termék
+This SKU already exist.,Ez SKU már léteznek.
+Cancel Vacation,Mégsem Vacation
+Add New Vacation,Új Utazás
+Vacation Halted,Utazás leállítva
+Created Date,Létrehozás dátuma
+This vacation is already canceled,Ez a nyaralóhely már törölték
+Visibility,Láthatóság
+click to edit product,kattintson a szerkeszteni termék
+click to update quantity,kattintson frissíteni mennyiség
+Update Quantity,frissítés Mennyiség
+Order No.,Rendelési szám.
+From Date,Dátumtól
+To Date,Randizni
+click to print order,kattintson a nyomtatás érdekében
+Shipping & Handling,szállítás és kezelés
+Discount (%1),Kedvezmény (% 1)
+Discount,Kedvezmény
+Grand Total,Teljes összeg
+Grand Total to be Charged,Mindösszesen kell fizetni
+Custom Value,Egyéni érték
+Order # %1,Order #% 1
+Comment History,Megjegyzés története
+Shipment History,szállítmány előzmények
+Credit Memo History,Credit Memo története
+Subtotal (Excl.Tax),Részösszeg (Excl.Tax)
+Subtotal (Incl.Tax),Részösszeg (Incl.Tax)
+Shipping & Handling (Excl.Tax),Szállítás és kezelés (Excl.Tax)
+Shipping & Handling (Incl.Tax),Szállítás és kezelés (Incl.Tax)
+Grand Total (Excl.Tax),Mindösszesen (Excl.Tax)
+Grand Total (Incl.Tax),Mindösszesen (Incl.Tax)
+Email,Email
+Shipping Charges,Szállítási díj
+Track this shipment,Kövesse nyomon a küldemény
+Track Order,Rendeléskövetés
+Shipping Method,Szállítási Mód
+Shipping not Required,Szállítási nem szükséges
+Payment Method,Fizetési mód
+Grand Total (Excl. Shipping),Mindösszesen (Jár. Szállítás)
+Discount (%s),Kedvezmény (% s)
+Total Refunded,Összesen Visszatérítve
+Total Due,Teljes tartozás
+Shipping & Handling (Excl. Tax),Szállítás és kezelés (adót nem tartalmazza.)
+Shipping & Handling (Incl. Tax),Szállítás és kezelése (Tartalmazza. Adó)
+Print Order # %1,Print Order #% 1
+Minimum %d character requried,Minimális% d karakter .Ennek
+Save Template,Sablon mentése
+Show Report,megjelenítése jelentés
+Manage Seller Account,Manage Account eladó
+Add Subcategory,Add alkategória
+Add Root Category,Add Root kategória
+Save Settings,Beállítások mentése
+Seller Payout Request,Az eladó Kifizetés kérése
+ID,ID
+Transation Date,Tranzakciót dátuma
+Telephone,telefon
+Commission (in %),Bizottság (% -ban)
+Your Earnings,Ön bevételei
+Category wise Commissions,Kategória bölcs jutalékok
+Total Commission,Összesen Bizottság
+Transaction History,tranzakció történet
+Seller wise Commissions,Az eladó bölcs jutalékok
+Seller Earning,Az eladó bevételt hozó
+Amount Transfer,összeg Transfer
+Transaction Action,Tranzakciós Action
+Sellers Payout (,Sellers nyeremény: (
+Seller Order List,Az eladó rendelés lista
+Purchased From (Store),Vásárolt (Store)
+Purchased On,vásárolt
+Actions,Hozzászólások
+Template Description,Sablon leírása
+Template Type,Sablon típusa
+Date Added,dátum hozzáadva
+Date Updated,frissítés dátuma
+Seller Best Selling Product List,Az eladó Legkeresettebb Terméklista
+Interval,Intervallum
+Order Quantity,Vásárlás Mennyiség
+Product Price,A termék ára
+Seller Account Approval Request List,Az eladó fiókjóváhagyásra Request List
+Approved Status,jóváhagyott állapota
+Added Date,Hozzáadott dátum
+Approve,Jóváhagy
+Account Status,Fiók Állapot
+Seller Status,Az eladó állapota
+Seller Since,Az eladó óta
+Posted On,Közzétett
+Request Date,Igénylés dátuma
+Vacation Active,Utazás Active
+Seller Review Approval List,Eladó ellenőrzés jóváhagyása listája
+Seller Approval List,Az eladó jóváhagyása listája
+Seller Product Reviews,Az eladó Termék vélemények
+Created On,Készült ekkor
+Nickname,Becenév
+Visible In,látható
+Type,típus
+Product SKU,Termék cikkszáma
+Edit,szerkesztése
+Seller Category Request List,Az eladó Kategória Request List
+Seller Email,Az eladó e-mail
+View,Kilátás
+Disapprove,elítél
+Make New,Csinálj újat
+Edit Template,Sablon szerkesztése
+Products,Termékek
+Administrator,Adminisztrátor
+Guest,Vendég
+Seller Bulkimport Feature List,Az eladó Bulkimport Feature List
+Last Update,Utolsó frissítés
+Feature Status,Feature állapota
+Seller Bulkimport Feature Request List,Az eladó Bulkimport Feature Request List
+Seller Comment,Az eladó Comment
+Your Comment,A te hozzászólásod
+Request Status,Kérelem állapota
+Activate Feature,A funkció aktiválásához
+Read More,Olvass tovább
+click to view review,kattintson a megtekintéshez felülvizsgálat
+Posted on: %s by %s,Beküldve:% s% s
+Home,itthon
+Home Page,kezdőlap
+click to view product,kattintson a megtekintéshez termék
+Your seller account is currently under process and not yet approved. You only have a limited access to the seller account currently.,"Az eladó fiók jelenleg a folyamat, és még jóvá nem hagyott. Ön csak korlátozott hozzáférést az eladó számla megadva."
+Your seller account has been disapproved. You only have a limited access to the seller account currently. To send request again ,Az eladó fiókot elutasítottuk. Ön csak korlátozott hozzáférést az eladó számla megadva. Hogy küldje újra kérését
+Click Here,Kattints ide
+Product Catalog,Termék katalógus
+Product Feedback,Termék Visszajelzés
+Earnings,Kereset
+Transactions,tranzakciók
+New Category Request,Új kategória kérése
+My Vacations,Az üdülés
+Requested Date,Kért időpont
+Request On,"kérelmet,"
+Date,Dátum
+Transaction Date,a tranzakció időpontja
+Amount of %s debited from your earning on %s,Összege% s megterhelték a kereső% s
+Amount of %s credited into your account on %s,Összege% s jóváírásra a fiókjába% s
+Report Format,Report Format
+Your file is valid. Please click 'Delete Products' button to delete your products,"A fájl érvényes. Kérjük, kattintson a „Törlés termékek” gombot, hogy törölje a termékeket"
+Your file is valid. Please click 'Import Products' button to upload your products,"A fájl érvényes. Kérjük, kattintson a „Import termékek” gombra, hogy töltse fel termékeket"
+Delete Products,Törlés Termékek
+"Adding of new product limit has been over as your account is not approved or waiting for approval. To add more products, your account need to be approved.",Hozzáadása az új termékek határérték felett a fiók nincs jóváhagyva vagy jóváhagyásra várnak. Hozzáadni további termékek fiókját jóvá kell hagyni.
+Use Default Value,Alapértelmezett érték használata
+Seller Account,Az eladó számla
+General Settings,Általános beállítások
+Seller List,Az eladó List
+Seller Account Approval Request,Az eladó számla Jóváhagyáskérés
+Seller Product List,Az eladó Terméklista
+Product Approval Request,Termék Jóváhagyáskérés
+Product Reviews,Termék vélemények
+Seller Reviews,Az eladó vélemény
+Seller Review Approval Request,Eladó ellenőrzés Jóváhagyáskérés
+Category Request List,Kategória Request List
+Seller Vacation List,Eladó Nyaraló List
+Reports - Best Selling Products,Jelentések - legkelendőbb termékek
+Email Templates,e-mail sablonok
+CRON Instructions,CRON utasítások
+Bulk Import/Export,Tömeges Import / Export
+Seller With Feature,Eladó A Feature
+Feature Activation Request,Szolgáltatás aktiválás kérése
+Transactions and Earnings,Tranzakciók és kereset
+Commissions,jutalékok
+Category Wise Commissions,Kategória Wise jutalékok
+Seller Wise Commissions,Az eladó Wise jutalékok
+Sellers Payout List,Sellers Kifizetés listája
+Sellers Payout Request,Sellers Kifizetés kérése
+PayPal Payout Settings,PayPal Kifizetés beállítások
+Best Selling Products,Legkeresettebb termékek
+Seller with Import/Export Feature,Az eladó az import / export funkció
+Import/Export Feature Activation Request List,Import / Export funkció aktiválása Request List
+Category Wise Commission,Kategória Wise Bizottság
+Category Request List,Kategória Request List
+Edit Email Template,E-mail sablon szerkesztése
+Email Templates,e-mail sablonok
+Seller Order List,Az eladó rendelés lista
+PayPal Payout Settings,PayPal Kifizetés beállítások
+Product Approval Request,Termék Jóváhagyáskérés
+All Seller's Products - Reviews,Minden eladó termékeinek - Vélemények
+Seller Account Approval Request,Az eladó számla Jóváhagyáskérés
+Seller Wise Commission,Az eladó Wise Bizottság
+Seller List,Az eladó List
+Seller Product List,Az eladó Terméklista
+Seller Review Approval Request,Eladó ellenőrzés Jóváhagyáskérés
+All Seller's Reviews,Minden eladó vélemény
+Seller Vacation List,Eladó Nyaraló List
+Commissions,jutalékok
+Sellers Payout,Sellers Kifizetés
+Sellers Payout Request,Sellers Kifizetés kérése
+View Sellers,Részletek Sellers
+Start date or end date can not be same,Kezdés vagy befejezési időpont nem lehet azonos

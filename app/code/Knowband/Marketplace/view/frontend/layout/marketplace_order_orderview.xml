@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="1column" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <head>
+    	<title>Marketplace</title>
+    </head>
+    <body>
+        <referenceContainer name="left" remove="true"/>
+        <referenceContainer name="header.container" remove="true"/>
+        <referenceContainer name="footer" remove="true"/>
+        <referenceBlock name="page.main.title" remove="true" />
+        <referenceContainer name="catalog.topnav" remove="true"/>
+        
+        <referenceContainer name="content">
+            <block class="Knowband\Marketplace\Block\Page" name="marketplace_page" template="page.phtml" cacheable="false">
+                <block class="Knowband\Marketplace\Block\Order\View\View" name="marketplace_seller_order_info" template="order/view/view.phtml">
+                    <block class="Knowband\Marketplace\Block\Order\View\Items" name="marketplace_seller_order_items" template="order/view/items.phtml" />
+                    <block class="Knowband\Marketplace\Block\Order\View\Shipments" name="marketplace_seller_order_shipments" template="order/view/shipments.phtml" />
+                </block>
+            </block>
+        </referenceContainer>
+    </body>
+</page>

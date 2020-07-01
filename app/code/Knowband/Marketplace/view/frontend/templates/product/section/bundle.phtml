@@ -1,0 +1,202 @@
+<?php $product = $this->getProduct(); ?>
+<?php $option_block = $this->getBlockOptionObj(); ?>
+<?php $bundle_selection = $this->getBundleSelectionObj(); ?>
+
+<div class="collapsed-box box">
+    <div class="box-header with-border" data-widget="collapse">
+        <h3 class="box-title"><?php echo __("Shipment"); ?></h3>
+        <div class="box-tools pull-right tab-error-highlighter text-red">
+            <i class="fa fa-warning"></i>
+        </div>
+        <div class="box-tools pull-right">
+          <button type="button" class="btn btn-box-tool" ><i class="fa fa-plus"></i></button>
+        </div>
+    </div>
+    <div class="box-body">
+        <div class="form-group col-lg-12">
+            <label class="control-label"><?php echo __('Ship Bundle Items'); ?></label>
+            <select name="product[shipment_type]" class="form-control" validate="int">
+                <option value="1"><?php echo __('Separately') ?></option>
+                <option value="0" <?php if ($product->getShipmentType() == 0): ?> selected="selected"<?php endif; ?> ><?php echo __('Together') ?></option>
+            </select>
+        </div>
+    </div>
+</div>
+
+
+<div class="collapsed-box box">
+    <div class="box-header with-border" data-widget="collapse">
+        <h3 class="box-title"><?php echo __("Bundle Items Options"); ?></h3>
+        <div class="box-tools pull-right tab-error-highlighter text-red" style="margin-right: 140px;">
+            <i class="fa fa-warning"></i>
+        </div>
+        <div class="box-tools pull-right">
+            <button type="button" class="btn btn-xs btn-warning" onclick="createBundleOptionBlock('')" ><?php echo __('Add New Option'); ?></button>
+            <button type="button" class="btn btn-box-tool" ><i class="fa fa-plus"></i></button>
+        </div>
+    </div>
+    <div id="product_bundle_option_container" class="box-body">
+
+    </div>
+    <input type="hidden" name="affect_product_custom_options" value='1'/>
+    <input type="hidden" name="affect_bundle_product_selections" value="1" />
+</div>
+
+<script type="text/javascript">
+    
+    var option_index = <?php echo $this->getOptionIndex(); ?>;
+    var bundle_option_field_id = '<?php echo $option_block->getFieldId(); ?>';
+    var bundle_option_field_name = '<?php echo $option_block->getFieldName(); ?>';
+    var bundle_option_selection_id = '<?php echo $bundle_selection->getFieldId(); ?>';
+    var selection_index = <?php echo $this->getSelectionIndex(); ?>;
+    var vssmp_bundle_product_dt_url = '<?php echo $this->getFrontUrl("product", "getBundleProductList"); ?>';
+    var option_block_html = '<div id="<?php echo $option_block->getFieldId() ?>_{{option_index}}" class="box no-border bundle_option_row">'
+        + '<input type="hidden" id="<?php echo $option_block->getFieldId() ?>_{{option_index}}_block_id" value="" />'
+        + '<div class="box-body bundle-option-items">'
+            + '<div class="wrapper vssmp_bundle_def_title_row">'
+                + '<div class="col-lg-9 col-sm-9 col-xs-12 row">'
+                    + '<label class="col-lg-3 control-label"><?php echo __("Default Title") ?><sup><em>*</em></sup></label>'
+                    + '<div class="form-group col-lg-9"><input type="text" class="form-control col-lg-9 required" validate="varchar" name="<?php echo $option_block->getFieldName() ?>[{{option_index}}][title]" id="id_<?php echo $option_block->getFieldName() ?>_{{option_index}}_title" value="{{bundle_default_title}}" ></div>'
+                + '</div>'
+                + '<div class="col-lg-3 col-sm-3 col-xs-12"><button type="button" class="btn btn-xs btn-danger pull-right" onclick="removeBundleOption({{option_index}})" ><?php echo __("Delete Option"); ?></button></div>'
+            + '</div>'
+            + '<div class="wrapper vssmp_bundle_type_sel_row">'
+                + '<input type="hidden" id="<?php echo $option_block->getFieldId() ?>_id_{{option_index}}" name="<?php echo $option_block->getFieldName() ?>[{{option_index}}][option_id]" value="{{option_id}}">'
+                + '<input type="hidden" name="<?php echo $option_block->getFieldName() ?>[{{option_index}}][delete]" value="" class="delete">'
+                + '<div class="form-group col-lg-3 col-xs-6">'
+                    + '<label><?php echo __("Input Type"); ?></label>'
+                    + '<?php echo $this->getTypeSelectHtml(); ?>'
+                + '</div>'
+                + '<div class="form-group col-lg-3 col-xs-6">'
+                    + '<label><?php echo __("Is Required"); ?></label>'
+                    + '<?php echo $this->getRequireSelectHtml(); ?>'
+                + '</div>'
+                + '<div class="form-group col-lg-3 col-xs-6">'
+                    + '<label><?php echo __("Position"); ?></label>'
+                    + '<input type="text" class="form-control" validate="int" name="<?php echo $option_block->getFieldName() ?>[{{option_index}}][position]" value="{{bundle_parent_position}}" >'
+                + '</div>'
+                + '<div class="form-group col-lg-3 col-xs-6">'
+                    + '<label class="col-lg-12">&nbsp;</label>'
+                    + '<button type="button" class="btn btn-primary" onclick="displayProductOptionSearchBlock({{option_index}})"><?php echo __("Add Selection"); ?></button>'
+                + '</div>'
+            + '</div>'
+            + '<div id="<?php echo $option_block->getFieldId() ?>_{{option_index}}_search" class="wrapper vssmp_bundle_list_row" style="display:none;"></div>'
+            + '<div id="<?php echo $option_block->getFieldId() ?>_{{option_index}}_selected_option" class="wrapper vssmp_bundle_selected_pro_row" style="display:none;">'
+                + '<div class="col-lg-12 table-responsive">'
+                    + '<table class="table table-bordered">'
+                        + '<thead>'
+                            + '<tr>'
+                                + '<th><?php echo __("Name") ?></th>'
+                                + '<th width="80" style="display:none;"><?php echo __("Price") ?></th>'
+                                + '<th width="100" style="display:none;"><?php echo __("Price Type") ?></th>'
+                                + '<th width="80"><?php echo __("Default Qty") ?></th>'
+                                + '<th><?php echo __("User Defined Qty") ?></th>'
+                                + '<th width="80"><?php echo __("Position") ?></th>'
+                                + '<th><?php echo __("Default") ?></th>'
+                                + '<th>&nbsp;</th>'
+                            + '</tr>'
+                        + '</thead>'
+                        + '<tbody id="vssmp-bundle-selected-subproduct-{{option_index}}"></tbody>'
+                    + '</table>'
+                + '</div>'
+            + '</div>'
+        + '</div>';
+        + '</div>';
+
+    var vssmp_bundle_product_selection_blk = '<tr id="<?php echo $bundle_selection->getFieldId(); ?>_row_{{selection_index}}">'
+                    + '<td>'
+                        + '<input type="hidden" class="bundle_selectedoption_p_id" value="{{product_id}}">'
+                        + '<input type="hidden" id="<?php echo $bundle_selection->getFieldId(); ?>_id_{{selection_index}}" name="<?php echo $bundle_selection->getFieldName(); ?>[{{option_index}}][{{selection_index}}][selection_id]" value="{{selection_id}}">'
+                        + '<input type="hidden" name="<?php echo $bundle_selection->getFieldName(); ?>[{{option_index}}][{{selection_index}}][option_id]" value="{{option_id}}">'
+                        + '<input type="hidden" name="<?php echo $bundle_selection->getFieldName(); ?>[{{option_index}}][{{selection_index}}][product_id]" value="{{product_id}}">'
+                        + '<input type="hidden" name="<?php echo $bundle_selection->getFieldName(); ?>[{{option_index}}][{{selection_index}}][delete]" value="">'
+                        + '<div class="vssmp-row-block">{{product_name}}</div><div class="vssmp-row-block"><strong>SKU: </strong>{{product_sku}}</div>'
+                    + '</td>'
+                    + '<td style="display:none;"><input id="<?php echo $bundle_selection->getFieldId(); ?>_{{selection_index}}_price_value" class="form-control" validate="decimal" type="text" name="<?php echo $bundle_selection->getFieldName(); ?>[{{option_index}}][{{selection_index}}][selection_price_value]" value="{{selection_price_value}}"></td>'
+                    + '<td style="display:none;"><?php echo $this->getPriceTypeSelectHtml(); ?><div><?php echo $this->getCheckboxScopeHtml() ?></div></td>'
+                    + '<td class="form-group"><input class="form-control" validate="int" type="text" name="<?php echo $bundle_selection->getFieldName(); ?>[{{option_index}}][{{selection_index}}][selection_qty]" value="{{bundle_entered_quantity}}"></td>'
+                    + '<td><?php echo $this->getQtyTypeSelectHtml(); ?></td>'
+                    + '<td class="form-group"><input class="form-control" validate="int" type="text" name="<?php echo $bundle_selection->getFieldName(); ?>[{{option_index}}][{{selection_index}}][position]" value="{{bundle_sel_pro_position}}"></td>'
+                    + '<td><input type="radio" name="<?php echo $bundle_selection->getFieldName(); ?>[{{option_index}}][{{selection_index}}][is_default]" value="1" {{checked}}></td>'
+                    + '<td><button type="button" class="btn btn-danger btn-xs" onclick="removeSelectedOption({{option_index}}, {{selection_index}})"><i class="fa fa-trash-o"></i></button></td>'
+                + '</tr>';
+        
+    var vssmp_bundle_product_search_blk = '<div id="<?php echo $option_block->getFieldId() ?>_{{option_index}}_search_filter" class="pro-list-filter-list">'
+                + '<div class="form-group col-lg-2 col-md-2 col-sm-4 col-xs-6">'
+                    + '<input name="sub_pro_filter_id" type="text" class="form-control input-sm" value="<?php echo __("Id"); ?>" data-placeholder="<?php echo __("Id"); ?>" />'
+                + '</div>'
+                + '<div class="form-group col-lg-2 col-md-2 col-sm-4 col-xs-6">'
+                    + '<input name="sub_pro_filter_sku" type="text" class="form-control input-sm" value="<?php echo __("Sku"); ?>" data-placeholder="<?php echo __("Sku"); ?>" />'
+                + '</div>'
+                + '<div class="form-group col-lg-2 col-md-3 col-sm-4 col-xs-6">'
+                    + '<input name="sub_pro_filter_name" type="text" class="form-control input-sm" value="<?php echo __("Product Name"); ?>" data-placeholder="<?php echo __("Product Name"); ?>" />'
+                + '</div>'
+                + '<div class="form-group col-lg-2 col-md-2 col-sm-4 col-xs-6">'
+                    + '<select class="form-control input-sm" name="sub_pro_filter_inv_status">'
+                        + '<option value=""><?php echo __("Stock Status"); ?></option>'
+                        + '<?php $stock_statuses = $this->getStockStatuses(); ?>'
+                        + '<?php foreach($stock_statuses as $row){ ?>'
+                            + '<option value="<?php echo $row["value"]; ?>"><?php echo $row["label"]; ?></option>'
+                        + '<?php } ?>'
+                    + '</select>'
+                + '</div>'
+                + '<div class="form-group col-lg-2 col-md-2 col-sm-4 col-xs-6">'
+                    + '<select class="form-control input-sm" name="sub_pro_filter_attr_set">'
+                        + '<option value=""><?php echo __("Select Attribute"); ?></option>'
+                        + '<?php $attribute_set = $this->getAttributes(); ?>'
+                        + '<?php foreach($attribute_set as $row){ ?>'
+                            + '<option value="<?php echo $row["value"]; ?>"><?php echo $row["label"]; ?></option>'
+                        + '<?php } ?>'
+                    + '</select>'
+                + '</div>'
+                + '<div class="form-group col-lg-2 col-md-3 col-sm-4 col-xs-6">'
+                    + '<button type="button" class="btn btn-default btn-sm" onclick="getListForBundleProduct({{option_index}})"><?php echo __("Search"); ?></button>'
+                + '</div>'
+            + '</div>'
+            + '<div class="col-lg-12 table-responsive">'
+                + '<table id="<?php echo $option_block->getFieldId() ?>_{{option_index}}_search_table" class="table table-bordered" >'
+                    + '<thead>'
+                        + '<tr>'
+                            + '<th></th>'
+                            + '<th><?php echo strtoupper(__("Id")); ?></th>'
+                            + '<th width="250"><?php echo __("Product Name"); ?></th>'
+                            + '<th><?php echo __("Sku"); ?></th>'
+                            + '<th><?php echo __("Attribute"); ?></th>'
+                            + '<th><?php echo __("Price"); ?></th>'
+                            + '<th><?php echo __("Stock Status"); ?></th>'
+                            + '<th><?php echo __("Qty to Add"); ?></th>'
+                        + '</tr>'
+                    + '</thead>'
+                    + '<tbody>'
+                        + '<tr><td class="text-center" colspan="8"><span class="label label-warning"><?php echo __("No Data"); ?></span></td></tr>'
+                    + '</tbody>'
+                + '</table>'
+                + '<div class=""><button type="button" class="btn btn-xs btn-success" onclick="addSelectedBundleOption({{option_index}})" ><?php echo __("Add Selected Product(s) to Option"); ?></button></div>'
+            + '</div>';
+
+require(['jquery', "Knowband_Marketplace/theme/vssmp_bundle"], function(jQuery){
+<?php if($product->getId()){ 
+$options = $this->getOptions();  
+if(!empty($options)){
+    foreach ($options as $option){ ?>
+    createBundleOptionBlock('<?php echo $option->toJson(); ?>');
+    <?php if($option->getSelections()){
+        foreach($option->getSelections() as $_selection){ ?>
+            var selection_data_arr = {
+                entity_id: '<?php echo $_selection->getEntityId(); ?>',
+                option_id: '<?php echo $_selection->getOptionId(); ?>',
+                selection_id: '<?php echo $_selection->getSelectionId(); ?>',
+                name: '<?php echo addslashes($_selection->getName()); ?>',
+                sku: '<?php echo $_selection->getSku(); ?>',
+                selection_price_value: '<?php echo $_selection->getSelectionPriceValue(); ?>',
+                selection_price_type: '<?php echo $_selection->getSelectionPriceType(); ?>',
+                selection_qty: '<?php echo $_selection->getSelectionQty(); ?>',
+                selection_can_change_qty: '<?php echo $_selection->getSelectionCanChangeQty(); ?>',
+                position: '<?php echo $_selection->getPosition(); ?>',
+                is_default: '<?php echo $_selection->getIsDefault(); ?>'
+            }; 
+            addSelectedBundleOption((option_index-1), selection_data_arr, 'db');
+    <?php } }?>
+<?php } } } ?>    
+});
+</script>

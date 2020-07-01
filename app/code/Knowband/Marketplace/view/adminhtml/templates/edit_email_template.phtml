@@ -1,0 +1,56 @@
+<?php
+    $templateData = $this->getTemplateData();
+?>
+<div class="fieldset-wrapper" id="mp-email-templates">
+    <div class="admin__fieldset-wrapper-content">
+        <h1 class="marketplace-h1"><?php echo __("Edit Email Template") . ' #'.$templateData['template_id']; ?></h1>
+        <fieldset class="admin__fieldset">
+            
+            <div class="admin__field">
+                <label class="admin__field-label" for="template_description">
+                    <span>
+                        <?php echo __("About Template")?>
+                    </span>
+                </label>
+                <div class="admin__field-control">
+                    <b><?php echo $templateData['template_description']; ?></b>
+                </div>
+            </div>
+            
+            <div class="admin__field">
+                <label class="admin__field-label" for="template_subject">
+                    <span><span class="vss_required">*</span><?php echo __("Template Subject")?></span>
+                </label>
+                <div class="admin__field-control">
+                        <input id="template_subject" name="mpEmailTemplate[template_subject]" value="<?php echo $templateData['template_subject']; ?>" class="admin__control-text" type="text">
+                        <input type="hidden" name="mpEmailTemplate[id]" id='vssmp_template_id' value='<?php echo $templateData['template_id']; ?>'>
+                </div>
+            </div>
+            
+            <div class="admin__field">
+                <label class="admin__field-label" for="template_text">
+                    <span><span class="vss_required">*</span><?php echo __("Email Content")?></span>
+                </label>
+                <div class="admin__field-control admin__control-wysiwig">
+                    <textarea id="template_text" name="mpEmailTemplate[template_content]" title="<?php echo __('Template Content'); ?>" style="height:24em;" rows="2" cols="15" class="textarea"><?php echo $templateData['template_content']; ?></textarea>
+                    <p class="note" style="color: red;"><?php echo __("Please do not edit or remove any template variable."); ?> <?php echo __('Example'); ?>: <b>{{var any-variable}}</b></p>
+                </div>
+            </div>
+            
+        </fieldset>
+    </div>
+</div>
+<script type="text/javascript">
+window.tinyMCE_GZ = window.tinyMCE_GZ || {}; 
+window.tinyMCE_GZ.loaded = true;require(["jquery", "mage/translate", "mage/adminhtml/events", "mage/adminhtml/wysiwyg/tiny_mce/setup", "mage/adminhtml/wysiwyg/widget"], function(jQuery){
+    (function($) {$.mage.translate.add({"Insert Image...":"Insert Image...","Insert Media...":"Insert Media...","Insert File...":"Insert File..."})})(jQuery);
+    wysiwygtemplate_text = new tinyMceWysiwygSetup("template_text", {"enabled":true,"hidden":false,"use_container":false,"add_variables":false,"add_widgets":false,"no_display":false,"encode_directives":true,"baseStaticUrl":"http:\/\/magento2demo.firebearstudio.com\/pub\/static\/","baseStaticDefaultUrl":"http:\/\/magento2demo.firebearstudio.com\/pub\/static\/","directives_url":"http:\/\/magento2demo.firebearstudio.com\/admin_1vbjqf\/cms\/wysiwyg\/directive\/key\/6823756496599031f6ad20375cb63e5be69b50fc92c4b4d356e6316440ef5f5f\/","popup_css":"http:\/\/magento2demo.firebearstudio.com\/pub\/static\/adminhtml\/Magento\/backend\/en_US\/mage\/adminhtml\/wysiwyg\/tiny_mce\/themes\/advanced\/skins\/default\/dialog.css","content_css":"http:\/\/magento2demo.firebearstudio.com\/pub\/static\/adminhtml\/Magento\/backend\/en_US\/mage\/adminhtml\/wysiwyg\/tiny_mce\/themes\/advanced\/skins\/default\/content.css","width":"100%","height":"500px","plugins":[],"directives_url_quoted":"http\\:\/\/magento2demo\\.firebearstudio\\.com\/admin_1vbjqf\/cms\/wysiwyg\/directive\/key\/6823756496599031f6ad20375cb63e5be69b50fc92c4b4d356e6316440ef5f5f\/","add_images":true,"files_browser_window_url":"http:\/\/magento2demo.firebearstudio.com\/admin_1vbjqf\/cms\/wysiwyg_images\/index\/key\/f4129ab13180c0bffaf3b78c2eb10b46bb9ece7bd0f634f758d622bab97aab82\/","files_browser_window_width":"1000","files_browser_window_height":"600"});wysiwygtemplate_text.setup("exact");
+    editorFormValidationHandler = wysiwygtemplate_text.onFormValidation.bind(wysiwygtemplate_text);
+    //Event.observe("toggletemplate_text", "click", wysiwygtemplate_text.toggle.bind(wysiwygtemplate_text));
+    varienGlobalEvents.attachEventHandler("formSubmit", editorFormValidationHandler);
+    varienGlobalEvents.clearEventHandlers("open_browser_callback");
+    varienGlobalEvents.attachEventHandler("open_browser_callback", wysiwygtemplate_text.openFileBrowser);
+});
+//tinyMCE.get('template_text').setContent(retjson['template_content']);
+
+</script>

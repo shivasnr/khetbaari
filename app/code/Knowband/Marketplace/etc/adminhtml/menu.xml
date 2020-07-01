@@ -1,0 +1,211 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <update id="Knowband_Plugins::knowband_main_menu"
+            title="Knowband"
+            module="Knowband_Marketplace"
+            sortOrder="9999"
+            resource="Knowband_Marketplace::marketplace"
+        />
+        <add id="Knowband_Marketplace::backend_option"
+            title="Marketplace"
+            module="Knowband_Marketplace"
+            sortOrder="1"
+            resource="Knowband_Marketplace::backend_option"
+            parent="Knowband_Plugins::knowband_main_menu"
+        />
+        <add id="Knowband_Marketplace::general_settings"
+            title="General Settings"
+            module="Knowband_Marketplace"
+            sortOrder="2"
+            resource="Knowband_Marketplace::general_settings"
+            parent="Knowband_Marketplace::backend_option"
+            action="mpadmin/marketplace/generalSettings"
+        />
+        <add id="Knowband_Marketplace::seller_list"
+            title="Seller List"
+            module="Knowband_Marketplace"
+            sortOrder="2"
+            resource="Knowband_Marketplace::seller_list"
+            parent="Knowband_Marketplace::backend_option"
+            action="mpadmin/marketplace/sellerList"
+        />
+        <add id="Knowband_Marketplace::seller_account_approval"
+            title="Seller Account Approval Request"
+            module="Knowband_Marketplace"
+            sortOrder="2"
+            resource="Knowband_Marketplace::seller_account_approval"
+            parent="Knowband_Marketplace::backend_option"
+            action="mpadmin/marketplace/SellerAccountApproval"
+        />
+        <add id="Knowband_Marketplace::seller_product_list"
+            title="Seller Product List"
+            module="Knowband_Marketplace"
+            sortOrder="2"
+            resource="Knowband_Marketplace::seller_product_list"
+            parent="Knowband_Marketplace::backend_option"
+            action="mpadmin/marketplace/sellerProductList"
+        />
+        <add id="Knowband_Marketplace::product_approval"
+            title="Product Approval Request"
+            module="Knowband_Marketplace"
+            sortOrder="2"
+            resource="Knowband_Marketplace::product_approval"
+            parent="Knowband_Marketplace::backend_option"
+            action="mpadmin/marketplace/ProductApproval"
+        />
+        <add id="Knowband_Marketplace::product_reviews"
+            title="Product Reviews"
+            module="Knowband_Marketplace"
+            sortOrder="2"
+            resource="Knowband_Marketplace::product_reviews"
+            parent="Knowband_Marketplace::backend_option"
+            action="mpadmin/marketplace/productReviews"
+        />
+        <add id="Knowband_Marketplace::seller_reviews"
+            title="Seller Reviews"
+            module="Knowband_Marketplace"
+            sortOrder="2"
+            resource="Knowband_Marketplace::seller_reviews"
+            parent="Knowband_Marketplace::backend_option"
+            action="mpadmin/marketplace/SellerReviews"
+        />
+        <add id="Knowband_Marketplace::seller_review_approval"
+            title="Seller Review Approval Request"
+            module="Knowband_Marketplace"
+            sortOrder="2"
+            resource="Knowband_Marketplace::seller_review_approval"
+            parent="Knowband_Marketplace::backend_option"
+            action="mpadmin/marketplace/SellerReviewApproval"
+        />
+        <add id="Knowband_Marketplace::category_reqeust"
+            title="Category Request List"
+            module="Knowband_Marketplace"
+            sortOrder="2"
+            resource="Knowband_Marketplace::category_reqeust"
+            parent="Knowband_Marketplace::backend_option"
+            action="mpadmin/marketplace/CategoryRequest"
+        />
+        <add id="Knowband_Marketplace::seller_vacation"
+            title="Seller Vacation List"
+            module="Knowband_Marketplace"
+            sortOrder="2"
+            resource="Knowband_Marketplace::seller_vacation"
+            parent="Knowband_Marketplace::backend_option"
+            action="mpadmin/marketplace/sellerVacationList"
+        />
+        
+        <add id="Knowband_Marketplace::best_selling_products"
+            title="Reports - Best Selling Products"
+            module="Knowband_Marketplace"
+            sortOrder="2"
+            resource="Knowband_Marketplace::best_selling_products"
+            parent="Knowband_Marketplace::backend_option"
+            action="mpadmin/marketplace/bestSellers"
+        />
+        
+        <add id="Knowband_Marketplace::email_templates"
+            title="Email Templates"
+            module="Knowband_Marketplace"
+            sortOrder="2"
+            resource="Knowband_Marketplace::email_templates"
+            parent="Knowband_Marketplace::backend_option"
+            action="mpadmin/marketplace/emailTemplates"
+        />
+        
+        <add id="Knowband_Marketplace::cron"
+            title="CRON Instructions"
+            module="Knowband_Marketplace"
+            sortOrder="2"
+            resource="Knowband_Marketplace::cron"
+            parent="Knowband_Marketplace::backend_option"
+            action="mpadmin/marketplace/cron"
+        />
+        
+        <add id="Knowband_Marketplace::bulk_import_export"
+            title="Bulk Import/Export"
+            module="Knowband_Marketplace"
+            sortOrder="2"
+            resource="Knowband_Marketplace::bulk_import_export"
+            parent="Knowband_Marketplace::backend_option"
+        />
+        <add id="Knowband_Marketplace::seller_with_feature"
+            title="Seller With Feature"
+            module="Knowband_Marketplace"
+            sortOrder="3"
+            resource="Knowband_Marketplace::seller_with_feature"
+            parent="Knowband_Marketplace::bulk_import_export"
+            action="mpadmin/marketplace/bulkFeatureList"
+        />
+        <add id="Knowband_Marketplace::activation_request"
+            title="Feature Activation Request"
+            module="Knowband_Marketplace"
+            sortOrder="3"
+            resource="Knowband_Marketplace::activation_request"
+            parent="Knowband_Marketplace::bulk_import_export"
+            action="mpadmin/marketplace/bulkFeatureRequestList"
+        />
+        
+        <add id="Knowband_Marketplace::transactions_and_earnings"
+            title="Transactions and Earnings"
+            module="Knowband_Marketplace"
+            sortOrder="2"
+            resource="Knowband_Marketplace::transactions_and_earnings"
+            parent="Knowband_Marketplace::backend_option"
+        />
+        
+        <add id="Knowband_Marketplace::commissions"
+            title="Commissions"
+            module="Knowband_Marketplace"
+            sortOrder="3"
+            resource="Knowband_Marketplace::commissions"
+            parent="Knowband_Marketplace::transactions_and_earnings"
+            action="mpadmin/marketplace/transaction"
+        />
+        
+        <add id="Knowband_Marketplace::category_commissions"
+            title="Category Wise Commissions"
+            module="Knowband_Marketplace"
+            sortOrder="3"
+            resource="Knowband_Marketplace::category_commissionss"
+            parent="Knowband_Marketplace::transactions_and_earnings"
+            action="mpadmin/marketplace/categoryearning"
+        />
+        
+        <add id="Knowband_Marketplace::seller_commissions"
+            title="Seller Wise Commissions"
+            module="Knowband_Marketplace"
+            sortOrder="3"
+            resource="Knowband_Marketplace::seller_commissions"
+            parent="Knowband_Marketplace::transactions_and_earnings"
+            action="mpadmin/marketplace/sellerearning"
+        />
+        
+        <add id="Knowband_Marketplace::sellers_payout_list"
+            title="Sellers Payout List"
+            module="Knowband_Marketplace"
+            sortOrder="3"
+            resource="Knowband_Marketplace::sellers_payout_list"
+            parent="Knowband_Marketplace::transactions_and_earnings"
+            action="mpadmin/marketplace/transactionHistory"
+        />
+        
+        <add id="Knowband_Marketplace::sellers_payout_request"
+            title="Sellers Payout Request"
+            module="Knowband_Marketplace"
+            sortOrder="3"
+            resource="Knowband_Marketplace::sellers_payout_request"
+            parent="Knowband_Marketplace::transactions_and_earnings"
+            action="mpadmin/marketplace/transactionRequest"
+        />
+        
+        <add id="Knowband_Marketplace::paypal_payout_settings"
+            title="PayPal Payout Settings"
+            module="Knowband_Marketplace"
+            sortOrder="3"
+            resource="Knowband_Marketplace::paypal_payout_settings"
+            parent="Knowband_Marketplace::transactions_and_earnings"
+            action="mpadmin/marketplace/paypalpayoutsettings"
+        />
+    </menu>
+</config>

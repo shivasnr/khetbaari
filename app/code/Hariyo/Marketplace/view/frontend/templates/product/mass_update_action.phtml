@@ -1,0 +1,27 @@
+<div class="box-header row">
+    <form id="<?php echo $this->getFieldId(); ?>_bulk_form" method="post" action="">
+        <input type="hidden" name="vssmp_list_action_status" value="" />
+        <input type="hidden" name="vssmp_list_action_reason" value="" />
+        <input type="hidden" name="vssmp_list_item_checked" value="[]" />
+    </form>
+    <div class="form-group col-lg-3 col-xs-12">
+        <select class="form-control" id="<?php echo $this->getFieldId(); ?>_bulk_action" name="<?php echo $this->getFieldId(); ?>_bulk_action" onchange="vssmpBulkChangeAction(this)">
+            <option value="" dataholder=""><?php echo __('Choose Bulk Action'); ?></option>
+            <option value="<?php echo $this->getMassDeleteUrl(); ?>" id="delete"><?php echo __('Delete'); ?></option>
+            <?php if($this->showStatusOption()){ ?><option value="<?php echo $this->getMassStatusUrl(); ?>" id="status"><?php echo __('Status Update'); ?></option><?php } ?>
+        </select>
+    </div>
+    <?php if($this->showStatusOption()){ ?>
+        <div id="<?php echo $this->getFieldId(); ?>_status_container" class="form-group col-lg-3 col-xs-12" style="display:none;">
+            <select class="form-control" id="<?php echo $this->getFieldId(); ?>_bulk_action_status" name="<?php echo $this->getFieldId(); ?>_bulk_action_status">
+                <?php foreach(\Magento\Catalog\Model\Product\Attribute\Source\Status::getOptionArray() as $key => $val){ ?>
+                    <option value="<?php echo $key; ?>" dataholder="delete"><?php echo $val; ?></option>
+                <?php } ?>
+            </select>
+        </div>
+    <?php } ?>
+    <div class="form-group col-lg-3 col-xs-12">
+        <button type="button" class="btn btn-success" onclick="vssmpListMassAction('<?php echo $this->getFieldId(); ?>')"><?php echo __('Submit'); ?></button>
+    </div>
+</div>
+

@@ -1,0 +1,1009 @@
+The product status will be 'Disabled' until it is approved from admin.,Η κατάσταση του προϊόντος θα πρέπει να «Άτομα με ειδικές ανάγκες» μέχρι να εγκριθεί από το διαχειριστή.
+The seller has already added more products. Please either increase the limit or save it as it is.,"Ο πωλητής έχει ήδη προσθέσει περισσότερα προϊόντα. Παρακαλούμε, είτε να αυξήσει το όριο ή να το αποθηκεύσετε ως έχει."
+Reason,Λόγος
+Required field,υποχρεωτικό πεδίο
+Submit,υποβάλλουν
+Why do you want to do this?,Γιατί θέλετε να το κάνετε αυτό;
+Continue,Να συνεχίσει
+Something went wrong. Please try again.,Κάτι πήγε στραβά. ΠΑΡΑΚΑΛΩ προσπαθησε ξανα.
+Vacation Interval: ,Διάστημα Διακοπές:
+Is Active: ,Είναι ενεργό:
+Vacation Halt Status: ,Διακοπές Κατάσταση Αλτ:
+Comment: ,Σχόλιο:
+Reason for canceling vacation: ,Αιτία για την ακύρωση διακοπές:
+Vacation Detail,Λεπτομέρειες για διακοπές
+Your comment to cancel this vacation,Το σχόλιό σας να ακυρώσετε αυτήν διακοπές
+Register as Seller,Εγγραφείτε ως Πωλητής
+Yes,Ναί
+No,Οχι
+Marketplace CRON Instructions,Οδηγίες Marketplace CRON
+Vacation CRON,CRON για διακοπές
+Disable the products during the seller's vacation period.,Απενεργοποιήστε τα προϊόντα κατά τη διάρκεια των διακοπών του πωλητή.
+Low Stock Notification CRON,CRON σε περιορισμένο απόθεμα Κοινοποίηση
+Send the notification to the sellers about their low stock products.,Στείλτε την κοινοποίηση στους πωλητές για προϊόντα χαμηλής αποθεμάτων τους.
+Cron Instructions,Οδηγίες cron
+Add the Cron Jobs to your store via control panel/putty. Find below the Instruction to add the Cron Jobs.,Προσθέστε το Cron Jobs στο κατάστημά σας μέσω του πίνακα ελέγχου / στόκος. Βρείτε κάτω από τις οδηγίες για να προσθέσετε το Cron Jobs.
+URLs to Add to Cron via Control Panel,Διευθύνσεων URL για να προσθέσετε στο Cron μέσω του Πίνακα Ελέγχου
+1. Vacation CRON,1. διακοπές CRON
+2. Low Stock Notification CRON,2. CRON σε περιορισμένο απόθεμα Κοινοποίηση
+Cron setup via SSH,Ρύθμιση Cron μέσω SSH
+Choose Store Categories,Επιλέξτε Κατηγορίες καταστημάτων
+Collapse All,Σύμπτυξη όλων
+Expand All,Ανάπτυξη όλων
+This operation can take a long time,Αυτή η λειτουργία μπορεί να διαρκέσει για μεγάλο χρονικό διάστημα
+Please confirm site switching. All data that hasn\'t been saved will be lost.,Επιβεβαιώστε μεταγωγής ιστοσελίδα. Όλα τα δεδομένα που hasn \ 't έχουν αποθηκευτεί θα χαθούν.
+Warning message,προειδοποιητικό μήνυμα
+Field cannot be empty.,Το πεδίο δεν μπορεί να είναι κενό.
+You can enter only numbers.,Μπορείτε να εισάγετε μόνο αριθμούς.
+Number should be greater than 0.,Ο αριθμός πρέπει να είναι μεγαλύτερος από 0.
+Field cannot be greater than {#} characters.,Το πεδίο δεν μπορεί να είναι μεγαλύτερη από {#} χαρακτήρες.
+Field cannot be less than {#} character(s).,Το πεδίο δεν μπορεί να είναι μικρότερη από {#} χαρακτήρα (ες).
+Please enter Email.,Παρακαλώ εισάγετε το Email.
+Please enter a valid Email.,Παρακαλώ εισάγετε μια έγκυρη διεύθυνση email.
+Invalid date format.,Μη έγκυρη μορφή ημερομηνίας.
+Number is not in the valid range. It should be between {#} and {##},Ο αριθμός δεν είναι στην έγκυρη περιοχή. Θα πρέπει να είναι μεταξύ {#} και {##}
+Field should be numeric.,Το πεδίο πρέπει να είναι αριθμητικό.
+Field should be positive.,Το πεδίο πρέπει να είναι θετική.
+Field can have only upto two decimal values.,Το πεδίο μπορεί να έχει μόνο μέχρι δύο δεκαδικά τιμές.
+Email cannot be greater than {#} characters.,Email δεν μπορεί να είναι μεγαλύτερη από {#} χαρακτήρες.
+Zip should not have special characters.,Zip δεν θα πρέπει να έχει ειδικούς χαρακτήρες.
+Percentage should be in number.,Ποσοστό πρέπει να είναι σε αριθμό.
+Percentage should be between 0 and 100.,Ποσοστό πρέπει να είναι μεταξύ 0 και 100.
+Size cannot be greater than {#} characters.,Το μέγεθος δεν μπορεί να είναι μεγαλύτερη από {#} χαρακτήρες.
+Color could not be greater than {#} characters.,Το χρώμα δεν θα μπορούσε να είναι μεγαλύτερη από {#} χαρακτήρες.
+Color is not valid.,Το χρώμα δεν είναι έγκυρη.
+Special characters are not allowed.,Ειδικοί χαρακτήρες δεν επιτρέπονται.
+Script tags are not allowed.,ετικέτες Σενάριο δεν επιτρέπονται.
+Style tags are not allowed.,ετικέτες στυλ δεν επιτρέπονται.
+Iframe tags are not allowed.,ετικέτες iframe δεν επιτρέπονται.
+Uploaded file is not an image.,Το αρχείο δεν είναι μια εικόνα.
+Uploaded file size must be less than {#}.,Φορτωμένα μέγεθος του αρχείου πρέπει να είναι μικρότερο από {#}.
+Field should not contain HTML tags.,Το πεδίο δεν πρέπει να περιέχουν ετικέτες HTML.
+You can enter only positive numbers.,Μπορείτε να εισάγετε μόνο θετικούς αριθμούς.
+Are you sure?,Είσαι σίγουρος?
+Comment,Σχόλιο
+Are you sure to update feature status of this seller?,Είστε βέβαιοι να ενημερώσετε την κατάστασή χαρακτηριστικό αυτού του πωλητή;
+Do you have any comment?,Έχετε κάποιο σχόλιο;
+"For accurate reporting, be sure to refresh lifetime statistics whenever you change the time zone.","Για την ακριβή αναφορά, φροντίστε να ανανεώσετε τα στατιστικά στοιχεία της ζωής κάθε φορά που αλλάζετε τη ζώνη ώρας."
+To refresh last day's,Για να ανανεώσετε την τελευταία ημέρα του
+statistics,στατιστική
+click,Κάντε κλικ
+here,εδώ
+Filter,Φίλτρο
+Period,Περίοδος
+Day,Ημέρα
+Month,Μήνας
+Year,Ετος
+From,Από
+Select Date,Επιλέξτε Ημερομηνία
+To,Προς το
+Choose Category,Επιλέξτε Κατηγορία
+All Categories,Όλες οι κατηγορίες
+Choose a Seller,Επιλέξτε ένα πωλητή
+All Sellers,Όλοι οι πωλητές
+NA,NA
+PayPal Payout Settings,Ρυθμίσεις πληρωμών PayPal
+Active,Ενεργός
+Enable or Disable Paypal Payment Method.,Ενεργοποίηση ή απενεργοποίηση Paypal μέθοδος πληρωμής.
+Client ID,ταυτότητα πελάτη
+Client Secret,Πελάτης Secret
+Paypal Mode,Λειτουργία Paypal
+Sandbox,Sandbox
+Live,Ζω
+Paypal Email Subject,Paypal Email Θέμα
+Paypal Currency ,Paypal νομίσματος
+Select the default currency set in Paypal Account.,Επιλέξτε το σύνολο προεπιλεγμένο νόμισμα στο Paypal λογαριασμού.
+Are You Sure you want to reset the settings?,Είστε σίγουροι ότι θέλετε να επαναφέρετε τις ρυθμίσεις;
+Edit Email Template,Επεξεργασία προτύπου Email
+About Template,Σχετικά με το Πρότυπο
+Template Subject,πρότυπο Θέμα
+Email Content,Περιεχόμενο email
+Template Content,πρότυπο περιεχομένου
+Please do not edit or remove any template variable.,Παρακαλώ μην επεξεργαστείτε ή να αφαιρέσετε οποιαδήποτε μεταβλητή πρότυπο.
+Example,Παράδειγμα
+Seller Account Settings,Ρυθμίσεις Πωλητής Λογαριασμού
+Default Commission,προεπιλογή Επιτροπή
+Please enter a number between 0 and 100 only and in a proper format.,Παρακαλώ εισάγετε έναν αριθμό μεταξύ 0 και 100 μόνο και σε σωστή μορφή.
+Use Global,Η χρήση παγκόσμιο
+New Product Limit,Νέο Όριο προϊόντων
+Limit the sellers to add new products without account approval.,Περιορίστε τους πωλητές να προσθέσει νέα προϊόντα χωρίς την έγκριση του λογαριασμού.
+If left blank than product limit will be assumed 0.,Αν αφεθεί κενό από το όριο του προϊόντος θα πρέπει να θεωρείται 0.
+Categories Allowed,Κατηγορίες κατοικίδια
+If no category is selected that will mean that all the categories are allowed.,Αν δεν επιλεγεί κατηγορία που σημαίνει ότι όλες οι κατηγορίες επιτρέπεται.
+Product Approval Required,Απαιτείται έγκριση προϊόντων
+Enable,επιτρέπω
+Disable,Καθιστώ ανίκανο
+Enable Seller Review,Ενεργοποίηση κριτική πωλητή
+Required Seller Review Approval,Απαιτείται αναθεώρηση πωλητή Έγκριση
+Email to Seller on Order Place,Αποστολή email σε πωλητή για την παραγγελία Place
+Please enter a valid number in this field.,Παρακαλώ εισάγετε έναν έγκυρο αριθμό σε αυτόν τον τομέα.
+Payout Transaction Request,Αίτηση Πληρωμής Συναλλαγών
+Required Field,Υποχρεωτικό πεδίο
+Invalid Value,Μη έγκυρη τιμή
+"Invalid Value, please enter a number greater than zero","Μη έγκυρη τιμή, παρακαλώ εισάγετε έναν αριθμό μεγαλύτερο από το μηδέν"
+Minimum 30 character required,απαιτείται ελάχιστο 30 χαρακτήρων
+General Settings,Γενικές Ρυθμίσεις
+Enable Marketplace,Ενεργοποίηση Marketplace
+Toggle to enable or disable extension,Εναλλαγή για να ενεργοποιήσετε ή να απενεργοποιήσετε την επέκταση
+Default Commission (%),Προεπιλογή Επιτροπής (%)
+Set default commission in percentage for each product.,Ορίστε την προεπιλεγμένη προμήθεια σε ποσοστό για κάθε προϊόν.
+Choose the categories allowed for the sellers. If no category is selected that will mean that all the categories are allowed.,Επιλέξτε τις κατηγορίες που επιτρέπεται για τους πωλητές. Αν δεν επιλεγεί κατηγορία που σημαίνει ότι όλες οι κατηγορίες επιτρέπεται.
+Register as Seller Field,Εγγραφείτε ως Πωλητής πεδίο
+Enable to add 'Register as Seller' field while registering.,Ενεργοποίηση για να προστεθεί η φράση «Εγγραφή ως πωλητής» τομέα κατά την εγγραφή.
+Enable Bulk Import/Export,Ενεργοποίηση Μαζική Εισαγωγή / Εξαγωγή
+"If disable, no seller will be able to use bulk import/export feature.","Αν απενεργοποιήσετε, δεν πωλητής θα είναι σε θέση να χρησιμοποιούν χύμα δυνατότητα εισαγωγής / εξαγωγής."
+If enable an email will be sent to seller on order for his product.,Εάν ενεργοποιήσετε ένα μήνυμα ηλεκτρονικού ταχυδρομείου θα αποσταλεί στον πωλητή κατά παραγγελία για το προϊόν του.
+Enable Vacation Mode,Ενεργοποίηση λειτουργίας για διακοπές
+"If disable, no seller will be able to use vacation feature.","Αν απενεργοποιήσετε, δεν πωλητής θα είναι σε θέση να χρησιμοποιήσετε τη λειτουργία διακοπών."
+Show Seller Info on Product Page,Εμφάνιση Πωλητής στη σελίδα του προϊόντος
+Enable/Disable to show/hide seller info on product page.,Ενεργοποίηση / Απενεργοποίηση για εμφάνιση / απόκρυψη πληροφοριών πωλητή στη σελίδα του προϊόντος.
+Enable or Disable Approval of product for the sellers.,Ενεργοποίηση ή απενεργοποίηση Έγκριση των προϊόντων για τους πωλητές.
+Default limit for sellers of adding new products before account approval. Blank will be considered as 0.,Προκαθορισμένο όριο για τους πωλητές της προσθήκης νέων προϊόντων πριν από την έγκριση του λογαριασμού. Κενό θα πρέπει να θεωρείται ως 0.
+Enable or Disable Seller review feature. This feature enables the customers to add review for sellers.,Ενεργοποίηση ή δυνατότητα επανεξέτασης Απενεργοποίηση πωλητή. Αυτό το χαρακτηριστικό επιτρέπει στους πελάτες να προσθέσετε αναθεώρηση για τους πωλητές.
+Seller Review Approval Required,Απαιτούμενα Πωλητής κριτική Έγκριση
+Enable or Disable Approval for seller review. Once the review is approved then only it will be visible to the customers.,Ενεργοποίηση ή απενεργοποίηση Έγκριση για την αναθεώρηση πωλητή. Μόλις η αναθεώρηση εγκριθεί τότε μόνο θα είναι ορατό στους πελάτες.
+Enable Seller List,Ενεργοποίηση Λίστα πωλητή
+Show or Hide Sellers List from customers.,Εμφάνιση ή απόκρυψη πωλητές Λίστα από τους πελάτες.
+Enable Search Box,Ενεργοποίηση αναζήτησης Box
+Enable or Disbale search box to search seller on seller listing page.,Ενεργοποίηση ή Disbale πλαίσιο αναζήτησης για να αναζητήσετε πωλητή στη σελίδα λίστα πωλητή.
+Low Stock Configuration,Χαμηλή Διαμόρφωση Χρηματιστήριο
+Enable Low Stock Notification,Ενεργοποίηση Χαμηλή Κοινοποίηση Χρηματιστήριο
+Enable or Disable Low Stock Notification feature.,Ενεργοποίηση ή απενεργοποίηση δυνατότητα σε περιορισμένο απόθεμα ειδοποίησης.
+Low Inventory Limit,Χαμηλό όριο Απογραφή
+Enter the limit below that the products are considered low stock.,Πληκτρολογήστε το όριο κάτω από ότι τα προϊόντα θεωρούνται σε περιορισμένο απόθεμα.
+When to Notify,Πότε να Ειδοποίηση
+Choose when to notify the seller regarding the critical inventories.,Επιλέξτε πότε πρέπει να ενημερώσει τον πωλητή σχετικά με τα κρίσιμα αποθέματα.
+Cron Job,cron Job
+On Order Place,Την Παραγγελία Place
+Send Notifications From,Αποστολή ειδοποιήσεων από
+Choose the email from which you want to send the notifications.,Επιλέξτε το μήνυμα ηλεκτρονικού ταχυδρομείου από την οποία θέλετε να στείλετε τις ειδοποιήσεις.
+Seller Name,Πωλητής Όνομα
+Select,Επιλέγω
+Transaction ID,Ταυτότητα συναλλαγής
+Transaction Type,Τύπος συναλλαγής
+Amount,Ποσό
+Send Email to Seller,Αποστολή Email στον πωλητή
+"Invalid Value, please enter a number greater then zero","Μη έγκυρη τιμή, παρακαλώ εισάγετε έναν αριθμό μεγαλύτερο από το μηδέν"
+Add New Transaction,Προσθήκη νέου Συναλλαγών
+Posted On: ,Δημοσιεύτηκε στις:
+Customer Rating: ,Βαθμολογία Πελατών:
+Review: ,Ανασκόπηση:
+Reason for Disapproval: ,Λόγος Disapproval:
+Seller Review Detail,Πωλητής Λεπτομέρεια κριτική
+Provide Your Reason,Παροχή Λόγος σας
+We can\'t find products matching the selection.,Μπορούμε να \ 't βρείτε προϊόντα που να ταιριάζουν με την επιλογή.
+View Details,Δείτε λεπτομέρειες
+In stock,Σε απόθεμα
+Out of stock,Δεν υπάρχει απόθεμα
+Learn More,Μάθε περισσότερα
+My Sales Dashboard,Ταμπλό πωλήσεις μου
+Total Revenue,Τα συνολικά έσοδα
+Total Orders,Σύνολο Παραγγελίες
+Total Products Sold,Συνολικά Προϊόντα που πωλούνται
+Last 7 Days,Τελευταίες 7 ημέρες
+Sales Comparisons,συγκρίσεις Πωλήσεις
+Orders,παραγγελίες
+Revenue,Εσοδα
+Products Sold,προϊόντα που πωλούνται
+Discounts,εκπτώσεις
+Balance Amount Variations,Παραλλαγές Ποσό Υπόλοιπο
+Today,Σήμερα
+Yesterday,Εχθές
+This Week,Αυτή την εβδομάδα
+Last Week,Την προηγούμενη εβδομάδα
+This Month,Αυτο το μηνα
+Last Month,Τον προηγούμενο μήνα
+This Year,Αυτή την χρονιά
+Last Year,Πέρυσι
+Last 10 Orders,Τελευταία 10 Παραγγελίες
+View All Orders,Δείτε όλες τις παραγγελίες
+Order Number,Αριθμός παραγγελίας
+Order Date,Ημερομηνία παραγγελίας
+Customer Name,Όνομα πελάτη
+Customer Email,Email πελατών
+Qty,ποσότητα
+Status,Κατάσταση
+Order Total,Παραγγελία Σύνολο
+click to view order,κάντε κλικ για να δείτε τάξης
+No Orders Placed Yet,"Δεν παραγγελίες Ωστόσο,"
+Seller Products,Πωλητής Προϊόντα
+Filter Products,φίλτρο Προϊόντα
+Category,Κατηγορία
+Sort By,Ταξινόμηση κατά
+Name,Ονομα
+SKU,Κωδικός
+Price(low to high),Τιμή (χαμηλή προς υψηλή)
+Price(high to low),Τιμή (υψηλή προς χαμηλή)
+Products Feedback,προϊόντα Επικοινωνία
+Filter Your Search,Φιλτράρετε την αναζήτησή σας
+Search,Ψάξιμο
+Reset,Επαναφορά
+No Data,Χωρίς δεδομένα
+Posted on,Δημοσιεύτηκε στις
+by,με
+Rating,Εκτίμηση
+Summary,Περίληψη
+Review,Ανασκόπηση
+My Products Catalog,Τα προϊόντα μου Κατάλογος
+New Product,Καινουργιο ΠΡΟΪΟΝ
+Choose,Επιλέγω
+Please select atleast one item from list.,Επιλέξτε atleast ένα στοιχείο από τη λίστα.
+Select Attribute Set for New Product,Επιλέξτε Χαρακτηριστικό Ορισμός για το Νέο Προϊόν
+Attribute Set,Χαρακτηριστικό Ορισμός
+Product Type,Τύπος Προϊόντος
+Choose Bulk Action,Επιλέξτε Μαζική ενέργεια
+Delete,Διαγράφω
+Status Update,Ενημέρωση κατάστασης
+Close,Κοντά
+Save,Αποθηκεύσετε
+Save & Continue,Αποθήκευση & Συνέχεια
+Duplicate,Αντίγραφο
+Cancel,Ματαίωση
+%d characters remaining.,% D χαρακτήρες που απομένουν.
+Please fill required fields with valid information.,Παρακαλούμε συμπληρώστε τα υποχρεωτικά πεδία με έγκυρες πληροφορίες.
+Special price should be less than actual price,Ειδική τιμή πρέπει να είναι μικρότερη από την πραγματική τιμή
+Past date not allowed,Παρελθόν ημερομηνία δεν επιτρέπεται
+Quick simple product creation,Γρήγορη απλή δημιουργία των προϊόντων
+Create,Δημιουργώ
+Prices,Τιμές
+Meta Information,Meta πληροφορίες
+General Information,Γενικές πληροφορίες
+Allows your product's visibility on search or catalog page.,Επιτρέπει την προβολή του προϊόντος σας στην αναζήτηση ή κατάλογο της σελίδας.
+Maximum %d characters allowed.,Η μέγιστη% d χαρακτήρες επιτρέπονται.
+Date of product from which this product will be marked as new.,Ημερομηνία προϊόντος από την οποία το προϊόν αυτό θα πρέπει να επισημανθεί ως νέα.
+Date of product until which this product will be marked as new.,Ημερομηνία προϊόντος μέχρι την οποία το προϊόν αυτό θα πρέπει να επισημανθεί ως νέα.
+Category Mapping,Κατηγορία Χαρτογράφηση
+Associated Products,συναφή προϊόντα
+Create Simple Product,Δημιουργία Απλή προϊόντων
+Quick Create,Γρήγορη Δημιουργία
+Id,Ταυτότητα
+Sku,Κωδικός
+Product Name,όνομα προϊόντος
+Stock Status,Χρηματιστήριο Κατάσταση
+Select Attribute,Επιλέξτε Χαρακτηριστικό
+Attribute,Χαρακτηριστικό
+Price,Τιμή
+Default Qty,προεπιλογή Ποσότητα
+Samples,δείγματα
+Title,Τίτλος
+File,Αρχείο
+Sort Order,Σειρά ταξινόμησης
+Add New Row,Προσθήκη νέου Σειρά
+Links,Συνδέσεις
+Links can be purchased separately,Σύνδεσμοι μπορεί να αγοραστεί ξεχωριστά
+Max. Downloads,Μέγιστη. Λήψεις
+Shareable,κοινόχρηστο
+Sample,Δείγμα
+Unlimited,Απεριόριστος
+Url,url
+Inventory,Καταγραφή εμπορευμάτων
+Quantity,Ποσότητα
+Manage Stock,Διαχείριση Χρηματιστήριο
+"On enabling, stock will be managed automatically. For manual stock, select disable","Σχετικά με την ενεργοποίηση, το απόθεμα θα διαχειρίζεται αυτόματα. Για οδηγίες απόθεμα, επιλέξτε απενεργοποίηση"
+Qty Uses Decimal,Ποσότητα Χρησιμοποιεί δεκαδικό
+Stock Availability,Διαθεσιμότητα Χρηματιστήριο
+Shipment,Αποστολή
+Ship Bundle Items,Πλοίο Bundle Είδη
+Separately,Χωριστά
+Together,Μαζί
+Bundle Items Options,Πακέτο Προϊόντων Επιλογες
+Add New Option,Προσθήκη νέου επιλογή
+Default Title,προεπιλογή Τίτλος
+Delete Option,Διαγραφή Επιλογή
+Input Type,Τύπος Είσοδος
+Is Required,Απαιτείται
+Position,Θέση
+Add Selection,Προσθήκη επιλογής
+Price Type,Τύπος Τιμή
+User Defined Qty,Ορίζεται χρήστη Ποσότητα
+Default,Προκαθορισμένο
+Qty to Add,Ποσότητα για να προσθέσετε
+Add Selected Product(s) to Option,Προσθέστε το επιλεγμένο προϊόν (ες) με την επιλογή
+Images,εικόνες
+Image,Εικόνα
+Label,Επιγραφή
+Remove,Αφαιρώ
+File is not supported,Το αρχείο δεν υποστηρίζεται
+Upload New Image,Ανεβάστε New Image
+".jpeg, .jpg, .png, ,gif",".jpeg, .jpg, .png,, gif"
+No Image uploaded for this product,Δεν Αποστολή εικόνας για αυτό το προϊόν
+Browse,Ξεφυλλίζω
+Related Products,Σχετικά προϊόντα
+This attribute set does not have attributes which we can use for configurable product,Αυτό το σύνολο ιδιότητα δεν έχει χαρακτηριστικά τα οποία μπορούμε να χρησιμοποιήσουμε για να διαμορφωθεί το προϊόν
+Please select one or more attributes.,Επιλέξτε ένα ή περισσότερα χαρακτηριστικά.
+Sold By,Πουλήθηκε από
+Total %d review(s),Σύνολο% d κριτική (s)
+View Reviews,Προβολή Κριτικές
+Write Review,Γράψε κριτική
+File Size Exceeding the Limit.,Μέγεθος αρχείου υπερβαίνει το όριο.
+Max Upload Size: 200 KB,Max Ανεβάστε Μέγεθος: 200 KB
+Max Upload Size: 500 KB,Max Ανεβάστε Μέγεθος: 500 KB
+This key already assigned to another seller. Please fill another.,Αυτό το κλειδί έχει ήδη εκχωρηθεί σε άλλο πωλητή. Παρακαλούμε συμπληρώστε άλλο.
+My Seller Profile,Μου Πωλητής Προφίλ
+View Collection,Προβολή Συλλογή
+View Profile,Εμφάνιση προφίλ
+General,Γενικός
+Shop Title,Κατάστημα Τίτλος
+Contact Number,Αριθμός επαφής
+(Image Size: 150 X 150),(Μέγεθος Εικόνας: 150 Χ 150)
+Shop Logo,Κατάστημα Λογότυπο
+(Image Size: 1180 X 250),(Μέγεθος Εικόνας: 1180 Χ 250)
+Shop Banner,Κατάστημα Διαφήμιση
+Shop Address 1,Κατάστημα Διεύθυνση 1
+Shop Address 2,Κατάστημα Διεύθυνση 2
+City,Πόλη
+Pincode,Κωδικό PIN
+State,κατάσταση
+Country,Χώρα
+Description,Περιγραφή
+Please provide link of your facebook page,Παρακαλώ δώστε το σύνδεσμο της σελίδας σας στο Facebook
+Facebook Link (optional),Σύνδεσμος για το Facebook (προαιρετικό)
+For example:,Για παράδειγμα:
+or,ή
+Please provide link of your google plus profile,Παρακαλώ δώστε το σύνδεσμο της google σας καθώς και το προφίλ
+Google Plus Link (optional),Πλέον Σύνδεσμος Google (προαιρετικό)
+Please provide link of your twitter profile,Παρακαλώ δώστε το σύνδεσμο του προφίλ σας στο Twitter
+Twitter Link (optional),Twitter Σύνδεση (προαιρετικό)
+Meta Keywords,Meta Λέξεις-κλειδιά
+Meta Description,Meta Περιγραφή
+Example: my-selling-store,Παράδειγμα: μου-πωλήσεις-store
+Page Url Key,Σελίδα Url Κλειδί
+Policy,Πολιτική
+Return Policy,ΠΟΛΙΤΙΚΗ ΕΠΙΣΤΡΟΦΗΣ ΠΡΟΪΟΝΤΩΝ
+Shipping Policy,Ναυτιλιακή αποστολή
+Payout,πληρωμή
+Admin will use the Payout information to make the payment. Only one payment information can be saved at a time.,Διαχειριστής θα χρησιμοποιήσει τις πληροφορίες Πληρωμή να κάνετε την πληρωμή. Μόνο ένα στοιχεία πληρωμής μπορούν να αποθηκευτούν σε μια στιγμή.
+Select Payment Method,Επιλέξτε τη μέθοδο πληρωμής
+Seller,Πωλητής
+Register As Seller,Εγγραφή ως πωλητής
+My Reviews,Οι αξιολογήσεις μου
+Customer Review,αναθεώρηση πελατών
+Disapproval Reason,Αιτία απόρριψης
+Start Date,Ημερομηνία έναρξης
+End Date,Ημερομηνία λήξης
+Your comment to this vacation,Το σχόλιό σας σε αυτό το διακοπές
+Invalid format. Use: MM/dd/YYYY,Ακυρη μορφή. Χρήση: ΜΜ / ΗΗ / ΕΕΕΕ
+End date should be greater than start date,Η ημερομηνία λήξης θα πρέπει να είναι μεγαλύτερη από την ημερομηνία έναρξης
+End date should be future date,Η ημερομηνία λήξης πρέπει να είναι μελλοντική ημερομηνία
+My Vacations History,Διακοπές Ιστορία μου
+Set New Vacation,Ορισμός νέων διακοπές
+Vacation Interval,Διάστημα για διακοπές
+Is Active,Είναι ενεργό
+Vacation Halt Status,Αλτ διακοπές Κατάσταση
+Reason for canceling vacation,Αιτία για την ακύρωση διακοπές
+click to view product details,κάντε κλικ για να δείτε λεπτομέρειες του προϊόντος
+Sorry! No Product(s) Found.,Συγνώμη! Όχι Προϊόν (τα) βρέθηκαν.
+Please select a category for your request.,"Παρακαλώ, επιλέξτε κατηγορία για το αίτημά σας."
+Please provide reason for your request.,Παρακαλώ δώστε τον λόγο για το αίτημά σας.
+Request a New Category,Ζητήστε μια νέα κατηγορία
+Choose a Category,Επιλέξτε μια κατηγορία
+Select Category,Επιλέξτε Κατηγορία
+Maximum 500 characters allowed.,Μέγιστο 500 χαρακτήρες επιτρέπονται.
+Submit Category Request Form,Υποβολή Κατηγορία Αίτηση
+No categories are available for request.,Δεν κατηγορίες είναι διαθέσιμα για αιτήματος.
+Payout Request,Αίτηση Πληρωμής
+New Payout Request,Νέα Αίτηση Πληρωμής
+Request Reason,Αιτία Αίτηση
+Submit Payout Request Form,Υποβολή Πληρωμή Αίτηση
+Payout Details,Λεπτομέρειες Πληρωμών
+Requested On,Αιτήματα Από
+Your Comment For Request,Το σχόλιό σας για Αίτηση
+Only 200 characters allowed,Μόνο 200 χαρακτήρες επιτρέπονται
+"Only (xls, xlsx) formats are allowed","Μόνο επιτρέπεται (xls, xlsx) μορφές"
+Toggle navigation,Εναλλαγή πλοήγησης
+My Account,Ο λογαριασμός μου
+Logout,Αποσυνδέση
+Account Warning!,Ο λογαριασμός Προσοχή!
+Back To Site,Επιστροφή στο site
+Category Request Details,Λεπτομέρειες Κατηγορία Αίτηση
+Category Name,όνομα κατηγορίας
+Your request is in pending. Please wait for store response.,Το αίτημά σας βρίσκεται σε εκκρεμότητα. Περιμένετε για την απάντηση κατάστημα.
+This feature is not active into your account.,Η λειτουργία αυτή δεν είναι ενεργή στο λογαριασμό σας.
+To request this feature,Για να ζητήσετε αυτή τη λειτουργία
+Click,Κάντε κλικ
+Here,Εδώ
+Request To Activate Import/Export Feature,Αίτηση για την ενεργοποίηση Import / Export χαρακτηριστικό γνώρισμα
+Comment ,Σχόλιο
+Required Field. Maximum 200 characters allowed.,Υποχρεωτικό πεδίο. Μέγιστο 200 χαρακτήρες επιτρέπονται.
+Click to send request,Κάντε κλικ για να στείλετε το αίτημά
+Your file has some errors. Please import file after resolving errors.,Το αρχείο σας έχει κάποια λάθη. Παρακαλώ εισάγετε το αρχείο μετά την επίλυση σφαλμάτων.
+Click to download your file with errors,Κάντε κλικ για να κατεβάσετε το αρχείο σας με τα λάθη
+Download File with Errors,Κατεβάστε το αρχείο με σφάλματα
+Go Back,Πήγαινε πίσω
+Please do not go back or refresh page while uploading your products.,Παρακαλώ μην πάει πίσω ή να ανανεώσετε τη σελίδα κατά τη μεταφόρτωση των προϊόντων σας.
+It may causes errors in your catalog.,Μπορεί προκαλεί σφάλματα στον κατάλογό σας.
+Download Template,Λήψη Πρότυπο
+Select Product Type,Επιλέξτε τον τύπο του προϊόντος
+Product Attribute Set,Χαρακτηριστικό του προϊόντος Σετ
+Select Attribute Set,Επιλέξτε Set Χαρακτηριστικό
+Download Template File,Κατεβάστε το αρχείο προτύπου
+Please make sure that columns in your file must be matched with template file created for you on the basis of selected attribute.,Βεβαιωθείτε ότι οι στήλες στο αρχείο σας θα πρέπει να ταιριάζει με το αρχείο πρότυπο που δημιουργήθηκε για εσάς με βάση το επιλεγμένο χαρακτηριστικό.
+Import Products,Εισαγωγή Προϊόντα
+Import Action,Εισαγωγή Δράση
+Select Action,Επιλογή ενέργειας
+"Action will only be performed on the basis of SKU of products. Without sku, product will not be consider for any action.","Η δράση θα πρέπει να γίνεται μόνο με βάση τα SKU των προϊόντων. Χωρίς SKU, το προϊόν δεν θα πρέπει να εξετάσει για κάθε δράση."
+Upload File,Ανέβασμα αρχείου
+"Only (xls, xlsx) file will be accepted","Μόνο (xls, xlsx) του αρχείου θα γίνονται δεκτά"
+File must not exceed %s MB,Το αρχείο δεν πρέπει να υπερβαίνει το% s MB
+Browse File,Αναζήτηση αρχείου
+Validate File,Επικύρωση αρχείων
+File must no exceed %s MB,Το αρχείο δεν πρέπει να υπερβαίνει το% s MB
+Import/Export Instructions,Οδηγίες Εισαγωγής / Εξαγωγής
+Import,Εισαγωγή
+Export,Εξαγωγή
+Import Instructions,Οδηγίες εισαγωγής
+"Download Template as per your product type. At a time, only 1 type of products can be import.","Κατεβάστε το πρότυπο σύμφωνα με τον τύπο του προϊόντος σας. Σε μια εποχή, μόνο 1 είδος των προϊόντων μπορεί να είναι εισαγωγής."
+"If you import more than 1 type of products from one file, then system will be fail or affect your catalog.","Αν εισάγουμε περισσότερα από 1 είδος των προϊόντων που προέρχονται από ένα αρχείο, τότε το σύστημα θα αποτύχει ή να επηρεάσει τον κατάλογό σας."
+Each template will have '%s' worksheet. Your import file must have this worksheet as it is. Please do not change anything in its content.,Κάθε πρότυπο θα έχει «% s» φύλλο εργασίας. αρχείο εισαγωγής σας πρέπει να έχει αυτό το φύλλο εργασίας όπως είναι. Σας παρακαλούμε να μην αλλάξει τίποτα στο περιεχόμενό του.
+Each template will have '%s' worksheet. Please provide product data from possible values of corresponding field. If field has possible values.,Κάθε πρότυπο θα έχει «% s» φύλλο εργασίας. Παρακαλώ δώστε τα στοιχεία του προϊόντος από πιθανές τιμές του αντίστοιχου τομέα. Αν το πεδίο έχει πιθανές τιμές.
+"Only 'xls, xlsx' file having size less than %sMB will be acceptable.","Μόνο «xls, xlsx» αρχείο που έχει μέγεθος μικρότερο από% sMB θα είναι αποδεκτή."
+If you want to import using exported data then copy the general & image sheet of exported file into general & image sheet of the downloaded template file.,Αν θέλετε να εισαγάγετε τη χρήση εξάγονται τα δεδομένα στη συνέχεια να αντιγράψετε τη γενική & εικόνα φύλλο εξαγόμενο αρχείο σε γενικές & εικόνα φύλλο του αρχείο προτύπου.
+"Use (|) to seperate value in multivalue field like category_ids, related_products.","Χρησιμοποιήστε (|) να διαχωρίζει αξία πολλαπλών τιμών τομέα, όπως category_ids, related_products."
+Export Instructions,Οδηγίες εξαγωγή
+Select export type in export section.,Επιλέξτε τύπο εξαγωγής στο τμήμα εξαγωγών.
+"If the export type is Category, then system will export only assigned categories to you.","Αν ο τύπος των εξαγωγών είναι η κατηγορία, τότε το σύστημα θα εξάγει μόνο ανατεθεί κατηγορίες για εσάς."
+"In case of products, select product type and attributes set.","Στην περίπτωση των προϊόντων, επιλέξτε τον τύπο του προϊόντος και τα χαρακτηριστικά που."
+Exported data will be in xls/xlsx format.,Εξάγονται τα δεδομένα θα είναι σε xls format / XLSX.
+Export Type,Τύπος εξαγωγής
+Select Export Type,Επιλέξτε Εξαγωγή Τύπος
+Category Export,Κατηγορία Εξαγωγή
+Product Export,Εξαγωγή προϊόντων
+Product Status,Κατάσταση προϊόντος
+All,Ολα
+Disabled,άτομα με ειδικές ανάγκες
+Enabled,Ενεργοποιήθηκε
+In Stock,Σε απόθεμα
+Out of Stock,Δεν είναι διαθέσιμο
+Export Data,εξαγωγή δεδομένων
+This process will take few minutes.,Αυτή η διαδικασία θα διαρκέσει μερικά λεπτά.
+Please do not go back or refresh page while exporting your data.,Παρακαλώ μην πάει πίσω ή να ανανεώσετε τη σελίδα κατά την εξαγωγή των δεδομένων σας.
+Your are not eligible to use this feature as your account is either not approved or inactive.,Σας δεν είναι επιλέξιμες για να χρησιμοποιήσετε αυτήν τη δυνατότητα με το λογαριασμό σας είτε δεν έχουν εγκριθεί ή ανενεργό.
+"Currently, this feature is disabled by store.","Προς το παρόν, αυτή η λειτουργία είναι απενεργοποιημένη από κατάστημα."
+You cannot use this feature as required library is missing. Please contact to support.,"Δεν μπορείτε να χρησιμοποιήσετε αυτό το χαρακτηριστικό, όπως απαιτείται βιβλιοθήκης λείπει. Παρακαλούμε επικοινωνήστε με την υποστήριξη."
+Total Sale,Σύνολο Πώληση
+Total Earning,Σύνολο Κερδίζουν
+Transaction Details,Λεπτομέρειες Συναλλαγής
+My Earnings,Τα κέρδη μου
+Earnings History,Ιστορία Κέρδη
+Order Wise Earnings,Παραγγελία Wise κέρδη
+Transactions History,Ιστορία συναλλαγές
+Total Paid,Σύνολο επί πληρωμή
+Balance,Ισορροπία
+Quantity to Add,Ποσότητα Προσθήκη
+Low Stock Notification,Χαμηλή Κοινοποίηση Χρηματιστήριο
+Configuration,Διαμόρφωση
+Receive Low Stock Notifications,Λήψη σε περιορισμένο απόθεμα Ειδοποιήσεις
+Save Seller Level Configuration,Αποθήκευση Πωλητής Διαμόρφωση Επίπεδο
+facebook,Facebook
+twitter,κελάδημα
+google,google
+About Seller,Σχετικά με πωλητή
+Description not available.,Περιγραφή δεν είναι διαθέσιμη.
+Write your thought,Γράψτε τη σκέψη σας
+Summary of your review,Περίληψη της Αξιολόγησης σας
+Your Thought,Η σκέψη σου
+Your Name,Το όνομα σου
+Rate this seller,Βαθμολογήστε αυτό το πωλητή
+Submit Review,Υποβολή Αξιολόγησης
+Notify Customer by Email,Ειδοποίηση πελατών μέσω e-mail
+Visible on Storefront,Ορατό σε Storefront
+Submit Comment,Υποβάλετε σχόλιο
+Customer,Πελάτης
+Notified,Οι κοινοποιημένοι
+Not Notified,δεν κοινοποιημένοι
+Please provide comment,Παρακαλώ δώστε σχόλιο
+Product,Προϊόν
+Subtotal,ΜΕΡΙΚΟ ΣΥΝΟΛΟ
+Order Detail,Λεπτομέρειες παραγγελίας
+Click to download invoice.,Κάντε κλικ για να κατεβάσετε το τιμολόγιο.
+Download Invoice,Λήψη Τιμολόγιο
+Click to download shipping slip.,Κάντε κλικ για να κατεβάσετε τη ναυτιλία ολίσθησης.
+Download Shipping Slip,Λήψη αποστολής Slip
+Are you sure you want to send order email to customer?,Είστε σίγουροι ότι θέλετε να στείλετε e-mail για να πελάτη;
+Click to send email to customer,Κάντε κλικ για να στείλετε email στον πελάτη
+Send Email,Να στείλετε e-mail
+Click to create shipment,Κάντε κλικ για να δημιουργήσετε αποστολή
+Ship,Πλοίο
+Print,Τυπώνω
+Basic Informations,βασικές Πληροφορίες
+Order Status,Κατάσταση παραγγελίας
+Billing Address,διεύθυνση χρέωσης
+Shipping Address,Διεύθυνση αποστολής
+Ordered,Διέταξε
+Shipped,Αποστέλλεται
+Canceled,Ακυρώθηκε
+Refunded,επιστρέφεται
+Gift Message,Μήνυμα δώρο
+Excl. Tax,Χωρίς ΦΠΑ. Φόρος
+Total,Σύνολο
+Incl. Tax,Συμπ. Φόρος
+Total incl. tax,Σύνολο συμπ. φόρος
+Invoiced,τιμολογούνται
+Order Items,Παραγγελία Είδη
+Shipments,αποστολές
+Ship to Name,Ένα Καράβι για τη Όνομα
+Date Shipped,Ημερομηνία Αποστολής
+Total Qty,Συνολική Ποσότητα
+click to view detail,κάντε κλικ για να δείτε αναλυτικά
+Tax,Φόρος
+Items To Be Shipped,Στοιχεία που πρέπει να αποσταλεί
+Qty to Ship,Ποσότητα σε πλοίο
+Append Comments,Προσάρτηση Σχόλια
+Email Copy of Shipment,Email Αντίγραφο της Αποστολής
+Submit Shipment,Υποβολή αποστολή
+New Shipment,νέα αποστολή
+Back,Πίσω
+Shipment Tracking,Παρακολούθηση Αποστολής
+Carrier,Φορέας
+Tracking No.,Νούμερο ανίχνευσης.
+Action,Δράση
+Add Tracking Number,Προσθέστε την καταδίωξη του αριθμού
+Invalid value(s) for Qty to Ship,Μη έγκυρη τιμή (ες) Ποσότητα σε πλοίο
+Shipment Detail,Η αποστολή Λεπτομέρειες
+Are you sure you want to send Shipment email to customer?,Είστε σίγουροι ότι θέλετε να στείλετε e-mail αποστολή με πελάτη;
+Send Tracking Information,Αποστολή Παρακολούθησης Πληροφοριών
+Tracking Number,Αριθμός εντοπισμού
+Add,Προσθέτω
+Tracking title is required.,Παρακολούθηση του τίτλου απαιτείται.
+Tracking number is required.,Ο αριθμός καταδίωξης είναι απαραίτητη.
+Shipped Items,Αποστέλλεται Είδη
+Qty Shipped,ποσότητα αποσταλεί
+No Item Shipped Yet,"Δεν στοιχείο που στέλνεται Ωστόσο,"
+Reviews,Κριτικές
+Posted on:,Δημοσιεύτηκε στις:
+by ,με
+Sorry! No Reviews Found.,Συγνώμη! Δεν βρέθηκαν κριτικές.
+Write your review,Γράψτε την κριτική σας
+Sellers List,Λίστα πωλητές
+Search Seller,Αναζήτηση πωλητή
+Sorry! No Seller(s) Found.,Συγνώμη! Αριθ Πωλητή (ες) Βρέθηκε.
+General Contact,Γενική Επικοινωνία
+Customer Support,Υποστήριξη πελατών
+Sales Representative,Αντιπρόσωπος πωλήσεων
+Custom Email 1,Προσαρμοσμένη Email 1
+Custom Email 2,Προσαρμοσμένη ηλεκτρονικού ταχυδρομείου 2
+"Unable to write low stock files. Permission Error on ""var"" Directory.",Δεν είναι δυνατή η να γράψουν χαμηλή αρχεία αποθεμάτων. Άδεια σφάλματος στην Directory «var».
+Unable to write file for Seller ,Δεν είναι δυνατή η εγγραφή του αρχείου για πωλητή
+Product ID,ID προϊόντος
+Current Quantity,Τρέχουσα Ποσότητα
+Base Image,βάση εικόνας
+Small Image,Μικρή εικόνα
+Thumbnail,Ονυξ του αντίχειρος
+Disallowed file type.,Αρθεί τύπο αρχείου.
+Type of the product you have selected for this import template file.,Τύπος του προϊόντος που έχετε επιλέξει για αυτό το αρχείο προτύπου εισαγωγής.
+Attribute set you have selected for this product type in import template file.,Ιδιότητα που έχετε επιλέξει για αυτό το είδος του προϊόντος στο αρχείο προτύπου εισαγωγής.
+single pipe(|) seperated multiple categories,μονό σωλήνα (|) χωρίζονται πολλαπλές κατηγορίες
+single pipe(|) seperated product sku,μονό σωλήνα (|) χωρίζονται Κωδικός προϊόντος
+single pipe(|) seperated attributes,μονό σωλήνα (|) χωρίζονται χαρακτηριστικά
+pair of values seperated by single pipe(|),ζεύγος τιμών χωρίζονται από μονό σωλήνα (|)
+System will group your bundle item on the basis of this title. If two items has same title then they will be grouped in same bundle.,"Σύστημα θα ομίλου στοιχείο πακέτο σας με βάση αυτόν τον τίτλο. Αν δύο σημεία έχει τον ίδιο τίτλο, τότε θα ομαδοποιηθούν σε ίδιο πακέτο."
+Daily,Καθημερινά
+Weekly,Εβδομαδιαίος
+Monthly,Μηνιαίος
+Yearly,Ετήσια
+Waiting for Approval,Αναμονή για έγκριση
+Approved,Εγκρίθηκε
+Disapproved,Απορρίφθηκε
+Add new products,Προσθέστε νέα προϊόντα
+Update existing products,Ενημερώστε τα υπάρχοντα προϊόντα
+Add/update products,Προσθέστε προϊόντα / ενημέρωση
+Delete products,Διαγραφή προϊόντων
+Bank Wire,Τραπεζικό έμβασμα
+Payment By Cheque,Πληρωμή με επιταγή
+Paypal,Paypal
+Please provide the paypal email id.,Παρακαλώ δώστε το paypal ταυτότητα ηλεκτρονικού ταχυδρομείου.
+Paypal Email ID,Paypal ταυτότητα ηλεκτρονικού ταχυδρομείου
+Please provide additional information.,Παρακαλώ δώστε περισσότερες πληροφορίες.
+Additional Information,Επιπλέον πληροφορίες
+Please provide the name.,Παρακαλώ δώστε το όνομα.
+Pay to the order of (name),Πληρώστε με τη σειρά του (όνομα)
+Please provide the address.,Παρακαλώ δώστε την διεύθυνση.
+Address,Διεύθυνση
+Address where the cheque should be sent to.,Διεύθυνση όπου ο έλεγχος θα πρέπει να αποστέλλονται.
+Please provide account owner name,Παρακαλώ δώστε το όνομα του ιδιοκτήτη του λογαριασμού
+Account Owner,Ιδιοκτήτης λογαριασμού
+Please provide bankwire details,Παρακαλώ δώστε τραπεζικό έμβασμα λεπτομέρειες
+Details,Λεπτομέριες
+"Such as bank branch, IBAN number, BIC, etc.","Όπως το υποκατάστημα τράπεζας, αριθμό IBAN, BIC, κ.λπ."
+Please provide bankwire address.,Παρακαλώ δώστε τη διεύθυνση τραπεζικό έμβασμα.
+Bank Address,Διεύθυνση τράπεζας
+Requsted on: ,Requsted για:
+ by,με
+Amount: ,Ποσό:
+Payment Method: ,Μέθοδος πληρωμής:
+PayPal,PayPal
+PayPal ID: ,PayPal ID:
+Additional Information: ,Επιπλέον πληροφορίες:
+Bankwire,Τραπεζικό έμβασμα
+Owner Name: ,Ονομα ιδιοκτήτη:
+Details: ,Λεπτομέριες:
+Bank Address: ,Διεύθυνση τράπεζας:
+Cheque,Ελεγχος
+Address: ,Διεύθυνση:
+No balance amount is left for this seller.,Κανένα ποσό ισορροπία απομένει για αυτόν τον πωλητή.
+No order found for this seller. Transaction cannot be initiated.,Δεν βρέθηκε κανένα αυτόν τον πωλητή παραγγελία. δεν μπορεί να ξεκινήσει συναλλαγή.
+Paypal payout request failed.,αίτημα πληρωμής Paypal απέτυχε.
+Please enable paypal payout to make this transaction.,Παρακαλούμε ενεργοποιήστε τη paypal πληρωμή για να κάνουν αυτή τη συναλλαγή.
+Payout request does not exist.,αίτημα εκταμίευσης δεν υπάρχει.
+By System,Με σύστημα
+Manually,Μη αυτόματη
+Successfully,Επιτυχώς
+Credit,Πίστωση
+Debit,Χρέωση
+Unknown,Αγνωστος
+Invalid request,Ακυρη Αίτηση
+Export type is missing,Τύπος Εξαγωγή λείπει
+No product found as per your selected parameters.,Κανένα προϊόν που βρέθηκαν σύμφωνα με επιλεγμένες παραμέτρους σας.
+Unable to process request,Δεν είναι δυνατή η επεξεργασία του αιτήματός
+No category assigned to you.,Δεν κατηγορία που σας έχουν ανατεθεί.
+invalid request,Άκυρη Αίτηση
+Please select product parameters.,Παρακαλώ επιλέξτε τις παραμέτρους του προϊόντος.
+No products found to export.,Δεν βρέθηκαν προϊόντα για εξαγωγή.
+Vacation is successfully canceled.,Διακοπές με επιτυχία ακυρωθεί.
+New Vacation successfully created.,Νέα διακοπές δημιουργήθηκε με επιτυχία.
+Your products will be hidden automatically when the vacation starts.,Τα προϊόντα σας θα αποκρύπτονται αυτόματα κατά την εκκίνηση του διακοπές.
+Start Date or End Date cannot be less than today.,"Ημερομηνία έναρξης ή λήξης δεν μπορεί να είναι μικρότερη από ό, τι σήμερα."
+Start Date or End Date cannot be same.,Ημερομηνία έναρξης ή λήξης δεν μπορεί να είναι ίδια.
+Date range should not be in between of any previous active vacation.,Το εύρος ημερομηνιών δεν θα πρέπει να είναι μεταξύ οποιασδήποτε προηγούμενης δραστήριες διακοπές.
+Technical error occurred while validating new vacation.,Τεχνικό σφάλμα κατά την επικύρωση νέων διακοπές.
+The requested vacation's detail not found.,λεπτομέρεια του ζήτησε διακοπές δεν βρέθηκε.
+Marketplace - CRON,Marketplace - CRON
+Please enable the low stock notifications functionality first,Παρακαλούμε ενεργοποιήστε πρώτα την λειτουργία χαμηλής ειδοποιήσεις απόθεμα
+Please enable the marketplace module first,Παρακαλούμε ενεργοποιήστε πρώτα την ενότητα αγοράς
+Low Stock Notifications Cron Executed Successfully.,Σε περιορισμένο απόθεμα Ειδοποιήσεις Cron εκτελεστεί με επιτυχία.
+"There were some errors executing the low stock notifications cron, please check Log for more details.","Υπήρξαν κάποια λάθη εκτέλεση της χαμηλής ειδοποιήσεις απόθεμα cron, ελέγξτε καταγραφής για περισσότερες λεπτομέρειες."
+Please enable the seller vacation functionality first,Παρακαλούμε ενεργοποιήστε πρώτα την λειτουργικότητα πωλητή διακοπές
+Vacation Cron Executed Successfully.,Διακοπές Cron εκτελεστεί με επιτυχία.
+"There were some errors executing the vacation cron, please check Log for more details.","Υπήρξαν κάποια λάθη εκτέλεση του cron διακοπές, ελέγξτε καταγραφής για περισσότερες λεπτομέρειες."
+View Shipment,Δείτε την αποστολή
+Requested order details not Found.,Αιτήματα λεπτομέρειες της παραγγελίας δεν βρέθηκε.
+We can\'t save the shipment right now.,Μπορούμε να \ 't να σώσει την αποστολή τώρα.
+Shipment Document Validation Error(s):\n,Η αποστολή του εγγράφου επικύρωσης σφαλμάτων (s): \ n
+The shipment has been created.,Η αποστολή έχει δημιουργηθεί.
+You created the shipping label.,Δημιουργήσατε την ετικέτα αποστολής.
+An error occurred while creating shipping label.,Παρουσιάστηκε σφάλμα κατά τη δημιουργία ετικέτα αποστολής.
+Cannot save shipment.,δεν μπορεί να σώσει την αποστολή.
+Please enter a comment.,Παρακαλώ εισάγετε ένα σχόλιο.
+Comment has been added for this shipment.,Σχόλιο έχει προστεθεί για αυτή την αποστολή.
+Cannot add new comment.,Δεν είναι δυνατή η προσθήκη σχολίου.
+You sent the shipment.,Στείλατε την αποστολή.
+Cannot send shipment information.,Δεν μπορείτε να στείλετε πληροφορίες αποστολής.
+Please specify a carrier.,Παρακαλείστε να αναφέρετε ένα φορέα.
+Please enter a tracking number.,Παρακαλώ εισάγετε έναν αριθμό καταδίωξης.
+Tracking number successfully updated into this shipment.,Ο αριθμός καταδίωξης ενημερώθηκε με επιτυχία σε αυτή την αποστολή.
+We can\'t initialize shipment for adding tracking number.,Μπορούμε να \ 't προετοιμάσει την αποστολή για την προσθήκη αριθμό παρακολούθησης.
+Cannot add tracking number.,Δεν μπορείτε να προσθέσετε τον αριθμό καταδίωξης.
+Tracking number successfully deleted from this shipment.,Ο αριθμός καταδίωξης διαγράφηκε με επιτυχία από αυτή την αποστολή.
+We can\'t initialize shipment for delete tracking number.,Μπορούμε να \ 't προετοιμάσει την αποστολή για διαγραφή αριθμό καταδίωξης.
+We can\'t delete tracking number.,Μπορούμε να \ 't να διαγράψετε τον αριθμό καταδίωξης.
+We can\'t load track with retrieving identifier right now.,Μπορούμε να \ 't κομμάτι του φορτίου με την ανάκτηση αναγνωριστικό αυτή τη στιγμή.
+Quanity updated successfully.,Quanity ενημερώθηκε με επιτυχία.
+Low Stock,Σε περιορισμένο απόθεμα
+Configuration Saved Successfully.,Διαμόρφωση αποθηκεύτηκε με επιτυχία.
+Seller's Products - Reviews,Προϊόντα πωλητή - Κριτικές
+Pending,εκκρεμής
+Not Approved,Δεν εγκρινεται
+Seller's Account-Orders,Ο λογαριασμός-Παραγγελίες πωλητή
+Seller OrderView,Πωλητής OrderView
+You sent the order email.,Στείλατε το μήνυμα ηλεκτρονικού ταχυδρομείου σειρά.
+We can\'t send the email order right now.,Μπορούμε να \ 't να στείλετε την παραγγελία e-mail τώρα.
+This order no longer exists.,Αυτή η σειρά δεν υπάρχει πια.
+There are no shipping documents related to this order.,Δεν υπάρχουν έγγραφα αποστολής που σχετίζονται με αυτή τη σειρά.
+Print Order,Print Order
+There are no invoice documents related to this order.,Δεν υπάρχουν έγγραφα τιμολόγιο που σχετίζονται με αυτή τη σειρά.
+Seller List,Λίστα πωλητή
+Knowband,Knowband
+Marketplace,Αγορά
+Email Template Updated successfully.,Πρότυπο Email Ενημερώθηκε με επιτυχία.
+Best Selling Products,Best Selling Προϊόντα
+ Seller(s) Disabled Successfully,Ο πωλητής (ες) απενεργοποιήθηκε με επιτυχία
+Invalid Request,Άκυρη Αίτηση
+Status changed successfully,Κατάσταση άλλαξε με επιτυχία
+Activated,Ενεργός
+Deactivated,Απενεργοποιημένο
+Cannot update,Δεν είναι δυνατή η ενημέρωση
+Cannot load object,Δεν είναι δυνατή η φόρτωση αντικειμένων
+Seller Approved Successfully,Πωλητής Εγκρίθηκε με επιτυχία
+Email Templates,Πρότυπα email
+Sellers Payout Request,Αίτημα Πωλητές Πληρωμή
+Product Approval Request,Αίτηση Έγκρισης Προϊόντος
+Technical error occurred while canceling vacation.,Τεχνικό σφάλμα κατά την ακύρωση των διακοπών.
+Seller Reviews,Κριτικές Πωλητής
+%s by %s,% S κατά% s
+The requested seller's review detail not found.,λεπτομέρεια αναθεώρηση του ζήτησε πωλητή δεν βρέθηκε.
+Import/Export Feature Request List,Λίστα Χαρακτηριστικών Αίτηση / Export Import
+Settings saved successfully.,Οι ρυθμίσεις αποθηκεύτηκαν με επιτυχία.
+Seller Account Approval Request,Ο πωλητής λογαριασμού Έγκριση
+Seller Vacation List,Λίστα διακοπές πωλητή
+Transaction detail successfully saved.,λεπτομέρεια συναλλαγή αποθηκεύτηκε με επιτυχία.
+Some error occured. Please try again.,Μερικά σφάλμα. ΠΑΡΑΚΑΛΩ προσπαθησε ξανα.
+Total of %d record(s) have been updated.,Σύνολο% d εγγραφή (ες) έχουν ενημερωθεί.
+ Seller(s) Disapproved Successfully,Ο πωλητής (ες) Απορρίφθηκε Επιτυχής
+Seller Product List,Πωλητής Λίστα Προϊόντων
+Review has been approved successfully.,Επανεξέταση έχει εγκριθεί με επιτυχία.
+Technical Error Occured - Not able to update.,Τεχνικό Σφάλμα εμφανιστεί.Να - Δεν είναι σε θέση να ενημερώσετε.
+Review has been disapproved successfully.,Επανεξέταση έχει απορριφθεί με επιτυχία.
+Seller review has been deleted.,επανεξέταση πωλητής έχει διαγραφεί.
+Technical error occurred while processing category request.,Τεχνικό σφάλμα κατά την επεξεργασία του αιτήματός της κατηγορίας.
+Seller account has not been approved yet. Please approve the seller account first.,λογαριασμού πωλητής δεν έχει εγκριθεί ακόμη. Παρακαλείστε να εγκρίνει το λογαριασμό πωλητή πρώτο.
+ record(s) have been updated.,εγγραφή (ες) έχουν ενημερωθεί.
+Product has been approved successfully.,Το προϊόν έχει εγκριθεί με επιτυχία.
+ Seller(s) Approved Successfully,Ο πωλητής (ες) Εγκρίθηκε με επιτυχία
+Approval updated successfully,Έγκριση ενημερώθηκε με επιτυχία
+Seller Review Approval Request,Ο πωλητής Αίτημα για αναθεώρηση Έγκριση
+PayPal Payout settings has been saved successfully.,Ρυθμίσεις πληρωμής PayPal έχει αποθηκευτεί με επιτυχία.
+Category Wise Commissions,Κατηγορία Wise Προμήθειες
+CRON Instructions,Οδηγίες CRON
+Seller List with Import/Export Feature,Ο πωλητής Λίστα με Import / Export χαρακτηριστικό γνώρισμα
+Product Reviews,Κριτικές προϊόντων
+Seller Disapproved Successfully,Πωλητής Απορρίφθηκε επιτυχία
+Category Request List,Λίστα Αίτηση Κατηγορία
+Commissions,προμήθειες
+Total of %d record(s) have been deleted.,Σύνολο% d εγγραφή (ες) έχουν διαγραφεί.
+ Seller(s) Enabled Successfully,Ο πωλητής (ες) Ενεργοποιήθηκε με επιτυχία
+Sellers Payout,Πωλητές Πληρωμή
+"Some of the products are not enabled, because either these products or their sellers are not approved/disabled.","Μερικά από τα προϊόντα που δεν είναι ενεργοποιημένα, επειδή είτε τα προϊόντα αυτά ή τους πωλητές τους δεν έχουν εγκριθεί / άτομα με ειδικές ανάγκες."
+Some of the processed products have no SKU value defined. Please fill it prior to performing operations on these products.,Μερικά από τα μεταποιημένα προϊόντα που δεν έχουν καμία αξία Κωδικός προϊόντος ορίζεται. Παρακαλούμε συμπληρώστε το πριν από την εκτέλεση εργασιών σε αυτά τα προϊόντα.
+Payout request status has been updated successfully.,κατάσταση αίτημα Πληρωμή έχει ενημερωθεί με επιτυχία.
+Invalid Request.,Ακυρη Αίτηση.
+Seller Wise Commissions,Πωλητής Wise Προμήθειες
+Seller Dashboard,Πωλητής ταμπλό
+Your request has been sent. Please wait for store response.,Το αίτημά σας έχει σταλεί. Περιμένετε για την απάντηση κατάστημα.
+Cannot send request,Δεν είναι δυνατή η αποστολή αιτήματος
+Product Import/Export,Εισαγωγή Προϊόντος / Export
+Seller Profile,Προφίλ πωλητή
+Seller Profile saved successfully.,Ο πωλητής προφίλ αποθηκεύτηκε με επιτυχία.
+Not Available,Μη διαθέσιμος
+Your payout request has been submitted successfully.,αίτηση πληρωμής σας υποβλήθηκε με επιτυχία.
+Please configure payout method in the seller profile menu.,Παρακαλείστε να ρυθμίσετε τη μέθοδο πληρωμής στο μενού προφίλ του πωλητή.
+Seller's Account - Payout Requests,Αιτήσεις Πληρωμής - Λογαριασμός πωλητή
+Error Occured,Παρουσιάστηκε σφάλμα
+Thank you for rating the Seller.,Σας ευχαριστούμε για τη βαθμολογία του πωλητή.
+Posting review for this seller is not allowed.,επανεξέτασης απόσπασης για τον ίδιο δεν επιτρέπεται.
+Seller Account - My Reviews,Πωλητής Ο λογαριασμός - Κριτικές μου
+"You can't register yourself as seller because your registration request limit has been over. To register, please contact to support.","Δεν μπορείτε να εγγραφείτε ως πωλητής, επειδή το όριο αίτηση εγγραφής σας έχει τελειώσει. Για να εγγραφείτε, παρακαλούμε επικοινωνήστε με την υποστήριξη."
+Seller's Account - Earnings,Ο λογαριασμός πωλητή - Κέρδη
+Seller's Account - Transactions History,Ιστορία Συναλλαγές - Ο λογαριασμός πωλητή
+File Path is Missing,Διαδρομή αρχείο λείπει
+Unknown file,άγνωστο αρχείο
+General worksheet is missing.,Γενικά φύλλο λείπει.
+Column title row is missing from general worksheet.,Στήλη γραμμή τίτλου λείπει από τη γενική φύλλο εργασίας.
+Column '%s' is missing from general worksheet.,Στήλη «% s» λείπει από τη γενική φύλλο εργασίας.
+File is empty.,Το αρχείο είναι άδειο.
+Error in processing '%s' sku before deleting.,Σφάλμα κατά την επεξεργασία «% s» Κωδικός προϊόντος πριν από τη διαγραφή.
+Listed products are not deleted:,Εισηγμένες προϊόντα δεν διαγράφονται:
+"Upload your file and try again. To speed up delete process, please remove all products that has been deleted.","Ανεβάστε το αρχείο σας και δοκιμάστε ξανά. Για να επιταχυνθεί η διαγραφή διαδικασία, παρακαλούμε να αφαιρέσετε όλα τα προϊόντα που έχει διαγραφεί."
+Your products has been deleted. System will redirect you on product list automatically in 5 secs.,Τα προϊόντα σας έχει διαγραφεί. Το σύστημα θα σας ανακατευθύνει στη λίστα προϊόντων αυτόματα σε 5 δευτερόλεπτα.
+Import action is Missing,δράση εισαγωγή Λείπει
+Meta Information worksheet is missing,Meta πληροφορίες φύλλο εργασίας που λείπει
+File must not exceed ,Το αρχείο δεν πρέπει να υπερβαίνει
+This sku does not exist,Αυτό SKU δεν υπάρχει
+Product of this SKU is not yours.,Προϊόν αυτής της SKU δεν είναι δική σας.
+This row has error,Αυτή η σειρά έχει σφάλμα
+Meta Information Sheet is Missing,Meta Φύλλο πληροφοριών είναι χαμένος
+Error in processing data of '%s' sku.,Σφάλμα κατά την επεξεργασία δεδομένων του «% s» Κωδικός προϊόντος.
+Listed products are not saved:,Εισηγμένες προϊόντα δεν αποθηκεύονται:
+"Upload your file and try again. To speed up process, please remove all other product data that has been saved successfully.","Ανεβάστε το αρχείο σας και δοκιμάστε ξανά. Για να επιταχυνθεί η διαδικασία, παρακαλούμε να αφαιρέσετε όλα τα άλλα στοιχεία του προϊόντος που έχει αποθηκευτεί με επιτυχία."
+Your products has been uploaded. System will redirect you on product list automatically in 5 secs.,Τα προϊόντα σας έχει φορτωθεί. Το σύστημα θα σας ανακατευθύνει στη λίστα προϊόντων αυτόματα σε 5 δευτερόλεπτα.
+Error while processing rows in uploaded file.,Σφάλμα κατά την επεξεργασία γραμμές στο αρχείο.
+Error: %s,Σφάλμα:% s
+Product Type is missing from Meta Sheet Worksheet,Τύπος προϊόντος λείπει από το Meta Φύλλο Φύλλο εργασίας
+Product Type is invalid in Meta Sheet Worksheet,Τύπος προϊόντος δεν είναι έγκυρο στο Meta Φύλλο Φύλλο εργασίας
+Attribute set id is missing from Meta Sheet Worksheet,Χαρακτηριστικό σύνολο id λείπει από το Meta Φύλλο Φύλλο εργασίας
+Attribute set id is not valid in Meta Sheet Worksheet,Χαρακτηριστικό σύνολο id δεν ισχύει σε Meta Φύλλο Φύλλο εργασίας
+This SKU is already used by other product of you or other seller.,Αυτό SKU χρησιμοποιείται ήδη από άλλο προϊόν από εσάς ή άλλο πωλητή.
+This SKU is used by other seller or store.,Αυτό Κωδικός προϊόντος χρησιμοποιείται από άλλο πωλητή ή κατάστημα.
+This value is required,Απαιτείται Αυτή η τιμή
+Invalid Value. Only date format value is accepted.,Μη έγκυρη τιμή. Μόνο τιμή μορφή ημερομηνίας είναι αποδεκτή.
+Invalid Value. Only Price type value accepted,Μη έγκυρη τιμή. Μόνο τιμή τύπου τιμή αποδεκτή
+Invalid Value. Only positive number type value accepted,Μη έγκυρη τιμή. Μόνο τιμή τύπου θετικό αριθμό δεκτή
+Out of range value. Please see possible value for this field.,Από αξίας φάσμα. Παρακαλώ δείτε δυνατή τιμή για το συγκεκριμένο πεδίο.
+Some of the values are not exist.,Μερικές από τις τιμές δεν υπάρχουν.
+Your request has been sent to the admin for approval.,Το αίτημά σας έχει σταλεί στο διαχειριστή για έγκριση.
+Seller's Account - Request a New Category,Ο λογαριασμός πωλητή - Ζητήστε μια νέα κατηγορία
+Attribute set is missing,σύνολο Χαρακτηριστικό λείπει
+Attribute set cannot load,σύνολο Χαρακτηριστικό δεν μπορεί να φορτώσει
+1. This worksheet is required and must be included in your import file,1. Το φύλλο εργασίας είναι απαραίτητη και πρέπει να περιλαμβάνονται στο αρχείο εισαγωγής
+2. Do not change worksheet name as well as its content.,2. Μην αλλάζετε φύλλο όνομα καθώς και το περιεχόμενό της.
+3. Any change in this worksheet format will not allow system to import your data into system.,3. Οποιαδήποτε αλλαγή σε αυτή τη μορφή φύλλου εργασίας δεν θα επιτρέψει το σύστημα να εισάγει τα δεδομένα σας στο σύστημα.
+4. We recommend you to copy this worksheet in your import file with same worksheet name.,4. Σας συνιστούμε να αντιγράψετε αυτό το φύλλο εργασίας στο αρχείο εισαγωγής με το ίδιο όνομα του φύλλου εργασίας.
+1. This worksheet contains possible values of some field.,1. Αυτό το φύλλο εργασίας περιέχει πιθανές τιμές κάποιου πεδίου.
+2. Please fill the related fields only from these possible values.,2. Συμπληρώστε τα σχετικά πεδία μόνο από αυτές τις πιθανές τιμές.
+3. If possible values for any field are not given then you can fill it with any text value.,"3. Αν είναι δυνατόν τιμές για κάθε τομέα δεν είναι δεδομένη, τότε μπορείτε να το γεμίσετε με οποιαδήποτε τιμή κειμένου."
+Seller's Products,Προϊόντα πωλητή
+The product has been saved.,Το προϊόν έχει αποθηκευτεί.
+This window will be closed automatically within %s secs.,Αυτό το παράθυρο θα κλείσει αυτόματα μέσα σε% s δευτερόλεπτα.
+Product has been saved successfully.,Το προϊόν έχει αποθηκευτεί με επιτυχία.
+The product has been duplicated successfully.,Το προϊόν έχει αντιγραφεί με επιτυχία.
+Product has been created successfully.,Το προϊόν έχει δημιουργηθεί με επιτυχία.
+Please wait for admin approval.,Παρακαλώ περιμένετε για την έγκριση του διαχειριστή.
+"Adding of new product limit has been over as your account is not approved or waiting for approval. To add more products, your account needs to be approved.","Η προσθήκη του νέου ορίου προϊόν έχει αναλάβει ως ο λογαριασμός σας δεν έχει εγκριθεί ή σε αναμονή για έγκριση. Για να προσθέσετε περισσότερα προϊόντα, ο λογαριασμός σας θα πρέπει να εγκριθεί."
+You duplicated the product.,Μπορείτε αντιγραφεί το προϊόν.
+Seller's Product,Πωλητή του προϊόντος
+This SKU already exist.,Αυτό Κωδικός ήδη υπάρχουν.
+Cancel Vacation,Ακύρωση διακοπές
+Add New Vacation,Προσθήκη νέου διακοπών
+Vacation Halted,Διακόπηκε για διακοπές
+Created Date,δημιουργήθηκε Ημερομηνία
+This vacation is already canceled,Αυτό διακοπών έχει ήδη ακυρωθεί
+Visibility,Ορατότητα
+click to edit product,κάντε κλικ για να επεξεργαστείτε το προϊόν
+click to update quantity,κάντε κλικ για να ενημερώσετε την ποσότητα
+Update Quantity,Ενημέρωση Ποσότητα
+Order No.,Αριθμός παραγγελίας.
+From Date,Από την ημερομηνία
+To Date,Μέχρι σήμερα
+click to print order,κάντε κλικ για να εκτυπώσετε τάξης
+Shipping & Handling,Ναυτιλία & χειρισμός
+Discount (%1),Έκπτωση (% 1)
+Discount,Εκπτωση
+Grand Total,Σύνολο
+Grand Total to be Charged,Γενικό σύνολο που χρεώνεται
+Custom Value,Προσαρμοσμένη τιμή
+Order # %1,Παραγγελία #% 1
+Comment History,Ιστορία σχόλιο
+Shipment History,Ιστορία αποστολή
+Credit Memo History,Ιστορία Credit Memo
+Subtotal (Excl.Tax),Μερικό σύνολο (Excl.Tax)
+Subtotal (Incl.Tax),Μερικό σύνολο (Incl.Tax)
+Shipping & Handling (Excl.Tax),Ναυτιλία & χειρισμός (Excl.Tax)
+Shipping & Handling (Incl.Tax),Ναυτιλία & χειρισμός (Incl.Tax)
+Grand Total (Excl.Tax),Γενικό Σύνολο (Excl.Tax)
+Grand Total (Incl.Tax),Γενικό Σύνολο (Incl.Tax)
+Email,ΗΛΕΚΤΡΟΝΙΚΗ ΔΙΕΥΘΥΝΣΗ
+Shipping Charges,Εξοδα ΑΠΟΣΤΟΛΗΣ
+Track this shipment,Παρακολούθηση αυτού του αποστολή
+Track Order,Παρακολούθηση παραγγελίας
+Shipping Method,Μέθοδος αποστολής
+Shipping not Required,Αποστολές Δεν απαιτείται
+Payment Method,Μέθοδος πληρωμής
+Grand Total (Excl. Shipping),Γενικό Σύνολο (χωρίς. Ναυτιλίας)
+Discount (%s),Έκπτωση (% s)
+Total Refunded,Σύνολο επιστροφή χρημάτων
+Total Due,Σύνολο Χάρη
+Shipping & Handling (Excl. Tax),Ναυτιλία & χειρισμός (χωρίς ΦΠΑ. Φόρος)
+Shipping & Handling (Incl. Tax),Ναυτιλία & χειρισμός (συμπ. Φόρος)
+Print Order # %1,Print Order #% 1
+Minimum %d character requried,Ελάχιστο% d χαρακτήρα χρόνος πτώσεως
+Save Template,Αποθήκευση προτύπου
+Show Report,Εμφάνιση Έκθεση
+Manage Seller Account,Διαχείριση λογαριασμού πωλητή
+Add Subcategory,Προσθήκη Υποκατηγορία
+Add Root Category,Προσθήκη Root Κατηγορία
+Save Settings,Αποθηκεύσετε τις ρυθμίσεις
+Seller Payout Request,Αίτημα Πωλητής Πληρωμή
+ID,ταυτότητα
+Transation Date,Βάμβα Ημερομηνία
+Telephone,Τηλέφωνο
+Commission (in %),Επιτροπή (σε%)
+Your Earnings,Τα κέρδη σας
+Category wise Commissions,Κατηγορία σοφός Προμήθειες
+Total Commission,Συνολικά Επιτροπή
+Transaction History,Ιστορικό συναλλαγών
+Seller wise Commissions,Πωλητής σοφός Προμήθειες
+Seller Earning,Πωλητής Κερδίζουν
+Amount Transfer,ποσό μεταφοράς
+Transaction Action,Δράση συναλλαγών
+Sellers Payout (,Πωλητές Πληρωμή (
+Seller Order List,Πωλητής Παραγγελία Λίστα
+Purchased From (Store),Αγοράστηκε από (Store)
+Purchased On,αγοράζονται με
+Actions,Ενέργειες
+Template Description,πρότυπο Περιγραφή
+Template Type,πρότυπο Τύπος
+Date Added,Ημερομηνία προστέθηκε
+Date Updated,ημερομηνία ενημερώθηκε
+Seller Best Selling Product List,Ο πωλητής Λίστα Best Selling προϊόντων
+Interval,Διάστημα
+Order Quantity,Ποσότητα Παραγγελίας
+Product Price,Τιμή προϊόντος
+Seller Account Approval Request List,Ο πωλητής Λίστα Αίτηση Λογαριασμού Έγκριση
+Approved Status,Εγκρίθηκε Κατάσταση
+Added Date,Προστέθηκε Ημερομηνία
+Approve,Εγκρίνω
+Account Status,Κατάσταση Λογαριασμού
+Seller Status,Πωλητής Κατάσταση
+Seller Since,Πωλητής Από
+Posted On,Δημοσιεύτηκε στις
+Request Date,Ημερομηνία Αίτησης
+Vacation Active,διακοπές Active
+Seller Review Approval List,Ο πωλητής Λίστα κριτική Έγκριση
+Seller Approval List,Λίστα Έγκριση πωλητή
+Seller Product Reviews,Κριτικές Πωλητής Προϊόντων
+Created On,Δημιουργήθηκε στο
+Nickname,Παρατσούκλι
+Visible In,ορατό Σε
+Type,Τύπος
+Product SKU,Κωδικός Προϊόντος
+Edit,Επεξεργασία
+Seller Category Request List,Ο πωλητής Λίστα Αίτηση Κατηγορία
+Seller Email,Ο πωλητής email
+View,Θέα
+Disapprove,Αποδοκιμάζω
+Make New,Κάντε Νέα
+Edit Template,Επεξεργασία προτύπου
+Products,Προϊόντα
+Administrator,Διαχειριστής
+Guest,Επισκέπτης
+Seller Bulkimport Feature List,Ο πωλητής Bulkimport Λίστα Χαρακτηριστικών
+Last Update,Τελευταία ενημέρωση
+Feature Status,χαρακτηριστικό Κατάσταση
+Seller Bulkimport Feature Request List,Ο πωλητής Bulkimport Λίστα Χαρακτηριστικών Αίτηση
+Seller Comment,Πωλητής σχόλιο
+Your Comment,Το σχόλιό σου
+Request Status,Κατάσταση Αίτηση
+Activate Feature,Ενεργοποίηση δυνατότητας
+Read More,Διαβάστε περισσότερα
+click to view review,κάντε κλικ για να δείτε αναθεώρηση
+Posted on: %s by %s,Καταχωρήθηκε στις:% s από% s
+Home,Σπίτι
+Home Page,Αρχική Σελίδα
+click to view product,κάντε κλικ για να δείτε το προϊόν
+Your seller account is currently under process and not yet approved. You only have a limited access to the seller account currently.,λογαριασμό πωλητή σας είναι υπό επεξεργασία και δεν έχουν ακόμη εγκριθεί. Έχετε μόνο μια περιορισμένη πρόσβαση στο λογαριασμό πωλητή στιγμή.
+Your seller account has been disapproved. You only have a limited access to the seller account currently. To send request again ,λογαριασμό πωλητή σας απορρίφθηκε. Έχετε μόνο μια περιορισμένη πρόσβαση στο λογαριασμό πωλητή στιγμή. Για να στείλετε ξανά το αίτημα
+Click Here,Κάντε κλικ ΕΔΩ
+Product Catalog,Κατάλογος προϊόντων
+Product Feedback,Σχόλια προϊόντος
+Earnings,Κέρδη
+Transactions,συναλλαγές
+New Category Request,Νέα κατηγορία Αίτηση
+My Vacations,Διακοπές μου
+Requested Date,Αιτήματα Ημερομηνία
+Request On,Αίτηση On
+Date,Ημερομηνία
+Transaction Date,Ημερομηνία Συναλλαγής
+Amount of %s debited from your earning on %s,Ποσό% s χρεώνονται από τα κέρδη σας στο% s
+Amount of %s credited into your account on %s,Ποσό% s πιστωθεί στο λογαριασμό σας στο% s
+Report Format,Έκθεση Μορφή
+Your file is valid. Please click 'Delete Products' button to delete your products,Το αρχείο σας είναι έγκυρο. Παρακαλώ κάντε κλικ στο «Διαγραφή Προϊόντα» κουμπί για να διαγράψετε τα προϊόντα σας
+Your file is valid. Please click 'Import Products' button to upload your products,Το αρχείο σας είναι έγκυρο. Παρακαλώ κάντε κλικ στο κουμπί «Εισαγωγή Προϊόντα» να φορτώσετε τα προϊόντα σας
+Delete Products,Διαγραφή Προϊόντα
+"Adding of new product limit has been over as your account is not approved or waiting for approval. To add more products, your account need to be approved.","Η προσθήκη του νέου ορίου προϊόν έχει αναλάβει ως ο λογαριασμός σας δεν έχει εγκριθεί ή σε αναμονή για έγκριση. Για να προσθέσετε περισσότερα προϊόντα, πρέπει να εγκριθεί ο λογαριασμός σας."
+Use Default Value,Χρήση προεπιλεγμένης τιμής
+Seller Account,Ο λογαριασμός πωλητή
+General Settings,Γενικές Ρυθμίσεις
+Seller List,Λίστα πωλητή
+Seller Account Approval Request,Ο πωλητής λογαριασμού Έγκριση
+Seller Product List,Πωλητής Λίστα Προϊόντων
+Product Approval Request,Αίτηση Έγκρισης Προϊόντος
+Product Reviews,Κριτικές προϊόντων
+Seller Reviews,Κριτικές Πωλητής
+Seller Review Approval Request,Ο πωλητής Αίτημα για αναθεώρηση Έγκριση
+Category Request List,Λίστα Αίτηση Κατηγορία
+Seller Vacation List,Λίστα διακοπές πωλητή
+Reports - Best Selling Products,Εκθέσεις - Best Selling Προϊόντα
+Email Templates,Πρότυπα email
+CRON Instructions,Οδηγίες CRON
+Bulk Import/Export,Μαζική Εισαγωγή / Εξαγωγή
+Seller With Feature,Πωλητής με το χαρακτηριστικό γνώρισμα
+Feature Activation Request,Αίτημα χαρακτηριστικό ενεργοποίησης
+Transactions and Earnings,Συναλλαγές και κέρδη
+Commissions,προμήθειες
+Category Wise Commissions,Κατηγορία Wise Προμήθειες
+Seller Wise Commissions,Πωλητής Wise Προμήθειες
+Sellers Payout List,Πωλητές Λίστα Πληρωμών
+Sellers Payout Request,Αίτημα Πωλητές Πληρωμή
+PayPal Payout Settings,Ρυθμίσεις πληρωμών PayPal
+Best Selling Products,Best Selling Προϊόντα
+Seller with Import/Export Feature,Πωλητής με Import / Export χαρακτηριστικό γνώρισμα
+Import/Export Feature Activation Request List,/ Εξαγωγή Χαρακτηριστικό Λίστα Αίτηση Ενεργοποίησης Εισαγωγή
+Category Wise Commission,Κατηγορία Wise Επιτροπή
+Category Request List,Λίστα Αίτηση Κατηγορία
+Edit Email Template,Επεξεργασία προτύπου Email
+Email Templates,Πρότυπα email
+Seller Order List,Πωλητής Παραγγελία Λίστα
+PayPal Payout Settings,Ρυθμίσεις πληρωμών PayPal
+Product Approval Request,Αίτηση Έγκρισης Προϊόντος
+All Seller's Products - Reviews,Όλα προϊόντα του πωλητή - Κριτικές
+Seller Account Approval Request,Ο πωλητής λογαριασμού Έγκριση
+Seller Wise Commission,Πωλητής Wise Επιτροπή
+Seller List,Λίστα πωλητή
+Seller Product List,Πωλητής Λίστα Προϊόντων
+Seller Review Approval Request,Ο πωλητής Αίτημα για αναθεώρηση Έγκριση
+All Seller's Reviews,Κριτικές Όλα πωλητή
+Seller Vacation List,Λίστα διακοπές πωλητή
+Commissions,προμήθειες
+Sellers Payout,Πωλητές Πληρωμή
+Sellers Payout Request,Αίτημα Πωλητές Πληρωμή
+View Sellers,Δείτε πωλητές
+Start date or end date can not be same,Ημερομηνία έναρξης και ημερομηνία λήξης δεν μπορεί να είναι ίδια

@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Acl/etc/acl.xsd">
+	<acl>
+	    <resources>
+	        <resource id="Magento_Backend::admin">
+                    <resource id="Knowband_Marketplace::marketplace" title="Knowband" sortOrder="10">
+                        <resource id="Knowband_Marketplace::backend_option" title="Marketplace" sortOrder="11">
+                            <resource id="Knowband_Marketplace::general_settings" title="General Settings" sortOrder="11"/>
+                            <resource id="Knowband_Marketplace::seller_list" title="Seller List" sortOrder="11"/>
+                            <resource id="Knowband_Marketplace::seller_account_approval" title="Seller Account Approval Request" sortOrder="11"/>
+                            <resource id="Knowband_Marketplace::seller_product_list" title="Seller Product List" sortOrder="11"/>
+                            <resource id="Knowband_Marketplace::product_approval" title="Product Approval Request" sortOrder="11"/>
+                            <resource id="Knowband_Marketplace::product_reviews" title="Product Reviews" sortOrder="11"/>
+                            <resource id="Knowband_Marketplace::seller_reviews" title="Seller Reviews" sortOrder="11"/>
+                            <resource id="Knowband_Marketplace::seller_review_approval" title="Seller Review Approval Request" sortOrder="11"/>
+                            <resource id="Knowband_Marketplace::category_reqeust" title="Category Request List" sortOrder="11"/>
+                            <resource id="Knowband_Marketplace::seller_vacation" title="Seller Vacation List" sortOrder="11"/>
+                            <resource id="Knowband_Marketplace::best_selling_products" title="Reports - Best Selling Products" sortOrder="11"/>
+                            <resource id="Knowband_Marketplace::email_templates" title="Email Templates" sortOrder="11"/>
+                            <resource id="Knowband_Marketplace::cron" title="CRON Instructions" sortOrder="11"/>
+                            <resource id="Knowband_Marketplace::bulk_import_export" title="Bulk Import/Export" sortOrder="11">
+                                <resource id="Knowband_Marketplace::seller_with_feature" title="Seller With Feature" sortOrder="12"/>
+                                <resource id="Knowband_Marketplace::activation_request" title="Feature Activation Request" sortOrder="12"/>
+                            </resource>
+                            <resource id="Knowband_Marketplace::transactions_and_earnings" title="Transactions and Earnings" sortOrder="11">
+                                <resource id="Knowband_Marketplace::commissions" title="Commissions" sortOrder="12"/>
+                                <resource id="Knowband_Marketplace::category_commissions" title="Category Wise Commissions" sortOrder="12"/>
+                                <resource id="Knowband_Marketplace::seller_commissions" title="Seller Wise Commissions" sortOrder="12"/>
+                                <resource id="Knowband_Marketplace::sellers_payout_list" title="Sellers Payout List" sortOrder="12"/>
+                                <resource id="Knowband_Marketplace::sellers_payout_request" title="Sellers Payout Request" sortOrder="12"/>
+                                <resource id="Knowband_Marketplace::paypal_payout_settings" title="PayPal Payout Settings" sortOrder="12"/>
+                            </resource>
+                        </resource>
+                    </resource>
+	        </resource>
+	    </resources>
+	</acl>
+</config>

@@ -1,0 +1,34 @@
+<?php if ($this->getShipmentCount() > 0) {?>
+<div class="box box-warning collapsed-box">
+    <div class="box-header with-border" data-widget="collapse">
+        <h3 class="box-title" style="display: inline-block;"><?php echo __("Shipments"); ?></h3> <strong class="text-yellow"> (<?php echo __("Total"); ?>: <?php echo $this->getShipmentCount(); ?>)</strong>
+        <div class="box-tools pull-right">
+          <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-plus"></i></button>
+        </div>
+    </div>
+    <div class="box-body">
+        <div class="table-responsive">
+            <table class="table table-striped table-bordered">
+                <thead>
+                    <tr>
+                        <th class="text-right"><?php echo __("Shipment"); ?> #</th>
+                        <th><?php echo __("Ship to Name"); ?></th>
+                        <th><?php echo __("Date Shipped"); ?></th>
+                        <th class="text-right"><?php echo __("Total Qty"); ?></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <?php foreach($this->getShipments() as $shipment) { ?>
+                        <tr>
+                            <td class="text-right"><a href="<?php echo $this->getUrl('marketplace/shipment/view', ['shipment_id' => $shipment['entity_id']]); ?>" title="<?php echo __('click to view detail'); ?>"><?php echo $shipment['increment_id']; ?></a></td>
+                            <td><?php echo $shipment['shipping_name']; ?></td>
+                            <td><?php echo $this->getFormattedDate($shipment['created_at'], \IntlDateFormatter::MEDIUM, true); ?></td>
+                            <td class="text-right"><?php echo $shipment['total_qty']; ?></td>           
+                        </tr>
+                    <?php } ?>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<?php } ?>

@@ -1,0 +1,54 @@
+<?php $settings = $this->getSettings('knowband/marketplace/general_settings');
+?>
+<div class="fieldset-wrapper" id="general-settings">
+    <div class="admin__fieldset-wrapper-content">
+        <h1 class="marketplace-h1"><?php echo __("General Settings")?></h1>
+        <fieldset class="admin__fieldset">            
+            <div class="admin__field">
+                <label class="admin__field-label" for="vss_mp_enable_mp">
+                    <span><?php echo __("Enable Marketplace")?></span>
+                    <div class="vss_info">
+                            <?php echo __("Toggle to enable or disable extension")?>
+                        </div>
+                </label>
+                <div class="admin__field-control">
+                    <div class="admin__actions-switch" data-role="switcher">
+                        <input type="checkbox" class="admin__actions-switch-checkbox" id="vss_mp_enable_mp" name="vss_mp[enable_mp]" value="1" <?php echo isset($settings["enable_mp"])?$settings["enable_mp"]?'checked="checked"':'':'';?>>
+                        <label class="admin__actions-switch-label" for="vss_mp_enable_mp">
+                            <span class="admin__actions-switch-text" data-text-on="<?php echo __('Yes'); ?>" data-text-off="<?php echo __('No'); ?>"></span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="admin__field">
+                <label class="admin__field-label" for="vss_mp_commission">
+                    <span>
+                        <span class="vss_required">*</span> <?php echo __("Default Commission (%)")?>
+                        <div class="vss_info">
+                            <?php echo __("Set default commission in percentage for each product.")?>
+                        </div>
+                    </span>
+                </label>
+                <div class="admin__field-control" style="width: 15rem;">
+                    <div class="admin__control">
+                        <input value="<?php echo isset($settings["commission"])?$settings["commission"]:""?>" class="admin__control-text" type="text" placeholder="" name="vss_mp[commission]" id="vss_mp_commission">
+                    </div>
+                </div>
+            </div>
+                   
+        </fieldset>
+    </div>
+</div>
+<div class="vss_demo_block">
+    <img src="<?php echo $this->getViewFileUrl("Knowband_Marketplace::images/general_settings_demo.jpg"); ?>" alt="demo" class="demo_image">
+    <div class="middle">
+        <span class="vss_overlay_paid_text" >Buy paid version to access all features.</span><br><br>
+        <div class="text">
+            <a target="_blank" class="vss_free_version_link" href="https://www.knowband.com/magento-2-multi-vendor-marketplace">
+                <span class="vss_free_version_button">Buy Now</span>
+            </a>
+        </div>
+    </div>
+</div>
+

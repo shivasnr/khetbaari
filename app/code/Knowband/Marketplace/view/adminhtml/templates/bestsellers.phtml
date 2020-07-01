@@ -1,0 +1,115 @@
+<?php 
+    $categories = $this->getCategories();
+    $sellers = $this->getSellers();
+    $form_persist = $this->formPersists();
+?>    
+<div id="messages">
+    <div class="messages">
+        <div class="message message-notice notice">
+            <div data-ui-id="messages-message-notice"><?php echo __("For accurate reporting, be sure to refresh lifetime statistics whenever you change the time zone.") ?></div>
+        </div>
+        <div class="message message-notice notice">
+            <div data-ui-id="messages-message-notice"><?php echo __("To refresh last day's") ?> <a href="<?php echo $this->getUrl("reports/report_statistics/index"); ?>" target="blank"><?php echo __("statistics") ?></a>, <?php echo __("click") ?> <a href="<?php echo $this->getUrl("reports/report_statistics/refreshRecent", ['code' => 'bestsellers']); ?>"><?php echo __("here") ?></a>.
+        </div>
+        </div>
+    </div>
+</div>
+<div class="fieldset-wrapper" id="general-settings">
+    <div class="admin__fieldset-wrapper-content">
+        <h2 class="marketplace-h1"><?php echo __("Filter")?></h2>
+        <fieldset class="admin__fieldset">  
+            
+            <div class="admin__field">
+                <label class="admin__field-label" for="vssmp_report_period_type">
+                    <span><?php echo __("Period"); ?></span>
+                </label>
+                <div class="admin__field-control">
+                    <select name="period_type" class="admin__control-select" id="vssmp_report_period_type">
+                        <option value="day" <?php if(isset($form_persist['period_type']) && $form_persist['period_type'] == 'day') echo 'selected'; ?>><?php echo __("Day"); ?></option>
+                        <option value="month" <?php if(isset($form_persist['period_type']) && $form_persist['period_type'] == 'month') echo 'selected'; ?>><?php echo __("Month"); ?></option>
+                        <option value="year" <?php if(isset($form_persist['period_type']) && $form_persist['period_type'] == 'year') echo 'selected'; ?>><?php echo __("Year"); ?></option>
+                    </select>
+                </div>
+            </div>
+            
+            <div class="admin__field">
+                <label class="admin__field-label" for="vssmp_report_from">
+                    <span><span class="vss_required">*</span> <?php echo __("From"); ?></span>
+                </label>
+                <div class="admin__field-control">
+                        <input name="from" id="vssmp_report_from" value="<?php if(isset($form_persist['from'])) echo $form_persist['from']; ?>" title="From" type="text" class="admin__control-text required-entry _required admin__control-text  input-text" style="width:15rem !important;"> 
+                        <!--<button type="button" class="ui-datepicker-trigger v-middle"><span<?php echo __('Select Date'); ?></span></button>-->
+                </div>
+            </div>
+            
+            <div class="admin__field">
+                <label class="admin__field-label" for="vssmp_report_to">
+                    <span><span class="vss_required">*</span> <?php echo __("To"); ?></span>
+                </label>
+                <div class="admin__field-control">
+                        <input name="to" id="vssmp_report_to" value="<?php if(isset($form_persist['to'])) echo $form_persist['to']; ?>" title="to" type="text" class="admin__control-text required-entry _required admin__control-text  input-text" style="width:15rem !important;"> 
+                        <!--<button type="button" class="ui-datepicker-trigger v-middle"><span><?php echo __('Select Date'); ?></span></button>-->
+                </div>
+            </div>
+            
+            <div class="admin__field">
+                <label class="admin__field-label" for="vssmp_report_category">
+                    <span><?php echo __("Choose Category"); ?></span>
+                </label>
+                <div class="admin__field-control">
+                    <select name="category_to_filter" class="admin__control-select" id="vssmp_report_category">
+                        <option value="all"><?php echo __("All Categories"); ?></option>
+                        <?php echo $this->getCategoryDropDownHtml($categories); ?>
+                    </select>
+                </div>
+            </div>
+            
+            <div class="admin__field">
+                <label class="admin__field-label" for="vssmp_report_seller">
+                    <span><?php echo __("Choose a Seller"); ?></span>
+                </label>
+                <div class="admin__field-control">
+                    <select name="seller_to_filter" class="admin__control-select" id="vssmp_report_seller">
+                        <option value="all"><?php echo __("All Sellers"); ?></option>
+                        <?php foreach($sellers as $sel) { ?>
+                            <option value="<?php echo $sel['seller_id']; ?>" <?php if(isset($form_persist['seller_to_filter']) && $form_persist['seller_to_filter'] == $sel['seller_id']) echo 'selected'; ?>><?php if(empty($sel['shop_title'])) { echo __("NA"); } else { echo $sel['shop_title']; }?></option>
+                        <?php } ?>
+                    </select>
+                </div>
+            </div>
+        </fieldset>
+    </div>
+</div>
+
+<script>
+
+require([
+    'jquery',
+    'mage/backend/validation',
+    "mage/calendar",
+    "prototype"
+], function(jQuery){
+    
+    jQuery("#vssmp_report_to").calendar({showsTime: false,dateFormat: "M/dd/yy",buttonText: "Select Date",});
+    jQuery("#vssmp_report_from").calendar({showsTime: false,dateFormat: "M/dd/yy",buttonText: "Select Date",});
+    
+    jQuery('#vss_marketplace_view').mage('validation', {errorClass: 'mage-error'});
+    function filterFormSubmit() {
+        var filters = $$('#vss_marketplace_view input', '#vss_marketplace_view select');
+        var elements = [];
+        for(var i in filters){
+            if(filters[i].value && filters[i].value.length && !filters[i].disabled) elements.push(filters[i]);
+        }
+        if (jQuery('#vss_marketplace_view').valid()) {
+//            setLocation('<?php echo $this->getUrl("mpadmin/marketplace/bestSellers"); ?>'+Base64.encode(Form.serializeElements(elements))+'/');
+            jQuery('#vss_marketplace_view').submit();
+        }
+    }
+    window.filterFormSubmit = filterFormSubmit;
+});
+</script>
+<?php 
+    echo $this->getLayout()
+    ->createBlock("Knowband\Marketplace\Block\Adminhtml\Grid\FilteredList")
+    ->toHtml();
+?>

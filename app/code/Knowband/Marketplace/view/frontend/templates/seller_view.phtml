@@ -1,0 +1,187 @@
+<?php
+$objectManager = \Magento\Framework\App\ObjectManager::getInstance();
+
+$fb_link = false;
+$google_link = false;
+$twitter_link = false;
+$sellerDetail = $objectManager->get("\Magento\Framework\Registry")->registry('sellerDetail');
+$categories = $objectManager->get("\Magento\Framework\Registry")->registry('categories');
+$loginPageUrl = $objectManager->get("\Magento\Framework\Registry")->registry('loginPageUrl');
+$username = $objectManager->get('Magento\Contact\Helper\Data')->getUserName();
+$globalSettings = $objectManager->get("Knowband\Marketplace\Helper\Setting")->getSettings();
+
+unset($globalSettings);
+$onclickContent = '';
+
+$sellerId =  $sellerDetail['seller_id'];
+$collection = $objectManager->get("Knowband\Marketplace\Helper\Data")->getSellerLevelSettingsBySellerId($sellerId);
+
+$globalSettings = $objectManager->get("Knowband\Marketplace\Helper\Setting")->getSettings();
+$settings = [];
+foreach ($collection as $row) {
+    if ($row->getFieldValue() != '') {
+        $settings[$row->getFieldName()]['seller'] = $row->getFieldValue();
+    } else {
+        if ($row->getFieldName() == 'commission') {
+            $settings[$row->getFieldName()]['seller'] = $globalSettings[$row->getFieldName()];
+        }
+    }
+    $settings[$row->getFieldName()]['global'] = $row->getUseDefault();
+}
+
+if(count($settings) < 1){
+    $settings = $objectManager->get("Knowband\Marketplace\Helper\Setting")->getDefaultSellerSettings();
+}
+
+unset($settings);
+
+if ($objectManager->get('Magento\Customer\Model\Session')->isLoggedIn()){
+    $onclickContent = "openVssModal('vssmp-write-review-popup')";
+}else{
+    $onclickContent = "location.href = '" . $loginPageUrl . "'";
+}
+
+$sellerDetail['shop_address'] = (array) json_decode($sellerDetail['shop_address']);
+if (isset($sellerDetail['fb_link']) && $sellerDetail['fb_link'] != '') {
+    $fb_link = $sellerDetail['fb_link'];
+    if (!preg_match("~^(?:f|ht)tps?://~i", $fb_link)) {
+        $fb_link = "http://" . $fb_link;
+    }
+}
+
+if (isset($sellerDetail['google_link']) && $sellerDetail['google_link'] != '') {
+    $google_link = $sellerDetail['google_link'];
+    if (!preg_match("~^(?:f|ht)tps?://~i", $google_link)) {
+        $google_link = "http://" . $google_link;
+    }
+}
+
+if (isset($sellerDetail['twitter_link']) && $sellerDetail['twitter_link'] != '') {
+    $twitter_link = $sellerDetail['twitter_link'];
+    if (!preg_match("~^(?:f|ht)tps?://~i", $twitter_link)) {
+        $twitter_link = "http://" . $twitter_link;
+    }
+}
+?>
+<script>
+    require(['jquery', "Knowband_Marketplace/theme/vssmp_base"], function(jQuery){
+    });
+    var getSellerProductsUrl = '<?php echo $this->getUrl('marketplace/sellers/getSellerProducts'); ?>';
+    var vssmp_seller_id = '<?php if(isset($sellerDetail['seller_id'])){ echo $sellerDetail['seller_id'];} else { echo ''; } ?>';
+</script>
+<?php if(isset($sellerDetail['seller_id'])) { ?>
+<div id="vssmp-seller-view">
+    
+    <div class="vssmp_row vssmp-logo-block" style="border:1px solid #eee; padding:5px;">
+        <?php if (isset($sellerDetail['shop_banner'])) { ?>
+            <img class="seller-banner-img" src="<?php echo $sellerDetail['shop_banner']; ?>" alt="<?php echo $sellerDetail['shop_title']; ?>" title="<?php echo $sellerDetail['shop_title']; ?>">
+        <?php } else { ?>
+            <img class="seller-banner-img" src="<?php echo $this->getViewFileUrl("Knowband_Marketplace::images/seller_default/banner.jpg");?>" title="<?php if(isset($sellerDetail['shop_title'])) echo $sellerDetail['shop_title']; ?>"/>
+        <?php } ?>        
+    </div>
+    
+    <div class="info-view">
+        <div class="seller-profile-photo">
+            <?php if(isset($sellerDetail['shop_logo'])) { ?>
+                    <img src="<?php echo $sellerDetail['shop_logo']; ?>" alt="<?php echo $sellerDetail['shop_title']; ?>">
+            <?php } else { ?>
+                    <img src="<?php echo $this->getViewFileUrl("Knowband_Marketplace::images/seller_default/logo.jpg"); ?>" alt="<?php if(isset($sellerDetail['shop_title'])) echo $sellerDetail['shop_title']; ?>"/> <!-- Updated By Dhruw -->
+            <?php } ?>
+        </div>
+        <div class="seller-info">
+            <div class="seller-basic">
+                <div class="seller-name">
+                    <span class="name"><?php echo (!empty($sellerDetail['shop_title']))?$sellerDetail['shop_title']: \Knowband\Marketplace\Helper\Seller::SELLER_DEFAULT_TITLE; ?></span>
+                </div>
+            </div>
+            <div class="seller-social">
+                <?php if($fb_link) {?>
+                    <a href="<?php echo $fb_link; ?>" target="_blank"><img class="seller-social-share-icon" src="<?php echo $this->getViewFileUrl("Knowband_Marketplace::images/seller_default/icon_facebook_share.png"); ?>" title="<?php echo __("facebook"); ?>" /></a>
+                <?php } ?>
+                <?php if($twitter_link) {?>
+                    <a href="<?php echo $twitter_link; ?>" target="_blank"><img class="seller-social-share-icon" src="<?php echo $this->getViewFileUrl("Knowband_Marketplace::images/seller_default/icon_twitter_share.gif.jpg"); ?>" title="<?php echo __("twitter"); ?>" /></a>
+                <?php } ?>
+                <?php if($google_link) {?>
+                    <a href="<?php echo $google_link; ?>" target="_blank"><img class="seller-social-share-icon" src="<?php echo $this->getViewFileUrl("Knowband_Marketplace::images/seller_default/icon_google_share.png.jpg"); ?>" title="<?php echo __("google"); ?>+" /></a>
+                <?php } ?>                                    
+            </div>
+        </div>
+    </div>
+    
+    <div class="vssmp-clearboth"></div>
+
+    <div class="vssmp_row vssmp_blk_bdr">
+        <div class="vss-bordered-row toolbar" style="margin-top:0; border-top:none; margin-bottom: 3px;">
+            <span class="seller-description-title"><?php echo __("About Seller"); ?></span>
+        </div>
+        <div class="vss_mp_wrapper">
+            <div class="vssmp-full-width-table vssmp-table-blk cms-page-view" style='padding:5px;'>
+                <div class="std">
+                    <?php $has_content = false; ?>
+                    <?php if(trim($sellerDetail['description']) != '') { ?>
+                        <?php $has_content = true; ?>
+                        <p><?php echo $sellerDetail['description']; ?></p>
+                    <?php } ?>
+                    <?php if(trim($sellerDetail['shipping_policy']) != '') { ?>
+                        <?php $has_content = true; ?>
+                        <h2><?php echo __("Shipping Policy"); ?></h2>
+                        <p><?php echo $sellerDetail['shipping_policy']; ?></p>
+                    <?php } ?>
+                    <?php if(trim($sellerDetail['return_policy']) != '') { ?>
+                        <?php $has_content = true; ?>
+                        <h2><?php echo __("Return Policy"); ?></h2>
+                        <p><?php echo $sellerDetail['return_policy']; ?></p>
+                    <?php } ?>
+                    <?php if(!$has_content) { ?>
+                        <p><?php echo __("Description not available."); ?></p>
+                    <?php } ?>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="vssmp_row">
+        <div class="vssmp_row" style="border-bottom: 1px #eee solid;">
+            <span class="seller-description-title"><?php echo __("Seller Products"); ?></span>            
+        </div>
+
+        <div class="filter_blk vssmp-flt-left vssmp-wdt-20">
+            <div class="block block-layered-nav block-layered-nav--no-filters vssmp-pd-right-10px">
+                <div class="block-content toggle-content vssmp-block-content">
+                    <p class="block-subtitle block-subtitle--filter"><?php echo __("Filter Products"); ?></p>
+                    <dl id="vssmp_seller_product_filters">
+                        <dt class="odd"><?php echo __("Category"); ?></dt>
+                        <dd class="odd">
+                            <ol>
+                                <li>
+                                    <select name="productCategoryFilter" class="vss_custom_select" id="vss_category_filter" onchange="fetchSellerProduct()">
+                                        <option value="all"><?php echo __("All Categories"); ?></option>
+                                        <?php echo $objectManager->get("Knowband\Marketplace\Helper\Data")->getCategoryDropDownHtml($categories); ?>
+                                    </select>                                    
+                                </li>
+                            </ol>
+                        </dd>
+                        <dt class="even"><?php echo __("Sort By"); ?></dt>
+                        <dd class="even">
+                            <ol>
+                                <li>
+                                    <select name="productSortingFilter" class="vss_custom_select" id="vss_sorting_filter" onchange="fetchSellerProduct()">
+                                        <option value="1"><?php echo __("Name"); ?></option>
+                                        <option value="2"><?php echo __("SKU"); ?></option>
+                                        <option value="3"><?php echo __("Price(low to high)"); ?></option>
+                                        <option value="4"><?php echo __("Price(high to low)"); ?></option>
+                                    </select>
+                                </li>
+                            </ol>
+                        </dd>                    
+                    </dl>
+                </div>
+            </div>
+        </div>
+        <div id="seller-product-list-loader" class="vssmp-flt-right vssmp-wdt-80"><div class="loading128"></div></div>
+        <div class="vssmp-flt-right vssmp-wdt-80" id="seller-product-list-holder">            
+            <?php echo $this->getChildHtml('vssmp_seller_productlist'); ?>
+        </div>
+    </div>
+</div>
+<?php } ?>

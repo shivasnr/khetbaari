@@ -1,0 +1,18 @@
+<?php 
+if ($this->isRegisterAsSeller()) { ?>
+
+<div class="entry-edit">
+    <fieldset class="fieldset admin__fieldset" >
+        <legend class="legend admin__legend"><span><?php echo __("Register as Seller"); ?></span></legend>
+        <div class = "field admin__field">
+            <label for="mp_seller_register_option" class = "label admin__field-label"><span><?php echo __("Register as Seller"); ?></span></label>
+            <div class="control admin__field-control">
+                <select id="mp_seller_register_option" name="mp_general[register_as_seller]" class="select admin__control-select" data-form-part="customer_form">
+                    <option value="yes"><?php echo __("Yes"); ?></option>
+                    <option value="no" selected="selected"><?php echo __("No"); ?></option>
+                </select>
+            </div>
+        </div>
+    </fieldset>
+</div>
+<?php } ?>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="1column" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <head>
+    	<title>Marketplace</title>
+    </head>
+    <body>
+        <referenceContainer name="left" remove="true"/>
+        <referenceContainer name="header.container" remove="true"/>
+        <referenceContainer name="footer" remove="true"/>
+        <referenceBlock name="page.main.title" remove="true" />
+        <referenceContainer name="catalog.topnav" remove="true"/>
+        
+        <referenceContainer name="content">
+            <block class="Hariyo\Marketplace\Block\Page" name="marketplace_page" template="page.phtml" cacheable="false">
+                <block class="Hariyo\Marketplace\Block\Order\Shipment\View\View" name="marketplace_seller_view_shipment" template="order/shipment/view/view.phtml">
+                    <block class="Hariyo\Marketplace\Block\Order\Shipment\View\Tracking" name="marketplace_seller_order_shipment_view_tracking" template="order/shipment/view/tracking.phtml" />
+                    <block class="Hariyo\Marketplace\Block\Order\Shipment\View\Items" name="marketplace_seller_view_shipment_items" template="order/shipment/view/items.phtml" />
+                    <block class="Hariyo\Marketplace\Block\Order\Comments" name="marketplace_seller_order_shipment_view_comments" template="order/comments.phtml" />
+                </block>
+            </block>
+        </referenceContainer>
+    </body>
+</page>

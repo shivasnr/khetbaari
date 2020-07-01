@@ -1,0 +1,202 @@
+<?php $product = $this->getProduct(); 
+
+$objectManager =  \Magento\Framework\App\ObjectManager::getInstance();
+$storeManager = $objectManager->get('\Magento\Store\Model\StoreManagerInterface');
+?>
+<div class="collapsed-box box">
+    <div class="box-header with-border" data-widget="collapse">
+        <h3 class="box-title"><?php echo __("Samples"); ?></h3>
+        <div class="box-tools pull-right tab-error-highlighter text-red">
+            <i class="fa fa-warning"></i>
+        </div>
+        <div class="box-tools pull-right">
+          <button type="button" class="btn btn-box-tool" ><i class="fa fa-plus"></i></button>
+        </div>
+    </div>
+    <div class="box-body">
+        <div class="form-group col-lg-12">
+            <label class="control-label col-lg-3 col-sm-6 col-xs-12 text-right" ><?php echo __('Title'); ?></label>
+            <div class="form-group col-lg-9 col-sm-6 col-xs-12 ">
+                <input type="text" class="form-control" validate="varchar" name="product[samples_title]" value="<?php echo $product->getId()?$product->getSamplesTitle():$this->getSamplesTitle() ?>" />
+            </div>
+        </div>
+        <div class="col-lg-12 table-responsive">
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th><?php echo __('Title') ?> <sup><em>*</em></sup></th>
+                        <th><?php echo __('File') ?></th>
+                        <th width="100"><?php echo __('Sort Order') ?></th>
+                        <th width="50">&nbsp;</th>
+                    </tr>
+                </thead>
+                <tbody id="vssmp_download_sample_row_body"></tbody>
+            </table>
+        </div>
+        <div class="col-lg-12">
+            <div class="pull-right">
+                <button type="button" onclick="createNewDownloadSampleRow('');" class="btn btn-warning btn-sm"><i class="fa fa-plus-circle"></i> <?php echo __('Add New Row'); ?></button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="collapsed-box box">
+    <div class="box-header with-border" data-widget="collapse">
+        <h3 class="box-title"><?php echo __("Links"); ?></h3>
+        <div class="box-tools pull-right tab-error-highlighter text-red">
+            <i class="fa fa-warning"></i>
+        </div>
+        <div class="box-tools pull-right">
+          <button type="button" class="btn btn-box-tool"><i class="fa fa-plus"></i></button>
+        </div>
+    </div>
+    <div class="box-body">
+        <div class="col-lg-12">
+            <label class="control-label col-lg-3 col-sm-6 col-xs-12 text-right" ><?php echo __('Title'); ?></label>
+            <div class="form-group col-lg-9 col-sm-6 col-xs-12 ">
+                <input  class="form-control" type="text" id="downloadable_links_title" name="product[links_title]" value="<?php echo $product->getId()?$product->getLinksTitle():$this->getLinksTitle() ?>" <?php echo ($product->getStoreId() && $this->getLinksUsedDefault())?'disabled="disabled"':'' ?> />
+            </div>
+        </div>
+        <div class="col-lg-12">
+            <label class="control-label col-lg-3 col-sm-6 col-xs-12 text-right" ><?php echo __('Links can be purchased separately'); ?></label>
+            <div class="form-group col-lg-9 col-sm-6 col-xs-12 ">
+                <select name="product[links_purchased_separately]" class="form-control">
+                    <?php foreach($objectManager->get('\Magento\Config\Model\Config\Source\Yesno')->toOptionArray() as $val){ ?>
+                        <option value="<?php echo $val['value']; ?>"><?php echo $val['label']; ?></option>
+                    <?php } ?>
+                </select>
+            </div>
+        </div>
+        <div class="col-lg-12 table-responsive">
+            <table class="table table-bordered" style="min-width:1024px;">
+                <thead>
+                    <tr>
+                        <th width="200"><?php echo __('Title') ?> <sup><em>*</em></sup></th>
+                        <th><?php echo __('Price')?></th>
+                        <th><?php echo __('Max. Downloads')?></th>
+                        <th><?php echo __('Shareable')?></th>
+                        <th width=""><?php echo __('Sample')?></th>
+                        <th width=""><?php echo __('File') ?></th>
+                        <th width="80"><?php echo __('Sort Order') ?></th>
+                        <th>&nbsp;</th>
+                    </tr>
+                </thead>
+                <tbody id="vssmp_download_link_row_body"></tbody>
+            </table>
+        </div>
+        <div class="col-lg-12">
+            <div class="pull-right">
+                <button type="button" onclick="createNewDownloadLinkRow('');" class="btn btn-warning btn-sm"><i class="fa fa-plus-circle"></i> <?php echo __('Add New Row'); ?></button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<?php echo $this->getChildHtml('', true, true); ?>
+
+<script type="text/javascript">
+    
+    var vssmp_download_sample_index = <?php echo $this->getSampleIndex(); ?>;
+    var vssmp_download_link_index = <?php echo $this->getLinkIndex(); ?>;
+    
+    var link_row_html = '<tr id="download_link_row_{{link_index}}">'
+                + '<td class="form-group">'
+                    + '<input type="hidden" class="__delete__" name="downloadable[link][{{link_index}}][is_delete]" value="" />'
+                    + '<input type="hidden" name="downloadable[link][{{link_index}}][link_id]" value="{{link_id}}" />'
+                    + '<input type="text" class="form-control required" validate="varchar" name="downloadable[link][{{link_index}}][title]" value="{{title}}" />'
+                + '</td>'
+                + '<td class="form-group">'
+                    + '<input type="text" class="form-control" validate="decimal" name="downloadable[link][{{link_index}}][price]" value="{{download_link_price}}" />[<?php echo $storeManager->getStore($product->getStoreId())->getBaseCurrencyCode() ?>]'
+                + '</td>'
+                + '<td>'
+                    + '<div class="form-group col-lg-12">'
+                        + '<input type="text" name="downloadable[link][{{link_index}}][number_of_downloads]" class="form-control" validate="int" value="{{num_of_download}}" />'
+                    + '</div>'
+                    + '<div class="col-lg-12">'
+                        + '<label><input type="checkbox" class="checkbox vssmp_proccess_max_download" name="downloadable[link][{{link_index}}][is_unlimited]" value="1" {{is_unlimited}} /> <?php echo __("Unlimited"); ?></label>'
+                    + '</div>'
+                + '</td>'
+                + '<td class="form-group">'
+                    + '<select class="form-control" name="downloadable[link][{{link_index}}][is_shareable]"><option value="1">Yes</option><option value="0">No</option><option value="2">Use config</option></select>'
+                + '</td>'
+                + '<td>'
+                    + '<div class="row form-group">'
+                        + '<div class="col-lg-3 col-xs-12">'
+                            + '<label><input class="file_type_option" type="radio" class="radio" name="downloadable[link][{{link_index}}][sample][type]" value="file" {{sample_file_selected_status}}/> <?php echo __("File"); ?></label>'
+                        + '</div>'
+                        + '<div class="col-lg-9 col-xs-12">'
+                            + "<input type='hidden' name='downloadable[link][{{link_index}}][sample][old_file]' value='{{sample_old_file}}' />"
+                            + '<input name="downloadable[link_samples][{{link_index}}]" type="file" value="" />'
+                            + '<p class="text-light-blue">{{sample_file_name}}</p>'
+                        + '</div>'
+                    + '</div>'
+                    + '<div class="row form-group">'
+                        + '<div class="col-lg-3 col-xs-12"><label><input class="file_type_option" type="radio" class="radio" name="downloadable[link][{{link_index}}][sample][type]" value="url" {{sample_url_selected_status}}/> <?php echo __("Url"); ?></label></div>'
+                        + '<div class="form-group col-lg-9 col-xs-12"><input type="text" class="downloadable_file_url form-control" validate="varchar" name="downloadable[link][{{link_index}}][sample][url]" value="{{sample_url}}" /></div>'
+                    + '</div>'
+                + '</td>'
+                + '<td>'
+                    + '<div class="row form-group">'
+                        + '<div class="col-lg-3 col-xs-12">'
+                            + '<label><input class="file_type_option" type="radio" name="downloadable[link][{{link_index}}][type]" value="file" {{file_selected_status}}/> <?php echo __("File"); ?></label>'
+                        + '</div>'
+                        + '<div class="col-lg-9 col-xs-12">'
+                            + "<input type='hidden' name='downloadable[link][{{link_index}}][old_file]' value='{{old_file}}' />"
+                            + '<input name="downloadable[link][{{link_index}}]" type="file" value="" />'
+                            + '<p class="text-light-blue">{{link_file_name}}</p>'
+                        + '</div>'
+                    + '</div>'
+                    + '<div class="row form-group">'
+                        + '<div class="col-lg-3 col-xs-12"><label><input class="file_type_option" type="radio" name="downloadable[link][{{link_index}}][type]" value="url" {{url_selected_status}}/> <?php echo __("Url"); ?></label></div>'
+                        + '<div class="form-group col-lg-9 col-xs-12"><input type="text" class="downloadable_file_url form-control" validate="varchar" name="downloadable[link][{{link_index}}][link_url]" value="{{link_url}}" /></div>'
+                    + '</div>'
+                + '</td>'
+                + '<td class="form-group"><input type="text" name="downloadable[link][{{link_index}}][sort_order]" value="{{download_link_sort_order}}" class="input-width3 vssmp_validate_int" /></td>'
+                + '<td class="text-center"><button type="button" class="btn btn-xs btn-danger" onclick="return removeDownloadLinkRow({{link_index}})"><i class="fa fa-trash-o"></i></button></td>'
+            + '</tr>';
+    
+    var sample_row_html = '<tr id="download_sample_row_{{sample_index}}">'
+                + '<td class="form-group">'
+                    + '<input type="hidden" class="__delete__" name="downloadable[sample][{{sample_index}}][is_delete]" value="" />'
+                    + '<input type="hidden" name="downloadable[sample][{{sample_index}}][sample_id]" value="{{sample_id}}" />'
+                    + '<input class="form-control required" validate="varchar" type="text" name="downloadable[sample][{{sample_index}}][title]" value="{{title}}"/>'
+                + '</td>'
+                + '<td>'
+                    + '<div class="row">'
+                        + '<div class="col-lg-3 col-xs-12">'
+                            + '<label><input class="file_type_option" type="radio" name="downloadable[sample][{{sample_index}}][type]" value="file" {{file_selected_status}}/><?php echo __("File"); ?></label>'
+                        + '</div>'
+                        + '<div class="col-lg-9 col-xs-12">'
+                            + "<input type='hidden' name='downloadable[sample][{{sample_index}}][old_file]' value='{{old_file}}' />"
+                            + '<input name="downloadable[sample][{{sample_index}}]" type="file" value="" />'
+                            + '<p class="text-light-blue">{{sample_file_name}}</p>'
+                        + '</div>'
+                    + '</div>'
+                    + '<div class="row">'
+                        + '<div class="col-lg-3 col-xs-12"><label><input class="file_type_option" type="radio" name="downloadable[sample][{{sample_index}}][type]" value="url" {{url_selected_status}}/><?php echo __("Url"); ?></label></div>'
+                        + '<div class="form-group col-lg-9 col-xs-12"><input class="downloadable_file_url form-control" validate="varchar" type="text" name="downloadable[sample][{{sample_index}}][sample_url]" value="{{sample_url}}"/></div>'
+                    + '</div>'
+                + '</td>'
+                + '<td class="form-group"><input class="form-control" validate="int" type="text" name="downloadable[sample][{{sample_index}}][sort_order]" value="{{download_sample_sort_order}}"/></td>'
+                + '<td class="text-center"><button type="button" class="btn btn-xs btn-danger" onclick="return removeDownloadSampleRow({{sample_index}})"><i class="fa fa-trash-o"></i></button></td>'
+            + '</tr>';
+
+require(['jquery', "Knowband_Marketplace/theme/vssmp_downloadable"], function(jQuery){
+<?php if($product->getId()) { ?>
+    <?php foreach ($this->getSampleData() as $item){ ?>
+        var data = {};
+        data = <?php echo $item->toJson(); ?>;
+        createNewDownloadSampleRow(data);
+    <?php } ?>
+
+    <?php foreach ($this->getLinkData() as $item): ?>
+        var data = {};
+        data = <?php echo $item->toJson(); ?>;
+        createNewDownloadLinkRow(data);
+        //linkItems.add();
+    <?php endforeach; ?>
+<?php } ?>
+});
+</script>

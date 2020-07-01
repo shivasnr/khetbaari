@@ -1,0 +1,63 @@
+<?php $product = $this->getProduct(); ?>
+<?php $stock_data = $this->getStockData();?>
+
+<div class="collapsed-box box">
+    <div class="box-header with-border" data-widget="collapse">
+        <h3 class="box-title"><?php echo __("Inventory"); ?></h3>
+        <div class="box-tools pull-right tab-error-highlighter text-red">
+            <i class="fa fa-warning"></i>
+        </div>
+        <div class="box-tools pull-right">
+          <button type="button" class="btn btn-box-tool" ><i class="fa fa-plus"></i></button>
+        </div>
+    </div>
+    <div class="box-body">
+        <?php if($product->getTypeId() == \Magento\Catalog\Model\Product\Type::TYPE_SIMPLE
+        || $product->getTypeId() == \Magento\Catalog\Model\Product\Type::TYPE_VIRTUAL
+        || $product->getTypeId() == 'downloadable'){ ?>
+
+            <div class="form-group col-xs-12 col-sm-6 col-lg-6">
+                <label><?php echo __('Quantity'); ?><sup><em>*</em></sup></label>
+
+                <!--<input type="text" name="product[quantity_and_stock_status][qty]" class="form-control required" validate="int" value="<?php // echo ($product->getId() && !empty($stock_data))? (int) $stock_data['qty'] : ''; ?>" />-->
+                <input type="text" name="product[stock_data][qty]" class="form-control required" validate="int" value="<?php echo ($product->getId() && !empty($stock_data))? (int) $stock_data['qty'] : ''; ?>" />
+            </div>
+
+        <?php } ?>
+
+        <div class="form-group col-xs-12 col-sm-6 col-lg-6">
+            <label><?php echo __('Manage Stock'); ?>
+                <span data-toggle="tooltip" title="<?php echo __("On enabling, stock will be managed automatically. For manual stock, select disable"); ?>"><i class="fa fa-question-circle"></i></span> 
+            </label>
+            <select name="product[stock_data][manage_stock]" class="form-control" validate="int">
+                <option value="1" <?php echo ($product->getId() && !empty($stock_data) && $stock_data['manage_stock'] == 1) ? 'selected="selected"': ''; ?> ><?php echo __('Yes'); ?></option>
+                <option value="0"<?php echo ($product->getId() && !empty($stock_data) && $stock_data['manage_stock'] == 0) ? 'selected="selected"': ''; ?> ><?php echo __('No'); ?></option>
+            </select>
+        </div>
+
+        <div class="form-group col-xs-12 col-sm-6 col-lg-6">
+            <label><?php echo __('Qty Uses Decimal'); ?></label>
+            <select name="product[stock_data][is_qty_decimal]" class="form-control" validate="int">
+                <option value="0" <?php echo ($product->getId() && !empty($stock_data) && $stock_data['is_qty_decimal'] == 0) ? 'selected="selected"': ''; ?> ><?php echo __('No'); ?></option>
+                <option value="1" <?php echo ($product->getId() && !empty($stock_data) && $stock_data['is_qty_decimal'] == 1) ? 'selected="selected"': ''; ?> ><?php echo __('Yes'); ?></option>
+            </select>
+        </div>
+
+        <div class="form-group col-xs-12 col-sm-6 col-lg-6">
+            <label><?php echo __('Stock Availability'); ?></label>
+            <?php
+                $default_value = '';
+                if($product->getId() && !empty($stock_data)){
+                    $default_value = $stock_data['is_in_stock'];
+                }
+            ?>
+            <select name="product[stock_data][is_in_stock]" class="form-control" validate="int">
+                <?php foreach ($this->getStockOption() as $option){ ?>
+                    <option value="<?php echo $option['value'] ?>" <?php echo ($default_value == $option['value']) ? 'selected="selected"': ''; ?> ><?php echo $option['label'] ?></option>
+                <?php } ?>
+            </select>
+        </div>
+
+        <?php echo $this->getChildHtml('', true, true); ?>
+    </div>
+</div>

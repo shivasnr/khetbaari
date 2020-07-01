@@ -1,0 +1,64 @@
+<?php   
+
+$custom_id = $this->getRequest()->getParam('custom_id');
+?>
+<div class="vssmp_div_overlay">
+    <div class="vssmp_div_content">
+        <form action="<?php echo $this->getFormActionUrl(); ?>"  method="post" enctype="multipart/form-data" id="vssmp-reason-form">
+            <div id="vssmp_div_form">
+                <input type="hidden" value="<?php echo $this->getFormKey() ?>" name="form_key">
+                <input type="hidden" value="<?php echo $custom_id; ?>" name="custom_id">
+                
+                <table id="table_vssmp_reason" class="tabel_simple">
+                    <tbody>
+                        <tr>
+                            <td><span class="vss_required">*</span><?php echo __('Reason'); ?></td>
+                            <td>
+                                <textarea name="reason_txt" id="vssmp_reason" class="vssmp_input_box admin__control-textarea" rows="5"></textarea>
+                                <span class="vssmp_error_message kb_error_message" id="error_reason" style="display: none;"><?php echo __('Required field'); ?></span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td>
+                                <div class="vssmp_div_buttons_footer">
+                                    <button type="submit" id="submit_vssmp_reason" class="vssmp_button_submit_form" ><?php echo __('Submit'); ?></button>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>                                                                                                
+                </table>
+            </div>
+        </form>
+    </div>
+</div>
+
+<script>
+    document.getElementById('submit_vssmp_reason').onclick = function()
+    {
+        var error = 0;
+        if (document.getElementById("vssmp_reason").value == '')
+        {
+            document.getElementById("error_reason").style.display = "block";
+            document.getElementById("vssmp_reason").classList.add("kb_error_field");
+            error = 1;
+        }
+        else
+        {
+            document.getElementById("error_reason").style.display = "none";
+            document.getElementById("vssmp_reason").classList.remove("kb_error_field");
+        }
+        
+        if(error == 1)
+        {
+            return false;
+        }
+        else
+        {
+            document.getElementById('submit_vssmp_reason').disabled = true;
+            document.getElementById('vssmp-reason-form').submit();
+        }
+        
+    }
+    
+</script>

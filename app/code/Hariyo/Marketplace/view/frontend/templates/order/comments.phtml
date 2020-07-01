@@ -1,0 +1,73 @@
+<div class="box box-warning collapsed-box">
+    <div class="box-header with-border" data-widget="collapse">
+        <h3 class="box-title"><?php echo $this->historyTitle(); ?></h3>
+        <div class="box-tools pull-right">
+          <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-plus"></i></button>
+        </div>
+    </div>
+    <div class="box-body">
+        <div class="table-responsive">
+            <form id="add_new_comment_form" action="<?php echo $this->getSubmitUrl(); ?>" method="post">
+                <table class="table table-striped">
+                    <tbody>
+                        <tr>
+                            <td>
+                                <label for="history_comment"><?php echo __('Comment') ?></label>
+                                <p>
+                                    <textarea name="comment[comment]" rows="3" cols="5" id="history_comment" class="form-control" style="max-width:100%;"></textarea>
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="pull-left">
+                                    <div class="">
+                                        <?php if ($this->canSendCommentEmail()){ ?>
+                                            <label for="history_notify">
+                                                <input name="comment[is_customer_notified]" type="checkbox" id="history_notify" value="1" /> 
+                                                <?php echo __('Notify Customer by Email') ?>
+                                            </label>
+                                        <?php } ?>
+                                    </div>
+                                    <div class="">
+                                        <label for="history_visible">
+                                            <input name="comment[is_visible_on_front]" type="checkbox" id="history_visible" value="1" /> 
+                                            <?php echo __('Visible on Storefront') ?>
+                                        </label>
+                                    </div>    
+                                </div>
+                                <div class="pull-right">
+                                    <button type="button" class="btn btn-warning btn-xs" onclick="validateComment(this)"><?php echo __("Submit Comment"); ?></button>
+                                </div>
+                            </td>
+                        </tr>
+                        <?php foreach ($this->getEntity()->getCommentsCollection(true) as $_comment) { ?>
+                            <tr>
+                                <td>
+                                    <p class="text-warning">
+                                        <strong><?php echo $this->getFormattedDate($_comment->getCreatedAtDate(), \IntlDateFormatter::MEDIUM); ?></strong>
+                                        <?php if ($_comment->getIsCustomerNotified()){ ?>
+                                             | <?php echo __('Customer') ?> <?php echo __('Notified') ?>
+                                        <?php } else { ?>
+                                             | <?php echo __('Customer') ?> <?php echo __('Not Notified') ?>
+                                        <?php } ?>
+                                    </p>
+                                    <p><?php echo $this->escapeHtml($_comment->getComment(), array('b', 'br', 'strong', 'i', 'u', 'a')) ?></p>
+                                </td>
+                            </tr>
+                        <?php } ?>
+                    </tbody>
+                </table>
+            </form>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+    function validateComment() {
+        if(jQuery('#history_comment').val() == ''){
+            alert('<?php echo __('Please provide comment') ?>');
+        } else {
+            jQuery('form#add_new_comment_form').submit();
+        }
+    }
+</script>

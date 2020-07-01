@@ -1,0 +1,74 @@
+<div class="box box-warning collapsed-box">
+    <div class="box-header with-border" data-widget="collapse">
+        <h3 class="box-title"><?php echo __("Items To Be Shipped"); ?></h3>
+        <div class="box-tools pull-right">
+          <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-plus"></i></button>
+        </div>
+    </div>
+    <div class="box-body">
+        <div class="table-responsive">
+            <?php $_items = $this->getShipment()->getAllItems(); ?>
+            <?php $_count = count($_items); ?>
+            <?php $_has_product = false; ?>
+            <?php $colspan = 4; ?>
+            <table class="table table-striped table-bordered">
+                <thead>
+                    <tr>
+                        <th><?php echo __('Product') ?></th>
+                        <th><?php echo __('SKU') ?></th>
+                        <th><?php echo __('Qty') ?></th>
+                        <th class="text-center" ><?php echo __('Qty to Ship') ?></th>
+                        <?php if (!$this->canShipPartiallyItem()): ?>
+                            <?php $colspan = 5; ?>
+                            <th class="text-center"><?php echo __('Ship') ?></th>
+                        <?php endif; ?>
+                    </tr>
+                </thead>
+                <?php if($_count > 0){ ?>
+                    <tbody>
+                        <?php foreach ($_items as $_item){ ?>
+                            <?php if ($_item->getOrderItem()->getIsVirtual() || $_item->getOrderItem()->getParentItem()) continue; ?>
+                            <?php if (!$this->isSellerProduct($_item->getSku())) continue; ?>
+                            <?php $_has_product = true; ?>
+                            <?php echo $this->getItemHtml($_item) ?>
+                        <?php } ?>
+                    </tbody>
+                <?php } ?>
+                <?php if($_has_product){ ?>
+                    <tfoot>
+                        <tr>
+                            <td colspan="<?php echo $colspan; ?>">
+                                <p><?php echo __('Comment') ?></p>
+                                <p><textarea name="shipment[comment_text]" class="form-control" style="max-width:100%;"></textarea></p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="<?php echo ($colspan-2); ?>">&nbsp;</td>
+                            <td colspan="2" class="text-right">
+                                <label for="notify_customer">
+                                    <?php echo __("Append Comments"); ?>
+                                    <input id="notify_customer" name="shipment[comment_customer_notify]" value="1" type="checkbox">
+                                </label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="<?php echo ($colspan-2); ?>">&nbsp;</td>
+                            <td colspan="2" class="text-right">
+                                <label for="send_email">
+                                    <?php echo __("Email Copy of Shipment"); ?>
+                                    <input id="send_email" name="shipment[send_email]" value="1" type="checkbox">
+                                </label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="<?php echo ($colspan-2); ?>">&nbsp;</td>
+                            <td colspan="2" class="text-right">
+                                <button type="button" class="btn btn-xs btn-success" onclick="validateQtyToShipment(this)"><i class="fa fa-check"></i> <?php echo __("Submit Shipment"); ?></button>
+                            </td>
+                        </tr>
+                    </tfoot>
+                <?php } ?>
+            </table>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,65 @@
+<!-- Start - Images -->
+<?php $product = $this->getProduct(); ?>
+
+<div class="collapsed-box box">
+    <div class="box-header with-border" data-widget="collapse">
+        <h3 class="box-title"><?php echo __("Images"); ?></h3>
+        <div class="box-tools pull-right tab-error-highlighter text-red">
+            <i class="fa fa-warning"></i>
+        </div>
+        <div class="box-tools pull-right">
+          <button type="button" class="btn btn-box-tool" ><i class="fa fa-plus"></i></button>
+        </div>
+    </div>
+    <div class="box-body">
+        <div class="table-responsive">
+            <table class="table table-bordered">
+                <thead>
+                    <tr class="heading-row">
+                            <th width='150'><?php echo __('Image'); ?></th>
+                        <!--<th><?php // echo __('Label'); ?></th>-->
+                        <!--<th width="80"><?php // echo __('Sort Order'); ?></th>-->
+                        <?php foreach ($this->getImageTypes() as $typeId => $type): ?>
+                            <th><?php echo $type['label'] ?></th>
+                        <?php endforeach; ?>
+                        <th><?php echo __('Remove'); ?></th>
+                    </tr>
+                </thead>
+                <tbody id="vssmp-product-img-body"></tbody>
+            </table>
+        </div>
+        <div class="">
+            <div class="pull-left">
+                <p id="vssmp-img-ext-err" class="text-red" style="display:none;"><i class="fa fa-exclamation"></i><span><?php echo __('File is not supported'); ?></span></p>
+            </div>
+            <div class="pull-right">
+                <button type="button" onclick="createImageRow('[]');" class="btn btn-warning btn-sm"><i class="fa fa-upload"></i> <?php echo __('Upload New Image'); ?></button>
+                <p class="text-muted">(<?php echo __('.jpeg, .jpg, .png, ,gif'); ?>)</p>
+            </div>
+        </div>
+
+        <?php echo $this->getChildHtml('', true, true); ?>
+    </div>
+</div>
+
+<script type="text/javascript">
+    var vssmp_pro_no_img_msg = '<?php echo __("No Image uploaded for this product"); ?>';
+    var vssmp_image_types = [];
+    var browse_text = '<?php echo __('Browse'); ?>';
+    <?php foreach($this->getImageTypes() as $typeId=>$type){ ?>
+        vssmp_image_types.push({'id': '<?php echo $typeId; ?>', 'field': '<?php echo $type["field"]; ?>'});
+    <?php } ?>
+    var vssmp_pro_img_format = [];
+    <?php foreach($this->getImageFormat() as $ext){ ?>
+        vssmp_pro_img_format.push('<?php echo $ext; ?>');
+    <?php } ?>
+        require(['jquery', 'Knowband_Marketplace/theme/product'], function(jQuery){
+    <?php if($product->getId()){ ?>
+        <?php foreach($this->getImages() as $image){ ?>
+            <?php $image_values = $this->getImagesValue($image->getData()); ?>
+            createImageRow('<?php echo $this->jsonEncode($image_values); ?>');
+        <?php } ?>
+    <?php } ?>
+         
+        });
+</script>

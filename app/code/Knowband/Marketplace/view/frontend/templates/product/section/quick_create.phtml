@@ -1,0 +1,41 @@
+<div id="vssmp-simple-product-popup" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" onclick="closeModalAfterReset('vssmp-simple-product-popup')"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title"><?php echo __('Quick simple product creation'); ?></h4>
+        </div>
+        <div class="modal-body">
+            <?php if(!$this->isRenderForm()){ ?>
+                <div class="alert alert-warning"><?php echo $this->getLimitOverMsg(); ?></div>
+            <?php }else{ ?>
+                <?php $quick_product_fields = $this->getFormFields(); ?>
+                <?php $product = $this->getProduct(); ?>
+                
+                <div class="overlay-wrapper" style="display:none;">
+                    <div class="overlay"><i class="fa fa-refresh fa-spin"></i></div>
+                </div>
+                <div class="box-body">
+                    <?php if(count($quick_product_fields) > 0){ ?>
+                        <?php foreach($quick_product_fields as $field){ ?>
+                            <div class="form-group col-xs-12 col-sm-12 col-lg-6 <?php if($field['is_visible']){ ?>hidden<?php } ?>">
+                                <label><?php echo $field['label']; ?><?php if($field['is_required']){ ?><sup><em>*</em></sup><?php } ?></label>
+
+                                <?php echo $this->renderFieldHtml($field, 'quick_create'); ?>
+                            </div>
+                        <?php } ?>
+                    <?php } ?>
+                    <?php echo $this->getChildHtml('', true, true); ?>
+                    
+                </div>
+                <div class="box-footer">
+                    <div class=" col-lg-12">
+                        <?php $quick_create_url = $this->getFrontUrl('product', 'quickCreate', ['id' => $product->getId()]); ?>
+                        <button type="button" title="" class="btn btn-success btn-sm" onclick="vssmpCreateQuickProduct('<?php echo $quick_create_url; ?>')"><?php echo __('Create'); ?></button>
+                    </div>
+                </div>
+            <?php } ?>
+        </div>
+      </div>
+    </div>
+</div>

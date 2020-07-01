@@ -1,0 +1,66 @@
+<style>
+th.data-grid-th.no-link.col-action {
+    width: 150px;
+}
+</style>
+<?php 
+    echo $this->getLayout()
+    ->createBlock("Knowband\Marketplace\Block\Adminhtml\Grid\SellerProductList")
+    ->toHtml();
+?>
+
+<div id="vssmp_popup_reason">
+</div>
+<script>
+function openVssmpReasonForm(url)
+{
+    require(
+        [
+            'jquery',
+            'Magento_Ui/js/modal/modal'
+        ],
+        function(
+            $,
+            modal
+        ) {
+            var options = {
+                type: 'popup',
+                responsive: true,
+                innerScroll: true,
+                title: '<?php echo __("Why do you want to do this?");?>',
+                buttons: [{
+                    text: '<?php echo __('Continue'); ?>',
+                    class: 'hidden_element',
+                    click: function () {
+                        this.closeModal();
+                    }
+                }]
+            };
+            
+            
+            $.ajax({
+                type: "POST",
+                showLoader: true,
+                url: url,
+                data:
+                {
+                    form_key : window.FORM_KEY
+                },
+                success: function (output) {                    
+                    if(output == "0")
+                    {
+                        alert("<?php echo __("Something went wrong. Please try again.");?>");;
+                    }
+                    else
+                    {
+                        var popup = modal(options, $('#vssmp_popup_reason'));
+                        $("#vssmp_popup_reason").html(output).modal("openModal");
+                    }
+                }
+
+            });
+            
+        }
+    );
+}
+</script>

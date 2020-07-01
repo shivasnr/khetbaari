@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Event/etc/events.xsd">
+    <event name="controller_action_predispatch_customer_account_createpost">
+        <observer name="GetSellerData" instance="Hariyo\Marketplace\Observer\GetSellerOption" />
+    </event>
+    
+    <event name="customer_register_success">
+        <observer name="SaveSellerData" instance="Hariyo\Marketplace\Observer\SaveAsSeller" />
+    </event>
+    
+    <event name="customer_data_object_login">
+        <observer name="redirectToDashboard" instance="Hariyo\Marketplace\Observer\RedirectToDashboard" />
+    </event>
+</config>

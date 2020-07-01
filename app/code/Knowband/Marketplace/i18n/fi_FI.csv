@@ -1,0 +1,1009 @@
+The product status will be 'Disabled' until it is approved from admin.,"Tuotteen tila näkyy 'Disabled', kunnes se on hyväksytty admin."
+The seller has already added more products. Please either increase the limit or save it as it is.,Myyjä on jo lisätty enemmän tuotteita. Ota joko nostamaan rajaa tai tallentaa sen sellaisenaan.
+Reason,Syy
+Required field,Vaadittu kenttä
+Submit,Lähetä
+Why do you want to do this?,Miksi haluat tehdä tämän?
+Continue,Jatkaa
+Something went wrong. Please try again.,Jotain meni pieleen. Yritä uudelleen.
+Vacation Interval: ,Loma Väli:
+Is Active: ,On aktiivinen:
+Vacation Halt Status: ,Loma Halt Tila:
+Comment: ,Kommentti:
+Reason for canceling vacation: ,Peruuttamisen syy loma:
+Vacation Detail,loma Yksityiskohta
+Your comment to cancel this vacation,Kommenttisi peruuttaa loma
+Register as Seller,Ilmoittautua Myyjä
+Yes,Joo
+No,Ei
+Marketplace CRON Instructions,Marketplace CRON Ohjeet
+Vacation CRON,loma CRON
+Disable the products during the seller's vacation period.,Poistaa tuotemassa myyjän Lomakauden.
+Low Stock Notification CRON,Alhainen Stock Ilmoitus CRON
+Send the notification to the sellers about their low stock products.,Lähettää ilmoituksen myyjille heidän pienet varastot tuotteita.
+Cron Instructions,cron Ohjeet
+Add the Cron Jobs to your store via control panel/putty. Find below the Instruction to add the Cron Jobs.,Lisää Cron Jobs ihmettelemään ohjauspaneelista / kitti. Alla Instruction lisätä Cron Jobs.
+URLs to Add to Cron via Control Panel,URL-Lisää Cron ohjauspaneelin kautta
+1. Vacation CRON,1. Vacation CRON
+2. Low Stock Notification CRON,2. Alhainen Stock Ilmoitus CRON
+Cron setup via SSH,Cron asennus SSH
+Choose Store Categories,Valitse Store Luokat
+Collapse All,Tiivistä kaikki
+Expand All,Laajenna kaikki
+This operation can take a long time,Tämä operaatio voi kestää kauan
+Please confirm site switching. All data that hasn\'t been saved will be lost.,"Vahvista sivusto kytkentä. Kaikki tiedot, jotka Hasn \ 't on tallennettu menetetään."
+Warning message,varoitusviesti
+Field cannot be empty.,Kenttä ei voi olla tyhjä.
+You can enter only numbers.,Voit kirjoittaa vain numeroita.
+Number should be greater than 0.,Numeron on oltava suurempi kuin 0.
+Field cannot be greater than {#} characters.,Kenttä ei voi olla suurempi kuin {#} merkkiä.
+Field cannot be less than {#} character(s).,Kenttä ei voi olla pienempi kuin {#} merkki (s).
+Please enter Email.,Anna sähköposti.
+Please enter a valid Email.,Anna kelvollinen sähköposti.
+Invalid date format.,Virheellinen päivämäärän muoto.
+Number is not in the valid range. It should be between {#} and {##},Numero ei ole kelvollisella alueella. Sen tulisi olla välillä {#} ja {##}
+Field should be numeric.,Kenttä on oltava numeerinen.
+Field should be positive.,Kentän tulisi olla positiivinen.
+Field can have only upto two decimal values.,Kenttä voi olla vain enintään kahden desimaalin arvoja.
+Email cannot be greater than {#} characters.,Sähköpostia ei voi olla suurempi kuin {#} merkkiä.
+Zip should not have special characters.,Zip pitäisi olla erikoismerkkejä.
+Percentage should be in number.,Prosenttiosuuden tulisi olla numero.
+Percentage should be between 0 and 100.,Prosenttiosuus tulisi olla välillä 0 ja 100.
+Size cannot be greater than {#} characters.,Koko ei voi olla suurempi kuin {#} merkkiä.
+Color could not be greater than {#} characters.,Väri ei voi olla suurempi kuin {#} merkkiä.
+Color is not valid.,Väri ei kelpaa.
+Special characters are not allowed.,Erikoismerkit eivät ole sallittuja.
+Script tags are not allowed.,Koodit eivät ole sallittuja.
+Style tags are not allowed.,Tyyli koodit eivät ole sallittuja.
+Iframe tags are not allowed.,Iframe-tunnisteet eivät ole sallittuja.
+Uploaded file is not an image.,Lähetetty tiedosto ei ole kuva.
+Uploaded file size must be less than {#}.,Ladattu tiedostokoko on oltava alle {#}.
+Field should not contain HTML tags.,Kenttä ei saa sisältää HTML-tunnisteita.
+You can enter only positive numbers.,Voit antaa ainoastaan ​​positiivisia lukuja.
+Are you sure?,Oletko varma?
+Comment,Kommentti
+Are you sure to update feature status of this seller?,Oletko varma päivittää piirre tila myyjän?
+Do you have any comment?,Onko teillä mitään kommentoida?
+"For accurate reporting, be sure to refresh lifetime statistics whenever you change the time zone.","Jotta tarkka raportointi, muista päivittää eliniän tilastoihin aina kun vaihdat aikavyöhykettä."
+To refresh last day's,Virkistää viime päivän
+statistics,tilasto
+click,klikkaus
+here,tässä
+Filter,Suodattaa
+Period,aika
+Day,Päivä
+Month,Kuukausi
+Year,vuosi
+From,alkaen
+Select Date,Valitse päivä
+To,jotta
+Choose Category,Valitse luokka
+All Categories,kaikki kategoriat
+Choose a Seller,Valitse Myyjä
+All Sellers,kaikki myyjät
+NA,NA
+PayPal Payout Settings,PayPal Palautusprosentti Asetukset
+Active,aktiivinen
+Enable or Disable Paypal Payment Method.,Ota käyttöön tai Poista PayPal Maksutapa.
+Client ID,Asiakastunnus
+Client Secret,asiakassalaisuutesi
+Paypal Mode,Paypal tila
+Sandbox,Hiekkalaatikko
+Live,Elää
+Paypal Email Subject,Paypal Sähköpostin aihe
+Paypal Currency ,Paypal Valuutta
+Select the default currency set in Paypal Account.,Valitse oletusvaluuttaa asetettu Paypal-tili.
+Are You Sure you want to reset the settings?,Oletko varma haluat palauttaa asetukset?
+Edit Email Template,Edit Sähköpostimalli
+About Template,Tietoja malli
+Template Subject,template Aihe
+Email Content,sähköpostien sisältöä
+Template Content,Mallisisältö
+Please do not edit or remove any template variable.,Älä muokkaa tai poista Mallimuuttujan.
+Example,esimerkki
+Seller Account Settings,Myyjä Tilin asetukset
+Default Commission,Oletus komissio
+Please enter a number between 0 and 100 only and in a proper format.,Anna numero väliltä 0 ja 100 vain ja ovat asianmukaisessa muodossa.
+Use Global,Käytä yleistä
+New Product Limit,Uutuustuote Raja
+Limit the sellers to add new products without account approval.,Rajoita myyjät lisätä uusia tuotteita ilman tilin hyväksyntää.
+If left blank than product limit will be assumed 0.,Jos tyhjä kuin tuote raja oletetaan 0.
+Categories Allowed,Luokat Sallitut
+If no category is selected that will mean that all the categories are allowed.,"Jos mitään luokka valitaan, joka merkitsee sitä, että kaikki luokat sallitaan."
+Product Approval Required,Tuotteiden hyväksyntä vaaditaan
+Enable,ota käyttöön
+Disable,Poista käytöstä
+Enable Seller Review,Ota Myyjäarvostelua
+Required Seller Review Approval,Pakollinen Myyjäarvostelua hyväksyminen
+Email to Seller on Order Place,Myyjälle sähköpostiviesti tilauksesta Place
+Please enter a valid number in this field.,Anna kelvollinen numero tällä alalla.
+Payout Transaction Request,Palautusprosentti Maksutapahtumapyyntösi
+Required Field,Vaadittu kenttä
+Invalid Value,Kelpaamaton arvo
+"Invalid Value, please enter a number greater than zero","Virheellinen arvo, anna numero suurempi kuin nolla"
+Minimum 30 character required,Vähintään 30 merkkiä tarvitaan
+General Settings,Yleiset asetukset
+Enable Marketplace,Ota Marketplace
+Toggle to enable or disable extension,Vaihda estää tai sallia laajennuksen
+Default Commission (%),Oletus komissio (%)
+Set default commission in percentage for each product.,Aseta oletus provision prosentteina kullekin tuotteelle.
+Choose the categories allowed for the sellers. If no category is selected that will mean that all the categories are allowed.,"Valitse luokat sallitaan myyjille. Jos mitään luokka valitaan, joka merkitsee sitä, että kaikki luokat sallitaan."
+Register as Seller Field,Ilmoittautua Myyjä Field
+Enable to add 'Register as Seller' field while registering.,Ota lisätä rekisteriin myyjänä kenttään rekisteröitymisen.
+Enable Bulk Import/Export,Ota Bulk Import / Export
+"If disable, no seller will be able to use bulk import/export feature.","Jos poistaminen käytöstä, ei myyjä voi käyttää suurimman tuonti / vienti ominaisuus."
+If enable an email will be sent to seller on order for his product.,"Jos mahdollista sähköpostia lähetetään myyjä, jotta hänen tuotteensa."
+Enable Vacation Mode,Ota Lomatila
+"If disable, no seller will be able to use vacation feature.","Jos poistaminen käytöstä, ei myyjä voi käyttää loma ominaisuutta."
+Show Seller Info on Product Page,Näytä Myyjän tiedot tuotteen sivulta
+Enable/Disable to show/hide seller info on product page.,Päällä / pois Näytä / piilota myyjä info tuotteen sivulta.
+Enable or Disable Approval of product for the sellers.,Voit sallia tai estää hyväksyminen tuotteen myyjille.
+Default limit for sellers of adding new products before account approval. Blank will be considered as 0.,Oletusraja myyjille uusia tuotteita ennen tilin hyväksymistä. Tyhjä pidetään 0.
+Enable or Disable Seller review feature. This feature enables the customers to add review for sellers.,Ota käyttöön tai Poista myyjäarvioiden ominaisuus. Tämän ominaisuuden avulla asiakkaat voivat lisätä tarkastelun myyjille.
+Seller Review Approval Required,Myyjäarvostelua hyväksyntä vaaditaan
+Enable or Disable Approval for seller review. Once the review is approved then only it will be visible to the customers.,Ota käyttöön tai Poista hyväksyntä myyjäarvio. Kun tarkastelu on hyväksytty silloin vain se näkyy asiakkaille.
+Enable Seller List,Ota Myyjä List
+Show or Hide Sellers List from customers.,Näyttää tai piilottaa Sellers List asiakkailta.
+Enable Search Box,Ota hakukenttä
+Enable or Disbale search box to search seller on seller listing page.,Ota tai Haluatko ottaa hakukentän etsiä myyjä myyjä listalle sivulla.
+Low Stock Configuration,Matala Stock Kokoonpano
+Enable Low Stock Notification,Ota Matala Stock ilmoitus
+Enable or Disable Low Stock Notification feature.,Ota käyttöön tai Poista pienet varastot Ilmoitus ominaisuus.
+Low Inventory Limit,Matala Inventory Limit
+Enter the limit below that the products are considered low stock.,"Anna rajan alapuolella, että tuotteita pidetään pienet varastot."
+When to Notify,Milloin Ilmoita
+Choose when to notify the seller regarding the critical inventories.,"Valita, milloin ilmoittaa myyjälle kriittiseestä omaisuuteen."
+Cron Job,ajastettu tehtävä
+On Order Place,Tilauksessa Place
+Send Notifications From,Send ilmoitukset
+Choose the email from which you want to send the notifications.,"Valitse sähköposti, josta haluat lähettää ilmoitukset."
+Seller Name,myyjän
+Select,valita
+Transaction ID,tapahtuman tunnus
+Transaction Type,Maksutavan tyyppi
+Amount,Määrä
+Send Email to Seller,Lähetä myyjälle
+"Invalid Value, please enter a number greater then zero","Virheellinen arvo, anna numero suurempi sitten nolla"
+Add New Transaction,Lisää uusi tapahtuma
+Posted On: ,Lähetetty:
+Customer Rating: ,Asiakkaiden arviot:
+Review: ,Arvostelu:
+Reason for Disapproval: ,Hylkäämissyitä:
+Seller Review Detail,Myyjäarvostelua Yksityiskohta
+Provide Your Reason,Annettava syy
+We can\'t find products matching the selection.,Voimme \ 't löytää Valintaa vastaavia tuotteita.
+View Details,Tarkemmat tiedot
+In stock,Varastossa
+Out of stock,Loppunut varastosta
+Learn More,Lue lisää
+My Sales Dashboard,My Sales Dashboard
+Total Revenue,Kokonaistulo
+Total Orders,Yhteensä tilaukset
+Total Products Sold,Yhteensä myytävät tuotteet
+Last 7 Days,Viimeiset 7 päivää
+Sales Comparisons,myynti vertailut
+Orders,tilaukset
+Revenue,Tulot
+Products Sold,myytävät tuotteet
+Discounts,alennukset
+Balance Amount Variations,Saldo Variations
+Today,Tänään
+Yesterday,Eilen
+This Week,Tämä viikko
+Last Week,Viime viikko
+This Month,Tässä kuussa
+Last Month,Viime kuukausi
+This Year,Tämä vuosi
+Last Year,Viime vuonna
+Last 10 Orders,Viimeiset 10 Tilaukset
+View All Orders,Katso kaikki tilaukset
+Order Number,Tilausnumero
+Order Date,Tilauspäivämäärä
+Customer Name,Asiakkaan nimi
+Customer Email,asiakkaan sähköposti
+Qty,Määrä
+Status,Status
+Order Total,tilaus yhteensä
+click to view order,napsauttamalla Näytä tilaus
+No Orders Placed Yet,Ei tilauksista vielä
+Seller Products,myyjä Tuotteet
+Filter Products,suodatin Tuotteet
+Category,Kategoria
+Sort By,Järjestä
+Name,Nimi
+SKU,SKU
+Price(low to high),Hinta (pienimmästä suurimpaan)
+Price(high to low),Hinta (suurimmasta pienimpään)
+Products Feedback,tuotteet Palaute
+Filter Your Search,Suodatin hakua
+Search,Hae
+Reset,asettaa uudelleen
+No Data,Ei dataa
+Posted on,Lähetetty
+by,mennessä
+Rating,luokitus
+Summary,Yhteenveto
+Review,Arvostelu
+My Products Catalog,Omat Tuotteet luettelo
+New Product,Uusi tuote
+Choose,Valita
+Please select atleast one item from list.,Valitse atleast yksi kohde luettelosta.
+Select Attribute Set for New Product,Valitse attribuuttisarja uuden tuotteen
+Attribute Set,attribuuttisarja
+Product Type,Tuotetyyppi
+Choose Bulk Action,Valitse Joukkotoimi
+Delete,Poistaa
+Status Update,Tila päivitys
+Close,kiinni
+Save,Tallentaa
+Save & Continue,Tallenna ja jatka
+Duplicate,monistaa
+Cancel,Peruuttaa
+%d characters remaining.,% D merkkiä jäljellä.
+Please fill required fields with valid information.,Täytä pakolliset kentät kanssa voimassa tietoja.
+Special price should be less than actual price,Special hinta olisi alle todellinen hinta
+Past date not allowed,Mennyt päivämäärä ei sallita
+Quick simple product creation,Nopea yksinkertainen Product Creation
+Create,Luoda
+Prices,hintoja
+Meta Information,Meta Information
+General Information,Yleistä tietoa
+Allows your product's visibility on search or catalog page.,Mahdollistaa tuotteen näkyvyyttä haku tai luettelosivu.
+Maximum %d characters allowed.,Enintään% d merkkiä sallitaan.
+Date of product from which this product will be marked as new.,"Jona tuote, josta tämä tuote merkitään uusia."
+Date of product until which this product will be marked as new.,"Jona tuote, johon asti valmiste merkitään uusia."
+Category Mapping,Luokka Mapping
+Associated Products,Associated Tuotteet
+Create Simple Product,Luo yksinkertainen tuote
+Quick Create,nopea luominen
+Id,Id
+Sku,sku
+Product Name,tuotteen nimi
+Stock Status,varastotilanne
+Select Attribute,Valitse Taito
+Attribute,ominaisuus
+Price,Hinta
+Default Qty,Oletus Määrä
+Samples,Näytteet
+Title,otsikko
+File,tiedosto
+Sort Order,Lajittelujärjestys
+Add New Row,Lisää uusi rivi
+Links,Linkit
+Links can be purchased separately,Linkit voi ostaa erikseen
+Max. Downloads,Max. Lataukset
+Shareable,jaettavia
+Sample,Näyte
+Unlimited,Rajoittamaton
+Url,url
+Inventory,inventaario
+Quantity,Määrä
+Manage Stock,Hallitse Stock
+"On enabling, stock will be managed automatically. For manual stock, select disable","Ottamisesta, kalusto hallinnoidaan automaattisesti. Manuaaliseen varastossa, valitse Poista käytöstä"
+Qty Uses Decimal,Määrä Käyttää Desimaali
+Stock Availability,Saatavuus varastossa
+Shipment,lähetys
+Ship Bundle Items,Ship Bundle Items
+Separately,Erikseen
+Together,Yhdessä
+Bundle Items Options,Bundle Asetukset Vaihtoehdot
+Add New Option,Lisää uusi vaihtoehto
+Default Title,Oletusotsikko
+Delete Option,Poista vaihtoehto
+Input Type,Syötteen tyyppi
+Is Required,Vaaditaan
+Position,asento
+Add Selection,Lisää valinta
+Price Type,Hinta Tyyppi
+User Defined Qty,Käyttäjän määrittämä määrä
+Default,oletusarvo
+Qty to Add,Määrä lisätä
+Add Selected Product(s) to Option,Lisää Valittu tuote (t) Vaihtoehto
+Images,kuvat
+Image,Kuva
+Label,etiketti
+Remove,Poistaa
+File is not supported,Tiedostoa ei tueta
+Upload New Image,Lähetä uusi kuva
+".jpeg, .jpg, .png, ,gif",".jpeg, .jpg, .png, GIF"
+No Image uploaded for this product,Ei kuvaa ladattu tälle tuotteelle
+Browse,selailla
+Related Products,Liittyvät tuotteet
+This attribute set does not have attributes which we can use for configurable product,"Tämä määrite sarja ei ole ominaisuuksia, jotka voimme käyttää konfiguroitavissa tuotetta"
+Please select one or more attributes.,Valitse yksi tai useampia ominaisuuksia.
+Sold By,Myynyt
+Total %d review(s),Yhteensä% d tarkastelu (t)
+View Reviews,Näytä arvostelua
+Write Review,Kirjoittaa arvostelu
+File Size Exceeding the Limit.,Tiedoston Koko ylittävältä.
+Max Upload Size: 200 KB,Max Upload Koko: 200 KB
+Max Upload Size: 500 KB,Max Upload Koko: 500 KB
+This key already assigned to another seller. Please fill another.,Tämä avain on jo siirretty toiselle myyjälle. Täytä toinen.
+My Seller Profile,Omat Myyjän profiili
+View Collection,Näytä kokoelma
+View Profile,Näytä profiili
+General,yleinen
+Shop Title,Kauppa Otsikko
+Contact Number,Yhteysnumero
+(Image Size: 150 X 150),(Kuvan koko: 150 x 150)
+Shop Logo,Kauppa Logo
+(Image Size: 1180 X 250),(Kuvan koko: 1180 x 250)
+Shop Banner,Kauppa Banner
+Shop Address 1,Kauppa Osoite 1
+Shop Address 2,Kauppa Osoite 2
+City,Kaupunki
+Pincode,Pin-koodi
+State,Osavaltio
+Country,Maa
+Description,Kuvaus
+Please provide link of your facebook page,Antakaa linkki oman Facebook-sivun
+Facebook Link (optional),Facebook Link (lisävaruste)
+For example:,Esimerkiksi:
+or,tai
+Please provide link of your google plus profile,Antakaa linkki Google plus profiilin
+Google Plus Link (optional),Google Plus Link (lisävaruste)
+Please provide link of your twitter profile,Antakaa linkkiä viserrys profiilin
+Twitter Link (optional),Twitter Link (lisävaruste)
+Meta Keywords,Meta avainsanat
+Meta Description,Meta Kuvaus
+Example: my-selling-store,Esimerkki: my-myynti-store
+Page Url Key,Sivun URL Key
+Policy,politiikka
+Return Policy,PALAUTUSKÄYTÄNTÖ
+Shipping Policy,merenkulkupolitiikka
+Payout,Palautusprosentti
+Admin will use the Payout information to make the payment. Only one payment information can be saved at a time.,Admin käyttää maksutietoja suorittaa maksu. Vain yksi maksu tiedot voidaan tallentaa kerralla.
+Select Payment Method,Valitse Maksutavan
+Seller,Myyjä
+Register As Seller,Ilmoittautua Myyjä
+My Reviews,arvosteluni
+Customer Review,Asiakaspalaute
+Disapproval Reason,hylkäyssyy
+Start Date,Aloituspäivämäärä
+End Date,Päättymispäivä
+Your comment to this vacation,Kommenttisi on loma
+Invalid format. Use: MM/dd/YYYY,Väärä muoto. Käyttö: MM / DD / YYYY
+End date should be greater than start date,Päättymispäivä on oltava suurempi kuin alkamispäivä
+End date should be future date,Päättymispäivä olisi tulevaisuudessa
+My Vacations History,Lomani historia
+Set New Vacation,Aseta uusi lomakohde
+Vacation Interval,loma Interval
+Is Active,On aktiivinen
+Vacation Halt Status,Loma Halt tila
+Reason for canceling vacation,Peruuttamisen syy loma
+click to view product details,klikkaa nähdäksesi tuotetiedot
+Sorry! No Product(s) Found.,Sorry! Ei Tuotteen (tta).
+Please select a category for your request.,Valitse luokka oman pyynnöstä.
+Please provide reason for your request.,Anna syy pyyntösi.
+Request a New Category,Pyydä uusi luokka
+Choose a Category,Valitse kategoria
+Select Category,Valitse kategoria
+Maximum 500 characters allowed.,Enintään 500 merkkiä sallittu.
+Submit Category Request Form,Lähetä Luokka tilauslomake
+No categories are available for request.,Ei luokkia ovat saatavilla pyynnöstä.
+Payout Request,Palautusprosentti pyyntö
+New Payout Request,Uusi Palautusprosentti Pyyntö
+Request Reason,pyyntö Syy
+Submit Payout Request Form,Lähetä Palautusprosentti tilauslomake
+Payout Details,Maksun tiedot
+Requested On,pyydetty
+Your Comment For Request,Kommenttisi varten Kysely
+Only 200 characters allowed,Vain 200 merkkiä sallittu
+"Only (xls, xlsx) formats are allowed","Vain (xls, xlsx) muotoja ei sallita"
+Toggle navigation,toggle navigointi
+My Account,Tilini
+Logout,Kirjautua ulos
+Account Warning!,Tilivaroitus!
+Back To Site,Takaisin sivulle
+Category Request Details,Luokka Pyydä tietoja
+Category Name,Kategorian nimi
+Your request is in pending. Please wait for store response.,Pyyntösi on odotustilassa. Odota myymälän vastausta.
+This feature is not active into your account.,Tämä ominaisuus ei ole aktiivinen tilillesi.
+To request this feature,Voit pyytää tätä ominaisuutta
+Click,Klikkaus
+Here,Tässä
+Request To Activate Import/Export Feature,Pyyntö aktivoida Import / Export Feature
+Comment ,Kommentti
+Required Field. Maximum 200 characters allowed.,Vaadittu kenttä. Enintään 200 merkkiä sallittu.
+Click to send request,Klikkaa lähetä pyyntö
+Your file has some errors. Please import file after resolving errors.,Tiedosto on joitakin virheitä. Ole hyvä tuoda tiedosto korjaamisen jälkeen virheitä.
+Click to download your file with errors,Klikkaa ladata tiedoston virheitä
+Download File with Errors,Lataa tiedosto Virheitä
+Go Back,Mene takaisin
+Please do not go back or refresh page while uploading your products.,Älä mene takaisin tai päivittää sivun ladattaessa tuotteita.
+It may causes errors in your catalog.,Se voi aiheuttaa virheitä luettelossa.
+Download Template,Lataa malli
+Select Product Type,Valitse tuotteen tyyppi
+Product Attribute Set,Tuote attribuuttisarja
+Select Attribute Set,Valitse Taito Set
+Download Template File,Lataa mallitiedosto
+Please make sure that columns in your file must be matched with template file created for you on the basis of selected attribute.,"Varmista, että tiedoston sarakkeiden täytyy sovittaa Pohjatiedostoa luonut teille pohjalta tietyn ominaisuuden."
+Import Products,tuontituotteiden
+Import Action,tuonti Toiminta
+Select Action,Toimen valinta
+"Action will only be performed on the basis of SKU of products. Without sku, product will not be consider for any action.","Toimenpide tehdään vain sen perusteella, SKU tuotteita. Ilman SKU tuotetta ei harkita mitään."
+Upload File,Lataa tiedosto
+"Only (xls, xlsx) file will be accepted","Vain (xls, xlsx) tiedosto hyväksytään"
+File must not exceed %s MB,Tiedostoa ei saa ylittää% s MB
+Browse File,Selaa tiedosto
+Validate File,vahvista Tiedosto
+File must no exceed %s MB,Tiedosto on ei saa ylittää% s MB
+Import/Export Instructions,Import / Export Ohjeet
+Import,Tuonti
+Export,Viedä
+Import Instructions,tuontiohjeet
+"Download Template as per your product type. At a time, only 1 type of products can be import.",Lataa malli kohti tuotetyyppisi. Kerrallaan vain 1 laji tuotteet voivat olla tuontia.
+"If you import more than 1 type of products from one file, then system will be fail or affect your catalog.","Jos tuot yli 1 tyyppisiä tuotteita yhden tiedoston, niin järjestelmä on epäonnistua tai vaikuttaa luettelo."
+Each template will have '%s' worksheet. Your import file must have this worksheet as it is. Please do not change anything in its content.,"Kukin malli on% s taulukkoon. Oman Tuontitiedostossa oltava tätä lomaketta, koska se on. Älä muuta mitään sen sisällöstä."
+Each template will have '%s' worksheet. Please provide product data from possible values of corresponding field. If field has possible values.,Kukin malli on% s taulukkoon. Ilmoita tuotteen tiedot mahdollista arvoa vastaavaan kenttään. Jos kenttä on mahdollista arvoa.
+"Only 'xls, xlsx' file having size less than %sMB will be acceptable.","Vain 'xls, xlsx' tiedoston, jolla on alle% SMB hyväksyttävissä."
+If you want to import using exported data then copy the general & image sheet of exported file into general & image sheet of the downloaded template file.,Jos haluat tuoda käyttäen viedään datan kopioi yleisen ja kuva arkki viedyn tiedoston yleiseen ja kuva arkki ladattu mallitiedosto.
+"Use (|) to seperate value in multivalue field like category_ids, related_products.","Käytä (|) erottaa arvoon multivalue alalla kuten category_ids, related_products."
+Export Instructions,vienti Ohjeet
+Select export type in export section.,Valitse vientityyppi viennin osassa.
+"If the export type is Category, then system will export only assigned categories to you.","Jos vienti tyyppi on luokka, niin järjestelmä viedä vain ryhmitellyt sinulle."
+"In case of products, select product type and attributes set.","Mikäli tuotteen, valitse tuotetyyppi ja määritteitä asetettu."
+Exported data will be in xls/xlsx format.,Vietyjä tietoja tulee xls / xlsx-muodossa.
+Export Type,vienti tyyppi
+Select Export Type,Valitse vientityyppi
+Category Export,Luokka vienti
+Product Export,tuote Vie
+Product Status,tuotteen tila
+All,Kaikki
+Disabled,Liikuntarajoitteinen
+Enabled,käytössä
+In Stock,Varastossa
+Out of Stock,Loppunut varastosta
+Export Data,Vie tiedot
+This process will take few minutes.,Tämä prosessi kestää muutaman minuutin.
+Please do not go back or refresh page while exporting your data.,Älä mene takaisin tai päivittää sivun kun viemällä tiedot.
+Your are not eligible to use this feature as your account is either not approved or inactive.,Teidän ei ole oikeutta käyttää tätä ominaisuutta tilisi joko ole hyväksytty tai passiivisia.
+"Currently, this feature is disabled by store.",Tällä hetkellä tämä ominaisuus on poissa käytöstä myymälässä.
+You cannot use this feature as required library is missing. Please contact to support.,Et voi käyttää tätä ominaisuutta tarpeen kirjasto puuttuu. Ota yhteyttä tukea.
+Total Sale,Yhteensä Sale
+Total Earning,Yhteensä tuottava
+Transaction Details,maksutapahtuman tiedot
+My Earnings,tuloihini
+Earnings History,Tulos Historia
+Order Wise Earnings,Jotta Wise Tulos
+Transactions History,siirtohistoria
+Total Paid,maksettujen
+Balance,Saldo
+Quantity to Add,Määrä lisätä
+Low Stock Notification,Matala Stock Ilmoitus
+Configuration,kokoonpano
+Receive Low Stock Notifications,Vastaanottaa Matala Stock Ilmoitukset
+Save Seller Level Configuration,Säästä Myyjä Level Configuration
+facebook,Facebook
+twitter,viserrys
+google,Google
+About Seller,Tietoja Myyjä
+Description not available.,Kuvaus ei ole saatavilla.
+Write your thought,Kirjoita ajatus
+Summary of your review,Arvostelusi tiivistelmä
+Your Thought,oman ajattelun
+Your Name,Sinun nimesi
+Rate this seller,Arvioi myyjä
+Submit Review,Lähetä arvostelu
+Notify Customer by Email,Ilmoittaa Asiakkaalle Sähköposti
+Visible on Storefront,Näkyvissä verkkokaupassa
+Submit Comment,Lähetä kommentti
+Customer,asiakas
+Notified,ilmoitetun
+Not Notified,ei ole ilmoitettu
+Please provide comment,Anna kommentti
+Product,Tuote
+Subtotal,Välisumma
+Order Detail,Tilauksen tiedot
+Click to download invoice.,Klikkaa ladataksesi laskun.
+Download Invoice,Lataa Lasku
+Click to download shipping slip.,Napsauta ja lataa merenkulun lipsahdus.
+Download Shipping Slip,Lataa Toimitus Slip
+Are you sure you want to send order email to customer?,"Oletko varma, että haluat lähettää tilauksen sähköpostitse asiakkaalle?"
+Click to send email to customer,Klikkaa lähetä asiakkaalle
+Send Email,Lähettää sähköpostia
+Click to create shipment,Klikkaa Luo siirtoa
+Ship,Laiva
+Print,Tulosta
+Basic Informations,Basic Informations
+Order Status,Tilauksen tila
+Billing Address,Laskutusosoite
+Shipping Address,Toimitusosoite
+Ordered,tilattu
+Shipped,toimitetaan
+Canceled,peruttu
+Refunded,Hyvitetty
+Gift Message,lahjaviesti
+Excl. Tax,Pl. Verottaa
+Total,Kaikki yhteensä
+Incl. Tax,Sis. Verottaa
+Total incl. tax,Yhteensä sis. verottaa
+Invoiced,laskutettu
+Order Items,tilausnimikkeet
+Shipments,lähetykset
+Ship to Name,Aluksen nimi
+Date Shipped,päivämäärän Toimitettu
+Total Qty,Yhteensä määrä
+click to view detail,klikkaa nähdäksesi yksityiskohta
+Tax,Verottaa
+Items To Be Shipped,Tuotteet on kuljetettava
+Qty to Ship,Määrä Ship
+Append Comments,Liitä kommentit
+Email Copy of Shipment,Sähköposti Kopio Lähetyksen
+Submit Shipment,lähetä Lähetys
+New Shipment,uusi lähetys
+Back,Takaisin
+Shipment Tracking,lähetysten seuranta
+Carrier,kantaja
+Tracking No.,Seuranta määrä
+Action,Toiminta
+Add Tracking Number,Lisää seurantanumero
+Invalid value(s) for Qty to Ship,Virheellinen arvo (t) Määrä Ship
+Shipment Detail,Lähetyksen Yksityiskohta
+Are you sure you want to send Shipment email to customer?,"Oletko varma, että haluat lähettää Toimitus sähköpostin asiakkaalle?"
+Send Tracking Information,Send seurantatiedot
+Tracking Number,Seurantanumero
+Add,Lisätä
+Tracking title is required.,Seuranta otsikko tarvitaan.
+Tracking number is required.,Seurantanumero vaaditaan.
+Shipped Items,toimitetaan Items
+Qty Shipped,Määrä Toimitettu
+No Item Shipped Yet,Ei Kohta vielä lähetetty
+Reviews,Arvostelut
+Posted on:,Lähetetty:
+by ,mennessä
+Sorry! No Reviews Found.,Sorry! Arvosteluja ei löytynyt.
+Write your review,Kirjoita arvostelu
+Sellers List,Sellers List
+Search Seller,haku Myyjä
+Sorry! No Seller(s) Found.,Sorry! Ei Myyjä (tta).
+General Contact,Yleiskontakti
+Customer Support,Asiakaspalvelu
+Sales Representative,Myyntiedustaja
+Custom Email 1,Mukautettu sähköposti 1
+Custom Email 2,Mukautettu sähköposti 2
+"Unable to write low stock files. Permission Error on ""var"" Directory.","Ei voi kirjoittaa pienet varastot tiedostoja. Lupa Virhe ""var"" hakemisto."
+Unable to write file for Seller ,Pysty kirjoittamaan tiedostoon Myyjä
+Product ID,Tuotetunnus
+Current Quantity,nykyinen Määrä
+Base Image,Base Image
+Small Image,pieni kuva
+Thumbnail,thumbnail
+Disallowed file type.,Kieltänyt tiedostotyyppi.
+Type of the product you have selected for this import template file.,Tuotetyypistä olet valinnut tämän tuonti- mallitiedosto.
+Attribute set you have selected for this product type in import template file.,Attribuuttisarja olet valinnut tämän tuotteen tyypin tuonti kaavaintiedostossa.
+single pipe(|) seperated multiple categories,yksi putki (|) erotetaan useita luokkia
+single pipe(|) seperated product sku,yksi putki (|) erotetaan tuote SKU
+single pipe(|) seperated attributes,yksi putki (|) erotetaan attribuutteja
+pair of values seperated by single pipe(|),pari arvoja erotetaan yhden putken (|)
+System will group your bundle item on the basis of this title. If two items has same title then they will be grouped in same bundle.,Järjestelmä ryhmittää nippu kohteen perusteella tämän osaston. Jos kaksi tuotetta on samanniminen sitten ne ryhmitellään samasta paketista.
+Daily,Päivittäin
+Weekly,Viikoittain
+Monthly,Kuukausittain
+Yearly,Vuosittain
+Waiting for Approval,Odottaa hyväksyntää
+Approved,hyväksytty
+Disapproved,hylätty
+Add new products,Lisää uusia tuotteita
+Update existing products,Päivittää olemassa olevia tuotteita
+Add/update products,Lisää / päivitä tuotteet
+Delete products,Poista tuotteet
+Bank Wire,Bank Wire
+Payment By Cheque,Maksaminen shekillä
+Paypal,Paypal
+Please provide the paypal email id.,Anna paypal email id.
+Paypal Email ID,Paypal -sähköpostitunnus
+Please provide additional information.,Anna lisätietoja.
+Additional Information,lisäinformaatio
+Please provide the name.,Anna nimi.
+Pay to the order of (name),Maksaa järjestyksessä (nimi)
+Please provide the address.,Anna osoite.
+Address,Osoite
+Address where the cheque should be sent to.,"Osoitteen, kun tarkastuksissa tulee lähettää."
+Please provide account owner name,Anna tilin omistaja nimi
+Account Owner,tilin omistaja
+Please provide bankwire details,Antakaa bankwire tiedot
+Details,Yksityiskohdat
+"Such as bank branch, IBAN number, BIC, etc.","Kuten pankin sivukonttori, IBAN, BIC, jne"
+Please provide bankwire address.,Anna bankwire osoite.
+Bank Address,Pankkiosoite
+Requsted on: ,Requsted on:
+ by,mennessä
+Amount: ,Määrä:
+Payment Method: ,Maksutapa:
+PayPal,PayPal
+PayPal ID: ,PayPal ID:
+Additional Information: ,Lisäinformaatio:
+Bankwire,bankwire
+Owner Name: ,Omistajan nimi:
+Details: ,Yksityiskohdat:
+Bank Address: ,Pankkiosoite:
+Cheque,Tarkistaa
+Address: ,Osoite:
+No balance amount is left for this seller.,Ei saldo määrä jää tämän myyjän.
+No order found for this seller. Transaction cannot be initiated.,Yhtään tilausta ei löytynyt tältä myyjältä. Tapahtumaa ei voida aloittaa.
+Paypal payout request failed.,Paypal voitto Pyyntö epäonnistui.
+Please enable paypal payout to make this transaction.,Salli paypal maksun tehdä tämän tapahtuman.
+Payout request does not exist.,Palautusprosentti pyyntöä ei ole olemassa.
+By System,System
+Manually,Käsin
+Successfully,onnistuneesti
+Credit,Luotto
+Debit,Veloittaa
+Unknown,Tuntematon
+Invalid request,Virheellinen pyyntö
+Export type is missing,Vientityyppi puuttuu
+No product found as per your selected parameters.,Ei tuote löydetty kohti sinun valitut parametrit.
+Unable to process request,Pysty käsittelemään pyyntöä
+No category assigned to you.,Ei luokka annetaan sinulle.
+invalid request,Virheellinen pyyntö
+Please select product parameters.,Valitse tuoteparametrit.
+No products found to export.,Ei löytynyt tuotteita vientiin.
+Vacation is successfully canceled.,Loma peruuttaminen onnistuu.
+New Vacation successfully created.,Uusi lomakohde luotu.
+Your products will be hidden automatically when the vacation starts.,"Tuotteesi piilotetaan automaattisesti, kun loma alkaa."
+Start Date or End Date cannot be less than today.,Käynnistä tai lopetuspäivä ei voi olla pienempi kuin nykyään.
+Start Date or End Date cannot be same.,Aloita tai lopetuspäivä ei voi olla sama.
+Date range should not be in between of any previous active vacation.,Ajanjakso ei saisi olla välillä kaikesta aiemmasta aktiivisen loman.
+Technical error occurred while validating new vacation.,Tekninen virhe validointi uusia loma.
+The requested vacation's detail not found.,Pyydetyt loma tiedot ei löytynyt.
+Marketplace - CRON,Marketplace - CRON
+Please enable the low stock notifications functionality first,Salli alhainen varastossa ilmoituksia toiminnallisuutta ensin
+Please enable the marketplace module first,Salli markkinoilla moduuli ensimmäinen
+Low Stock Notifications Cron Executed Successfully.,Alhainen Stock Ilmoitukset Cron suoritettu onnistuneesti.
+"There were some errors executing the low stock notifications cron, please check Log for more details.","Siinä oli joitakin virheitä suorittamalla pienet varastot ilmoituksia ajastettu, tarkista loki lisätietoja."
+Please enable the seller vacation functionality first,Salli myyjä loma toiminnallisuutta ensimmäinen
+Vacation Cron Executed Successfully.,Loma Cron suoritettu onnistuneesti.
+"There were some errors executing the vacation cron, please check Log for more details.","Siinä oli joitakin virheitä suorittamisen loma cron, tarkista loki lisätietoja."
+View Shipment,Näytä Lähetys
+Requested order details not Found.,Pyydetty tilauksen tiedot eivät löydy.
+We can\'t save the shipment right now.,Voimme \ 't tallentaa lähetyksen juuri nyt.
+Shipment Document Validation Error(s):\n,Lähetyksen Document tarkistusvirhe (t): \ n
+The shipment has been created.,Lähetys on luotu.
+You created the shipping label.,Loit rahtikirjaan.
+An error occurred while creating shipping label.,Virhe luotaessa tapahtui palautustarraa.
+Cannot save shipment.,Ei voi tallentaa lähetystä.
+Please enter a comment.,Anna kommentti.
+Comment has been added for this shipment.,Kommentti on lisätty tälle siirtoa.
+Cannot add new comment.,Voi lisätä uusi kommentti.
+You sent the shipment.,Lähetit lähetys.
+Cannot send shipment information.,Voi lähettää lähetystiedot.
+Please specify a carrier.,Määritä harjoittaja.
+Please enter a tracking number.,Anna seurantanumero.
+Tracking number successfully updated into this shipment.,Seurantanumero päivitetty tähän siirtoa.
+We can\'t initialize shipment for adding tracking number.,Voimme \ 't alustaa lähetyksen seurannan lisäämiseen numeron.
+Cannot add tracking number.,Voi lisätä seurantanumeron.
+Tracking number successfully deleted from this shipment.,Seurantanumero onnistuneesti poistettu tästä siirrosta.
+We can\'t initialize shipment for delete tracking number.,Voimme \ 't alustaa lähetystä varten Delete seurantanumero.
+We can\'t delete tracking number.,Voimme \ 't poistaa seurantanumero.
+We can\'t load track with retrieving identifier right now.,Voimme \ 't kuormaa radan hakemalla tunnisteen juuri nyt.
+Quanity updated successfully.,Quanity päivitys onnistui.
+Low Stock,matala Stock
+Configuration Saved Successfully.,Configuration tallennettu.
+Seller's Products - Reviews,Myyjän Tuotteet - arvostelut
+Pending,odotettaessa
+Not Approved,Hylätty
+Seller's Account-Orders,Myyjän tilille-tilaukset
+Seller OrderView,myyjä OrderView
+You sent the order email.,Olet lähettänyt tilauksen sähköpostitse.
+We can\'t send the email order right now.,Voimme \ 't lähettää sähköpostiviestin tilaus juuri nyt.
+This order no longer exists.,Tämä tilaus ei enää ole.
+There are no shipping documents related to this order.,Ei ole olemassa merenkulun liittyviä dokumentteja tässä järjestyksessä.
+Print Order,Print Order
+There are no invoice documents related to this order.,Ei ole olemassa laskua liittyviä dokumentteja tässä järjestyksessä.
+Seller List,myyjä List
+Knowband,Knowband
+Marketplace,markkinat
+Email Template Updated successfully.,Sähköpostimallia Päivitetty onnistuneesti.
+Best Selling Products,Myydyin Tuotteet
+ Seller(s) Disabled Successfully,Myyjä (t) käytöstä poistaminen onnistui
+Invalid Request,Virheellinen pyyntö
+Status changed successfully,Tila vaihdettu
+Activated,aktivoitu
+Deactivated,deaktivoitu
+Cannot update,Ei voi päivittää
+Cannot load object,Ei voi ladata esinettä
+Seller Approved Successfully,Myyjä Hyväksytty Onnistuneesti
+Email Templates,Sähköposti Mallit
+Sellers Payout Request,Sellers Palautusprosentti Pyyntö
+Product Approval Request,Tuote Hyväksymispyyntö
+Technical error occurred while canceling vacation.,Tekninen tapahtui virhe peruuttamalla loma.
+Seller Reviews,myyjäarvostelua
+%s by %s,% S% s
+The requested seller's review detail not found.,Pyydetyt Myyjä katsaus yksityiskohtia ei löytynyt.
+Import/Export Feature Request List,Import / Export Feature Request List
+Settings saved successfully.,Asetukset tallennettu.
+Seller Account Approval Request,-Myyjätilin Hyväksymispyyntö
+Seller Vacation List,Myyjä Vacation List
+Transaction detail successfully saved.,Tapahtumatietoihin tallennettu.
+Some error occured. Please try again.,Jotkut virhe. Yritä uudelleen.
+Total of %d record(s) have been updated.,Yhteensä% d asiakirja (a) on päivitetty.
+ Seller(s) Disapproved Successfully,Myyjä (t) Hylätty Onnistuneesti
+Seller Product List,Myyjä Tuotelista
+Review has been approved successfully.,Tarkastelu on hyväksytty onnistuneesti.
+Technical Error Occured - Not able to update.,Tekninen virhe tapahtui - ei voi päivittää.
+Review has been disapproved successfully.,Tarkastelu on hylätty onnistuneesti.
+Seller review has been deleted.,Myyjä tarkastelu on poistettu.
+Technical error occurred while processing category request.,Tekninen käsiteltäessä tapahtui virhe luokka pyynnöstä.
+Seller account has not been approved yet. Please approve the seller account first.,Myyjä tiliä ei ole vielä hyväksytty. Hyväksy myyjän tilille ensimmäinen.
+ record(s) have been updated.,asiakirja (a) on päivitetty.
+Product has been approved successfully.,Tuote on hyväksytty onnistuneesti.
+ Seller(s) Approved Successfully,Myyjä (t) Hyväksytty Onnistuneesti
+Approval updated successfully,Hyväksyntä päivitys onnistui
+Seller Review Approval Request,Myyjäarvostelua Hyväksymispyyntö
+PayPal Payout settings has been saved successfully.,PayPal Palautusprosentti asetukset on tallennettu.
+Category Wise Commissions,Luokka Wise Palkkiot
+CRON Instructions,CRON Ohjeet
+Seller List with Import/Export Feature,Myyjä luettelo Import / Export Feature
+Product Reviews,Tuotearvostelut
+Seller Disapproved Successfully,Myyjä Hylätty Onnistuneesti
+Category Request List,Luokka Request List
+Commissions,Palkkiot
+Total of %d record(s) have been deleted.,Yhteensä% d ennätys (t) on poistettu.
+ Seller(s) Enabled Successfully,Myyjä (t) ottaminen onnistui
+Sellers Payout,Sellers Palautusprosentti
+"Some of the products are not enabled, because either these products or their sellers are not approved/disabled.","Osa tuotteista eivät ole käytössä, koska joko näihin tuotteisiin tai niiden myyjät eivät ole hyväksytty / pois käytöstä."
+Some of the processed products have no SKU value defined. Please fill it prior to performing operations on these products.,Jotkut jalostettujen tuotteiden ole SKU arvoa määritelty. Täytä se ennen toimintojen suorittamista näistä tuotteista.
+Payout request status has been updated successfully.,Palautusprosentti pyyntö tila on päivitetty onnistuneesti.
+Invalid Request.,Virheellinen pyyntö.
+Seller Wise Commissions,Myyjä Wise Palkkiot
+Seller Dashboard,myyjä Dashboard
+Your request has been sent. Please wait for store response.,Pyyntösi on lähetetty. Odota myymälän vastausta.
+Cannot send request,Pyyntöä ei voi lähettää
+Product Import/Export,Tuonti / vienti
+Seller Profile,Myyjäprofiili
+Seller Profile saved successfully.,Myyjän profiili tallennettu.
+Not Available,Ei saatavilla
+Your payout request has been submitted successfully.,Maksusuorituksen pyyntö on lähetetty.
+Please configure payout method in the seller profile menu.,Määritä kotiutusmetodin myyjän profiilin valikosta.
+Seller's Account - Payout Requests,Myyjän tilille - Palautusprosentti pyynnöt
+Error Occured,Tapahtui virhe
+Thank you for rating the Seller.,"Kiitos, rating Myyjä."
+Posting review for this seller is not allowed.,Lähettämistä arvostelu tämän myyjän ei ole sallittua.
+Seller Account - My Reviews,Myyjä Tili - Arvosteluni
+"You can't register yourself as seller because your registration request limit has been over. To register, please contact to support.","Et voi rekisteröidä itsesi myyjä koska rekisteröintipyyntö raja on ollut yli. Rekisteröityä, ota yhteyttä tukemiseen."
+Seller's Account - Earnings,Myyjän tilille - Tulos
+Seller's Account - Transactions History,Myyjän tilille - siirtohistoria
+File Path is Missing,Tiedostopolku is Missing
+Unknown file,tuntematon tiedosto
+General worksheet is missing.,Yleinen työlista puuttuu.
+Column title row is missing from general worksheet.,Otsikkoa rivi puuttuu yleinen laskentataulukon.
+Column '%s' is missing from general worksheet.,Sarake '% s' puuttuu yleinen laskentataulukon.
+File is empty.,Tiedosto on tyhjä.
+Error in processing '%s' sku before deleting.,Virhe käsittely% s SKU ennen poistamista.
+Listed products are not deleted:,Luetellut tuotteet eivät häviä:
+"Upload your file and try again. To speed up delete process, please remove all products that has been deleted.","Lataa tiedosto ja yritä uudelleen. Nopeuttaa delete prosessia, poista kaikki tuotteet, on poistettu."
+Your products has been deleted. System will redirect you on product list automatically in 5 secs.,Tuotteesi on poistettu. Järjestelmä ohjaa sinut tuotelista automaattisesti 5 sekuntia.
+Import action is Missing,Tuonti toiminta on kateissa
+Meta Information worksheet is missing,Meta Tiedot työlista puuttuu
+File must not exceed ,Tiedostoa ei saa ylittää
+This sku does not exist,Tämä SKU ei ole olemassa
+Product of this SKU is not yours.,Tuotteiden ja tämän SKU ei ole sinun.
+This row has error,Tämä rivi on virhe
+Meta Information Sheet is Missing,Meta tietosivun on kateissa
+Error in processing data of '%s' sku.,Virhe tietojen käsittely '% s' SKU.
+Listed products are not saved:,Luetellut tuotteet eivät tallennu:
+"Upload your file and try again. To speed up process, please remove all other product data that has been saved successfully.","Lataa tiedosto ja yritä uudelleen. Nopeuttamaan prosessia, poista kaikki muut tuotteen tiedot, jotka on tallennettu."
+Your products has been uploaded. System will redirect you on product list automatically in 5 secs.,Tuotteesi on ladattu. Järjestelmä ohjaa sinut tuotelista automaattisesti 5 sekuntia.
+Error while processing rows in uploaded file.,Virhe käsiteltäessä riviä lisätty tiedosto.
+Error: %s,Virhe:% s
+Product Type is missing from Meta Sheet Worksheet,Tuotteen tyyppi puuttuu Meta Sheet Worksheet
+Product Type is invalid in Meta Sheet Worksheet,Tuote ei kelpaa Meta Sheet Työarkin
+Attribute set id is missing from Meta Sheet Worksheet,Määrite id puuttuu Meta Sheet Worksheet
+Attribute set id is not valid in Meta Sheet Worksheet,Attribuuttisarja id ei kelpaa Meta Sheet Työarkin
+This SKU is already used by other product of you or other seller.,Tämä SKU käyttää jo muiden tuotteiden teistä tai muita myyjä.
+This SKU is used by other seller or store.,Tämä SKU käyttää muiden myyjän tai myymälässä.
+This value is required,Tämä arvo on pakollinen
+Invalid Value. Only date format value is accepted.,Kelpaamaton arvo. Vain päivämäärän muoto arvo hyväksytään.
+Invalid Value. Only Price type value accepted,Kelpaamaton arvo. Vain Hintatyyppi arvo hyväksytään
+Invalid Value. Only positive number type value accepted,Kelpaamaton arvo. Ainoa myönteinen numeron tyyppi arvo hyväksytään
+Out of range value. Please see possible value for this field.,Alueen ulkopuoliset arvot. Katso mahdollinen arvo tällä alalla.
+Some of the values are not exist.,Joitakin arvoja ei ole.
+Your request has been sent to the admin for approval.,Pyyntösi on lähetetty admin hyväksyttäväksi.
+Seller's Account - Request a New Category,Myyjän tilille - Pyydä uusi luokka
+Attribute set is missing,Attribuuttisarja puuttuu
+Attribute set cannot load,Attribuuttisarja ei voi ladata
+1. This worksheet is required and must be included in your import file,1. Tätä lomaketta vaaditaan ja on sisällytettävä oman tuontitiedostossa
+2. Do not change worksheet name as well as its content.,2. Älä muuta työarkin nimi sekä sen sisältöä.
+3. Any change in this worksheet format will not allow system to import your data into system.,3. Kaikki muutokset tämän taulukon muotoiluja ei salli järjestelmän tuot tietosi järjestelmään.
+4. We recommend you to copy this worksheet in your import file with same worksheet name.,4. Suosittelemme kopioimaan työkirja oman tuonti tiedosto samaan laskentataulukkoon nimi.
+1. This worksheet contains possible values of some field.,1. Tätä lomaketta sisältää mahdolliset arvot jonkin alan.
+2. Please fill the related fields only from these possible values.,2. Täytä liittyvillä aloilla ainoa näistä mahdollisista arvoista.
+3. If possible values for any field are not given then you can fill it with any text value.,3. Jos mahdolliset arvot tahansa alalla ei anneta niin voit täyttää sen kanssa mitään tekstiä arvoa.
+Seller's Products,Myyjän Tuotteet
+The product has been saved.,Tuote on tallennettu.
+This window will be closed automatically within %s secs.,Tämä ikkuna sulkeutuu automaattisesti kuluessa% s sekuntia.
+Product has been saved successfully.,Tuote on tallennettu.
+The product has been duplicated successfully.,Tuote on kahdennettu onnistuneesti.
+Product has been created successfully.,Tuote on luotu.
+Please wait for admin approval.,Odota järjestelmänvalvojan hyväksyntää.
+"Adding of new product limit has been over as your account is not approved or waiting for approval. To add more products, your account needs to be approved.","Lisäämällä uusien tuotteiden raja on ollut yli tilisi ei ole hyväksytty tai jonossa. Lisätä enemmän tuotteita, tilisi on hyväksyttävä."
+You duplicated the product.,Te kahdennettu tuote.
+Seller's Product,Myyjän Tuote
+This SKU already exist.,Tämä SKU jo olemassa.
+Cancel Vacation,Peruuta Vacation
+Add New Vacation,Lisää uusi lomakohde
+Vacation Halted,loma Keskeytetty
+Created Date,Luontipäiväys
+This vacation is already canceled,Tämä loma on jo peruutettu
+Visibility,näkyvyys
+click to edit product,muokkaa napsauttamalla tuotetta
+click to update quantity,click to update määrään
+Update Quantity,päivitys Määrä
+Order No.,Tilausnumero.
+From Date,Päivämäärästä
+To Date,Tähän mennessä
+click to print order,klikkaa tulostaa järjestyksessä
+Shipping & Handling,toimitus & käsittely
+Discount (%1),Alennus (% 1)
+Discount,Alennus
+Grand Total,Loppusumma
+Grand Total to be Charged,Loppusumma veloitetaan
+Custom Value,Custom Arvo
+Order # %1,Tilaus #% 1
+Comment History,kommentti History
+Shipment History,Lähetyksen History
+Credit Memo History,Luottomuistio History
+Subtotal (Excl.Tax),Yhteensä (Excl.Tax)
+Subtotal (Incl.Tax),Yhteensä (Incl.Tax)
+Shipping & Handling (Excl.Tax),Kuljetuskustannukset (Excl.Tax)
+Shipping & Handling (Incl.Tax),Kuljetuskustannukset (Incl.Tax)
+Grand Total (Excl.Tax),Loppusumma (Excl.Tax)
+Grand Total (Incl.Tax),Loppusumma (Incl.Tax)
+Email,Sähköposti
+Shipping Charges,Toimituskulut
+Track this shipment,Seuraa tätä lähetystä
+Track Order,Seuraa tilausta
+Shipping Method,toimitustapa
+Shipping not Required,Merenkulku ei tarvita
+Payment Method,Maksutapa
+Grand Total (Excl. Shipping),Loppusumma (sis. Toimituskulut)
+Discount (%s),Alennus (% s)
+Total Refunded,Yhteensä Hyvitetty
+Total Due,Kokonaishinta
+Shipping & Handling (Excl. Tax),Toimitus ja käsittely (pl. Tax)
+Shipping & Handling (Incl. Tax),Kuljetuskustannukset (sis. Alv)
+Print Order # %1,Print Order #% 1
+Minimum %d character requried,Vähintään% d merkki vaaditut
+Save Template,Tallenna malli
+Show Report,Näytä raportti
+Manage Seller Account,Hallitse Myyjätili
+Add Subcategory,Lisää alaluokka
+Add Root Category,Lisää Root luokka
+Save Settings,Tallenna asetukset
+Seller Payout Request,Myyjä Palautusprosentti Pyyntö
+ID,ID
+Transation Date,Transation Date
+Telephone,Puhelin
+Commission (in %),Komissiossa (%)
+Your Earnings,Tulosi
+Category wise Commissions,Luokka viisas Palkkiot
+Total Commission,Yhteensä komissio
+Transaction History,Tapahtumahistoria
+Seller wise Commissions,Myyjä viisasta Palkkiot
+Seller Earning,myyjä tuottava
+Amount Transfer,määrän siirtäminen
+Transaction Action,Transaction Toiminta
+Sellers Payout (,Sellers Palautusprosentti (
+Seller Order List,Myyjä Tilauslistan
+Purchased From (Store),Alkaen (Store)
+Purchased On,ostettu
+Actions,Toimet
+Template Description,Mallin kuvaus
+Template Type,mallityyppi
+Date Added,lisäyspäivämäärä
+Date Updated,Päivityksen päivämäärä
+Seller Best Selling Product List,Myyjä Myydyin tuotelistaan
+Interval,intervalli
+Order Quantity,tilausmäärä
+Product Price,tuotteen hinta
+Seller Account Approval Request List,Myyjä tilihyväksyntään Request List
+Approved Status,hyväksytty tila
+Added Date,lisätty päivämäärä
+Approve,Hyväksyä
+Account Status,Tilin tila
+Seller Status,myyjä tila
+Seller Since,myyjä Koska
+Posted On,Lähetetty
+Request Date,pyynnön päivämäärä
+Vacation Active,loma Aktiivinen
+Seller Review Approval List,Myyjäarvostelua hyväksyminen List
+Seller Approval List,Myyjä hyväksyminen List
+Seller Product Reviews,Myyjä Tuotearvostelut
+Created On,Luotu
+Nickname,Nimimerkki
+Visible In,Näkyy
+Type,Tyyppi
+Product SKU,tuotteen SKU
+Edit,Muokata
+Seller Category Request List,Myyjä Luokka Request List
+Seller Email,myyjä Sähköposti
+View,näkymä
+Disapprove,hylkää
+Make New,Tee uusi
+Edit Template,Muokkaa mallia
+Products,Tuotteet
+Administrator,Järjestelmänvalvoja
+Guest,vieras
+Seller Bulkimport Feature List,Myyjä Bulkimport Ominaisuusluettelo
+Last Update,Viimeisin päivitys
+Feature Status,ominaisuus tila
+Seller Bulkimport Feature Request List,Myyjä Bulkimport Feature Request List
+Seller Comment,myyjä Kommentti
+Your Comment,Kommenttisi
+Request Status,pyynnön tila
+Activate Feature,Aktivoi Ominaisuus
+Read More,Lue lisää
+click to view review,klikkaa nähdäksesi tarkastelun
+Posted on: %s by %s,Lähetetty:% s% s
+Home,Koti
+Home Page,kotisivu
+click to view product,klikkaa nähdäksesi tuote
+Your seller account is currently under process and not yet approved. You only have a limited access to the seller account currently.,Teidän -myyjätilin parhaillaan joka ei vielä ole hyväksytty. Sinulla on vain rajoitettu pääsy myyjän tilille hetkellä.
+Your seller account has been disapproved. You only have a limited access to the seller account currently. To send request again ,Oman myyjä tilisi on hylätty. Sinulla on vain rajoitettu pääsy myyjän tilille hetkellä. Lähettää pyynnön uudelleen
+Click Here,Klikkaa tästä
+Product Catalog,Tuotekuvasto
+Product Feedback,Tuotepalaute
+Earnings,tulot
+Transactions,liiketoimet
+New Category Request,Uusi luokka Pyyntö
+My Vacations,Lomani
+Requested Date,Pyydetty päivämäärä
+Request On,pyynnön
+Date,Treffi
+Transaction Date,Tilauspäivämäärä
+Amount of %s debited from your earning on %s,Määrä% s veloitettu ansaita% s
+Amount of %s credited into your account on %s,Määrä% s tilitetään pelitilillesi% s
+Report Format,raporttiformaatin
+Your file is valid. Please click 'Delete Products' button to delete your products,"Tiedosto on voimassa. Ole hyvä ja valitse Poista Tuotteet ""-painiketta poistaa tuotteita"
+Your file is valid. Please click 'Import Products' button to upload your products,Tiedosto on voimassa. Klikkaa 'Tuo tuotteet' -painiketta ladata tuotteita
+Delete Products,Poista Tuotteet
+"Adding of new product limit has been over as your account is not approved or waiting for approval. To add more products, your account need to be approved.","Lisäämällä uusien tuotteiden raja on ollut yli tilisi ei ole hyväksytty tai jonossa. Lisätä enemmän tuotteita, tilisi on hyväksyttävä."
+Use Default Value,Käytä Oletusarvo
+Seller Account,-myyjätilin
+General Settings,Yleiset asetukset
+Seller List,myyjä List
+Seller Account Approval Request,-Myyjätilin Hyväksymispyyntö
+Seller Product List,Myyjä Tuotelista
+Product Approval Request,Tuote Hyväksymispyyntö
+Product Reviews,Tuotearvostelut
+Seller Reviews,myyjäarvostelua
+Seller Review Approval Request,Myyjäarvostelua Hyväksymispyyntö
+Category Request List,Luokka Request List
+Seller Vacation List,Myyjä Vacation List
+Reports - Best Selling Products,Raportit - Myydyin Tuotteet
+Email Templates,Sähköposti Mallit
+CRON Instructions,CRON Ohjeet
+Bulk Import/Export,Bulk Import / Export
+Seller With Feature,Myyjä Feature
+Feature Activation Request,Ominaisuus Aktivointipyyntö
+Transactions and Earnings,Liiketoimet ja tulos
+Commissions,Palkkiot
+Category Wise Commissions,Luokka Wise Palkkiot
+Seller Wise Commissions,Myyjä Wise Palkkiot
+Sellers Payout List,Sellers Palautusprosentti List
+Sellers Payout Request,Sellers Palautusprosentti Pyyntö
+PayPal Payout Settings,PayPal Palautusprosentti Asetukset
+Best Selling Products,Myydyin Tuotteet
+Seller with Import/Export Feature,Myyjän kanssa Import / Export Feature
+Import/Export Feature Activation Request List,Import / Export Feature Aktivointi Request List
+Category Wise Commission,Luokka Wise komissio
+Category Request List,Luokka Request List
+Edit Email Template,Edit Sähköpostimalli
+Email Templates,Sähköposti Mallit
+Seller Order List,Myyjä Tilauslistan
+PayPal Payout Settings,PayPal Palautusprosentti Asetukset
+Product Approval Request,Tuote Hyväksymispyyntö
+All Seller's Products - Reviews,Kaikki Myyjän Tuotteet - arvostelut
+Seller Account Approval Request,-Myyjätilin Hyväksymispyyntö
+Seller Wise Commission,Myyjä Wise komissio
+Seller List,myyjä List
+Seller Product List,Myyjä Tuotelista
+Seller Review Approval Request,Myyjäarvostelua Hyväksymispyyntö
+All Seller's Reviews,Kaikki Myyjän arvostelut
+Seller Vacation List,Myyjä Vacation List
+Commissions,Palkkiot
+Sellers Payout,Sellers Palautusprosentti
+Sellers Payout Request,Sellers Palautusprosentti Pyyntö
+View Sellers,Näytä Sellers
+Start date or end date can not be same,Aloita tai lopetuspäivä ei voi olla sama

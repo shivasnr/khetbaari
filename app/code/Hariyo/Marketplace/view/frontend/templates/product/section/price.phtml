@@ -1,0 +1,91 @@
+<?php $product = $this->getProduct(); ?>
+<div class="collapsed-box box">
+    <div class="box-header with-border" data-widget="collapse">
+        <h3 class="box-title"><?php echo __("Prices"); ?></h3>
+        <div class="box-tools pull-right tab-error-highlighter text-red">
+            <i class="fa fa-warning"></i>
+        </div>
+        <div class="box-tools pull-right">
+          <button type="button" class="btn btn-box-tool" ><i class="fa fa-plus"></i></button>
+        </div>
+    </div>
+    <div class="box-body">
+        <?php $field = $this->getFieldDetail($this->getFieldKey('price')); ?>
+        <?php if($field['is_visible']){ ?>
+            <div class="form-group col-xs-12 col-sm-6 col-lg-6">
+                <label><?php echo $field['label']; ?><?php if($field['is_required']){ ?><sup><em>*</em></sup><?php } ?></label>
+
+                <?php echo $this->renderFieldHtml($field); ?>
+            </div>
+        <?php } ?>
+
+        <?php $field = $this->getFieldDetail($this->getFieldKey('special_price')); ?>
+        <?php if($field['is_visible']){ ?>
+            <div class="form-group col-xs-12 col-sm-6 col-lg-6">
+                <label><?php echo $field['label']; ?><?php if($field['is_required']){ ?><sup><em>*</em></sup><?php } ?></label>
+
+                <?php echo $this->renderFieldHtml($field); ?>
+            </div>
+        <?php } ?>
+
+        <?php $field = $this->getFieldDetail($this->getFieldKey('special_from_date')); ?>
+        <?php if($field['is_visible']){ ?>
+            <div class="form-group col-xs-12 col-sm-6 col-lg-6">
+                <label><?php echo $field['label']; ?><?php if($field['is_required']){ ?><sup><em>*</em></sup><?php } ?></label>
+
+                <?php echo $this->renderFieldHtml($field); ?>
+            </div>
+        <?php } ?>
+
+        <?php $field = $this->getFieldDetail($this->getFieldKey('special_to_date')); ?>
+        <?php if($field['is_visible']){ ?>
+            <div class="form-group col-xs-12 col-sm-6 col-lg-6">
+                <label><?php echo $field['label']; ?><?php if($field['is_required']){ ?><sup><em>*</em></sup><?php } ?></label>
+
+                <?php echo $this->renderFieldHtml($field); ?>
+            </div>
+        <?php } ?>
+
+        <?php $field = $this->getFieldDetail($this->getFieldKey('gift_wrapping_available')); ?>
+        <?php if($field['is_visible']){ ?>
+            <div class="form-group col-xs-12 col-sm-6 col-lg-6">
+                <label><?php echo $field['label']; ?><?php if($field['is_required']){ ?><sup><em>*</em></sup><?php } ?></label>
+
+                <?php echo $this->renderFieldHtml($field); ?>
+            </div>
+        <?php } ?>
+
+        <?php $field = $this->getFieldDetail($this->getFieldKey('gift_wrapping_price')); ?>
+        <?php if($field['is_visible']){ ?>
+            <div class="form-group col-xs-12 col-sm-6 col-lg-6">
+                <label><?php echo $field['label']; ?><?php if($field['is_required']){ ?><sup><em>*</em></sup><?php } ?></label>
+
+                <?php echo $this->renderFieldHtml($field); ?>
+            </div>
+        <?php } ?>
+
+        <?php if($product->getTypeId() == \Magento\Catalog\Model\Product\Type::TYPE_VIRTUAL || $product->getTypeId() == 'downloadable'){?>
+            <?php $field = $this->getFieldDetail($this->getFieldKey('cost')); ?>
+            <?php if($field['is_visible']){ ?>
+                <div class="form-group col-xs-12 col-sm-6 col-lg-6">
+                    <label><?php echo $field['label']; ?><?php if($field['is_required']){ ?><sup><em>*</em></sup><?php } ?></label>
+
+                    <?php echo $this->renderFieldHtml($field); ?>
+                </div>
+            <?php } ?>
+        <?php } ?>
+        
+        <?php if($product->getTypeId() == \Magento\Catalog\Model\Product\Type::TYPE_BUNDLE){?>
+            <?php $field = $this->getFieldDetail($this->getFieldKey('price_view')); ?>
+            <?php if($field['is_visible']){ ?>
+                <div class="form-group col-xs-12 col-sm-6 col-lg-6">
+                    <label><?php echo $field['label']; ?><?php if($field['is_required']){ ?><sup><em>*</em></sup><?php } ?></label>
+
+                    <?php echo $this->renderFieldHtml($field); ?>
+                </div>
+            <?php } ?>
+        <?php } ?>
+
+        <?php echo $this->getChildHtml('', true, true); ?>
+    </div>
+</div>
