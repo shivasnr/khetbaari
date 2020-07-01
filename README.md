@@ -1,4 +1,4 @@
 # khetbaari
-Khetbaari 
+Khetbaari
 Clone the project and Run
-composer update
+<code> composer update </code>
